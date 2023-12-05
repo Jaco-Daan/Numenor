@@ -1,0 +1,5 @@
+﻿bellakar_hates_numenor = {
+	opinion = -100
+	years = 50
+	decaying = yes
+}

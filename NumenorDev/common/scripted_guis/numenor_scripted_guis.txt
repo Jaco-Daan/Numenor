@@ -1,0 +1,39 @@
+numenor_council_of_the_sceptre_hud = {
+	is_valid = {
+		has_title = title:e_numenor
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:disband_numenor_council
+			}
+		}
+	}
+}
+
+numenor_council_left_side = {
+	is_valid = {
+		OR = {
+			has_title = title:d_nindamos
+			has_title = title:d_hyarnudore
+			has_title = title:d_sorontil
+			has_title = title:d_formenore
+		}
+		NOR = {
+			has_title = title:d_andunie
+			has_title = title:d_nisimaldar
+			has_title = title:d_nunduine
+			has_title = title:d_ciryanore
+		}
+	}
+}
+
+numenor_council_right_side = {
+	is_valid = {
+		OR = {
+			has_title = title:d_andunie
+			has_title = title:d_nisimaldar
+			has_title = title:d_nunduine
+			has_title = title:d_ciryanore
+		}
+	}
+}

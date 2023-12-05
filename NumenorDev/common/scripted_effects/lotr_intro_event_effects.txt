@@ -1,0 +1,886 @@
+﻿### Intro Events and Chain Initialisation on Game Start for Key Characters ###
+
+fire_intro_events = {
+
+	# Saruman looks into the palantír.
+	character:lineofsaruman = {
+    	trigger_event = { #### starting race setup
+			id = race.0001
+			days = 2
+		}
+		# LotR: set Saruman to Istari culture on game start to remove random Istari characters in his court.
+		set_global_variable = {
+			name = saruman
+			value = this
+		}
+		set_culture = culture:istari
+		set_immortal_age = 60
+		add_character_flag = {
+			flag = had_nickname_event
+			flag = immune_to_disease
+			years = 3500
+		}
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = {
+				id = isengard.0101
+				days = 1
+			}
+			# trigger_event = {
+			# 	id = saruman.0001
+			# 	days = { 2 200 }
+			# }
+			# trigger_event = { #this event is triggered through event-decision chain already
+			# 	id = saruman.0045
+			# 	days = { 6205 6570 } # 17 to 18 years
+			# }
+		}
+	}
+
+	#Radagast becomes Istari
+	character:lineofradagast = {
+		set_culture = culture:istari
+		every_courtier = {
+			limit = { 
+				culture = culture:istari
+				NOT = { has_trait = istari }
+			}
+			set_culture = culture:woodmen
+		}
+	}
+
+	### Sauron events
+	character:lineofsauron = {
+		set_global_variable = {
+			name = sauron
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = sauron.0510
+				days = 3
+			}
+		}
+		trigger_event = sauron.0501
+		add_dread = 100 
+	}
+	
+	# Nazgul Introductions
+	character:nazgul2 = { # Khamul
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			hidden_effect = {
+				add_truce_both_ways = { 
+					character = character:lineoforopher3
+					years = 15
+					name = TRUCE_GONDOR_MORDOR
+				}
+			}
+			hidden_effect = {
+				add_truce_both_ways = { 
+					character = character:linefinwe36
+					years = 15
+					name = TRUCE_GONDOR_MORDOR
+				}
+			}
+			trigger_event = {
+				id = nazgul.0050
+				days = 1
+			}
+			trigger_event = {
+				id = nazgul.0051
+				years = 15
+			}
+		}
+	}
+	
+	# Theoden intro event
+	character:6000017 = {
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			hidden_effect = {
+				add_truce_both_ways = { 
+					character = character:lineofsaruman
+					years = 10
+					name = TRUCE_GONDOR_MORDOR
+				}
+			}
+			trigger_event = {
+				id = rohan.0001
+				days = 1
+			}
+		}
+	}
+
+	# Eomund / Eomer and Eowyn events
+	character:6000033 = {
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = {
+				id = rohan.1200
+				days = 730
+			}
+		}
+	}
+	
+	# Denethor / Stewards of Gondor Introduction
+	character:linesteward38 = { # Denethor II
+		set_global_variable = {
+			name = denethor
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = gondor.0100
+				days = 1
+			}
+		}
+	}
+
+	# Rhun Starting Army
+	character:lineofzhamian3 = { # Loke-Kan Zhamik
+		set_global_variable = {
+			name = zhamik
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			spawn_army = {		 
+				uses_supply = no
+				inheritable = yes
+				name = Loke_Rim_Host
+				levies = 2000
+				men_at_arms = {
+					type = easterling_swordsmen
+					stacks = 5
+				}
+				men_at_arms = {
+					type = easterling_pikemen
+					stacks = 5
+				}
+				men_at_arms = {
+					type = loke_innas_rim
+					stacks = 4
+				}
+				men_at_arms = {
+					type = easterling_kataphrakt
+					stacks = 5
+				}
+				location = capital_province
+			}
+		}
+	}
+
+	character:lineofhuz190 = { # Huz-Margoz
+		trigger_event = { 
+				id = rhun.0012
+				days = 1
+			}
+	}	
+	
+	#########################################
+	### Arnor and Enedwaith Introductions ###
+	#########################################
+	
+	#Aragorn's Introduction Event
+	character:lineisildur42 = {
+		set_global_variable = {
+			name = aragorn
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = { 
+				id = rangers.0100
+				days = 1
+			}
+		}
+	}
+	
+	#Death of Gilraen
+	character:lineisildur42 = {
+		set_global_variable = {
+			name = aragorn
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = rangers.0200
+				days = { 2 518 }
+			}
+		}
+	}
+	
+	# Aragorn's Return of the King event
+	character:lineisildur42 = {
+		set_global_variable = {
+			name = aragorn
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = gondor.0500
+				days = 6935
+			}
+		}
+	}
+	
+	# Elegost's introduction event
+	character:linehalbarad10 = {
+		set_global_variable = {
+			name = elegost
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = dunedain.0100
+				days = 5
+			}
+		}
+	}
+	
+	# Saralain introduction event
+	character:lineofmorcad13 = {
+		set_global_variable = {
+			name = elegost
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = enedwaith.0100
+				days = 5
+			}
+		}
+	}
+	
+	# Andrast Introduction Events
+	
+	character:lineohtarion8 = {
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = { 
+				id = gondor.0600
+				days = 1
+			}
+		}
+	}
+	character:lineeruholion11 = {
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = { 
+				id = gondor.0601
+				days = 1
+			}
+		}
+	}
+
+	# Harad/Umbar Introductions
+	character:lineofkhadnom5 = { # Kalafar of Chelkar
+			set_global_variable = {
+			name = kalafar
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = harad.0100
+				days = 1
+			}
+		}
+	}
+	
+	character:lineofafalku15 = { # Suladan of Haruzan
+			set_global_variable = {
+			name = suladan
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = harad.0200
+				days = 1
+			}
+		}
+	}
+	
+	character:lineofafalku37 = { # Balkuthor, Claimant to Pezarsan
+			set_global_variable = {
+			name = balkuthor
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = harad.0201
+				days = 1
+			}
+		}
+	}
+	
+	character:lineofarzagarnom7 = { # Dasin II, Reigning King in Pezarsan
+			set_global_variable = {
+			name = dasim
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = harad.0300
+				days = 1
+			}
+		}
+	}
+	
+	character:lineofezarkia18 = { # Ruadômirh, Chieftain of Koânoz
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = {
+				id = harad.0400
+				days = 1
+			}
+		}
+	}
+	
+	character:linepharazon2  = { # Gimilkhad, Lord of the Ar-Adunaim
+			set_global_variable = {
+			name = gimilkhad
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = umbar.0100
+				days = 1
+			}
+		}
+	}
+	
+	character:lineofcassimir22 = { # Kathuphazgan, heir to Castamir and Black Lord of Umbar
+			set_global_variable = {
+			name = kathuphazgan
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = umbar.0200
+				days = 1
+			}
+		}
+	}
+	
+	# The Golden King
+	character:goldenking1 = {
+		set_global_variable = {
+			name = goldenking
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = abrakhan.1001
+				days = 1
+			}
+			set_culture = culture:ringwraith
+		}
+	}
+
+	# Aglarin of Narik-Zadan
+	character:lineofbelphegor3 = {
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = mardruak.0100
+				days = 1
+			}
+		}
+	}	
+
+	###########################################
+	### Númenor submod introductory events  ###
+	###########################################
+	
+		#effect to remove claim from khorahil
+	character:nazgul5 = {
+		set_global_variable = {
+			name = khorahil
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = { 
+				id = khorahilfix.0001
+				days = 1
+			}
+		}
+	}
+
+	#effect to remove claim from witch king
+	character:nazgul1 = {
+		set_global_variable = {
+			name = murazor
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = { 
+				id = murazorfix.0001
+				days = 1
+			}
+		}
+	}
+
+	#Ar-Balkazir's Introduction Event
+	character:lineofelros114 = {
+		set_global_variable = {
+			name = balkazir
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = { 
+				id = numenor.0003
+				days = 1
+			}
+		}
+	}
+	
+	#Ciryandur's Introduction Event
+	character:dolamroth43 = {
+		set_global_variable = {
+			name = ciryandur
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = { 
+				id = numenor.0200
+				days = 1
+			}
+		}
+	}
+	
+	#Eldarion's Introduction Event
+	character:lineofelatan43 = {
+		set_global_variable = {
+			name = eldarion
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = { 
+				id = numenor.0230
+				days = 1
+			}
+		}
+	}
+	
+	#Zorzagar's Introduction Event
+	character:lineofvardur26 = {
+		set_global_variable = {
+			name = zorzagar
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = { 
+				id = numenor.0240
+				days = 1
+			}
+		}
+	}
+	
+	#Niluben's Introduction Event
+	character:lineofciryandur34 = {
+		set_global_variable = {
+			name = niluben
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = { 
+				id = numenor.0250
+				days = 1
+			}
+		}
+	}
+
+	#Gimilzagar's introduction event
+	character:lineofciryamir30 = {
+		set_global_variable = {
+			name = gimilzagar
+			value = this
+		}
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = { 
+				id = numenor.0260
+				days = 1
+			}
+		}
+	}
+	
+	############################################
+	### Bellakar and Far Harad Introductions ###
+	############################################
+	
+	character:lineofthezij42 = { # Ayal, Lord of the Tedjin Confederacy
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = tedjin.0100
+				days = 1
+			}
+		}
+	}
+	
+	character:lineoftumakveh82  = { # Nîlûhîn II, High-King of Bellakar
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = bellakar.0100
+				days = 1
+			}
+		}
+	}
+	
+	character:lineofanballukkhorohin31 = { # Balâkhân, King of An-Balkumagan
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = anbalkumagan.0100
+				days = 1
+			}
+		}
+	}
+	character:lineofdulgu44 = { # Arnakhôr, Marshall of the Storm-Host
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = anbalkumagan.0200
+				days = 1
+			}
+		}
+	}
+	
+	character:solardynasty24 = { # Vâtalinar of Ray
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = ray.0100
+				days = 1
+			}
+		}
+	}
+
+	
+	############################################
+	### Anduin Vale Introductions ###
+	############################################
+	
+	character:lineofbeorn2 = { # Grimbeorn
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = anduin_vale.0100
+				days = 1
+			}
+		}
+	}
+
+	character:linefram33 = { # Erwigiar Framling
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = anduin_vale.0103
+				days = 1
+			}
+		}
+	}
+
+	character:lineofmelburg4aa = { # Melbergi
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = anduin_vale.0104
+				days = 1
+			}
+		}
+	}
+	
+	character:lineofherimundi5a = { # Herimundi
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = anduin_vale.0105
+				days = 1
+			}
+		}
+	}
+
+	############################################
+	### Woodmen Introductions ###
+	############################################
+
+	character:lineofgudamar4 = { # Gudamari
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = woodmen.0100
+				days = 1
+			}
+		}
+	}
+
+	character:lineofsairthiuda3 = { # Sairthidua
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = woodmen.0101
+				days = 1
+			}
+		}
+	}
+
+	character:lineoffadiring1 = { # Fadirings
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = woodmen.0102
+				days = 1
+			}
+		}
+	}
+	
+	character:lineofmeroaging1 = { # Meroagings
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = woodmen.0103
+				days = 1
+			}
+		}
+	}
+
+	character:lineofwaldan4b = { # Waldandings
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = woodmen.0104
+				days = 1
+			}
+		}
+	}
+	
+	character:lineofcorsech3 = { # Corsechings
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = woodmen.0105
+				days = 1
+			}
+		}
+	}
+
+	############################################
+	########## Rhovanion Introductions #########
+	############################################
+	
+	character:lineofdale48 = { # Bain
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = dale.0100
+				days = 1
+			}
+		}
+	}
+	
+	############################
+	### Elven Introductions	 ###
+	############################
+	
+	character:linefinwe36 = { # Galadriel
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = elven.0100
+				days = 1
+			}
+		}
+	}
+	
+	character:lineoforopher3 = { # Thranduil
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = elven.0200
+				days = 1
+			}
+		}
+	}
+	
+	character:linefinwe27 = { # Elrond
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = elven.300
+				days = 1
+			}
+		}
+	}
+	
+	character:lineofcirdan = { # Cirdan
+		if = {
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			trigger_event = { 
+				id = elven.0400 
+				days = 1
+			}
+		}
+	}
+}

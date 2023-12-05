@@ -1,0 +1,118 @@
+﻿namespace = race
+
+# Maintenance event for various races, converting culture, adding traits, etc.
+#	race.0001	conversion for chaplains
+
+scripted_trigger not_nazgul = {
+	culture = culture:ringwraith
+	NOT = { has_trait = nazgul }
+}
+
+scripted_trigger not_istari = {
+	culture = culture:istari
+	NOT = { has_trait = istari }
+}
+
+scripted_trigger not_istari_evil = {
+	culture = culture:istari_evil
+	NOT = { has_trait = istari }
+}
+
+scripted_trigger not_maiar = {
+	culture = culture:maiar
+	NOT = { has_trait = maiar }
+}
+
+scripted_trigger not_maiar_fallen = {
+	culture = culture:maiar_fallen
+	NOT = { has_trait = maiar }
+}
+
+scripted_trigger not_valar = {
+	culture = culture:valar
+	NOT = { has_trait = valar }
+}
+
+race.0001 = {
+	hidden = yes
+
+	trigger = {
+		is_from_ruler_designer = no
+		OR = {
+			not_valar = yes
+			not_nazgul = yes
+			not_istari = yes
+			not_istari_evil = yes
+			not_maiar = yes
+			not_maiar_fallen = yes
+		}
+	}
+
+
+	immediate = {
+		# Numenor: Adds blood of numenor 
+		if = {
+			limit = { culture = culture:adunaic }
+			add_trait = blood_of_numenor_4
+		}
+		#if = {
+		#	limit = {
+		#		not_valar = yes
+		#	}
+		#	death = natural
+		#}
+		if = {
+			limit = {
+				not_nazgul = yes
+			}
+			set_culture = culture:ungurhai
+		}
+		else_if = {
+			limit = {
+				not_istari = yes
+			}
+			if = {
+				limit = { is_landed = yes }
+				set_culture = root.capital_province.culture
+				set_character_faith = root.capital_province.faith
+			}
+		}
+		else_if = {
+			limit = {
+				not_istari_evil = yes
+			}
+			set_culture = culture:isengard_urukhai
+		}
+		else_if = {
+			limit = {
+				not_maiar = yes
+			}
+			if = {
+				limit = { is_landed = yes }
+				set_culture = root.capital_province.culture
+				set_character_faith = root.capital_province.faith
+			}
+		}
+		else_if = {
+			limit = {
+				not_maiar_fallen = yes
+			}
+			set_culture = culture:morlughai
+		}
+		if = {
+			limit = {
+				has_dynasty = yes
+			}
+			dynasty = { generate_coa = yes }
+		}
+	}
+
+}
+
+race.0002 = {
+	hidden = yes
+	
+	trigger = { culture = culture:adunaic }
+
+	immediate = { add_trait = blood_of_numenor_4 }
+}

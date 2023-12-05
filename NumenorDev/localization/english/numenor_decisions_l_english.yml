@@ -1,0 +1,88 @@
+﻿l_english:
+
+ ###############################
+ #### Numenorean Reclamation ####
+ ###############################
+ 
+ decision_reclaim_umbar_numenor:0 "Reclaim the Haven of Umbar"
+ decision_recover_umbar_numenor_title:0 "The Reclamation of Umbar"
+ decision_reclaim_umbar_numenor_tooltip:0 "Reclaim the Great Haven of Umbar."
+ decision_reclaim_umbar_numenor_desc:0 "Umbar was founded by Tar-Ancalimon and thereafter ruled by the line of Elros through the line of Vardur. Following the Akallabêth, Umbar broke off from Númenor and became a Realm-In-Exile, but soon, that shall end. We will liberate Umbar!."
+ decision_reclaim_umbar_numenor_confirm:0 "Our haven has been restored!."
+ 
+ decision_reclaim_bellakar_numenor:0 "The Land of the Sun"
+ decision_recover_bellakar_numenor_title:0 "The Reintegration of Pharazâin"
+ decision_reclaim_bellakar_numenor_tooltip:0 "Reintegrate the old colony of Pharazâin."
+ decision_reclaim_bellakar_numenor_desc:0 "Pharazâin, now known as Bellakar, was once the mightiest of the Adûnai colonies in the Bay of Tûlwang, founded during the reign of Tar-Súrion, Pharazâin was ruled fairly and justly by the Bâitha’n-Kadîr until the Haradrim House of Tumakveh made it their own puppet. We shall liberate the Adûnai of Pharazâin and restore the Bâitha’n-Kadîr to its former glory."
+ decision_reclaim_bellakar_numenor_confirm:0 "Bellakar no more. Long live Pharazâin"
+ 
+ decision_reclaim_thani_hazad_numenor:0 "Reunite the Seven Lands"
+ decision_recover_thani_hazad_numenor_title:0 "The Reunification of the Seven Lands."
+ decision_reclaim_thani_hazad_numenor_tooltip:0 "Reunify the Seven Lands once more"
+ decision_reclaim_thani_hazad_numenor_desc:0 "Thâni-Hazâd was discovered by Tar-Anárion and made into two great Adûnai colonies - The Princedom of Zimrathâni and An-Balkûmagân. An-Balkûmagân was corrupted by the Nazgûl Khôrahil and Zimrathâni fell victim to petty struggling between the sons of Er-Imrazôr and now it's a shell of its former self. We shall bring back the Seven Lands into our Empire, and restore them to their former glory!"
+ decision_reclaim_thani_hazad_numenor_confirm:0 "Zimrathâni and An-Balkûmagân, The Jewels of the South"
+ 
+ decision_reclaim_gondor_numenor:0 "Reclaim Gondor"
+ decision_reclaim_gondor_numenor_title:0 "The Purification of Gondor"
+ decision_reclaim_gondor_numenor_tooltip:0 "Reclaim the lands of the former League of Pelargir."
+ decision_reclaim_gondor_numenor_desc:0 "Gondor was once a mighty Adûnai colony, ruled by the League of Pelargir it stood firm against the raids from Mordor, however, ever since Castamir I died it has fallen into barbarian depravity. Now, we move to reclaim Gondor and save them from themselves."
+ decision_reclaim_gondor_numenor_confirm:0 "We Strike Pelargir First!"
+ 
+ decision_reclaim_harnen_numenor:0 "Restore Our Control of The Harnen"
+ decision_reclaim_harnen_numenor_title:0 "The Restoration of the Harnen"
+ decision_reclaim_harnen_numenor_tooltip:0 "Restore Númenorean control over the Harnen"
+ decision_reclaim_harnen_numenor_desc:0 "The Harnen was discovered and named by Tar-Aldarion. During its time as a colony it prospered, with cities being built and commerce flourishing, the Harnen became a crucial economic arterery for Númenor. Now, we shall wrestle control of the Harnen from the barbaric Haradrim."
+ decision_reclaim_harnen_numenor_confirm:0 "The Riches of The Harnen Shall go to Armenelos"
+ 
+ hold_memorial_at_meneltarma_decision:0 "Hold a Memorial at the Meneltarma"
+ hold_memorial_at_meneltarma_decision_title:0 "The Memorial to the Victims of Darkness"
+ hold_memorial_at_meneltarma_decision_tooltip:0 "Hold a memorial at the Meneltarma"
+ hold_memorial_at_meneltarma_decision_desc:0 "Every half a decade a memorial is held at the Meneltarma, our holiest ground, to remember the victims of the Melkorist lies which caused the Akallabêth, the Melkorist unwillingness to compromise which caused the First Númenorean Civil War and the Melkorist will to survive which caused the Second Númenorean Civil War. Each of those conflicts have been caused by the forces of darkness and while we have won, all have come at a cost, our people have suffered greatly and for them we hold this memorial."
+ hold_memorial_at_meneltarma_decision_confirm:0 "Rest in peace, children of Númenor"
+ hold_memorial_at_meneltarma_decision.tt:0 "Holds a Memorial at the Meneltarma"
+ 
+ decision_deal_with_aa:0 "End the Melkorist Threat"
+ decision_deal_with_aa_title:0 "The Extermination of Melkorist Lies"
+ decision_deal_with_aa_tooltip:0 "Extermine the so called Adûnaim"
+ decision_address_aa_tooltip:0 "Extermine the so called Adûnaim"
+ decision_deal_with_aa_desc:0 "A few days ago our scouts reported pirate ships near our coasts and after a short struggle, we managed to capture one that has dared to go so close to our coast, they claim to be from Ar Adûnaim and to be worshipers Mulkhêr. We can not allow for worshipers of Melkor to tarnish the reputation of the Adûnai, we must end this mockery of Anadûnê." 
+ decision_deal_with_aa_confirm:0 "End the Melkorists"
+ 
+ decision_destroy_mordor:0 "Destroy Mordor"
+ decision_destroy_mordor_tooltip:0 "Begin a great battle to destroy Sauron and Mordor once and for all"
+ decision_destroy_mordor_desc:0 "Too long have we been on the defensive, barely managing to hold onto its lands while Mordor grew in strength. No longer! Let us end this, once and for all."
+ decision_destroy_mordor_confirm:0 "It is time to end this."
+ destroy_mordor_decision:0 "Launches a final war to destroy Mordor, and Sauron, once and for all"
+ 
+ decision_numenor_annex_korlea:0 "An Offer to Korlea"
+ decision_numenor_annex_korlea_desc:0 "Korlea, once the mightiest of the Bellakarani cities, now a half-sunken port which the Haradric Tumakveh take for granted, it was the Adûnai who built Korlea, and it is the Adûnai who still rule it, for we have received reports that the Lord of the region is of pure Adûnaic descent. We will make him an offer to secede from Bellakar and join Númenor, in exchange, we shall send resources and manpower to rebuild Korlea and make it the headquarters of the Bâitha’n-Kadîr and a restored Pharazâin once again."
+ decision_numenor_annex_korlea_confirm:0 "An offer they can not not refuse"
+ decision_numenor_annex_korlea_tooltip:0 "Sends an offer of vassalization to Korlea"
+ 
+ decision_palantir_romenna:0 "The Palantír of Rómenna"
+ decision_palantir_romenna_tooltip:0 "Use the ancient Palantír of Rómenna"
+ decision_palantir_romenna_desc:0 "While for long we have wondered what this spherical object is, but now that our new scholars, brought by Ciryandur of Nísimaldar have identified it as a Palantír, one of the seeing stones, we have been struggling to utilize it. I have been informed that only a person of great will and wisdom may dare to use one, shall the mighty Ar- of Númenor dare use the Palantír?"
+ decision_palantir_romenna_confirm:0 "We shall know the secrets of our enemies"
+ decision_palantir_romenna_title:0 "The Palantír of Rómenna"
+ 
+ decision_numenor_invade_valinor:0 "The Second Great Armament"
+ decision_numenor_invade_valinor_desc:0 "Ar-Pharazôn, greatest of the Kings of Men, the Golden One, who led Númenor at its zenith, he who fought for the right for his fellow Númenoreans to be granted eternal life, yet the cruel and arbitrary Valar have kept him imprisoned, knowing they can not defeat the might of Númenor, for I am certain that he reached the undying lands. Yet now I am King of Númenor, having reverted back to the true faith and the teachings of Zigûr - I shall free Pharazôn from the prison of Amân, for together, we shall depose the Valar once and for all, and we shall make their former lands into our new realm, and with it, become superior than even the Elves."
+ decision_numenor_invade_valinor_confirm:0 "Immortality Awaits us!"
+ decision_numenor_invade_valinor_tooltip:0 "We shall avenge the Akallabêth"
+ 
+ demand_ray_tributary:0 "An Ultimatum to the Dâr"
+ demand_ray_tributary_desc:0 "In the times of Númenor's height, the Bôzisha-Mîraz swore fealty to Númenor, not as a colony, but as a protectorate of the Sceptre, in which they recognised the High King of the Adûnaim as their Kralyi, which in their primitive language means King. The Dâr prospered from the Númenórean protection, for it could trade with the colonies of the Empire in the bay of Tûlwang, yet those days have passed, for once news of the Akallabêth reached them, the seven regents of the Dâr broke their fealty to Númenor and ever since they have been unable to regain their glory of old, but now, we shall give them a chance to change that."
+ demand_ray_tributary_confirm:0 "I shall reclaim the mantle of Kralyi"
+ demand_ray_tributary_tooltip:0 "Sends an ultimatum to Rây"
+ 
+ decision_numenor_league_of_pelargir:0 "The Status of Pelargir"
+ decision_numenor_league_of_pelargir_desc:0 "Once the mouth of the Anduin was ruled from Pelargir, our most noble and proud colony in the area, located strategically between Umbar and Vinyalondë, from it our Empire profited greatly, thanks to the efforts of the Colonial Government established; The League of Pelargir. Now that we have reconquered Gondor, the nobles of Pelargir have brought a petition to Armenelos - to restore the League of Pelargir and the more autonomous old colonial system that once existed in Gondor in exchange for greater taxes and aid in spreading our faith in Gondor."
+ decision_numenor_league_of_pelargir_confirm:0 "A decision shall be made"
+ decision_numenor_league_of_pelargir_tooltip:0 "We shall decide the future of Pelargir"
+ 
+ numenor_league_of_pelargir_decision:0 "The nobles of Pelargir will curry favour with Armenelos by adopting our faith"
+
+ decision_numenor_disband_council_of_sceptre:0 "WIP - Dss1"
+ decision_numenor_disband_council_of_sceptre_tooltip:0 "WIP - Dss1"
+ decision_numenor_disband_council_of_sceptre_desc:0 "WIP - Dss1"
+ decision_numenor_disband_council_of_sceptre_confirm:0 "WIP - Dss1"

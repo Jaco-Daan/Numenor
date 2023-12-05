@@ -1,0 +1,47 @@
+council_of_numenor_total_approval = {
+	value = 0
+
+	every_in_global_list = {
+		variable = council_of_numenor
+		if = {
+			limit = {
+				opinion = {
+					target = title:e_numenor.holder
+					value > 75
+				}
+				save_temporary_scope_value_as = {
+					name = opinion_of_numenor_ruler
+					value = 1
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				save_temporary_scope_value_as = {
+					name = opinion_of_numenor_ruler
+					value = 0
+				}
+			}
+		}
+		add = {
+			value = scope:opinion_of_numenor_ruler
+		}
+	}
+}
+
+total_council_members_on_numenor_council = {
+	value = 0
+
+	every_in_global_list = {
+		variable = council_of_numenor
+		if = {
+			limit = {
+				save_temporary_scope_value_as = {
+					name = opinion_of_numenor_ruler
+					value = 1
+				}
+			}
+		}
+		add = { value = scope:opinion_of_numenor_ruler }
+	}
+}

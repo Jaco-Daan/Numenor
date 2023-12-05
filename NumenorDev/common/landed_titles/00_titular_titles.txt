@@ -1,0 +1,587 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+### CUSTOM TITULAR TITLES ###
+
+e_anadunemelkor = {
+	color = "black"
+	landless = yes
+	definite_form = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_armenelos
+}	
+### Forces of Darkness ###
+k_dark_lord = {
+	color = "black"
+	destroy_on_succession = yes
+	destroy_if_invalid_heir = yes
+	always_follows_primary_heir = yes
+	ruler_uses_title_name = no
+	capital = c_barad_dur
+#	can_create = no
+}
+
+k_morgul = {
+	color = "necromancer_green"
+	destroy_on_succession = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_minas_ithil
+}
+
+k_abrakhan_religious = {
+	color = "abrakhan_black"
+	destroy_on_succession = no
+	destroy_if_invalid_heir = yes
+	always_follows_primary_heir = yes
+	ruler_uses_title_name = no
+	capital = c_abrashadorh
+#	can_create = no
+}
+
+k_the_white_hand = {
+	color = "black"
+	definite_form = yes
+	destroy_on_succession = yes
+	destroy_if_invalid_heir = yes
+	always_follows_primary_heir = yes
+	ruler_uses_title_name = no
+	capital = c_isengard
+#	can_create = no
+}
+
+e_orc_horde = {
+ 	color = { 37 12 5 }
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	cultural_names = {
+		name_list_mountain_orc = cn_orc_horde_gundabad #juke note: added so gundabad has their own name for it
+	}
+}
+
+d_serpent_temple = { # Khäz-Gramaze head of faith
+	color = "black"
+	definite_form = yes
+	destroy_if_invalid_heir = yes
+	always_follows_primary_heir = yes
+	ruler_uses_title_name = no
+	capital = c_amrun
+}
+
+
+### Dunedain ###
+k_gondor_steward = {
+	color = { 245 245 247 }
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+}
+
+d_northern_dunedain = {
+	color = "black"
+	definite_form = yes
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_minas_tirith #Temporary
+}
+
+### Elves ###
+e_noldor = {
+	color = "blue"
+	landless = yes
+	definite_form = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_caras_galadhon #Temporary
+}
+
+k_rivendell = { # Titular for now
+	color = "black"
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_caras_galadhon #Temporary
+#	cultural_names = {
+#		noldor = cn_rivendell_sindarin
+#	}
+}
+
+d_mithlond = { # Titular for now
+	color = "black"
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_caras_galadhon #Temporary
+}
+
+# First Age Elves
+k_doriath = {
+	color = "black"
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_caras_galadhon #Temporary
+}
+
+k_gondolin = { # Gondolin
+	color = "black"
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_caras_galadhon #Temporary
+}
+
+d_feanorians = { # The unified Feanorians (duchy so localization doesn't make them a 'king'
+	color = wastelands
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_caras_galadhon #Temporary
+}
+
+### Valinor ### - to be converted into landed at some point
+
+e_valinor = { #Valinor
+	color = "white"
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_valinor_1 #Temporary
+}
+
+k_alqualonde = {
+	color = { 206 191 228 }
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_valinor_3 #Temporary
+}
+
+k_tirion = {
+	color = { 174 191 228 }
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_valinor_1 #Temporary
+}
+
+k_valimar = {
+	color = { 238 191 228 }
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_valinor_2 #Temporary
+}
+
+
+
+### Numenoreans ###
+
+k_pelargir = {
+	color = { 53 141 162 }
+	landless = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_pelargir
+}
+
+e_numenor_colonies = {
+	color = { 20 41 79 }
+	landless = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_pelargir
+}
+
+e_numenor_in_exile = {
+	color = { 61 8 81 }
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_osgiliath
+}
+
+
+### Umbareans/Black Numenoreans ###
+k_mirlond = {
+	color = { 94 70 17 }
+	landless = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_mirlond
+	cultural_names = {
+		name_list_adunaic = cn_mirlond_adunaic
+		name_list_mardrukan = cn_mirlond_adunaic
+	}
+}
+
+e_castamir = {
+	color = { 200 191 167 }
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_minas_tirith
+}
+
+e_adunaim = {
+	color = { 150 110 30 }
+	definite_form = yes
+	destroy_if_invalid_heir = yes
+	always_follows_primary_heir = yes
+}
+
+e_anbalkumagan = {
+	color = { 13 18 34 }
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	cultural_names = {
+		name_list_dunedain = cn_anbalukkhor_quenya	
+	}
+}
+
+e_thon_an_kharlokh = { # Thôn an-Khârlôkh
+	color = { 13 18 34 }
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+}
+
+d_high_steward = { # Kings Men Head of Faith
+	color = "black"
+	definite_form = yes
+	destroy_if_invalid_heir = yes
+	always_follows_primary_heir = yes
+	ruler_uses_title_name = no
+	capital = c_umbar
+}
+
+### Enedwaith ###
+k_saralain = { 
+	color = { 110 50 30 }
+	landless = no # should be destroyed if the holder is rendered landless
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_angrast
+}
+
+e_dunland = {
+	color = { 150 30 11 }
+	landless = no # should be destroyed if the holder is rendered landless
+	destroy_if_invalid_heir = yes
+	capital = c_isengard
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_dunlending }
+			}
+			add = @correct_culture_primary_score
+			add = @better_than_the_alternatives_score
+		}
+	}
+}
+
+### Bellakar ###
+
+k_izindizanda_eruhinim = {	
+	color = { 11 47 10 }
+	landless = yes
+	capital = c_urud_an_khibil
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	ruler_uses_title_name = no
+}
+
+d_felaya = {
+	color = { 140 45 165 }
+	landless = yes
+	destroy_on_succession = no
+	can_be_named_after_dynasty = no
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+
+	ignore_titularity_for_title_weighting = yes
+	capital = c_hazaj_tollin 
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+}
+
+### Tedjin ###
+
+e_tedjin = {
+	color = { 165 95 33 }
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	ignore_titularity_for_title_weighting = yes
+	capital = c_joam
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:tedjin
+			}
+			add = @always_primary_score
+		}
+	}
+}
+
+e_faithful_tedjin = {
+	color = { 202 122 53 }
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	ignore_titularity_for_title_weighting = yes
+	capital = c_zimrenzil
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:tedjin
+			}
+			add = @always_primary_score
+		}
+	}
+}
+
+k_tedjin = {
+	color = { 165 95 33 }
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	ignore_titularity_for_title_weighting = yes
+	capital = c_zimrenzil
+	definite_form = yes
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:tedjin
+			}
+			add = 250
+		}
+	}
+}
+
+k_soriya = {
+	color = { 95 165 33 }
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	ignore_titularity_for_title_weighting = yes
+	capital = c_zimrenzil
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:soriyan
+			}
+			add = @always_primary_score
+		}
+	}
+}
+
+### Haradrim ###
+
+e_harad = {
+	color = { 170 0 30 }
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_abrashadorh
+}
+
+e_jelut = {
+	color = { 246 179 1 }
+	destroy_if_invalid_heir = yes
+	ignore_titularity_for_title_weighting = yes
+	de_jure_drift_disabled = yes
+	#definite_form = yes
+	capital = c_harsan
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:jelut
+			}
+			add = @always_primary_score
+		}
+	}
+}
+
+### Khand ###
+
+d_high_vracarath = {
+	color = { 170 0 30 }
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_hron_tumrakhi
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	no_automatic_claims = yes
+
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+}
+
+
+### Greenwood ###
+
+d_woodmen_faith_head = {
+	color = { 78 53 36 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+
+	capital = c_rhosghobel
+
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+}
+
+### Rhovanion ###
+
+k_rhovanion = {
+	color = { 161 78 15 }
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_alcisbaurg
+}
+
+
+### Easterlings of Rhun ###
+
+e_golden_realm_rhun = { # The Golden Realm of Medlóshûkain
+	color = { 151 49 9 }
+#	color = { 153 0 0} #original colour if new one is dissaproved 
+	landless = yes
+	#destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_mistrand # Capital is transient and moves with who is elected, but Mistrand is probably the best fit
+	
+	#
+}
+
+d_dragon_knights = { # The Military Order of the Dragon-Knights, the most zealous soldiers of the loke-kan
+	color = { 153 40 0}
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_mistrand #Temporary
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+}
+
+e_bozorganush = { # Successor state of the Balcoth
+	color = { 160 0 0 }
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_mistrand #Temporary
+}
+
+e_narimanush = { # Successor state of the Balcoth 
+	color = { 170 0 0 }
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_mistrand #Temporary
+}
+
+e_rostamush = { # Successor state of the Balcoth 
+	color = { 190 0 0 }
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_mistrand #Temporary
+}
+
+e_balchoth = { # Balcoth Empire
+	color = { 180 0 0 }
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_mistrand #Temporary
+}
+
+e_szreldor = { # Second Age Easterling Empire
+	color = { 212 152 52 }
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_mistrand #Temporary
+}
+
+e_wainriders = { # Wainrider Empire
+	color = { 153 0 0 }
+	landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	capital = c_mistrand #Temporary
+}
+
+
+
+### Holy/Faith Titles ###
+
+d_ulukai = { #the "Ashdurbúk" of Cult of the Ulûkai
+	color = { 40 160 40 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
+	capital = c_gundabad #Temporary
+}
+
+k_edhellond = {
+	color = { 26 105 217 }
+	landless = yes
+	de_jure_drift_disabled = no
+	capital = c_edhellond
+}
+
+d_edhellond = {
+	color = { 56 129 150 }
+	landless = yes
+	de_jure_drift_disabled = no
+	capital = c_edhellond
+}

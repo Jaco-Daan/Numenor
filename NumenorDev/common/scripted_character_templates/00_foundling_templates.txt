@@ -1,0 +1,21 @@
+﻿
+peasant_villager_foundling_character = {
+	age = { 5 12 }
+	random_traits = yes
+	dynasty = none
+	culture = scope:county.culture
+	faith = scope:county.faith
+	gender_female_chance = 50
+	after_creation = {
+		if = {
+			limit = { is_elf = yes }
+			replace_unelven_traits = yes
+		}
+		
+		# Numenor: Adds blood of numenor 
+		if = {
+			limit = { culture = culture:adunaic }
+			add_trait = blood_of_numenor_4
+		}
+	}
+}

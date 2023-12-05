@@ -1,0 +1,4827 @@
+﻿# THE KINGDOM OF NUMENOR		
+		
+e_numenor = {		
+	624.1.1 = {	
+		holder = lineofelros1 # Elros Minyatur
+	}	
+	1034.1.1 = {	
+		holder = lineofelros2 # Vardamir 
+	}	
+	1063.1.1 = {	
+		holder = lineofelros3 # Amandil 
+	}	
+	1195.1.1 = {	
+		holder = lineofelros4 # Elendil 
+	}	
+	1343.1.1 = {	
+		holder = lineofelros5 # Meneldur 
+	}	
+	1534.1.1 = {	
+		holder = lineofelros6 # Aldarion 
+		succession_laws = { equal_law } # Aldarion amends the law of succession
+	}	
+	1690.1.1 = {	
+		holder = lineofelros7 # Ancalimë 
+	}	
+	1877.1.1 = {	
+		holder = lineofelros8 # Anárion 
+	}	
+	1996.1.1 = {	
+		holder = lineofelros9 # Súrion 
+	}	
+	2166.1.1 = {	
+		holder = lineofelros10 # Telperiën 
+	}	
+	2323.1.1 = {	
+		holder = lineofelros12 # Minastir 
+	}	
+	2465.1.1 = {	
+		holder = lineofelros13 # Ciryatan 
+	}	
+	2627.1.1 = {	
+		holder = lineofelros14 # Atanamir 
+	}	
+	2813.1.1 = {	
+		holder = lineofelros15 # Ancalimon 
+	}	
+	2978.1.1 = {	
+		holder = lineofelros16 # Telemmaitë 
+	}	
+	3118.1.1 = {	
+		holder = lineofelros17 # Vanimeldë 
+	}	
+	3229.1.1 = {	
+		holder = lineofelros18 # Alcarin 
+	}	
+	3329.1.1 = {	
+		holder = lineofelros19 # Calmacil 
+	}	
+	3417.1.1 = {	
+		holder = lineofelros20 # Ardamin 
+	}	
+	3491.1.1 = {	
+		holder = lineofelros21 # Adûnakhôr 
+	}	
+	3554.1.1 = {	
+		holder = lineofelros22 # Zimrathôn 
+	}	
+	3625.1.1 = {	
+		holder = lineofelros23 # Sakalthôr 
+	}	
+	3694.1.1 = {	
+		holder = lineofelros24 # Gimilzôr 
+	}	
+	3769.1.1 = {	
+		holder = lineofelros25 # Palantir 
+	}	
+	3847.1.1 = {	
+		holder = lineofelros28 # Pharazôn 
+	}	
+	3911.1.1 = {	
+		holder = 0 # Destruction of Numenor 
+	}
+	4002.1.1 = {
+		holder = lineofelros88 # Cemendur
+	}
+	4123.1.1 = {
+		holder = lineofelros89 # Hallatan
+	}
+	4149.1.1 = {
+		holder = lineofelros90 # Aldarion II
+	}
+	4202.1.1 = {
+		holder = lineofelros91 # Azrubêl
+	}
+	4338.1.1 = {
+		holder = lineofelros92 # Karbazîr
+	}
+	4449.1.1 = {
+		holder = lineofelros93 # Balkumagân II
+	}
+	4601.1.1 = {
+		holder = lineofelros94 # Minluzîr
+	}
+	4652.1.1 = {
+		holder = lineofelros95 # Anardil
+	}
+	4815.1.1 = {
+		holder = lineofelros96 # Ardamírë
+	}
+	5004.1.1 = {
+		holder = lineofelros97 # Tarîkmagân
+	}
+	5083.1.1 = {
+		holder = lineofelros98 # Aratan
+	}
+	5177.1.1 = {
+		holder = lineofelros99 # Elatan
+	}
+	5327.1.1 = {
+		holder = lineofelros100 # Sakalthôr II
+	}
+	5457.1.1 = {
+		holder = lineofelros101 # Telemnar
+	}
+	5547.1.1 = {
+		holder = lineofelros102 # Calion
+	}
+	5704.1.1 = {
+		holder = lineofelros103 # Soronto
+	}
+	5873.1.1 = {
+		holder = lineofelros104 # Hostamir
+	}
+	6002.1.1 = {
+		holder = lineofelros105 # Oromendil
+	}
+	6198.1.1 = {
+		holder = lineofelros106 # Gimilkhâd
+	}
+	6306.1.1 = {
+		holder = lineofelros107 # Balkumagân III He tries to revert Númenor back to darkness, fails, dies in battle
+	}
+	6403.1.1 = { 
+		holder = lineofelros108 # Ancalimon II
+	}
+	6480.1.1 = {
+		holder = lineofelros109 # Vëantur, first Monarch to be the new Adunaben faith
+	}
+	6593.1.1 = {
+		holder = lineofelros110 # Herunúmen he oversees the full unification of Númenor
+	}
+	6626.1.1 = {
+		holder = lineofelros111 # Zimrathôn
+	}
+	6786.1.1 = {
+		holder = lineofelros112 # Dôlguzagar, First Monarch since Ar Pharazôn to make contact with Middle Earth
+	}
+	6841.1.1 = {
+		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
+	}
+	6982.1.1 = {
+		holder = lineofelros114 # Balkazîr, current king of Númenor
+	}
+}
+
+c_armenelos = {
+	6982.1.1 = {
+		holder = lineofelros114 # Balkazîr
+		change_development_level = 41
+	}
+}
+
+c_andunie = {
+	7022.1.1 = {
+		holder = lineofelatan43
+		liege = e_numenor
+		change_development_level = 37
+	}
+}
+
+c_eldalonde = {
+	1150.1.1 = {	
+		holder = lineveantur1 # Vëandur
+		liege = e_numenor
+	}
+	1399.1.1 = {	
+		holder = lineveantur3 # Vinyaher
+	}
+	1560.1.1 = {	
+		holder = lineveantur4 # Vorondil
+	}
+	1696.1.1 = {	
+		holder = lineveantur5 # Voronwe
+	}
+	1831.1.1 = {	
+		holder = lineveantur6 # Turin
+	}
+	1989.1.1 = {	
+		holder = lineveantur7 # Eruaryon
+	}
+	2184.1.1 = {	
+		holder = lineveantur8 # Elendur
+	}
+	2331.1.1 = {	
+		holder = lineveantur9 # Ciryatur
+	}
+	2473.1.1 = {	
+		holder = lineveantur10 # Calimehtar
+	}
+	2634.1.1 = {	
+		holder = lineveantur11 # Cirdan
+	}
+	2764.1.1 = {	
+		holder = lineveantur12 # Castamir
+	}
+	2908.1.1 = {	
+		holder = lineveantur13 # Belehir
+	}
+	3053.1.1 = {	
+		holder = lineveantur14 # Arciryas
+	}
+	3273.1.1 = {	
+		holder = lineveantur15 # Vorommaite
+	}
+	3437.1.1 = {	
+		holder = lineveantur16 # Sulicar
+	}
+	3542.1.1 = {	
+		holder = lineveantur17 # Vinyarion
+	}
+	3680.1.1 = {	
+		holder = lineveantur18 # Tarciryan
+	}
+	3752.1.1 = {	
+		holder = predolamroth1 # Arassuil
+	}
+	3839.1.1 = {	
+		holder = lineofciryamir12
+	}
+	3911.1.1 = {
+		holder = lineofciryamirbranch1
+	}
+	4032.1.1 = {
+		holder = lineofciryamirbranch2
+	}
+	4167.1.1 = {
+		holder = lineofciryamirbranch3
+	}
+	4306.1.1 = {
+		holder = lineofciryamirbranch4
+	}
+		4442.1.1 = {
+		holder = lineofciryamirbranch5
+	}
+		4601.1.1 = {
+		holder = lineofciryamirbranch6
+	}
+		4755.1.1 = {
+		holder = lineofciryamirbranch7
+	}
+		4863.1.1 = {
+		holder = lineofciryamirbranch8
+	}
+		5016.1.1 = {
+		holder = lineofciryamirbranch9
+	}
+		5154.1.1 = {
+		holder = lineofciryamirbranch10
+	}
+		5326.1.1 = {
+		holder = lineofciryamirbranch11
+	}
+		5520.1.1 = {
+		holder = lineofciryamirbranch12
+	}
+		5685.1.1 = {
+		holder = lineofciryamirbranchfix1
+	}
+		5820.1.1 = {
+		holder = lineofciryamirbranchfix2
+	}
+		5980.1.1 = {
+		holder = lineofciryamirbranch13
+	}
+		6154.1.1 = {
+		holder = lineofciryamirbranch14
+	}
+		6314.1.1 = {
+		holder = lineofciryamirbranch15
+	}
+		6472.1.1 = {
+		holder = lineofciryamirbranch17
+	}
+		6610.1.1 = {
+		holder = lineofciryamirbranch18
+	}
+		6781.1.1 = {
+		holder = lineofciryamirbranch19
+	}		
+	6799.1.1 = {
+		holder = dolamroth42 # Haldrahir
+	}
+	6913.1.1 = {
+		holder = dolamroth43 # Ciryandur
+		change_development_level = 36
+	}
+}
+
+d_andunie = {		
+	1290.1.1 = {	
+		holder = lineofelatan2 # Valandil
+		liege = e_numenor
+	}	
+	1588.1.1 = {	
+		holder = lineofelatan3 # Anardur
+	}
+	1768.1.1 = {	
+		holder = lineofelatan4 # Astandil
+	}
+	1914.1.1 = {	
+		holder = lineofelatan5 # Lauremacil
+	}
+	2069.1.1 = {	
+		holder = lineofelatan6 # Elecar
+	}
+	2270.1.1 = {	
+		holder = lineofelatan7 # Isildur
+	}
+	2409.1.1 = {	
+		holder = lineofelatan8 # Anárion
+	}
+	2576.1.1 = {	
+		holder = lineofelatan9 # Elendur
+	}
+	2741.1.1 = {	
+		holder = lineofelatan10 # Vëandur
+	}
+	2910.1.1 = {	
+		holder = lineofelatan11 # Mírendil
+	}
+	3084.1.1 = {	
+		holder = lineofelatan12 # Nárendur
+	}
+	3232.1.1 = {	
+		holder = lineofelatan13 # Elentur
+	}
+	3360.1.1 = {	
+		holder = lineofelatan14 # Olórendil
+	}
+	3473.1.1 = {	
+		holder = lineofelatan15 # Incandur
+	}
+	3527.1.1 = {	
+		holder = lineofelatan16 # Eärendur
+	}
+	3592.1.1 = {	
+		holder = lineofelatan17 # Silmardil
+	}
+	3632.1.1 = {	
+		holder = lineofelatan18 # Númendil
+	}
+	3657.1.1 = {	
+		holder = lineofelatan19 # Amandil
+	}
+	3914.1.1 = {	
+		holder = 0 # Amandil sails east / Akallabêth
+	}
+	4100.1.1 = {
+		holder = lineofelatan25
+	}
+	4152.1.1 = {
+		holder = lineofelatan26
+	}
+	4318.1.1 = {
+		holder = lineofelatan27
+	}
+	4468.1.1 = {
+		holder = lineofelatan28
+	}
+	4615.1.1 = {
+		holder = lineofelatan29
+	}
+	4786.1.1 = {
+		holder = lineofelatan30
+	}
+	4933.1.1 = {
+		holder = lineofelatan31
+	}
+	5117.1.1 = {
+		holder = lineofelatan32
+	}
+	5321.1.1 = {
+		holder = lineofelatan33
+	}
+	5521.1.1 = {
+		holder = lineofelatan34
+	}
+	5730.1.1 = {
+		holder = lineofelatan35
+	}
+	5926.1.1 = {
+		holder = lineofelatan36
+	}
+	6117.1.1 = {
+		holder = lineofelatan37
+	}
+	6311.1.1 = {
+		holder = lineofelatan38
+	}
+	6526.1.1 = {
+		holder = lineofelatan40
+	}
+	6630.1.1 = {
+		holder = lineofelatan41
+	}
+	6855.1.1 = {
+		holder = lineofelatan42
+	}
+	7022.1.1 = {
+		holder = lineofelatan43
+	}
+	
+	
+}
+
+d_nisimaldar = {		
+	1150.1.1 = {	
+		holder = lineveantur1 # Vëandur
+		liege = e_numenor
+	}
+	1399.1.1 = {	
+		holder = lineveantur3 # Vinyaher
+	}
+	1560.1.1 = {	
+		holder = lineveantur4 # Vorondil
+	}
+	1696.1.1 = {	
+		holder = lineveantur5 # Voronwe
+	}
+	1831.1.1 = {	
+		holder = lineveantur6 # Turin
+	}
+	1989.1.1 = {	
+		holder = lineveantur7 # Eruaryon
+	}
+	2184.1.1 = {	
+		holder = lineveantur8 # Elendur
+	}
+	2331.1.1 = {	
+		holder = lineveantur9 # Ciryatur
+	}
+	2473.1.1 = {	
+		holder = lineveantur10 # Calimehtar
+	}
+	2634.1.1 = {	
+		holder = lineveantur11 # Cirdan
+	}
+	2764.1.1 = {	
+		holder = lineveantur12 # Castamir
+	}
+	2908.1.1 = {	
+		holder = lineveantur13 # Belehir
+	}
+	3053.1.1 = {	
+		holder = lineveantur14 # Arciryas
+	}
+	3273.1.1 = {	
+		holder = lineveantur15 # Vorommaite
+	}
+	3437.1.1 = {	
+		holder = lineveantur16 # Sulicar
+	}
+	3542.1.1 = {	
+		holder = lineveantur17 # Vinyarion
+	}
+	3680.1.1 = {	
+		holder = lineveantur18 # Tarciryan
+	}
+	3752.1.1 = {	
+		holder = predolamroth1 # Arassuil
+	}
+	3839.1.1 = {	
+		holder = lineofciryamir12
+	}
+	3911.1.1 = {
+		holder = lineofciryamirbranch1
+	}
+	4032.1.1 = {
+		holder = lineofciryamirbranch2
+	}
+	4167.1.1 = {
+		holder = lineofciryamirbranch3
+	}
+	4306.1.1 = {
+		holder = lineofciryamirbranch4
+	}
+		4442.1.1 = {
+		holder = lineofciryamirbranch5
+	}
+		4601.1.1 = {
+		holder = lineofciryamirbranch6
+	}
+		4755.1.1 = {
+		holder = lineofciryamirbranch7
+	}
+		4863.1.1 = {
+		holder = lineofciryamirbranch8
+	}
+		5016.1.1 = {
+		holder = lineofciryamirbranch9
+	}
+		5154.1.1 = {
+		holder = lineofciryamirbranch10
+	}
+		5326.1.1 = {
+		holder = lineofciryamirbranch11
+	}
+		5520.1.1 = {
+		holder = lineofciryamirbranch12
+	}
+		5685.1.1 = {
+		holder = lineofciryamirbranchfix1
+	}
+		5820.1.1 = {
+		holder = lineofciryamirbranchfix2
+	}
+		5980.1.1 = {
+		holder = lineofciryamirbranch13
+	}
+		6154.1.1 = {
+		holder = lineofciryamirbranch14
+	}
+		6314.1.1 = {
+		holder = lineofciryamirbranch15
+	}
+		6472.1.1 = {
+		holder = lineofciryamirbranch17
+	}
+		6610.1.1 = {
+		holder = lineofciryamirbranch18
+	}
+		6781.1.1 = {
+		holder = lineofciryamirbranch19
+	}		
+	6799.1.1 = {
+		holder = dolamroth42 # Haldrahir
+	}
+	6913.1.1 = {
+		holder = dolamroth43 # Ciryandur
+		liege = e_numenor
+	}
+}
+
+d_arandor = {
+	6982.1.1 = {
+		holder = lineofelros114
+	}
+}
+
+d_hyarnore = {
+	4802.1.1 = {
+		holder = lineofvardur15
+	}
+	4927.1.1 = {
+		holder = lineofvardur16
+	}
+	5130.1.1 = {
+		holder = lineofvardur17
+	}
+	5330.1.1 = {
+		holder = lineofvardur18
+		liege = e_numenor
+	}
+	5534.1.1 = {
+		holder = lineofvardur19
+	}
+	5724.1.1 = {
+		holder = lineofvardur20
+	}
+	5934.1.1 = {
+		holder = lineofvardur21
+	}
+	6133.1.1 = {
+		holder = lineofvardur22
+	}
+	6325.1.1 = {
+		holder = lineofvardur23
+	}
+	6526.1.1 = {
+		holder = lineofvardur24
+	}
+	6729.1.1 = {
+		holder = lineofvardur25
+	}
+	6929.1.1 = {
+		holder = lineofvardur26
+		liege = e_numenor
+	}
+}
+
+d_aruwanai = {
+	6405.1.1 = {
+		holder = lineofaru10
+	}
+	6441.1.1 = {
+		holder = lineofaru12
+	}
+	6570.1.1 = {
+		holder = lineofaru13
+	}
+	6683.1.1 = {
+		holder = lineofaru14
+	}
+	6886.1.1 = {
+		holder = lineofaru15
+	}
+	6974.1.1 = {
+		holder = lineofaru16
+		liege = e_numenor
+	}
+}
+
+d_formenore = {
+	3221.1.1 = {
+		holder = lineofazruben1
+	}
+	3482.1.13 = {
+		holder = lineofazrubensubmod1
+	}
+	3672.1.1 = {
+		holder = lineofazrubensubmod2
+	}
+		3810.1.1 = {
+		holder = lineofazrubensubmod3
+	}
+		3911.1.1 = {
+			holder = lineofazrubensubmod4
+	}
+		3917.1.1 = {
+		holder = 0
+	}
+		4368.1.1 = {
+		holder = lineofazrubensubmod8
+	}
+		4412.1.1 = {
+		holder = lineofazrubensubmod9
+	}
+		4550.1.1 = {
+		holder = lineofazrubensubmod10
+	}
+		4663.1.1 = {
+		holder = lineofazrubensubmod11
+	}
+		4773.1.1 = {
+		holder = lineofazrubensubmod12
+	}
+		4891.1.1 = {
+		holder = lineofazrubensubmod13
+	}
+		5021.1.1 = {
+		holder = lineofazrubensubmod14
+	}
+		5139.1.1 = {
+		holder = lineofazrubensubmod15
+	}
+		5340.1.1 = {
+		holder = lineofazrubensubmod16
+		liege = e_numenor
+	}
+		5473.1.1 = {
+		holder = lineofazrubensubmod17
+	}
+		5600.1.1 = {
+		holder = lineofazrubensubmod18
+	}
+		5736.1.1 = {
+		holder = lineofazrubensubmod19
+	}
+		5852.1.1 = {
+		holder = lineofazrubensubmod20
+	}
+		5967.1.1 = {
+		holder = lineofazrubensubmod21
+	}
+		6086.1.1 = {
+		holder = lineofazrubensubmod22
+	}
+		6211.1.1 = {
+		holder = lineofazrubensubmod23
+	}
+		6339.1.1 = {
+		holder = lineofazrubensubmod24
+	}
+		6447.1.1 = {
+		holder = lineofazrubensubmod25
+	}
+		6577.1.1 = {
+		holder = lineofazrubensubmod26
+	}
+		6696.1.1 = {
+		holder = lineofazrubensubmod27
+	}
+		6808.1.1 = {
+		holder = lineofazrubensubmod28
+	}
+		6942.1.1 = {
+		holder = lineofazrubensubmod29
+		liege = e_numenor		
+	}
+}
+	6980.1.1 = {
+		holder = place3
+		liege = e_numenor
+	}
+}
+
+d_khorandor = {
+	6407.1.1 = {
+		holder = lineofkhorahil4
+	}
+	6512.1.1 = {
+		holder = lineofkhorahil5
+	}
+	6664.1.1 = {
+		holder = lineofkhorahil6
+	}
+	6753.1.1 = {
+		holder = lineofkhorahil7
+	}
+	6896.1.1 = {
+		holder = lineofkhorahil8
+	}
+	6997.1.1 = {
+		holder = lineofkhorahil9
+		liege = e_numenor
+	}
+}
+
+d_ciryanore = {
+	6403.1.1 = {
+		holder = lineofciryandur31
+	}
+	6625.1.1 = {
+		holder = lineofciryandur32
+	}
+	6816.1.1 = {
+		holder = lineofciryandur33
+	}
+	7010.1.1 = {
+		holder = lineofciryandur34
+		liege = e_numenor
+	}
+}
+
+d_elenore = {
+	5377.1.1 = {
+		holder = lineelebastard1
+		liege = e_numenor
+	}
+	5553.1.1 = {
+		holder = lineelebastard2
+	}
+	5651.1.1 = {
+		holder = lineelebastard3
+	}
+	5774.1.1 = {
+		holder = lineelebastard4
+	}
+	5849.1.1 = {
+		holder = lineelebastard5
+	}
+	5951.1.1 = {
+		holder = lineelebastard6
+	}
+	6063.1.1 = {
+		holder = lineelebastard7
+	}
+	6201.1.1 = {
+		holder = lineelebastard8
+	}
+	6329.1.1 = {
+		holder = lineelebastard9
+	}
+	6445.1.1 = {
+		holder = lineelebastard10
+	}
+	6581.1.1 = {
+		holder = lineelebastard11
+	}
+	6690.1.1 = {
+		holder = lineelebastard12
+	}
+	6799.1.1 = {
+		holder = lineelebastard13
+	}
+	6898.1.1 = {
+		holder = lineelebastard14
+	}
+	7003.1.1 = {
+		holder = lineelebastard15
+		liege = e_numenor
+	}
+}
+
+d_sorontil = {
+	3939.1.1 = {
+		holder = ruxoalendil11 # Made lord of all Forostar
+	}
+	4107.1.1 = {
+		holder = ruxoalendil12
+	}
+	4325.1.1 = {
+		holder = ruxoalendil13
+	}
+	4532.1.1 = {
+		holder = ruxoalendil14
+	}
+	4730.1.1 = {
+		holder = ruxoalendil15
+	}
+	4935.1.1 = {
+		holder = ruxoalendil16
+	}
+	5132.1.1 = {
+		holder = ruxoalendil17
+	}
+	5332.1.1 = {
+		holder = ruxoalendil18
+		liege = e_numenor
+	}
+	5544.1.1 = {
+		holder = ruxoalendil19
+	}
+	5748.1.1 = {
+		holder = ruxoalendil20
+	}
+	5937.1.1 = {
+		holder = ruxoalendil21
+	}
+	6128.1.1 = {
+		holder = ruxoalendil22
+	}
+	6325.1.1 = {
+		holder = ruxoalendil23
+	}
+	6399.1.1 = {
+		holder = ruxoalendilsecondline3
+	}
+	6533.1.1 = {
+		holder = ruxoalendil25
+	}
+	6726.1.1 = {
+		holder = ruxoalendil26
+	}
+	6927.1.1 = {
+		holder = ruxoalendil27
+		liege = e_numenor
+	}
+}
+d_ondosto = {
+	3911.1.1 = {
+		holder = lineofelros88
+	}
+	6982.1.1 = {
+		holder = lineofelros117
+		liege = e_numenor
+	}
+}
+
+d_arialome = {
+	4513.1.1 = {
+		holder = lineofarialome1
+	}
+	4729.1.1 = {
+		holder = lineofarialome2
+	}
+	4891.1.1 = {
+		holder = lineofarialome3
+	}
+	4991.1.1 = {
+		holder = lineofarialome4
+	}
+	5100.1.1 = {
+		holder = lineofarialome5
+	}
+	5216.1.1 = {
+		holder = lineofarialome6
+	}
+		5329.1.1 = {
+		holder = lineofarialome7
+		liege = e_numenor
+	}
+		5440.1.1 = {
+		holder = lineofarialome8
+	}
+		5554.1.1 = {
+		holder = lineofarialome9
+	}
+		5699.1.1 = {
+		holder = lineofarialome10
+	}
+		5809.1.1 = {
+		holder = lineofarialome11
+	}
+		5956.1.1 = {
+		holder = lineofarialome12
+	}
+		6098.1.1 = {
+		holder = lineofarialome13
+	}
+		6211.1.1 = {
+		holder = lineofarialome14
+	}
+		6342.1.1 = {
+		holder = lineofarialome15
+	}
+		6454.1.1 = {
+		holder = lineofarialome16
+	}
+		6566.1.1 = {
+		holder = lineofarialome17
+	}
+		6571.1.1 = {
+		holder = lineofarialome18
+	}
+		6683.1.1 = {
+		holder = lineofarialome19
+	}
+		6800.1.1 = {
+		holder = lineofarialome20
+	}
+		6927.1.1 = {
+		holder = lineofarialome21
+	}
+		7030.1.1 = {
+		holder = lineofarialome22
+		liege = e_numenor
+	}
+}
+
+d_erest = {
+    4004.10.1 = {
+        holder = lineoftelemnacil7 #Faramir
+    }
+    4131.10.7 = {
+        holder = lineoftelemnacil9 #Mireatan
+    }
+    4279.7.15 = {
+        holder = lineoftelemnacil11 #Mamandur
+    }
+    4330.3.22 = {
+        holder = lineoftelemnacil13 #Salmandil
+    }
+    4453.9.10 = {
+        holder = lineoftelemnacil15 #Romendacil
+    }
+    4569.8.10 = {
+        holder = lineoftelemnacil17 #Penlodh
+    }
+    4692.1.25 = {
+        holder = lineoftelemnacil19 #Ulwarth
+    }
+    4823.8.1 = {
+        holder = lineoftelemnacil21 #Silmardur
+    }
+    4948.2.24 = {
+        holder = lineoftelemnacil23 #Eargon
+    }
+    5003.12.21 = {
+        holder = lineoftelemnacil25 #Olumir
+    }
+    5055.9.15 = {
+        holder = lineoftelemnacil27 #Arahad
+    }
+    5184.7.25 = {
+        holder = lineoftelemnacil29 #Arathorn
+    }
+    5301.6.8 = {
+        holder = lineoftelemnacil31 #Amrothor
+	liege = e_numenor
+    }
+    5452.12.7 = {
+        holder = lineoftelemnacil33 #Argeleb
+    }
+    5515.12.27 = {
+        holder = lineoftelemnacil35 #Electhel
+    }
+    5583.5.25 = {
+        holder = lineoftelemnacil37 #Telcontar
+    }
+    5675.6.3 = {
+        holder = lineoftelemnacil39 #Lintoron
+    }
+    5738.2.25 = {
+        holder = lineoftelemnacil41 #Haldar
+    }
+    5822.9.12 = {
+        holder = lineoftelemnacil43 #Curimardin
+    }
+    5978.3.14 = {
+        holder = lineoftelemnacil45 #Thalion
+    }
+    6120.11.16 = {
+        holder = lineoftelemnacil47 #Borothor
+    }
+    6168.1.27 = {
+        holder = lineoftelemnacil49 #Borodir
+    }
+    6318.11.6 = {
+        holder = lineoftelemnacil51 #Electhel
+    }
+    6452.9.14 = {
+        holder = lineoftelemnacil53 #Romemir
+    }
+    6598.2.15 = {
+        holder = lineoftelemnacil55 #Marenar
+    }
+    6706.10.3 = {
+        holder = lineoftelemnacil57 #Feandil
+    }
+    6843.11.14 = {
+        holder = lineoftelemnacil59 #Eadacil
+    }
+    6916.3.23 = {
+        holder = lineoftelemnacil61 #Angelimir
+		liege = e_numenor
+    }
+    7045.12.7 = {
+        holder = lineoftelemnacil63 #Castamir
+		liege = e_numenor
+	}
+}
+
+d_nunduine = {
+	2200.1.1 = {
+		holder = ciryamirdad
+	}
+	2426.1.1 = {
+		holder = lineofciryamir1
+	}
+	2510.1.1 = {
+		holder = lineofciryamir3
+	}
+	2692.1.1 = {
+		holder = lineofciryamir5
+	}
+	2811.1.1 = {
+		holder = lineofciryamir7
+	}
+	3034.1.1 = {
+		holder = lineofciryamir8
+	}
+	3229.1.1 = {
+		holder = lineofciryamir9
+	}
+	3429.1.1 = {
+		holder = lineofciryamir10
+	}
+	3623.1.1 = {
+		holder = lineofciryamir11
+	}
+	3823.1.1 = {
+		holder = lineofciryamir12
+	}
+	3998.1.1 = {
+		holder = lineofark7
+	}
+	4123.1.1 = {
+		holder = lineofciryamir14
+	}
+	4325.1.1 = {
+		holder = lineofciryamir15
+	}
+	4527.1.1 = {
+		holder = lineofciryamir16
+	}
+	4723.1.1 = {
+		holder = lineofciryamir17
+	}
+	4925.1.1 = {
+		holder = lineofciryamir18
+	}
+	5127.1.1 = {
+		holder = lineofciryamir19
+	}
+	5334.1.1 = {
+		holder = lineofciryamir20
+		liege = e_numenor
+	}
+	5530.1.1 = {
+		holder = lineofciryamir21
+	}
+	5737.1.1 = {
+		holder = lineofciryamir22
+	}
+	5938.1.1 = {
+		holder = lineofciryamir23
+	}
+	6131.1.1 = {
+		holder = lineofciryamir24
+	}
+	6329.1.1 = {
+		holder = lineofciryamir25
+	}
+	6401.1.1 = {
+		holder = lineofciryamir27
+	}
+	6556.1.1 = {
+		holder = lineofciryamir28
+	}
+	6737.1.1 = {
+		holder = lineofciryamir29
+	}
+	6931.1.1 = {
+		holder = lineofciryamir30
+		liege = e_numenor
+	}
+}
+
+d_erelonde = {
+	629.1.1 = {
+		holder = lineofagathor5
+	}
+	941.1.1 = {
+		holder = lineofagathor6
+	}
+	1163.1.1 = {
+		holder = lineofelros72
+	}
+	1529.1.1 = {
+		holder = lineofelros71
+	}
+	1702.1.1 = {
+		holder = lineofelros73
+	}
+	1774.1.1 = {
+		holder = lineofagathor7
+	}
+	1976.1.1 = {
+		holder = lineofagathor8
+	}
+	2199.1.1 = {
+		holder = lineofagathor9
+	}
+	2377.1.1 = {
+		holder = lineofagathor10
+	}
+	2638.1.1 = {
+		holder = lineofagathor11
+	}
+	2924.1.1 = {
+		holder = lineofagathor12
+	}
+	3197.1.1 = {
+		holder = lineofagathor13
+	}
+	3351.1.1 = {
+		holder = lineofagathor14
+	}
+	3573.1.1 = {
+		holder = lineofagathor15
+	}
+	3740.1.1 = {
+		holder = lineofagathor16
+	}
+	3911.1.1 = {
+		holder = lineofagathor17
+	}
+	4005.1.1 = {
+		holder = lineofagathor18
+	}
+	4237.1.1 = {
+		holder = lineofagathor19
+	}
+	4520.1.1 = {
+		holder = lineofagathor20
+	}
+	4807.1.1 = {
+		holder = lineofagathor21
+	}
+	5067.1.1 = {
+		holder = lineofagathor22
+	}
+	5268.1.1 = {
+		holder = lineofagathor23
+		liege = e_numenor
+	}
+	5473.1.1 = {
+		holder = lineofagathor24
+	}
+	5664.1.1 = {
+		holder = lineofagathor25
+	}
+	5855.1.1 = {
+		holder = lineofagathor26
+	}
+	5998.1.1 = {
+		holder = lineofagathor27
+	}
+	6101.1.1 = {
+		holder = lineofagathor28
+	}
+	6244.1.1 = {
+		holder = lineofagathor29
+	}
+	6332.1.1 = {
+		holder = lineofagathor30
+	}
+	6401.1.1 = {
+		holder = lineofagathor31
+	}
+	6460.1.1 = {
+		holder = lineofagathor32
+	}
+	6620.1.1 = {
+		holder = lineofagathor33
+	}
+	6736.1.1 = {
+		holder = lineofagathor34
+	}
+	6907.1.1 = {
+		holder = lineofagathor35
+	}
+	7025.1.1 = {
+		holder = lineofagathor36
+		liege = e_numenor
+	}
+}
+
+d_hyarnudore = {
+	2044.1.1 = {
+		holder = lineborodiriath1
+	}
+	2404.1.1 = {
+		holder = lineborodirsubmod1
+	}
+	2775.1.1 = {
+		holder = lineborodirsubmod2
+	}
+	3028.1.1 = {
+		holder = lineborodirsubmod3
+	}
+	3215.1.1 = {
+		holder = lineborodirsubmod4
+	}
+	3470.1.1 = {
+		holder = lineborodirsubmod5
+	}
+	3739.1.1 = {
+		holder = lineborodirsubmod6
+	}
+	3910.1.1 = {
+		holder = lineborodirsubmod7
+	}
+	4240.1.1 = {
+		holder = lineborodirsubmod8
+	}
+	4473.1.1 = {
+		holder = lineborodirsubmod9
+	}
+	4652.1.1 = {
+		holder = lineborodirsubmod10
+	}
+	4830.1.1 = {
+		holder = lineborodirsubmod11
+	}
+	5036.1.1 = {
+		holder = lineborodirsubmod12
+	}
+	5215.1.1 = {
+		holder = lineborodirsubmod13
+		liege = e_numenor
+	}
+	5442.1.1 = {
+		holder = lineborodirsubmod14
+	}
+	5610.1.1 = {
+		holder = lineborodirsubmod15
+	}
+	5826.1.1 = {
+		holder = lineborodirsubmod16
+	}
+	5972.1.1 = {
+		holder = lineborodirsubmod17
+	}
+	6074.1.1 = {
+		holder = lineborodirsubmod18
+	}
+	6193.1.1 = {
+		holder = lineborodirsubmod19
+	}
+	6365.1.1 = {
+		holder = lineborodirsubmod20
+	}
+	6432.1.1 = {
+		holder = lineborodirsubmod21
+	}
+	6484.1.1 = {
+		holder = lineborodirsubmod22
+	}
+	6534.1.1 = {
+		holder = lineborodirsubmod23
+	}
+	6626.1.1 = {
+		holder = lineborodirsubmod24
+	}
+	6720.1.1 = {
+		holder = lineborodirsubmod25
+	}
+	6806.1.1 = {
+		holder = lineborodirsubmod26
+	}
+	6868.1.1 = {
+		holder = lineborodirsubmod27
+	}
+	7018.1.1 = {
+		holder = lineborodirsubmod28
+		liege = e_numenor
+	}
+}	
+
+
+d_zimrayan = {
+	3760.1.1 = {
+		holder = linejewellord1
+	}
+	3911.1.1 = {
+		holder = linejewellord2
+	}
+	3922.1.1 = {
+		holder = linegimilson1
+	}
+	3954.1.1 = {
+		holder = linegimilson2
+	}
+	4092.1.1 = {
+		holder = linegimilson3
+	}
+	4130.1.1 = {
+		holder = 0 
+	}
+	4330.1.1 = {
+		holder = linejewellord6
+	}
+	4517.1.1 = {
+		holder = linejewellord7
+	}
+	4712.1.1 = {
+		holder = linejewellord8
+	}
+	4891.1.1 = {
+		holder = linejewellord9
+	}
+	5052.1.1 = {
+		holder = linejewellord10
+	}
+	5175.1.1 = {
+		holder = linejewellord11
+	}
+	5323.1.1 = {
+		holder = linejewellord12
+		liege = e_numenor
+	}
+	5504.1.1 = {
+		holder = linejewellord13
+	}
+	5692.1.1 = {
+		holder = linejewellord14
+	}
+	5841.1.1 = {
+		holder = linejewellord15
+	}
+	6021.1.1 = {
+		holder = linejewellord16
+	}
+	6208.1.1 = {
+		holder = linejewellord17
+	}
+	6383.1.1 = {
+		holder = linejewellord18
+	}
+	6542.1.1 = {
+		holder = linejewellord19
+	}
+	6727.1.1 = {
+		holder = linejewellord20
+	}
+	6853.1.1 = {
+		holder = linejewellord21
+	}
+	6921.1.1 = {
+		holder = linejewellord22
+	}
+	7000.1.1 = {
+		holder = linejewellord23
+		liege = e_numenor
+	}
+}
+
+d_nindamos = {
+	3257.1.1 = {
+		holder = lordsofkorlea13
+	}
+	3434.1.1 = {
+		holder = lordsofkorlea14
+	}
+	3636.1.1 = {
+		holder = lordsofkorlea15
+	}
+	3826.1.1 = {
+		holder = lordsofkorlea16
+	}
+	4017.1.1 = {
+		holder = lordsofkorlea17
+	}
+	4099.1.1 = {
+		holder = 0
+	}
+	4394.1.1 = {
+		holder = lordsofkorlea19
+	}
+	4513.1.1 = {
+		holder = lordsofkorlea20
+	}
+	4718.1.1 = {
+		holder = lordsofkorlea21
+	}
+	4919.1.1 = {
+		holder = lordsofkorlea22
+	}
+	5109.1.1 = {
+		holder = lordsofkorlea23
+	}
+	5322.1.1 = {
+		holder = lordsofkorlea24
+		liege = e_numenor
+	}
+	5528.1.1 = {
+		holder = lordsofkorlea25
+	}
+	5717.1.1 = {
+		holder = lordsofkorlea26
+	}
+	5903.1.1 = {
+		holder = lordsofkorlea27
+	}
+	6116.1.1 = {
+		holder = lordsofkorlea28
+	}
+	6327.1.1 = {
+		holder = lordsofkorlea29
+	}
+	6527.1.1 = {
+		holder = lordsofkorlea30
+	}
+	6725.1.1 = {
+		holder = lordsofkorlea31
+	}
+	6919.1.1 = {
+		holder = lordsofkorlea32
+	}
+	7000.1.1 = {
+		holder = lordsofkorlea33
+		liege = e_numenor
+	}
+}
+
+d_emerie = {
+	624.1.1 = {
+		holder = mablung5
+	}
+	959.1.1 = {
+		holder = mablung6
+	}
+	1080.1.1 = {
+		holder = mablung7
+	}
+	1125.1.1 = {
+		holder = mablung8
+	}
+	1263.1.1 = {
+		holder = mablung9
+	}
+	1371.1.1 = {
+		holder = mablung10
+	}
+	1487.1.1 = {
+		holder = mablung12
+	}
+	1629.1.1 = {
+		holder = mablung13
+	}
+	1851.1.1 = {
+		holder = mablung14
+	}
+	2071.1.1 = {
+		holder = mablung15
+	}
+	2279.1.1 = {
+		holder = mablung16
+	}
+	2504.1.1 = {
+		holder = mablung17
+	}
+	2767.1.1 = {
+		holder = mablung18
+	}
+	2969.1.1 = {
+		holder = mablung19
+	}
+	3184.1.1 = {
+		holder = mablung20
+	}
+	3342.1.1 = {
+		holder = mablung21
+	}
+	3588.1.1 = {
+		holder = mablung22
+	}
+	3753.1.1 = {
+		holder = mablung23
+	}
+	3833.1.1 = {
+		holder = mablung24
+	}
+	3903.1.1 = {
+		holder = mablung25
+	}
+	4031.1.1 = {
+		holder = mablung26
+	}
+	4159.1.1 = {
+		holder = mablung27
+	}
+	4344.1.1 = {
+		holder = mablung28
+	}
+	4551.1.1 = {
+		holder = mablung29
+	}
+	4784.1.1 = {
+		holder = mablung30
+	}
+	4941.1.1 = {
+		holder = mablung31
+	}
+	5118.1.1 = {
+		holder = mablung32
+	}
+	5321.1.1 = {
+		holder = mablung33
+		liege = e_numenor
+	}
+	5528.1.1 = {
+		holder = mablung34
+	}
+	5731.1.1 = {
+		holder = mablung35
+	}
+	5929.1.1 = {
+		holder = mablung36
+	}
+	6117.1.1 = {
+		holder = mablung37
+	}
+	6247.1.1 = {
+		holder = mablung38
+	}
+	6326.1.1 = {
+		holder = mablung39
+	}
+	6469.1.1 = {
+		holder = mablung40
+	}
+	6573.1.1 = {
+		holder = mablung41
+	}
+	6682.1.1 = {
+		holder = mablung42
+	}
+	6813.1.1 = {
+		holder = mablung43
+	}
+	6929.1.1 = {
+		holder = mablung44
+	}
+	7001.1.1 = {
+		holder = mablung45
+		liege = e_numenor
+	}
+}
+
+d_sirinore = {
+	3924.1.1 = {
+		holder = linesirinore7
+	}
+	4159.1.1 = {
+		holder = linesirinore8
+	}
+	4302.1.1 = {
+		holder = linesirinore9
+	}
+	4506.1.1 = {
+		holder = linesirinore10
+	}
+	4673.1.1 = {
+		holder = linesirinore11
+	}
+	4809.1.1 = {
+		holder = linesirinore12
+	}
+	5002.1.1 = {
+		holder = linesirinore13
+	}
+	5177.1.1 = {
+		holder = linesirinore14
+	}
+	5368.1.1 = {
+		holder = linesirinore15
+		liege = e_numenor
+	}
+	5500.1.1 = {
+		holder = linesirinore16
+	}
+	5710.1.1 = {
+		holder = linesirinore17
+	}
+	5895.1.1 = {
+		holder = linesirinore18
+	}
+	6051.1.1 = {
+		holder = linesirinore19
+	}
+	6230.1.1 = {
+		holder = linesirinore20
+	}
+	6412.1.1 = {
+		holder = linesirinore21
+	}
+	6577.1.1 = {
+		holder = linesirinore22
+	}
+	6686.1.1 = {
+		holder = linesirinore23
+	}
+	6817.1.1 = {
+		holder = linesirinore24
+	}
+	6982.1.1 = {
+		holder = linesirinore25
+	}
+	7032.1.1 = {
+		holder = linesirinore26
+		liege = e_numenor
+	}
+}
+
+
+### NUMENOR COUNTIES ###
+
+c_opele_ancalimonva = {
+	6929.1.1 = {
+		holder = lineofvardur26
+		change_development_level = 24
+	}
+}
+
+c_aruwanai = {
+	6405.1.1 = {
+		holder = lineofaru10
+	}
+	6441.1.1 = {
+		holder = lineofaru12
+	}
+	6570.1.1 = {
+		holder = lineofaru13
+	}
+	6683.1.1 = {
+		holder = lineofaru14
+	}
+	6886.1.1 = {
+		holder = lineofaru15
+	}
+	6974.1.1 = {
+		holder = lineofaru16
+		change_development_level = 18
+	}
+}
+
+c_formenore = {
+	3221.1.1 = {
+		holder = lineofazruben1
+	}
+	3482.1.13 = {
+		holder = lineofazrubensubmod1
+	}
+	3672.1.1 = {
+		holder = lineofazrubensubmod2
+	}
+		3810.1.1 = {
+		holder = lineofazrubensubmod3
+	}
+		3911.1.1 = {
+			holder = lineofazrubensubmod4
+	}
+		3917.1.1 = {
+		holder = 0
+	}
+		4368.1.1 = {
+		holder = lineofazrubensubmod8
+	}
+		4412.1.1 = {
+		holder = lineofazrubensubmod9
+	}
+		4550.1.1 = {
+		holder = lineofazrubensubmod10
+	}
+		4663.1.1 = {
+		holder = lineofazrubensubmod11
+	}
+		4773.1.1 = {
+		holder = lineofazrubensubmod12
+	}
+		4891.1.1 = {
+		holder = lineofazrubensubmod13
+	}
+		5021.1.1 = {
+		holder = lineofazrubensubmod14
+	}
+		5139.1.1 = {
+		holder = lineofazrubensubmod15
+	}
+		5340.1.1 = {
+		holder = lineofazrubensubmod16
+	}
+		5473.1.1 = {
+		holder = lineofazrubensubmod17
+	}
+		5600.1.1 = {
+		holder = lineofazrubensubmod18
+	}
+		5736.1.1 = {
+		holder = lineofazrubensubmod19
+	}
+		5852.1.1 = {
+		holder = lineofazrubensubmod20
+	}
+		5967.1.1 = {
+		holder = lineofazrubensubmod21
+	}
+		6086.1.1 = {
+		holder = lineofazrubensubmod22
+	}
+		6211.1.1 = {
+		holder = lineofazrubensubmod23
+	}
+		6339.1.1 = {
+		holder = lineofazrubensubmod24
+	}
+		6447.1.1 = {
+		holder = lineofazrubensubmod25
+	}
+		6577.1.1 = {
+		holder = lineofazrubensubmod26
+	}
+		6696.1.1 = {
+		holder = lineofazrubensubmod27
+	}
+		6808.1.1 = {
+		holder = lineofazrubensubmod28
+	}
+		6942.1.1 = {
+		holder = lineofazrubensubmod29
+		change_development_level = 12
+	}
+}
+
+c_anariova = {
+	6407.1.1 = {
+		holder = lineofkhorahil4
+	}
+	6512.1.1 = {
+		holder = lineofkhorahil5
+	}
+	6664.1.1 = {
+		holder = lineofkhorahil6
+	}
+	6753.1.1 = {
+		holder = lineofkhorahil7
+	}
+	6896.1.1 = {
+		holder = lineofkhorahil8
+	}
+	6997.1.1 = {
+		holder = lineofkhorahil9
+		change_development_level = 13
+	}
+}
+
+c_ciryalonde = {
+	4002.1.1 = {
+		holder = lineofciryandur18
+		change_development_level = 19
+	}
+	4138.1.1 = {
+		holder = lineofciryandur19
+	}
+	4353.1.1 = {
+		holder = lineofciryandur20
+	}
+	4544.1.1 = {
+		holder = lineofciryandur21
+	}
+	4739.1.1 = {
+		holder = lineofciryandur22
+	}
+	4944.1.1 = {
+		holder = lineofciryandur23
+	}
+	5149.1.1 = {
+		holder = lineofciryandur24
+	}
+	5352.1.1 = {
+		holder = lineofciryandur25
+		liege = e_numenor
+	}
+	5546.1.1 = {
+		holder = lineofciryandur26
+	}
+	5749.1.1 = {
+		holder = lineofciryandur27
+	}
+	5950.1.1 = {
+		holder = lineofciryandur28
+	}
+	6150.1.1 = {
+		holder = lineofciryandur29
+	}
+	6336.1.1 = {
+		holder = lineofciryandur30
+	}
+	6403.1.1 = {
+		holder = lineofciryandur31
+	}
+	6625.1.1 = {
+		holder = lineofciryandur32
+	}
+	6816.1.1 = {
+		holder = lineofciryandur33
+	}
+	7010.1.1 = {
+		holder = lineofciryandur34
+	}
+}
+
+c_elrova = {
+	5377.1.1 = {
+		holder = lineelebastard1
+	}
+	5553.1.1 = {
+		holder = lineelebastard2
+	}
+	5651.1.1 = {
+		holder = lineelebastard3
+	}
+	5774.1.1 = {
+		holder = lineelebastard4
+	}
+	5849.1.1 = {
+		holder = lineelebastard5
+	}
+	5951.1.1 = {
+		holder = lineelebastard6
+	}
+	6063.1.1 = {
+		holder = lineelebastard7
+	}
+	6201.1.1 = {
+		holder = lineelebastard8
+	}
+	6329.1.1 = {
+		holder = lineelebastard9
+	}
+	6445.1.1 = {
+		holder = lineelebastard10
+	}
+	6581.1.1 = {
+		holder = lineelebastard11
+	}
+	6690.1.1 = {
+		holder = lineelebastard12
+	}
+	6799.1.1 = {
+		holder = lineelebastard13
+	}
+	6898.1.1 = {
+		holder = lineelebastard14
+	}
+	7003.1.1 = {
+		holder = lineelebastard15
+		change_development_level = 18
+	}
+}
+
+c_sorontil = {
+	6927.1.1 = {
+		holder = ruxoalendil27
+		change_development_level = 15
+	}
+}
+
+c_ondosto = {
+	3911.1.1 = {
+		holder = lineofelros88
+	}
+	6982.1.1 = {
+		holder = lineofelros117
+		change_development_level = 21
+	}
+}
+
+c_arialome = {
+	4513.1.1 = {
+		holder = lineofarialome1
+	}
+	4729.1.1 = {
+		holder = lineofarialome2
+	}
+	4891.1.1 = {
+		holder = lineofarialome3
+	}
+	4991.1.1 = {
+		holder = lineofarialome4
+	}
+	5100.1.1 = {
+		holder = lineofarialome5
+	}
+	5216.1.1 = {
+		holder = lineofarialome6
+	}
+		5329.1.1 = {
+		holder = lineofarialome7
+	}
+		5440.1.1 = {
+		holder = lineofarialome8
+	}
+		5554.1.1 = {
+		holder = lineofarialome9
+	}
+		5699.1.1 = {
+		holder = lineofarialome10
+	}
+		5809.1.1 = {
+		holder = lineofarialome11
+	}
+		5956.1.1 = {
+		holder = lineofarialome12
+	}
+		6098.1.1 = {
+		holder = lineofarialome13
+	}
+		6211.1.1 = {
+		holder = lineofarialome14
+	}
+		6342.1.1 = {
+		holder = lineofarialome15
+	}
+		6454.1.1 = {
+		holder = lineofarialome16
+	}
+		6566.1.1 = {
+		holder = lineofarialome17
+	}
+		6571.1.1 = {
+		holder = lineofarialome18
+	}
+		6683.1.1 = {
+		holder = lineofarialome19
+	}
+		6800.1.1 = {
+		holder = lineofarialome20
+	}
+		6927.1.1 = {
+		holder = lineofarialome21
+	}
+		7030.1.1 = {
+		holder = lineofarialome22
+		change_development_level = 10
+	}
+}
+
+c_erest = {
+    4004.10.1 = {
+        holder = lineoftelemnacil7 #Faramir
+    }
+    4131.10.7 = {
+        holder = lineoftelemnacil9 #Mireatan
+    }
+    4279.7.15 = {
+        holder = lineoftelemnacil11 #Mamandur
+    }
+    4330.3.22 = {
+        holder = lineoftelemnacil13 #Salmandil
+    }
+    4453.9.10 = {
+        holder = lineoftelemnacil15 #Romendacil
+    }
+    4569.8.10 = {
+        holder = lineoftelemnacil17 #Penlodh
+    }
+    4692.1.25 = {
+        holder = lineoftelemnacil19 #Ulwarth
+    }
+    4823.8.1 = {
+        holder = lineoftelemnacil21 #Silmardur
+    }
+    4948.2.24 = {
+        holder = lineoftelemnacil23 #Eargon
+    }
+    5003.12.21 = {
+        holder = lineoftelemnacil25 #Olumir
+    }
+    5055.9.15 = {
+        holder = lineoftelemnacil27 #Arahad
+    }
+    5184.7.25 = {
+        holder = lineoftelemnacil29 #Arathorn
+    }
+    5301.6.8 = {
+        holder = lineoftelemnacil31 #Amrothor
+    }
+    5452.12.7 = {
+        holder = lineoftelemnacil33 #Argeleb
+    }
+    5515.12.27 = {
+        holder = lineoftelemnacil35 #Electhel
+    }
+    5583.5.25 = {
+        holder = lineoftelemnacil37 #Telcontar
+    }
+    5675.6.3 = {
+        holder = lineoftelemnacil39 #Lintoron
+    }
+    5738.2.25 = {
+        holder = lineoftelemnacil41 #Haldar
+    }
+    5822.9.12 = {
+        holder = lineoftelemnacil43 #Curimardin
+    }
+    5978.3.14 = {
+        holder = lineoftelemnacil45 #Thalion
+    }
+    6120.11.16 = {
+        holder = lineoftelemnacil47 #Borothor
+    }
+    6168.1.27 = {
+        holder = lineoftelemnacil49 #Borodir
+    }
+    6318.11.6 = {
+        holder = lineoftelemnacil51 #Electhel
+    }
+    6452.9.14 = {
+        holder = lineoftelemnacil53 #Romemir
+    }
+    6598.2.15 = {
+        holder = lineoftelemnacil55 #Marenar
+    }
+    6706.10.3 = {
+        holder = lineoftelemnacil57 #Feandil
+    }
+    6843.11.14 = {
+        holder = lineoftelemnacil59 #Eadacil
+		change_development_level = 11
+    }
+    6916.3.23 = {
+        holder = lineoftelemnacil61 #Angelimir
+    }
+    7045.12.7 = {
+        holder = lineoftelemnacil63 #Castamir
+	}
+}
+
+c_nunduine = {
+	6931.1.1 = {
+		holder = lineofciryamir30
+		change_development_level = 16
+	}
+}
+
+c_erelonde = {
+	629.1.1 = {
+		holder = lineofagathor5
+	}
+	941.1.1 = {
+		holder = lineofagathor6
+	}
+	1163.1.1 = {
+		holder = lineofelros72
+	}
+	1529.1.1 = {
+		holder = lineofelros71
+	}
+	1702.1.1 = {
+		holder = lineofelros73
+	}
+	1774.1.1 = {
+		holder = lineofagathor7
+	}
+	1976.1.1 = {
+		holder = lineofagathor8
+	}
+	2199.1.1 = {
+		holder = lineofagathor9
+	}
+	2377.1.1 = {
+		holder = lineofagathor10
+	}
+	2638.1.1 = {
+		holder = lineofagathor11
+	}
+	2924.1.1 = {
+		holder = lineofagathor12
+	}
+	3197.1.1 = {
+		holder = lineofagathor13
+	}
+	3351.1.1 = {
+		holder = lineofagathor14
+	}
+	3573.1.1 = {
+		holder = lineofagathor15
+	}
+	3740.1.1 = {
+		holder = lineofagathor16
+	}
+	3911.1.1 = {
+		holder = lineofagathor17
+	}
+	4005.1.1 = {
+		holder = lineofagathor18
+	}
+	4237.1.1 = {
+		holder = lineofagathor19
+	}
+	4520.1.1 = {
+		holder = lineofagathor20
+	}
+	4807.1.1 = {
+		holder = lineofagathor21
+	}
+	5067.1.1 = {
+		holder = lineofagathor22
+	}
+	5268.1.1 = {
+		holder = lineofagathor23
+	}
+	5473.1.1 = {
+		holder = lineofagathor24
+	}
+	5664.1.1 = {
+		holder = lineofagathor25
+	}
+	5855.1.1 = {
+		holder = lineofagathor26
+	}
+	5998.1.1 = {
+		holder = lineofagathor27
+	}
+	6101.1.1 = {
+		holder = lineofagathor28
+	}
+	6244.1.1 = {
+		holder = lineofagathor29
+	}
+	6332.1.1 = {
+		holder = lineofagathor30
+	}
+	6401.1.1 = {
+		holder = lineofagathor31
+	}
+	6460.1.1 = {
+		holder = lineofagathor32
+	}
+	6620.1.1 = {
+		holder = lineofagathor33
+	}
+	6736.1.1 = {
+		holder = lineofagathor34
+	}
+	6907.1.1 = {
+		holder = lineofagathor35
+	}
+	7025.1.1 = {
+		holder = lineofagathor36
+		change_development_level = 23
+	}
+}
+
+c_nidirmost = {
+	2044.1.1 = {
+		holder = lineborodiriath1
+	}
+	2404.1.1 = {
+		holder = lineborodirsubmod1
+	}
+	2775.1.1 = {
+		holder = lineborodirsubmod2
+	}
+	3028.1.1 = {
+		holder = lineborodirsubmod3
+	}
+	3215.1.1 = {
+		holder = lineborodirsubmod4
+	}
+	3470.1.1 = {
+		holder = lineborodirsubmod5
+	}
+	3739.1.1 = {
+		holder = lineborodirsubmod6
+	}
+	3910.1.1 = {
+		holder = lineborodirsubmod7
+	}
+	4240.1.1 = {
+		holder = lineborodirsubmod8
+	}
+	4473.1.1 = {
+		holder = lineborodirsubmod9
+	}
+	4652.1.1 = {
+		holder = lineborodirsubmod10
+	}
+	4830.1.1 = {
+		holder = lineborodirsubmod11
+	}
+	5036.1.1 = {
+		holder = lineborodirsubmod12
+	}
+	5215.1.1 = {
+		holder = lineborodirsubmod13
+	}
+	5442.1.1 = {
+		holder = lineborodirsubmod14
+	}
+	5610.1.1 = {
+		holder = lineborodirsubmod15
+	}
+	5826.1.1 = {
+		holder = lineborodirsubmod16
+	}
+	5972.1.1 = {
+		holder = lineborodirsubmod17
+	}
+	6074.1.1 = {
+		holder = lineborodirsubmod18
+	}
+	6193.1.1 = {
+		holder = lineborodirsubmod19
+	}
+	6365.1.1 = {
+		holder = lineborodirsubmod20
+	}
+	6432.1.1 = {
+		holder = lineborodirsubmod21
+	}
+	6484.1.1 = {
+		holder = lineborodirsubmod22
+	}
+	6534.1.1 = {
+		holder = lineborodirsubmod23
+	}
+	6626.1.1 = {
+		holder = lineborodirsubmod24
+	}
+	6720.1.1 = {
+		holder = lineborodirsubmod25
+	}
+	6806.1.1 = {
+		holder = lineborodirsubmod26
+	}
+	6868.1.1 = {
+		holder = lineborodirsubmod27
+	}
+	7018.1.1 = {
+		holder = lineborodirsubmod28
+		change_development_level = 12
+	}
+}
+
+c_zimraopele = {
+	3760.1.1 = {
+		holder = linejewellord1
+	}
+	3911.1.1 = {
+		holder = linejewellord2
+	}
+	3922.1.1 = {
+		holder = linegimilson1
+	}
+	3954.1.1 = {
+		holder = linegimilson2
+	}
+	4092.1.1 = {
+		holder = linegimilson3
+	}
+	4130.1.1 = {
+		holder = 0 
+	}
+	4330.1.1 = {
+		holder = linejewellord6
+	}
+	4517.1.1 = {
+		holder = linejewellord7
+	}
+	4712.1.1 = {
+		holder = linejewellord8
+	}
+	4891.1.1 = {
+		holder = linejewellord9
+	}
+	5052.1.1 = {
+		holder = linejewellord10
+	}
+	5175.1.1 = {
+		holder = linejewellord11
+	}
+	5323.1.1 = {
+		holder = linejewellord12
+	}
+	5504.1.1 = {
+		holder = linejewellord13
+	}
+	5692.1.1 = {
+		holder = linejewellord14
+	}
+	5841.1.1 = {
+		holder = linejewellord15
+	}
+	6021.1.1 = {
+		holder = linejewellord16
+	}
+	6208.1.1 = {
+		holder = linejewellord17
+	}
+	6383.1.1 = {
+		holder = linejewellord18
+	}
+	6542.1.1 = {
+		holder = linejewellord19
+	}
+	6727.1.1 = {
+		holder = linejewellord20
+	}
+	6853.1.1 = {
+		holder = linejewellord21
+	}
+	6921.1.1 = {
+		holder = linejewellord22
+	}
+	7000.1.1 = {
+		holder = linejewellord23
+		change_development_level = 18
+	}
+}
+
+c_nindamos = {
+	3257.1.1 = {
+		holder = lordsofkorlea13
+	}
+	3434.1.1 = {
+		holder = lordsofkorlea14
+	}
+	3636.1.1 = {
+		holder = lordsofkorlea15
+	}
+	3826.1.1 = {
+		holder = lordsofkorlea16
+	}
+	4017.1.1 = {
+		holder = lordsofkorlea17
+	}
+	4099.1.1 = {
+		holder = lordsofkorlea18
+	}
+	4394.1.1 = {
+		holder = lordsofkorlea19
+	}
+	4513.1.1 = {
+		holder = lordsofkorlea20
+	}
+	4718.1.1 = {
+		holder = lordsofkorlea21
+	}
+	4919.1.1 = {
+		holder = lordsofkorlea22
+	}
+	5109.1.1 = {
+		holder = lordsofkorlea23
+	}
+	5322.1.1 = {
+		holder = lordsofkorlea24
+	}
+	5528.1.1 = {
+		holder = lordsofkorlea25
+	}
+	5717.1.1 = {
+		holder = lordsofkorlea26
+	}
+	5903.1.1 = {
+		holder = lordsofkorlea27
+	}
+	6116.1.1 = {
+		holder = lordsofkorlea28
+	}
+	6327.1.1 = {
+		holder = lordsofkorlea29
+	}
+	6527.1.1 = {
+		holder = lordsofkorlea30
+	}
+	6725.1.1 = {
+		holder = lordsofkorlea31
+	}
+	6919.1.1 = {
+		holder = lordsofkorlea32
+	}
+	7000.1.1 = {
+		holder = lordsofkorlea33
+		change_development_level = 12
+	}
+}
+
+c_erendis = {
+	624.1.1 = {
+		holder = mablung5
+	}
+	959.1.1 = {
+		holder = mablung6
+	}
+	1080.1.1 = {
+		holder = mablung7
+	}
+	1125.1.1 = {
+		holder = mablung8
+	}
+	1263.1.1 = {
+		holder = mablung9
+	}
+	1371.1.1 = {
+		holder = mablung10
+	}
+	1487.1.1 = {
+		holder = mablung12
+	}
+	1629.1.1 = {
+		holder = mablung13
+	}
+	1851.1.1 = {
+		holder = mablung14
+	}
+	2071.1.1 = {
+		holder = mablung15
+	}
+	2279.1.1 = {
+		holder = mablung16
+	}
+	2504.1.1 = {
+		holder = mablung17
+	}
+	2767.1.1 = {
+		holder = mablung18
+	}
+	2969.1.1 = {
+		holder = mablung19
+	}
+	3184.1.1 = {
+		holder = mablung20
+	}
+	3342.1.1 = {
+		holder = mablung21
+	}
+	3588.1.1 = {
+		holder = mablung22
+	}
+	3753.1.1 = {
+		holder = mablung23
+	}
+	3833.1.1 = {
+		holder = mablung24
+	}
+	3903.1.1 = {
+		holder = mablung25
+	}
+	4031.1.1 = {
+		holder = mablung26
+	}
+	4159.1.1 = {
+		holder = mablung27
+	}
+	4344.1.1 = {
+		holder = mablung28
+	}
+	4551.1.1 = {
+		holder = mablung29
+	}
+	4784.1.1 = {
+		holder = mablung30
+	}
+	4941.1.1 = {
+		holder = mablung31
+	}
+	5118.1.1 = {
+		holder = mablung32
+	}
+	5321.1.1 = {
+		holder = mablung33
+	}
+	5528.1.1 = {
+		holder = mablung34
+	}
+	5731.1.1 = {
+		holder = mablung35
+	}
+	5929.1.1 = {
+		holder = mablung36
+	}
+	6117.1.1 = {
+		holder = mablung37
+	}
+	6247.1.1 = {
+		holder = mablung38
+	}
+	6326.1.1 = {
+		holder = mablung39
+	}
+	6469.1.1 = {
+		holder = mablung40
+	}
+	6573.1.1 = {
+		holder = mablung41
+	}
+	6682.1.1 = {
+		holder = mablung42
+	}
+	6813.1.1 = {
+		holder = mablung43
+	}
+	6929.1.1 = {
+		holder = mablung44
+	}
+	7001.1.1 = {
+		holder = mablung45
+		change_development_level = 15
+	}
+}
+
+c_siropela = {
+	3924.1.1 = {
+		holder = linesirinore7
+	}
+	4159.1.1 = {
+		holder = linesirinore8
+	}
+	4302.1.1 = {
+		holder = linesirinore9
+	}
+	4506.1.1 = {
+		holder = linesirinore10
+	}
+	4673.1.1 = {
+		holder = linesirinore11
+	}
+	4809.1.1 = {
+		holder = linesirinore12
+	}
+	5002.1.1 = {
+		holder = linesirinore13
+	}
+	5177.1.1 = {
+		holder = linesirinore14
+	}
+	5368.1.1 = {
+		holder = linesirinore15
+	}
+	5500.1.1 = {
+		holder = linesirinore16
+	}
+	5710.1.1 = {
+		holder = linesirinore17
+	}
+	5895.1.1 = {
+		holder = linesirinore18
+	}
+	6051.1.1 = {
+		holder = linesirinore19
+	}
+	6230.1.1 = {
+		holder = linesirinore20
+	}
+	6412.1.1 = {
+		holder = linesirinore21
+	}
+	6577.1.1 = {
+		holder = linesirinore22
+	}
+	6686.1.1 = {
+		holder = linesirinore23
+	}
+	6817.1.1 = {
+		holder = linesirinore24
+	}
+	6982.1.1 = {
+		holder = linesirinore25
+	}
+	7032.1.1 = {
+		holder = linesirinore26
+		change_development_level = 16
+	}
+}
+
+c_hyarmentie = {
+	6929.1.1 = {
+		holder = lineofvardur26
+		change_development_level = 14
+	}
+}
+
+c_tauredor = {
+	6929.1.1 = {
+		holder = lineofvardur26
+		change_development_level = 11
+	}
+}
+
+c_arabeleth = {
+	6405.1.1 = {
+		holder = lineofaru10
+	}
+	6441.1.1 = {
+		holder = lineofaru12
+	}
+	6570.1.1 = {
+		holder = lineofaru13
+	}
+	6683.1.1 = {
+		holder = lineofaru14
+	}
+	6886.1.1 = {
+		holder = lineofaru15
+	}
+	6974.1.1 = {
+		holder = lineofaru16
+		change_development_level = 13
+	}
+}
+
+c_adorothe = {
+	6405.1.1 = {
+		holder = lineofaru10
+	}
+	6441.1.1 = {
+		holder = lineofaru12
+	}
+	6570.1.1 = {
+		holder = lineofaru13
+	}
+	6683.1.1 = {
+		holder = lineofaru14
+	}
+	6886.1.1 = {
+		holder = lineofaru15
+	}
+	6974.1.1 = {
+		holder = lineofaru16
+		change_development_level = 11
+	}
+}
+
+c_hyarnumen = {
+	3221.1.1 = {
+		holder = lineofazruben1
+	}
+	3482.1.13 = {
+		holder = lineofazrubensubmod1
+	}
+	3672.1.1 = {
+		holder = lineofazrubensubmod2
+	}
+		3810.1.1 = {
+		holder = lineofazrubensubmod3
+	}
+		3911.1.1 = {
+			holder = lineofazrubensubmod4
+	}
+		3917.1.1 = {
+		holder = 0
+	}
+		4368.1.1 = {
+		holder = lineofazrubensubmod8
+	}
+		4412.1.1 = {
+		holder = lineofazrubensubmod9
+	}
+		4550.1.1 = {
+		holder = lineofazrubensubmod10
+	}
+		4663.1.1 = {
+		holder = lineofazrubensubmod11
+	}
+		4773.1.1 = {
+		holder = lineofazrubensubmod12
+	}
+		4891.1.1 = {
+		holder = lineofazrubensubmod13
+	}
+		5021.1.1 = {
+		holder = lineofazrubensubmod14
+	}
+		5139.1.1 = {
+		holder = lineofazrubensubmod15
+	}
+		5340.1.1 = {
+		holder = lineofazrubensubmod16
+	}
+		5473.1.1 = {
+		holder = lineofazrubensubmod17
+	}
+		5600.1.1 = {
+		holder = lineofazrubensubmod18
+	}
+		5736.1.1 = {
+		holder = lineofazrubensubmod19
+	}
+		5852.1.1 = {
+		holder = lineofazrubensubmod20
+	}
+		5967.1.1 = {
+		holder = lineofazrubensubmod21
+	}
+		6086.1.1 = {
+		holder = lineofazrubensubmod22
+	}
+		6211.1.1 = {
+		holder = lineofazrubensubmod23
+	}
+		6339.1.1 = {
+		holder = lineofazrubensubmod24
+	}
+		6447.1.1 = {
+		holder = lineofazrubensubmod25
+	}
+		6577.1.1 = {
+		holder = lineofazrubensubmod26
+	}
+		6696.1.1 = {
+		holder = lineofazrubensubmod27
+	}
+		6808.1.1 = {
+		holder = lineofazrubensubmod28
+	}
+		6942.1.1 = {
+		holder = lineofazrubensubmod29
+		change_development_level = 15
+	}
+}
+
+c_romenna = {
+	6982.1.1 = {
+		holder = lineofelros114
+		change_development_level = 28
+	}
+}
+
+c_uinen = {
+	6982.1.1 = {
+		holder = lineofelros114
+		change_development_level = 13
+	}
+}
+
+c_baithal = {
+	6407.1.1 = {
+		holder = lineofkhorahil4
+	}
+	6512.1.1 = {
+		holder = lineofkhorahil5
+	}
+	6664.1.1 = {
+		holder = lineofkhorahil6
+	}
+	6753.1.1 = {
+		holder = lineofkhorahil7
+	}
+	6896.1.1 = {
+		holder = lineofkhorahil8
+	}
+	6997.1.1 = {
+		holder = lineofkhorahil9
+		change_development_level = 12
+	}
+}
+
+c_vinyon = {
+	7010.1.1 = {
+		holder = lineofciryandur34
+		change_development_level = 13
+	}
+}
+
+c_elorna = {
+	7010.1.1 = {
+		holder = lineofciryandur34
+		change_development_level = 14
+	}
+}
+
+c_sorno = {
+	5377.1.1 = {
+		holder = lineelebastard1
+	}
+	5553.1.1 = {
+		holder = lineelebastard2
+	}
+	5651.1.1 = {
+		holder = lineelebastard3
+	}
+	5774.1.1 = {
+		holder = lineelebastard4
+	}
+	5849.1.1 = {
+		holder = lineelebastard5
+	}
+	5951.1.1 = {
+		holder = lineelebastard6
+	}
+	6063.1.1 = {
+		holder = lineelebastard7
+	}
+	6201.1.1 = {
+		holder = lineelebastard8
+	}
+	6329.1.1 = {
+		holder = lineelebastard9
+	}
+	6445.1.1 = {
+		holder = lineelebastard10
+	}
+	6581.1.1 = {
+		holder = lineelebastard11
+	}
+	6690.1.1 = {
+		holder = lineelebastard12
+	}
+	6799.1.1 = {
+		holder = lineelebastard13
+	}
+	6898.1.1 = {
+		holder = lineelebastard14
+	}
+	7003.1.1 = {
+		holder = lineelebastard15
+		change_development_level = 16
+	}
+}
+
+c_elenduin = {
+	5377.1.1 = {
+		holder = lineelebastard1
+	}
+	5553.1.1 = {
+		holder = lineelebastard2
+	}
+	5651.1.1 = {
+		holder = lineelebastard3
+	}
+	5774.1.1 = {
+		holder = lineelebastard4
+	}
+	5849.1.1 = {
+		holder = lineelebastard5
+	}
+	5951.1.1 = {
+		holder = lineelebastard6
+	}
+	6063.1.1 = {
+		holder = lineelebastard7
+	}
+	6201.1.1 = {
+		holder = lineelebastard8
+	}
+	6329.1.1 = {
+		holder = lineelebastard9
+	}
+	6445.1.1 = {
+		holder = lineelebastard10
+	}
+	6581.1.1 = {
+		holder = lineelebastard11
+	}
+	6690.1.1 = {
+		holder = lineelebastard12
+	}
+	6799.1.1 = {
+		holder = lineelebastard13
+	}
+	6898.1.1 = {
+		holder = lineelebastard14
+	}
+	7003.1.1 = {
+		holder = lineelebastard15
+		change_development_level = 10
+	}
+}
+
+c_belizerbeth = {
+	6927.1.1 = {
+		holder = ruxoalendil27
+		change_development_level = 11
+	}
+}
+
+c_forduinem = {
+	2180.1.1 = {
+		holder = ruxoalendil1
+		change_development_level = 10
+	}
+	2477.5.12 = {
+		holder = ruxoalendil2 
+	}
+	2525.4.2 = {
+		holder = ruxoalendil3
+	}
+	2593.12.8 = {
+		holder = ruxoalendil4
+	}
+	2788.4.12 = {
+		holder = ruxoalendil5
+	}
+	2933.1.1 = {
+		holder = ruxoalendil6
+	}
+	3141.1.1 = {
+		holder = ruxoalendil7
+	}
+	3347.1.1 = {
+		holder = ruxoalendil8
+	}
+	3549.1.1 = {
+		holder = ruxoalendil9
+	}
+	3733.1.1 = {
+		holder = ruxoalendil10
+	}
+	3939.1.1 = {
+		holder = ruxoalendil11 # Made lord of all Forostar
+	}
+	4107.1.1 = {
+		holder = ruxoalendil12
+	}
+	4325.1.1 = {
+		holder = ruxoalendil13
+	}
+	4532.1.1 = {
+		holder = ruxoalendil14
+	}
+	4730.1.1 = {
+		holder = ruxoalendil15
+	}
+	4935.1.1 = {
+		holder = ruxoalendil16
+	}
+	5132.1.1 = {
+		holder = ruxoalendil17
+	}
+	5332.1.1 = {
+		holder = ruxoalendil18
+	}
+	5544.1.1 = {
+		holder = ruxoalendil19
+	}
+	5748.1.1 = {
+		holder = ruxoalendil20
+	}
+	5937.1.1 = {
+		holder = ruxoalendil21
+	}
+	6128.1.1 = {
+		holder = ruxoalendil22
+	}
+	6325.1.1 = {
+		holder = ruxoalendil23
+	}
+	6399.1.1 = {
+		holder = ruxoalendilsecondline3
+	}
+	6533.1.1 = {
+		holder = ruxoalendilthirdline1
+	}
+	6723.1.1 = {
+		holder = ruxoalendilthirdline2
+	}
+	6845.1.1 = {
+		holder = ruxoalendilthirdline3
+	}
+	6941.1.1 = {
+		holder = ruxoalendilthirdline4
+		liege = d_sorontil
+	}
+}
+
+c_kharutarik = {
+	6927.1.1 = {
+		holder = ruxoalendil27
+		change_development_level = 13
+	}
+}
+
+c_belzag = {
+	3911.1.1 = {
+		holder = lineofelros88
+	}
+	6982.1.1 = {
+		holder = lineofelros117
+		change_development_level = 12
+	}
+}
+
+c_herundal = {
+	3911.1.1 = {
+		holder = lineofelros88
+	}
+	6982.1.1 = {
+		holder = lineofelros117
+		change_development_level = 14
+	}
+}
+
+c_meryare = {
+	4513.1.1 = {
+		holder = lineofarialome1
+	}
+	4729.1.1 = {
+		holder = lineofarialome2
+	}
+	4891.1.1 = {
+		holder = lineofarialome3
+	}
+	4991.1.1 = {
+		holder = lineofarialome4
+	}
+	5100.1.1 = {
+		holder = lineofarialome5
+	}
+	5216.1.1 = {
+		holder = lineofarialome6
+	}
+		5329.1.1 = {
+		holder = lineofarialome7
+	}
+		5440.1.1 = {
+		holder = lineofarialome8
+	}
+		5554.1.1 = {
+		holder = lineofarialome9
+	}
+		5699.1.1 = {
+		holder = lineofarialome10
+	}
+		5809.1.1 = {
+		holder = lineofarialome11
+	}
+		5956.1.1 = {
+		holder = lineofarialome12
+	}
+		6098.1.1 = {
+		holder = lineofarialome13
+	}
+		6211.1.1 = {
+		holder = lineofarialome14
+	}
+		6342.1.1 = {
+		holder = lineofarialome15
+	}
+		6454.1.1 = {
+		holder = lineofarialome16
+	}
+		6566.1.1 = {
+		holder = lineofarialome17
+	}
+		6571.1.1 = {
+		holder = lineofarialome18
+	}
+		6683.1.1 = {
+		holder = lineofarialome19
+	}
+		6800.1.1 = {
+		holder = lineofarialome20
+	}
+		6927.1.1 = {
+		holder = lineofarialome21
+	}
+		7030.1.1 = {
+		holder = lineofarialome22
+		change_development_level = 15
+	}
+}
+
+c_vlarion = {
+	4513.1.1 = {
+		holder = lineofarialome1
+	}
+	4729.1.1 = {
+		holder = lineofarialome2
+	}
+	4891.1.1 = {
+		holder = lineofarialome3
+	}
+	4991.1.1 = {
+		holder = lineofarialome4
+	}
+	5100.1.1 = {
+		holder = lineofarialome5
+	}
+	5216.1.1 = {
+		holder = lineofarialome6
+	}
+		5329.1.1 = {
+		holder = lineofarialome7
+	}
+		5440.1.1 = {
+		holder = lineofarialome8
+	}
+		5554.1.1 = {
+		holder = lineofarialome9
+	}
+		5699.1.1 = {
+		holder = lineofarialome10
+	}
+		5809.1.1 = {
+		holder = lineofarialome11
+	}
+		5956.1.1 = {
+		holder = lineofarialome12
+	}
+		6098.1.1 = {
+		holder = lineofarialome13
+	}
+		6211.1.1 = {
+		holder = lineofarialome14
+	}
+		6342.1.1 = {
+		holder = lineofarialome15
+	}
+		6454.1.1 = {
+		holder = lineofarialome16
+	}
+		6566.1.1 = {
+		holder = lineofarialome17
+	}
+		6571.1.1 = {
+		holder = lineofarialome18
+	}
+		6683.1.1 = {
+		holder = lineofarialome19
+	}
+		6800.1.1 = {
+		holder = lineofarialome20
+	}
+		6927.1.1 = {
+		holder = lineofarialome21
+	}
+		7030.1.1 = {
+		holder = lineofarialome22
+		change_development_level = 14
+	}
+}
+
+c_athrangrost = {
+	4513.1.1 = {
+		holder = lineofarialome1
+	}
+	4729.1.1 = {
+		holder = lineofarialome2
+	}
+	4891.1.1 = {
+		holder = lineofarialome3
+	}
+	4991.1.1 = {
+		holder = lineofarialome4
+	}
+	5100.1.1 = {
+		holder = lineofarialome5
+	}
+	5216.1.1 = {
+		holder = lineofarialome6
+	}
+		5329.1.1 = {
+		holder = lineofarialome7
+	}
+		5440.1.1 = {
+		holder = lineofarialome8
+	}
+		5554.1.1 = {
+		holder = lineofarialome9
+	}
+		5699.1.1 = {
+		holder = lineofarialome10
+	}
+		5809.1.1 = {
+		holder = lineofarialome11
+	}
+		5956.1.1 = {
+		holder = lineofarialome12
+	}
+		6098.1.1 = {
+		holder = lineofarialome13
+	}
+		6211.1.1 = {
+		holder = lineofarialome14
+	}
+		6342.1.1 = {
+		holder = lineofarialome15
+	}
+		6454.1.1 = {
+		holder = lineofarialome16
+	}
+		6566.1.1 = {
+		holder = lineofarialome17
+	}
+		6571.1.1 = {
+		holder = lineofarialome18
+	}
+		6683.1.1 = {
+		holder = lineofarialome19
+	}
+		6800.1.1 = {
+		holder = lineofarialome20
+	}
+		6927.1.1 = {
+		holder = lineofarialome21
+	}
+		7030.1.1 = {
+		holder = lineofarialome22
+		change_development_level = 12
+	}
+}
+
+c_oromet = {
+	7022.1.1 = {
+		holder = lineofelatan43
+		change_development_level = 18
+	}
+}
+
+c_maltenost = {
+    4004.10.1 = {
+        holder = lineoftelemnacil7 #Faramir
+    }
+    4131.10.7 = {
+        holder = lineoftelemnacil9 #Mireatan
+    }
+    4279.7.15 = {
+        holder = lineoftelemnacil11 #Mamandur
+    }
+    4330.3.22 = {
+        holder = lineoftelemnacil13 #Salmandil
+    }
+    4453.9.10 = {
+        holder = lineoftelemnacil15 #Romendacil
+    }
+    4569.8.10 = {
+        holder = lineoftelemnacil17 #Penlodh
+    }
+    4692.1.25 = {
+        holder = lineoftelemnacil19 #Ulwarth
+    }
+    4823.8.1 = {
+        holder = lineoftelemnacil21 #Silmardur
+    }
+    4948.2.24 = {
+        holder = lineoftelemnacil23 #Eargon
+    }
+    5003.12.21 = {
+        holder = lineoftelemnacil25 #Olumir
+    }
+    5055.9.15 = {
+        holder = lineoftelemnacil27 #Arahad
+    }
+    5184.7.25 = {
+        holder = lineoftelemnacil29 #Arathorn
+    }
+    5301.6.8 = {
+        holder = lineoftelemnacil31 #Amrothor
+    }
+    5452.12.7 = {
+        holder = lineoftelemnacil33 #Argeleb
+    }
+    5515.12.27 = {
+        holder = lineoftelemnacil35 #Electhel
+    }
+    5583.5.25 = {
+        holder = lineoftelemnacil37 #Telcontar
+    }
+    5675.6.3 = {
+        holder = lineoftelemnacil39 #Lintoron
+    }
+    5738.2.25 = {
+        holder = lineoftelemnacil41 #Haldar
+    }
+    5822.9.12 = {
+        holder = lineoftelemnacil43 #Curimardin
+    }
+    5978.3.14 = {
+        holder = lineoftelemnacil45 #Thalion
+    }
+    6120.11.16 = {
+        holder = lineoftelemnacil47 #Borothor
+    }
+    6168.1.27 = {
+        holder = lineoftelemnacil49 #Borodir
+    }
+    6318.11.6 = {
+        holder = lineoftelemnacil51 #Electhel
+    }
+    6452.9.14 = {
+        holder = lineoftelemnacil53 #Romemir
+    }
+    6598.2.15 = {
+        holder = lineoftelemnacil55 #Marenar
+    }
+    6706.10.3 = {
+        holder = lineoftelemnacil57 #Feandil
+    }
+    6843.11.14 = {
+        holder = lineoftelemnacil59 #Eadacil
+		change_development_level = 15
+    }
+    6916.3.23 = {
+        holder = lineoftelemnacil61 #Angelimir
+    }
+    7045.12.7 = {
+        holder = lineoftelemnacil63 #Castamir
+	}
+}
+
+c_meniel = {
+    4004.10.1 = {
+        holder = lineoftelemnacil7 #Faramir
+    }
+    4131.10.7 = {
+        holder = lineoftelemnacil9 #Mireatan
+    }
+    4279.7.15 = {
+        holder = lineoftelemnacil11 #Mamandur
+    }
+    4330.3.22 = {
+        holder = lineoftelemnacil13 #Salmandil
+    }
+    4453.9.10 = {
+        holder = lineoftelemnacil15 #Romendacil
+    }
+    4569.8.10 = {
+        holder = lineoftelemnacil17 #Penlodh
+    }
+    4692.1.25 = {
+        holder = lineoftelemnacil19 #Ulwarth
+    }
+    4823.8.1 = {
+        holder = lineoftelemnacil21 #Silmardur
+    }
+    4948.2.24 = {
+        holder = lineoftelemnacil23 #Eargon
+    }
+    5003.12.21 = {
+        holder = lineoftelemnacil25 #Olumir
+    }
+    5055.9.15 = {
+        holder = lineoftelemnacil27 #Arahad
+    }
+    5184.7.25 = {
+        holder = lineoftelemnacil29 #Arathorn
+    }
+    5301.6.8 = {
+        holder = lineoftelemnacil31 #Amrothor
+    }
+    5452.12.7 = {
+        holder = lineoftelemnacil33 #Argeleb
+    }
+    5515.12.27 = {
+        holder = lineoftelemnacil35 #Electhel
+    }
+    5583.5.25 = {
+        holder = lineoftelemnacil37 #Telcontar
+    }
+    5675.6.3 = {
+        holder = lineoftelemnacil39 #Lintoron
+    }
+    5738.2.25 = {
+        holder = lineoftelemnacil41 #Haldar
+    }
+    5822.9.12 = {
+        holder = lineoftelemnacil43 #Curimardin
+    }
+    5978.3.14 = {
+        holder = lineoftelemnacil45 #Thalion
+    }
+    6120.11.16 = {
+        holder = lineoftelemnacil47 #Borothor
+    }
+    6168.1.27 = {
+        holder = lineoftelemnacil49 #Borodir
+    }
+    6318.11.6 = {
+        holder = lineoftelemnacil51 #Electhel
+    }
+    6452.9.14 = {
+        holder = lineoftelemnacil53 #Romemir
+    }
+    6598.2.15 = {
+        holder = lineoftelemnacil55 #Marenar
+    }
+    6706.10.3 = {
+        holder = lineoftelemnacil57 #Feandil
+    }
+    6843.11.14 = {
+        holder = lineoftelemnacil59 #Eadacil
+    }
+    6916.3.23 = {
+        holder = lineoftelemnacil61 #Angelimir
+		change_development_level = 14
+    }
+    7045.12.7 = {
+        holder = lineoftelemnacil63 #Castamir
+	}
+}
+
+c_theanil = {
+	6931.1.1 = {
+		holder = lineofciryamir30
+		change_development_level = 15
+	}
+}
+
+c_hisindor = {
+	6931.1.1 = {
+		holder = lineofciryamir30
+		change_development_level = 14
+	}
+}
+
+c_nisinna = {
+	1150.1.1 = {	
+		holder = lineveantur1 # Vëandur
+		liege = e_numenor
+	}
+	1399.1.1 = {	
+		holder = lineveantur3 # Vinyaher
+	}
+	1560.1.1 = {	
+		holder = lineveantur4 # Vorondil
+	}
+	1696.1.1 = {	
+		holder = lineveantur5 # Voronwe
+	}
+	1831.1.1 = {	
+		holder = lineveantur6 # Turin
+	}
+	1989.1.1 = {	
+		holder = lineveantur7 # Eruaryon
+	}
+	2184.1.1 = {	
+		holder = lineveantur8 # Elendur
+	}
+	2331.1.1 = {	
+		holder = lineveantur9 # Ciryatur
+	}
+	2473.1.1 = {	
+		holder = lineveantur10 # Calimehtar
+	}
+	2634.1.1 = {	
+		holder = lineveantur11 # Cirdan
+	}
+	2764.1.1 = {	
+		holder = lineveantur12 # Castamir
+	}
+	2908.1.1 = {	
+		holder = lineveantur13 # Belehir
+	}
+	3053.1.1 = {	
+		holder = lineveantur14 # Arciryas
+	}
+	3273.1.1 = {	
+		holder = lineveantur15 # Vorommaite
+	}
+	3437.1.1 = {	
+		holder = lineveantur16 # Sulicar
+	}
+	3542.1.1 = {	
+		holder = lineveantur17 # Vinyarion
+	}
+	3680.1.1 = {	
+		holder = lineveantur18 # Tarciryan
+	}
+	3752.1.1 = {	
+		holder = predolamroth1 # Arassuil
+	}
+	3839.1.1 = {	
+		holder = lineofciryamir12
+	}
+	3911.1.1 = {
+		holder = lineofciryamirbranch1
+	}
+	4032.1.1 = {
+		holder = lineofciryamirbranch2
+	}
+	4167.1.1 = {
+		holder = lineofciryamirbranch3
+	}
+	4306.1.1 = {
+		holder = lineofciryamirbranch4
+	}
+		4442.1.1 = {
+		holder = lineofciryamirbranch5
+	}
+		4601.1.1 = {
+		holder = lineofciryamirbranch6
+	}
+		4755.1.1 = {
+		holder = lineofciryamirbranch7
+	}
+		4863.1.1 = {
+		holder = lineofciryamirbranch8
+	}
+		5016.1.1 = {
+		holder = lineofciryamirbranch9
+	}
+		5154.1.1 = {
+		holder = lineofciryamirbranch10
+	}
+		5326.1.1 = {
+		holder = lineofciryamirbranch11
+	}
+		5520.1.1 = {
+		holder = lineofciryamirbranch12
+	}
+		5685.1.1 = {
+		holder = lineofciryamirbranchfix1
+	}
+		5820.1.1 = {
+		holder = lineofciryamirbranchfix2
+	}
+		5980.1.1 = {
+		holder = lineofciryamirbranch13
+	}
+		6154.1.1 = {
+		holder = lineofciryamirbranch14
+	}
+		6314.1.1 = {
+		holder = lineofciryamirbranch15
+	}
+		6472.1.1 = {
+		holder = lineofciryamirbranch17
+	}
+		6610.1.1 = {
+		holder = lineofciryamirbranch18
+	}
+		6781.1.1 = {
+		holder = lineofciryamirbranch19
+	}		
+	6799.1.1 = {
+		holder = dolamroth42 # Haldrahir
+	}
+	6913.1.1 = {
+		holder = dolamroth43 # Ciryandur
+		change_development_level = 16
+	}
+}
+
+c_morionde = {
+	1150.1.1 = {	
+		holder = lineveantur1 # Vëandur
+		liege = e_numenor
+	}
+	1399.1.1 = {	
+		holder = lineveantur3 # Vinyaher
+	}
+	1560.1.1 = {	
+		holder = lineveantur4 # Vorondil
+	}
+	1696.1.1 = {	
+		holder = lineveantur5 # Voronwe
+	}
+	1831.1.1 = {	
+		holder = lineveantur6 # Turin
+	}
+	1989.1.1 = {	
+		holder = lineveantur7 # Eruaryon
+	}
+	2184.1.1 = {	
+		holder = lineveantur8 # Elendur
+	}
+	2331.1.1 = {	
+		holder = lineveantur9 # Ciryatur
+	}
+	2473.1.1 = {	
+		holder = lineveantur10 # Calimehtar
+	}
+	2634.1.1 = {	
+		holder = lineveantur11 # Cirdan
+	}
+	2764.1.1 = {	
+		holder = lineveantur12 # Castamir
+	}
+	2908.1.1 = {	
+		holder = lineveantur13 # Belehir
+	}
+	3053.1.1 = {	
+		holder = lineveantur14 # Arciryas
+	}
+	3273.1.1 = {	
+		holder = lineveantur15 # Vorommaite
+	}
+	3437.1.1 = {	
+		holder = lineveantur16 # Sulicar
+	}
+	3542.1.1 = {	
+		holder = lineveantur17 # Vinyarion
+	}
+	3680.1.1 = {	
+		holder = lineveantur18 # Tarciryan
+	}
+	3752.1.1 = {	
+		holder = predolamroth1 # Arassuil
+	}
+	3839.1.1 = {	
+		holder = lineofciryamir12
+	}
+	3911.1.1 = {
+		holder = lineofciryamirbranch1
+	}
+	4032.1.1 = {
+		holder = lineofciryamirbranch2
+	}
+	4167.1.1 = {
+		holder = lineofciryamirbranch3
+	}
+	4306.1.1 = {
+		holder = lineofciryamirbranch4
+	}
+		4442.1.1 = {
+		holder = lineofciryamirbranch5
+	}
+		4601.1.1 = {
+		holder = lineofciryamirbranch6
+	}
+		4755.1.1 = {
+		holder = lineofciryamirbranch7
+	}
+		4863.1.1 = {
+		holder = lineofciryamirbranch8
+	}
+		5016.1.1 = {
+		holder = lineofciryamirbranch9
+	}
+		5154.1.1 = {
+		holder = lineofciryamirbranch10
+	}
+		5326.1.1 = {
+		holder = lineofciryamirbranch11
+	}
+		5520.1.1 = {
+		holder = lineofciryamirbranch12
+	}
+		5685.1.1 = {
+		holder = lineofciryamirbranchfix1
+	}
+		5820.1.1 = {
+		holder = lineofciryamirbranchfix2
+	}
+		5980.1.1 = {
+		holder = lineofciryamirbranch13
+	}
+		6154.1.1 = {
+		holder = lineofciryamirbranch14
+	}
+		6314.1.1 = {
+		holder = lineofciryamirbranch15
+	}
+		6472.1.1 = {
+		holder = lineofciryamirbranch17
+	}
+		6610.1.1 = {
+		holder = lineofciryamirbranch18
+	}
+		6781.1.1 = {
+		holder = lineofciryamirbranch19
+	}
+		6904.1.1 = {
+		holder = lineofciryamirbranch20
+	}
+		6926.1.1 = {
+		holder = lineofciryamirbranch21
+	}
+		6984.1.1 = {
+		holder = lineofciryamirbranch22
+	}
+		7030.1.1 = {
+		holder = lineofciryamirbranch23
+		change_development_level = 15
+		liege = d_nisimaldar
+	}
+}
+
+c_tarminas = {
+	1150.1.1 = {	
+		holder = lineveantur1 # Vëandur
+		liege = e_numenor
+	}
+	1399.1.1 = {	
+		holder = lineveantur3 # Vinyaher
+	}
+	1560.1.1 = {	
+		holder = lineveantur4 # Vorondil
+	}
+	1696.1.1 = {	
+		holder = lineveantur5 # Voronwe
+	}
+	1831.1.1 = {	
+		holder = lineveantur6 # Turin
+	}
+	1989.1.1 = {	
+		holder = lineveantur7 # Eruaryon
+	}
+	2184.1.1 = {	
+		holder = lineveantur8 # Elendur
+	}
+	2331.1.1 = {	
+		holder = lineveantur9 # Ciryatur
+	}
+	2473.1.1 = {	
+		holder = lineveantur10 # Calimehtar
+	}
+	2634.1.1 = {	
+		holder = lineveantur11 # Cirdan
+	}
+	2764.1.1 = {	
+		holder = lineveantur12 # Castamir
+	}
+	2908.1.1 = {	
+		holder = lineveantur13 # Belehir
+	}
+	3053.1.1 = {	
+		holder = lineveantur14 # Arciryas
+	}
+	3273.1.1 = {	
+		holder = lineveantur15 # Vorommaite
+	}
+	3437.1.1 = {	
+		holder = lineveantur16 # Sulicar
+	}
+	3542.1.1 = {	
+		holder = lineveantur17 # Vinyarion
+	}
+	3680.1.1 = {	
+		holder = lineveantur18 # Tarciryan
+	}
+	3752.1.1 = {	
+		holder = predolamroth1 # Arassuil
+	}
+	3839.1.1 = {	
+		holder = lineofciryamir12
+	}
+	3911.1.1 = {
+		holder = lineofciryamirbranch1
+	}
+	4032.1.1 = {
+		holder = lineofciryamirbranch2
+	}
+	4167.1.1 = {
+		holder = lineofciryamirbranch3
+	}
+	4306.1.1 = {
+		holder = lineofciryamirbranch4
+	}
+		4442.1.1 = {
+		holder = lineofciryamirbranch5
+	}
+		4601.1.1 = {
+		holder = lineofciryamirbranch6
+	}
+		4755.1.1 = {
+		holder = lineofciryamirbranch7
+	}
+		4863.1.1 = {
+		holder = lineofciryamirbranch8
+	}
+		5016.1.1 = {
+		holder = lineofciryamirbranch9
+	}
+		5154.1.1 = {
+		holder = lineofciryamirbranch10
+	}
+		5326.1.1 = {
+		holder = lineofciryamirbranch11
+	}
+		5520.1.1 = {
+		holder = lineofciryamirbranch12
+	}
+		5685.1.1 = {
+		holder = lineofciryamirbranchfix1
+	}
+		5820.1.1 = {
+		holder = lineofciryamirbranchfix2
+	}
+		5980.1.1 = {
+		holder = lineofciryamirbranch13
+	}
+		6154.1.1 = {
+		holder = lineofciryamirbranch14
+	}
+		6314.1.1 = {
+		holder = lineofciryamirbranch15
+	}
+		6472.1.1 = {
+		holder = lineofciryamirbranch17
+	}
+		6610.1.1 = {
+		holder = lineofciryamirbranch18
+	}
+		6781.1.1 = {
+		holder = lineofciryamirbranch19
+	}
+		6904.1.1 = {
+		holder = lineofciryamirbranch20
+	}
+		6926.1.1 = {
+		holder = lineofciryamirbranch21
+	}
+		6984.1.1 = {
+		holder = lineofciryamirbranch22
+	}
+		7030.1.1 = {
+		holder = lineofciryamirbranch23
+		change_development_level = 14
+		liege = d_nisimaldar
+	}
+}
+
+c_farahil = {
+	629.1.1 = {
+		holder = lineofagathor5
+	}
+	941.1.1 = {
+		holder = lineofagathor6
+	}
+	1163.1.1 = {
+		holder = lineofelros72
+	}
+	1529.1.1 = {
+		holder = lineofelros71
+	}
+	1702.1.1 = {
+		holder = lineofelros73
+	}
+	1774.1.1 = {
+		holder = lineofagathor7
+	}
+	1976.1.1 = {
+		holder = lineofagathor8
+	}
+	2199.1.1 = {
+		holder = lineofagathor9
+	}
+	2377.1.1 = {
+		holder = lineofagathor10
+	}
+	2638.1.1 = {
+		holder = lineofagathor11
+	}
+	2924.1.1 = {
+		holder = lineofagathor12
+	}
+	3197.1.1 = {
+		holder = lineofagathor13
+	}
+	3351.1.1 = {
+		holder = lineofagathor14
+	}
+	3573.1.1 = {
+		holder = lineofagathor15
+	}
+	3740.1.1 = {
+		holder = lineofagathor16
+	}
+	3911.1.1 = {
+		holder = lineofagathor17
+	}
+	4005.1.1 = {
+		holder = lineofagathor18
+	}
+	4237.1.1 = {
+		holder = lineofagathor19
+	}
+	4520.1.1 = {
+		holder = lineofagathor20
+	}
+	4807.1.1 = {
+		holder = lineofagathor21
+	}
+	5067.1.1 = {
+		holder = lineofagathor22
+	}
+	5268.1.1 = {
+		holder = lineofagathor23
+	}
+	5473.1.1 = {
+		holder = lineofagathor24
+	}
+	5664.1.1 = {
+		holder = lineofagathor25
+	}
+	5855.1.1 = {
+		holder = lineofagathor26
+	}
+	5998.1.1 = {
+		holder = lineofagathor27
+	}
+	6101.1.1 = {
+		holder = lineofagathor28
+	}
+	6244.1.1 = {
+		holder = lineofagathor29
+	}
+	6332.1.1 = {
+		holder = lineofagathor30
+	}
+	6401.1.1 = {
+		holder = lineofagathor31
+	}
+	6460.1.1 = {
+		holder = lineofagathor32
+	}
+	6620.1.1 = {
+		holder = lineofagathor33
+	}
+	6736.1.1 = {
+		holder = lineofagathor34
+	}
+	6907.1.1 = {
+		holder = lineofagathor35
+	}
+	7025.1.1 = {
+		holder = lineofagathor36
+		change_development_level = 15
+	}
+}
+
+c_edrahil = {
+	629.1.1 = {
+		holder = lineofagathor5
+	}
+	941.1.1 = {
+		holder = lineofagathor6
+	}
+	1163.1.1 = {
+		holder = lineofelros72
+	}
+	1529.1.1 = {
+		holder = lineofelros71
+	}
+	1702.1.1 = {
+		holder = lineofelros73
+	}
+	1774.1.1 = {
+		holder = lineofagathor7
+	}
+	1976.1.1 = {
+		holder = lineofagathor8
+	}
+	2199.1.1 = {
+		holder = lineofagathor9
+	}
+	2377.1.1 = {
+		holder = lineofagathor10
+	}
+	2638.1.1 = {
+		holder = lineofagathor11
+	}
+	2924.1.1 = {
+		holder = lineofagathor12
+	}
+	3197.1.1 = {
+		holder = lineofagathor13
+	}
+	3351.1.1 = {
+		holder = lineofagathor14
+	}
+	3573.1.1 = {
+		holder = lineofagathor15
+	}
+	3740.1.1 = {
+		holder = lineofagathor16
+	}
+	3911.1.1 = {
+		holder = lineofagathor17
+	}
+	4005.1.1 = {
+		holder = lineofagathor18
+	}
+	4237.1.1 = {
+		holder = lineofagathor19
+	}
+	4520.1.1 = {
+		holder = lineofagathor20
+	}
+	4807.1.1 = {
+		holder = lineofagathor21
+	}
+	5067.1.1 = {
+		holder = lineofagathor22
+	}
+	5268.1.1 = {
+		holder = lineofagathor23
+	}
+	5473.1.1 = {
+		holder = lineofagathor24
+	}
+	5664.1.1 = {
+		holder = lineofagathor25
+	}
+	5855.1.1 = {
+		holder = lineofagathor26
+	}
+	5998.1.1 = {
+		holder = lineofagathor27
+	}
+	6101.1.1 = {
+		holder = lineofagathor28
+	}
+	6244.1.1 = {
+		holder = lineofagathor29
+	}
+	6332.1.1 = {
+		holder = lineofagathor30
+	}
+	6401.1.1 = {
+		holder = lineofagathor31
+	}
+	6460.1.1 = {
+		holder = lineofagathor32
+	}
+	6620.1.1 = {
+		holder = lineofagathor33
+	}
+	6736.1.1 = {
+		holder = lineofagathor34
+	}
+	6907.1.1 = {
+		holder = lineofagathor35
+	}
+	7025.1.1 = {
+		holder = lineofagathor36
+		change_development_level = 14
+	}
+}
+
+c_nurmir = {
+	2044.1.1 = {
+		holder = lineborodiriath1
+	}
+	2404.1.1 = {
+		holder = lineborodirsubmod1
+	}
+	2775.1.1 = {
+		holder = lineborodirsubmod2
+	}
+	3028.1.1 = {
+		holder = lineborodirsubmod3
+	}
+	3215.1.1 = {
+		holder = lineborodirsubmod4
+	}
+	3470.1.1 = {
+		holder = lineborodirsubmod5
+	}
+	3739.1.1 = {
+		holder = lineborodirsubmod6
+	}
+	3910.1.1 = {
+		holder = lineborodirsubmod7
+	}
+	4240.1.1 = {
+		holder = lineborodirsubmod8
+	}
+	4473.1.1 = {
+		holder = lineborodirsubmod9
+	}
+	4652.1.1 = {
+		holder = lineborodirsubmod10
+	}
+	4830.1.1 = {
+		holder = lineborodirsubmod11
+	}
+	5036.1.1 = {
+		holder = lineborodirsubmod12
+	}
+	5215.1.1 = {
+		holder = lineborodirsubmod13
+	}
+	5442.1.1 = {
+		holder = lineborodirsubmod14
+	}
+	5610.1.1 = {
+		holder = lineborodirsubmod15
+	}
+	5826.1.1 = {
+		holder = lineborodirsubmod16
+	}
+	5972.1.1 = {
+		holder = lineborodirsubmod17
+	}
+	6074.1.1 = {
+		holder = lineborodirsubmod18
+	}
+	6193.1.1 = {
+		holder = lineborodirsubmod19
+	}
+	6365.1.1 = {
+		holder = lineborodirsubmod20
+	}
+	6432.1.1 = {
+		holder = lineborodirsubmod21
+	}
+	6484.1.1 = {
+		holder = lineborodirsubmod22
+	}
+	6534.1.1 = {
+		holder = lineborodirsubmod23
+	}
+	6626.1.1 = {
+		holder = lineborodirsubmod24
+	}
+	6720.1.1 = {
+		holder = lineborodirsubmod25
+	}
+	6806.1.1 = {
+		holder = lineborodirsubmod26
+	}
+	6868.1.1 = {
+		holder = lineborodirsubmod27
+	}
+	7018.1.1 = {
+		holder = lineborodirsubmod28
+		change_development_level = 16
+	}
+}
+
+c_zorakhator = {
+	2044.1.1 = {
+		holder = lineborodiriath1
+	}
+	2404.1.1 = {
+		holder = lineborodirsubmod1
+	}
+	2775.1.1 = {
+		holder = lineborodirsubmod2
+	}
+	3028.1.1 = {
+		holder = lineborodirsubmod3
+	}
+	3215.1.1 = {
+		holder = lineborodirsubmod4
+	}
+	3470.1.1 = {
+		holder = lineborodirsubmod5
+	}
+	3739.1.1 = {
+		holder = lineborodirsubmod6
+	}
+	3910.1.1 = {
+		holder = lineborodirsubmod7
+	}
+	4240.1.1 = {
+		holder = lineborodirsubmod8
+	}
+	4473.1.1 = {
+		holder = lineborodirsubmod9
+	}
+	4652.1.1 = {
+		holder = lineborodirsubmod10
+	}
+	4830.1.1 = {
+		holder = lineborodirsubmod11
+	}
+	5036.1.1 = {
+		holder = lineborodirsubmod12
+	}
+	5215.1.1 = {
+		holder = lineborodirsubmod13
+	}
+	5442.1.1 = {
+		holder = lineborodirsubmod14
+	}
+	5610.1.1 = {
+		holder = lineborodirsubmod15
+	}
+	5826.1.1 = {
+		holder = lineborodirsubmod16
+	}
+	5972.1.1 = {
+		holder = lineborodirsubmod17
+	}
+	6074.1.1 = {
+		holder = lineborodirsubmod18
+	}
+	6193.1.1 = {
+		holder = lineborodirsubmod19
+	}
+	6365.1.1 = {
+		holder = lineborodirsubmod20
+	}
+	6432.1.1 = {
+		holder = lineborodirsubmod21
+	}
+	6484.1.1 = {
+		holder = lineborodirsubmod22
+	}
+	6534.1.1 = {
+		holder = lineborodirsubmod23
+	}
+	6626.1.1 = {
+		holder = lineborodirsubmod24
+	}
+	6720.1.1 = {
+		holder = lineborodirsubmod25
+	}
+	6806.1.1 = {
+		holder = lineborodirsubmod26
+	}
+	6868.1.1 = {
+		holder = lineborodirsubmod27
+	}
+	7018.1.1 = {
+		holder = lineborodirsubmod28
+		change_development_level = 15
+	}
+}
+
+c_hazdore = {
+	2044.1.1 = {
+		holder = lineborodiriath1
+	}
+	2404.1.1 = {
+		holder = lineborodirsubmod1
+	}
+	2775.1.1 = {
+		holder = lineborodirsubmod2
+	}
+	3028.1.1 = {
+		holder = lineborodirsubmod3
+	}
+	3215.1.1 = {
+		holder = lineborodirsubmod4
+	}
+	3470.1.1 = {
+		holder = lineborodirsubmod5
+	}
+	3739.1.1 = {
+		holder = lineborodirsubmod6
+	}
+	3910.1.1 = {
+		holder = lineborodirsubmod7
+	}
+	4240.1.1 = {
+		holder = lineborodirsubmod8
+	}
+	4473.1.1 = {
+		holder = lineborodirsubmod9
+	}
+	4652.1.1 = {
+		holder = lineborodirsubmod10
+	}
+	4830.1.1 = {
+		holder = lineborodirsubmod11
+	}
+	5036.1.1 = {
+		holder = lineborodirsubmod12
+	}
+	5215.1.1 = {
+		holder = lineborodirsubmod13
+	}
+	5442.1.1 = {
+		holder = lineborodirsubmod14
+	}
+	5610.1.1 = {
+		holder = lineborodirsubmod15
+	}
+	5826.1.1 = {
+		holder = lineborodirsubmod16
+	}
+	5972.1.1 = {
+		holder = lineborodirsubmod17
+	}
+	6074.1.1 = {
+		holder = lineborodirsubmod18
+	}
+	6193.1.1 = {
+		holder = lineborodirsubmod19
+	}
+	6365.1.1 = {
+		holder = lineborodirsubmod20
+	}
+	6432.1.1 = {
+		holder = lineborodirsubmod21
+	}
+	6484.1.1 = {
+		holder = lineborodirsubmod33
+	}
+	6536.1.1 = {
+		holder = lineborodirsubmod34
+	}
+	6590.1.1 = {
+		holder = lineborodirsubmod35
+	}
+	6626.1.1 = {
+		holder = lineborodirsubmod36
+	}
+	6683.1.1 = {
+		holder = lineborodirsubmod37
+	}
+	6737.1.1 = {
+		holder = lineborodirsubmod38
+	}
+	6783.1.1 = {
+		holder = lineborodirsubmod39
+	}
+	6863.1.1 = {
+		holder = lineborodirsubmod40
+	}
+	6910.1.1 = {
+		holder = lineborodirsubmod41
+	}
+	6974.1.1 = {
+		holder = lineborodirsubmod42
+	}
+	7025.1.1 = {
+		holder = lineborodirsubmod43
+		change_development_level = 14
+		liege = d_hyarnudore
+	}
+}
+
+c_zagrar = {
+	2044.1.1 = {
+		holder = lineborodiriath1
+	}
+	2404.1.1 = {
+		holder = lineborodirsubmod1
+	}
+	2775.1.1 = {
+		holder = lineborodirsubmod2
+	}
+	3028.1.1 = {
+		holder = lineborodirsubmod3
+	}
+	3215.1.1 = {
+		holder = lineborodirsubmod4
+	}
+	3470.1.1 = {
+		holder = lineborodirsubmod5
+	}
+	3739.1.1 = {
+		holder = lineborodirsubmod6
+	}
+	3910.1.1 = {
+		holder = lineborodirsubmod7
+	}
+	4240.1.1 = {
+		holder = lineborodirsubmod8
+	}
+	4473.1.1 = {
+		holder = lineborodirsubmod9
+	}
+	4652.1.1 = {
+		holder = lineborodirsubmod10
+	}
+	4830.1.1 = {
+		holder = lineborodirsubmod11
+	}
+	5036.1.1 = {
+		holder = lineborodirsubmod12
+	}
+	5215.1.1 = {
+		holder = lineborodirsubmod13
+	}
+	5442.1.1 = {
+		holder = lineborodirsubmod14
+	}
+	5610.1.1 = {
+		holder = lineborodirsubmod15
+	}
+	5826.1.1 = {
+		holder = lineborodirsubmod16
+	}
+	5972.1.1 = {
+		holder = lineborodirsubmod17
+	}
+	6074.1.1 = {
+		holder = lineborodirsubmod18
+	}
+	6193.1.1 = {
+		holder = lineborodirsubmod19
+	}
+	6365.1.1 = {
+		holder = lineborodirsubmod20
+	}
+	6432.1.1 = {
+		holder = lineborodirsubmod21
+	}
+	6484.1.1 = {
+		holder = lineborodirsubmod33
+	}
+	6536.1.1 = {
+		holder = lineborodirsubmod34
+	}
+	6590.1.1 = {
+		holder = lineborodirsubmod35
+	}
+	6626.1.1 = {
+		holder = lineborodirsubmod36
+	}
+	6683.1.1 = {
+		holder = lineborodirsubmod37
+	}
+	6737.1.1 = {
+		holder = lineborodirsubmod38
+	}
+	6783.1.1 = {
+		holder = lineborodirsubmod39
+	}
+	6863.1.1 = {
+		holder = lineborodirsubmod40
+	}
+	6910.1.1 = {
+		holder = lineborodirsubmod41
+	}
+	6974.1.1 = {
+		holder = lineborodirsubmod42
+	}
+	7025.1.1 = {
+		holder = lineborodirsubmod43
+		change_development_level = 13
+		liege = d_hyarnudore
+	}
+}
+
+c_tarmeno = {
+	3760.1.1 = {
+		holder = linejewellord1
+	}
+	3911.1.1 = {
+		holder = linejewellord2
+	}
+	3922.1.1 = {
+		holder = linegimilson1
+	}
+	3954.1.1 = {
+		holder = linegimilson2
+	}
+	4092.1.1 = {
+		holder = linegimilson3
+	}
+	4130.1.1 = {
+		holder = 0 
+	}
+	4330.1.1 = {
+		holder = linejewellord6
+	}
+	4517.1.1 = {
+		holder = linejewellord7
+	}
+	4712.1.1 = {
+		holder = linejewellord8
+	}
+	4891.1.1 = {
+		holder = linejewellord9
+	}
+	5052.1.1 = {
+		holder = linejewellord10
+	}
+	5175.1.1 = {
+		holder = linejewellord11
+	}
+	5323.1.1 = {
+		holder = linejewellord12
+	}
+	5504.1.1 = {
+		holder = linejewellord13
+	}
+	5692.1.1 = {
+		holder = linejewellord14
+	}
+	5841.1.1 = {
+		holder = linejewellord15
+	}
+	6021.1.1 = {
+		holder = linejewellord16
+	}
+	6208.1.1 = {
+		holder = linejewellord17
+	}
+	6383.1.1 = {
+		holder = linejewellord18
+	}
+	6542.1.1 = {
+		holder = linejewellord19
+	}
+	6727.1.1 = {
+		holder = linejewellord20
+	}
+	6853.1.1 = {
+		holder = linejewellord21
+	}
+	6921.1.1 = {
+		holder = linejewellord22
+	}
+	7000.1.1 = {
+		holder = linejewellord23
+		change_development_level = 13
+	}
+}
+
+c_kharazor = {
+	3760.1.1 = {
+		holder = linejewellord1
+	}
+	3911.1.1 = {
+		holder = linejewellord2
+	}
+	3922.1.1 = {
+		holder = linegimilson1
+	}
+	3954.1.1 = {
+		holder = linegimilson2
+	}
+	4092.1.1 = {
+		holder = linegimilson3
+	}
+	4130.1.1 = {
+		holder = 0 
+	}
+	4330.1.1 = {
+		holder = linejewellord6
+	}
+	4517.1.1 = {
+		holder = linejewellord7
+	}
+	4712.1.1 = {
+		holder = linejewellord8
+	}
+	4891.1.1 = {
+		holder = linejewellord9
+	}
+	5052.1.1 = {
+		holder = linejewellord10
+	}
+	5175.1.1 = {
+		holder = linejewellord11
+	}
+	5323.1.1 = {
+		holder = linejewellord12
+	}
+	5504.1.1 = {
+		holder = linejewellord13
+	}
+	5692.1.1 = {
+		holder = linejewellord14
+	}
+	5841.1.1 = {
+		holder = linejewellord15
+	}
+	6021.1.1 = {
+		holder = linejewellord16
+	}
+	6208.1.1 = {
+		holder = linejewellord17
+	}
+	6383.1.1 = {
+		holder = linejewellord18
+	}
+	6542.1.1 = {
+		holder = linejewellord19
+	}
+	6727.1.1 = {
+		holder = linejewellord20
+	}
+	6853.1.1 = {
+		holder = linejewellord21
+	}
+	6921.1.1 = {
+		holder = linejewellord22
+	}
+	7000.1.1 = {
+		holder = linejewellord23
+		change_development_level = 14
+	}
+}
+
+c_cemendor = {
+	7000.1.1 = {
+		holder = lordsofkorlea33
+		change_development_level = 15
+	}
+}
+
+c_syntarin = {
+	624.1.1 = {
+		holder = mablung5
+	}
+	959.1.1 = {
+		holder = mablung6
+	}
+	1080.1.1 = {
+		holder = mablung7
+	}
+	1125.1.1 = {
+		holder = mablung8
+	}
+	1263.1.1 = {
+		holder = mablung9
+	}
+	1371.1.1 = {
+		holder = mablung10
+	}
+	1487.1.1 = {
+		holder = mablung12
+	}
+	1629.1.1 = {
+		holder = mablung13
+	}
+	1851.1.1 = {
+		holder = mablung14
+	}
+	2071.1.1 = {
+		holder = mablung15
+	}
+	2279.1.1 = {
+		holder = mablung16
+	}
+	2504.1.1 = {
+		holder = mablung17
+	}
+	2767.1.1 = {
+		holder = mablung18
+	}
+	2969.1.1 = {
+		holder = mablung19
+	}
+	3184.1.1 = {
+		holder = mablung20
+	}
+	3342.1.1 = {
+		holder = mablung21
+	}
+	3588.1.1 = {
+		holder = mablung22
+	}
+	3753.1.1 = {
+		holder = mablung23
+	}
+	3833.1.1 = {
+		holder = mablung24
+	}
+	3903.1.1 = {
+		holder = mablung25
+	}
+	4031.1.1 = {
+		holder = mablung26
+	}
+	4159.1.1 = {
+		holder = mablung27
+	}
+	4344.1.1 = {
+		holder = mablung28
+	}
+	4551.1.1 = {
+		holder = mablung29
+	}
+	4784.1.1 = {
+		holder = mablung30
+	}
+	4941.1.1 = {
+		holder = mablung31
+	}
+	5118.1.1 = {
+		holder = mablung32
+	}
+	5321.1.1 = {
+		holder = mablung33
+	}
+	5528.1.1 = {
+		holder = mablung34
+	}
+	5731.1.1 = {
+		holder = mablung35
+	}
+	5929.1.1 = {
+		holder = mablung36
+	}
+	6117.1.1 = {
+		holder = mablung37
+	}
+	6247.1.1 = {
+		holder = mablung38
+	}
+	6326.1.1 = {
+		holder = mablung39
+	}
+	6469.1.1 = {
+		holder = mablung40
+	}
+	6573.1.1 = {
+		holder = mablung41
+	}
+	6682.1.1 = {
+		holder = mablung42
+	}
+	6813.1.1 = {
+		holder = mablung43
+	}
+	6929.1.1 = {
+		holder = mablung44
+	}
+	7001.1.1 = {
+		holder = mablung45
+		change_development_level = 14
+	}
+}
+
+c_melonan = {
+	3924.1.1 = {
+		holder = linesirinore7
+	}
+	4159.1.1 = {
+		holder = linesirinore8
+	}
+	4302.1.1 = {
+		holder = linesirinore9
+	}
+	4506.1.1 = {
+		holder = linesirinore10
+	}
+	4673.1.1 = {
+		holder = linesirinore11
+	}
+	4809.1.1 = {
+		holder = linesirinore12
+	}
+	5002.1.1 = {
+		holder = linesirinore13
+	}
+	5177.1.1 = {
+		holder = linesirinore14
+	}
+	5368.1.1 = {
+		holder = linesirinore15
+	}
+	5500.1.1 = {
+		holder = linesirinore16
+	}
+	5710.1.1 = {
+		holder = linesirinore17
+	}
+	5895.1.1 = {
+		holder = linesirinore18
+	}
+	6051.1.1 = {
+		holder = linesirinore19
+	}
+	6230.1.1 = {
+		holder = linesirinore20
+	}
+	6412.1.1 = {
+		holder = linesirinore21
+	}
+	6577.1.1 = {
+		holder = linesirinore22
+	}
+	6686.1.1 = {
+		holder = linesirinore23
+	}
+	6817.1.1 = {
+		holder = linesirinore24
+	}
+	6982.1.1 = {
+		holder = linesirinore25
+	}
+	7032.1.1 = {
+		holder = linesirinore26
+		change_development_level = 14
+	}
+}
+
+c_meneltarma = {
+	6982.1.1 = {
+		holder = lineofelros114
+		change_development_level = 8
+	}
+}
+
+e_anadunemelkor = {
+	3912.1.1 = {
+		holder = linejewellord2
+	}
+	3922.1.1 = {
+		holder = linegimilson1
+	}
+	3954.1.1 = {
+		holder = linegimilson2
+	}
+	4092.1.1 = {
+		holder = linegimilson3
+	}
+	4130.1.1 = {
+		holder = 0 # Goodbye Melkor simps - Tar-Hallatan 
+	}
+}

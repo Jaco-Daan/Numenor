@@ -1,0 +1,54 @@
+set_up_council_of_sceptre = {
+	add_to_global_variable_list = {
+		name = council_of_numenor
+		target = title:d_andunie.holder 
+	}
+	add_to_global_variable_list = {
+		name = council_of_numenor
+		target = title:d_nisimaldar.holder
+	}
+	add_to_global_variable_list = {
+		name = council_of_numenor
+		target = title:d_nunduine.holder 
+	}
+	add_to_global_variable_list = {
+		name = council_of_numenor
+		target = title:d_ciryanore.holder 
+	}
+	add_to_global_variable_list = {
+		name = council_of_numenor
+		target = title:d_nindamos.holder 
+	}
+	add_to_global_variable_list = {
+		name = council_of_numenor
+		target = title:d_hyarnudore.holder 
+	}
+	add_to_global_variable_list = {
+		name = council_of_numenor
+		target = title:d_sorontil.holder 
+	}
+	add_to_global_variable_list = {
+		name = council_of_numenor
+		target = title:d_formenore.holder 
+	}
+}
+
+increase_variable = {
+    if = { limit = { NOT = { has_variable = $NAME$ } }
+        set_variable = { name = $NAME$ value = 0 }
+    }
+    change_variable = {
+        name = $NAME$
+        add = $AMOUNT$
+    }
+}
+
+decrease_variable = {
+    if = { limit = { NOT = { has_variable = $NAME$ } }
+        set_variable = { name = $NAME$ value = 0 }
+    }
+    change_variable = {
+        name = $NAME$
+        subtract = $AMOUNT$
+    }
+}

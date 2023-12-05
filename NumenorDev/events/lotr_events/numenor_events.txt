@@ -1,0 +1,1036 @@
+﻿namespace = numenor
+
+# Decision Events
+#		numenor.1000-1 Reclamation of Anadune.
+#		numenor.1002-3 Conquest of Bellakar
+#		numenor.100* Thani-Hazad
+#		numenor.100* fall of Gondor
+
+
+###
+khorahilfix.0001 = { # Little event that makes it so Khorahil doesn't have claims
+	hidden = yes
+	
+	option = { # Bad nazgul.
+		name = khorahilfix.0001.a
+		custom_tooltip = khorahilfix.0001.a.tt
+			remove_claim = title:d_nunduine
+			remove_claim = title:k_an_balkumagan
+			remove_claim = title:e_numenor
+	}
+}
+
+murazorfix.0001 = { # Little event that makes it so Er-Murazor doesn't have a claim to Númenor
+	hidden = yes
+	
+	option = { # Bad nazgul.
+		name = murazorfix.0001.a
+		custom_tooltip = murazorfix.0001.a.tt
+			remove_claim = title:e_numenor
+	}
+}
+
+numenor.0003 = { # Introduction to Ar-Balkazir.
+	title = numenor.0003.t
+	desc = numenor.0003.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = armenelos
+	}
+	right_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	
+	option = { # Numenor the sequel.
+		name = numenor.0003.a
+		custom_tooltip = numenor.0003.a.tt
+	}
+}
+
+numenor.0200 = { # Introduction to Lord Ciryandur.
+	title = numenor.0200.t
+	desc = numenor.0200.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference  = docks_dunedain
+	}
+	right_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	
+	option = { # Nice.
+		name = numenor.0200.a
+		custom_tooltip = numenor.0200.a.tt
+			add_pressed_claim = title:c_dol_amroth
+			add_pressed_claim = title:d_lond_ernil
+			add_pressed_claim = title:k_belfalas
+	}
+}
+
+numenor.0230 = { # Introduction to Lord Eldarion.
+	title = numenor.0230.t
+	desc = numenor.0230.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference  = docks_dunedain
+	}
+	right_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	
+	option = { # Andunaben is kinda cool, ngl
+		name = numenor.0230.a
+		custom_tooltip = numenor.0230.a.tt
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { # We've always been faithful I guess
+		name = numenor.0230.b
+		custom_tooltip = numenor.0230.b.tt
+			set_character_faith = faith:faith_numenorean
+		ai_changce = {
+			base = 0
+		}
+	}
+}
+
+numenor.0240 = { # Introduction to Lord Zorzagar.
+	title = numenor.0240.t
+	desc = numenor.0240.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference  = docks_adunai
+	}
+	right_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	
+	option = { # Andunaben is kinda cool, ngl
+		name = numenor.0240.a
+		custom_tooltip = numenor.0240.a.tt
+			add_pressed_claim = title:c_umbar
+			add_pressed_claim = title:d_umbar
+			add_pressed_claim = title:k_umbar
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { # We've always been faithful I guess
+		name = numenor.0240.b
+		custom_tooltip = numenor.0240.b.tt
+			set_character_faith = faith:kings_men
+			add_pressed_claim = title:c_umbar
+			add_pressed_claim = title:d_umbar
+			add_pressed_claim = title:k_umbar
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+numenor.0250 = { # Introduction to Lord Nilûbên.
+	title = numenor.0250.t
+	desc = numenor.0250.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference  = dimril_dale
+	}
+	right_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	
+	option = { # Nice.
+		name = numenor.0250.a
+		custom_tooltip = numenor.0250.a.tt
+			add_pressed_claim = title:c_hazaj_tollin
+			add_pressed_claim = title:d_hazaj_tollin
+			add_pressed_claim = title:k_felaya
+	}
+}
+
+numenor.0260 = { # Introduction to Lord Gimilzagar
+	title = numenor.0260.t
+	desc = numenor.0260.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = last_bridge
+	}
+	right_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	
+	option = { # Khorahil is a bad guy
+		name = numenor.0260.a
+		custom_tooltip = numenor.0260.a.tt
+			add_pressed_claim = title:k_an_balkumagan
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { # Legacy of Khorahil
+		name = numenor.0260.b
+		custom_tooltip = numenor.0260.b.tt
+			set_character_faith = faith:melkorite
+			add_pressed_claim = title:k_an_balkumagan
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+numenor.0001 = { #do what with aa
+	title = numenor.0001.t
+	desc = numenor.0001.desc
+	theme = stewardship_duty_focus
+	left_portrait = {
+		character = title:e_numenor.holder
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = title:e_adunaim.holder
+		animation = personality_bold
+	}
+	option = { # just destroy them
+		name = numenor.0001.a
+		add_pressed_claim = title:c_tol_uialgaer
+		title:e_adunaim.holder = {
+			set_relation_rival = ROOT
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+	
+	option = { # demand submission
+		name = numenor.0001.b
+		title:e_adunaim.holder = {
+			trigger_event = {
+				id = numenor.0002
+				days = 1
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { # not worth our time
+		name = numenor.0001.c
+		add_prestige = 5
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+numenor.0002 = { #what will aa do
+	title = numenor.0002.t
+	desc = numenor.0002.desc
+	theme = stewardship_duty_focus
+	left_portrait = {
+		character = title:e_numenor.holder
+		animation = personality_bold
+	}
+	option = { # pwease numenor don't hurt me
+		name = numenor.0002.a
+		destroy_title = title:e_adunaim
+		create_title_and_vassal_change = {
+            type = created
+            save_scope_as = change
+            add_claim_on_loss = no
+        }
+        title:d_tol_uialgaer.holder = {
+            change_liege = {
+                liege = title:e_numenor.holder
+                change = scope:change 
+            }
+        }
+		resolve_title_and_vassal_change = scope:change
+		#title:e_numenor.holder = {
+		#	title:e_adunaim = {
+		#		change_title_holder_include_vassals = {
+		#			change = previously created title_and_vassal_change
+		#			holder = title:e_numenor.holder
+		#		}
+		#	}
+		#}
+			
+		set_character_faith = faith:faith_adunaic
+		if = {
+			limit = { has_trait = zealous }
+			remove_trait = zealous
+		}
+			
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { # never, heathen
+		name = numenor.0002.b
+		add_prestige = 500
+		add_piety = 500
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+numenor.0010 = { #Meneltarma
+	title = numenor.0010.t
+	desc = numenor.0010.desc
+	theme = learning_theology_focus
+	left_portrait = {
+		character = ROOT
+		animation = personality_content
+	}
+	override_background = {
+		reference = meneltarma
+	}
+	option = { # just destroy them
+		name = numenor.0010.a
+		add_prestige = 25
+		add_piety = 25
+		add_character_modifier = {
+			modifier = blessed_by_meneltarma_modifier
+			years = 5
+		}
+		#if = {
+		#	limit = {  NOT = { has_character_modifier = blessed_by_meneltarma_modifier }	}
+		#	add_character_modifier = blessed_by_meneltarma_modifier
+		#}
+	}
+	
+}
+
+numenor.1000 = {
+	title = numenor.1000.t
+	desc = numenor.1000.desc
+	theme = stewardship_duty_focus
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	option = { 
+		name = numenor.1000.a # we're back, baby
+	}
+}
+	
+numenor.1001 = {
+	title = numenor.1001.t
+	desc = numenor.1001.desc
+	theme = stewardship_duty_focus
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	option = { 
+		name = numenor.1001.a # ah shit here we go again...
+		}
+}
+
+numenor.1002 = {
+	title = numenor.1002.t
+	desc = numenor.1002.desc
+	theme = stewardship_duty_focus
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	option = { 
+		name = numenor.1002.a # The rebels of Bellakar have been brought to heel
+	}
+}
+
+numenor.1003 = {
+	title = numenor.1003.t
+	desc = numenor.1003.desc
+	theme = stewardship_duty_focus
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	option = { 
+		name = numenor.1003.a # Heruhyarmen's nightmare
+		}
+}
+
+numenor.1004 = {
+	title = numenor.1004.t
+	desc = numenor.1004.desc
+	theme = stewardship_duty_focus
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	option = { 
+		name = numenor.1004.a # Where's the rest of Thani-Hazad?
+	}
+}
+
+numenor.1005 = {
+	title = numenor.1005.t
+	desc = numenor.1005.desc
+	theme = stewardship_duty_focus
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	option = { 
+		name = numenor.1005.a # good riddance Bobby
+		}
+}
+
+numenor.1006 = {
+	title = numenor.1006.t
+	desc = numenor.1006.desc
+	theme = stewardship_duty_focus
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	option = { 
+		name = numenor.1006.a # The mightiest of the colonies is back firmly under the motherland
+	}
+}
+
+numenor.1007 = {
+	title = numenor.1007.t
+	desc = numenor.1007.desc
+	theme = stewardship_duty_focus
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	option = { 
+		name = numenor.1007.a # The exiles are no more
+	}
+}
+
+numenor.1008 = {
+	title = numenor.1008.t
+	desc = numenor.1008.desc
+	theme = stewardship_duty_focus
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	option = { 
+		name = numenor.1008.a # Harnen is ours yippee
+	}
+}
+
+numenor.1009 = {
+	title = numenor.1009.t
+	desc = numenor.1009.desc
+	theme = stewardship_duty_focus
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	option = { 
+		name = numenor.1009.a # are they done yet
+	}
+}
+
+numenor.2001 = {
+	title = numenor.2001.t
+	desc = numenor.2001.desc
+	theme = stewardship_duty_focus
+	left_portrait = {
+		character = scope:expedition_sender
+		animation = personality_bold
+	}
+	option = { 
+		name = numenor.2001.a # best of luck lads
+		title:e_numenor.holder = {
+			trigger_event = { # journey update
+				id = numenor.2002
+				days = 40
+			}
+		}
+	}
+}
+
+numenor.2002 = { #Pirates!
+	title = numenor.2002.t
+	desc = numenor.2002.desc
+	theme = stewardship_duty_focus
+	left_portrait = {
+		character = scope:expedition_sender
+		animation = personality_bold
+	}
+	option = { # stand and fight
+		name = sailing.3200.a
+		duel = {
+			skill = martial
+			value = 10
+			50 = {		
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				modifier = {
+					add = 10
+					has_trait = education_martial_3
+				}
+				modifier = {
+					add = 20
+					has_trait = education_martial_4
+				}
+				modifier = {
+					add = 10
+					has_trait = strategist
+				}
+				desc = sailing.3200.a.success
+				custom_tooltip = sailing.3200.a.success.tt
+				trigger_event = {
+					id = numenor.2002
+					days = 1
+				}
+			}
+			50 = {		
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = numenor.2002.a.failure
+				custom_tooltip = numenor.2002.a.failure.tt 
+				trigger_event = {
+					id = numenor.2002
+					days = 1
+				}
+			}
+		}
+		custom_tooltip = numenor.2002.a.positive.odds
+		custom_tooltip = numenor.2002.a.negative.odds
+	}
+	
+	option = { # Try to flee!
+		name = sailing.3200.b
+		random_list = {
+			50 = { #All ends well
+				modifier = {
+					add = -20
+					has_trait = mariner_1
+				}		
+				modifier = {
+					add = -40
+					has_trait = mariner_2
+				}	
+				modifier = {
+					add = -60
+					has_trait = mariner_3
+				}
+				custom_tooltip = sailing.3200.b.failure.tt
+				damage_ship = yes
+				increase_wounds_no_death_effect = { REASON = duel }
+			}
+			20 = { #Ship is unscathed
+				modifier = {
+					add = 20
+					has_trait = mariner_1
+				}		
+				modifier = {
+					add = 40
+					has_trait = mariner_2
+				}	
+				modifier = {
+					add = 60
+					has_trait = mariner_3
+				}
+				custom_tooltip = sailing.3200.b.success.tt 
+			}
+		}
+	}
+}
+
+numenor.3000 = {
+	title = numenor.3000.t
+	desc = numenor.3000.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = docks_adunai
+	}
+	right_portrait = { 
+		character = scope:ruler_of_numenor
+		animation = personality_bold
+	}
+	left_portrait = { 
+		character = root
+		animation = personality_cynical
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				exists = title:k_bellazen.holder
+				title:k_bellazen.holder.dynasty = dynasty:dynasty_korlea
+				title:k_bellazen.holder.primary_title = title:k_bellazen
+			}
+			title:k_bellazen.holder = { save_scope_as = korlea_vassal_decision }
+		}
+		
+		else_if = { 
+			limit = {
+				exists = title:d_korlea.holder
+				title:d_korlea.holder.dynasty = dynasty:dynasty_korlea
+				title:d_korlea.holder.primary_title = title:d_korlea
+			}
+			title:d_korlea.holder = { save_scope_as = korlea_vassal_decision } 
+		}
+	}
+
+	option = { # Accept vassalage offer
+		name = numenor.3000.a
+		custom_tooltip = numenor.3000.a.tt
+
+		create_title_and_vassal_change = {
+            type = swear_fealty
+            save_scope_as = change
+        }
+        change_liege = {
+            liege = scope:ruler_of_numenor
+            change = scope:change 
+        }
+		resolve_title_and_vassal_change = scope:change
+
+		set_character_faith_with_conversion = faith:faith_adunaic
+		
+		title:e_bellakar.holder ?= {
+			add_pressed_claim = scope:ruler_of_numenor.primary_title
+			trigger_event = numenor.3001
+		}
+
+		add_to_global_variable_list = { # Bellakar hats numenor
+			name = korlea_vassalization
+			target = flag:option_a
+		}
+		add_to_global_variable_list = { # Decision dissapears
+			name = unavailable_unique_decisions
+			target = flag:decision_numenor_annex_korlea
+		}
+
+		ai_chance = {
+			base = 60
+		}
+	}
+ 
+	option = { # Reject Vassalage offer
+		name = numenor.3000.b
+		custom_tooltip = numenor.3000.b.tt
+
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	after = {
+		title:e_bellakar.holder = {
+			dynasty = {
+				limit = { is_alive = yes }
+				every_dynasty_member = {
+					add_opinion = {
+						modifier = bellakar_hates_numenor
+						target = scope:ruler_of_numenor
+					}
+				}
+			}
+		}
+	}
+}
+
+numenor.3001 = { # Maintenance event to start war for Korlea
+	hidden = yes
+
+	immediate = {
+		start_war = {
+			casus_belli = bellakar_korlea_cb
+			target = scope:ruler_of_numenor
+			target_title = scope:korlea_vassal_decision.primary_title
+		}
+		
+		scope:ruler_of_numenor = {
+			every_character_war = {
+				limit = { using_cb = bellakar_korlea_cb } # In-case the random head of the attackers has other wars hes currently engaged in
+				save_scope_as = war_against_numenor
+			}
+		}
+		scope:war_against_numenor = { add_defender = scope:korlea_vassal_decision }
+	}
+}
+
+numenor.3100 = { # Start journey to Valinor
+	title = numenor.3100.t
+	desc = numenor.3100.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = docks_adunai
+	}
+	left_portrait = { 
+		character = root
+		animation = marshal
+	}
+
+	option = { # We must find Valinor!!!
+		name = numenor.3100.a
+		custom_tooltip = numenor.3100.a.tt
+
+		trigger_event = {
+			id = numenor.3101
+			days = { 5 10 }
+		}
+
+		ai_chance = {
+			base = 50
+		}
+	}
+ 
+	option = { # Return in shame to Numenor
+		name = numenor.3100.b
+		custom_tooltip = numenor.3100.b.tt
+
+		trigger_event = {
+			id = numenor.3102
+			days = { 5 10 }
+		}
+
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+numenor.3101 = { # Drown
+	title = numenor.3101.t
+	desc = numenor.3101.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = ulmo
+	}
+	right_portrait = { 
+		character = scope:numenor_ruler
+		animation = beg
+	}
+
+	immediate = {
+		title:e_numenor.holder = { save_scope_as = numenor_ruler }
+	}
+
+	option = { # Accept vassalage offer
+		name = numenor.3101.a
+		custom_tooltip = numenor.3101.a.tt
+
+		death = { death_reason = death_drowned }
+
+		scope:numenor_ruler.primary_heir ?= {
+			add_prestige = -5000
+			add_piety = -5000
+
+			add_prestige_level = -2
+			add_piety_level = -2
+		}
+
+		add_to_global_variable_list = { # Decision dissapears
+			name = unavailable_unique_decisions
+			target = flag:decision_numenor_invade_valinor
+		}
+	}
+}
+
+numenor.3102 = { # Return in shame to Numenor
+	title = numenor.3102.t
+	desc = numenor.3102.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference =  docks_adunai
+	}
+	right_portrait = { 
+		character = scope:numenor_ruler
+		animation = shame
+	}
+
+	immediate = {
+		title:e_numenor.holder = { save_scope_as = numenor_ruler }
+	}
+
+	option = { # Accept vassalage offer
+		name = numenor.3102.a
+		custom_tooltip = numenor.3102.a.tt
+
+		add_prestige = -2000
+		add_piety = -2000
+
+		add_prestige_level = -1
+	}
+}
+
+numenor.3200 = {
+	hidden = yes
+
+	immediate = {
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:demand_ray_tributary
+		}
+	}
+}
+
+numenor.3201 = { # Numenor gets an event to send message to Ray to offer client state 
+	title = numenor.3201.t
+	desc = numenor.3201.desc
+	theme = stewardship_duty_focus
+
+	override_background = {
+		reference =  armenelos
+	}
+	right_portrait = { 
+		character = scope:numenor_ruler
+		animation = bold
+	}
+
+	immediate = {
+		title:k_ray.holder = { save_scope_as = ray_ruler }
+		title:e_numenor.holder = { save_scope_as = numenor_ruler }
+	}
+
+	option = { # Send the message to Ray
+		name = numenor.3201.a
+		custom_tooltip = numenor.3201.a.tt
+
+		scope:ray_ruler = {
+			trigger_event = {
+				id = numenor.3202
+			}
+		}
+	}
+}
+
+numenor.3202 = { # Ray gets a message from Numenor to become their tributary
+	title = numenor.3202.t
+	desc = numenor.3202.desc
+	theme = stewardship_duty_focus
+
+	override_background = {
+		reference =  southern_throne
+	}
+	right_portrait = { 
+		character = scope:numenor_ruler
+		animation = bold
+	}
+	left_portrait = { 
+		character = scope:ray_ruler
+		animation = disbelief
+	}
+
+	immediate = {
+		title:e_numenor.holder = { save_scope_as = numenor_ruler }
+		title:k_ray.holder = { save_scope_as = ray_ruler }
+	}
+
+	option = { # Accept tributary offer
+		name = numenor.3202.a
+		custom_tooltip = { # Tooltip indicates that Ray becomes a client state to Numenor
+			text = numenor.3202.a.tt
+
+			make_tributary = {
+				TYPE = tributary_permanent
+				SUZERAIN = scope:numenor_ruler
+				TRIBUTARY = scope:ray_ruler
+			}
+		}
+		hidden_effect = {
+			scope:ray_ruler = {
+				every_vassal = {
+					random = {
+						chance = 60
+						add_to_temporary_list = vassals_in_ray
+					}
+				}
+			}
+			every_in_list = {
+				list = vassals_in_ray
+				set_character_faith_with_conversion = faith:faith_ray
+			}
+		}
+
+		add_to_global_variable_list = { # Decision should be unavailable if Ray accepts
+			name = unavailable_unique_decisions
+			target = flag:demand_ray_tributary
+		}
+
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = { # Deny tributary offer
+		name = numenor.3202.b
+		custom_tooltip = numenor.3202.b.tt
+
+		scope:numenor_ruler = { # Starts war with Ray if they deny the client state
+			start_war = {
+				casus_belli = permament_tributary_war_numenor_ray_cb
+				target = scope:ray_ruler
+				target_title = scope:ray_ruler.primary_title
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+numenor.3300 = {
+	title = numenor.3300.title
+	desc = numenor.3300.desc
+	theme = stewardship_duty_focus
+
+	override_background = {
+		reference =  armenelos
+	}
+	right_portrait = { 
+		character = root
+		animation = bold
+	}
+
+	option = { # Form league of Pelargir
+		name = numenor.3300.a
+		custom_tooltip = numenor.3300.a.tt
+		title:c_pelargir.holder = { save_temporary_scope_as = holder_of_pelargir }
+		hidden_effect = {
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:k_pelargir = {
+				change_title_holder = {
+					holder = scope:holder_of_pelargir
+					change = scope:change
+				}
+			}
+			title:d_pelargir = {
+				set_de_jure_liege_title = title:k_pelargir
+			}
+			title:d_lebennivet = {
+				set_de_jure_liege_title = title:k_pelargir
+			}
+			title:d_tolfalas = {
+				set_de_jure_liege_title = title:k_pelargir
+			}
+			title:d_annun = {
+				set_de_jure_liege_title = title:k_pelargir
+			}
+			title:d_laergaladrin = {
+				set_de_jure_liege_title = title:k_pelargir
+			}
+			title:d_harithilien = {
+				set_de_jure_liege_title = title:k_pelargir
+			}
+			title:d_celosien = {
+				set_de_jure_liege_title = title:k_pelargir
+			}
+			title:d_gilrain = {
+				set_de_jure_liege_title = title:k_pelargir
+			}
+			resolve_title_and_vassal_change = scope:change
+			
+			title:c_pelargir = {
+				change_development_level = 5
+			}
+			title:c_linhir = {
+				change_development_level = 5
+			}
+			title:d_pelargir = {
+				change_development_level = 3
+			}
+			title:k_pelargir = {
+				set_de_jure_liege_title = title:e_numenor
+			}
+			destroy_title = title:k_lebennin
+		}
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:numenor_league_of_pelargir
+		}
+
+		ai_chance = {
+			base = 70
+		}
+	}
+
+	option = { # Don't form league of Pelargir
+		name = numenor.3300.b
+		custom_tooltip = numenor.3300.b.tt
+
+		ai_chance = {
+			base = 30
+		}
+	}
+}
+
+numenor.3310 = {
+	title = numenor.3310.title
+	desc = numenor.3310.desc
+	theme = stewardship_duty_focus
+
+	override_background = {
+		reference =  armenelos
+	}
+	right_portrait = { 
+		character = root
+		animation = bold
+	}
+	left_portrait = { 
+		character = root
+		animation = root
+	}
+
+	option = { # Accept bribe
+		name = numenor.3310.a
+
+		ai_chance = {
+			base = 100
+
+			modifier = {
+				has_trait = honest						
+				add = -100
+			}
+			modifier = {
+				has_trait = just						
+				add = -100
+			}
+		}
+	}
+	option = { # Do NOT accept the bribe
+		name = numenor.3310.b
+		
+		ai_chance = {
+			base = 0
+
+			modifier = {
+				has_trait = honest						
+				add = 100
+			}
+			modifier = {
+				has_trait = just						
+				add = 100
+			}
+		}
+	}
+}

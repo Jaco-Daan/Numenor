@@ -1,0 +1,9 @@
+﻿l_english:
+
+  bellakar_korlea_cb_name:0 "Second Korlean War"
+  bellakar_korlea_victory_desc:0 "Númenor loses Korlea"
+  bellakar_korlea_defeat_desc:0 "Bellakar regains Korlea"
+
+  permament_tributary_war_numenor_ray_cb:0 "War to make Rây a tributary"
+
+  numenor_council_approval_trigger:0 "Only [EmptyScope.ScriptValue('council_of_numenor_total_approval')] council members approve of this war, out of the necessary 4 required"

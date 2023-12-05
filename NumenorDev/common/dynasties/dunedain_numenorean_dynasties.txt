@@ -1,0 +1,162 @@
+﻿#################
+#### NUMENOR ####
+#################
+
+dynasty_elros = {
+	name = "dynn_elros"
+	culture = "numenorean"
+	motto = dynn_elros_motto
+}
+
+dynasty_mablung = {
+	name = "dynn_mab"
+	culture = "numenorean"
+	motto = dynn_mab_motto
+}
+
+dynasty_ciryamir = {
+	name = "dynn_ciryamir"
+	culture = "numenorean"
+	motto = dynn_ciryamir_motto
+}
+
+dynasty_minorforostar = {
+	name = "dynn_minorforostar"
+	culture = "numenorean"
+	motto = dynn_minorforostar_motto
+}
+
+dynasty_ciryandur = {
+	name = "dynn_ciryandur"
+	culture = "numenorean"
+	motto = dynn_ciryandur_motto
+}
+
+dynasty_akhorahil = {
+	name = "dynn_akhor"
+	culture = "numenorean"
+	motto = dynn_akhor_motto
+}
+
+dynasty_telemnacil = {
+	name = "dynn_telemn"
+	culture = "numenorean"
+	motto = dynn_telmn_motto
+}
+
+dynasty_agathor = {
+	name = "dynn_agathor"
+	culture = "numenorean"
+	motto = dynn_agathor_motto
+}
+
+dynasty_aruthan = {
+	name = "dynn_aruthan"
+	culture = "numenorean"
+	motto = dynn_aruthan_motto
+}
+
+dynasty_elenore = {
+	name = "dynn_elenore"
+	culture = "numenorean"
+	motto = dynn_elenore_motto
+}
+
+dynasty_azulhin = {
+	name = "dynn_azulhin"
+	culture = "numenorean"
+	motto = dynn_azulhin_motto
+}
+dynasty_arialome = {
+	name = "dynn_arialome"
+	culture = "numenorean"
+	motto = dynn_arialome_motto
+}
+dynasty_borodiriath = {
+	name = "dynn_borodiriath"
+	culture = "numenorean"
+	motto = dynn_borodiriath_motto
+}
+dynasty_sirinore = {
+	name = "dynn_siril"
+	culture = "numenorean"
+	motto = dynn_sirinore_motto
+}
+dynasty_jewellord = {
+	name = "dynn_jewel"
+	culture = "numenorean"
+	motto = dynn_jewel_motto
+}
+dynasty_tindomul = {
+	name = "dynn_tindomulion"
+	culture = "numenorean"
+}
+
+## Arkia vanity character ##
+
+dynasty_vanityarkia = {
+	name = "dynn_arkia"
+	culture = "numenorean"
+	motto = dynn_arkia_motto
+}
+
+### BNs ###
+
+dynasty_balkurhil = {
+	name = "dynn_balkur"
+	culture = "black_numenorean"
+}
+
+dynasty_ulbarhol = {
+	name = "dynn_ulbar"
+	culture = "black_numenorean"
+}
+
+dynasty_zimrhulion = {
+	name = "dynn_zimr"
+	culture = "black_numenorean"
+}
+
+dynasty_kastarhon = {
+	name = "dynn_kastar"
+	culture = "black_numenorean"
+}
+
+dynasty_niluzirbeth = {
+	name = "dynn_nilur"
+	culture = "black_numenorean"
+}
+
+dynasty_aphanuzir = {
+	name = "dynn_aphan"
+	culture = "black_numenorean"
+}
+
+dynasty_rothparioni = {
+	name = "dynn_rothpar"
+	culture = "black_numenorean"
+}
+
+dynasty_arnuril = {
+	name = "dynn_arnuril"
+	culture = "black_numenorean"
+}
+
+dynasty_nalorveh = {
+	name = "dynn_nalorveh"
+	culture = "black_numenorean"
+}
+
+dynasty_zorgarik = {
+	name = "dynn_zor"
+	culture = "black_numenorean"
+}
+
+dynasty_malanturion = {
+	name = "dynn_malanturion"
+	culture = "black_numenorean"
+}
+dynasty_menelihin = {
+	name = "dynn_menelihin"
+	culture = "black_numenorean"
+}

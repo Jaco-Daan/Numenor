@@ -1,0 +1,499 @@
+﻿# Called from code after history generation
+# Empty scope
+on_game_start = {
+	events = {
+		fp1_scandinavian_adventurers.0004	# FP1 - Organise Norse adventurers.
+		fp1_scandinavian_adventurers.0011	# FP1 - Corral famous Norse adventurers that haven't done much yet.
+		fp1_scandinavian_adventurers.0021	# FP1 - Mark game-start prioritised adventurers.
+		historical_artifacts.0023			# Historical Artifacts Generator
+		lotr_historical_artifacts.0001		# LotR Historical Artifacts Generator
+		#Guaranteed historical artifacts fixed spawning
+		#debug_portraits.1 					# Debug portraits for animation testing
+		# easteregg_event.0001				# Charna and Jakub duel.
+	}
+
+	effect = {
+
+		### Numenor Submod ###
+		set_up_council_of_sceptre = yes
+	
+		### Define Elven Homeland Counties
+		define_elven_homelands = yes
+
+		### Define Routes
+		define_trade_routes = yes
+
+		### Set up Dorwinion Dynasty Factions ### - can move these to a scripted effect if needed later
+		dynasty:dynasty_koldana = { add_dynasty_modifier = winelords }
+		dynasty:dynasty_garmeniana = { add_dynasty_modifier = winelords }
+		dynasty:dynasty_ilian = { add_dynasty_modifier = winelords }
+		dynasty:dynasty_maleniana = { add_dynasty_modifier = winelords }
+		dynasty:dynasty_raudbarad = { add_dynasty_modifier = winelords }
+		dynasty:dynasty_steining = { add_dynasty_modifier = winelords }
+		dynasty:dynasty_aldian = { add_dynasty_modifier = winelords }
+		dynasty:dynasty_variana = { add_dynasty_modifier = winelords }
+		dynasty:dynasty_logian = { add_dynasty_modifier = winelords }
+		dynasty:dynasty_aldiana = { add_dynasty_modifier = master_merchants }
+		# dynasty:dynasty_herian = { add_dynasty_modifier = master_merchants }
+		dynasty:dynasty_ilasarian = { add_dynasty_modifier = master_merchants }
+		dynasty:dynasty_capariana = { add_dynasty_modifier = master_merchants }
+		dynasty:dynasty_vieriana = { add_dynasty_modifier = winelords }
+		dynasty:dynasty_barvadinian = { add_dynasty_modifier = master_merchants }
+		dynasty:dynasty_jauf = { add_dynasty_modifier = master_merchants }
+		### --------------------------------- ###
+		
+		### Set Up Dune Sea Witch Covens ###
+
+		house:house_shazares ?= { add_house_modifier = witch_coven }
+		house:house_mirakes ?= { add_house_modifier = witch_coven }
+		house:house_druages ?= { add_house_modifier = witch_coven }
+		house:house_zayares ?= { add_house_modifier = witch_coven }
+
+		### Appoint Princely Houses of the Dunedain ###
+		dynasty:dynasty_dol_amroth = { add_dynasty_modifier = princely_house_of_dol_amroth }
+		
+		fire_intro_events = yes
+		generate_sorcery_list_on_start = yes
+
+		if = { # The Establishment of the Ithilien Rangers
+			limit = { game_start_date > 2934.1.1 } # The year is after T.A. 2901, when Henneth Annun was built
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:establish_the_ithilien_rangers
+			}
+		}
+		
+		random_independent_ruler = {
+			trigger_event = elven_racial.0100
+		}
+		
+		every_living_character = {
+        	#trigger_event = {
+			#	id = coa.1					# LotR - Change CoAs for realms controlled by Uruks.
+			#	days = 1
+			#}
+			trigger_event = {
+				id = elven_racial.0009 	#Elven racial maintenance event
+				days = 1
+			}
+		}
+
+		#########################
+		# WILDERNESS total clear of courtiers, guests and downgrading the leader
+		# Issue and solution: guests seems to constantly respawn unless you remove the leader, so we do it
+		#########################
+		empty_wastelands_inhabitants_effect = yes
+
+		#########################
+		# WILDERNESS The ruler will be respawned, we need to remove all traits from him/her
+		# Issue and solution: ruler is still not a ruler and you can't use every_ruler, it seems to be appointed after, so I use a filtered every_living_character
+		#########################
+		remove_traits_wastelands_effect = yes	
+
+
+		#Setup Global Variables
+		set_global_variable = {
+			name = tedjin_reactionaries_triggered
+			value = no
+		}
+		set_global_variable = {
+			name = tedjin_civil_war_over
+			value = no
+		}
+		set_global_variable = {
+			name = tedjin_civil_war_result
+			value = 0 #Not yet occurred
+		}
+		set_global_variable = {
+			name = sauron_destroyed
+			value = no #He's still kicking!
+		}
+		
+		set_global_variable = {
+			name = bor_saint
+			value = no	#bor isnt a saint yet
+		}
+		
+		### Make dunlending white-hand faith inaccessible
+		
+		faith:faith_dunlending_white_hand = {
+			set_variable = { name = block_conversion_till_decision_taken }
+		}
+		
+		### Tweaking faith fervor so we dont have strange game-start heresies
+
+		faith:faith_arysis = {
+			change_fervor = { 
+				value = 80
+				desc = fervor_gain_ascetic_example
+			}
+		}
+
+		#title:k_izindizanda_eruhinim.holder = {
+		#	add_realm_law = male_only_law
+		#}
+		
+		### Remove prescripted will not marry traits on timeout ###
+		character:linesteward40 = {
+			trigger_event = {
+				id = shattered_earth.3
+				years = 21
+			}
+		}
+		character:lineisildur42 = {
+			trigger_event = {
+				id = shattered_earth.3
+				years = 21
+			}
+		}
+		character:dolamroth31 = {
+			trigger_event = {
+				id = shattered_earth.3
+				years = 21
+			}
+		}
+		character:6000018 = {
+			trigger_event = {
+				id = shattered_earth.3
+				years = 21
+			}
+		}
+		character:6000035 = {
+			trigger_event = {
+				id = shattered_earth.3
+				years = 21
+			}
+		}
+		
+		title:c_minas_tirith.holder = { 
+        	trigger_event = { ### LotR Shattered Earth Game Rule Initial Event ###
+				id = shattered_earth.1
+				days = 1
+			}
+			trigger_event = { # Initial culture acceptance
+				id = culture_acceptance.1
+			}
+        }
+		
+		title:c_minas_ithil.holder = { 
+        	trigger_event = { # LotR - Set up Morgul Corruption
+				id = wraith.0001	
+				days = 1
+			}
+        }					
+
+		### Cap Dynasty Perks at 5 ###
+		
+		every_living_character = {
+        	limit = {
+				has_dynasty = yes
+				dynasty = {
+					dynasty_prestige > 6250
+				}
+			}
+			dynasty = {
+				add_dynasty_prestige = {
+					value = dynasty_prestige
+					multiply = -1
+					add = 6250
+				}
+			}
+		}
+
+		### Gondor Border Realm Wars ###
+		character:linevingintur6 = {
+			if = {
+				limit = {
+					is_alive = yes
+					is_landed = yes
+				}
+				trigger_event = {
+					id = warband.2001
+					days = { 15 30 }
+				}
+			}
+		}
+		
+		character:lineofcalmacil14 = {
+			if = {
+				limit = {
+					is_alive = yes
+					is_landed = yes
+				}
+				trigger_event = {
+					id = warband.2020
+					days = { 15 30 }
+				}
+			}
+		}
+		
+		title:k_umbar.holder = {
+			if = {
+				limit = {
+					is_alive = yes
+					is_landed = yes
+				}
+				trigger_event = {
+					id = umbar.0001
+					days = { 15 30 }
+				}
+			}
+		}
+		
+		character:lineofbelphegor3 = {
+			if = {
+				limit = {
+					is_alive = yes
+					is_landed = yes
+				}
+				trigger_event = {
+					id = mardruak.0100
+				}
+			}
+		}
+		
+		### GRANDEUR ###
+		#Royal Court: Set starting Grandeur to be the same as Expected
+		if = {
+			limit = {
+				has_dlc_feature = royal_court
+			}
+			every_character_with_royal_court = {
+				set_current_court_grandeur = court_grandeur_minimum_expected
+				apply_hold_court_grace_effect = yes
+				# Stops Hold Court reminders at game start
+				set_variable = {
+					name = last_hold_court_date
+					value = current_year
+				}
+			}
+		}
+
+		### REGENCIES ###
+		# Pre-defined historic regencies setup.
+		## NOTE: we do these first to avoid feed messages getting weird due to regents being replaced immediately after getting their position.
+		## 867.
+		### None. Yet.
+		## 1066.
+		#if = { #LotR - commented out vanilla, but kept as an example of how we can do it
+		#	limit = { game_start_date = 1066.9.15 }
+		#	# Designate some regents.
+		#	## King Philippe of France & Duke Boudewijn of Flanders (friend of his dad's)
+		#	character:214 = {
+		#		designate_diarch = character:364
+		#		# Baldwin of Flanders also promised the prior king he'd take care of Philippe, so we add that starting loyalty hook.
+		#		add_hook = {
+		#			type = predecessor_loyalty_hook
+		#			target = character:364
+		#			years = historic_regent_loyal_after_death_hook_duration_years_value
+		#		}
+		#		reverse_add_opinion = {
+		#			target = character:364
+		#			modifier = promise_to_predecessor
+		#			opinion = 50
+		#		}
+		#	}
+		#}
+		# Set up anyone who should be in a regency at start whether we have sources or not.
+		## If you start as a child, incapable, or imprisoned, you get a regency.
+		every_ruler = {
+			limit = {
+				OR = {
+					is_adult = no
+					is_incapable = yes
+					is_imprisoned = yes
+				}
+			}
+			# We don't want to check over so many characters *twice*, so we check again inside the block to determine what type of regency to put 'em in.
+			## Temporary Regencies.
+			if = {
+				limit = { is_imprisoned = yes }
+				trigger_event = {
+					id = diarchy.0001
+					delayed = yes
+				}
+			}
+			## Entrenched Regencies.
+			else = {
+				trigger_event = {
+					id = diarchy.0011
+					delayed = yes
+				}
+			}
+		}
+		
+	}
+}
+
+
+# Like on_game_start, except it is called once the host (or player, in single player) exits the lobby. Good for anything where you need to know who the players are, or what the game rules are
+on_game_start_after_lobby = {
+    on_actions = {
+        delay = { months = 1 }
+        lotr_on_monthly_tribute
+    }	
+	
+	effect = {
+
+		### Ensure player elves hold elven holdings and have correct government
+		#initialise_elven_holdings = yes
+
+		### Ruler designer elves get an event to age up
+		every_player = {
+			limit = { 
+				is_elf = yes
+				is_from_ruler_designer = yes
+			}
+			trigger_event = elven_racial.0102
+		}
+
+
+        every_suzerain = {
+            # Initialise tributary income for UI
+            trigger_event = { id = tributary.0006 }
+        }
+        
+        # Make sure that Realm Priests are landed theocrats where it makes sense
+		every_ruler = {
+			limit = {
+				highest_held_title_tier >= tier_duchy
+			}
+			if = {
+				limit = {
+					exists = cp:councillor_court_chaplain
+					cp:councillor_court_chaplain = {
+						is_ruler = no
+					}
+					faith = { has_doctrine = doctrine_clerical_succession_spiritual_fixed_appointment }
+					any_vassal = {
+						is_physically_able_adult = yes
+						is_councillor = no
+						government_has_flag = government_is_theocracy
+						can_be_court_chaplain_trigger = { COURT_OWNER = liege }
+						faith = liege.faith
+					}
+				}
+				random_vassal = {
+					limit = {
+						is_physically_able_adult = yes
+						is_councillor = no
+						government_has_flag = government_is_theocracy
+						can_be_court_chaplain_trigger = { COURT_OWNER = liege }
+						faith = liege.faith
+					}
+					weight = {
+						base = 1
+						modifier = {
+							add = 1000
+							faith.religious_head ?= this
+						}
+						modifier = {
+							add = learning
+						}
+						modifier = {
+							add = primary_title.tier
+						}
+					}
+					liege = {
+						assign_councillor_type = {
+							type = councillor_court_chaplain
+							remove_existing_councillor = yes
+							target = prev
+						}
+					}
+				}
+			}
+		}
+	
+		### GAME RULE: VIEW ON SAME-SEX RELATIONS
+		if = {
+			limit = { has_game_rule = accepted_same_sex_relations }
+			game_rule_accepted_same_sex_relations_effect = yes
+		}
+
+		### GAME RULE: RANDOM RULER PLACEMENT
+		# if = {
+		# 	limit = { NOT = { has_game_rule = random_ruler_placement_off } }
+		# 	game_rule_random_ruler_placement_effect = yes
+		# }
+
+		### GAME RULE: RANDOMIZE FAITH
+		if = {
+			limit = { has_game_rule = randomized_faiths_on }
+			game_rule_randomize_faith_effect = yes
+			#LotR - Ensure Valinor stays unchanged
+			title:c_tol_eressea = {
+				set_county_faith = faith:faith_eldar
+			}
+			title:c_valinor_1 = {
+				set_county_faith = faith:faith_eldar
+			}
+			title:c_valinor_2 = {
+				set_county_faith = faith:faith_eldar
+			}
+			title:c_valinor_3 = {
+				set_county_faith = faith:faith_eldar
+			}
+			character:k_wastelands_holder = {
+				set_character_faith = faith:faith_wastelands_pagan
+				every_held_title = {
+					limit = { tier = tier_county }
+					set_county_faith = faith:faith_wastelands_pagan
+				}
+			}
+		}
+
+		### GAME RULE: FAITH ACCEPTANCE
+		if = {
+			limit = { has_game_rule = full_faith_acceptance }
+			game_rule_faith_acceptance_effect = yes
+		}
+
+		### GAME RULE: GENDER EQUALITY ###
+		if = {
+			limit = { has_game_rule = full_gender_equality }
+			game_rule_full_gender_equality_effect = yes
+		}
+		else_if = {
+			limit = { has_game_rule = inversed_gender_equality }
+			game_rule_inversed_gender_equality_effect = yes #todo fix
+		}
+
+		### GAME RULE: SEXUALITY DISTRIBUTION ###
+		if = {
+			limit = { NOT = { has_game_rule = sexuality_distribution_default } }
+			game_rule_sexuality_distribution_effect = yes
+		}
+		else = { # So that children 10+ starts with a sexuality
+			child_sexuality_distribution_effect = yes
+		}
+		
+		# Give Ruler Designer characters regencies.
+		every_in_global_list = {
+			variable = rd_chars_needing_regencies
+			trigger_event = diarchy.0011
+			# Aaaand clean the list.
+			save_temporary_scope_as = char_temp
+			remove_list_global_variable = {
+				name = rd_chars_needing_regencies
+				target = scope:char_temp
+			}
+		}
+		
+		### HOLD COURT STARTING GRACE
+		every_character_with_royal_court = {
+			set_variable = {
+				name = hold_court_cooldown
+	 			days = standard_hold_court_cooldown_time
+	 		}
+		}
+		
+		#every_living_character = {
+		#	trigger_event = elven_racial.0001 	#Elven racial maintenance event
+		#}
+	}
+
+	events = {
+		game_rule.1000	#Autopopulate families.
+	}
+}

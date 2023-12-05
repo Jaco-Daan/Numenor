@@ -1,0 +1,443 @@
+4303 = {	#Almaida (b_inzil)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = city_holding
+}
+4163 = {	#Opele Ancalimonva (b_opele_ancalimonva)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+				6990.1.1 = {
+					buildings = {
+						castle_04
+						citadel_01
+						curtain_walls_04
+						common_tradeport_05
+					}
+				}	
+}
+
+4181 = {	#Hyarmentie (b_hyarmentie)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4205 = { 	#Wingron (b_wingron)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4173 = { 	#Arabeleth (b_arabeleth)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4200 = {	#Adorothe (b_adorothe)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4196 = {	#Aruwanai (b_aruwanai}
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4220 = {	#Hyarnumen (b_hyarnumen)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4224 = {	#Formenore (b_formenore)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4234 = {	#Romenna (b_romenna)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+				6990.1.1 = {
+					buildings = {
+						castle_04
+						citadel_02
+						curtain_walls_04
+						common_tradeport_06
+					}
+					special_building_slot = wonder_romenna_01
+					special_building = wonder_romenna_02
+			}
+}
+4238 = {	#Tol Uinen (b_tol_uinen)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = church_holding
+				6990.1.1 = {
+					special_building_slot = wonder_calmindon_01
+					special_building = wonder_calmindon_01
+				}
+}
+4243 = {	#Armenelos (b_armenelos)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+				6990.1.1 = {
+					buildings = {
+						castle_04
+						citadel_02
+						curtain_walls_05
+						barracks_05
+						garrison_tower_02
+					}
+					special_building_slot = wonder_armenelos_01
+					special_building = wonder_armenelos_02
+			}
+}
+4241 = {	#Uinen (b_earendos)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4245 = {	#Anariova (b_anariova)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4249 = {	#Baithal (b_baithal)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4275 = {	#Ciryalonde (b_ciryalonde)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+				6990.1.1 = {
+					buildings = {
+						castle_03
+						curtain_walls_04
+						common_tradeport_06
+						barracks_03
+					}
+			}
+}
+4268 = {	#Vinyon (b_vinyon)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4297 = {	#Elorna (b_elorna)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4291 = {	#Sorno (b_sorno)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4262 = {	#Elenduin (b_elenduin)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4294 = {	#Elrova (b_athrad_elrosonva)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+				6990.1.1 = {
+					buildings = {
+						castle_04
+						citadel_01
+						curtain_walls_03
+						farm_estates_06
+						common_tradeport_06
+					}
+			}
+}
+4124 = {	#Belzirbeth (b_kadar_belzirbeth)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4138 = {	#Karbelaret (b_karbelaret)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4123 = {	#Sorontil (b_sorontil)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+				6990.1.1 = {
+					buildings = {
+						castle_03
+						citadel_01
+						curtain_walls_03
+						garrison_tower_02
+					}
+					special_building_slot = wonder_sorontil_01
+					special_building = wonder_sorontil_01
+			}
+}
+4119 = {	#Kharutarik (b_kharutarik)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4288 = {	#Ondosto (b_ondosto)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+				6990.1.1 = {
+					buildings = {
+						castle_04
+						farm_estates_06
+						orchads_05
+						barracks_04
+						curtain_walls_05
+					}
+					special_building_slot = wonder_ondosto_01
+					special_building = wonder_ondosto_01
+			}			
+}
+4309 = {	#Belzag (b_belzag)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4273 = {	#Herundal (b_herundal)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4279 = {	#Meryare (b_meryare)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4296 = {	#Athrangrost (b_athrangrost)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4278 = {	#Arialome (b_arialome)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4272 = {	#Vlarion (b_vlarion)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4254 = {	#Theanil (b_theanil)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4255 = {	#Erest (b_erest)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4261 = {	#Maltenost (b_maltenost)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4277 = {	#Meniel (b_meniel)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4283 = {	#Oromet (b_oromet)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+			special_building_slot = wonder_oromet_01
+			special_building = wonder_oromet_01
+}
+4292 = {	#Andunie (b_andunie)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+				6990.1.1 = {
+					buildings = {
+						castle_04
+						curtain_walls_06
+						common_tradeport_07
+						barracks_05
+						orchads_05
+					}
+					special_building_slot = wonder_andunie_01
+					special_building = wonder_andunie_02
+				}
+}
+4247 = {	#Hisindor (b_hisindor)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4239 = {	#Nunduine (b_nunduine)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4237 = {	#Eldalonde (b_eldalonde)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+				6990.1.1 = {
+					buildings = {
+						castle_04
+						curtain_walls_05
+						common_tradeport_07
+						orchads_05
+						garrison_tower_02
+					}
+					special_building_slot = wonder_eldalonde_01
+					special_building = wonder_eldalonde_02
+			}			
+}
+4308 = {	#Nisinna (b_nisinna)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4214 = {	#Tarminas (b_tarminas)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4225 = {	#Morionde (b_morionde)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4206 = {	#Menost (b_menost)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4192 = {	#Farahil (b_farahil)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4172 = {	#Edrahil (b_edrahil)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4191 = {	#Erelonde (b_erelonde)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+				6990.1.1 = {
+					buildings = {
+						castle_04
+						common_tradeport_06
+						farm_estates_06
+						orchads_05
+						barracks_04
+					}
+			}
+}
+4162 = {	#Zagrar (b_zagrar)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4152 = {	#Hazdore (b_hazdore)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4160 = {	#Nidirmost (b_nidirmost)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4166 = {	#Numir (b_numir)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4154 = {	#Zorakhator (b_zorakhator)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4179 = {	#Zimraopele (b_zimraopele)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+				6990.1.1 = {
+					buildings = {
+						castle_03
+						curtain_walls_04
+						orchads_05
+						farm_estates_06
+						garrison_tower_02
+					}
+			}
+}
+4176 = {	#Kharalonde (b_kharalonde)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4188 = {	#Nindamos (b_nindamos)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+				6990.1.1 = {
+					buildings = {
+						castle_04
+						curtain_walls_06
+						orchads_05
+						farm_estates_06
+						common_tradeport_07
+					}
+					special_building_slot = wonder_nindamos_01
+					special_building = wonder_nindamos_01
+			}
+}
+4202 = {	#Cemendor (b_cemendor)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4211 = {	#Siropela (b_siropela)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4210 = {	#Erendis (b_erendis)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+			6990.1.1 = {
+					special_building_slot = wonder_erendis_01
+					special_building = wonder_erendis_01
+			}
+}
+4222 = {	#Syntarin (b_syntaryn)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4230 = {	#Melonan (b_melonan)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+}
+4251 = {	#Meneltarma (b_meneltarma)
+			culture = adunaic
+			religion = faith_adunaic
+			holding = castle_holding
+				6990.1.1 = {
+					special_building_slot = wonder_meneltarma_01
+					special_building = wonder_meneltarma_02
+			}
+}

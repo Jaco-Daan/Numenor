@@ -1,0 +1,20 @@
+﻿object={
+	name="tree_birch_yellow_generator_1_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="tree_high_layer"
+	pdxmesh="tree_birch_yellow_01_a_mesh"
+	count=1
+	transform="3802.699219 0.000000 4276.497070 0.000000 0.922565 0.000000 0.385842 1.000000 1.000000 1.000000
+"}
+object={
+	name="tree_birch_yellow_generator_1_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="tree_high_layer"
+	pdxmesh="tree_birch_yellow_01_b_mesh"
+	count=1
+	transform="3805.456299 0.000000 4279.617676 0.000000 0.189309 0.000000 -0.981918 1.000000 1.000000 1.000000
+"}
