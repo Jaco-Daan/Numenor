@@ -1,9 +1,6 @@
+name="Numenor Developer"
 tags={
-	"Map"
-	"Religion"
-	"Alternative History"
-	"Culture"
+	"Gameplay"
 }
-name="Númenor Submod for Realms in Exile"
-supported_version="1.10.2"
-path="mod/NumenorDev"
+supported_version="1.10.*"
+path="C:/Users/PC/Documents/Paradox Interactive/Crusader Kings III/mod/NumenorDev"
