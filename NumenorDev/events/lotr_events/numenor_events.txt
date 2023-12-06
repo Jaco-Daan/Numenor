@@ -993,16 +993,56 @@ numenor.3310 = {
 		reference =  armenelos
 	}
 	right_portrait = { 
-		character = root
+		character = scope:actor
 		animation = bold
 	}
 	left_portrait = { 
-		character = root
-		animation = root
+		character = scope:recipient
+		animation = bold
 	}
 
 	option = { # Accept bribe
 		name = numenor.3310.a
+		
+		custom_tooltip = {
+			text = bribe_council_member_interaction_tt
+			hidden_effect = {
+				every_in_global_list = {
+					variable = council_of_numenor
+					add_opinion = {
+						modifier = bribed_council_member
+						target = scope:actor
+					}
+				}
+			}
+		}
+		scope:actor = {
+			send_interface_message = {
+				type = event_generic_neutral
+				title = bribe_council_member_interaction_notification
+				right_icon = scope:recipient
+				pay_short_term_gold = {
+					gold = bribe_council_member_cost
+					target = scope:recipient
+				}
+			}
+		}
+		scope:actor = {
+			set_variable = council_member_bribed
+			add_opinion = {
+				modifier = respect_opinion
+				target = scope:recipient
+				opinion = 10
+			}
+		}
+		scope:recipient = {
+			set_variable = council_member_bribed
+			add_opinion = {
+				modifier = respect_opinion
+				target = scope:actor
+				opinion = 10
+			}
+		}
 
 		ai_chance = {
 			base = 100
@@ -1019,6 +1059,24 @@ numenor.3310 = {
 	}
 	option = { # Do NOT accept the bribe
 		name = numenor.3310.b
+
+		
+		scope:recipient = {
+			set_variable = council_member_bribed
+			add_opinion = {
+				modifier = weak_opinion
+				target = scope:actor
+				opinion = -10
+			}
+		}
+		scope:actor = {
+			set_variable = council_member_bribed
+			add_opinion = {
+				modifier = weak_opinion
+				target = scope:recipient
+				opinion = -10
+			}
+		}
 		
 		ai_chance = {
 			base = 0

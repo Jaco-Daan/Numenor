@@ -6,4 +6,4 @@
 
   permament_tributary_war_numenor_ray_cb:0 "War to make Rây a tributary"
 
-  numenor_council_approval_trigger:0 "Only [EmptyScope.ScriptValue('council_of_numenor_total_approval')] council members approve of this war, out of the necessary 4 required"
+  numenor_council_approval_trigger:0 "Only [EmptyScope.ScriptValue('council_of_numenor_total_approval')] council members approve of this war, out of the necessary [EmptyScope.ScriptValue('total_council_members_on_numenor_council_halved')] required"

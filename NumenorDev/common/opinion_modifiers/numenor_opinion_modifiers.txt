@@ -3,3 +3,10 @@
 	years = 50
 	decaying = yes
 }
+
+bribed_council_member = {
+	opinion = -30
+	monthly_change = -0.25
+	years = 10
+	decaying = yes
+}

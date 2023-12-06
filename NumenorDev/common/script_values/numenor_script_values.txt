@@ -23,8 +23,14 @@ council_of_numenor_total_approval = {
 				}
 			}
 		}
-		add = {
-			value = scope:opinion_of_numenor_ruler
+		add = { value = scope:opinion_of_numenor_ruler }
+	}
+
+	every_in_global_list = {
+		variable = council_of_numenor
+		if = {
+			limit = { has_variable = council_member_bribed }
+			add = 1
 		}
 	}
 }
@@ -43,5 +49,41 @@ total_council_members_on_numenor_council = {
 			}
 		}
 		add = { value = scope:opinion_of_numenor_ruler }
+	}
+}
+
+total_council_members_on_numenor_council_halved = {
+	value = 0
+
+	add = {
+		value = total_council_members_on_numenor_council
+		divide = 2
+		ceiling = yes
+	}
+}
+
+bribe_council_member_cost = {
+	value = 0
+	if = {
+		limit = {
+			scope:recipient = {
+				opinion = {
+					target = scope:actor
+					value < 1
+				}
+			}
+		}
+		add = 150
+	}
+	if = {
+		limit = {
+			scope:recipient = {
+				opinion = {
+					target = scope:actor
+					value < -50
+				}
+			}
+		}
+		add = 150
 	}
 }

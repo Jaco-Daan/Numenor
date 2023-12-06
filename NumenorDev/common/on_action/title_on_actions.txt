@@ -122,9 +122,14 @@ on_title_gain = {
 				}
 				NOT = { has_title = title:e_numenor }
 			}
-			add_to_global_variable_list = {
-				name = council_of_numenor
-				target = root
+			if = {
+				limit = {
+					culture = culture:adunaic
+				}
+				add_to_global_variable_list = {
+					name = council_of_numenor
+					target = root
+				}
 			}
 			remove_list_global_variable = {
 				name = council_of_numenor
@@ -133,7 +138,26 @@ on_title_gain = {
 		}
 
 		if = {
-			limit = { has_title = title:e_numenor }
+			limit = {
+				has_title = title:e_numenor
+				NOT = {
+					scope:previous_holder = {
+						any_held_title = {
+							tier = tier_duchy
+							OR = {
+								this = title:d_andunie
+								this = title:d_nisimaldar
+								this = title:d_nunduine
+								this = title:d_ciryanore
+								this = title:d_nindamos
+								this = title:d_hyarnudore
+								this = title:d_sorontil
+								this = title:d_formenore
+							}
+						}
+					}
+				}
+			}
 			remove_list_global_variable = {
 				name = council_of_numenor
 				target = scope:previous_holder
