@@ -1,6 +1,17 @@
 numenor_council_of_the_sceptre_hud = {
 	is_valid = {
-		has_title = title:e_numenor
+		OR = {
+			has_title = title:e_numenor
+			has_title = title:d_nindamos
+			has_title = title:d_hyarnudore
+			has_title = title:d_sorontil
+			has_title = title:d_formenore
+			has_title = title:d_andunie
+			has_title = title:d_nisimaldar
+			has_title = title:d_nunduine
+			has_title = title:d_ciryanore
+		}
+		culture = culture:adunaic
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
