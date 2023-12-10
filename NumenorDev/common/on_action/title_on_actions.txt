@@ -123,9 +123,7 @@ on_title_gain = {
 				NOT = { has_title = title:e_numenor }
 			}
 			if = {
-				limit = {
-					culture = culture:adunaic
-				}
+				limit = { culture = culture:adunaic }
 				add_to_global_variable_list = {
 					name = council_of_numenor
 					target = root
@@ -972,6 +970,40 @@ on_title_gain_inheritance = {
 		diarchy.0113
 	}
 	effect = {
+
+		### Numenor Code ###
+
+		if = {
+			limit = {
+				OR = {
+					scope:title = title:d_andunie
+					scope:title = title:d_nisimaldar
+					scope:title = title:d_nunduine
+					scope:title = title:d_ciryanore
+					scope:title = title:d_nindamos
+					scope:title = title:d_hyarnudore
+					scope:title = title:d_sorontil
+					scope:title = title:d_formenore
+				}
+				any_in_global_list = {
+					variable = council_of_numenor
+					this = scope:previous_holder
+				}
+				NOT = { has_title = title:e_numenor }
+			}
+			remove_list_global_variable = {
+				name = council_of_numenor
+				target = scope:previous_holder
+			}
+			if = {
+				limit = { culture = culture:adunaic }
+				add_to_global_variable_list = {
+					name = council_of_numenor
+					target = root
+				}
+			}
+		}
+		### Numenor Code ###
 		
 		# LotR - If orc gains county with non-orc buildings, destroy invalid buildings
 		if = {
