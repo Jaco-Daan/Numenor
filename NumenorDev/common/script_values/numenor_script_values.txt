@@ -35,6 +35,22 @@ council_of_numenor_total_approval = {
 	}
 }
 
+council_of_numenor_total_approval_gui = {
+	value = 0 
+
+	if = {
+		limit = { council_of_numenor_total_approval > 8 }
+		add = 8
+	}
+	else_if = {
+		limit = { council_of_numenor_total_approval < 0 }
+		add = 0
+	}
+	else = {
+		add = council_of_numenor_total_approval
+	}
+}
+
 total_council_members_on_numenor_council = {
 	value = 0
 

@@ -4,4 +4,4 @@
   NUMENOR_COUNCIL_OF_SCEPTRE_HEADER:0 "Council of the Sceptre"
   NUMENOR_COUNCIL_APPROVAL_HEADER:0 "Overall council approval:"
   
-  NUMENOR_COUNCIL_APPROVAL_NUM:0 "\n\n#P [EmptyScope.ScriptValue('council_of_numenor_total_approval')|0]/[EmptyScope.ScriptValue('total_council_members_on_numenor_council')]#!"
+  NUMENOR_COUNCIL_APPROVAL_NUM:0 "\n\n#P [EmptyScope.ScriptValue('council_of_numenor_total_approval_gui')|0]/[EmptyScope.ScriptValue('total_council_members_on_numenor_council')]#!"
