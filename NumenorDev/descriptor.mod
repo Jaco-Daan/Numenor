@@ -1,6 +1,13 @@
-name="Numenor Developer"
 tags={
-	"Gameplay"
+	"Map"
+	"Religion"
+	"Alternative History"
+	"Culture"
 }
-supported_version="1.11.*"
-path="C:/Users/PC/Documents/Paradox Interactive/Crusader Kings III/mod/NumenorDev"
+dependencies={
+	"LotR: Realms in Exile"
+}
+name="Númenor Submod for Realms in Exile"
+picture="thumbnail.png"
+supported_version="1.11.2"
+remote_file_id="2902243711"

@@ -3,846 +3,6 @@
 #@county_view_helms_deep = "gfx/interface/illustrations/county_view/county_view_helms_deep.dds"
 #@county_view_isengard = "gfx/interface/illustrations/county_view/county_view_isengard.dds"
 
-### NÚMENOR ###
-
-#White House of Erendis
-wonder_erendis_01 = {
-	type_icon = "icon_building_dormitory.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 2000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { has_cultural_pillar = heritage_northern_adunai }
-			}
-		}
-	province_modifier = {
-		tax_mult = 0.1
-	}
-	county_modifier = {
-		development_growth_factor = 0.1
-	}
-	character_modifier = {
-		vassal_opinion = 5
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}	
-	
-	ai_value = {
-		base = 100
-	}
-	flag = travel_point_of_interest_learning
-	type = special
-}
-#Eldalonde
-wonder_eldalonde_01 = { #Numenorean Port of Eldalonde
-	type_icon = "icon_wonder_dolamroth.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.2
-		tax_mult = 0.2
-	}
-	county_modifier = {
-		development_growth_factor = 0.1
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_eldalonde_02
-	flag = travel_point_of_interest_diplomatic
-	type = special
-}
-
-wonder_eldalonde_02 = { #Eldalonde after the Akallabeth
-	type_icon = "icon_wonder_dolamroth.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.4
-		tax_mult = 0.3
-	}
-	county_modifier = {
-		development_growth_factor = 0.2
-	}
-	character_modifier = {
-		vassal_opinion = 5
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}	
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_eldalonde_03
-	flag = travel_point_of_interest_diplomatic
-	type = special
-}
-wonder_eldalonde_03 = {
-	type_icon = "icon_wonder_dolamroth.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 2000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { has_cultural_pillar = heritage_northern_adunai }
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.6
-		tax_mult = 0.4
-	}
-	county_modifier = {
-		development_growth_factor = 0.3
-	}
-	character_modifier = {
-		vassal_opinion = 5
-		same_faith_opinion = 5
-		no_water_crossing_penalty = yes
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}	
-	
-	ai_value = {
-		base = 100
-	}
-	type = special
-	flag = travel_point_of_interest_diplomatic
-}
-
-#Andunie
-wonder_andunie_01 = { #Andunie, haven of the faithful
-	type_icon = "icon_wonder_beacon_of_soronomar.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.2
-		tax_mult = 0.2
-	}
-	county_modifier = {
-		development_growth_factor = 0.1
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_andunie_02
-	flag = travel_point_of_interest_learning
-	type = special
-}
-
-wonder_andunie_02 = { #Andunie after the Akallabeth
-	type_icon = "icon_wonder_beacon_of_soronomar.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.4
-		tax_mult = 0.3
-	}
-	county_modifier = {
-		development_growth_factor = 0.2
-	}
-	character_modifier = {
-		vassal_opinion = 5
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}	
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_andunie_03
-	flag = travel_point_of_interest_learning
-	type = special
-}
-
-wonder_andunie_03 = {
-	type_icon = "icon_wonder_beacon_of_soronomar.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 2000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { has_cultural_pillar = heritage_northern_adunai }
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.6
-		tax_mult = 0.4
-	}
-	county_modifier = {
-		development_growth_factor = 0.3
-	}
-	character_modifier = {
-		vassal_opinion = 5
-		same_faith_opinion = 5
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}	
-	
-	ai_value = {
-		base = 100
-	}
-	type = special
-	flag = travel_point_of_interest_learning
-}
-
-#Meneltarma
-wonder_meneltarma_01 = { #Meneltarma, Holy mountain of Eru
-	type_icon = "icon_wonder_tharagrondost.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.2
-		tax_mult = 0.2
-	}
-	county_modifier = {
-		development_growth_factor = 0.1
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_meneltarma_02
-	flag = travel_point_of_interest_religious
-	type = special
-}
-
-wonder_meneltarma_02 = { #Meneltarma as a place to worship the Fallen
-	type_icon = "icon_wonder_tharagrondost.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 2000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { has_cultural_pillar = heritage_northern_adunai }
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.6
-		tax_mult = 0.4
-	}
-	county_modifier = {
-		development_growth_factor = 0.3
-	}
-	character_modifier = {
-		vassal_opinion = 5
-		same_faith_opinion = 5
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}	
-	
-	ai_value = {
-		base = 100
-	}
-	type = special
-	flag = travel_point_of_interest_religious
-}
-
-wonder_ondosto_01 = { #No more quarrying, sad
-	type_icon = "icon_building_marble_quarry.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.2
-		tax_mult = 0.2
-	}
-	county_modifier = {
-		development_growth_factor = 0.1
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_ondosto_02
-	flag = travel_point_of_interest_martial
-	type = special
-}
-
-wonder_ondosto_02 = { #New quarries, nice
-	type_icon = "icon_building_marble_quarry.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 2000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { has_cultural_pillar = heritage_northern_adunai }
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.6
-		tax_mult = 0.4
-	}
-	county_modifier = {
-		development_growth_factor = 0.6
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}	
-	
-	ai_value = {
-		base = 100
-	}
-	type = special
-	flag = travel_point_of_interest_martial
-}
-
-wonder_nindamos_01 = { #fish
-	type_icon = "icon_building_generic_02.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.2
-		tax_mult = 0.2
-	}
-	county_modifier = {
-		development_growth_factor = 0.1
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_nindamos_02
-	flag = travel_point_of_interest_economic
-	type = special
-}
-
-wonder_nindamos_02 = { #Fish and people
-	type_icon = "icon_building_generic_02.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 2000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { has_cultural_pillar = heritage_northern_adunai }
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.6
-		tax_mult = 0.4
-	}
-	county_modifier = {
-		development_growth_factor = 0.3
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}	
-	
-	ai_value = {
-		base = 100
-	}
-	type = special
-	flag = travel_point_of_interest_economic
-}
-
-wonder_oromet_01 = { #Tower destroyed during the Akallabeth
-	type_icon = "icon_wonder_numenorean_tower.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 01 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-			}
-		}
-	province_modifier = {
-	}
-	county_modifier = {
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_oromet_02
-	flag = travel_point_of_interest_religious
-	type = special
-}
-
-wonder_oromet_02 = { #Tower restored
-	type_icon = "icon_wonder_numenorean_tower.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 500
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 02 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { has_cultural_pillar = heritage_northern_adunai }
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.6
-		tax_mult = 0.4
-	}
-	county_modifier = {
-		development_growth_factor = 0.3
-	}
-	character_modifier = {
-		vassal_opinion = 5
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}	
-	
-	ai_value = {
-		base = 100
-	}
-	flag = travel_point_of_interest_religious
-	type = special
-}
-
-wonder_calmindon_01 = { #Tower of Calmindon
-	type_icon = "icon_wonder_imrazor_hallow.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 2000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 01 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { has_cultural_pillar = heritage_northern_adunai }
-			}
-		}
-	province_modifier = {
-		supply_limit_mult = 0.6
-		tax_mult = 0.4
-	}
-	character_modifier = {
-		vassal_opinion = 5
-		same_faith_opinion = 5
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}	
-	
-	ai_value = {
-		base = 100
-	}
-	flag = travel_point_of_interest_martial_minor
-	type = special
-}
-
-wonder_sorontil_01 = { #Tower destroyed during the Akallabeth
-	type_icon = "icon_wonder_umbar_citadel.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 01 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-			}
-		}
-	province_modifier = {
-	}
-	county_modifier = {
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_sorontil_02
-	flag = travel_point_of_interest_learning
-	type = special
-}
-
-wonder_sorontil_02 = { #Tower restored
-	type_icon = "icon_wonder_umbar_citadel.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 500
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 02 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { has_cultural_pillar = heritage_northern_adunai }
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.6
-		tax_mult = 0.4
-	}
-	county_modifier = {
-		development_growth_factor = 0.3
-	}
-	character_modifier = {
-		vassal_opinion = 5
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}	
-	
-	ai_value = {
-		base = 100
-	}
-	flag = travel_point_of_interest_learning
-	type = special
-}
-
-wonder_romenna_01 = { #Romenna, gratest haven of Númenor
-	type_icon = "icon_building_observatory.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.2
-		tax_mult = 0.2
-	}
-	county_modifier = {
-		development_growth_factor = 0.1
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_romenna_02
-	flag = travel_point_of_interest_economic
-	type = special
-}
-
-wonder_romenna_02 = { #Haven being restored
-	type_icon = "icon_building_observatory.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.4
-		tax_mult = 0.3
-	}
-	county_modifier = {
-		development_growth_factor = 0.2
-	}
-	character_modifier = {
-		vassal_opinion = 5
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}	
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_romenna_03
-	flag = travel_point_of_interest_economic
-	type = special
-}
-
-wonder_romenna_03 = { # Haven restored
-	type_icon = "icon_building_observatory.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 2000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { has_cultural_pillar = heritage_northern_adunai }
-			}
-		}
-	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
-		supply_limit_mult = 0.6
-		tax_mult = 0.4
-	}
-	county_modifier = {
-		development_growth_factor = 0.3
-	}
-	character_modifier = {
-		vassal_opinion = 5
-		no_water_crossing_penalty = yes
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}	
-	
-	ai_value = {
-		base = 100
-	}
-	flag = travel_point_of_interest_economic
-	type = special
-}
-
-# Armenelos
-wonder_armenelos_01 = { # Armenelos
-	type_icon = "icon_wonder_osgiliath.dds"
-
-	construction_time = very_slow_construction_time
-	cost_prestige = normal_building_tier_8_cost
-	cost_gold = 1000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		culture = {
-			has_innovation = innovation_hoardings
-		}
-	}
-	province_modifier = {
-#		defender_advantage = good_building_fort_level_tier_8 # Matt note: cannot be used in province/county modifier.
-		fort_level = 10
-		supply_limit_mult = 3
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}
-	type = special
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_armenelos_02
-	flag = travel_point_of_interest_diplomatic
-	type = special
-}
-
-wonder_armenelos_02 = { #Temple of the Fallen
-	type_icon = "icon_wonder_osgiliath.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1000
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		culture = {
-			has_innovation = innovation_hoardings
-		}
-	}
-	province_modifier = {
-#		defender_advantage = good_building_fort_level_tier_8 # Matt note: cannot be used in province/county modifier.
-		fort_level = 10
-		supply_limit_mult = 3
-	}
-	character_modifier = {
-		knight_limit = 3
-		heavy_infantry_damage_mult = 0.05
-		pikemen_damage_mult = 0.05
-	}	
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}	
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_armenelos_03
-	flag = travel_point_of_interest_diplomatic
-	type = special
-}
-
-wonder_armenelos_03 = { #Palace of the King
-	type_icon = "icon_wonder_osgiliath.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1200
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		culture = {
-			has_innovation = innovation_hoardings
-		}
-	}
-	province_modifier = {
-#		defender_advantage = good_building_fort_level_tier_8 # Matt note: cannot be used in province/county modifier.
-		fort_level = 10
-		supply_limit_mult = 3
-	}
-	
-	character_modifier = {
-		knight_limit = 5
-		heavy_infantry_damage_mult = 0.05
-		pikemen_damage_mult = 0.05
-		health = 0.5
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_northern_adunai }
-	}
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_armenelos_04
-	flag = travel_point_of_interest_diplomatic
-	type = special
-}
-
-wonder_armenelos_04 = { #Armenelos: Flowering of Nimloth
-	type_icon = "icon_wonder_osgiliath.dds"	
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1500
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		culture = {
-			has_innovation = innovation_hoardings
-		}
-	}
-	province_modifier = {
-#		defender_advantage = good_building_fort_level_tier_8 # Matt note: cannot be used in province/county modifier.
-		fort_level = 10
-		supply_limit_mult = 3
-	}
-	
-	character_modifier = {
-		knight_limit = 5
-		heavy_infantry_damage_mult = 0.1
-		pikemen_damage_mult = 0.1
-		vassal_opinion = 10
-		health = 0.5
-	}
-	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = northern_adunai }
-	}
-	ai_value = {
-		base = 100
-	}
-	flag = travel_point_of_interest_diplomatic
-	type = special
-}
 
 ### ROHAN ###
 # Edoras
@@ -2847,6 +2007,7 @@ wonder_orodruin = { #Mount Doom
 	}
 	type = special
 	flag = travel_point_of_interest_religious
+	
 }	
 
 # Tharbaud
@@ -3226,7 +2387,7 @@ wonder_ramlond = {
 	county_modifier = {
 		development_growth_factor = 0.3
 		fort_level = 4
-#		defender_advantage = 4 # Matt note: cannot be used in province/county modifier.
+		# defender_advantage = 4 # Matt note: cannot be used in province/county modifier.
 	}
 	
 	#is_enabled = {
@@ -3431,6 +2592,7 @@ wonder_umbar_01 = {
 				OR = {
 					culture = { has_cultural_pillar = heritage_dunedain }
 					culture = { has_cultural_pillar = heritage_northern_adunaic }
+					culture = { has_cultural_pillar = heritage_adunaic }
 				}
 			}
 		}
@@ -3474,6 +2636,7 @@ wonder_umbar_02 = {
 				OR = {
 					culture = { has_cultural_pillar = heritage_dunedain }
 					culture = { has_cultural_pillar = heritage_northern_adunaic }
+					culture = { has_cultural_pillar = heritage_adunaic }
 				}
 			}
 		}
@@ -3523,6 +2686,7 @@ wonder_umbar_03 = {
 				OR = {
 					culture = { has_cultural_pillar = heritage_dunedain }
 					culture = { has_cultural_pillar = heritage_northern_adunaic }
+					culture = { has_cultural_pillar = heritage_adunaic }
 				}
 			}
 		}
@@ -3530,7 +2694,7 @@ wonder_umbar_03 = {
 		development_growth_factor = 0.3
 		tax_mult = 0.3
 		fort_level = 4
-#		defender_advantage = 8 # Matt note: cannot be used in province/county modifier.
+		# defender_advantage = 8 # Matt note: cannot be used in province/county modifier.
 	}
 	
 	character_modifier = {
@@ -3573,6 +2737,7 @@ wonder_umbar_04 = {
 				OR = {
 					culture = { has_cultural_pillar = heritage_dunedain }
 					culture = { has_cultural_pillar = heritage_northern_adunaic }
+					culture = { has_cultural_pillar = heritage_adunaic }
 				}
 				custom_tooltip = {
 					text = umbar_04_religion_is_eruhini_tt
@@ -3584,7 +2749,7 @@ wonder_umbar_04 = {
 		development_growth_factor = 0.3
 		tax_mult = 0.3
 		fort_level = 6
-#		defender_advantage = 8 # Matt note: cannot be used in province/county modifier.
+		# defender_advantage = 8 # Matt note: cannot be used in province/county modifier.
 	}
 	
 	character_modifier = {
@@ -3629,12 +2794,13 @@ wonder_umbar_citadel = {
 				OR = {
 					culture = { has_cultural_pillar = heritage_dunedain }
 					culture = { has_cultural_pillar = heritage_northern_adunaic }
+					culture = { has_cultural_pillar = heritage_adunaic }
 				}
 			}
 		}
 	county_modifier = {
 		fort_level = good_building_fort_level_tier_2
-#		defender_advantage = good_building_fort_level_tier_2 # Matt note: cannot be used in province/county modifier.
+		# defender_advantage = good_building_fort_level_tier_2 # Matt note: cannot be used in province/county modifier.
 	}
 
 	#is_enabled = {
@@ -3797,7 +2963,7 @@ wonder_citadel_hyarmendacil_01 = { # Citadel of Hyarmendacil
 		fort_level = 1
 		hostile_raid_time = 0.25
 		garrison_size = 0.1
-#		defender_advantage = 2 # Matt note: cannot be used in province/county modifier.
+		# defender_advantage = 2 # Matt note: cannot be used in province/county modifier.
 	}
 
 	#is_enabled = {
@@ -3827,7 +2993,7 @@ wonder_citadel_hyarmendacil_02 = { # Fortified Citadel of Hyarmendacil
 		fort_level = 2
 		hostile_raid_time = 0.5
 		garrison_size = 0.25
-#		defender_advantage = 5 # Matt note: cannot be used in province/county modifier.
+		# defender_advantage = 5 # Matt note: cannot be used in province/county modifier.
 	}
 	#is_enabled = {
 	#	scope:holder = {
@@ -4008,7 +3174,7 @@ wonder_urud_an_khibil_monestary = {
 	province_modifier = {
 		fort_level = 5
 		supply_limit_mult = 0.7
-#		defender_advantage = 5 # Matt note: cannot be used in province/county modifier.
+		# defender_advantage = 5 # Matt note: cannot be used in province/county modifier.
 	}
 	character_modifier = {
 		monthly_prestige = 1
@@ -4234,6 +3400,7 @@ wonder_arch_ciryandur = { #Arch of Ciryandur
 	}
 	is_enabled = {
 		scope:holder.culture = { has_cultural_pillar = heritage_bellakari }
+		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
 	}
 	ai_value = {
 		base = 100
@@ -4287,6 +3454,7 @@ wonder_pillar_urez = { #Pillar of Ûrêzâyaneth
 	}
 	is_enabled = {
 		scope:holder.culture = { has_cultural_pillar = heritage_bellakari }
+		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
 	}
 	ai_value = {
 		base = 100
@@ -4998,6 +4166,78 @@ wonder_zaja_shar_noria_03 = {
 	}
 }
 
+
+wonder_hamat_maresh_01 = { # Refuge of Maresh
+	type_icon = "icon_building_plantations.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 350
+	province_modifier = {
+		garrison_size = 0.1
+		fort_level = 2
+		monthly_income = 0.5
+	}
+	character_modifier = {
+		stress_loss_mult = 0.1
+	}
+	county_modifier = {
+		development_growth_factor = 0.1
+	}
+	type = special
+	flag = travel_point_of_interest_economic
+	next_building = wonder_hamat_maresh_02
+	ai_value = {
+		base = 10
+	}
+	
+}
+wonder_hamat_maresh_02 = { # Refuge of Maresh
+	type_icon = "icon_building_plantations.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 750
+	province_modifier = {
+		garrison_size = 0.2
+		fort_level = 4
+		monthly_income = 1.5
+	}
+	character_modifier = {
+		stress_loss_mult = 0.1
+	}
+	county_modifier = {
+		development_growth_factor = 0.2
+		tax_mult = 0.1
+	}
+	type = special
+	flag = travel_point_of_interest_economic
+	next_building = wonder_hamat_maresh_03
+	ai_value = {
+		base = 10
+	}
+	
+}
+wonder_hamat_maresh_03 = { # Refuge of Maresh
+	type_icon = "icon_building_plantations.dds"
+	flag = fully_upgraded
+	construction_time = very_slow_construction_time
+	cost_gold = 1200
+	province_modifier = {
+		garrison_size = 0.3
+		fort_level = 5
+		monthly_income = 2.5
+	}
+	character_modifier = {
+		stress_loss_mult = 0.1
+	}
+	county_modifier = {
+		development_growth_factor = 0.3
+		tax_mult = 0.2
+	}
+	type = special
+	flag = travel_point_of_interest_economic
+	ai_value = {
+		base = 10
+	}
+	
+}
 
 ### Anduin Vale ###
 
@@ -6106,11 +5346,2346 @@ wonder_temple_sulereb_03 = { # Temple of Sulereb restored
 	flag = travel_point_of_interest_religious
 }
 
+#############
+### Arnor ###
+#############
+
+wonder_cameth_brin_01 = {
+	type_icon = "icon_wonder_cameth_brin.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+        fort_level = 2
+        hostile_raid_time = 0.5
+        garrison_size = 0.25
+	}
+
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_cameth_brin_02
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}	
+wonder_cameth_brin_02 = {
+	type_icon = "icon_wonder_cameth_brin.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 800
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		fort_level = 2
+	}
+
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_cameth_brin_03
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}	
+wonder_cameth_brin_03 = {
+	type_icon = "icon_wonder_cameth_brin.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 1200
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+        fort_level = 2
+        hostile_raid_time = 0.5
+        garrison_size = 0.25
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_learning
+	ai_value = {
+		base = 100
+	}
+}
+
+# Athaircuile
+wonder_athaircuile_01 = {
+	type_icon = "icon_structure_stonehenge.dds"
+
+	construction_time = very_slow_construction_time
+	cost_prestige = normal_building_tier_4_cost
+	cost_gold = normal_building_tier_4_cost
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		custom_description = {
+			text = holy_site_building_trigger
+			barony = {
+				is_holy_site_of = scope:holder.faith
+			}
+		}
+		scope:holder = {
+			culture = {
+				has_innovation = innovation_chronicle_writing
+			}
+		}
+	}
+	is_enabled = {
+		custom_description = {
+			text = holy_site_building_trigger
+			barony = {
+				is_holy_site_of = scope:holder.faith
+			}
+		}
+	}
+	
+	character_modifier = {
+		monthly_piety = 0.25
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		levy_size = 0.1
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+	province_modifier = {
+		monthly_income = 1
+	}
+	flag = fully_upgraded	
+	type = special
+	flag = travel_point_of_interest_religious
+	ai_value = {
+		base = 100
+	}
+}
+
+# The Barrow Downs (Tyrn Gorthad)
+
+wonder_barrow_downs_01 = {
+	type_icon = "icon_barrow_downs.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	character_modifier = {
+		monthly_piety = 0.25
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		levy_size = 0.1
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_barrow_downs_02
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}	
+wonder_barrow_downs_02 = {
+	type_icon = "icon_barrow_downs.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 800
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	character_modifier = {
+        dread_gain_mult = 0.1 
+        dread_baseline_add = 10
+	}
+
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_barrow_downs_03
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}	
+wonder_barrow_downs_03 = {
+	type_icon = "icon_barrow_downs.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 1200
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	character_modifier = {
+		monthly_piety = 0.25
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		levy_size = 0.1
+		development_growth_factor = 0.2
+		development_growth = 0.1
+	}
+
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_learning
+	ai_value = {
+		base = 100
+	}
+}
+
+# Palace of Thalion
+wonder_thalion_01 = {
+	type_icon = "icon_building_observatory.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		tax_mult = 0.2
+        development_growth_factor = 0.1
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.2
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_thalion_02
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}	
+wonder_thalion_02 = {
+	type_icon = "icon_building_observatory.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 800
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		tax_mult = 0.3
+        development_growth_factor = 0.1
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.3
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_thalion_03
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}	
+wonder_thalion_03 = {
+	type_icon = "icon_building_observatory.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 1200
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.1
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_learning
+	ai_value = {
+		base = 100
+	}
+	next_building = wonder_thalion_04
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+
+wonder_thalion_04 = {
+	type_icon = "icon_building_observatory.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 1200
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		tax_mult = 0.3
+        development_growth_factor = 0.1
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.3
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_learning
+	ai_value = {
+		base = 100
+	}
+}	
+
+# Argond
+wonder_argond_01 = {
+	type_icon = "icon_building_observatory.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		fort_level = 1
+	}
+	
+	county_modifier = {
+        tax_mult = 0.1
+	}
+
+	character_modifier = {
+        monthly_prestige = 0.5
+	}
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_argond_02
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}	
+wonder_argond_02 = {
+	type_icon = "icon_building_observatory.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 800
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		fort_level = 1
+	}
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_argond_03
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+	
+wonder_argond_03 = {
+	type_icon = "icon_building_observatory.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 1200
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		fort_level = 1
+	}
+	
+	county_modifier = {
+        tax_mult = 0.1
+	}
+
+	character_modifier = {
+        monthly_prestige = 0.5
+	}
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_learning
+	ai_value = {
+		base = 100
+	}
+}
+
+# Lond Daer
+wonder_lond_daer_01 = {
+	type_icon = "icon_structure_doges_palace.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		supply_limit_mult = 0.6
+        tax_mult = 0.4
+	}
+	
+	county_modifier = {
+        development_growth_factor = 0.3
+	}
+
+	character_modifier = {
+		embarkation_cost_mult = -0.25
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_lond_daer_02
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}	
+wonder_lond_daer_02 = {
+	type_icon = "icon_structure_doges_palace"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 800
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.1
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_lond_daer_03
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+	
+wonder_lond_daer_03 = {
+	type_icon = "icon_structure_doges_palace"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 1200
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		supply_limit_mult = 0.6
+        tax_mult = 0.4
+	}
+	
+	county_modifier = {
+                development_growth_factor = 0.3
+	}
+
+	character_modifier = {
+		embarkation_cost_mult = -0.25
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_learning
+	ai_value = {
+		base = 100
+	}
+}
+
+# Tharbad
+wonder_tharbad_01 = {
+	type_icon = "icon_wonder_tharbad.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		fort_level = good_building_fort_level_tier_1
+        supply_limit_mult = 0.3
+        tax_mult = 0.3
+	}
+	
+	county_modifier = {
+        development_growth_factor = 0.2
+	}			
+
+	character_modifier = {
+		no_water_crossing_penalty = yes
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_tharbad_02
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}	
+wonder_tharbad_02 = {
+	type_icon = "icon_wonder_tharbad.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 800
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		fort_level = good_building_fort_level_tier_1
+        supply_limit_mult = 0.5
+        tax_mult = 0.4
+	}
+	
+	county_modifier = {
+        development_growth_factor = 0.4
+	}			
+
+	character_modifier = {
+		no_water_crossing_penalty = yes
+		naval_movement_speed_mult = 0.25
+        embarkation_cost_mult = -0.25
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_tharbad_03
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}	
+wonder_tharbad_03 = {
+	type_icon = "icon_wonder_tharbad.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 1200
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.1
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_learning
+	ai_value = {
+		base = 100
+	}
+	next_building = wonder_tharbad_04
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+
+wonder_tharbad_04 = {
+	type_icon = "icon_building_tradeport.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 1200
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		fort_level = good_building_fort_level_tier_1
+        supply_limit_mult = 0.5
+        tax_mult = 0.4
+	}
+	
+	county_modifier = {
+        development_growth_factor = 0.4
+	}			
+
+	character_modifier = {
+		no_water_crossing_penalty = yes
+		naval_movement_speed_mult = 0.25
+        embarkation_cost_mult = -0.25
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_learning
+	ai_value = {
+		base = 100
+	}
+}
+
+# Mistalondë
+wonder_mistalonde_01 = {
+	type_icon = "icon_building_tradeport.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		supply_limit_mult = 0.6
+        tax_mult = 0.4
+	}
+	
+	county_modifier = {
+        development_growth_factor = 0.3
+	}
+
+	character_modifier = {
+		embarkation_cost_mult = -0.25
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_mistalonde_02
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}	
+wonder_mistalonde_02 = {
+	type_icon = "icon_building_tradeport.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 800
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		supply_limit_mult = 0.3
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.1
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_mistalonde_03
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+	
+wonder_mistalonde_03 = {
+	type_icon = "icon_building_tradeport.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 1200
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		supply_limit_mult = 0.6
+        tax_mult = 0.4
+	}
+	
+	county_modifier = {
+                development_growth_factor = 0.3
+	}
+
+	character_modifier = {
+		embarkation_cost_mult = -0.25
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_learning
+	ai_value = {
+		base = 100
+	}
+}
+
+# Nelvorin
+wonder_nelvorin_01 = {
+	type_icon = "icon_barrow_downs.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	character_modifier = {
+        monthly_prestige = 1
+        learning = 3
+        same_faith_opinion = 10
+	}			
+				
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_religious
+	ai_value = {
+		base = 100
+	}
+}
+
+# Caras Celairnen
+wonder_caras_celairnen_01 = {
+	type_icon = "icon_wonder_numenorean_tower.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		monthly_income = 2
+        tax_mult = 0.2
+	}
+
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_religious
+	ai_value = {
+		base = 100
+	}
+}
+
+# Barad Girithlin
+wonder_barad_girithlin_01 = {
+	type_icon = "icon_wonder_numenorean_tower.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		fort_level = 1
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.2
+	}
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_religious
+	ai_value = {
+		base = 100
+	}
+}
+
+# Annúminas 
+wonder_annuminas_01 = {
+	type_icon = "icon_wonder_minas_tirith.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		fort_level = 10
+	}
+
+	county_modifier = {
+		tax_mult = 0.25
+		# defender_advantage = 8 # Cannot be used in county scope
+		supply_limit_mult = 2
+	}
+
+	character_modifier = {
+		vassal_levy_contribution_add = 0.05
+		vassal_tax_contribution_add = 0.05
+	}
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_annuminas_02
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}	
+wonder_annuminas_02 = {
+	type_icon = "icon_wonder_minas_tirith.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 800
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	character_modifier = {
+        same_culture_opinion = 2
+        monthly_prestige = 0.1
+	}	
+		
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_annuminas_03
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+	
+wonder_annuminas_03 = {
+	type_icon = "icon_wonder_minas_tirith.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 1200
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		fort_level = 10
+	}
+
+	county_modifier = {
+		tax_mult = 0.5
+		# defender_advantage = 10 # Cannot be used in county scope
+		supply_limit_mult = 3
+	}
+
+	character_modifier = {
+		vassal_levy_contribution_add = 0.05
+		vassal_tax_contribution_add = 0.05
+	}
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_learning
+	ai_value = {
+		base = 100
+	}
+}
+
+#Fornost
+wonder_fornost_01 = {
+	type_icon = "icon_wonder_isengard.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 800
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		fort_level = 4
+        supply_limit_mult = 0.2
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.2
+	}
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_fornost_02
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+	
+wonder_fornost_02 = {
+	type_icon = "icon_wonder_isengard.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 800
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		fort_level = 4
+        supply_limit_mult = 0.2
+	}
+	
+	county_modifier = {
+        development_growth_factor = 0.1
+        tax_mult = 0.1	
+	}
+
+	character_modifier = { 
+		monthly_prestige = 0.2
+		men_at_arms_maintenance = -0.1
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_fornost_03
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+	
+wonder_fornost_03 = {
+	type_icon = "icon_wonder_isengard.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 800
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		fort_level = 2
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.1
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_fornost_04
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+		
+	
+wonder_fornost_04 = {
+	type_icon = "icon_wonder_isengard.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 1200
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+		fort_level = 4
+        supply_limit_mult = 0.2
+	}
+	
+	county_modifier = {
+        development_growth_factor = 0.1
+        tax_mult = 0.1	
+	}
+
+	character_modifier = { 
+		monthly_prestige = 0.2
+		men_at_arms_maintenance = -0.1
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_learning
+	ai_value = {
+		base = 100
+	}
+}
+
+#The Prancing Pony
+
+wonder_prancing_pony = { #The Prancing Pony Inn
+	type_icon = "icon_building_inn.dds"
+	flag = fully_upgraded	
+	construction_time = slow_construction_time
+	cost_gold = 500
+	can_construct_potential = {
+		OR = { # Should allow both Tribals and Non-Tribals to construct
+			building_requirement_tribal = no
+			building_requirement_tribal = yes
+		}
+	}
+	can_construct = {
+		scope:holder = {
+			culture = {
+					has_innovation = innovation_currency_01 
+					has_innovation = innovation_ledger 
+			}
+		}
+	}
+
+	county_modifier = {
+		development_growth = 0.1
+		development_growth_factor = 0.1
+			}
+	
+	province_modifier = {
+		tax_mult = 0.1
+		monthly_income = 1
+			}
+
+	#is_enabled = {
+	#	scope:holder = {
+	#	}
+	#}
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_economic
+
+}
+
+# Amon Sûl 
+wonder_amon_sul_01 = {
+	type_icon = "icon_wonder_numenorean_tower.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+        fort_level = 3
+        garrison_size = 2
+	}
+
+	county_modifier = {
+        monthly_county_control_change_factor = 0.1
+		levy_size = 1
+	}
+
+	character_modifier = {
+        same_culture_opinion = 8
+        monthly_prestige = 0.3
+	}
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	next_building = wonder_amon_sul_02
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}	
+wonder_amon_sul_02 = {
+	type_icon = "icon_wonder_minas_tirith.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 800
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+        fort_level = 1
+	}
+
+	character_modifier = {
+        same_culture_opinion = 2
+        monthly_prestige = 0.1
+	}
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	ai_value = {
+	base = 100
+	}
+	next_building = wonder_amon_sul_03
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+	
+wonder_amon_sul_03 = {
+	type_icon = "icon_wonder_minas_tirith.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 1200
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	province_modifier = {
+        fort_level = 3
+        garrison_size = 2
+	}
+
+	county_modifier = {
+        monthly_county_control_change_factor = 0.1
+		levy_size = 1
+	}
+
+	character_modifier = {
+        same_culture_opinion = 8
+        monthly_prestige = 0.3
+	}
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_learning
+	ai_value = {
+		base = 100
+	}
+}
+
+# Mithlond
+wonder_mithlond_north_01 = {
+	type_icon = "icon_structure_doges_palace.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		supply_limit_mult = 0.6
+        tax_mult = 0.4
+	}
+
+	character_modifier = {
+		embarkation_cost_mult = -0.25
+        monthly_prestige = 0.5
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+
+wonder_mithlond_south_01 = {
+	type_icon = "icon_structure_doges_palace.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		supply_limit_mult = 0.6
+        tax_mult = 0.4
+	}
+
+	character_modifier = {
+		embarkation_cost_mult = -0.25
+        monthly_prestige = 0.5
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+
+# Harlond 
+wonder_harlond_01 = {
+	type_icon = "icon_structure_doges_palace.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		fort_level = 1
+        tax_mult = 0.15
+        development_growth_factor = 0.2
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.1
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+
+# Forlond 
+wonder_forlond_01 = {
+	type_icon = "icon_wonder_numenorean_tower.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		fort_level = 1
+        tax_mult = 0.15
+        development_growth_factor = 0.2
+	}
+
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	next_building = wonder_forlond_02
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+wonder_forlond_02 = {
+	type_icon = "icon_wonder_minas_tirith.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		fort_level = 3
+        tax_mult = 0.3
+        development_growth_factor = 0.4
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+
+# Himring 
+wonder_himring_01 = {
+	type_icon = "icon_structure_alamut_castle.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		fort_level = 6
+        levy_size = 0.05
+        garrison_size = 0.05
+	}			
+				
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
 
 
+# Barad Caranthir 
+wonder_barad_caranthir_01 = {
+	type_icon = "icon_wonder_numenorean_tower.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		fort_level = 2
+	}
+
+	county_modifier = {
+        tax_mult = 0.2
+	}
+
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+
+# Burial Mound of Denethor
+wonder_denethor_01 = {
+	type_icon = "icon_structure_newgrange.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+
+	character_modifier = {
+		monthly_piety = 0.25
+        same_culture_opinion = 2
+	}
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+
+# Tol Galen - Dor Firn-i-Guinar
+wonder_tol_galen_01 = {
+	type_icon = "icon_wonder_numenorean_tower.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	character_modifier = {
+		monthly_prestige = 0.2
+		clergy_opinion = 10
+		monthly_piety = 0.5
+	}		
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+
+# Tower Hills - Elostirion
+wonder_elostirion_01 = {
+	type_icon = "icon_wonder_numenorean_tower.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		fort_level = 1
+	}
+
+	character_modifier = {
+		monthly_piety = 0.5
+	}
+	
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+
+# Amon Ereb
+wonder_amon_ereb_01 = {
+	type_icon = "icon_wonder_numenorean_tower.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+        fort_level = 1
+	}
+
+	character_modifier = {
+        monthly_prestige = 0.1
+	}
+	#is_enabled = {
+	#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+	#}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+
+wonder_house_of_elrond = {
+	type_icon = "icon_building_observatory.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	province_modifier = {
+		
+		fort_level = 3
+		hostile_raid_time = 0.5
+		garrison_size = 0.2
+		monthly_income = 3
+	}
+
+	county_modifier = {
+		defender_holding_advantage = 30
+	}
+
+	character_modifier = {
+        monthly_prestige = 0.3
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
+		stress_loss_mult = 0.3
+		negate_health_penalty_add = 2
+		health = 1
+		controlled_province_advantage = 10
+	}
+
+	is_enabled = {
+		OR = {
+			is_elf = yes
+			and = {
+				faith_is_good = yes
+				scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+				# Add dynamic 'elf friend' cultural attribute when we add it...
+			}
+		}
+		
+	}
+	type = special
+	flag = travel_point_of_interest_learning
+}
+
+# Eregion - Mírdairond (Halls of the Jewel-Smiths)
+wonder_mirdairond = {
+	type_icon = "icon_building_observatory.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		is_elf = yes
+	}
+	
+	province_modifier = {
+		fort_level = 1
+		monthly_income = 4
+		tax_mult = 0.2
+	}
+
+	county_modifier = {
+		development_growth = 0.2
+		development_growth_factor = 0.25
+	}
+
+	character_modifier = {
+        monthly_prestige = 0.8
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
+		#mothly_crafting_lifestyle_xp_gain_mult = 0.25
+		artifact_decay_reduction_mult = -0.5
+	}
+
+	is_enabled = {
+		OR = {
+			is_elf = yes
+			#and = {
+			#	faith_is_good = yes
+			#	scope:holder.culture = { has_cultural_pillar = heritage_dunedain }
+			#	# Add dynamic 'elf friend' cultural attribute when we add it...
+			#}
+		}
+	}
+	type = special
+	flag = travel_point_of_interest_learning
+}
+
+#Nordinbad Special Building (Azan-Zaram)
+wonder_azan_zaram_01 = {
+	type_icon = "icon_wonder_azan_zaram.dds"
+	
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	
+	character_modifier = {
+		monthly_piety = 0.25
+		stress_loss_mult = 0.1
+		health = 0.5
+	}
+	county_modifier = {
+		development_growth = 0.1
+	}
 
 
+	ai_value = {
+	base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_learning
+}
 
+wonder_carn_dum_01 = { #Carn Dum
+	type_icon = "icon_wonder_dol_guldur.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 500
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder = {
+				faith_is_evil = yes 
+			}		
+	}
+	province_modifier = {
+		fort_level = 3
+		hostile_raid_time = 0.5
+		garrison_size = 0.5
+	}
+	
+	character_modifier = {
+		dread_baseline_add = 30
+		intimidated_vassal_tax_contribution_mult = 0.125
+		intimidated_vassal_levy_contribution_mult = 0.1
+		cowed_vassal_tax_contribution_mult = 0.25
+		cowed_vassal_levy_contribution_mult = 0.2
+	}
+	is_enabled = {
+		scope:holder = {
+				faith_is_evil = yes 
+		}
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_martial
+}
+
+### Shire Wonders ###
+
+wonder_great_smials = { # The Great Smial
+	type_icon = "icon_structure_newgrange.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 500
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.dynasty = dynasty:dynasty_took
+	}
+
+	levy = 500
+	max_garrison = 100
+
+	province_modifier = {
+		fort_level = 1
+		monthly_income = 1
+	}
+
+	
+	character_modifier = {
+		powerful_vassal_opinion = 30
+		dynasty_opinion = 30
+	}
+	is_enabled = {
+		scope:holder.dynasty = dynasty:dynasty_took
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+
+wonder_bag_end = {
+	type_icon = "icon_structure_newgrange.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 500
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		is_hobbit = yes
+	}
+
+	province_modifier = {
+		monthly_income = 0.7
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.2
+	}
+
+	# Make feasts cost less?
+
+	is_enabled = {
+		is_hobbit = yes
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_diplomatic	
+}
+
+wonder_brandy_hall = { # Brandy Hall
+	type_icon = "icon_structure_newgrange.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 500
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		scope:holder.dynasty = dynasty:dynasty_oldbuck
+	}
+
+	levy = 300
+	max_garrison = 75
+
+	province_modifier = {
+		fort_level = 1
+		monthly_income = 0.8
+	}
+
+	
+	character_modifier = {
+		dynasty_opinion = 30
+	}
+	is_enabled = {
+		scope:holder.dynasty = dynasty:dynasty_oldbuck
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+
+### Blue Mountain Wonders ###
+
+wonder_zelemabkan = { # Mt Dolmed special building
+	type_icon = "icon_structure_mount_damavand.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 300
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		is_dwarf = yes
+	}
+
+	province_modifier = {
+		defender_holding_advantage = 10
+	}
+
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
+		stress_loss_mult = 0.25
+		monthly_piety = 1
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_learning
+}
+
+wonder_sunset_caverns = { # Sunset Caverns
+	type_icon = "icon_structure_newgrange.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 750
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		is_dwarf = yes
+	}
+
+	province_modifier = {
+		monthly_income = 0.2
+	}
+
+	character_modifier = {
+		martial = 1
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
+		monthly_prestige_gain_per_dread_add = 0.05
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_martial_minor
+}
+
+wonder_belegost_broken = { # Belegost (Broadbeam Capital)
+	type_icon = "icon_structure_newgrange.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 500
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		is_dwarf = yes
+	}
+	
+	province_modifier = {
+		supply_limit_mult = -0.5
+	}
+	
+	province_terrain_modifier = {
+ 		tax_mult = -0.20
+ 	}
+
+	character_modifier = {
+		monthly_prestige = 0.25
+		stress_gain_mult = 0.1
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+	next_building = wonder_belegost_rebuilt
+}
+wonder_belegost_rebuilt = { # Belegost (Broadbeam Capital)
+	type_icon = "icon_structure_newgrange.dds"
+
+	construction_time = 8760
+	cost_gold = 5000
+	can_construct_potential = {
+		scope:holder = { is_dwarf = yes }
+		has_building_or_higher = dwarven_depths_05
+	    lotr_dwarven_underground_buildings_requirement_terrain = yes
+	}
+
+	province_modifier = {
+		monthly_income = 2
+		stationed_maa_damage_mult = 0.5
+		stationed_maa_toughness_mult = 0.5
+		development_growth = 0.3
+	}
+
+	character_modifier = {
+		monthly_prestige = 1
+	}
+
+	# Make feasts cost less?
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+	next_building = wonder_belegost_reborn
+}
+wonder_belegost_reborn = { # Belegost (Broadbeam Capital)
+	type_icon = "icon_structure_newgrange.dds"
+
+	construction_time = 17520
+	cost_gold = 15000
+	can_construct_potential = {
+		scope:holder = { is_dwarf = yes }
+		has_building_or_higher = dwarven_depths_08
+	    lotr_dwarven_underground_buildings_requirement_terrain = yes
+	}
+
+	province_modifier = {
+		monthly_income = 5
+		stationed_maa_damage_mult = 1.5
+		stationed_maa_toughness_mult = 1.5
+		fort_level = 3
+	}
+
+	character_modifier = {
+		monthly_prestige = 2
+		same_culture_opinion = 20
+		development_growth = 0.5
+		stress_loss_mult = 0.1
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_diplomatic
+}
+
+wonder_nogrod_broken = { # Nogrod (Firebeard Capital)
+	type_icon = "icon_structure_walls_of_genoa.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 500
+	can_construct = {
+		#building_requirement_castle_city_church = { LEVEL = 02 }
+		is_dwarf = yes
+	}
+
+	province_modifier = {
+		supply_limit_mult = -0.5
+	}
+	
+	province_terrain_modifier = {
+ 		tax_mult = -0.30
+ 	}
+
+	character_modifier = {
+		stress_gain_mult = 0.1
+		monthly_prestige = 0.25
+	}
+
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	next_building = wonder_nogrod_rebuilt
+	type = special
+	flag = travel_point_of_interest_diplomatic	
+}
+wonder_nogrod_rebuilt = { # Nogrod (Firebeard Capital)
+	type_icon = "icon_structure_newgrange.dds"
+
+	construction_time = 17520
+	cost_gold = 10000
+	can_construct_potential = {
+		scope:holder = { is_dwarf = yes }
+		has_building_or_higher = dwarven_depths_05
+	    lotr_dwarven_underground_buildings_requirement_terrain = yes
+	}
+
+	province_modifier = {
+		supply_limit_mult = 0.25
+		monthly_income = 2
+		stationed_maa_damage_mult = 0.5
+		stationed_maa_toughness_mult = 0.5
+		development_growth = 0.3
+	}
+
+	character_modifier = {
+		monthly_prestige = 1
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	next_building = wonder_nogrod_reborn
+	type = special
+	flag = travel_point_of_interest_diplomatic	
+}
+wonder_nogrod_reborn = { # Nogrod (Firebeard Capital)
+	type_icon = "icon_structure_newgrange.dds"
+
+	construction_time = 35040
+	cost_gold = 25000
+	can_construct_potential = {
+		scope:holder = { is_dwarf = yes }
+		has_building_or_higher = dwarven_depths_08
+	    lotr_dwarven_underground_buildings_requirement_terrain = yes
+	}
+
+	province_modifier = {
+		supply_limit_mult = 0.5
+		monthly_income = 5
+		stationed_maa_damage_mult = 1.5
+		stationed_maa_toughness_mult = 1.5
+		fort_level = 3
+	}
+
+	character_modifier = {
+		stress_loss_mult = 0.1
+		monthly_prestige = 2
+		same_culture_opinion = 20
+		development_growth = 0.5
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_diplomatic	
+}
+
+wonder_tradeport_of_kheledul = { # Tradeport of Kheledul
+	type_icon = "icon_building_tradeport.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 450
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		is_dwarf = yes
+	}
+
+	province_modifier = {
+		monthly_income = 2
+	}
+
+	character_modifier = {
+		stress_gain_mult = 0.1
+	}
+
+	is_enabled = { 
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_stewardship
+}
+
+wonder_thorins_hall = { # Thorins Hall
+	type_icon = "icon_structure_grand_library_of_baghdad.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 500
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		is_dwarf = yes
+	}
+
+	province_modifier = {
+		fort_level = 1
+	}
+
+	character_modifier = {
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
+		monthly_prestige = 0.5
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_martial_minor
+}
+
+### Misty Mountain Wonders ###
+
+wonder_endless_stairs = { # Endless Stairs
+	type_icon = "icon_structure_walls_of_genoa.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 500
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		is_dwarf = yes
+	}
+
+	province_modifier = {
+		fort_level = 1
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.5
+		stress_loss_mult = 0.1
+	}
+
+	is_enabled = {
+		OR = {
+			is_dwarf = yes
+			is_orc = yes
+		}
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_stewardship_minor
+}
+
+wonder_mirrormere = { # Mirrormere
+	type_icon = "icon_wonder_azan_zaram.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 500
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		is_dwarf = yes
+	}
+
+	province_modifier = {
+	}
+
+	character_modifier = {
+		monthly_prestige = 1
+		stress_loss_mult = 0.5
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_learning
+}
+
+wonder_doors_of_durin = { # Doors of Durin
+	type_icon = "icon_wonder_door_of_durin.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 500
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		is_dwarf = yes
+	}
+
+	province_modifier = {
+		fort_level = 25
+		defender_holding_advantage = 5
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.25
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_martial_minor
+}
+
+wonder_bridge_of_durin = { # Bridge of Durin
+	type_icon = "icon_barrow_downs.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 500
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		is_dwarf = yes
+	}
+
+	province_modifier = {
+		fort_level = 3
+		defender_holding_advantage = 50
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.25
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_martial_minor
+}
+
+### Iron Hills Wonders ###
+
+wonder_caverns_of_farewell = { # Caverns of Farewell
+	type_icon = "icon_structure_newgrange.dds"
+
+	construction_time = slow_construction_time
+	cost_gold = 500
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		is_dwarf = yes
+	}
+
+	province_modifier = {
+		fort_level = 1
+		defender_holding_advantage = 5
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.25
+		stress_loss_mult = 0.5
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_learning_minor
+}
 
 
 

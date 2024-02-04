@@ -1,0 +1,100 @@
+count_feudal_numenor = {
+	type = character
+	special = holder
+	tier = county
+	priority = 20
+	top_liege = no
+	only_holder = yes
+	heritages = { heritage_adunaic }
+}
+county_feudal_numenor = {
+	type = title
+	tier = county
+	heritages = { heritage_adunaic }
+	priority = 20
+}
+
+duke_feudal_male_numenor = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 33
+	top_liege = no
+	only_holder = no
+	heritages = { heritage_adunaic }
+}
+
+king_feudal_male_numenor = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 300
+	top_liege = no
+	only_holder = no
+	heritages = { heritage_adunaic }
+}
+
+king_feudal_female_numenor = {
+	type = character
+	gender = female
+	special = kingdom
+	tier = duchy
+	priority = 300
+	top_liege = no
+	only_holder = no
+	heritages = { heritage_adunaic }
+}
+duke_feudal_female_numenor = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 33
+	top_liege = no
+	only_holder = no
+	heritages = { heritage_adunaic }
+}
+duchy_feudal_numenor = {
+	type = title
+	tier = duchy
+	heritages = { heritage_adunaic }
+	priority = 33
+}
+kingdom_feudal_numenor = {
+	type = title
+	tier = kingdom
+	heritages = { heritage_adunaic }
+	priority = 300
+}
+emperor_feudal_male_numenor = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 750
+	top_liege = no
+	only_holder = no
+	heritages = { heritage_adunaic }
+}
+emperor_feudal_female_numenor = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 750
+	top_liege = no
+	only_holder = yes
+	heritages = { heritage_adunaic }
+}
+emperor_feudal_female_numenor_nonholder = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 750
+	top_liege = no
+	only_holder = no
+	heritages = { heritage_adunaic }
+}

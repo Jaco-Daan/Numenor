@@ -75,3 +75,8 @@ dynasty_bordirurecadet = {
 	dynasty = dynasty_borodiriath
 	motto = dynn_borodirure_motto
 }
+dynasty_urithorcadet = {
+	name = "dynn_urithor"
+	dynasty = dynasty_ciryandur
+	motto = dynn_urithor_motto
+}

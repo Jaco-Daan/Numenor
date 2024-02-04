@@ -16452,7 +16452,7 @@ lineofazruben1 = { # Azrubên of Rómenna (Azûlsûzâyan), governor of Anbalukk
 	name = Azrube_e_n
 				
 	dynasty = dynasty_azulhin
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	trait = blood_of_numenor_4

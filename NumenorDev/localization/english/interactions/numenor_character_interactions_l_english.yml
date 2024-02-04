@@ -1,6 +1,6 @@
 ﻿l_english:
 
   bribe_council_member_interaction:0 "Bribe Council Member"
-  bribe_council_member_interaction_desc:0 "Pay gold to bribe a council member to support your war."
+  bribe_council_member_interaction_desc:0 "Spend gold to bribe a council member to support your war."
   bribe_council_member_interaction_notification:0 "Bribed a council member."
   bribe_council_member_interaction_tt:0 "Every council member loses #N 30#! opinion of [actor.GetName].\n"

@@ -1,0 +1,67 @@
+### Númenor ###
+
+create_artifact_nibaran_effect = {
+    # Get the character the artifact is being made for.
+    $OWNER$ = { save_scope_as = owner }
+    # Not really used, but if we don't set the scopes we get errors in the feature selection
+    set_artifact_rarity_illustrious = yes
+
+    # Create the artifact
+    create_artifact = {
+        name = nibaran_name
+        description = nibaran_description
+        type = sword
+        visuals = anduril
+        wealth = scope:wealth
+        quality = scope:quality
+        history = {
+            type = created
+            date = 4155.1.1
+            recipient = character:lineofelros88 #Hallatan
+            location = province:b_armenelos #Armenelos
+        }
+        modifier = anduril_modifier
+        save_scope_as = newly_created_artifact
+        decaying = no
+    }
+
+    scope:newly_created_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = anduril
+        save_scope_as = epic
+    }
+}
+
+create_artifact_palantir_romenna_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {
+		name = palantir_romenna_name
+		description = palantir_romenna_description
+		type = pedestal
+		visuals = palantir_romenna
+		wealth = scope:wealth
+		quality = scope:quality
+#		template = palantir_template
+		history = {
+			type = created
+			date = 2.2.1
+			recipient = character:linefinwe2 #Fëanor
+			location = province:b_tirion #Tirion
+		}
+		modifier = palantir_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = palantir_minasanor
+		set_variable = palantir
+		save_scope_as = epic
+	}
+}

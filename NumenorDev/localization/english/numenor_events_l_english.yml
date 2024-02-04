@@ -154,14 +154,12 @@
  numenor.3300.b:0 "Why break what works?"
  numenor.3300.b.tt:0 "The League of Pelargir is not restored"
  
+ numenor.3310.title:0 "An Interesting Offer"
+ numenor.3310.desc:0 "Before me, the Ar-, resplendent in the regalia of Númenor, approached with a countenance both regal and burdened. In his eyes, a glint of urgency betrayed the gravity of his intent. The Ar- spoke with a voice that resonated through the chamber, asking that I aid him with a matter at hand\n\nHis words, like honeyed rhetoric, sought to entwine my sensibilities. "In the Council of the Sceptre, the winds of decision blow tempestuously, and the hour of strife approaches our shores. Yet, the course we embark upon is one fraught with peril and uncertainty. The drums of war beat with a cadence both ominous and unavoidable."\n\nIn a tone both mellifluous and laden with conviction, the Ar- continued, "I extend to you a proposition, a plea of allegiance to the cause we champion. The treasury of Númenor shall spill forth a noble and honourable gift for you, the whispers of honour and prestige shall envelop you, and in the annals of our history, your name shall be etched as a loyal stalwart of the realm. Now I have to make a decision, to support the Ar-'s cause and receive a noble gift, or to stay true to my own opinion on the matter and what I think the Ar- should or should not do."
+ numenor.3310.a:0 "I accept this most honourable gift"
+ numenor.3310.b:0 "I shall not sell my honour!"
+ 
  blessed_by_meneltarma_modifier:0 "Blessing of the Meneltarma"
  blessed_by_meneltarma_modifier_desc:0 "This character has prayed upon the Meneltarma"
  
  flag_meneltarma:0 "Blessing of the Meneltarma"
-
- numenor.3310.title:0 ""
- numenor.3310.desc:0 ""
- numenor.3310.a:0 ""
- numenor.3310.b:0 ""
-
- 

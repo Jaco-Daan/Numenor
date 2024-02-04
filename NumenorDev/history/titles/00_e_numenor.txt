@@ -715,8 +715,74 @@ d_formenore = {
 }
 
 d_khorandor = {
+	3750.1.1 = {
+		holder = lineofkhorandor1 # Granted the western parts of the former Ananórë by Ar-Gimilzor after the former lords betrayed him
+	}
+	3911.1.1 = {
+		holder = lineofkhorandor2
+	}
+	4022.1.1 = {
+		holder = lineofkhorandor3
+	}
+	4138.1.1 = {
+		holder = lineofkhorandor4
+	}
+	4230.1.1 = {
+		holder = lineofkhorandor5
+	}
+	4386.1.1 = {
+		holder = lineofkhorandor6
+	}
+	4534.1.1 = {
+		holder = lineofkhorandor7
+	}
+	4702.1.1 = {
+		holder = lineofkhorandor8
+	}
+	4888.1.1 = {
+		holder = lineofkhorandor9
+	}
+	5036.1.1 = {
+		holder = lineofkhorandor10
+	}
+	5180.1.1 = {
+		holder = lineofkhorandor11
+	}
+	5336.1.1 = {
+		holder = lineofkhorandor12
+	}
+	5512.1.1 = {
+		holder = lineofkhorandor13
+	}
+	5669.1.1 = {
+		holder = lineofkhorandor14
+	}
+	5826.1.1 = {
+		holder = lineofkhorandor15
+	}
+	5982.1.1 = {
+		holder = lineofkhorandor16
+	}
+	6085.1.1 = {
+		holder = lineofkhorandor17
+	}
+	6186.1.1 = {
+		holder = lineofkhorandor18
+	}
+	6272.1.1 = {
+		holder = lineofkhorandor19
+	}
+	6313.1.1 = {
+		holder = lineofkhorandor20
+	}
+	6362.1.1 = {
+		holder = lineofkhorandor21
+	}
+	6403.1.1 = {
+		holder = lineofelros108
+	}
 	6407.1.1 = {
-		holder = lineofkhorahil4
+		holder = lineofkhorahil4 # House of Balkumen is destroyed, a family of respectable Architects from the region are made lords
 	}
 	6512.1.1 = {
 		holder = lineofkhorahil5
@@ -861,8 +927,80 @@ d_ondosto = {
 	3911.1.1 = {
 		holder = lineofelros88
 	}
-	6982.1.1 = {
-		holder = lineofelros117
+	4123.1.1 = {
+		holder = lineofelros89
+	}
+	4149.1.1 = {
+		holder = lineofelros90
+	}
+	4202.1.1 = {
+		holder = lineofelros91
+	}
+	4339.1.1 = {
+		holder = lineofelros92
+	}
+	4449.1.1 = {
+		holder = lineofelros93
+	}
+	4601.1.1 = {
+		holder = lineofondosto6
+	}
+	4663.1.1 = {
+		holder = lineofondosto7
+	}
+	4826.1.1 = {
+		holder = lineofondosto8
+	}
+	5015.1.1 = {
+		holder = lineofondosto9
+	}
+	5094.1.1 = {
+		holder = lineofondosto10
+	}
+	5188.1.1 = {
+		holder = lineofondosto11
+	}
+	5338.1.1 = {
+		holder = lineofondosto12
+	}
+	5468.1.1 = {
+		holder = lineofondosto13
+	}
+	5558.1.1 = {
+		holder = lineofondosto14 
+	}
+	5715.1.1 = {
+		holder = lineofondosto15
+	}
+	5884.1.1 = {
+		holder = lineofondosto16
+	}
+	6013.1.1 = {
+		holder = lineofondosto17
+	}
+	6209.1.1 = {
+		holder = lineofondosto18
+	}
+	6317.1.1 = {
+		holder = lineofondosto19
+	}
+	6491.1.1 = {
+		holder = lineofondosto20
+	}
+	6604.1.1 = {
+		holder = lineofondosto21
+	}
+	6637.1.1 = {
+		holder = lineofondosto22
+	}
+	6797.1.1 = {
+		holder = lineofondosto23
+	}
+	6852.1.1 = {
+		holder = lineofondosto24
+	}
+	6993.1.1 = {
+		holder = lineofondosto25
 		liege = e_numenor
 	}
 }
@@ -1591,6 +1729,9 @@ d_emerie = {
 }
 
 d_sirinore = {
+	1505.1.1 = {
+		holder = lineofsirinore2
+	}
 	3924.1.1 = {
 		holder = linesirinore7
 	}
@@ -1776,6 +1917,69 @@ c_formenore = {
 }
 
 c_anariova = {
+	3750.1.1 = {
+		holder = lineofkhorandor1 # Granted the western parts of the former Ananórë by Ar-Gimilzor after the former lords betrayed him
+	}
+	3911.1.1 = {
+		holder = lineofkhorandor2
+	}
+	4022.1.1 = {
+		holder = lineofkhorandor3
+	}
+	4138.1.1 = {
+		holder = lineofkhorandor4
+	}
+	4230.1.1 = {
+		holder = lineofkhorandor5
+	}
+	4386.1.1 = {
+		holder = lineofkhorandor6
+	}
+	4534.1.1 = {
+		holder = lineofkhorandor7
+	}
+	4702.1.1 = {
+		holder = lineofkhorandor8
+	}
+	4888.1.1 = {
+		holder = lineofkhorandor9
+	}
+	5036.1.1 = {
+		holder = lineofkhorandor10
+	}
+	5180.1.1 = {
+		holder = lineofkhorandor11
+	}
+	5336.1.1 = {
+		holder = lineofkhorandor12
+	}
+	5512.1.1 = {
+		holder = lineofkhorandor13
+	}
+	5669.1.1 = {
+		holder = lineofkhorandor14
+	}
+	5826.1.1 = {
+		holder = lineofkhorandor15
+	}
+	5982.1.1 = {
+		holder = lineofkhorandor16
+	}
+	6085.1.1 = {
+		holder = lineofkhorandor17
+	}
+	6186.1.1 = {
+		holder = lineofkhorandor18
+	}
+	6272.1.1 = {
+		holder = lineofkhorandor19
+	}
+	6313.1.1 = {
+		holder = lineofkhorandor20
+	}
+	6362.1.1 = {
+		holder = lineofkhorandor21
+	}
 	6407.1.1 = {
 		holder = lineofkhorahil4
 	}
@@ -1913,8 +2117,80 @@ c_ondosto = {
 	3911.1.1 = {
 		holder = lineofelros88
 	}
-	6982.1.1 = {
-		holder = lineofelros117
+	4123.1.1 = {
+		holder = lineofelros89
+	}
+	4149.1.1 = {
+		holder = lineofelros90
+	}
+	4202.1.1 = {
+		holder = lineofelros91
+	}
+	4339.1.1 = {
+		holder = lineofelros92
+	}
+	4449.1.1 = {
+		holder = lineofelros93
+	}
+	4601.1.1 = {
+		holder = lineofondosto6
+	}
+	4663.1.1 = {
+		holder = lineofondosto7
+	}
+	4826.1.1 = {
+		holder = lineofondosto8
+	}
+	5015.1.1 = {
+		holder = lineofondosto9
+	}
+	5094.1.1 = {
+		holder = lineofondosto10
+	}
+	5188.1.1 = {
+		holder = lineofondosto11
+	}
+	5338.1.1 = {
+		holder = lineofondosto12
+	}
+	5468.1.1 = {
+		holder = lineofondosto13
+	}
+	5558.1.1 = {
+		holder = lineofondosto14 
+	}
+	5715.1.1 = {
+		holder = lineofondosto15
+	}
+	5884.1.1 = {
+		holder = lineofondosto16
+	}
+	6013.1.1 = {
+		holder = lineofondosto17
+	}
+	6209.1.1 = {
+		holder = lineofondosto18
+	}
+	6317.1.1 = {
+		holder = lineofondosto19
+	}
+	6491.1.1 = {
+		holder = lineofondosto20
+	}
+	6604.1.1 = {
+		holder = lineofondosto21
+	}
+	6637.1.1 = {
+		holder = lineofondosto22
+	}
+	6797.1.1 = {
+		holder = lineofondosto23
+	}
+	6852.1.1 = {
+		holder = lineofondosto24
+	}
+	6993.1.1 = {
+		holder = lineofondosto25
 		change_development_level = 21
 	}
 }
@@ -2555,6 +2831,9 @@ c_erendis = {
 }
 
 c_siropela = {
+	1505.1.1 = {
+		holder = lineofsirinore2
+	}
 	3924.1.1 = {
 		holder = linesirinore7
 	}
@@ -2779,6 +3058,69 @@ c_uinen = {
 }
 
 c_baithal = {
+	3750.1.1 = {
+		holder = lineofkhorandor1 # Granted the western parts of the former Ananórë by Ar-Gimilzor after the former lords betrayed him
+	}
+	3911.1.1 = {
+		holder = lineofkhorandor2
+	}
+	4022.1.1 = {
+		holder = lineofkhorandor3
+	}
+	4138.1.1 = {
+		holder = lineofkhorandor4
+	}
+	4230.1.1 = {
+		holder = lineofkhorandor5
+	}
+	4386.1.1 = {
+		holder = lineofkhorandor6
+	}
+	4534.1.1 = {
+		holder = lineofkhorandor7
+	}
+	4702.1.1 = {
+		holder = lineofkhorandor8
+	}
+	4888.1.1 = {
+		holder = lineofkhorandor9
+	}
+	5036.1.1 = {
+		holder = lineofkhorandor10
+	}
+	5180.1.1 = {
+		holder = lineofkhorandor11
+	}
+	5336.1.1 = {
+		holder = lineofkhorandor12
+	}
+	5512.1.1 = {
+		holder = lineofkhorandor13
+	}
+	5669.1.1 = {
+		holder = lineofkhorandor14
+	}
+	5826.1.1 = {
+		holder = lineofkhorandor15
+	}
+	5982.1.1 = {
+		holder = lineofkhorandor16
+	}
+	6085.1.1 = {
+		holder = lineofkhorandor17
+	}
+	6186.1.1 = {
+		holder = lineofkhorandor18
+	}
+	6272.1.1 = {
+		holder = lineofkhorandor19
+	}
+	6313.1.1 = {
+		holder = lineofkhorandor20
+	}
+	6362.1.1 = {
+		holder = lineofkhorandor21
+	}
 	6407.1.1 = {
 		holder = lineofkhorahil4
 	}
@@ -3019,8 +3361,80 @@ c_belzag = {
 	3911.1.1 = {
 		holder = lineofelros88
 	}
-	6982.1.1 = {
-		holder = lineofelros117
+	4123.1.1 = {
+		holder = lineofelros89
+	}
+	4149.1.1 = {
+		holder = lineofelros90
+	}
+	4202.1.1 = {
+		holder = lineofelros91
+	}
+	4339.1.1 = {
+		holder = lineofelros92
+	}
+	4449.1.1 = {
+		holder = lineofelros93
+	}
+	4601.1.1 = {
+		holder = lineofondosto6
+	}
+	4663.1.1 = {
+		holder = lineofondosto7
+	}
+	4826.1.1 = {
+		holder = lineofondosto8
+	}
+	5015.1.1 = {
+		holder = lineofondosto9
+	}
+	5094.1.1 = {
+		holder = lineofondosto10
+	}
+	5188.1.1 = {
+		holder = lineofondosto11
+	}
+	5338.1.1 = {
+		holder = lineofondosto12
+	}
+	5468.1.1 = {
+		holder = lineofondosto13
+	}
+	5558.1.1 = {
+		holder = lineofondosto14 
+	}
+	5715.1.1 = {
+		holder = lineofondosto15
+	}
+	5884.1.1 = {
+		holder = lineofondosto16
+	}
+	6013.1.1 = {
+		holder = lineofondosto17
+	}
+	6209.1.1 = {
+		holder = lineofondosto18
+	}
+	6317.1.1 = {
+		holder = lineofondosto19
+	}
+	6491.1.1 = {
+		holder = lineofondosto20
+	}
+	6604.1.1 = {
+		holder = lineofondosto21
+	}
+	6637.1.1 = {
+		holder = lineofondosto22
+	}
+	6797.1.1 = {
+		holder = lineofondosto23
+	}
+	6852.1.1 = {
+		holder = lineofondosto24
+	}
+	6993.1.1 = {
+		holder = lineofondosto25
 		change_development_level = 12
 	}
 }
@@ -3029,78 +3443,160 @@ c_herundal = {
 	3911.1.1 = {
 		holder = lineofelros88
 	}
-	6982.1.1 = {
-		holder = lineofelros117
+	4123.1.1 = {
+		holder = lineofelros89
+	}
+	4149.1.1 = {
+		holder = lineofelros90
+	}
+	4202.1.1 = {
+		holder = lineofelros91
+	}
+	4339.1.1 = {
+		holder = lineofelros92
+	}
+	4449.1.1 = {
+		holder = lineofelros93
+	}
+	4601.1.1 = {
+		holder = lineofondosto6
+	}
+	4663.1.1 = {
+		holder = lineofondosto7
+	}
+	4826.1.1 = {
+		holder = lineofondosto8
+	}
+	5015.1.1 = {
+		holder = lineofondosto9
+	}
+	5094.1.1 = {
+		holder = lineofondosto10
+	}
+	5188.1.1 = {
+		holder = lineofondosto11
+	}
+	5338.1.1 = {
+		holder = lineofondosto12
+	}
+	5468.1.1 = {
+		holder = lineofondosto13
+	}
+	5558.1.1 = {
+		holder = lineofondosto14 
+	}
+	5715.1.1 = {
+		holder = lineofondosto15
+	}
+	5884.1.1 = {
+		holder = lineofondosto16
+	}
+	6013.1.1 = {
+		holder = lineofondosto17
+	}
+	6209.1.1 = {
+		holder = lineofondosto18
+	}
+	6317.1.1 = {
+		holder = lineofondosto19
+	}
+	6491.1.1 = {
+		holder = lineofondosto20
+	}
+	6604.1.1 = {
+		holder = lineofondosto21
+	}
+	6637.1.1 = {
+		holder = lineofondosto22
+	}
+	6797.1.1 = {
+		holder = lineofondosto23
+	}
+	6852.1.1 = {
+		holder = lineofondosto24
+	}
+	6993.1.1 = {
+		holder = lineofondosto25
 		change_development_level = 14
 	}
 }
 
 c_meryare = {
-	4513.1.1 = {
-		holder = lineofarialome1
+	3973.1.1 = {
+		holder = lineofondostofounder 
 	}
-	4729.1.1 = {
-		holder = lineofarialome2
+	4139.1.1 = {
+		holder = lineofondosto2 
 	}
-	4891.1.1 = {
-		holder = lineofarialome3
+	4213.1.1 = {
+		holder = lineofondosto3
 	}
-	4991.1.1 = {
-		holder = lineofarialome4
+	4349.1.1 = {
+		holder = lineofondosto4
 	}
-	5100.1.1 = {
-		holder = lineofarialome5
+	4460.1.1 = {
+		holder = lineofondosto5
 	}
-	5216.1.1 = {
-		holder = lineofarialome6
+	4612.1.1 = {
+		holder = lineofondosto6
 	}
-		5329.1.1 = {
-		holder = lineofarialome7
+	4663.1.1 = {
+		holder = lineofondosto7
 	}
-		5440.1.1 = {
-		holder = lineofarialome8
+	4826.1.1 = {
+		holder = lineofondosto8
 	}
-		5554.1.1 = {
-		holder = lineofarialome9
+	5015.1.1 = {
+		holder = lineofondosto9
 	}
-		5699.1.1 = {
-		holder = lineofarialome10
+	5094.1.1 = {
+		holder = lineofondosto10
 	}
-		5809.1.1 = {
-		holder = lineofarialome11
+	5188.1.1 = {
+		holder = lineofondosto11
 	}
-		5956.1.1 = {
-		holder = lineofarialome12
+	5338.1.1 = {
+		holder = lineofondosto12
 	}
-		6098.1.1 = {
-		holder = lineofarialome13
+	5468.1.1 = {
+		holder = lineofondosto13
 	}
-		6211.1.1 = {
-		holder = lineofarialome14
+	5558.1.1 = {
+		holder = lineofondosto14 
 	}
-		6342.1.1 = {
-		holder = lineofarialome15
+	5715.1.1 = {
+		holder = lineofondosto15
 	}
-		6454.1.1 = {
-		holder = lineofarialome16
+	5884.1.1 = {
+		holder = lineofondosto16
 	}
-		6566.1.1 = {
-		holder = lineofarialome17
+	6013.1.1 = {
+		holder = lineofondosto17
 	}
-		6571.1.1 = {
-		holder = lineofarialome18
+	6209.1.1 = {
+		holder = lineofondosto18
 	}
-		6683.1.1 = {
-		holder = lineofarialome19
+	6317.1.1 = {
+		holder = lineofondosto19
 	}
-		6800.1.1 = {
-		holder = lineofarialome20
+	6491.1.1 = {
+		holder = lineofondostotwo1
 	}
-		6927.1.1 = {
-		holder = lineofarialome21
+	6595.1.1 = {
+		holder = lineofondostotwo2
 	}
-		7030.1.1 = {
-		holder = lineofarialome22
+	6628.1.1 = {
+		holder = lineofondostotwo3
+	}
+	6788.1.1 = {
+		holder = lineofondostotwo4
+	}
+	6843.1.1 = {
+		holder = lineofondostotwo5
+	}
+	6984.1.1 = {
+		holder = lineofondostotwo6
+		liege = d_arialome
 		change_development_level = 15
 	}
 }
@@ -4738,6 +5234,9 @@ c_syntarin = {
 }
 
 c_melonan = {
+	1505.1.1 = {
+		holder = lineofsirinore2
+	}
 	3924.1.1 = {
 		holder = linesirinore7
 	}

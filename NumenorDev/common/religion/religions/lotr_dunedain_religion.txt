@@ -1,4 +1,4 @@
-﻿#Dunedain
+﻿#Dúnedain
 #	faith_numenorean
 #	faith_edain
 #	faith_edain_ulmo
@@ -41,6 +41,9 @@ dunedain_religion = {
 	#Special Doctrine for Free Peoples Syncretism
 	doctrine = special_doctrine_is_freepeople_faith
 
+	#Allow pilgrimages
+	doctrine = doctrine_pilgrimage_encouraged
+
 	traits = {
 		virtues = { brave just }
 		sins = { craven deceitful }
@@ -72,7 +75,7 @@ dunedain_religion = {
 	
 	holy_order_maa = { guard_of_the_citadel }
 
-	localization = { # This is all Norse names for now.
+	localization = {
 		#HighGodName
 		HighGodName = lotr_high_god_name
 		HighGodName2 = lotr_high_god_name
@@ -248,13 +251,13 @@ dunedain_religion = {
 			holy_site = oromet
 			holy_site = eldalonde
 			holy_site = nindamos
-
+			
 			# others
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_witchcraft_crime
 			doctrine = doctrine_adultery_men_shunned
 			doctrine = doctrine_adultery_women_shunned
-			doctrine = doctrine_divorce_disallowed # To stop old Dunedain from spamming out children.
+			doctrine = doctrine_divorce_disallowed # To stop old Dúnedain from spamming out children.
 			
 			# Tenets
 			doctrine = tenet_gift_of_men
@@ -264,7 +267,7 @@ dunedain_religion = {
 		}
 		
 		
-		### The Dunedain / Gondor ###
+		### The Dúnedain / Gondor ###
 		faith_edain = {
 			color = { 50 65 200 }
 			icon = edain
@@ -274,24 +277,62 @@ dunedain_religion = {
 				{ name = "holy_order_knights_of_manwe" }
 			}
 		
+			holy_site = annuminas
+			holy_site = barrow_downs
 			holy_site = orthanc
 			holy_site = minas_tirith
-			holy_site = dol_amroth
-			holy_site = imrazor_hallow
 			holy_site = pelargir
-
+			holy_site = imrazor_hallow
 			
 			# others
 			doctrine = doctrine_witchcraft_crime
 			doctrine = doctrine_adultery_men_shunned
 			doctrine = doctrine_adultery_women_shunned
-			doctrine = doctrine_divorce_disallowed # To stop old Dunedain from spamming out children.
+			doctrine = doctrine_divorce_disallowed # To stop old Dúnedain from spamming out children.
 			
 			# Tenets
 			doctrine = tenet_gift_of_men
 			doctrine = tenet_memory_of_akallabeth
 			doctrine = tenet_astrology
 			doctrine = doctrine_clerical_gender_male_only 
+		}
+		faith_adunaic = {
+			color = { 41 77 199 }
+			icon = adunaben_01
+			graphical_faith = catholic_gfx
+			religious_head = d_adunai
+
+			holy_site = meneltarma
+			holy_site = armenelos
+			holy_site = oromet
+			holy_site = eldalonde
+			holy_site = nindamos
+
+			# Tenets
+			doctrine = tenet_adunaic_birthright
+			doctrine = tenet_adaptive
+			doctrine = tenet_unrelenting_faith
+			
+			# Doctrines
+			
+			doctrine = doctrine_consanguinity_cousins
+			doctrine = doctrine_no_head
+			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = doctrine_temporal_head
+			doctrine = doctrine_clerical_function_recruitment
+			doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_clerical_marriage_allowed
+			doctrine = doctrine_deviancy_shunned
+			doctrine = doctrine_adultery_men_shunned
+			doctrine = doctrine_adultery_women_shunned
+			doctrine = doctrine_kinslaying_close_kin_crime
+			doctrine = doctrine_witchcraft_shunned
+		
+			localization = {
+				GoodGodNames = { eru_adunaic manwe_adunaic varda_adunaic vana_adunaic irmo_adunaic aule_adunaic este_adunaic ulmo_adunaic tulkas_adunaic nessa_adunaic orome_adunaic yavanna_adunaic }
+				EvilGodNames = { namo_adunaic morgoth_adunaic sauron_adunaic nienna_adunaic } # Dislikes the gods of death and weeping
+				ReligiousHeadName = kings_men_religious_head_title
+			}
 		}
 		
 		faith_edain_ulmo = {
@@ -316,7 +357,7 @@ dunedain_religion = {
 			doctrine = doctrine_witchcraft_crime
 			doctrine = doctrine_adultery_men_crime
 			doctrine = doctrine_adultery_women_crime
-			doctrine = doctrine_divorce_disallowed # To stop old Dunedain from spamming out children.
+			doctrine = doctrine_divorce_disallowed # To stop old Dúnedain from spamming out children.
 			
 			# Tenets
 			doctrine = tenet_primacy_of_ulmo
@@ -339,12 +380,13 @@ dunedain_religion = {
 			holy_site = pelargir
 			holy_site = minas_ithil
 			holy_site = halifirien
+			holy_site = barrow_downs
 
 			# others
 			doctrine = doctrine_witchcraft_crime
 			doctrine = doctrine_adultery_men_crime
 			doctrine = doctrine_adultery_women_crime
-			doctrine = doctrine_divorce_disallowed # To stop old Dunedain from spamming out children.
+			doctrine = doctrine_divorce_disallowed # To stop old Dúnedain from spamming out children.
 			
 			# Tenets
 			doctrine = tenet_primacy_of_manwe
@@ -371,7 +413,7 @@ dunedain_religion = {
 			doctrine = doctrine_witchcraft_crime
 			doctrine = doctrine_adultery_men_crime
 			doctrine = doctrine_adultery_women_crime
-			doctrine = doctrine_divorce_disallowed # To stop old Dunedain from spamming out children.
+			doctrine = doctrine_divorce_disallowed # To stop old Dúnedain from spamming out children.
 			
 			# Tenets
 			doctrine = tenet_primacy_of_varda

@@ -1,0 +1,58 @@
+black_numenorean = {
+	color = { 33 46 46 }
+	created = 2944.1.1
+	parents = { numenorean }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_adunaic
+	language = language_high_adunaic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_blacknumenorean_legacy
+		tradition_seafaring
+		tradition_slave_society
+		tradition_only_the_strong
+		tradition_ruling_caste
+	}
+	
+	name_list = name_list_adunaic
+	
+	coa_gfx = { numenorean_coa_gfx dunedain_group_coa_gfx }
+	building_gfx = { numenorean_building_gfx }
+	clothing_gfx = { adunai_clothing_gfx numenorean_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		1 = black_numenorean_ethnicity
+	}
+}
+
+adunaic = {
+	color = { 56 68 152 }
+#	color = hsv { 0.5 0.2 0.4 }
+	created = 4187.1.1
+	parents = { numenorean black_numenorean }
+	
+	ethos = ethos_communal
+	heritage = heritage_adunaic
+	language = language_adunaic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_adunaim_pride
+		tradition_seafaring
+		tradition_martial_admiration
+		tradition_fishermen
+		tradition_mende_anduya
+	}
+	
+	name_list = name_list_adunaic
+	
+	coa_gfx = { numenorean_coa_gfx dunedain_group_coa_gfx }
+	building_gfx = { numenorean_building_gfx }
+	clothing_gfx = { adunai_clothing_gfx numenorean_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		1 = adunaic_ethnicity
+	}
+}

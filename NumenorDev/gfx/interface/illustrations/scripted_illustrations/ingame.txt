@@ -34,7 +34,16 @@ character_view_bg = {
 		reference = "environment_event_temple"
 		trigger = {
 			is_alive = no
-			is_elf = no
+		}
+	}
+	
+	texture = {
+		reference = "event_scenes/halls_mandos.dds"
+		trigger = {
+			and = {
+				is_alive = no
+				is_elf = yes
+			}
 		}
 	}
 
@@ -342,6 +351,225 @@ character_view_bg = {
 					liege.diarch ?= this
 					liege ?= {
 						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# university, western
+	####
+	texture = {
+		reference = "event_scenes/bp2_university.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = {
+				OR = {
+					has_graphical_western_culture_group_trigger = yes
+					has_graphical_norse_culture_group_trigger = yes
+					has_graphical_iberian_culture_group_trigger = yes
+					has_graphical_mediterranean_culture_group_trigger = yes
+				}
+			}
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_university"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = {
+				OR = {
+					has_graphical_western_culture_group_trigger = yes
+					has_graphical_norse_culture_group_trigger = yes
+					has_graphical_iberian_culture_group_trigger = yes
+					has_graphical_mediterranean_culture_group_trigger = yes
+				}
+			}
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_university"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = {
+							OR = {
+								has_graphical_western_culture_group_trigger = yes
+								has_graphical_norse_culture_group_trigger = yes
+								has_graphical_iberian_culture_group_trigger = yes
+								has_graphical_mediterranean_culture_group_trigger = yes
+							}
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = {
+							OR = {
+								has_graphical_western_culture_group_trigger = yes
+								has_graphical_norse_culture_group_trigger = yes
+								has_graphical_iberian_culture_group_trigger = yes
+								has_graphical_mediterranean_culture_group_trigger = yes
+							}
+						}
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = {
+							OR = {
+								has_graphical_western_culture_group_trigger = yes
+								has_graphical_norse_culture_group_trigger = yes
+								has_graphical_iberian_culture_group_trigger = yes
+								has_graphical_mediterranean_culture_group_trigger = yes
+							}
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# university, indian
+	####
+	texture = {
+		reference = "event_scenes/bp2_indian_garden.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = {
+				OR = {
+					has_graphical_western_culture_group_trigger = yes
+					has_graphical_norse_culture_group_trigger = yes
+					has_graphical_iberian_culture_group_trigger = yes
+					has_graphical_mediterranean_culture_group_trigger = yes
+				}
+			}
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_garden_india_day"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = {
+				has_graphical_india_culture_group_trigger = yes
+			}
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_garden_india_day"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = {
+							has_graphical_india_culture_group_trigger = yes
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = {
+							has_graphical_india_culture_group_trigger = yes
+						}
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = {
+							has_graphical_india_culture_group_trigger = yes
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# university, mena
+	####
+	texture = {
+		reference = "event_scenes/bp2_university_mena.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_university_mena"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_university_mena"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_adult_education }
 						location ?= involved_activity.activity_location
 					}
 				}
@@ -4233,6 +4461,7 @@ character_view_bg = {
 					primary_title.tier >= tier_kingdom
 					OR = {
 						culture = { has_cultural_pillar = heritage_dunedain }
+						culture = { has_cultural_pillar = heritage_northern_adunaic }
 					}
 					has_dunedain_court_illustration_trigger = yes
 				}
@@ -4243,6 +4472,7 @@ character_view_bg = {
 						primary_title.tier >= tier_kingdom
 						OR = {
 							culture = { has_cultural_pillar = heritage_dunedain }
+							culture = { has_cultural_pillar = heritage_northern_adunaic }
 						}
 						has_dunedain_court_illustration_trigger = yes
 					}
@@ -4254,6 +4484,7 @@ character_view_bg = {
 						primary_title.tier >= tier_kingdom
 						OR = {
 							culture = { has_cultural_pillar = heritage_dunedain }
+							culture = { has_cultural_pillar = heritage_northern_adunaic }
 						}
 						has_dunedain_court_illustration_trigger = yes
 					}
@@ -4265,6 +4496,7 @@ character_view_bg = {
 						primary_title.tier >= tier_kingdom
 						OR = {
 							culture = { has_cultural_pillar = heritage_dunedain }
+							culture = { has_cultural_pillar = heritage_northern_adunaic }
 						}
 						has_dunedain_court_illustration_trigger = yes
 					}
@@ -4272,8 +4504,8 @@ character_view_bg = {
 			}
 		}
 	}
-
-	texture = {
+	
+		texture = {
 		reference = "event_scenes/numenorthroneroom.dds"
 
 		trigger = {
@@ -4309,35 +4541,8 @@ character_view_bg = {
 				}
 			}
 		}
-}
-	
-	environment = {
-		reference = "environment_dunedain_throneroom"
-
-		trigger = {
-			OR = {
-				AND = {
-					exists = primary_title
-					primary_title.tier >= tier_empire
-					OR = {
-						culture = { has_cultural_pillar = heritage_northern_adunaic }
-					}
-				}
-				AND = {
-					exists = host
-					host = {
-						exists = primary_title
-						primary_title.tier >= tier_empire
-						is_numenor = yes
-						OR = {
-							culture = { has_cultural_pillar = heritage_northern_adunaic }
-						}
-					}
-				}
-			}
-		}
 	}
-
+	
 	environment = {
 		reference = "environment_dunedain_throneroom"
 
@@ -4369,7 +4574,6 @@ character_view_bg = {
 	}
 
 
-
 	# Sauron King / Empire Background
 
 	texture = {
@@ -4379,7 +4583,7 @@ character_view_bg = {
 			OR = {
 				AND = {
 					exists = capital_province
-					has_religion = religion:forces_of_evil_religion
+					religion = { is_in_family = rf_forcesofevil }
 					highest_held_title_tier >= tier_kingdom
 					is_maiar_fallen = yes 
 				}
@@ -4388,7 +4592,7 @@ character_view_bg = {
 					primary_spouse = {
 						exists = capital_province
 						is_maiar_fallen = yes 
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier >= tier_kingdom
 						NOT = { is_ruler = yes }
 					}
@@ -4398,7 +4602,7 @@ character_view_bg = {
 					betrothed = {
 						exists = capital_province
 						is_maiar_fallen = yes 
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier >= tier_kingdom
 					}
 				}
@@ -4407,7 +4611,7 @@ character_view_bg = {
 					host = {
 						exists = capital_province
 						is_maiar_fallen = yes 
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier >= tier_kingdom
 					}
 				}
@@ -4422,7 +4626,7 @@ character_view_bg = {
 			OR = {
 				AND = {
 					exists = capital_province
-					has_religion = religion:forces_of_evil_religion
+					religion = { is_in_family = rf_forcesofevil }
 					highest_held_title_tier >= tier_kingdom
 					is_maiar_fallen = yes 
 				}
@@ -4430,7 +4634,7 @@ character_view_bg = {
 					exists = primary_spouse
 					primary_spouse = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier >= tier_kingdom
 						is_maiar_fallen = yes 
 						NOT = { is_ruler = yes }
@@ -4440,7 +4644,7 @@ character_view_bg = {
 					exists = betrothed
 					betrothed = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier >= tier_kingdom
 						is_maiar_fallen = yes 
 					}
@@ -4449,7 +4653,7 @@ character_view_bg = {
 					exists = host
 					host = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier >= tier_kingdom
 						is_maiar_fallen = yes 
 					}
@@ -4538,14 +4742,14 @@ character_view_bg = {
 			OR = {
 				AND = {
 					exists = capital_province
-					has_religion = religion:forces_of_evil_religion
+					religion = { is_in_family = rf_forcesofevil }
 					highest_held_title_tier >= tier_kingdom
 				}
 				AND = {
 					exists = primary_spouse
 					primary_spouse = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier >= tier_kingdom
 						NOT = { is_ruler = yes }
 					}
@@ -4554,7 +4758,7 @@ character_view_bg = {
 					exists = betrothed
 					betrothed = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier >= tier_kingdom
 					}
 				}
@@ -4562,7 +4766,7 @@ character_view_bg = {
 					exists = host
 					host = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier >= tier_kingdom
 					}
 				}
@@ -4579,14 +4783,14 @@ character_view_bg = {
 			OR = {
 				AND = {
 					exists = capital_province
-					has_religion = religion:forces_of_evil_religion
+					religion = { is_in_family = rf_forcesofevil }
 					highest_held_title_tier >= tier_kingdom
 				}
 				AND = {
 					exists = primary_spouse
 					primary_spouse = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier >= tier_kingdom
 						NOT = { is_ruler = yes }
 					}
@@ -4595,7 +4799,7 @@ character_view_bg = {
 					exists = betrothed
 					betrothed = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier >= tier_kingdom
 					}
 				}
@@ -4603,7 +4807,7 @@ character_view_bg = {
 					exists = host
 					host = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier >= tier_kingdom
 					}
 				}
@@ -4620,14 +4824,14 @@ character_view_bg = {
 			OR = {
 				AND = {
 					exists = capital_province
-					has_religion = religion:forces_of_evil_religion
+					religion = { is_in_family = rf_forcesofevil }
 					highest_held_title_tier = tier_duchy
 				}
 				AND = {
 					exists = primary_spouse
 					primary_spouse = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier = tier_duchy
 						NOT = { is_ruler = yes }
 					}
@@ -4636,7 +4840,7 @@ character_view_bg = {
 					exists = betrothed
 					betrothed = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier = tier_duchy
 					}
 				}
@@ -4644,7 +4848,7 @@ character_view_bg = {
 					exists = host
 					host = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier = tier_duchy
 					}
 				}
@@ -4660,14 +4864,14 @@ character_view_bg = {
 			OR = {
 				AND = {
 					exists = capital_province
-					has_religion = religion:forces_of_evil_religion
+					religion = { is_in_family = rf_forcesofevil }
 					highest_held_title_tier = tier_duchy
 				}
 				AND = {
 					exists = primary_spouse
 					primary_spouse = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier = tier_duchy
 						NOT = { is_ruler = yes }
 					}
@@ -4676,7 +4880,7 @@ character_view_bg = {
 					exists = betrothed
 					betrothed = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier = tier_duchy
 					}
 				}
@@ -4684,7 +4888,7 @@ character_view_bg = {
 					exists = host
 					host = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						highest_held_title_tier = tier_duchy
 					}
 				}
@@ -4701,14 +4905,14 @@ character_view_bg = {
 			OR = {
 				AND = {
 					exists = capital_province
-					has_religion = religion:forces_of_evil_religion
+					religion = { is_in_family = rf_forcesofevil }
 					NOT = { highest_held_title_tier >= tier_duchy }
 				}
 				AND = {
 					exists = primary_spouse
 					primary_spouse = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						NOT = { highest_held_title_tier >= tier_duchy }
 						NOT = { is_ruler = yes }
 					}
@@ -4717,7 +4921,7 @@ character_view_bg = {
 					exists = betrothed
 					betrothed = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						NOT = { highest_held_title_tier >= tier_duchy }
 					}
 				}
@@ -4725,7 +4929,7 @@ character_view_bg = {
 					exists = host
 					host = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						NOT = { highest_held_title_tier >= tier_duchy }
 					}
 				}
@@ -4741,14 +4945,14 @@ character_view_bg = {
 			OR = {
 				AND = {
 					exists = capital_province
-					has_religion = religion:forces_of_evil_religion
+					religion = { is_in_family = rf_forcesofevil }
 					NOT = { highest_held_title_tier >= tier_duchy }
 				}
 				AND = {
 					exists = primary_spouse
 					primary_spouse = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						NOT = { highest_held_title_tier >= tier_duchy }
 						NOT = { is_ruler = yes }
 					}
@@ -4757,7 +4961,7 @@ character_view_bg = {
 					exists = betrothed
 					betrothed = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						NOT = { highest_held_title_tier >= tier_duchy }
 					}
 				}
@@ -4765,7 +4969,7 @@ character_view_bg = {
 					exists = host
 					host = {
 						exists = capital_province
-						has_religion = religion:forces_of_evil_religion
+						religion = { is_in_family = rf_forcesofevil }
 						NOT = { highest_held_title_tier >= tier_duchy }
 					}
 				}
@@ -5250,7 +5454,7 @@ character_view_bg = {
 							has_cultural_pillar = heritage_moriquendi 
 						}
 					}
-					has_title = title:k_rivendell
+					has_title = title:k_imladris
 				}
 				AND = {
 					exists = primary_spouse
@@ -5263,7 +5467,7 @@ character_view_bg = {
 								has_cultural_pillar = heritage_moriquendi 
 							}
 						}
-						has_title = title:k_rivendell
+						has_title = title:k_imladris
 					}
 				}
 				AND = {
@@ -5277,7 +5481,7 @@ character_view_bg = {
 								has_cultural_pillar = heritage_moriquendi 
 							}
 						}
-						has_title = title:k_rivendell
+						has_title = title:k_imladris
 					}
 				}
 				AND = {
@@ -5291,7 +5495,7 @@ character_view_bg = {
 								has_cultural_pillar = heritage_moriquendi 
 							}
 						}
-						has_title = title:k_rivendell
+						has_title = title:k_imladris
 					}
 				}
 			}
@@ -5312,7 +5516,7 @@ character_view_bg = {
 							has_cultural_pillar = heritage_moriquendi 
 						}
 					}
-					has_title = title:k_rivendell
+					has_title = title:k_imladris
 				}
 				AND = {
 					exists = primary_spouse
@@ -5325,7 +5529,7 @@ character_view_bg = {
 								has_cultural_pillar = heritage_moriquendi 
 							}
 						}
-						has_title = title:k_rivendell
+						has_title = title:k_imladris
 					}
 				}
 				AND = {
@@ -5339,7 +5543,7 @@ character_view_bg = {
 								has_cultural_pillar = heritage_moriquendi 
 							}
 						}
-						has_title = title:k_rivendell
+						has_title = title:k_imladris
 					}
 				}
 				AND = {
@@ -5353,7 +5557,7 @@ character_view_bg = {
 								has_cultural_pillar = heritage_moriquendi 
 							}
 						}
-						has_title = title:k_rivendell
+						has_title = title:k_imladris
 					}
 				}
 			}
@@ -5779,6 +5983,107 @@ character_view_bg = {
 							capital_province.kingdom = title:k_nelornieth
 						}
 						NOT = { capital_province.county = title:c_aradhrynd }
+					}
+				}
+			}
+		}
+	}
+
+	# Hobbit
+	texture = {
+		reference = "event_scenes/throneroom_hobbit.dds"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = culture
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_periannath
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = culture
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_periannath
+							}
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = culture
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_periannath
+							}
+						}
+					}
+				}
+				AND = {
+					exists = host
+					host = {
+						exists = culture
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_periannath
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	environment = {
+		reference = "environment_cw_west"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = culture
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_periannath
+						}
+					}
+				}
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = culture
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_periannath
+							}
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = culture
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_periannath
+							}
+						}
+					}
+				}
+				AND = {
+					exists = host
+					host = {
+						exists = culture
+						culture = {
+							OR = {
+								has_cultural_pillar = heritage_periannath
+							}
+						}
 					}
 				}
 			}
@@ -8080,42 +8385,37 @@ character_location_exterior = {
 		}
 	}
 
-	texture = {
-		reference = "event_scenes/halls_mandos.dds"
-		trigger = {
-			and = {
-				is_alive = no
-				is_elf = yes
-			}
-		}
-	}
+	# environment = {
+		# reference = "environment_caras_galadhon"
 
-	environment = {
-		reference = "environment_caras_galadhon"
+		# trigger = {
+			# and = {
+				# is_alive = no
+				# is_elf = yes
+			# }
+		# }
+	# }
 
-		trigger = {
-			and = {
-				is_alive = no
-				is_elf = yes
-			}
-		}
-	}
+	# environment = {
+		# reference = "environment_frontend_west_main"
 
-	environment = {
-		reference = "environment_frontend_west_main"
-
-		trigger = {
-			and = {
-				is_alive = no
-				is_elf = yes
-			}
-		}
-	}
+		# trigger = {
+			# and = {
+				# is_alive = no
+				# is_elf = yes
+			# }
+		# }
+	# }
 
 }
 
 ### Religious interior
 religion_interior = {
+
+	# texture = { # FP3 #LotR
+	# 	trigger = { religion = religion:zoroastrianism_religion } 
+	# 	reference = "event_scenes/fp3_temple.dds"
+	# }
 
 	texture = { # FP1
 		trigger = { religion = { is_in_family = rf_darkness } } #LotR
@@ -8404,8 +8704,8 @@ title_holding = {
 					faith = faith:faith_dunlending_khrabnazerh
 					faith = faith:faith_dunlending_luta_ies
 					faith = faith:faith_gwathuirim_dynion
-					faith = faith:faith_andrast_dynion
-					faith = faith:faith_white_mountains_daen_coentis
+					faith = faith:faith_daen_gaoth
+					faith = faith:faith_daen_coentis
 					faith = faith:faith_donan
 					faith = faith:faith_fey_court
 					religion = religion:northmen_religion
