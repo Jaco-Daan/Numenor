@@ -440,7 +440,7 @@ end_war_attacker_victory_interaction = {
 			}
 		}
 		else = {
-			release_prisoners_of_war_effect = yes
+		release_prisoners_of_war_effect = yes
 		}
 
 		# Hostages
@@ -481,42 +481,42 @@ end_war_attacker_victory_interaction = {
 
 		#Send notification to vassals
 		hidden_effect = {
-			scope:attacker_winner = {
-				if = {
-					limit = {
-						any_vassal = {
-							NOT = { this = scope:defender_loser }
-						}
+		scope:attacker_winner = {
+			if = {
+				limit = {
+					any_vassal = {
+						NOT = { this = scope:defender_loser }
 					}
-					every_vassal = {
-						limit = { NOT = { this = scope:defender_loser } }
-						send_interface_toast = {
-							title = war_event.notification_liege_win.t
-							left_icon = scope:attacker_winner
-							left_icon = scope:defender_loser
-							custom_tooltip = war_event.1901
-						}
+				}
+				every_vassal = {
+					limit = { NOT = { this = scope:defender_loser } }
+					send_interface_toast = {
+						title = war_event.notification_liege_win.t
+						left_icon = scope:attacker_winner
+						left_icon = scope:defender_loser
+						custom_tooltip = war_event.1901
 					}
 				}
 			}
-			scope:defender_loser = {
-				if = {
+		}
+		scope:defender_loser = {
+			if = {
+				limit = {
+					any_vassal = { NOT = { this = scope:attacker_winner } }
+				}
+				every_vassal = {
 					limit = {
-						any_vassal = { NOT = { this = scope:attacker_winner } }
+						NOT = { this = scope:attacker_winner }
 					}
-					every_vassal = {
-						limit = {
-							NOT = { this = scope:attacker_winner }
-						}
-						send_interface_toast = {
-							title = war_event.notification_liege_loss.t
-							left_icon = scope:defender_loser
-							right_icon = scope:attacker_winner
-							custom_tooltip = war_event.1902
-						}
+					send_interface_toast = {
+						title = war_event.notification_liege_loss.t
+						left_icon = scope:defender_loser
+						right_icon = scope:attacker_winner
+						custom_tooltip = war_event.1902
 					}
 				}
 			}
+		}
 		}
 
 		#Special bookmark event for Aella of Northumbria
@@ -645,7 +645,9 @@ end_war_attacker_victory_interaction = {
 					scope:recipient = {
 						any_held_title = {
 							tier = tier_county
-							NOT = { any_this_title_or_de_jure_above = { is_in_list = target_titles } }
+							NOT = {
+								any_this_title_or_de_jure_above = { is_in_list = target_titles }
+							}
 						}
 					}
 				}
@@ -1790,6 +1792,7 @@ end_war_attacker_defeat_interaction = {
 		}
 	}
 }
+
 
 view_war_interaction = {
 	category = interaction_category_diplomacy

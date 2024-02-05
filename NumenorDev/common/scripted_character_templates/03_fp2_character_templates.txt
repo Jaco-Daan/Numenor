@@ -59,6 +59,10 @@ celebration_scholar_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -122,6 +126,10 @@ celebration_martial_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -175,6 +183,10 @@ celebration_diplomat_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -225,6 +237,10 @@ celebration_spy_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -265,6 +281,10 @@ celebration_steward_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 }
@@ -321,6 +341,10 @@ celebration_hunter_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 }
@@ -507,6 +531,10 @@ celebration_priest_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -572,6 +600,10 @@ celebration_artisan_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -627,6 +659,10 @@ celebration_chessmaster_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -663,6 +699,10 @@ spanish_jewish_merchant_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 
@@ -703,6 +743,10 @@ spanish_conversos_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -742,6 +786,10 @@ toledan_night_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 }

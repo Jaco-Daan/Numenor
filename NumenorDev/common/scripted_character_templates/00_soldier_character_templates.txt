@@ -86,6 +86,10 @@ soldier_friend_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -168,6 +172,10 @@ new_commander_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 
@@ -300,6 +308,10 @@ new_warrior_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 	
 }
@@ -308,8 +320,8 @@ new_siege_engineer = {
 	age = { 30 45 }
 	random_traits_list = {
 		count = 1
-		education_martial_3 = {}
 		education_martial_4 = {}
+		education_martial_5 = {}
 	}
 	random_traits_list = {
 		count = 3
@@ -368,7 +380,7 @@ new_siege_engineer = {
 		min_template_average_skill
 		max_template_average_skill
 	}
-	martial = { 10 16 }
+	martial = { 12 24 }
 	prowess = { 8 12 }
 
 	after_creation = {
@@ -387,6 +399,10 @@ new_siege_engineer = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 	
@@ -477,6 +493,10 @@ new_berserker_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -537,6 +557,10 @@ mercenary = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 }
@@ -601,6 +625,10 @@ retired_mercenary = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -649,6 +677,10 @@ new_raider_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 }

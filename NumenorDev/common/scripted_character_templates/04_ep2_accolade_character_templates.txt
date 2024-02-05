@@ -61,7 +61,7 @@ accolade_marauder_character = {
 		if = {
 			limit = {
 				#faith.religion = faith:norse_pagan.religion
-				culture = { has_cultural_pillar = heritage_dunlending }
+				culture = { has_cultural_pillar = heritage_daen_lintis }
 				
 			}
 			random = {
@@ -71,8 +71,7 @@ accolade_marauder_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
-				
+				culture = culture:isengard_urukhai	
 			}
 			random = {
 				chance = 20
@@ -178,7 +177,7 @@ accolade_marauder_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -188,7 +187,7 @@ accolade_marauder_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -198,7 +197,7 @@ accolade_marauder_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -224,6 +223,15 @@ accolade_marauder_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -374,7 +382,7 @@ accolade_idealist_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -384,7 +392,7 @@ accolade_idealist_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -394,7 +402,7 @@ accolade_idealist_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -415,6 +423,15 @@ accolade_idealist_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -568,7 +585,7 @@ accolade_charmer_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -578,7 +595,7 @@ accolade_charmer_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -588,7 +605,7 @@ accolade_charmer_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -599,6 +616,15 @@ accolade_charmer_character = {
 		set_interesting_traits_and_modifiers_effect = yes
 		add_random_tourney_participant_level_effect = yes
 		
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
+		}
 		# Numenor: Adds blood of numenor 
 		if = {
 			limit = { culture = culture:adunaic }
@@ -606,6 +632,8 @@ accolade_charmer_character = {
 		}
 	}
 }
+
+
 
 accolade_thug_character = {
 	age = { 16 35 }
@@ -683,7 +711,7 @@ accolade_thug_character = {
 		if = {
 			limit = {
 				#faith.religion = faith:norse_pagan.religion
-				culture = { has_cultural_pillar = heritage_dunlending }
+				culture = { has_cultural_pillar = heritage_daen_lintis }
 				
 			}
 			random = {
@@ -693,8 +721,7 @@ accolade_thug_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
-				
+				culture = culture:isengard_urukhai
 			}
 			random = {
 				chance = 20
@@ -785,7 +812,7 @@ accolade_thug_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -805,7 +832,7 @@ accolade_thug_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -825,6 +852,15 @@ accolade_thug_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -973,7 +1009,7 @@ accolade_disciplinarian_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -983,7 +1019,7 @@ accolade_disciplinarian_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -993,7 +1029,7 @@ accolade_disciplinarian_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -1013,6 +1049,15 @@ accolade_disciplinarian_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -1149,7 +1194,7 @@ accolade_fanatic_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -1159,7 +1204,7 @@ accolade_fanatic_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -1169,7 +1214,7 @@ accolade_fanatic_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -1194,6 +1239,15 @@ accolade_fanatic_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -1273,7 +1327,7 @@ accolade_valiant_character = {
 		if = {
 			limit = {
 				#faith.religion = faith:norse_pagan.religion
-				culture = { has_cultural_pillar = heritage_dunlending }
+				culture = { has_cultural_pillar = heritage_daen_lintis }
 				
 			}
 			random = {
@@ -1283,8 +1337,7 @@ accolade_valiant_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
-				
+				culture = culture:isengard_urukhai
 			}
 			random = {
 				chance = 20
@@ -1394,7 +1447,7 @@ accolade_valiant_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -1404,7 +1457,7 @@ accolade_valiant_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -1414,7 +1467,7 @@ accolade_valiant_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -1440,6 +1493,15 @@ accolade_valiant_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -1591,7 +1653,7 @@ accolade_stalwart_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -1601,7 +1663,7 @@ accolade_stalwart_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -1611,7 +1673,7 @@ accolade_stalwart_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -1637,6 +1699,15 @@ accolade_stalwart_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -1806,7 +1877,7 @@ accolade_scoundrel_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -1816,7 +1887,7 @@ accolade_scoundrel_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -1826,7 +1897,7 @@ accolade_scoundrel_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -1841,6 +1912,15 @@ accolade_scoundrel_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -2003,7 +2083,7 @@ accolade_politicker_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2013,7 +2093,7 @@ accolade_politicker_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2023,7 +2103,7 @@ accolade_politicker_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2038,6 +2118,15 @@ accolade_politicker_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -2198,7 +2287,7 @@ accolade_tactician_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2208,7 +2297,7 @@ accolade_tactician_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2218,7 +2307,7 @@ accolade_tactician_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2239,6 +2328,15 @@ accolade_tactician_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -2380,7 +2478,7 @@ accolade_reeve_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2390,7 +2488,7 @@ accolade_reeve_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2400,7 +2498,7 @@ accolade_reeve_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2415,6 +2513,15 @@ accolade_reeve_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -2575,7 +2682,7 @@ accolade_manipulator_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2585,7 +2692,7 @@ accolade_manipulator_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2595,7 +2702,7 @@ accolade_manipulator_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2610,6 +2717,15 @@ accolade_manipulator_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -2742,7 +2858,7 @@ accolade_mentor_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2752,7 +2868,7 @@ accolade_mentor_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2762,7 +2878,7 @@ accolade_mentor_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2777,6 +2893,15 @@ accolade_mentor_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -2838,7 +2963,7 @@ accolade_contender_character = {
 		if = {
 			limit = {
 				#faith.religion = faith:norse_pagan.religion
-				culture = { has_cultural_pillar = heritage_dunlending }
+				culture = { has_cultural_pillar = heritage_daen_lintis }
 				
 			}
 			random = {
@@ -2848,8 +2973,7 @@ accolade_contender_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
-				
+				culture = culture:isengard_urukhai
 			}
 			random = {
 				chance = 20
@@ -2954,7 +3078,7 @@ accolade_contender_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2964,7 +3088,7 @@ accolade_contender_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2974,7 +3098,7 @@ accolade_contender_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -2994,6 +3118,15 @@ accolade_contender_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -3139,7 +3272,7 @@ accolade_archer_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -3149,7 +3282,7 @@ accolade_archer_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -3159,7 +3292,7 @@ accolade_archer_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -3179,6 +3312,15 @@ accolade_archer_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -3333,7 +3475,7 @@ accolade_skirmisher_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -3343,7 +3485,7 @@ accolade_skirmisher_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -3353,7 +3495,7 @@ accolade_skirmisher_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -3378,6 +3520,15 @@ accolade_skirmisher_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -3539,7 +3690,7 @@ accolade_pike_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -3549,7 +3700,7 @@ accolade_pike_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -3559,7 +3710,7 @@ accolade_pike_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -3573,6 +3724,15 @@ accolade_pike_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -3725,7 +3885,7 @@ accolade_outrider_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -3735,7 +3895,7 @@ accolade_outrider_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -3745,7 +3905,7 @@ accolade_outrider_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -3765,6 +3925,15 @@ accolade_outrider_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -3850,7 +4019,7 @@ accolade_vanguard_character = {
 		if = {
 			limit = {
 				#faith.religion = faith:norse_pagan.religion
-				culture = { has_cultural_pillar = heritage_dunlending }
+				culture = { has_cultural_pillar = heritage_daen_lintis }
 				
 			}
 			random = {
@@ -3860,8 +4029,7 @@ accolade_vanguard_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
-				
+				culture = culture:isengard_urukhai
 			}
 			random = {
 				chance = 20
@@ -3965,7 +4133,7 @@ accolade_vanguard_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -3975,7 +4143,7 @@ accolade_vanguard_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -3985,7 +4153,7 @@ accolade_vanguard_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -4004,6 +4172,15 @@ accolade_vanguard_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -4174,7 +4351,7 @@ accolade_lancer_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -4184,7 +4361,7 @@ accolade_lancer_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -4194,7 +4371,7 @@ accolade_lancer_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -4213,6 +4390,15 @@ accolade_lancer_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -4362,7 +4548,7 @@ accolade_crossbowmen_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -4372,7 +4558,7 @@ accolade_crossbowmen_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -4382,7 +4568,7 @@ accolade_crossbowmen_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -4402,6 +4588,15 @@ accolade_crossbowmen_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -4547,7 +4742,7 @@ accolade_besieger_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -4557,7 +4752,7 @@ accolade_besieger_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -4567,7 +4762,7 @@ accolade_besieger_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -4588,6 +4783,15 @@ accolade_besieger_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -4732,7 +4936,7 @@ accolade_camelry_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -4742,7 +4946,7 @@ accolade_camelry_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -4752,7 +4956,7 @@ accolade_camelry_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -4772,6 +4976,15 @@ accolade_camelry_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -4950,6 +5163,15 @@ accolade_elephantry_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
+		}
 	}
 }
 
@@ -5109,7 +5331,7 @@ accolade_horse_archer_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -5119,7 +5341,7 @@ accolade_horse_archer_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -5129,7 +5351,7 @@ accolade_horse_archer_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -5149,6 +5371,15 @@ accolade_horse_archer_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -5286,7 +5517,7 @@ accolade_huntsmaster_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -5296,7 +5527,7 @@ accolade_huntsmaster_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -5306,7 +5537,7 @@ accolade_huntsmaster_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -5326,6 +5557,15 @@ accolade_huntsmaster_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -5473,7 +5713,7 @@ accolade_blademaster_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -5483,7 +5723,7 @@ accolade_blademaster_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -5493,7 +5733,7 @@ accolade_blademaster_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -5507,6 +5747,15 @@ accolade_blademaster_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }
@@ -5618,6 +5867,15 @@ accolade_master_of_revels_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 50 200 }
+			replace_unelven_traits = yes
 		}
 	}
 }

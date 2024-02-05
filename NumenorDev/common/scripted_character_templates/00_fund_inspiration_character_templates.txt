@@ -32,6 +32,10 @@
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -52,6 +56,10 @@ adventurer_female_lover_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -71,6 +79,10 @@ adventurer_male_lover_character = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 }

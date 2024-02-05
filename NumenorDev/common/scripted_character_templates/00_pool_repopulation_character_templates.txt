@@ -103,6 +103,35 @@ pool_repopulate_prowess = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { culture = { has_cultural_parameter = mining_traits_more_common } }
+			random = {
+				chance = 15
+				add_trait = lifestyle_miner
+			}
+		}
+		random_list = {
+			50 = { 
+				add_random_tiered_trait_track_xp_effect = {
+					TRAIT = lifestyle_miner
+					TRACK = hewer
+					LEVEL_1 = yes
+					LEVEL_3 = no
+				}
+			}
+			50 = { 
+				add_random_tiered_trait_track_xp_effect = {
+					TRAIT = lifestyle_miner
+					TRACK = prospector
+					LEVEL_1 = yes
+					LEVEL_3 = no
+				}
+			}
+		}
 		random = {
 			chance = 1
 			
@@ -218,7 +247,7 @@ pool_repopulate_prowess = {
 		# LotR: A Ruined Form of Life.
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 			}
 			remove_trait = forgiving
 			remove_trait = compassionate
@@ -313,6 +342,10 @@ pool_repopulate_diplomacy = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 		random = {
 			chance = 1
 			
@@ -354,7 +387,7 @@ pool_repopulate_diplomacy = {
 		# LotR: A Ruined Form of Life.
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 			}
 			remove_trait = forgiving
 			remove_trait = compassionate
@@ -442,6 +475,10 @@ pool_repopulate_martial = {
 			replace_unelven_traits = yes
 		}
 		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
 			limit = {
 				culture = { has_cultural_pillar = heritage_nafarati }
 			}
@@ -458,7 +495,7 @@ pool_repopulate_martial = {
 		if = {
 			limit = {
 				OR = {
-					culture = { has_cultural_pillar = heritage_daen }
+					culture = { has_cultural_pillar = heritage_daen_coentis }
 					culture = { has_cultural_pillar = heritage_hadorim }
 					# culture = { has_cultural_pillar = heritage_north_germanic }
 					religion = religion:gwathuirim_religion
@@ -585,7 +622,7 @@ pool_repopulate_martial = {
 		# LotR: A Ruined Form of Life.
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 			}
 			remove_trait = forgiving
 			remove_trait = compassionate
@@ -596,7 +633,6 @@ pool_repopulate_martial = {
 				50 = { add_trait = deceitful }
 				50 = { add_trait = sadistic }
 				15 = { add_trait = cannibal }
-				50 = { add_trait = urukhai_berserker }
 			}
 			give_random_commander_trait_effect = yes
 		}
@@ -674,6 +710,26 @@ pool_repopulate_stewardship = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { culture = { has_cultural_parameter = can_use_mining_activity } }
+			if = {
+				limit = { culture = { has_cultural_parameter = mining_traits_more_common } }
+				random = {
+					chance = 30
+					add_trait = lifestyle_miner
+				}
+			}
+			else = {
+				random = {
+					chance = 15
+					add_trait = lifestyle_miner
+				}
+			}
+		}
 		random = {
 			chance = 1
 			
@@ -694,10 +750,28 @@ pool_repopulate_stewardship = {
 			}
 		}
 		set_interesting_traits_and_modifiers_effect = yes
+		random_list = {
+			50 = { 
+				add_random_tiered_trait_track_xp_effect = {
+					TRAIT = lifestyle_miner
+					TRACK = hewer
+					LEVEL_1 = yes
+					LEVEL_3 = no
+				}
+			}
+			50 = { 
+				add_random_tiered_trait_track_xp_effect = {
+					TRAIT = lifestyle_miner
+					TRACK = prospector
+					LEVEL_1 = yes
+					LEVEL_3 = no
+				}
+			}
+		}
 		# LotR: A Ruined Form of Life.
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 			}
 			remove_trait = forgiving
 			remove_trait = compassionate
@@ -789,6 +863,10 @@ pool_repopulate_intrigue = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 		random = {
 			chance = 1
 			
@@ -812,7 +890,7 @@ pool_repopulate_intrigue = {
 		# LotR: A Ruined Form of Life.
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 			}
 			remove_trait = forgiving
 			remove_trait = compassionate
@@ -907,6 +985,10 @@ pool_repopulate_learning = {
 			replace_unelven_traits = yes
 		}
 		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
 			limit = {
 				faith = {
 					has_doctrine = tenet_monasticism
@@ -952,7 +1034,7 @@ pool_repopulate_learning = {
 		# LotR: A Ruined Form of Life.
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 			}
 			remove_trait = forgiving
 			remove_trait = compassionate
@@ -1111,6 +1193,10 @@ pool_repopulate_spouse = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 		random = {
 			chance = 1
 			
@@ -1134,7 +1220,7 @@ pool_repopulate_spouse = {
 		# LotR: A Ruined Form of Life.
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 			}
 			remove_trait = forgiving
 			remove_trait = compassionate
@@ -1320,6 +1406,26 @@ pool_repopulate_local_flavor = {
 			replace_unelven_traits = yes
 		}
 		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		if = {
+			limit = { culture = { has_cultural_parameter = can_use_mining_activity } }
+			if = {
+				limit = { culture = { has_cultural_parameter = mining_traits_more_common } }
+				random = {
+					chance = 20
+					add_trait = lifestyle_miner
+				}
+			}
+			else = {
+				random = {
+					chance = 10
+					add_trait = lifestyle_miner
+				}
+			}
+		}
+		if = {
 			limit = {
 				OR = {
 					culture = culture:dunlending
@@ -1406,8 +1512,8 @@ pool_repopulate_local_flavor = {
 							has_doctrine = tenet_warmonger
 						}
 						OR = {
-							culture = { has_cultural_pillar = heritage_daen }
-							culture = { has_cultural_pillar = heritage_dunlending }
+							culture = { has_cultural_pillar = heritage_daen_coentis }
+							culture = { has_cultural_pillar = heritage_daen_lintis }
 							NOR = {
 								religion = { is_in_family = rf_eruhini }
 								religion = { is_in_family = rf_forcesofevil }
@@ -1478,7 +1584,7 @@ pool_repopulate_local_flavor = {
 		if = { # Guaranteed warriors
 			limit = {
 				OR = {
-					culture = { has_cultural_pillar = heritage_orc }
+					culture = { is_orc_culture = yes }
 					culture = culture:umbarean
 					culture = culture:leofring
 					culture = culture:dunlending
@@ -1547,8 +1653,8 @@ pool_repopulate_local_flavor = {
 				OR = {
 					culture = culture:adornaen
 					culture = culture:haruze
-					culture = { has_cultural_pillar = heritage_daen }
-					culture = { has_cultural_pillar = heritage_dunlending }
+					culture = { has_cultural_pillar = heritage_daen_coentis }
+					culture = { has_cultural_pillar = heritage_daen_lintis }
 					culture = { has_cultural_pillar = heritage_northern_apysaic }
 					culture = { has_cultural_pillar = heritage_middle_apysaic }
 					religion = { is_in_family = rf_forcesofevil }
@@ -1630,10 +1736,28 @@ pool_repopulate_local_flavor = {
 			LEVEL_1 = yes
 			LEVEL_3 = no
 		}
+		random_list = {
+			50 = { 
+				add_random_tiered_trait_track_xp_effect = {
+					TRAIT = lifestyle_miner
+					TRACK = hewer
+					LEVEL_1 = yes
+					LEVEL_3 = no
+				}
+			}
+			50 = { 
+				add_random_tiered_trait_track_xp_effect = {
+					TRAIT = lifestyle_miner
+					TRACK = prospector
+					LEVEL_1 = yes
+					LEVEL_3 = no
+				}
+			}
+		}
 		# LotR: A Ruined Form of Life.
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 			}
 			remove_trait = education_learning_3
 			remove_trait = education_learning_4
@@ -1680,7 +1804,7 @@ pool_repopulate_local_flavor = {
 				15 = { add_trait = cannibal }
 				50 = { add_trait = irritable }
 				50 = { add_trait = athletic }
-				50 = { add_trait = urukhai_berserker }
+				50 = { add_trait = berserker }
 			}
 			random_list = {
 				50 = { add_trait = education_martial_3 }

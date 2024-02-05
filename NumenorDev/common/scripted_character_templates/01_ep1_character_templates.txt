@@ -90,6 +90,10 @@
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -220,6 +224,10 @@ errant_soldier_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -301,6 +309,10 @@ cinderella_character = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -363,6 +375,10 @@ inspired_template = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 }
@@ -456,6 +472,10 @@ local_artisan_template = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -493,6 +513,10 @@ foreign_merchant_template = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 }
@@ -565,6 +589,10 @@ demarch_template = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 }
@@ -788,6 +816,10 @@ millenarian_template = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -879,6 +911,10 @@ prince_ali_template = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -958,6 +994,10 @@ court_linguist_good_template = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -1019,6 +1059,10 @@ court_linguist_medium_template = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -1063,6 +1107,10 @@ court_linguist_cheap_template = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 }
@@ -1286,6 +1334,10 @@ hidden_scion_template = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -1327,6 +1379,10 @@ local_dispute_template = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 }
@@ -1454,6 +1510,10 @@ symposium_template = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 }

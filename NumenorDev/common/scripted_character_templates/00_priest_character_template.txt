@@ -63,6 +63,10 @@
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -94,6 +98,10 @@ simple_priest_character_template = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 }
@@ -312,6 +320,10 @@ virtuous_priest_character_template = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 	}
 }
 
@@ -376,6 +388,10 @@ monk_character_template = {
 		if = {
 			limit = { culture = culture:adunaic }
 			add_trait = blood_of_numenor_4
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
 		}
 	}
 }
@@ -1060,6 +1076,10 @@ location_pilgrim_template = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
 		# Now we want to add a little spice to some of them, sprinkled evenly.
 		## Some get lifestyles.
 		random = {
@@ -1258,6 +1278,15 @@ tournament_priest_character_template = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+		# Numenor: Adds blood of numenor 
+		if = {
+			limit = { culture = culture:adunaic }
+			add_trait = blood_of_numenor_4
 		}
 	}
 }
