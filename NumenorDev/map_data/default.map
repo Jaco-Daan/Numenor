@@ -12,6 +12,14 @@ adjacencies = "adjacencies.csv"
 island_region = "island_region.txt"
 seasons = "seasons.txt"
 
+## Númenor Submod ##
+
+# Numenor Submod Sea Zones
+sea_zones = LIST { 5307 5308 5315 5316 5317 5318 5319 5320 5321 5323 5324 5325 5326 5330 5331 5332 5333 5334 5335 5336 5337 5338 5376 5398 5411 }
+
+#Numenor
+impassable_mountains = LIST { 5310 5349 5380 5394 5457 5472 5500 5501 5502 5503 5504 5505 5506 5507 5508 5509 5510 5511 5512 5513 5514 5515 5516 5517 5518 5519 5520 5521 5522 }
+
 #############
 # SEA ZONES
 #############
@@ -25,9 +33,6 @@ sea_zones = RANGE { 3090 3096 }
 
 # Sea of Rhun
 sea_zones = RANGE { 1215 1219 }
-
-# Numenor Submod Sea Zones
-sea_zones = LIST { 4117 4118 4125 4126 4127 4128 4129 4130 4131 4133 4134 4135 4136 4140 4141 4142 4143 4144 4145 4146 4147 4148 4186 4208 4221 }
 
 ###############
 # MAJOR RIVERS
@@ -49,7 +54,8 @@ river_provinces = RANGE { 4103 4114 }
 ########
 
 lakes = RANGE { 1231 1236 }
-lakes = RANGE { 1240 1251 }
+lakes = RANGE { 1240 1242 }
+lakes = RANGE { 1244 1251 }
 lakes = RANGE { 1253 1257 }
 #lakes = LIST { 1256 } # Nen Hithoel (Amon Hen)
 lakes = RANGE { 1259 1262 }
@@ -71,9 +77,6 @@ impassable_mountains = LIST { 746 } # Eregwath
 impassable_mountains = LIST { 747 748 } # Ered Angûrath
 impassable_mountains = LIST { 1037 } # Nurn Desert
 
-#Numenor
-impassable_mountains = LIST { 4120 4159 4190 4204 4267 4282 4310 4311 4312 4313 4314 4315 4316 4317 4318 4319 4320 4321 4322 4323 4324 4325 4326 4327 4328 }
-
 #Gondor
 impassable_mountains = RANGE { 762 767 } # Ered Nimrais
 impassable_mountains = RANGE { 1021 1024 } # Ered Nimrais
@@ -93,8 +96,6 @@ impassable_mountains = RANGE { 1392 1394 } # Emyn Muil
 impassable_mountains = LIST { 1395 1396 } # Entwash
 
 #Rhovanion
-impassable_mountains = LIST { 2303 3067 3069 } # Gundabad Impassable (TEMP)
-impassable_mountains = LIST { 1038 1151 } # Brown Lands (TEMP)
 impassable_mountains = RANGE { 3287 3294 } # Greenwood
 impassable_mountains = RANGE { 3377 3389 } # Greenwood
 impassable_mountains = LIST { 3462 3634 } # Dale
@@ -103,7 +104,7 @@ impassable_mountains = LIST { 4000 } # Rhovanion
 impassable_mountains = RANGE { 3892 3896 } # Rhovanion
 
 #Rhun
-impassable_mountains = LIST { 3075 } # Rhun
+impassable_mountains = LIST { 3075 5252 } # Rhun
 impassable_mountains = RANGE { 3735 3739 } # Rhun
 impassable_mountains = RANGE { 4004 4014 } # Nelornieth
 
@@ -117,6 +118,7 @@ impassable_mountains = LIST { 3068 } # Great Dune Sea
 impassable_mountains = LIST { 3070 3071 } # Great Dune Sea
 impassable_mountains = LIST { 2191 } # Eastern Harad
 impassable_mountains = RANGE { 3072 3088 } # Eastern Harad
+impassable_mountains = RANGE { 5302 5306 } # Yellow Mountains
 
 #Khand
 impassable_mountains = RANGE { 4086 4101 } # Khand
@@ -145,6 +147,14 @@ impassable_mountains = RANGE { 3014 3015 } # Nafarati
 
 #Thani-Hazad
 impassable_mountains = RANGE { 3036 3053 } # An-Balkumagan
+
+#Eriador
+impassable_mountains = RANGE { 4940 4990 } # Misty Mountains
+impassable_mountains = LIST { 3899 4341 4792 2303 3067 3069 1243 } # Misty Mountains
+impassable_mountains = RANGE { 5091 5110 } # Misty Mountains
+impassable_mountains = RANGE { 5231 5235 } # Misty Mountains
+impassable_mountains = RANGE { 5253 5278 } # Misty Mountains
+impassable_mountains = RANGE { 5236 5238 } # Blue Mountains
 
 
 ############

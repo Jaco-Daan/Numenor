@@ -108,11 +108,3 @@ race.0001 = {
 	}
 
 }
-
-race.0002 = {
-	hidden = yes
-	
-	trigger = { culture = culture:adunaic }
-
-	immediate = { add_trait = blood_of_numenor_4 }
-}

@@ -3,7 +3,7 @@
 lineofelros81 = {
 	name = "Azgarzîr"
 	dynasty = dynasty_elros
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	male = yes
@@ -22,7 +22,7 @@ lineofelros81 = {
 lineofelros82 = {
 	name = "Aphanuzîr"
 	dynasty = dynasty_elros
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	male = yes
@@ -41,7 +41,7 @@ lineofelros82 = {
 lineofelros83 = {
 	name = "Azulzîr"
 	dynasty = dynasty_elros
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	male = yes
@@ -60,7 +60,7 @@ lineofelros83 = {
 lineofelros84 = {
 	name = "Gimiltârik"
 	dynasty = dynasty_elros
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	male = yes
@@ -150,14 +150,11 @@ lineofelros88 = {
 	mother = lineofelros87
 	
 	trait = blood_of_numenor_4
-	trait = blademaster_2
+	trait = lifestyle_blademaster
 	trait = just
 	
 	3889.1.1 = {
 		birth = yes
-	}
-	4100.4.5 = {
-		give_nickname = nick_the_renewer
 	}
 	4123.1.1 = {
 		death = {death_reason = death_natural_causes }
@@ -174,6 +171,11 @@ lineofelros89 = {
 	father = lineofelros88
 	
 	trait = blood_of_numenor_4
+	trait = strong
+	trait = brave
+	trait = physique_good_2
+	trait = patient
+	trait = ambitious
 	
 	3900.1.1 = {
 		birth = yes
@@ -511,7 +513,7 @@ lineofelros106 = {
 lineofelros107 = {
 	name = "Balkumagân"
 	dynasty = dynasty_elros
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = adunaic
 	
 	male = yes
@@ -1479,7 +1481,7 @@ lordsofkorlea14 = {
 lordsofkorlea15 = {
     name = Zâinabên # Was indoctrinated into the King's Men faith
     dynasty = dynasty_korleabeforedownfall
-    religion = kings_men
+    religion = faith_kings_men_numenorean
     culture = black_numenorean
 
     father = lordsofkorlea14
@@ -1496,7 +1498,7 @@ lordsofkorlea15 = {
 lordsofkorlea16 = {
     name = Pharazbalak
     dynasty = dynasty_korleabeforedownfall
-    religion = kings_men
+    religion = faith_kings_men_numenorean
     culture = black_numenorean
 
     father = lordsofkorlea15
@@ -1513,7 +1515,7 @@ lordsofkorlea16 = {
 lordsofkorlea17 = {
     name = Rôthzagar
     dynasty = dynasty_korleabeforedownfall
-    religion = kings_men
+    religion = faith_kings_men_numenorean
     culture = black_numenorean
 
     father = lordsofkorlea16
@@ -1885,7 +1887,7 @@ lordsofkorlea37 = {
 lineofvardur3 = {					
 	name = "Minulzûr"				
 	dynasty_house = dynasty_vardurionath				
-	religion = kings_men			
+	religion = faith_kings_men_numenorean			
 	culture = black_numenorean				
 					
 	mother = lineofvardur2			
@@ -1902,7 +1904,7 @@ lineofvardur3 = {
 lineofvardur4 = {					
 	name = "Balkuthôr"				
 	dynasty_house = dynasty_vardurionath				
-	religion = kings_men			
+	religion = faith_kings_men_numenorean			
 	culture = black_numenorean				
 					
 	father = lineofvardur3				
@@ -1919,7 +1921,7 @@ lineofvardur4 = {
 lineofvardur5 = {					
 	name = "Ulbâr"				
 	dynasty_house = dynasty_vardurionath				
-	religion = kings_men					
+	religion = faith_kings_men_numenorean					
 	culture = black_numenorean				
 					
 	father = lineofvardur4				
@@ -1936,7 +1938,7 @@ lineofvardur5 = {
 lineofvardur6 = {					
 	name = "Zimrathôr"				
 	dynasty_house = dynasty_vardurionath				
-	religion = kings_men					
+	religion = faith_kings_men_numenorean					
 	culture = black_numenorean				
 					
 	father = lineofvardur5				
@@ -1953,7 +1955,7 @@ lineofvardur6 = {
 lineofvardur7 = {					
 	name = "Sakalthôr"				
 	dynasty_house = dynasty_vardurionath				
-	religion = kings_men					
+	religion = faith_kings_men_numenorean					
 	culture = black_numenorean				
 					
 	father = lineofvardur6				
@@ -1970,7 +1972,7 @@ lineofvardur7 = {
 lineofvardur8 = {					
 	name = "Nimrukhâz"				
 	dynasty_house = dynasty_vardurionath				
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = black_numenorean				
 					
 	father = lineofvardur7				
@@ -1987,7 +1989,7 @@ lineofvardur8 = {
 lineofvardur9 = {					
 	name = "Nîlozûr"				
 	dynasty_house = dynasty_vardurionath				
-	religion = kings_men			
+	religion = faith_kings_men_numenorean			
 	culture = black_numenorean				
 					
 	father = lineofvardur8				
@@ -2004,7 +2006,7 @@ lineofvardur9 = {
 lineofvardur10 = {					
 	name = "Karbazîr"				
 	dynasty_house = dynasty_vardurionath				
-	religion = kings_men			
+	religion = faith_kings_men_numenorean			
 	culture = black_numenorean				
 					
 	father = lineofvardur9				
@@ -2021,7 +2023,7 @@ lineofvardur10 = {
 lineofvardur11 = {					
 	name = "Azarkarbû"				
 	dynasty_house = dynasty_vardurionath				
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = adunaic				
 					
 	father = lineofvardur10				
@@ -2038,7 +2040,7 @@ lineofvardur11 = {
 lineofvardur12 = {					
 	name = "Sapazûr"				
 	dynasty_house = dynasty_vardurionath				
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = adunaic				
 					
 	father = lineofvardur11				
@@ -2055,7 +2057,7 @@ lineofvardur12 = {
 lineofvardur13 = {					
 	name = "Balakân"				
 	dynasty_house = dynasty_vardurionath				
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = adunaic				
 					
 	father = lineofvardur12				
@@ -2072,7 +2074,7 @@ lineofvardur13 = {
 lineofvardur14 = {					
 	name = "Arnuzîr"				
 	dynasty_house = dynasty_vardurionath				
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = adunaic				
 					
 	father = lineofvardur13				
@@ -2708,6 +2710,9 @@ lineofciryandur31 = { # Made lord of all of Ciryanore to reward him
 	6397.1.1 = {
 		birth = yes
 	}
+	6588.1.1 = {
+		add_spouse = lineofkhorandor24
+	}
 	6625.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -2719,6 +2724,7 @@ lineofciryandur32 = {
 	culture = adunaic
 	
 	father = lineofciryandur31
+	mother = lineofkhorandor24
 	
 	trait = blood_of_numenor_4
 	
@@ -5482,6 +5488,9 @@ lineofkhorahil4 = {
 	6288.1.1 = {
 		birth = yes
 	}
+	6437.1.1 = {
+		add_spouse = lineofkhorandor23
+	}
 	6512.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -5496,6 +5505,7 @@ lineofkhorahil5 = {
 	trait = blood_of_numenor_4
 	
 	father = lineofkhorahil4
+	mother = lineofkhorandor23
 	
 	6439.1.1 = {
 		birth = yes
@@ -6738,7 +6748,7 @@ lineoftelemnacil32 = {
 }
 
 lineoftelemnacil33 = {
-    name = Argeleb
+    name = Minluzîr
 
     dynasty = dynasty_telemnacil
     religion = faith_numenorean
@@ -6807,7 +6817,7 @@ lineoftelemnacil34 = {
 }
 
 lineoftelemnacil35 = {
-    name = Electhel
+    name = Tarîkmagân
 
     dynasty = dynasty_telemnacil
     religion = faith_numenorean
@@ -6876,7 +6886,7 @@ lineoftelemnacil36 = {
 }
 
 lineoftelemnacil37 = {
-    name = Hostamir
+    name = Zimrupân
 
     dynasty = dynasty_telemnacil
     religion = faith_numenorean
@@ -7083,7 +7093,7 @@ lineoftelemnacil42 = {
 }
 
 lineoftelemnacil43 = {
-    name = Curimardin
+    name = Nimrubên
 
     dynasty = dynasty_telemnacil
     religion = faith_numenorean
@@ -7359,7 +7369,7 @@ lineoftelemnacil50 = {
 }
 
 lineoftelemnacil51 = {
-    name = Electhel
+    name = Gimlân
 
     dynasty = dynasty_telemnacil
     religion = faith_numenorean
@@ -7497,7 +7507,7 @@ lineoftelemnacil54 = {
 }
 
 lineoftelemnacil55 = {
-    name = Marenar
+    name = Zimrathôn
 
     dynasty = dynasty_telemnacil
     religion = faith_adunaic
@@ -7566,7 +7576,7 @@ lineoftelemnacil56 = {
 }
 
 lineoftelemnacil57 = {
-    name = Feandil
+    name = Gimilzagar
 
     dynasty = dynasty_telemnacil
     religion = faith_adunaic
@@ -7704,7 +7714,7 @@ lineoftelemnacil60 = {
 }
 
 lineoftelemnacil61 = {
-    name = Angelimir
+    name = Eärendur
 
     dynasty = dynasty_telemnacil
     religion = faith_adunaic
@@ -7742,7 +7752,7 @@ lineoftelemnacil61 = {
 }
 
 lineoftelemnacil62 = {
-    name = Firiel
+    name = Adûnaphêl
     female = yes
 
     religion = faith_adunaic
@@ -7841,6 +7851,73 @@ lineoftelemnacil64 = {
     }
 }
 
+lineoftelemnacil65 = {
+    name = Belzagar
+    dynasty = dynasty_telemnacil
+    religion = faith_adunaic
+    culture = adunaic
+
+    father = lineoftelemnacil61
+    mother = lineoftelemnacil62
+
+    trait = blood_of_numenor_4
+
+    6943.1.1 = {
+        birth = yes
+    }
+
+    6990.9.18 = {
+        add_spouse = lineoftelemnacil66
+    }
+}
+
+lineoftelemnacil66 = {
+    name = Ûrîphêr
+    female = yes
+
+    religion = faith_adunaic
+    culture = adunaic
+
+    trait = blood_of_numenor_4
+
+    6942.1.1 = {
+        birth = yes
+    }
+}
+
+lineoftelemnacil67 = {
+    name = Númendil
+
+    dynasty = dynasty_telemnacil
+    religion = faith_adunaic
+    culture = adunaic
+
+    father = lineoftelemnacil59
+    mother = lineoftelemnacil60
+
+    trait = blood_of_numenor_4
+
+    6823.1.1 = {
+        birth = yes
+    }
+
+    6871.4.18 = {
+        add_spouse = lineoftelemnacil68
+    }
+}
+
+lineoftelemnacil68 = {
+    name = Vairë
+    female = yes
+    religion = faith_adunaic
+    culture = adunaic
+
+    trait = blood_of_numenor_4
+
+    6827.1.1 = {
+        birth = yes
+    }
+}
 ###Hatholdir of Erelonde###
 lineofagathor1 = {
     name = Agathor
@@ -8056,7 +8133,7 @@ lineofagathor11 = {
 lineofagathor12 = {
 	name = Zâinabên
 	dynasty = dynasty_agathor
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	trait = blood_of_numenor_4
@@ -8074,7 +8151,7 @@ lineofagathor12 = {
 lineofagathor13 = {
 	name = Gimlân
 	dynasty = dynasty_agathor
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	trait = blood_of_numenor_4
@@ -8092,7 +8169,7 @@ lineofagathor13 = {
 lineofagathor14 = {
 	name = Sakalthôr
 	dynasty = dynasty_agathor
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	trait = blood_of_numenor_4
@@ -8110,7 +8187,7 @@ lineofagathor14 = {
 lineofagathor15 = {
 	name = Aphanuzîr
 	dynasty = dynasty_agathor
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	trait = blood_of_numenor_4
@@ -9595,7 +9672,7 @@ lineofarialome25 = {
 lineofazrubensubmod1 = {
 	name = Gimilzagar
 	dynasty = dynasty_azulhin
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	father = lineofazruben1
@@ -9613,7 +9690,7 @@ lineofazrubensubmod1 = {
 lineofazrubensubmod2 = {
 	name = Gôdrathôr
 	dynasty = dynasty_azulhin
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	father = lineofazrubensubmod1
@@ -9668,7 +9745,7 @@ lineofazrubensubmod4 = {
 lineofazrubensubmod5 = {
 	name = Adûnaphazôr
 	dynasty = dynasty_azulhin
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	father = lineofazrubensubmod2
@@ -9685,7 +9762,7 @@ lineofazrubensubmod5 = {
 lineofazrubensubmod6 = {
 	name = Abâruzôr
 	dynasty = dynasty_azulhin
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	father = lineofazrubensubmod5
@@ -9702,7 +9779,7 @@ lineofazrubensubmod6 = {
 lineofazrubensubmod7 = {
 	name = Gimilkhâd
 	dynasty = dynasty_azulhin
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = adunaic
 	
 	father = lineofazrubensubmod6
@@ -11399,7 +11476,7 @@ linesirinore30 = {
 gimilkhadbastard = {
 	name = Zimirarî
 	dynasty = dynasty_elros
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	female = yes
 	
@@ -11422,7 +11499,7 @@ gimilkhadbastard = {
 linejewellord1 = {
 	name = Abrazimir
 	dynasty = dynasty_jewellord
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	trait = blood_of_numenor_4
@@ -11561,7 +11638,7 @@ linegimilson4 = {
 linejewellord3 = {
 	name = Adûninzil
 	dynasty_house = dynasty_jeweldaughter
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	female = yes
 	
@@ -11581,7 +11658,7 @@ linejewellord3 = {
 linejewellord4 = {
 	name = Zimrathôr
 	dynasty_house = dynasty_jeweldaughter
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = adunaic
 	
 	mother = linejewellord3
@@ -11598,7 +11675,7 @@ linejewellord4 = {
 linejewellord5 = {
 	name = Abrazimîr
 	dynasty_house = dynasty_jeweldaughter
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = adunaic
 	
 	father = linejewellord4
@@ -11960,6 +12037,1129 @@ linejewellord30 = {
 	}
 }
 
+### Lords of Ondostó ###
+lineofondosto1 = {
+	name = Arphazênêth
+	female = yes
+	dynasty = dynasty_elros
+	religion = faith_numenorean
+	culture = adunaic
+	
+	father = lineofelros88
+	
+	trait = blood_of_numenor_4
+	trait = beauty_good_3
+	trait = honest
+	trait = just
+	
+	3909.1.1 = {
+		birth = yes
+	}
+	4155.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondostofounder = { 
+	name = Nôlôndur
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	trait = blood_of_numenor_4
+	trait = loyal
+	trait = brave
+	
+	3903.1.1 = {
+		birth = yes
+	}
+	3973.1.1 = {
+		add_spouse = lineofondosto1
+	}
+	4139.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto2 = {
+	name = Nimrukhâz
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	father = lineofondostofounder
+	mother = lineofondosto1
+	
+	trait = blood_of_numenor_4
+	
+	3974.1.1 = {
+		birth = yes
+	}
+	4213.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto3 = {
+	name = Azûlphazgân
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto2
+	
+	trait = blood_of_numenor_4
+	
+	4113.1.1 = {
+		birth = yes
+	}
+	4349.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto4 = {
+	name = Zimrabâr
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto3
+	
+	trait = blood_of_numenor_4
+	
+	4234.1.1 = {
+		birth = yes
+	}
+	4460.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto5 = {
+	name = Marmêdôn
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto4
+	
+	trait = blood_of_numenor_4
+	
+	4383.1.1 = {
+		birth = yes
+	}
+	4612.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto6 = {
+	name = Êruzôr
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto5
+	
+	trait = blood_of_numenor_4
+	
+	4434.1.1 = {
+		birth = yes
+	}
+	4663.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto7 = {
+	name = Gimilzôr
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto6
+	
+	trait = blood_of_numenor_4
+	
+	4598.1.1 = {
+		birth = yes
+	}
+	4826.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto8 = {
+	name = Minlubên
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto7
+	
+	trait = blood_of_numenor_4
+	
+	4791.1.1 = {
+		birth = yes
+	}
+	5015.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto9 = {
+	name = Ûrîthôr
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto8
+	
+	trait = blood_of_numenor_4
+	
+	4867.1.1 = {
+		birth = yes
+	}
+	5094.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto10 = {
+	name = Urduzîr
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto9
+	
+	trait = blood_of_numenor_4
+	
+	4954.1.1 = {
+		birth = yes
+	}
+	5188.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto11 = {
+	name = Arnuzîl
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto10
+	
+	trait = blood_of_numenor_4
+	
+	5111.1.1 = {
+		birth = yes
+	}
+	5338.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto12 = {
+	name = Gimilzôr
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto11
+	
+	trait = blood_of_numenor_4
+	
+	5245.1.1 = {
+		birth = yes
+	}
+	5468.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto13 = {
+	name = Narkuzîr
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto12
+	
+	trait = blood_of_numenor_4
+	
+	5332.1.1 = {
+		birth = yes
+	}
+	5558.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto14 = {
+	name = Karbazîr
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto13
+	
+	trait = blood_of_numenor_4
+	
+	5492.1.1 = {
+		birth = yes
+	}
+	5715.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto15 = {
+	name = Zimrêbal
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto14
+	
+	trait = blood_of_numenor_4
+	
+	5653.1.1 = {
+		birth = yes
+	}
+	5884.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto16 = {
+	name = Bêlphazân
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto15
+	
+	trait = blood_of_numenor_4
+	
+	5795.1.1 = {
+		birth = yes
+	}
+	6013.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto17 = {
+	name = Zabathânardu
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto16
+	
+	trait = blood_of_numenor_4
+	
+	5985.1.1 = {
+		birth = yes
+	}
+	6209.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto18 = {
+	name = Bêlzagar
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto17
+	
+	trait = blood_of_numenor_4
+	
+	6093.1.1 = {
+		birth = yes
+	}
+	6317.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto19 = {
+	name = Imruzîr
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+	
+	
+	father = lineofondosto18
+	
+	trait = blood_of_numenor_4
+	
+	6261.1.1 = {
+		birth = yes
+	}
+	6491.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto20 = {
+	name = Adûnuzîr
+	dynasty = dynasty_ondosto
+	religion = faith_adunaic
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto19
+	
+	trait = blood_of_numenor_4
+
+	6372.1.1 = {
+		birth = yes
+	}
+	6604.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto21 = {
+	name = Nîlôzîr
+	dynasty = dynasty_ondosto
+	religion = faith_adunaic
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto20
+	
+	trait = blood_of_numenor_4
+	
+	6413.1.1 = {
+		birth = yes
+	}
+	6637.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto22 = {
+	name = Isilithôr
+	dynasty = dynasty_ondosto
+	religion = faith_adunaic
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto21
+	
+	trait = blood_of_numenor_4
+	
+	6573.1.1 = {
+		birth = yes
+	}
+	6797.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto23 = {
+	name = Ârukhûrân
+	dynasty = dynasty_ondosto
+	religion = faith_adunaic
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto22
+	
+	trait = blood_of_numenor_4
+	
+	6632.1.1 = {
+		birth = yes
+	}
+	6852.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto24 = {
+	name = Zôrnagar
+	dynasty = dynasty_ondosto
+	religion = faith_adunaic
+	culture = adunaic
+	
+	
+	
+	father = lineofondosto23
+	
+	trait = blood_of_numenor_4
+	
+	6776.1.1 = {
+		birth = yes
+	}
+	6993.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto25 = {
+	name = Nâlôdân
+	dynasty = dynasty_ondosto
+	religion = faith_adunaic
+	sexuality = heterosexual
+	culture = adunaic
+	
+	father = lineofondosto24
+	
+	trait = blood_of_numenor_4
+	
+	6905.1.1 = {
+		birth = yes
+	}
+	6962.1.1 = {
+		add_spouse = lineofelros120
+	}
+}
+lineofelros120 = {
+	name = Gimilinzil
+	female = yes
+	dynasty = dynasty_elros
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineofelros114
+	
+	trait = blood_of_numenor_4
+	trait = beauty_good_2
+	trait = humble
+	trait = content
+	
+	6911.1.1 = {
+		birth = yes
+	}
+}
+lineofondosto26 = {
+	name = Banâthin
+	dynasty = dynasty_ondosto
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineofondosto25
+	mother = lineofelros120
+	
+	trait = blood_of_numenor_4
+	
+	6965.1.1 = {
+		birth = yes
+	}
+}
+lineofondosto27 = {
+	name = Dâirabên
+	dynasty = dynasty_ondosto
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineofondosto26
+	
+	trait = blood_of_numenor_4
+	
+	7019.1.1 = {
+		birth = yes
+	}
+}
+
+lineofondostotwo1 = {
+	name = Balkuzôr
+	dynasty = dynasty_ondostobastard
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineofondosto19
+	
+	trait = blood_of_numenor_4
+	trait = bastard_founder
+	trait = scholar
+	
+	6363.1.1 = {
+		birth = yes
+	}
+	6595.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondostotwo2 = {
+	name = Inzilzûr
+	dynasty = dynasty_ondostobastard
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineofondostotwo1
+	
+	trait = blood_of_numenor_4
+	
+	6404.1.1 = {
+		birth = yes
+	}
+	6628.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondostotwo3 = {
+	name = Aphanuzûr
+	dynasty = dynasty_ondostobastard
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineofondostotwo2
+	
+	trait = blood_of_numenor_4
+	
+	6574.1.1 = {
+		birth = yes
+	}
+	6788.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondostotwo4 = {
+	name = Marmêdôn
+	dynasty = dynasty_ondostobastard
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofondostotwo3
+	
+	trait = blood_of_numenor_4
+	
+	6623.1.1 = {
+		birth = yes
+	}
+	6843.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondostotwo5 = {
+	name = Adûnazîr
+	dynasty = dynasty_ondostobastard
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofondostotwo4
+	
+	trait = blood_of_numenor_4
+	
+	6767.1.1 = {
+		birth = yes
+	}
+	6984.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondostotwo6 = {
+	name = Bêlnardû
+	dynasty = dynasty_ondostobastard
+	religion = faith_adunaic
+	sexuality = heterosexual
+	culture = adunaic
+	
+	father = lineofondostotwo5
+	
+	trait = blood_of_numenor_4
+	
+	6896.1.1 = {
+		birth = yes
+	}
+}
+lineofondostotwo7 = {
+	name = Arphagôr
+	dynasty = dynasty_ondostobastard
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineofondostotwo6
+	
+	trait = blood_of_numenor_4
+	
+	6956.1.1 = {
+		birth = yes
+	}
+}
+lineofondostotwo8 = {
+	name = Zimrikhâz
+	dynasty = dynasty_ondostobastard
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineofondostotwo6
+	
+	trait = blood_of_numenor_4
+	
+	6964.1.1 = {
+		birth = yes
+	}
+}
+
+## Line of Khorandor, Jewel Lords of the former province of Ananórë ##
+
+lineofkhorandor1 = {
+	name = Balkumagân
+	dynasty = dynasty_khorandor
+	religion = faith_kings_men_numenorean
+	culture = black_numenorean
+	
+	trait = blood_of_numenor_4
+	trait = wrathful
+	trait = sadistic
+	trait = brave
+	trait = mariner_3
+	
+	3703.1.1 = {
+		birth = yes
+	}
+	3911.1.1 = {
+		death = { death_reason = death_valinor_crushed }
+	}
+}
+lineofkhorandor2 = {
+	name = Mûrazôr
+	dynasty = dynasty_khorandor
+	religion = faith_kings_men_numenorean
+	culture = black_numenorean
+	
+	father = lineofkhorandor1
+	
+	trait = blood_of_numenor_4
+	trait = sadistic
+	trait = schemer
+	trait = deceitful
+	
+	3809.1.1 = {
+		birth = yes
+	}
+	4022.1.1 = {
+		death = { death_reason = death_execution killer = lineofkhorandor3 }
+	}
+}
+lineofkhorandor3 = {
+	name = Êruzagar
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor2
+	
+	trait = blood_of_numenor_4
+	trait = fickle
+	trait = kinslayer_1
+	trait = honest
+	trait = just
+	trait = zealous
+	
+	3910.1.1 = {
+		birth = yes
+	}
+	4138.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor4 = {
+	name = Nîllûbên
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor3
+	
+	trait = blood_of_numenor_4
+	
+	4004.1.1 = {
+		birth = yes
+	}
+	4230.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor5 = {
+	name = Izindabên
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor4
+	
+	trait = blood_of_numenor_4
+	
+	4162.1.1 = {
+		birth = yes
+	}
+	4386.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor6 = {
+	name = Dôlguzagar
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor5
+	
+	trait = blood_of_numenor_4
+	
+	4307.1.1 = {
+		birth = yes
+	}
+	4534.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor7 = {
+	name = Aglarân
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor6
+	
+	trait = blood_of_numenor_4
+	
+	4476.1.1 = {
+		birth = yes
+	}
+	4702.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor8 = {
+	name = Bêlphazân
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic 
+
+	father = lineofkhorandor7
+	
+	trait = blood_of_numenor_4
+	
+	4663.1.1 = {
+		birth = yes
+	}
+	4888.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor9 = {
+	name = Nîlôzîr
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor8
+	
+	trait = blood_of_numenor_4
+	
+	4809.1.1 = {
+		birth = yes
+	}
+	5036.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor10 = {
+	name = Abrazôr
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic 
+
+	father = lineofkhorandor9
+	
+	trait = blood_of_numenor_4
+	
+	4953.1.1 = {
+		birth = yes
+	}
+	5180.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor11 = {
+	name = Zimrêbal
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor10
+	
+	trait = blood_of_numenor_4
+	
+	5111.1.1 = {
+		birth = yes
+	}
+	5336.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor12 = {
+	name = Avalôzîr
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor11
+	
+	trait = blood_of_numenor_4
+	
+	5288.1.1 = {
+		birth = yes
+	}
+	5512.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor13 = {
+	name = Narkuzîr
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor12
+	
+	trait = blood_of_numenor_4
+	
+	5443.1.1 = {
+		birth = yes
+	}
+	5669.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor14 = {
+	name = Marmêdôn
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor13
+	
+	trait = blood_of_numenor_4
+	
+	5598.1.1 = {
+		birth = yes
+	}
+	5826.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor15 = {
+	name = Zôrnagar
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor14
+	
+	trait = blood_of_numenor_4
+	
+	5755.1.1 = {
+		birth = yes
+	}
+	5982.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor16 = {
+	name = Minulzôr
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor15
+	
+	trait = blood_of_numenor_4
+	
+	5863.1.1 = {
+		birth = yes
+	}
+	6085.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor17 = {
+	name = Sakalkhâd
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor16
+	
+	trait = blood_of_numenor_4
+	
+	5961.1.1 = {
+		birth = yes
+	}
+	6186.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor18 = {
+	name = Arphazân
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor17
+	
+	trait = blood_of_numenor_4
+	
+	6044.1.1 = {
+		birth = yes
+	}
+	6272.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor19 = {
+	name = Adûnabâr
+	dynasty = dynasty_khorandor
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor18
+	
+	trait = blood_of_numenor_4
+	
+	6093.1.1 = {
+		birth = yes
+	}
+	6313.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor20 = {
+	name = Ûrêzagar
+	dynasty = dynasty_khorandor
+	religion = faith_kings_men_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor19
+	
+	trait = blood_of_numenor_4
+	
+	6135.1.1 = {
+		birth = yes
+	}
+	6362.1.1 = {
+		death = { death_reason = death_battle }
+	}
+}
+lineofkhorandor21 = {
+	name = Sakalthôr
+	dynasty = dynasty_khorandor
+	religion = faith_kings_men_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor20
+	
+	trait = blood_of_numenor_4
+	trait = strong
+	trait = zealous
+	trait = schemer
+	trait = deceitful
+	trait = mariner_2
+	
+	6263.1.1 = {
+		birth = yes
+	}
+	6403.1.1 = {
+		death = { death_reason = death_battle }
+	}
+}
+lineofkhorandor22 = {
+	name = Pharazôn
+	dynasty = dynasty_khorandor
+	religion = faith_kings_men_numenorean
+	culture = adunaic
+
+	father = lineofkhorandor21
+	
+	trait = blood_of_numenor_4
+	trait = deceitful
+	trait = brave
+	trait = sadistic
+	trait = wrathful
+	
+	6354.1.1 = {
+		birth = yes
+	}
+	6403.1.1 = {
+		death = { death_reason = death_execution killer = lineofelros108}
+	}
+}
+lineofkhorandor23 = {
+	name = Kôrâzin
+	female = yes
+	dynasty = dynasty_khorandor
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofkhorandor21
+	
+	trait = blood_of_numenor_4
+	
+	6368.1.1 = {
+		birth = yes
+	}
+	6596.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofkhorandor24 = {
+	name = Ûrîphêrî
+	female = yes
+	dynasty = dynasty_khorandor
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofkhorandor21
+	
+	trait = blood_of_numenor_4
+	
+	6372.1.1 = {
+		birth = yes
+	}
+	6601.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+### Ancient lords of Sirinore (Formerly Syntar) WIP ###
+lineofsirinore2 = {
+	name = Baian
+	dynasty = dynasty_syntar
+	religion = faith_numenorean
+	culture = numenorean
+
+	#father = lineofsirinore1
+	
+	trait = blood_of_numenor_4
+	
+	1452.1.1 = {
+		birth = yes
+	}
+	1819.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
 ##PLACEHOLDER CHARACTERS##
 #HYARANORE#
 place1 = {

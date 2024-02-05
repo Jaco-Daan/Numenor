@@ -1,0 +1,3 @@
+is_numenor = {
+		has_primary_title = title:e_numenor
+}

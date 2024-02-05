@@ -38,6 +38,10 @@
 	discover_innovation = innovation_armilary_sphere
 	discover_innovation = innovation_baliffs
 	disocver_innovation = innovation_formalized_emissaries
+	discover_innovation = innovation_primogeniture
+	discover_innovation = innovation_numenorean_architecture_01
+	discover_innovation = innovation_numenorean_architecture_02
+	discover_innovation = innovation_numenorean_architecture_03
 }	
 7010.1.1 = { # Late Third Age	
 	join_era = culture_era_late_medieval
@@ -55,15 +59,10 @@
 	discover_innovation = innovation_guilds
 	discover_innovation = innovation_development_03 # Urbanization
 	discover_innovation = innovation_currency_03 # Banking
-	discover_innovation = innovation_primogeniture
 	discover_innovation = innovation_court_officials
 	discover_innovation = innovation_plate_armor
 	discover_innovation = innovation_cranes
 	
 
 	
-	# LotR Cultural Innovations
-	discover_innovation = innovation_numenorean_architecture_01
-	discover_innovation = innovation_numenorean_architecture_02
-	discover_innovation = innovation_numenorean_architecture_03
 }	

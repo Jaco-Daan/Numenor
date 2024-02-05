@@ -32,9 +32,10 @@ namespace = sailing
 #Character does not own a boat - charter or buy?
 sailing.1001 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1001.t
 	desc = sailing.1001.desc
-	theme = docks
+	theme = sailing_activity
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -73,9 +74,10 @@ sailing.1001 = {
 #Character HIRES a boat, which one to choose!?
 sailing.1002 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1002.t
 	desc = sailing.1002.desc
-	theme = docks
+	theme = sailing_activity
 	left_portrait = {
 		character = root
 		animation = personality_rational
@@ -96,16 +98,16 @@ sailing.1002 = {
 			# years = boat_hire_duration_years
 		}
 		stress_impact = {
-				base = hunt_stress_loss_value #-30
-				greedy = minor_stress_impact_loss
-				brave = activity_stress_loss_impact
-				craven = activity_stress_gain_impact
-				ambitious = activity_stress_loss_impact
-				athletic = activity_stress_loss_impact
-				mariner_1 = activity_stress_loss_impact
-				mariner_2 = activity_stress_loss_impact
-				mariner_3 = activity_stress_loss_impact
-			}
+			base = hunt_stress_loss_value #-30
+			greedy = minor_stress_impact_loss
+			brave = activity_stress_loss_impact
+			craven = activity_stress_gain_impact
+			ambitious = activity_stress_loss_impact
+			athletic = activity_stress_loss_impact
+			mariner_1 = activity_stress_loss_impact
+			mariner_2 = activity_stress_loss_impact
+			mariner_3 = activity_stress_loss_impact
+		}
 	}
 	
 	option = { # A fine vessel
@@ -171,9 +173,10 @@ sailing.1002 = {
 #Character BUYS a boat, which one to choose!?
 sailing.1003 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1003.t
 	desc = sailing.1003.desc
-	theme = docks
+	theme = sailing_activity
 	left_portrait = {
 		character = root
 		animation = personality_rational
@@ -245,9 +248,10 @@ sailing.1003 = {
 #My boat is in a poor state of repair, should I pay to fix it up?
 sailing.1004 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1004.t
 	desc = sailing.1004.desc
-	theme = docks
+	theme = sailing_activity
 	left_portrait = {
 		character = root
 		animation = disapproval
@@ -276,9 +280,10 @@ sailing.1004 = {
 #Temptation at the Docks
 sailing.1005 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1005.t
 	desc = sailing.1005.desc
-	theme = docks
+	theme = sailing_activity
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -396,9 +401,10 @@ sailing.1005 = {
 #A Dagger in the Bedroom - Sauron sends his regards
 sailing.1006 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1006.t
 	desc = sailing.1006.desc
-	theme = docks
+	theme = sailing_activity
 	override_background = {
 		reference = bedchamber
 	}
@@ -452,9 +458,10 @@ sailing.1006 = {
 #Whittle While You Wait
 sailing.1007 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1007.t
 	desc = sailing.1007.desc
-	theme = docks
+	theme = sailing_activity
 	left_portrait = {
 		character = root
 		animation = boredom
@@ -468,9 +475,9 @@ sailing.1007 = {
 		root = {
 			has_variable_list = potential_sailing_participants
 			any_in_list = {
-					variable = potential_sailing_participants
-					is_alive = yes
-					count >= 1
+				variable = potential_sailing_participants
+				is_alive = yes
+				count >= 1
 			}
 		}
 	}
@@ -580,9 +587,10 @@ sailing.1007 = {
 #Crewmates in a Bar Brawl
 sailing.1008 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1008.t
 	desc = sailing.1008.desc
-	theme = docks
+	theme = sailing_activity
 	override_background = {
 		reference = tavern
 	}
@@ -599,10 +607,10 @@ sailing.1008 = {
 		root = {
 			has_variable_list = potential_sailing_participants
 			any_in_list = {
-					variable = potential_sailing_participants
-					is_alive = yes
-					is_ai = yes
-					count >= 1
+				variable = potential_sailing_participants
+				is_alive = yes
+				is_ai = yes
+				count >= 1
 			}
 		}
 	}
@@ -755,9 +763,10 @@ sailing.1008 = {
 #The Drinking Contest
 sailing.1009 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1009.t
 	desc = sailing.1009.desc
-	theme = docks
+	theme = sailing_activity
 	override_background = {
 		reference = tavern
 	}
@@ -774,10 +783,10 @@ sailing.1009 = {
 		root = {
 			has_variable_list = potential_sailing_participants
 			any_in_list = {
-					variable = potential_sailing_participants
-					is_alive = yes
-					is_ai = yes
-					count >= 1
+				variable = potential_sailing_participants
+				is_alive = yes
+				is_ai = yes
+				count >= 1
 			}
 		}
 	}
@@ -890,9 +899,10 @@ sailing.1009 = {
 #The Fortune Teller
 sailing.1010 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1010.t
 	desc = sailing.1010.desc
-	theme = docks
+	theme = sailing_activity
 	left_portrait = {
 		character = root
 		animation = personality_rational
@@ -991,9 +1001,10 @@ sailing.1010 = {
 #Dockyard Delicacies
 sailing.1011 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1011.t
 	desc = sailing.1011.desc
-	theme = docks
+	theme = sailing_activity
 	left_portrait = {
 		character = root
 		animation = disgust
@@ -1007,9 +1018,9 @@ sailing.1011 = {
 		root = {
 			has_variable_list = potential_sailing_participants
 			any_in_list = {
-					variable = potential_sailing_participants
-					is_alive = yes
-					count >= 1
+				variable = potential_sailing_participants
+				is_alive = yes
+				count >= 1
 			}
 		}
 	}
@@ -1159,9 +1170,10 @@ sailing.1011 = {
 #Seagull Surprise!
 sailing.1012 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1012.t
 	desc = sailing.1012.desc
-	theme = docks
+	theme = sailing_activity
 	left_portrait = {
 		character = root
 		animation = anger
@@ -1175,9 +1187,9 @@ sailing.1012 = {
 		root = {
 			has_variable_list = potential_sailing_participants
 			any_in_list = {
-					variable = potential_sailing_participants
-					is_alive = yes
-					count >= 1
+				variable = potential_sailing_participants
+				is_alive = yes
+				count >= 1
 			}
 		}
 	}
@@ -1242,9 +1254,10 @@ sailing.1012 = {
 #An Experienced Sailor
 sailing.1013 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1013.t
 	desc = sailing.1013.desc
-	theme = docks
+	theme = sailing_activity
 	left_portrait = {
 		character = root
 		animation = personality_honorable
@@ -1386,9 +1399,10 @@ sailing.1013 = {
 #Gathering Supplies - ONE UPDATE & LINK TO LACK OF SUPPLIES MENEL
 sailing.1014 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1014.t
 	desc = sailing.1014.desc
-	theme = docks
+	theme = sailing_activity
 	override_background = {
 		reference = market_west
 	}
@@ -1459,9 +1473,13 @@ sailing.1014 = {
 #Set out to Sea - ADD BETTER LOGIC FOR CHOOSING GOOD FIRST MATE (MINOR TITLE HOLDER, FRIEND, MARINER, POWERFUL VASSAL ETC)
 sailing.1990 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1990.t
 	desc = sailing.1990.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -1532,11 +1550,11 @@ sailing.1990 = {
 			# culture = { has_cultural_pillar = heritage_northern_adunaic }
 			can_raid_across_water = yes
 		}
+		trigger_event = sailing.9100
 		add_character_flag = {						
 			flag = sailing_piracy_mission
 			years = 4
 		}
-		trigger_event = sailing.9100
 	}
 }
 
@@ -1544,9 +1562,13 @@ sailing.1990 = {
 
 sailing.1991 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1991.t
 	desc = sailing.1991.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -1568,7 +1590,6 @@ sailing.1991 = {
 		}
 	}
 	
-	
 	option = { # River Sailing
 		name = sailing.1991.d
 		add_character_flag = {
@@ -1589,9 +1610,13 @@ sailing.1991 = {
 
 sailing.1992 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.1992.t
 	desc = sailing.1992.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -1643,9 +1668,13 @@ sailing.1992 = {
 #An invitation to play dice
 sailing.2001 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.2001.t
 	desc = sailing.2001.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = root
 	right_portrait = scope:gambling_sailor_1
 
@@ -1653,9 +1682,9 @@ sailing.2001 = {
 		root = {
 			has_variable_list = potential_sailing_participants
 			any_in_list = {
-					variable = potential_sailing_participants
-					is_alive = yes
-					count >= 1
+				variable = potential_sailing_participants
+				is_alive = yes
+				count >= 1
 			}
 		}
 	}
@@ -1732,7 +1761,10 @@ sailing.2001 = {
 			}
 		}
 		else = {
-			trigger_event = sailing.9002
+			trigger_event = {
+				id = sailing.9002
+				days = 1
+			}
 		}
 	}
 
@@ -1740,9 +1772,13 @@ sailing.2001 = {
 
 sailing.2002 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.2002.t
 	desc = sailing.2002.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -1964,16 +2000,23 @@ sailing.2002 = {
 			}
 		}
 		else = {
-			trigger_event = sailing.9002
+			trigger_event = {
+				id = sailing.9002
+				days = 1
+			}
 		}
 	}
 }
 
 sailing.2003 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.2003.t
 	desc = sailing.2003.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = {
 		character = root
 		animation = shock
@@ -2218,16 +2261,23 @@ sailing.2003 = {
 			}
 		}
 		else = {
-			trigger_event = sailing.9002
+			trigger_event = {
+				id = sailing.9002
+				days = 1
+			}
 		}
 	}
 }
 
 #sailing.2004 = {
 #	type = character_event
+#	content_source = realms_dlc
 #	title = sailing.2004.t
 #	desc = sailing.2004.desc
-#	theme = at_sea
+#	theme = sailing_activity
+	# override_background = {
+	# 	reference = ocean
+	# }
 #	left_portrait = {
 #		character = root
 #		animation = personality_bold
@@ -2241,9 +2291,13 @@ sailing.2003 = {
 
 sailing.2005 = { # Crewmate overboard
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.2005.t
 	desc = sailing.2005.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -2465,7 +2519,10 @@ sailing.2005 = { # Crewmate overboard
 			}
 		}
 		else = {
-			trigger_event = sailing.9002
+			trigger_event = {
+				id = sailing.9002
+				days = 1
+			}
 		}
 	}
 }
@@ -2473,9 +2530,13 @@ sailing.2005 = { # Crewmate overboard
 # A Game of Cards by Brice Underhill
 sailing.2006 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.2006.t
 	desc = sailing.2006.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	override_background = {
 		reference = tavern
 	}
@@ -2582,13 +2643,17 @@ sailing.2006 = {
 			}
 		}
 		else = {
-			trigger_event = sailing.9002
+			trigger_event = {
+				id = sailing.9002
+				days = 1
+			}
 		}
 	}
 }	
 	
 sailing.2007 = { # Insufferable Discord by RedArkady
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.2007.t
 	desc = {
 		first_valid = {
@@ -2599,7 +2664,10 @@ sailing.2007 = { # Insufferable Discord by RedArkady
 			desc = sailing.2007.desc
 		}
 	}
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = {
 		character = root
 		animation = disgust
@@ -2821,7 +2889,10 @@ sailing.2007 = { # Insufferable Discord by RedArkady
 			}
 		}
 		else = {
-			trigger_event = sailing.9002
+			trigger_event = {
+				id = sailing.9002
+				days = 1
+			}
 		}
 	}
 }
@@ -2830,9 +2901,13 @@ sailing.2007 = { # Insufferable Discord by RedArkady
 # Becalmed by Brice Underhill
 sailing.2008 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.2008.t
 	desc = sailing.2008.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = {
 		character = root
 		animation = personality_rational
@@ -2888,7 +2963,10 @@ sailing.2008 = {
 			}
 		}
 		else = {
-			trigger_event = sailing.9002
+			trigger_event = {
+				id = sailing.9002
+				days = 1
+			}
 		}
 	}
 }
@@ -2896,9 +2974,13 @@ sailing.2008 = {
 # The Stars Shine the Same
 sailing.2009 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.2009.t
 	desc = sailing.2009.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = {
 		character = root
 		animation = personality_honorable
@@ -2998,7 +3080,10 @@ sailing.2009 = {
 			}
 		}
 		else = {
-			trigger_event = sailing.9002
+			trigger_event = {
+				id = sailing.9002
+				days = 1
+			}
 		}
 	}
 }
@@ -3006,11 +3091,15 @@ sailing.2009 = {
 # Sailing Accident by Brice Underhill
 sailing.2010 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.2010.t
 	desc = {
 		desc = sailing.2010.desc
 	}
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = {
 		character = root
 		animation = worry
@@ -3143,10 +3232,14 @@ sailing.2010 = {
 			}
 		}
 		else = {
-			trigger_event = sailing.9002
+			trigger_event = {
+				id = sailing.9002
+				days = 1
+			}
 		}
 	}
 }
+
 
 ############################
 ## Coast Exploration
@@ -3160,9 +3253,13 @@ sailing.2010 = {
 #Eryn Vorn - encounter with a Dru
 sailing.4000 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.4000.t
 	desc = sailing.4000.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -3320,9 +3417,13 @@ sailing.4000 = {
 #Eryn Vorn - Dru has backup
 sailing.4001 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.4001.t
 	desc = sailing.4001.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	left_portrait = {
 		character = root
 		animation = fear
@@ -3420,9 +3521,13 @@ sailing.4001 = {
 #Eryn Vorn - Battle Aftermath
 sailing.4002 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.4002.t
 	desc = sailing.4002.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	left_portrait = {
 		character = root
 		animation = personality_vengeful
@@ -3449,9 +3554,13 @@ sailing.4002 = {
 #Eryn Vorn - Learning from the Beffraen
 sailing.4003 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.4003.t
 	desc = sailing.4003.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -3490,9 +3599,13 @@ sailing.4003 = {
 #Eryn Vorn - Back to the ship - poisonous wound
 sailing.4004 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.4004.t
 	desc = sailing.4004.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	
 	left_portrait = {
 		character = root
@@ -3556,9 +3669,13 @@ sailing.4004 = {
 #Eryn Vorn - Back to the ship - no poisonous wound
 sailing.4005 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.4005.t
 	desc = sailing.4005.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	
 	left_portrait = {
 		character = root
@@ -3581,9 +3698,13 @@ sailing.4005 = {
 ## The Icebay of Forochel
 sailing.4010 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.4010.t
 	desc = sailing.4010.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = {
 		character = root
 		animation = personality_rational
@@ -3746,9 +3867,13 @@ sailing.4010 = {
 # Freezing
 sailing.4011 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.4011.t
 	desc = sailing.4011.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = {
 		character = root
 		animation = sick
@@ -3784,9 +3909,13 @@ sailing.4011 = {
 # The Stranger and the Storm
 sailing.4012 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.4012.t
 	desc = sailing.4012.desc
-	theme = ulmo
+	theme = sailing_activity
+	override_background = {
+		reference = ulmo	
+	}
 	left_portrait = {
 		character = root
 		animation = personality_compassionate
@@ -3819,9 +3948,13 @@ sailing.4012 = {
 # The Stranger and the Storm
 sailing.4020 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.4020.t
 	desc = sailing.4020.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = {
 		character = root
 		animation = personality_compassionate
@@ -3841,9 +3974,13 @@ sailing.4020 = {
 # All lands explored - what still awaits?
 sailing.4999 = { # Fallback event if all explorations have been completed
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.4999.t
 	desc = sailing.4999.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -3874,9 +4011,13 @@ sailing.4999 = { # Fallback event if all explorations have been completed
 
 sailing.5000 = { # Introduction to the White Hills (1/3): Gulf of Lune
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.5000.t
 	desc = sailing.5000.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	override_background = {
 		reference = docks_elf
 	}
@@ -3906,9 +4047,13 @@ sailing.5000 = { # Introduction to the White Hills (1/3): Gulf of Lune
 
 sailing.5001 = { # The White Hills 2/3: Elves encounter near White Towers http://tolkiengateway.net/wiki/Tower_Hills
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.5001.t
 	desc = sailing.5001.desc
-	theme = eregion
+	theme = sailing_activity
+	override_background = {
+		reference = eregion	
+	}
 	left_portrait = {
 		character = root
 		animation = personality_vengeful
@@ -4041,9 +4186,13 @@ sailing.5001 = { # The White Hills 2/3: Elves encounter near White Towers http:/
 
 sailing.5002 = { # The White Hills 2/3: Elves encounter near White Towers http://tolkiengateway.net/wiki/Tower_Hills
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.5002.t
 	desc = sailing.5002.desc
-	theme = eregion
+	theme = sailing_activity
+	override_background = {
+		reference = eregion	
+	}
 	left_portrait = {
 		character = root
 		animation = beg
@@ -4059,9 +4208,13 @@ sailing.5002 = { # The White Hills 2/3: Elves encounter near White Towers http:/
 
 sailing.5003 = { # The White Hills 2/3: Elves encounter near White Towers http://tolkiengateway.net/wiki/Tower_Hills
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.5003.t
 	desc = sailing.5003.desc
-	theme = eregion
+	theme = sailing_activity
+	override_background = {
+		reference = eregion	
+	}
 	left_portrait = {
 		character = root
 		animation = anger
@@ -4077,9 +4230,13 @@ sailing.5003 = { # The White Hills 2/3: Elves encounter near White Towers http:/
 
 sailing.5004 = { # The White Hills 2/3: Elves encounter near White Towers http://tolkiengateway.net/wiki/Tower_Hills
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.5004.t
 	desc = sailing.5004.desc
-	theme = eregion
+	theme = sailing_activity
+	override_background = {
+		reference = eregion	
+	}
 	left_portrait = {
 		character = root
 		animation = personality_callous
@@ -4100,9 +4257,13 @@ sailing.5004 = { # The White Hills 2/3: Elves encounter near White Towers http:/
 
 sailing.5005 = { # The White Hills 2/3: Elves encounter near White Towers http://tolkiengateway.net/wiki/Tower_Hills
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.5005.t
 	desc = sailing.5005.desc
-	theme = eregion
+	theme = sailing_activity
+	override_background = {
+		reference = eregion	
+	}
 	left_portrait = {
 		character = root
 		animation = anger
@@ -4123,9 +4284,13 @@ sailing.5005 = { # The White Hills 2/3: Elves encounter near White Towers http:/
 
 sailing.5006 = { # The White Hills 3/3: The White Towers
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.5006.t
 	desc = sailing.5006.desc
-	theme = throne_room_dunedain
+	theme = sailing_activity
+	override_background = {
+		reference = throne_room_noldor	
+	}
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -4167,9 +4332,13 @@ sailing.5006 = { # The White Hills 3/3: The White Towers
 
 sailing.5007 = { # Coming back home released but without experience
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.5007.t
 	desc = sailing.5007.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	override_background = {
 		reference = docks_elf
 	}
@@ -4193,9 +4362,13 @@ sailing.5007 = { # Coming back home released but without experience
 
 sailing.5008 = { # Coming back home stressed but wiser after the Palantir
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.5008.t
 	desc = sailing.5008.desc
-	theme = throne_room_dunedain	
+	theme = sailing_activity
+	override_background = {
+		reference = throne_room_noldor	
+	}	
 	left_portrait = {
 		character = root
 		animation = paranoia
@@ -4217,9 +4390,13 @@ sailing.5008 = { # Coming back home stressed but wiser after the Palantir
 
 sailing.6001 = { # Ras Morthil and Druwaith Laur 1/3: Ras Morthil
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6001.t
 	desc = sailing.6001.desc
-	theme = mountains
+	theme = sailing_activity
+	override_background = {
+		reference = wilderness_mountains	
+	}
 		
 	left_portrait = {
 		character = root
@@ -4318,9 +4495,13 @@ sailing.6001 = { # Ras Morthil and Druwaith Laur 1/3: Ras Morthil
 
 sailing.6002 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6002.t
 	desc = sailing.6002.desc
-	theme = mountains
+	theme = sailing_activity
+	override_background = {
+		reference = wilderness_mountains	
+	}
 	left_portrait = {
 		character = root
 		animation = admiration
@@ -4341,9 +4522,13 @@ sailing.6002 = {
 
 sailing.6003 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6003.t
 	desc = sailing.6003.desc
-	theme = mountains
+	theme = sailing_activity
+	override_background = {
+		reference = wilderness_mountains	
+	}
 	
 	left_portrait = {
 		character = root
@@ -4366,9 +4551,13 @@ sailing.6003 = {
 
 sailing.6004 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6004.t
 	desc = sailing.6004.desc
-	theme = mountains
+	theme = sailing_activity
+	override_background = {
+		reference = wilderness_mountains	
+	}
 	
 	left_portrait = {
 		character = root
@@ -4390,9 +4579,13 @@ sailing.6004 = {
 
 sailing.6005 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6005.t
 	desc = sailing.6005.desc
-	theme = mountains
+	theme = sailing_activity
+	override_background = {
+		reference = wilderness_mountains	
+	}
 	left_portrait = {
 		character = root
 		animation = rage
@@ -4414,9 +4607,13 @@ sailing.6005 = {
 
 sailing.6006 = { # Ras Morthil and Druwaith Laur 2/3: Druwaith Laur
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6006.t
 	desc = sailing.6006.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	
 	left_portrait = {
 		character = root
@@ -4529,9 +4726,13 @@ sailing.6006 = { # Ras Morthil and Druwaith Laur 2/3: Druwaith Laur
 
 sailing.6007 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6007.t
 	desc = sailing.6007.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	
 	left_portrait = {
 		character = root
@@ -4553,9 +4754,13 @@ sailing.6007 = {
 
 sailing.6008 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6008.t
 	desc = sailing.6008.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	
 	left_portrait = {
 		character = root
@@ -4577,9 +4782,13 @@ sailing.6008 = {
 
 sailing.6009 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6009.t
 	desc = sailing.6009.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	
 	left_portrait = {
 		character = root
@@ -4601,9 +4810,13 @@ sailing.6009 = {
 
 sailing.6010 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6010.t
 	desc = sailing.6010.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	
 	left_portrait = {
 		character = root
@@ -4625,9 +4838,13 @@ sailing.6010 = {
 
 sailing.6011 = { # Ras Morthil and Druwaith Laur 3/3: Woses!
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6011.t
 	desc = sailing.6011.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	
 	left_portrait = {
 		character = root
@@ -4779,9 +4996,13 @@ sailing.6011 = { # Ras Morthil and Druwaith Laur 3/3: Woses!
 
 sailing.6012 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6012.t
 	desc = sailing.6012.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	
 	left_portrait = {
 		character = root
@@ -4803,9 +5024,13 @@ sailing.6012 = {
 
 sailing.6013 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6013.t
 	desc = sailing.6013.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	
 	left_portrait = {
 		character = root
@@ -4827,9 +5052,13 @@ sailing.6013 = {
 
 sailing.6014 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6014.t
 	desc = sailing.6014.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	
 	left_portrait = {
 		character = root
@@ -4851,9 +5080,13 @@ sailing.6014 = {
 
 sailing.6015 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6015.t
 	desc = sailing.6015.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	
 	left_portrait = {
 		character = root
@@ -4875,9 +5108,13 @@ sailing.6015 = {
 
 sailing.6016 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6016.t
 	desc = sailing.6016.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	
 	left_portrait = {
 		character = root
@@ -4895,9 +5132,13 @@ sailing.6016 = {
 
 sailing.6017 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.6017.t
 	desc = sailing.6017.desc
-	theme = runestones
+	theme = sailing_activity
+	override_background = {
+		reference = fp1_runestone	
+	}
 	
 	left_portrait = {
 		character = root
@@ -4929,9 +5170,13 @@ sailing.6017 = {
 
 sailing.8001 = { # Mouths of Anduin and The Fisher-folk of Ethir http://tolkiengateway.net/wiki/Ethir_Anduin
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8001.t
 	desc = sailing.8001.desc
-	theme = on_river
+	theme = sailing_activity
+	override_background = {
+		reference = on_river
+	}
 	
 	left_portrait = {
 		character = root
@@ -5212,9 +5457,13 @@ sailing.8001 = { # Mouths of Anduin and The Fisher-folk of Ethir http://tolkieng
 
 sailing.8002 = { # 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8002.t
 	desc = sailing.8002.desc
-	theme = on_river
+	theme = sailing_activity
+	override_background = {
+		reference = on_river
+	}
 	
 	left_portrait = {
 		character = root
@@ -5236,9 +5485,13 @@ sailing.8002 = { #
 
 sailing.8003 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8003.t
 	desc = sailing.8003.desc
-	theme = on_river
+	theme = sailing_activity
+	override_background = {
+		reference = on_river
+	}
 	
 	left_portrait = {
 		character = root
@@ -5260,9 +5513,13 @@ sailing.8003 = {
 
 sailing.8004 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8004.t
 	desc = sailing.8004.desc
-	theme = on_river
+	theme = sailing_activity
+	override_background = {
+		reference = on_river
+	}
 	
 	left_portrait = {
 		character = root
@@ -5285,9 +5542,13 @@ sailing.8004 = {
 
 sailing.8005 = { # Pelargir  https://lotr.fandom.com/wiki/Pelargir
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8005.t
 	desc = sailing.8005.desc
-	theme = royal_shipyard
+	theme = sailing_activity
+	override_background = {
+		reference = royal_shipyard
+	}
 	
 	left_portrait = {
 		character = root
@@ -5466,9 +5727,13 @@ sailing.8005 = { # Pelargir  https://lotr.fandom.com/wiki/Pelargir
 
 sailing.8006 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8006.t
 	desc = sailing.8006.desc
-	theme = royal_shipyard
+	theme = sailing_activity
+	override_background = {
+		reference = royal_shipyard
+	}
 	
 	left_portrait = {
 		character = root
@@ -5495,9 +5760,13 @@ sailing.8006 = {
 
 sailing.8007 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8007.t
 	desc = sailing.8007.desc
-	theme = royal_shipyard
+	theme = sailing_activity
+	override_background = {
+		reference = royal_shipyard
+	}
 	
 	left_portrait = {
 		character = root
@@ -5520,9 +5789,13 @@ sailing.8007 = {
 
 sailing.8008 = { # Osgiliath https://lotr.fandom.com/wiki/Osgiliath
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8008.t
 	desc = sailing.8008.desc
-	theme = stone_city
+	theme = sailing_activity
+	override_background = {
+		reference = temple_generic
+	}
 	
 	left_portrait = {
 		character = root
@@ -5638,10 +5911,14 @@ sailing.8008 = { # Osgiliath https://lotr.fandom.com/wiki/Osgiliath
 
 sailing.8009 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8009.t
 	desc = sailing.8009.desc
 	orphan = yes # LotR - TODO - Figure out why?
-	theme = stone_city
+	theme = sailing_activity
+	override_background = {
+		reference = temple_generic
+	}
 	
 	left_portrait = {
 		character = root
@@ -5663,9 +5940,13 @@ sailing.8009 = {
 
 sailing.8010 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8010.t
 	desc = sailing.8010.desc
-	theme = stone_city
+	theme = sailing_activity
+	override_background = {
+		reference = temple_generic
+	}
 	
 	left_portrait = {
 		character = root
@@ -5687,9 +5968,13 @@ sailing.8010 = {
 
 sailing.8011 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8011.t
 	desc = sailing.8011.desc
-	theme = stone_city
+	theme = sailing_activity
+	override_background = {
+		reference = temple_generic
+	}
 	
 	left_portrait = {
 		character = root
@@ -5711,9 +5996,13 @@ sailing.8011 = {
 
 sailing.8012 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8012.t
 	desc = sailing.8012.desc
-	theme = stone_city
+	theme = sailing_activity
+	override_background = {
+		reference = temple_generic
+	}
 	
 	left_portrait = {
 		character = root
@@ -5735,9 +6024,13 @@ sailing.8012 = {
 
 sailing.8013 = { # Cair Andros: Garrison Control http://tolkiengateway.net/wiki/Cair_Andros
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8013.t
 	desc = sailing.8013.desc
-	theme = on_river
+	theme = sailing_activity
+	override_background = {
+		reference = on_river
+	}
 	
 	left_portrait = {
 		character = root
@@ -5844,9 +6137,13 @@ sailing.8013 = { # Cair Andros: Garrison Control http://tolkiengateway.net/wiki/
 
 sailing.8014 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8014.t
 	desc = sailing.8014.desc
-	theme = on_river
+	theme = sailing_activity
+	override_background = {
+		reference = on_river
+	}
 	
 	left_portrait = {
 		character = root
@@ -5868,9 +6165,13 @@ sailing.8014 = {
 
 sailing.8015 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8015.t
 	desc = sailing.8015.desc
-	theme = on_river
+	theme = sailing_activity
+	override_background = {
+		reference = on_river
+	}
 	left_portrait = {
 		character = root
 		animation = anger
@@ -5891,9 +6192,13 @@ sailing.8015 = {
 
 sailing.8016 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8016.t
 	desc = sailing.8016.desc
-	theme = on_river
+	theme = sailing_activity
+	override_background = {
+		reference = on_river
+	}
 	
 	left_portrait = {
 		character = root
@@ -5915,9 +6220,13 @@ sailing.8016 = {
 
 sailing.8017 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8017.t
 	desc = sailing.8017.desc
-	theme = on_river
+	theme = sailing_activity
+	override_background = {
+		reference = on_river
+	}
 	
 	left_portrait = {
 		character = root
@@ -5940,9 +6249,13 @@ sailing.8017 = {
 
 sailing.8018 = { # Wetwang as an extension of the Dead Marshes [first_mate.GetFirstNameNoTooltip]
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8018.t
 	desc = sailing.8018.desc
-	theme = swamp
+	theme = sailing_activity
+	override_background = {
+		reference = wilderness_wetlands
+	}
 	
 	left_portrait = {
 		character = root
@@ -6013,9 +6326,13 @@ sailing.8018 = { # Wetwang as an extension of the Dead Marshes [first_mate.GetFi
 
 sailing.8019 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8019.t
 	desc = sailing.8019.desc
-	theme = swamp
+	theme = sailing_activity
+	override_background = {
+		reference = wilderness_wetlands
+	}
 	
 	left_portrait = {
 		character = root
@@ -6037,9 +6354,13 @@ sailing.8019 = {
 
 sailing.8020 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8020.t
 	desc = sailing.8020.desc
-	theme = swamp
+	theme = sailing_activity
+	override_background = {
+		reference = wilderness_wetlands
+	}
 	
 	left_portrait = {
 		character = root
@@ -6062,9 +6383,13 @@ sailing.8020 = {
 
 sailing.8021 = { # Falls of Rauros / Argonath https://lotr.fandom.com/wiki/Falls_of_Rauros
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8021.t
 	desc = sailing.8021.desc
-	theme = argonath
+	theme = sailing_activity
+	override_background = {
+		reference = argonath
+	}
 	
 	left_portrait = {
 		character = root
@@ -6101,9 +6426,13 @@ sailing.8021 = { # Falls of Rauros / Argonath https://lotr.fandom.com/wiki/Falls
 			
 sailing.8101 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8101.t
 	desc = sailing.8101.desc
-	theme = black_ship
+	theme = sailing_activity
+	override_background = {
+		reference = black_ship
+	}
 	left_portrait = {
 		character = root
 		animation = war_defender
@@ -6301,9 +6630,13 @@ sailing.8101 = {
 
 sailing.8102 = { # Harad Crossroads (Amrun)
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8102.t
 	desc = sailing.8102.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	override_background = {
 		reference = docks_adunai
 	}
@@ -6394,9 +6727,13 @@ sailing.8102 = { # Harad Crossroads (Amrun)
 
 sailing.8103 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8103.t
 	desc = sailing.8103.desc
-	theme = desert
+	theme = sailing_activity
+	override_background = {
+		reference = wilderness_desert
+	}
 	left_portrait = {
 		character = root
 		animation = admiration
@@ -6416,9 +6753,13 @@ sailing.8103 = {
 
 sailing.8104 = { # Pezarsan
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8104.t
 	desc = sailing.8104.desc
-	theme = market_east
+	theme = sailing_activity
+	override_background = {
+		reference = market_east	
+	}
 	left_portrait = {
 		character = root
 		animation = steward
@@ -6465,9 +6806,13 @@ sailing.8104 = { # Pezarsan
 
 sailing.8105 = { # Artifact bid
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8105.t
 	desc = sailing.8105.desc
-	theme = market_east
+	theme = sailing_activity
+	override_background = {
+		reference = market_east	
+	}
 	left_portrait = {
 		character = root
 		animation = personality_greedy
@@ -6504,9 +6849,13 @@ sailing.8105 = { # Artifact bid
 
 sailing.8106 = { # Caravans
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8106.t
 	desc = sailing.8106.desc
-	theme = market_east
+	theme = sailing_activity
+	override_background = {
+		reference = market_east	
+	}
 	left_portrait = {
 		character = root
 		animation = steward
@@ -6542,9 +6891,13 @@ sailing.8106 = { # Caravans
 # Khand
 sailing.8107 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8107.t
 	desc = sailing.8107.desc
-	theme = dune_sea
+	theme = sailing_activity
+	override_background = {
+		reference = rhun	
+	}
 	left_portrait = {
 		character = root
 		animation = stress
@@ -6575,9 +6928,13 @@ sailing.8107 = {
 
 sailing.8108 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8108.t
 	desc = sailing.8108.desc
-	theme = khand
+	theme = sailing_activity
+	override_background = {
+		reference = market_east	
+	}
 	left_portrait = {
 		character = root
 		animation = admiration
@@ -6643,9 +7000,13 @@ sailing.8108 = {
 
 sailing.8109 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8109.t
 	desc = sailing.8109.desc
-	theme = khand
+	theme = sailing_activity
+	override_background = {
+		reference = market_east	
+	}
 	left_portrait = {
 		character = root
 		animation = admiration
@@ -6663,9 +7024,13 @@ sailing.8109 = {
 # Slave market
 sailing.8110 = { 
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8110.t
 	desc = sailing.8110.desc
-	theme = market_east
+	theme = sailing_activity
+	override_background = {
+		reference = market_east	
+	}
 	left_portrait = {
 		character = root
 		animation = personality_rational
@@ -6729,9 +7094,13 @@ sailing.8110 = {
 
 sailing.8201 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8201.t
 	desc = sailing.8201.desc
-	theme = on_river
+	theme = sailing_activity
+	override_background = {
+		reference = on_river
+	}
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -6768,7 +7137,7 @@ sailing.8201 = {
 				}
 				desc = sailing.8201.a.failure
 				send_interface_toast = {
-					left_icon = title:c_nen_gwathlo.holder
+					left_icon = title:c_lond_daer.holder
 					title = sailing.8201.toast.a.failure					
 					remove_short_term_gold = minor_gold_value			
 				}
@@ -6793,9 +7162,13 @@ sailing.8201 = {
 
 sailing.8211 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8211.t
 	desc = sailing.8211.desc
-	theme = tharbad
+	theme = sailing_activity
+	override_background = {
+		reference = tharbad	
+	}
 	left_portrait = {
 		character = root
 		animation = ecstasy
@@ -6843,7 +7216,7 @@ sailing.8211 = {
 		create_character = {
 			template = servant_character
 			location = root.capital_province
-			culture = culture:enedhwaith_gwathuirim
+			culture = culture:enedhwaithrim
 			faith = faith:faith_dunlending_turthalis 
 			gender_female_chance = 50
 			save_scope_as = brigand1
@@ -6852,7 +7225,7 @@ sailing.8211 = {
 		create_character = {
 			template = servant_character
 			location = root.capital_province
-			culture = culture:enedhwaith_gwathuirim
+			culture = culture:enedhwaithrim
 			faith = faith:faith_dunlending_turthalis 
 			gender_female_chance = 50
 			save_scope_as = brigand2
@@ -6861,7 +7234,7 @@ sailing.8211 = {
 		create_character = {
 			template = servant_character
 			location = root.capital_province
-			culture = culture:enedhwaith_gwathuirim
+			culture = culture:enedhwaithrim
 			faith = faith:faith_dunlending_turthalis 
 			gender_female_chance = 50
 			save_scope_as = brigand3
@@ -6885,9 +7258,13 @@ sailing.8211 = {
 
 sailing.8212 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8212.t
 	desc = sailing.8212.desc
-	theme = on_river
+	theme = sailing_activity
+	override_background = {
+		reference = on_river
+	}
 	left_portrait = {
 		character = root
 		animation = worry
@@ -6930,9 +7307,13 @@ sailing.8212 = {
 
 sailing.8213 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8213.t
 	desc = sailing.8213.desc
-	theme = tharbad
+	theme = sailing_activity
+	override_background = {
+		reference = tharbad	
+	}
 	left_portrait = {
 		character = root
 		animation = fear
@@ -6974,9 +7355,13 @@ sailing.8213 = {
 # Dunadan Rangers, good faith
 sailing.8214 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8214.t
 	desc = sailing.8214.desc
-	theme = on_river
+	theme = sailing_activity
+	override_background = {
+		reference = on_river
+	}
 	left_portrait = {
 		character = root
 		animation = bold
@@ -7007,9 +7392,13 @@ sailing.8214 = {
 # Dunadan Rangers, evil faith
 sailing.8215 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8215.t
 	desc = sailing.8215.desc
-	theme = tharbad
+	theme = sailing_activity
+	override_background = {
+		reference = tharbad	
+	}
 	left_portrait = {
 		character = root
 		animation = fear
@@ -7041,9 +7430,13 @@ sailing.8215 = {
 # Brigands, evil faith
 sailing.8216 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8216.t
 	desc = sailing.8216.desc
-	theme = tharbad
+	theme = sailing_activity
+	override_background = {
+		reference = tharbad	
+	}
 	
 	left_portrait = {
 		character = root
@@ -7076,9 +7469,13 @@ sailing.8216 = {
 # Brigands, but good faith
 sailing.8217 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8217.t
 	desc = sailing.8217.desc
-	theme = tharbad
+	theme = sailing_activity
+	override_background = {
+		reference = tharbad	
+	}
 	left_portrait = {
 		character = root
 		animation = fear
@@ -7115,9 +7512,13 @@ sailing.8217 = {
 # Swanfleet
 sailing.8221 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8221.t
 	desc = sailing.8221.desc
-	theme = swamp
+	theme = sailing_activity
+	override_background = {
+		reference = wilderness_wetlands
+	}
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -7146,9 +7547,13 @@ sailing.8221 = {
 # Ost-in-Edhil
 sailing.8231 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8231.t
 	desc = sailing.8231.desc
-	theme = eregion
+	theme = sailing_activity
+	override_background = {
+		reference = eregion	
+	}
 	left_portrait = {
 		character = root
 		animation = personality_honorable
@@ -7181,9 +7586,13 @@ sailing.8231 = {
 # Ost-in-Edhil - I recognize the place
 sailing.8232 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8232.t
 	desc = sailing.8232.desc
-	theme = eregion
+	theme = sailing_activity
+	override_background = {
+		reference = eregion	
+	}
 	left_portrait = {
 		character = root
 		animation = personality_honorable
@@ -7208,9 +7617,13 @@ sailing.8232 = {
 # Ost-in-Edhil - Crebain
 sailing.8233 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8233.t
 	desc = sailing.8233.desc
-	theme = eregion_crebain
+	theme = sailing_activity
+	override_background = {
+		reference = eregion_crebain	
+	}
 	left_portrait = {
 		character = root
 		animation = fear
@@ -7267,9 +7680,13 @@ sailing.8233 = {
 # After crebain
 sailing.8234 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8234.t
 	desc = sailing.8234.desc
-	theme = eregion
+	theme = sailing_activity
+	override_background = {
+		reference = eregion	
+	}
 	left_portrait = {
 		character = root
 		animation = anger
@@ -7316,9 +7733,13 @@ sailing.8234 = {
 # The path to the mountains
 sailing.8235 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8235.t
 	desc = sailing.8235.desc
-	theme = dimril_dale
+	theme = sailing_activity
+	override_background = {
+		reference = dimril_dale	
+	}
 	left_portrait = {
 		character = root
 		animation = disapproval
@@ -7366,9 +7787,13 @@ sailing.8235 = {
 # Moria
 sailing.8241 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8241.t
 	desc = sailing.8241.desc
-	theme = durins_door
+	theme = sailing_activity
+	override_background = {
+		reference = durins_door	
+	}
 	left_portrait = {
 		character = root
 		animation = fear
@@ -7426,9 +7851,13 @@ sailing.8241 = {
 # The Angle
 sailing.8251 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8251.t
 	desc = sailing.8251.desc
-	theme = on_river
+	theme = sailing_activity
+	override_background = {
+		reference = on_river
+	}
 	left_portrait = {
 		character = root
 		animation = happiness
@@ -7500,9 +7929,13 @@ sailing.8251 = {
 # The Last Bridge
 sailing.8261 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8261.t
 	desc = sailing.8261.desc
-	theme = last_bridge
+	theme = sailing_activity
+	override_background = {
+		reference = last_bridge	
+	}
 	right_portrait = {
 		character = root
 		animation = personality_bold
@@ -7521,9 +7954,13 @@ sailing.8261 = {
 # The TrollShaws
 sailing.8262 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8262.t
 	desc = sailing.8262.desc
-	theme = forest
+	theme = sailing_activity
+	override_background = {
+		reference = fangorn	
+	}
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -7571,9 +8008,13 @@ sailing.8262 = {
 # The Trollshaws - Trolls!
 sailing.8263 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8263.t
 	desc = sailing.8263.desc
-	theme = trollshaws
+	theme = sailing_activity
+	override_background = {
+		reference = trollshaws	
+	}
 	left_portrait = {
 		character = root
 		animation = fear
@@ -7622,9 +8063,13 @@ sailing.8263 = {
 # The Trollshaws - Trolls - engaging
 sailing.8264 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8264.t
 	desc = sailing.8264.desc
-	theme = trollshaws
+	theme = sailing_activity
+	override_background = {
+		reference = trollshaws	
+	}
 	left_portrait = {
 		character = root
 		animation = aggressive_dagger
@@ -7696,9 +8141,13 @@ sailing.8264 = {
 # The Trollshaws - Trolls - hiding
 sailing.8265 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8265.t
 	desc = sailing.8265.desc
-	theme = trollshaws
+	theme = sailing_activity
+	override_background = {
+		reference = trollshaws	
+	}
 	left_portrait = {
 		character = root
 		animation = bold
@@ -7717,6 +8166,7 @@ sailing.8265 = {
 # The Forsaken Inn: Discarded, but maybe for future exploration events in Eriador...
 #sailing.8263 = {
 #	type = character_event
+#	content_source = realms_dlc
 #	title = sailing.8263.t
 #	desc = sailing.8263.desc
 #	theme = tavern
@@ -7962,9 +8412,13 @@ sailing.8265 = {
 # Cameth Brin
 sailing.8271 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.8271.t
 	desc = sailing.8271.desc
-	theme = cameth_brin
+	theme = sailing_activity
+	override_background = {
+		reference = carrock	
+	}
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -8005,7 +8459,7 @@ sailing.8271 = {
 		
 		trigger_event = {
 			id = sailing.9002
-			days = {35 50}
+			days = { 35 50 }
 		}
 	}
 }
@@ -8023,9 +8477,10 @@ sailing.8271 = {
 # Successful mission
 sailing.9001 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.9001.t
 	desc = sailing.9001.desc
-	theme = docks
+	theme = sailing_activity
 	
 	left_portrait = {
 		character = root
@@ -8128,9 +8583,10 @@ sailing.9001 = {
 # UNSUCCESSFUL EXPEDITION
 sailing.9002 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.9002.t
 	desc = sailing.9002.desc
-	theme = docks
+	theme = sailing_activity
 	
 	left_portrait = {
 		character = root
@@ -8213,9 +8669,13 @@ sailing.9002 = {
 ###########################
 sailing.9100 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.9100.t
 	desc = sailing.9100.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	
 	left_portrait = {
 		character = root
@@ -8246,9 +8706,13 @@ sailing.9100 = {
 # ispanets: Coastal Provinces Raid
 sailing.9110 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.9110.t
 	desc = sailing.9110.desc
-	theme = royal_shipyard
+	theme = sailing_activity
+	override_background = {
+		reference = royal_shipyard
+	}
 	
 	left_portrait = {
 		character = root
@@ -8264,13 +8728,14 @@ sailing.9110 = {
 			limit = {
 				is_coastal = yes
 				NOR = {
-					culture =  root.location.culture					
+					culture = root.location.culture
 					#culture_group = root.location.culture_group
 					culture = root.culture
 					#culture_group = root.culture_group
 					empire = root.location.empire
 					kingdom = root.location.kingdom
-				}				
+					geographical_region = middleearth_valinor
+				}
 			}
 			save_scope_as = piracy_destination_1
 		}
@@ -8279,10 +8744,10 @@ sailing.9110 = {
 				is_coastal = yes
 				NOR = {
 					this = scope:piracy_destination_1
-					culture =  root.location.culture
+					culture = root.location.culture
 					#culture_group = root.location.culture_group
 					culture = root.culture
-					#culture_group = root.culture_group					
+					#culture_group = root.culture_group
 					empire = root.location.empire
 					kingdom = root.location.kingdom
 				}
@@ -8295,14 +8760,14 @@ sailing.9110 = {
 				NOR = {
 					this = scope:piracy_destination_1
 					this = scope:piracy_destination_2
-					culture =  root.culture
+					culture = root.culture
 					#culture_group = root.culture.culture_group
 					empire = root.location.empire
 					kingdom = root.location.kingdom
 				}
 			}
 			save_scope_as = piracy_destination_3
-		}				
+		}
 	}
 
 	option = {
@@ -8359,9 +8824,13 @@ sailing.9110 = {
 # Encounter before arriving
 sailing.9111 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.9111.t
 	desc = sailing.9111.desc
-	theme = black_ship
+	theme = sailing_activity
+	override_background = {
+		reference = black_ship
+	}
 	
 	left_portrait = {
 		character = root
@@ -8644,9 +9113,10 @@ sailing.9111 = {
 # Arrived
 sailing.9114 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.9114.t
 	desc = sailing.9114.desc
-	theme = docks
+	theme = sailing_activity
 	
 	left_portrait = {
 		character = root
@@ -8897,9 +9367,13 @@ sailing.9114 = {
 # Merchant ship encounter
 sailing.9120 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.9120.t
 	desc = sailing.9120.desc
-	theme = at_sea
+	theme = sailing_activity
+	override_background = {
+		reference = ocean
+	}
 	
 	left_portrait = {
 		character = root
@@ -9221,9 +9695,13 @@ sailing.9120 = {
 # Pirate ship encounter
 sailing.9130 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.9130.t
 	desc = sailing.9130.desc
-	theme = black_ship
+	theme = sailing_activity
+	override_background = {
+		reference = black_ship
+	}
 	
 	left_portrait = {
 		character = root
@@ -9239,7 +9717,7 @@ sailing.9130 = {
 			limit = {
 				is_coastal = yes
 				NOT = {
-					culture =  root.location.culture					
+					culture = root.location.culture					
 					#culture_group = root.location.culture_group
 					culture = root.culture
 					#culture_group = root.culture_group
@@ -9462,9 +9940,13 @@ sailing.9130 = {
 
 sailing.9131 = {
 	type = character_event
+	content_source = realms_dlc
 	title = sailing.9131.t
 	desc = sailing.9131.desc
-	theme = black_ship
+	theme = sailing_activity
+	override_background = {
+		reference = black_ship
+	}
 	
 	left_portrait = {
 		character = root

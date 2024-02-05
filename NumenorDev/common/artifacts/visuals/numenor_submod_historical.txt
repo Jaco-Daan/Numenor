@@ -1,0 +1,9 @@
+﻿### Númenor ###
+
+
+palantir_romenna = { # Palantír of Rómenna
+	icon = "artefact_icons_unique_palantir.dds"
+	pedestal = "tall_pillow"
+	asset = palantir_entity
+}
+

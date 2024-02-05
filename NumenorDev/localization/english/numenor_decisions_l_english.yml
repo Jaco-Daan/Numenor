@@ -43,10 +43,10 @@
  
  decision_deal_with_aa:0 "End the Melkorist Threat"
  decision_deal_with_aa_title:0 "The Extermination of Melkorist Lies"
- decision_deal_with_aa_tooltip:0 "Extermine the so called Adûnaim"
- decision_address_aa_tooltip:0 "Extermine the so called Adûnaim"
- decision_deal_with_aa_desc:0 "A few days ago our scouts reported pirate ships near our coasts and after a short struggle, we managed to capture one that has dared to go so close to our coast, they claim to be from Ar Adûnaim and to be worshipers Mulkhêr. We can not allow for worshipers of Melkor to tarnish the reputation of the Adûnai, we must end this mockery of Anadûnê." 
- decision_deal_with_aa_confirm:0 "End the Melkorists"
+ decision_deal_with_aa_tooltip:0 "Extermine these pretenders to Anadûnê"
+ decision_address_aa_tooltip:0 "Extermine these pretenders to Anadûnê"
+ decision_deal_with_aa_desc:0 "A few days ago our scouts reported pirate ships near our coasts and after a short struggle, we managed to capture one that has dared to go so close to our coast, they claim to be from an island realm called Ar-Adûnâim and to be worshipers Mulkhêr. We can not allow for worshipers of Mulkhêr to tarnish the reputation of the Adûnai, The Council shall be informed and a decision shall be made to deal this mockery of Anadûnê." 
+ decision_deal_with_aa_confirm:0 "Deal with the Melkorites"
  
  decision_destroy_mordor:0 "Destroy Mordor"
  decision_destroy_mordor_tooltip:0 "Begin a great battle to destroy Sauron and Mordor once and for all"
@@ -79,10 +79,9 @@
  decision_numenor_league_of_pelargir_desc:0 "Once the mouth of the Anduin was ruled from Pelargir, our most noble and proud colony in the area, located strategically between Umbar and Vinyalondë, from it our Empire profited greatly, thanks to the efforts of the Colonial Government established; The League of Pelargir. Now that we have reconquered Gondor, the nobles of Pelargir have brought a petition to Armenelos - to restore the League of Pelargir and the more autonomous old colonial system that once existed in Gondor in exchange for greater taxes and aid in spreading our faith in Gondor."
  decision_numenor_league_of_pelargir_confirm:0 "A decision shall be made"
  decision_numenor_league_of_pelargir_tooltip:0 "We shall decide the future of Pelargir"
- 
  numenor_league_of_pelargir_decision:0 "The nobles of Pelargir will curry favour with Armenelos by adopting our faith"
-
- decision_numenor_disband_council_of_sceptre:0 "WIP - Dss1"
- decision_numenor_disband_council_of_sceptre_tooltip:0 "WIP - Dss1"
- decision_numenor_disband_council_of_sceptre_desc:0 "WIP - Dss1"
- decision_numenor_disband_council_of_sceptre_confirm:0 "WIP - Dss1"
+ 
+ decision_numenor_disband_council_of_sceptre:0 "Disband the Council of the Sceptre"
+ decision_numenor_disband_council_of_sceptre_desc:0 "The Council of the Sceptre was founded by Elros to aid his reign by gathering the most noble and wise of the Adûnai to advise him. At first, the Council was advisory, a ceremonial yet prestigious part of the ruling of Númenor, however, with the rise of the King's Men, the Council began to gain more power, as more and more the Kings clung to their lives even after their vigour of mind had left them, their power often passed to the members of the Council and they would gain more power following the Akallabêth, the Council took advantage of the political crisis to support Prince Dâirabên's claim to the throne, and ever since they have held the final say on Númenor's foreign policy, but no more."
+ decision_numenor_disband_council_of_sceptre_confirm:0 "I shall restore the Council to its ceremonial position"
+ decision_numenor_disband_council_of_sceptre_tooltip:0 "You gain the power to dictate Númenor's foreign policy"

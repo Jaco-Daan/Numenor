@@ -122,7 +122,7 @@ bookmark_numenor_balkazir={
  		cloaks={ "western_royalty" 75 "no_cloak" 0 }
  		clothes={ "dde_hre_high_nobility_clothes" 104 "most_clothes" 0 }
  		hairstyles={ "western_hairstyles_straight" 84 "all_hairstyles" 0 }
- 		headgear={ "adunai_emperors" 190 "no_headgear" 0 }
+ 		headgear={ "adunai_emperors" }
  		legwear={ "western_common_legwear" 50 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  }

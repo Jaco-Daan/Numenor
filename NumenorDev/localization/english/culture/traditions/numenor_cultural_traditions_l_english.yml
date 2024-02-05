@@ -1,0 +1,8 @@
+﻿l_english:
+ ### Númenor submod tradition ###
+ tradition_adunaim_pride_name:0 "Adûnaic Arrogance"
+ tradition_adunaim_pride_desc:0 "Of all the people in this world, none are more prideful than the Adûnai, for they inhabit the greatest Kingdom in the world - Númenor. Their desire to honour their birthright have made them prideful and the many millenia of isolation that Númenor had have shaped them to dislike outsiders and especially those who are not heirs of Númenor."
+ culture_parameter_unlock_maa_numenorean_submod_pikemen:0 "Can recruit [GetMaA('numenorean_submod_pikemen').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_numenorean_royal_knights:0 "Can recruit [GetMaA('numenorean_royal_knights').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_numenorean_common_soldiers:0 "Can recruit [GetMaA('numenorean_common_soldiers').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_numenorean_steel_archers:0 "Can recruit [GetMaA('numenorean_steel_archers').GetName] as [men_at_arms|E]"

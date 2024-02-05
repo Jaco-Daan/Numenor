@@ -580,7 +580,7 @@ lineofelros20 = {
 lineofelros21 = {					
 	name = Adu_u_nakho_o_r # Twentieth Ruler of Numenor				
 	dynasty = dynasty_elros				
-	religion = kings_men # The Elven-Tongues are banned, and the Faithful are persecuted - the pride of the Númenoreans reach their apex			
+	religion = faith_kings_men_numenorean # The Elven-Tongues are banned, and the Faithful are persecuted - the pride of the Númenoreans reach their apex			
 	culture = black_numenorean				
 					
 	father = lineofelros20				
@@ -603,7 +603,7 @@ lineofelros21 = {
 lineofelros22 = {					
 	name = Zimratho_o_n # Twenty-first Ruler of Numenor				
 	dynasty = dynasty_elros				
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = black_numenorean				
 					
 	father = lineofelros21				
@@ -633,7 +633,7 @@ lineofelros22 = {
 lineofelros23 = {					
 	name = Sakaltho_o_r # Twenty-second Ruler of Numenor				
 	dynasty = dynasty_elros				
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = black_numenorean				
 					
 	father = lineofelros22				
@@ -663,7 +663,7 @@ lineofelros23 = {
 lineofelros24 = {					
 	name = Gimilzo_o_r # Twenty-third Ruler of Numenor				
 	dynasty = dynasty_elros				
-	religion = kings_men # The Three Prayers are utterly abandoned, with Gimilzôr refusing to even ascend the Meneltarma		
+	religion = faith_kings_men_numenorean # The Three Prayers are utterly abandoned, with Gimilzôr refusing to even ascend the Meneltarma		
 	culture = black_numenorean				
 					
 	father = lineofelros23				
@@ -757,7 +757,7 @@ lineofelros26 = {
 lineofelros27 = {					
 	name = Gimilkha_a_d 				
 	dynasty = dynasty_elros				
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = black_numenorean				
 					
 	father = lineofelros24				
@@ -2790,7 +2790,7 @@ alcariel1 = { # Alcariel, wife of Adûnahil, Step-Mother of the Golden King
 ruxoalendil3 = { # Adûnazil brother of Adûnahil, his murderer
 	name = Adu_u_nazil
 	dynasty = dynasty_minorforostar	
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = numenorean							
 		
 	father = ruxoalendil1
@@ -3097,8 +3097,687 @@ lineofciryandur11 = { # Calimerion
 		death = { death_reason = death_natural_causes }
 	}
 }
-					
-					
+ciryandurextension1 = { # 
+	name = Ciryandur
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = numenorean
+
+	trait = blood_of_numenor_3
+	
+	father = lineofciryandur11
+
+	2852.1.1 = {
+		birth = yes
+	}
+	3217.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}			
+ciryandurextension2 = { # 
+	name = Earcil
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = numenorean
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension1
+
+	2905.1.1 = {
+		birth = yes
+	}
+	3263.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension3 = { # 
+	name = Castaher
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = numenorean
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension2
+
+	2961.1.1 = {
+		birth = yes
+	}
+	3315.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension4 = { # 
+	name = Arnubalakha_a_n
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = numenorean
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension3
+
+	3023.1.1 = {
+		birth = yes
+	}
+	3370.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension5 = { # 
+	name = Eruaryon
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = numenorean
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension4
+
+	3087.1.1 = {
+		birth = yes
+	}
+	3432.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension6 = { # 
+	name = Hostandil
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = numenorean
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension5
+
+	3155.1.1 = {
+		birth = yes
+	}
+	3495.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension7 = { # 
+	name = Azrutho_o_r
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = numenorean
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension6
+
+	3218.1.1 = {
+		birth = yes
+	}
+	3556.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension8 = { # 
+	name = Gimilzo_o_r
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension7
+
+	3285.1.1 = {
+		birth = yes
+	}
+	3620.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension9 = { # 
+	name = Malandil
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension8
+
+	3348.1.1 = {
+		birth = yes
+	}
+	3679.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension10 = { # 
+	name = Imratho_o_r
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension9
+
+	3410.1.1 = {
+		birth = yes
+	}
+	3734.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension11 = { # 
+	name = Kadarzagar
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension10
+
+	3477.1.1 = {
+		birth = yes
+	}
+	3772.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension12 = { # 
+	name = Sakalkha_a_d
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension11
+
+	3545.1.1 = {
+		birth = yes
+	}
+	3813.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension13 = { # 
+	name = Tamrube_e_n
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension12
+
+	3615.1.1 = {
+		birth = yes
+	}
+	3835.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension14 = { # 
+	name = U_U_rzarkho_o_r
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension13
+
+	3687.1.1 = {
+		birth = yes
+	}
+	3908.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension15 = { # 
+	name = Zimrakho_o_r
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension14
+
+	3761.1.1 = {
+		birth = yes
+	}
+	3911.1.1 = {
+		death = { death_reason = death_drowned }
+	}
+}
+ciryandurextension16 = { # 
+	name = No_o_lo_o_ndil
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension15
+
+	3833.1.1 = {
+		birth = yes
+	}
+	3910.11.12 = {
+		death = { death_reason = death_battle }
+	}
+}
+ciryandurextension17 = { # 
+	name = Gimilkhali_i_
+	female = yes
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension15
+
+	3842.1.1 = {
+		birth = yes
+	}
+	3911.1.1 = {
+		death = { death_reason = death_drowned }
+	}
+}
+ciryandurextension18 = { #
+	name = U_U_ri_i_tho_o_r
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension10
+
+	3485.1.1 = {
+		birth = yes
+	}
+	3703.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension19 = { # 
+	name = Nimrukha_a_z
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension18
+
+	3559.1.1 = {
+		birth = yes
+	}
+	3760.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension20 = { # 
+	name = Minsilurud
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension19
+
+	3614.1.1 = {
+		birth = yes
+	}
+	3820.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension21 = { # 
+	name = Khibilatho_o_r
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_3
+	
+	father = ciryandurextension20
+
+	3676.1.1 = {
+		birth = yes
+	}
+	3877.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension22 = { # 
+	name = Go_o_dratho_o_r
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension21
+
+	3743.1.1 = {
+		birth = yes
+	}
+	3941.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension23 = { # 
+	name = Gimlibe_e_n
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension22
+
+	3800.1.1 = {
+		birth = yes
+	}
+	3991.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension24 = { # 
+	name = Erukho_o_r
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension23
+
+	3856.1.1 = {
+		birth = yes
+	}
+	4042.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension25 = { # 
+	name = Da_a_irukho_o_r
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism			
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension24
+
+	3910.1.1 = {
+		birth = yes
+	}
+	4092.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension26 = { # 
+	name = Balkuzo_o_r
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism			
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension25
+
+	3968.1.1 = {
+		birth = yes
+	}
+	4148.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension27 = { # 
+	name = Bala_a_kha_a_n
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension26
+
+	4024.1.1 = {
+		birth = yes
+	}
+	4201.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension28 = { # 
+	name = Azgarzi_i_r
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension27
+
+	4087.1.1 = {
+		birth = yes
+	}
+	4260.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension29 = { # 
+	name = Arta_a_rik
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension28
+
+	4149.1.1 = {
+		birth = yes
+	}
+	4317.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension30 = { # 
+	name = I_I_bal
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension29
+
+	4214.1.1 = {
+		birth = yes
+	}
+	4381.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension31 = { # 
+	name = Karbazi_i_r
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension30
+
+	4282.1.1 = {
+		birth = yes
+	}
+	4449.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension32 = { # 
+	name = Pharazba_a_r
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension31
+
+	4347.1.1 = {
+		birth = yes
+	}
+	4514.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension33 = { # 
+	name = Sapazi_i_r
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension32
+
+	4405.1.1 = {
+		birth = yes
+	}
+	4571.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension34 = { # 
+	name = Ta_a_rikmaga_a_n
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension33
+
+	4472.1.1 = {
+		birth = yes
+	}
+	4641.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension35 = { # 
+	name = Zabatha_a_nardu
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension34
+
+	4539.1.1 = {
+		birth = yes
+	}
+	4703.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension36 = { # 
+	name = Zimrazo_o_r
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension35
+
+	4606.1.1 = {
+		birth = yes
+	}
+	4773.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension37 = { # 
+	name = Zo_o_rnagar
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension36
+
+	4675.1.1 = {
+		birth = yes
+	}
+	4841.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension38 = { # 
+	name = Tu_u_limizi_i_r
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension37
+
+	4738.1.1 = {
+		birth = yes
+	}
+	4905.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+ciryandurextension39 = { # 
+	name = Sakalkha_a_d
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism				
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension38
+
+	4802.1.1 = {
+		birth = yes
+	}
+	4922.1.1 = {
+		death = { death_reason = death_battle }
+	}
+}
+ciryandurextension40 = { # 
+	name = Inzilzu_u_r
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_conservative_eruism					
+	culture = bellakarani 
+
+	trait = blood_of_numenor_2
+	
+	father = ciryandurextension39
+
+	4869.1.1 = {
+		birth = yes
+	}
+	4922.1.1 = {
+		death = { death_reason = death_execution }
+	}
+}
 #######################################					
 ##### The Ship Captains of Numenor ####					
 #######################################	
@@ -3468,7 +4147,10 @@ lineborodiriath1 = {
 					
 	2022.1.1 = {				
 		birth = yes			
-	}			
+	}
+	2122.1.1 = {
+		add_spouse = lineborodiriath1wife
+	}		
 	2404.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
@@ -6286,7 +6968,7 @@ lineborodiriath77 = {
 lineofsealord2 = {					
 	name = "Malantur"
 	dynasty = dynasty_malanturion
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = numenorean		
 					
 	trait = blood_of_numenor_4 				
@@ -6301,7 +6983,7 @@ lineofsealord2 = {
 lineofsealord3 = {					
 	name = "Minulzu_u_r"
 	dynasty = dynasty_menelihin
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = black_numenorean			
 					
 	trait = blood_of_numenor_4 				
@@ -6316,7 +6998,7 @@ lineofsealord3 = {
 lineofsealord4 = {					
 	name = "Balkutho_o_r"
 	dynasty = dynasty_balkurhil
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = black_numenorean			
 					
 	trait = blood_of_numenor_4 				
@@ -6331,7 +7013,7 @@ lineofsealord4 = {
 lineofsealord5 = {					
 	name = "Ulba_a_r"
 	dynasty = dynasty_ulbarhol	
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = black_numenorean			
 					
 	trait = blood_of_numenor_4				
@@ -6346,7 +7028,7 @@ lineofsealord5 = {
 lineofsealord6 = {					
 	name = "Zimratho_o_r"
 	dynasty = dynasty_zimrhulion
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = black_numenorean			
 					
 	trait = blood_of_numenor_4				
@@ -6361,7 +7043,7 @@ lineofsealord6 = {
 lineofsealord7 = {					
 	name = "Sakaltho_o_r"
 	dynasty = dynasty_kastarhon
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = black_numenorean			
 					
 	trait = blood_of_numenor_4				
@@ -6376,7 +7058,7 @@ lineofsealord7 = {
 lineson1 = {
 	name = "Gimilbalak"
 	dynasty = dynasty_kastarhon
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	father = lineofsealord7
@@ -6393,7 +7075,7 @@ lineson1 = {
 lineson2 = {
 	name = "Karbazi_i_r"
 	dynasty = dynasty_kastarhon
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	father = lineson1
@@ -6410,7 +7092,7 @@ lineson2 = {
 lineson3 = {
 	name = "Minlube_e_n"
 	dynasty = dynasty_kastarhon
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
 	father = lineson2
@@ -6427,7 +7109,7 @@ lineson3 = {
 lineofsealord8 = {					
 	name = "Nimrukha_a_z"
 	dynasty = dynasty_zimrhulion
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = black_numenorean	
 	
 	father = lineofsealord6
@@ -6552,7 +7234,7 @@ lineumbar3 = {
 lineumbar4 = {				
 	name = "Karbazi_i_r"
 	dynasty = dynasty_zimrhulion
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = black_numenorean				
 					
 	trait = blood_of_numenor_3
@@ -6569,7 +7251,7 @@ lineumbar4 = {
 lineumbar5 = {				
 	name = "Azarkarbu_u_"
 	dynasty = dynasty_zimrhulion
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean			
 					
 	trait = blood_of_numenor_3
@@ -6586,7 +7268,7 @@ lineumbar5 = {
 lineumbar6 = {			
 	name = "Sapazu_u_r"
 	dynasty = dynasty_zimrhulion
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean
 					
 	trait = blood_of_numenor_2
@@ -6603,7 +7285,7 @@ lineumbar6 = {
 lineumbar7 = {				
 	name = "Balaka_a_n"
 	dynasty = dynasty_kastarhon
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean
 
 	father = lineson3
@@ -6620,7 +7302,7 @@ lineumbar7 = {
 lineumbar8 = {					
 	name = "Arnuzi_i_r"
 	dynasty = dynasty_zimrhulion
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean
 	
 	father = lineumbar6
@@ -6637,7 +7319,7 @@ lineumbar8 = {
 tarikgrandfathertwo = {
 	name = "Ro_o_thpharaz"
 	dynasty = dynasty_rothparioni
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	trait = blood_of_numenor_3
@@ -6652,7 +7334,7 @@ tarikgrandfathertwo = {
 tarikgrandfatherone = {
 	name = "Azulzi_i_r"
 	dynasty = dynasty_rothparioni
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
 	father = tarikgrandfathertwo
@@ -6669,7 +7351,7 @@ tarikgrandfatherone = {
 tarikfather = {
 	name = "Pharazbalak"
 	dynasty = dynasty_rothparioni
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
 	father = tarikgrandfatherone
@@ -6702,7 +7384,7 @@ haradrimwife = {
 lineumbar9 = {					
 	name = "Tari_i_kmaga_a_n"
 	dynasty = dynasty_rothparioni	
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean
 
 	father = tarikfather
@@ -6720,7 +7402,7 @@ lineumbar9 = {
 umbar7son = {
 	name = "Tamruzi_i_r"
 	dynasty = dynasty_kastarhon
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
 	father = lineumbar7
@@ -6737,7 +7419,7 @@ umbar7son = {
 lineumbar10 = {					
 	name = "Tamrube_e_n"
 	dynasty = dynasty_kastarhon
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean	
 
 	father = umbar7son
@@ -6754,7 +7436,7 @@ lineumbar10 = {
 arnudad = {
 	name = "Inziladu_u_n"
 	dynasty = dynasty_arnuril
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
 	trait = blood_of_numenor_2
@@ -6788,7 +7470,7 @@ arnuwife = {
 lineumbar11 = {					
 	name = "Arnuzi_i_r"
 	dynasty = dynasty_arnuril
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean
 
 	father = arnudad
@@ -6806,7 +7488,7 @@ lineumbar11 = {
 lineumbar12 = {					
 	name = "Imrakho_o_r"
 	dynasty = dynasty_kastarhon
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean
 	
 	father = lineumbar10
@@ -6823,7 +7505,7 @@ lineumbar12 = {
 murafather = {
 	name = "Belzagar"
 	dynasty = dynasty_kastarhon
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
 	father = lineumbar7
@@ -6840,7 +7522,7 @@ murafather = {
 lineumbar13 = {					
 	name = "Mu_u_rakho_o_r"
 	dynasty = dynasty_kastarhon
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean	
 
 	father = murafather
@@ -6857,7 +7539,7 @@ lineumbar13 = {
 lineumbar14 = {					
 	name = "Na_a_loa_a_n"
 	dynasty = dynasty_nalorveh
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean
 					
 	trait = blood_of_numenor_2				
@@ -6872,7 +7554,7 @@ lineumbar14 = {
 zagfather = {
 	name = "Abatta_a_rik"
 	dynasty = dynasty_kastarhon
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
 	father = lineumbar12
@@ -6889,7 +7571,7 @@ zagfather = {
 lineumbar15 = {					
 	name = "Zagarkha_a_d"
 	dynasty = dynasty_kastarhon
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean
 
 	father = zagfather
@@ -6906,7 +7588,7 @@ lineumbar15 = {
 dolgugrandad = {
 	name = "Zo_o_rzagar"
 	dynasty = dynasty_zorgarik
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
 	trait = blood_of_numenor_2
@@ -6921,7 +7603,7 @@ dolgugrandad = {
 dolgudad = {
 	name = "Ro_o_thgimil"
 	dynasty = dynasty_zorgarik
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
 	father = dolgugrandad
@@ -6936,7 +7618,7 @@ dolgudad = {
 lineumbar16 = {					
 	name = "Do_o_lguzagar"
 	dynasty = dynasty_zorgarik
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean
 
 	father = dolgudad
@@ -6955,7 +7637,7 @@ lineumbar16 = {
 lineumbar17 = {					
 	name = "Nu_u_luzi_i_r"
 	dynasty = dynasty_kastarhon
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean
 	
 	father = lineumbar15
@@ -6977,7 +7659,7 @@ lineumbar17 = {
 lineumbar18 = {					
 	name = "Karbazi_i_r"
 	dynasty = dynasty_zorgarik
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean				
 					
 	father = lineumbar16			
@@ -6996,7 +7678,7 @@ lineumbar18 = {
 abradad = {
 	name = "Adu_u_nakho_o_r"
 	dynasty = dynasty_nalorveh
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
 	father = lineumbar14
@@ -7011,7 +7693,7 @@ abradad = {
 lineumbar19 = {					
 	name = "Abrazi_i_r"
 	dynasty = dynasty_nalorveh
-	religion = kings_men				
+	religion = faith_kings_men_numenorean				
 	culture = old_umbarean
 
 	father = abradad
@@ -7179,7 +7861,7 @@ lineherumor7 = {
 lineofprinceimrazor1 = {
 	name = Imrazo_o_r
 	dynasty = dynasty_elros
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	father = lineofelros23
@@ -7200,7 +7882,7 @@ lineofprinceimrazor1 = {
 lineofprinceimrazor2 = {
 	name = Adu_u_naphazo_o_r
 	dynasty = dynasty_elros
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	father = lineofprinceimrazor1
@@ -7220,7 +7902,7 @@ lineofprinceimrazor2 = {
 lineofprinceimrazor3 = {
 	name = Sakaltho_o_r
 	dynasty = dynasty_elros
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
 	father = lineofprinceimrazor1
@@ -7238,7 +7920,7 @@ lineofprinceimrazor3 = {
 lineofprinceimrazor4 = {
 	name = Mu_u_rabe_e_th
 	dynasty = dynasty_elros
-	religion = kings_men
+	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	female = yes
 	
