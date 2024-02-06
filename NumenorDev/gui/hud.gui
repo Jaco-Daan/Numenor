@@ -11,6 +11,7 @@ widget = {
 	window_sorcery = {}
 	window_crafting_mechanic = {}
 	window_crafting_mechanic_artifact_icons = {}
+	window_numenor_council = {}
 	using = Animation_ShowHide_Standard
 
 	flowcontainer = {
