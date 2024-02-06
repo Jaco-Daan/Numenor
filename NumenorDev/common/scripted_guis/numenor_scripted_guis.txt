@@ -1,4 +1,4 @@
-numenor_council_of_the_sceptre_hud = {
+﻿numenor_council_of_the_sceptre_hud = {
 	is_valid = {
 		OR = {
 			has_title = title:e_numenor

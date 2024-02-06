@@ -1,4 +1,4 @@
-set_up_council_of_sceptre = {
+﻿set_up_council_of_sceptre = {
 	add_to_global_variable_list = {
 		name = council_of_numenor
 		target = title:d_andunie.holder 

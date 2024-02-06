@@ -649,7 +649,9 @@ hold_memorial_at_meneltarma_decision = {
 		NOT = { has_character_flag = flag_meneltarma }
 	}
 
-	gold = { 500 }
+	cost = {
+		gold = 500
+	}
 
 	is_valid_showing_failures_only = {
 		is_imprisoned = no

@@ -1,4 +1,4 @@
-### Númenor ###
+﻿### Númenor ###
 
 create_artifact_nibaran_effect = {
     # Get the character the artifact is being made for.

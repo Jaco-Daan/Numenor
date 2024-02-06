@@ -1,4 +1,4 @@
-bribe_council_member_interaction = {
+﻿bribe_council_member_interaction = {
 	global = BRIBE_COUNCIL_MEMBER_EFFECT
 	global_neg = BRIBE_COUNCIL_MEMBER_NEG
 	first_past = BRIBEB_COUNCIL_MEMBER_EFFECT

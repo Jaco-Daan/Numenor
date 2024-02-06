@@ -1,4 +1,4 @@
-bribe_council_member_interaction = {
+﻿bribe_council_member_interaction = {
 	icon = icon_gold
 	category = interaction_category_friendly
 	common_interaction = yes

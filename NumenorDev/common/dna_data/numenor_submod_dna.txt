@@ -1,4 +1,4 @@
-balkazir_dna = {
+﻿balkazir_dna = {
 	portrait_info = {
 		genes={ 			hair_color={ 133 238 89 109 }
  			skin_color={ 83 83 71 87 }
@@ -512,7 +512,6 @@ eldarion_dna = {
 }
 
 arkia_dna = {
-	type=female
 	id=0
 	genes={ 		hair_color={ 135 110 135 110 }
  		skin_color={ 112 111 8 66 }

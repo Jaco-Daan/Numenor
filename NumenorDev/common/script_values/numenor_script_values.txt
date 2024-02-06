@@ -1,4 +1,4 @@
-council_of_numenor_total_approval = {
+﻿council_of_numenor_total_approval = {
 	value = 0
 
 	every_in_global_list = {
