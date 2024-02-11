@@ -257,6 +257,46 @@
 			}
 		}
 
+		faith_dairaben = {
+			color = { 75 89 156 }
+			icon = numenorean_star
+			graphical_faith = catholic_gfx
+			religious_head = d_adunai
+
+			holy_site = meneltarma
+			holy_site = armenelos_evil
+			holy_site = romenna_evil
+			holy_site = ondosto_neutral 
+			holy_site = nindamos
+
+			# Tenets
+			doctrine = tenet_adunaic_birthright
+			doctrine = tenet_warmonger
+			doctrine = tenet_communal_identity
+			
+			# Doctrines
+			doctrine = doctrine_echoes_of_the_ainur
+			
+			doctrine = doctrine_consanguinity_cousins
+			doctrine = doctrine_no_head
+			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = doctrine_temporal_head
+			doctrine = doctrine_clerical_function_recruitment
+			doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_clerical_marriage_allowed
+			doctrine = doctrine_deviancy_shunned
+			doctrine = doctrine_adultery_men_shunned
+			doctrine = doctrine_adultery_women_shunned
+			doctrine = doctrine_kinslaying_close_kin_crime
+			doctrine = doctrine_witchcraft_shunned
+			doctrine = doctrine_gender_male_dominated
+		
+			localization = {
+				GoodGodNames = { eru_adunaic manwe_adunaic varda_adunaic vana_adunaic irmo_adunaic aule_adunaic este_adunaic ulmo_adunaic tulkas_adunaic nessa_adunaic orome_adunaic yavanna_adunaic }
+				EvilGodNames = { namo_adunaic morgoth_adunaic sauron_adunaic nienna_adunaic } # Dislikes the gods of death and weeping
+				ReligiousHeadName = kings_men_religious_head_title
+			}
+		}		
 		faith_kings_men_castamir = {
 			color = { 213 230 110 }
 			icon = umbar

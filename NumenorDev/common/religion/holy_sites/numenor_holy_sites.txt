@@ -1,4 +1,4 @@
-﻿meneltarma = {
+meneltarma = {
 	county = c_meneltarma
 	barony = b_meneltarma
 	character_modifier = {
@@ -51,3 +51,9 @@ armenelos_evil = {
 		monthly_piety_gain_mult = 0.1
 	}
 }
+ondosto_neutral = {
+	county = c_ondosto
+	character_modifier = {
+		direct_vassal_opinion = 5
+	}
+}	
