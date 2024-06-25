@@ -1,5 +1,0 @@
-﻿l_english:
- 
- ### BLOOD OF NÚMENOR ###
- blood_of_numenor_submod:0 "Númenórean"
- blood_of_numenor_submod_desc:0 "@warning_icon! #N #italic Due to their increased [life_expectancy|E], AI characters with this trait will not seek [marriage|E] @arrange_marriage_icon! before age 50.#!#!\n\n$blessing_strength_desc$\n\n$trait_blood_of_numenor_desc$"

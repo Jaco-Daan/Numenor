@@ -11,7 +11,7 @@ nazgul1 = {
 
 	father = lineofelros13
 
-	trait = blood_of_numenor_4
+	
 	trait = education_martial_4
 	trait = sorcerer_3
 	trait = torturer
@@ -20,10 +20,20 @@ nazgul1 = {
 	trait = greedy
 	trait = aggressive_attacker
 
+	diplomacy = 0
+	martial = 5
+	stewardship = 4
+	intrigue = 6
+	learning = 8
+	prowess = 9
+
 	disallow_random_traits = yes
 
+
+	trait = blood_of_numenor_10
 	2412.1.1 = {
 		birth = yes
+		
 	}
 
 	2590.1.1 = {
@@ -42,7 +52,7 @@ nazgul1 = {
 					type = abrazanim_legion
 					stacks = 3
 				}
-#				origin = c_minas_ithil
+				# origin = c_minas_ithil
 				location = capital_province
 			}
 			character:lineofsauron = {
@@ -59,7 +69,7 @@ nazgul1 = {
 			create_character_memory = {
 				type = relative_died			
 				participants = {
-					dead_relative = character:lineofelros13
+					dead_relation = character:lineofelros13
 				}
 			}
 		}
@@ -70,11 +80,20 @@ nazgul1 = {
 			create_character_memory = {
 				type = relative_died			
 				participants = {
-					dead_relative = character:lineofelros14
+					dead_relation = character:lineofelros14
 				}
+			}
+			dynasty:dynasty_witchking = {
+				add_dynasty_modifier = { modifier = witch_king_xp_boost }
 			}
 		}
 	}
+	5330.1.1 = {
+		religion = faith_angmar_evil
+	}
+    6007.1.1 = { # Witch King is defeated in battle, flees to Mordor
+        religion = lidless_eye
+    }
 	
 	6975.1.1 = {
 		effect = {
@@ -178,7 +197,7 @@ nazgul2 = { # Khamûl, once High-King of Wômawas Drûs, mightiest of the great 
 	}
 
 	7052.1.1 = { # Passes out of Ea with the destruction of the One Ring
-		death = { death_reason = death_battle }
+		death = { death_reason = death_nazgul }
 	}
 }
 
@@ -201,14 +220,17 @@ goldenking1 = {
 	trait = vengeful
 	trait = education_learning_4
 	trait = sorcerer_2
-	trait = physician_3
+	trait = lifestyle_physician
 	trait = desert_warrior
 	trait = reclusive
-	trait = blood_of_numenor_3
+	
 	disallow_random_traits = yes
 
+
+	trait = blood_of_numenor_8
 	2498.12.3 = {
 		birth = yes
+		
 	}
 	
 	2521.6.2 = {
@@ -216,7 +238,7 @@ goldenking1 = {
 			create_character_memory = {
 				type = relative_died			
 				participants = {
-					dead_relative = character:saphanirofamrun
+					dead_relation = character:saphanirofamrun
 				}
 			}
 		}
@@ -227,7 +249,7 @@ goldenking1 = {
 			create_character_memory = {
 				type = relative_died			
 				participants = {
-					dead_relative = character:ruxoalendil2
+					dead_relation = character:ruxoalendil2
 				}
 			}
 		}
@@ -306,7 +328,7 @@ goldenking1 = {
 			create_character_memory = {
 				type = relative_died			
 				participants = {
-					dead_relative = character:ruxoalendil4
+					dead_relation = character:ruxoalendil4
 				}
 			}
 		}
@@ -318,8 +340,8 @@ goldenking1 = {
 		}
 	}
 
-	7052.1.1 = {
-		death = yes
+	7052.1.1 = { # Passes out of Ea with the destruction of the One Ring
+		death = { death_reason = death_nazgul }
 	}
 }
 
@@ -342,7 +364,7 @@ nazgul4 = { # Yí Indûr, The Second Unifier of Mûmakan. The Fourth Nazgul
 	}
 
 	2593.1.1 = { # Ascends the Throne of Mûmakan and claims a Ring of Power. Maûmakan falls under the Shadow
-		name = Yí-Amâv
+		#name = Yí-Amâv
 		give_nickname = nick_dawndeath
 		effect = {
 			add_trait = nazgul
@@ -365,7 +387,7 @@ nazgul4 = { # Yí Indûr, The Second Unifier of Mûmakan. The Fourth Nazgul
 	}
 
 	7052.1.1 = { # Passes out of Ea with the destruction of the One Ring
-		death = { death_reason = death_battle }
+		death = { death_reason = death_nazgul }
 	}
 }
 
@@ -379,7 +401,7 @@ nazgul5 = {
 	father = lineofciryamir1
 	mother = lineofciryamir2
 
-	trait = blood_of_numenor_4
+	trait = blood_of_numenor_10
 	trait = intellect_good_2
 	trait = education_stewardship_4
 	trait = sorcerer_2
@@ -451,7 +473,7 @@ nazgul6 = { # Mauhoshat, Dwimmerleik of the North, Lord of Ûrd. The Sixth Nazgu
 	learning = 5
 
 	trait = education_martial_3
-	trait = blademaster_2
+	trait = lifestyle_blademaster
 	trait = ambitious
 	trait = patient
 	trait = gregarious
@@ -487,7 +509,7 @@ nazgul6 = { # Mauhoshat, Dwimmerleik of the North, Lord of Ûrd. The Sixth Nazgu
 	}
 
 	7052.1.1 = { # Passes out of Ea with the destruction of the One Ring
-		death = { death_reason = death_battle }
+		death = { death_reason = death_nazgul }
 	}
 }
 
@@ -581,7 +603,7 @@ nazgul8 = { # Rên-Iey of Khey Sârt. The Eigth Nazgul
 	}
 
 	7052.1.1 = { # Passes out of Ea with the destruction of the One Ring
-		death = { death_reason = death_battle }
+		death = { death_reason = death_nazgul }
 	}
 }
 
@@ -595,7 +617,7 @@ nazgul9 = { # Ûvatha/Ôvatha I of Khand. The Ninth Nazgul
 
 	trait = education_martial_4
 	trait = strong
-	trait = blademaster_3
+	trait = lifestyle_blademaster
 	trait = ambitious
 	trait = callous
 	trait = brave
@@ -640,6 +662,6 @@ nazgul9 = { # Ûvatha/Ôvatha I of Khand. The Ninth Nazgul
 	}
 
 	7052.1.1 = { # Passes out of Ea with the destruction of the One Ring
-		death = { death_reason = death_battle }
+		death = { death_reason = death_nazgul }
 	}
 }
