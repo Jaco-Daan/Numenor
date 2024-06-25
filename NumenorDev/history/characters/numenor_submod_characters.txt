@@ -9669,120 +9669,13 @@ lineofarialome25 = {
 	}
 }
 ###Lords of Formenore###
-lineofazrubensubmod1 = {
-	name = Gimilzagar
-	dynasty = dynasty_azulhin
-	religion = faith_kings_men_numenorean
-	culture = black_numenorean
-	
-	father = lineofazruben1
-	
-	trait = blood_of_numenor_10
-	
-	3368.1.1 = {
-		birth = yes
-	}
-	3672.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofazrubensubmod2 = {
-	name = Gôdrathôr
-	dynasty = dynasty_azulhin
-	religion = faith_kings_men_numenorean
-	culture = black_numenorean
-	
-	father = lineofazrubensubmod1
-	
-	trait = blood_of_numenor_10
-	
-	3509.1.1 = {
-		birth = yes
-	}
-	3810.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofazrubensubmod3 = {
-	name = Abâzagar
-	dynasty = dynasty_azulhin
-	religion = melkorite
-	culture = black_numenorean
-	
-	father = lineofazrubensubmod2
-	
-	trait = blood_of_numenor_10
-	
-	3638.1.1 = {
-		birth = yes
-	}
-	3912.1.1 = {
-		death = { death_reason = death_battle }
-	}
-}
-lineofazrubensubmod4 = {
-	name = Zigûrzir
-	dynasty = dynasty_azulhin
-	religion = melkorite
-	culture = black_numenorean
-	
-	father = lineofazrubensubmod3
-	
-	trait = ambitious
-	trait = greedy
-	trait = sadistic
-	trait = vengeful
-	trait = blood_of_numenor_7
-	
-	3798.1.1 = {
-		birth = yes
-	}
-	3917.1.1 = {
-		death = { death_reason = death_execution }
-	}
-}
-lineofazrubensubmod5 = {
-	name = Adûnaphazôr
-	dynasty = dynasty_azulhin
-	religion = faith_kings_men_numenorean
-	culture = black_numenorean
-	
-	father = lineofazrubensubmod2
-	
-	trait = blood_of_numenor_7
-	
-	3648.1.1 = {
-		birth = yes
-	}
-	3945.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofazrubensubmod6 = {
-	name = Abâruzôr
-	dynasty = dynasty_azulhin
-	religion = faith_kings_men_numenorean
-	culture = black_numenorean
-	
-	father = lineofazrubensubmod5
-	
-	trait = blood_of_numenor_7
-	
-	3763.1.1 = {
-		birth = yes
-	}
-	4057.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
 lineofazrubensubmod7 = {
 	name = Gimilkhâd
 	dynasty = dynasty_azulhin
 	religion = faith_kings_men_numenorean
 	culture = adunaic
 	
-	father = lineofazruben8
+	father = lineofazruben7
 	
 	trait = blood_of_numenor_7
 	

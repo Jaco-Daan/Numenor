@@ -634,9 +634,9 @@ d_formenore = {
 		holder = lineofazruben4
 	}
 	3911.1.1 = {
-		holder = lineofazruben7
+		holder = lineofazruben5
 	}
-		3917.1.1 = {
+	3913.1.1 = {
 		holder = 0
 	}
 		4368.1.1 = {
@@ -1842,7 +1842,10 @@ c_formenore = {
 		holder = lineofazruben4
 	}
 	3911.1.1 = {
-		holder = lineofazruben7
+		holder = lineofazruben5
+	}
+	3913.1.1 = {
+		holder = 0
 	}
 		4368.1.1 = {
 		holder = lineofazrubensubmod8
@@ -2966,7 +2969,10 @@ c_hyarnumen = {
 		holder = lineofazruben4
 	}
 	3911.1.1 = {
-		holder = lineofazruben7
+		holder = lineofazruben5
+	}
+	3913.1.1 = {
+		holder = 0
 	}
 		4368.1.1 = {
 		holder = lineofazrubensubmod8

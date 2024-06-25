@@ -16877,8 +16877,8 @@ lineofazruben5 = {
 	3798.1.1 = {
 		birth = yes
 	}
-	3911.1.1 = {
-		death = { death_reason = death_valinor_crushed }
+	3913.1.1 = {
+		death = { death_reason = death_battle }
 	}
 }
 lineofazruben6 = {
@@ -16903,7 +16903,7 @@ lineofazruben7 = { # Ruler in Realms in Exile start date
 	name = Aba_a_ruzo_o_r
 	dynasty = dynasty_azulhin
 	religion = faith_kings_men_numenorean
-	culture = anbalukkhori
+	culture = black_numenorean
 	
 	father = lineofazruben6
 	
@@ -16920,7 +16920,7 @@ lineofazruben8 = {
 	name = Sakaltho_o_r
 	dynasty = dynasty_azulhin
 	religion = faith_kings_men_numenorean
-	culture = anbalukkhori
+	culture = black_numenorean
 	
 	father = lineofazruben7
 	
