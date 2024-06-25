@@ -38,10 +38,6 @@ decision_gondor_regnal_names = {
 			id = gondor.1100
 		}		
 	}
-	
-	ai_will_do = {
-		base = 0
-	}
 }
 
 decision_gondorian_renaissance = { # Little Gondorian Renaissance post Mordor Destroyed
@@ -137,6 +133,9 @@ decision_gondorian_renaissance = { # Little Gondorian Renaissance post Mordor De
 				trigger_event = news_event.0024
 			}
 		}
+
+		trigger_event = gondor.3601 # Gondorian Renaissance flavour event
+
 		hidden_effect = {
 			add_to_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -151,6 +150,177 @@ decision_gondorian_renaissance = { # Little Gondorian Renaissance post Mordor De
 
 	ai_will_do = {
 		base = 15
+		ai_value_modifier = {
+			ai_boldness = 1.0
+		}
+	}
+}
+
+decision_claim_gondor_kingship = { # Allows native Gondorians to restore the Kingdom of Gondor and claim the throne (in case Aragorn doesn't come back)
+	sort_order = 21
+	picture = "gfx/interface/illustrations/decisions/decision_minas_tirith_01.dds"
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {				
+					has_primary_title = title:e_gondor_steward
+				}
+				desc = decision_claim_gondor_kingship_stewards_desc
+			}
+		desc = decision_claim_gondor_kingship_desc
+		}
+	}
+	
+	selection_tooltip = decision_claim_gondor_kingship_tooltip
+	confirm_text = decision_claim_gondor_kingship_confirm
+	major = yes
+	ai_goal = no
+	ai_check_interval = 12
+	ai_potential = {
+		always = yes
+	}
+	is_shown = {
+		current_year >= 6083 # After Earnur's Death
+
+		culture = { has_cultural_pillar = heritage_dunedain }
+		capital_province = { geographical_region = middleearth_west_gondor }
+		faith_is_good = yes
+		is_ruler = yes
+		is_landed = yes
+		#has_trait = ambitious # Maybe only for ambitious Gondorians?
+		NOR = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_claim_gondor_kingship
+			}
+			is_target_in_global_variable_list = { # If Aragorn has returned to Gondor... disable
+				name = unavailable_unique_decisions
+				target = flag:aragorn_returned_to_gondor
+			}
+			is_target_in_global_variable_list = { # If the Reunited Kingdom has formed... disable
+				name = unavailable_unique_decisions
+				target = flag:decision_reunited_kingdom
+			}
+			title:e_reunitedkingdom = {
+				is_title_created = yes # If the Reunited Kingdom somehow exists but the decision WASN'T taken... disable
+			}
+			title:e_numenor_in_exile = {
+				is_title_created = yes # If Numenor-in-Exile somehow exists but the decision WASN'T taken... disable
+			}
+			title:e_castamir = {
+				is_title_created = yes # If there is a King of Gondor already, you can claim it the traditional way
+			}
+			title:e_gondor = {
+				OR = {
+					is_title_created = yes # If there is a King of Gondor already, you can claim it the traditional way
+					is_titular = no # If Gondor is no longer titular... disable
+				}
+			}
+			AND = { # If you're the house of Hurin... no King-claiming for you!
+				house = house:dynasty_gondorstewards
+				NOR = { # Boromir, you ambitious rascal... for you, an exception. 
+					AND = {
+						this = character:linesteward39
+						has_title = title:e_gondor_steward
+					}
+					#has_trait = ambitious # And any other would-be ambitious stewards?
+				}
+			}
+			
+			government_has_flag = government_is_theocracy
+			government_has_flag = government_is_clan
+			government_has_flag = government_is_tribal
+		}
+	}
+
+	is_valid = {
+		OR = {  # DOES NOT WORK ATM
+			custom_tooltip = {
+				text = decision_claim_gondor_kingship_tt.1
+				NOT = { exists = title:e_gondor_steward.holder } # No Steward of Gondor
+			}
+			has_title = title:e_gondor_steward
+		}
+		is_independent_ruler = yes
+		sub_realm_size >= 75
+		highest_held_title_tier >= tier_kingdom
+		any_powerful_vassal = {
+			count = all
+			OR = {
+				opinion = {
+					target = root
+					value >= 100
+				}
+				# root = { has_strong_hook = prev }
+			}
+		}
+		any_vassal = {
+			count = all
+			OR = {
+				opinion = {
+					target = root
+					value >= 75
+				}
+				# root = { has_strong_hook = prev }
+			}
+		}
+		completely_controls = title:c_minas_tirith
+		completely_controls = title:c_osgiliath
+		completely_controls = title:c_pelargir
+		completely_controls = title:c_dol_amroth
+		trigger_if = {
+			limit = { 
+				has_dlc_feature = legends
+				is_ai = no
+			}
+			custom_tooltip = {
+				text = finished_anarion_legend_tt
+				house = { has_house_modifier = heirs_of_anarion_modifier }
+			}
+		}
+		trigger_else = {
+			piety_level >= 5
+			prestige_level >= 5
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	cost = {
+		gold = 800
+		prestige = 5000
+	}
+
+	effect = {
+		get_title = title:e_gondor
+		set_primary_title_to = title:e_gondor
+		create_artifact_crown_of_gondor_effect = { OWNER = this }
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_claim_gondor_kingship
+			}
+			destroy_title = title:e_gondor_steward # Get rid of this if it exists
+			#if = {
+			#	limit = { # If the Steward isn't titular
+			#		title:e_gondor_steward = { is_titular = no }
+			#	}
+				title:e_gondor_steward = {
+					every_in_de_jure_hierarchy = {
+						limit = { tier = tier_kingdom }
+						set_de_jure_liege_title = title:e_gondor
+					}
+				}
+			#}
+		}
+	}
+
+	ai_will_do = {
+		base = 10
 		ai_value_modifier = {
 			ai_boldness = 1.0
 		}
@@ -442,7 +612,7 @@ decision_colonial_harnen = {
 decision_destroy_mordor = {
 	sort_order = 100
 	title = decision_destroy_mordor
-	picture = "gfx/interface/illustrations/decisions/decision_barad_dur_02.dds"
+	picture = "gfx/interface/illustrations/decisions/decision_gondor_01.dds"
 	major = yes
 	ai_goal = yes
 	ai_potential = {
@@ -467,7 +637,6 @@ decision_destroy_mordor = {
 		is_landed = yes
 		OR = {
 			is_gondor = yes
-			is_numenor = yes
 			has_primary_title = title:e_numenor_in_exile
 			has_primary_title = title:e_reunitedkingdom
 		}	
@@ -501,6 +670,7 @@ decision_destroy_mordor = {
 		#lotr_armies_are_outnumbered = no	#juke note: commented out, unlocalizd trigger and theres no reason to lock the player from trying to defeat sauron even if they are outnumbered
 	}
 	effect = {
+		play_music_cue = lotr_cue_gondor
 		custom_tooltip = destroy_mordor_decision
 		trigger_event = {
 			id = gondor.2100
@@ -512,7 +682,8 @@ decision_destroy_mordor = {
 	}
 }
 
-decision_destroy_mordor_AI = { # Unused
+decision_destroy_mordor_AI = {
+	sort_order = 100
 	title = decision_destroy_mordor
 	picture = "gfx/interface/illustrations/decisions/decision_gondor_01.dds"
 	major = yes
@@ -532,7 +703,7 @@ decision_destroy_mordor_AI = { # Unused
 	is_shown = {
 		is_ai = yes
 		#always = no #JUKE NOTE: (temporarily) removing band-aid fix for gondor agression for testing purposes
-		current_year > 7058
+		#current_year > 7058
 		is_ruler = yes
 		is_landed = yes
 		OR = {
@@ -561,7 +732,7 @@ decision_destroy_mordor_AI = { # Unused
 			subject = this
 			faith_is_evil = no
 		}
-		lotr_armies_are_outnumbered = no
+#		lotr_armies_are_outnumbered = no
 	}
 	is_valid = {
 		completely_controls = title:d_emyn_arnen
@@ -573,22 +744,22 @@ decision_destroy_mordor_AI = { # Unused
 		completely_controls = title:k_lebennin
 		completely_controls = title:k_belfalas
 		
-		can_declare_war = {
-			casus_belli = minor_religious_war
-			claimant = root
-			defender = title:e_mordor.holder
-		}
+#		can_declare_war = {
+#			casus_belli = minor_religious_war
+#			claimant = root
+#			defender = title:e_mordor.holder
+#		}
 	}
 	effect = {
 		custom_tooltip = destroy_mordor_decision
 		trigger_event = {
 			id = gondor.2100
 		}
-		add_gold = 1000
+		add_gold = 700
 	}
-	cost = {
-		gold = 300
-	}
+#	cost = {
+#		gold = 300
+#	}
 }
 
 decision_search_orthanc = {
@@ -770,32 +941,43 @@ decision_emyn_arnen_capital = {
 		title:k_ithilien = {
 			set_capital_county = title:c_emyn_arnen
 		}
-		if = {
-			limit = {
-				primary_title = title:k_ithilien
-				has_title = title:c_emyn_arnen
-			}
-			set_realm_capital = title:c_emyn_arnen
-		}
-		else_if = {
-			limit = {
-				title:k_ithilien.holder = {
-					liege = ROOT
+		hidden_effect = {
+			if = {
+				limit = {
+					primary_title = title:k_ithilien
 					has_title = title:c_emyn_arnen
 				}
+				set_realm_capital = title:c_emyn_arnen
 			}
-			set_realm_capital = title:c_emyn_arnen
-		}
-		else_if = {
-			limit = {
+			else_if = {
+				limit = {
+					OR = {
+						primary_title = title:e_gondor
+						primary_title = title:e_gondor_steward
+					}
+				}
+				get_title = title:c_emyn_arnen
+			}		
+			else_if = {
 				title:k_ithilien.holder = {
-					liege = ROOT
-					NOT = { has_title = title:c_emyn_arnen }
-					completely_controls = title:c_emyn_arnen
+					limit = {
+						liege = root
+						has_title = title:c_emyn_arnen
+					}
+					set_realm_capital = title:c_emyn_arnen
 				}
 			}
-			get_title = title:c_emyn_arnen 
-			set_realm_capital = title:c_emyn_arnen
+			else_if = {
+				limit = {
+					title:k_ithilien.holder = {
+						liege = ROOT
+						NOT = { has_title = title:c_emyn_arnen }
+						completely_controls = title:c_emyn_arnen
+					}
+				}
+				get_title = title:c_emyn_arnen 
+				set_realm_capital = title:c_emyn_arnen
+			}
 		}
 		province:236 = {
 			add_special_building_slot = wonder_palace_of_ithilien
@@ -839,14 +1021,19 @@ decision_calenardhon_claim = {
 			is_gondor = yes
 			has_primary_title = title:e_reunitedkingdom
 		}
+		
 		# OR = {
 		# 	has_title = title:e_gondor
 		# 	has_title = title:e_gondor_steward
 		# 	has_title = title:e_castamir
 		# }	
-		OR = {
-			exists = title:k_rohan.holder
-
+		exists = title:k_rohan.holder
+		title:k_rohan.holder ?= {
+			NOT = { 
+				any_liege_or_above = {
+					this = root
+				}
+			}
 		}
 		NOR = {
 			has_title = title:k_rohan
@@ -1100,11 +1287,29 @@ decision_gondor_x_bellakar = {
 
 	# SHOWN
 	is_shown = {
-		has_title = title:e_gondor
+		OR = {
+			has_title = title:e_gondor
+			AND = {
+				has_title = title:e_reunitedkingdom
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions
+					target = flag:decision_solidify_reunited_kingdom
+				}
+			}
+		}
 		current_year >= 5470
-		title:e_gondor.holder = { in_diplomatic_range = title:e_bellakar.holder }
-		title:e_gondor.holder = { faith_is_good = yes }
-		title:e_gondor.holder.dynasty = dynasty:dynasty_elros 
+		OR = {
+			AND = {
+				exists = title:e_bellakar.holder
+				in_diplomatic_range = title:e_bellakar.holder
+			}
+			AND = {
+				exists = title:e_pharazain.holder
+				in_diplomatic_range = title:e_pharazain.holder
+			}
+		}
+		faith_is_good = yes
+		dynasty = dynasty:dynasty_elros 
 
 		NOT = {
 			is_target_in_global_variable_list = {
@@ -1116,19 +1321,39 @@ decision_gondor_x_bellakar = {
 				target = flag:gondor_x_bellakar
 			}
 		}
-
-		NOT = { 
-			title:e_gondor.holder = {
-				is_allied_to = title:e_bellakar.holder
+		trigger_if = {
+			limit = {
+				exists = title:e_pharazain.holder
 			}
-		} 
+			NOT = {
+				is_allied_to = title:e_pharazain.holder
+			}
+		}
+		trigger_else = {
+			trigger_if = {
+				limit = {
+					exists = title:e_bellakar.holder
+				}
+				NOT = {
+					is_allied_to = title:e_bellakar.holder
+				}
+			}
+		}
 	}
 
 	# IS VALID
 	is_valid = {
 		prestige_level >= 4
 		sauron_is_alive = yes
-		title:e_bellakar.holder = { faith_is_good = yes }
+		trigger_if = {
+			limit = {
+				exists = title:e_pharazain.holder
+			}
+			title:e_pharazain.holder = { faith_is_good = yes }
+		}
+		trigger_else = {
+			title:e_bellakar.holder = { faith_is_good = yes }
+		}
 		custom_tooltip = {
 			text = decision_gondor_x_bellakar_custom_tooltip_a
 			is_target_in_global_variable_list = {
@@ -1153,15 +1378,29 @@ decision_gondor_x_bellakar = {
 
 	#EFFECT
 	effect = { # make an alliance between Gondor x Bellakar for next ~150 years or something idk
+		play_music_cue = lotr_cue_beacons
 		custom_tooltip = decision_gondor_x_bellakar_custom_effect
 		add_to_global_variable_list = {
 			name = unavailable_unique_decisions
 			target = flag:gondor_x_bellakar
 		}
-		title:e_bellakar.holder = {
-			trigger_event = {
-				id = gondor.2950
-				days = { 15 30 }
+		if = {
+			limit = {
+				exists = title:e_pharazain.holder
+			}
+			title:e_pharazain.holder = {
+				trigger_event = {
+					id = gondor.2950
+					days = { 15 30 }
+				}
+			}
+		}
+		else = {
+			title:e_bellakar.holder = {
+				trigger_event = {
+					id = gondor.2950
+					days = { 15 30 }
+				}
 			}
 		}
 	}
@@ -1232,6 +1471,8 @@ decision_reunited_kingdom = {
 	effect = {
 		get_title = title:e_reunitedkingdom
 		set_primary_title_to = title:e_reunitedkingdom
+
+		trigger_event = gondor.3602   # Proclaim the Reunited Kingdom flavour
 		
 		add_prestige = 1500
 		dynasty = { add_dynasty_prestige = 1000 }
@@ -1348,7 +1589,14 @@ decision_solidify_reunited_kingdom = {
 					set_de_jure_liege_title = title:e_reunitedkingdom
 				}
 			}
+			title:k_isengard = {
+				set_de_jure_liege_title = title:e_reunitedkingdom
+			}
+			title:k_shire = {
+				set_de_jure_liege_title = title:e_reunitedkingdom
+			}
 		}
+		trigger_event = gondor.3603   # Solidify the Reunited Kingdom flavour
 
 		add_to_global_variable_list = {
 			name = unavailable_unique_decisions
@@ -1382,6 +1630,7 @@ decision_reunify_dunedain = {
 			name = unavailable_unique_decisions
 			target = flag:decision_solidify_reunited_kingdom
 		}
+		culture = { has_cultural_pillar = heritage_dunedain }
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -1415,8 +1664,10 @@ decision_reunify_dunedain = {
 				reset_culture_creation_date = yes
 				get_all_innovations_from = culture:gondorian
 				get_all_innovations_from = culture:arnorian
+				set_culture_pillar = language_westron
 			}
 		}
+		trigger_event = gondor.3604   # Restore Dunedain Identity flavour
 
 		set_culture = culture:dunedain
 		
@@ -1424,13 +1675,21 @@ decision_reunify_dunedain = {
 			limit = { 
 				any_spouse = { 
 					is_landed = no 
-					culture = { has_cultural_pillar = heritage_dunedain }
+					OR = {
+						culture = culture:gondorian
+						culture = culture:arnorian
+						culture = culture:dunedain_ranger
+					}
 				} 
 			}
 			every_spouse = {
 				limit = {
 					is_landed = no
-					culture = { has_cultural_pillar = heritage_dunedain }
+					OR = {
+						culture = culture:gondorian
+						culture = culture:arnorian
+						culture = culture:dunedain_ranger
+					}
 				}
 				if = {
 					limit = { is_ai = yes }
@@ -1483,13 +1742,21 @@ decision_reunify_dunedain = {
 		if = {
 			limit = {
 				any_vassal_or_below = {
-					culture = { has_cultural_pillar = heritage_dunedain }
+					OR = {
+						culture = culture:gondorian
+						culture = culture:arnorian
+						culture = culture:dunedain_ranger
+					}
 				}
 			}
 			every_vassal_or_below = {
 				custom = decision_reunify_dunedain_vassals_custom
 				limit = {
-					culture = { has_cultural_pillar = heritage_dunedain }
+					OR = {
+						culture = culture:gondorian
+						culture = culture:arnorian
+						culture = culture:dunedain_ranger
+					}
 				}
 				if = {
 					limit = { is_ai = yes }
@@ -1501,13 +1768,21 @@ decision_reunify_dunedain = {
 						limit = { 
 							any_spouse = { 
 								is_landed = no
-								culture = { has_cultural_pillar = heritage_dunedain }
+								OR = {
+									culture = culture:gondorian
+									culture = culture:arnorian
+									culture = culture:dunedain_ranger
+								}
 							} 
 						}
 						every_spouse = {
 							limit = {
 								is_landed = no
-								culture = { has_cultural_pillar = heritage_dunedain }
+								OR = {
+									culture = culture:gondorian
+									culture = culture:arnorian
+									culture = culture:dunedain_ranger
+								}
 							}
 							if = {
 								limit = { is_ai = yes }
@@ -1521,14 +1796,22 @@ decision_reunify_dunedain = {
 							any_close_family_member = {
 								is_landed = no
 								NOT = { is_spouse_of = prev }
-								culture = { has_cultural_pillar = heritage_dunedain }
+								OR = {
+									culture = culture:gondorian
+									culture = culture:arnorian
+									culture = culture:dunedain_ranger
+								}
 							}
 						}
 						every_close_family_member = {
 							limit = {
 								is_landed = no
 								NOT = { is_spouse_of = prev }
-								culture = { has_cultural_pillar = heritage_dunedain }
+								OR = {
+									culture = culture:gondorian
+									culture = culture:arnorian
+									culture = culture:dunedain_ranger
+								}
 							}
 							custom = all_unlanded_family_members
 							if = {
@@ -1541,12 +1824,20 @@ decision_reunify_dunedain = {
 					if = {
 						limit = {
 							any_child = {
-								culture = { has_cultural_pillar = heritage_dunedain }
+								OR = {
+									culture = culture:gondorian
+									culture = culture:arnorian
+									culture = culture:dunedain_ranger
+								}
 							}
 						}
 						every_child = {
 							limit = {
-								culture = { has_cultural_pillar = heritage_dunedain }
+								OR = {
+									culture = culture:gondorian
+									culture = culture:arnorian
+									culture = culture:dunedain_ranger
+								}
 							}
 							custom = all_children_custom
 							if = {
@@ -1559,13 +1850,21 @@ decision_reunify_dunedain = {
 					if = {
 						limit = {
 							any_vassal_or_below = {
-								culture = { has_cultural_pillar = heritage_dunedain }
+								OR = {
+									culture = culture:gondorian
+									culture = culture:arnorian
+									culture = culture:dunedain_ranger
+								}
 							}
 						}
 						every_vassal_or_below = {
 							custom = decision_reunify_dunedain_vassals_custom
 							limit = {
-								culture = { has_cultural_pillar = heritage_dunedain }
+								OR = {
+									culture = culture:gondorian
+									culture = culture:arnorian
+									culture = culture:dunedain_ranger
+								}
 							}
 							if = {
 								limit = { is_ai = yes }
@@ -1577,13 +1876,21 @@ decision_reunify_dunedain = {
 									limit = { 
 										any_spouse = { 
 											is_landed = no 
-											culture = { has_cultural_pillar = heritage_dunedain }
+											OR = {
+												culture = culture:gondorian
+												culture = culture:arnorian
+												culture = culture:dunedain_ranger
+											}
 										} 
 									}
 									every_spouse = {
 										limit = {
 											is_landed = no
-											culture = { has_cultural_pillar = heritage_dunedain }
+											OR = {
+												culture = culture:gondorian
+												culture = culture:arnorian
+												culture = culture:dunedain_ranger
+											}
 										}
 										if = {
 											limit = { is_ai = yes }
@@ -1597,14 +1904,22 @@ decision_reunify_dunedain = {
 										any_close_family_member = {
 											is_landed = no
 											NOT = { is_spouse_of = prev }
-											culture = { has_cultural_pillar = heritage_dunedain }
+											OR = {
+												culture = culture:gondorian
+												culture = culture:arnorian
+												culture = culture:dunedain_ranger
+											}
 										}
 									}
 									every_close_family_member = {
 										limit = {
 											is_landed = no
 											NOT = { is_spouse_of = prev }
-											culture = { has_cultural_pillar = heritage_dunedain }
+											OR = {
+												culture = culture:gondorian
+												culture = culture:arnorian
+												culture = culture:dunedain_ranger
+											}
 										}
 										custom = all_unlanded_family_members
 										if = {
@@ -1617,12 +1932,20 @@ decision_reunify_dunedain = {
 								if = {
 									limit = {
 										any_child = {
-											culture = { has_cultural_pillar = heritage_dunedain }
+											OR = {
+												culture = culture:gondorian
+												culture = culture:arnorian
+												culture = culture:dunedain_ranger
+											}
 										}
 									}
 									every_child = {
 										limit = {
-											culture = { has_cultural_pillar = heritage_dunedain }
+											OR = {
+												culture = culture:gondorian
+												culture = culture:arnorian
+												culture = culture:dunedain_ranger
+											}
 										}
 										custom = all_children_custom
 										if = {
@@ -1639,17 +1962,46 @@ decision_reunify_dunedain = {
 			}
 		}
 
-		#Flip Counties
-		every_county = {
-			custom = decision_reunify_dunedain_counties_custom
-			limit = {
-				OR = {
-					holder = root
-					holder.top_liege = root
+		hidden_effect = {
+			every_county_in_region = {
+				region = custom_gondorian_heartlands
+				limit = { 
+					OR = {
+						holder = root
+						holder.top_liege = root
+					}
+					OR = {
+						culture = culture:gondorian
+						culture = culture:arnorian
+						culture = culture:dunedain_ranger
+					}
 				}
-				culture = { has_cultural_pillar = heritage_dunedain }
+				random = {
+					chance = 90
+					set_county_culture = culture:dunedain
+				}
 			}
-			set_county_culture = culture:dunedain
+
+			#Flip Counties
+			every_sub_realm_county = {
+				limit = {
+					OR = {
+						holder = root
+						holder.top_liege = root
+					}
+					OR = {
+						culture = culture:gondorian
+						culture = culture:arnorian
+						culture = culture:dunedain_ranger
+					}
+					NOT = { title_province = { geographical_region = custom_gondorian_heartlands } }
+
+				}
+				random = {
+					chance = 60
+					set_county_culture = culture:dunedain
+				}
+			}
 		}
 
 		culture:dunedain = {
@@ -1665,6 +2017,108 @@ decision_reunify_dunedain = {
 	ai_goal = yes
 	ai_potential = { always = yes }
 	ai_will_do = { base = 100 }
+}
+
+decision_reclaim_royal_lineage = {
+	sort_order = 200
+	desc = decision_reclaim_royal_lineage_desc
+	picture = "gfx/interface/illustrations/decisions/decision_minas_tirith_02.dds"
+	major = yes
+	selection_tooltip = decision_reclaim_royal_lineage_tooltip
+	confirm_text = decision_reclaim_royal_lineage_confirm
+	
+	is_shown = {
+		is_landed = yes
+		highest_held_title_tier >= tier_kingdom
+		faith_is_good = yes
+		OR = { # Ensures at least one option is still available
+			dynasty = dynasty:dynasty_aranbor
+			dynasty = dynasty:dynasty_silivnir
+		}
+		trigger_if = {
+			limit = { 
+				has_dlc_feature = legends
+				is_ai = no
+			}
+			custom_tooltip = {
+				text = finished_isildur_legend_tt
+				house = { has_house_modifier = heirs_of_isildur_modifier }
+			}
+		}
+		trigger_else = {
+			legitimacy_level = 5
+		}
+	}
+	
+	is_valid = {
+		culture = { has_cultural_pillar = heritage_dunedain }
+		faith.religion = religion:dunedain_religion
+		prestige_level >= 5
+		has_title = title:e_arnor
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+		is_independent_ruler = yes
+	}
+	
+	effect = {
+		play_music_cue = lotr_cue_gondor
+		if = {		# Aranbor
+			limit = {
+				dynasty = dynasty:dynasty_aranbor
+			}
+			custom_tooltip = reclaim_royal_lineage_aranbor_tooltip
+			dynasty:dynasty_aranbor = { save_scope_as = cadet_dynasty }
+			character:lineofaranbor3 = { save_scope_as = royal_ancestor }
+		}
+		else_if = {		# Silivnir
+			limit = {
+				dynasty = dynasty:dynasty_silivnir
+			}
+			custom_tooltip = reclaim_royal_lineage_silivnir_tooltip
+			dynasty:dynasty_silivnir = { save_scope_as = cadet_dynasty }
+			character:lineofsilivnir1 = { save_scope_as = royal_ancestor }
+		}
+		reclaim_royal_lineage_effect = yes
+		add_unpressed_claim = title:e_gondor
+	}
+	
+	cost = {
+		gold = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				value = 2000
+			}
+			else = {
+				value = 1
+			}
+		}
+		prestige = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				value = 1000
+			}
+			else = {
+				value = 1
+			}
+		}
+	}
+	
+	ai_goal = yes
+	
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 1000
+	}
 }
 
 ## Numenor in Exile ##
@@ -1835,6 +2289,18 @@ decision_numenor_in_exile = {
 		if = {
 			limit = { root.culture = { NOT = { has_innovation = innovation_numenorean_architecture_03 } } }
 			root.culture = { add_innovation = innovation_numenorean_architecture_03 }
+		}
+		if = {
+			limit = { has_dlc_feature = legends }
+			create_legend_seed = {
+				type = legitimizing
+				quality = illustrious
+				chronicle = new_title
+				properties = {
+					title = root.primary_title
+					founder = root
+				}
+			}
 		}
 	}
 }
@@ -2504,9 +2970,11 @@ decision_restore_gondor_province = {
 			}
 			trigger_if = { # Enedhwaith - RK/NiE Only
 				limit = { show_enedhwaith_trigger = yes }
-				completely_controls = title:k_druwaith
-				completely_controls = title:k_enedhwaith
-				completely_controls = title:k_dunland
+				AND = {
+					completely_controls = title:k_druwaith
+					completely_controls = title:k_enedhwaith
+					completely_controls = title:k_dunland
+				}
 			}
 			trigger_if = { # Eregion - RK/NiE Only
 				limit = { show_eregion_trigger = yes }
@@ -2520,7 +2988,6 @@ decision_restore_gondor_province = {
 		is_available_adult = yes
 		is_at_war = no
 	}
-	
 	
 	widget = {
 		gui = "decision_view_widget_option_list_generic"
@@ -2647,6 +3114,7 @@ decision_restore_gondor_province = {
 	}
 	
 	effect = {
+		play_music_cue = lotr_cue_gondor
 		if = {		# Fallback - Displays as effect if no others available
 			limit = {
 				scope:reintegrate_province_fallback = yes
@@ -2923,6 +3391,7 @@ decision_adopt_arnorian_culture = {
 	# EFFECT 
 	effect = {
 
+		play_music_cue = lotr_cue_gondor
 		set_culture = culture:arnorian
 		
 		if = { #juke note: this code should be refined so it works with multiple spouses, though its unlikely to happen
@@ -3154,4 +3623,91 @@ decision_adopt_arnorian_culture = {
 	ai_goal = no
 	ai_potential = { always = no }
 	ai_will_do = { base = 100 }
+}
+
+decision_integrate_the_northern_provinces = {
+	title = decision_integrate_the_northern_provinces
+	picture = "gfx/interface/illustrations/decisions/decision_rhudaur_02.dds"
+	major = yes
+	selection_tooltip = decision_integrate_the_northern_provinces_tooltip
+	desc = decision_integrate_the_northern_provinces_desc
+	confirm_text = decision_integrate_the_northern_provinces_confirm
+
+	
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+
+	is_shown = {
+		is_independent_ruler = yes
+		culture = { has_cultural_pillar = heritage_dunedain }
+		OR = {
+			has_title = title:e_arnor
+			AND = {
+				has_title = title:e_reunitedkingdom
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions
+					target = flag:decision_solidify_reunited_kingdom
+				}
+			}
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_integrate_the_northern_provinces
+			}
+		}
+	}
+
+	is_valid = {
+        completely_controls_region = custom_lowlands_angmar
+        completely_controls = title:k_forochel
+    }
+
+    is_valid_showing_failures_only = {
+        is_imprisoned = no
+        is_available_adult = yes
+        is_at_war = no
+    }
+
+	effect = {
+		trigger_event = {
+			id = gondor.3600
+			days = 1
+		}
+		dynasty = { add_dynasty_prestige = 500 }
+		hidden_effect = {
+			if = {
+				limit = {
+					has_title = title:e_reunitedkingdom
+					is_target_in_global_variable_list = {
+						name = unavailable_unique_decisions
+						target = flag:decision_solidify_reunited_kingdom
+					}
+				}
+				title:k_angmar = { 
+					set_de_jure_liege_title = title:e_reunitedkingdom
+				}
+				title:k_forochel = {
+					set_de_jure_liege_title = title:e_reunitedkingdom
+				}
+			}
+			else = {
+				title:k_angmar = {
+					set_de_jure_liege_title = title:e_arnor
+				}
+				title:k_forochel = {
+					set_de_jure_liege_title = title:e_arnor
+				}
+			}	
+		}	
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_integrate_the_northern_provinces
+		}
+	}	
 }

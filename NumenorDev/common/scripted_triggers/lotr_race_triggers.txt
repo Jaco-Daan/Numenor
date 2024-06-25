@@ -27,12 +27,13 @@ is_human_culture = { #all other races and species should be added here
 }
 
 is_nazgul = {
-    culture = culture:ringwraith
+	culture = culture:ringwraith
 }
 
 is_nazgul_culture = {
-    this = culture:ringwraith
+	this = culture:ringwraith
 }
+
 is_valar = {
 	culture = culture:valar
 }
@@ -82,7 +83,14 @@ cannot_be_killed = {
 		is_valar = yes
 		is_maiar = yes
 		is_undead = yes
-		has_title = title:k_wastelands
+		this = character:k_wastelands_holder
+	}
+}
+
+is_immortal = { # Juke note: Trigger present in vanilla but not defined, PDX was kind enough to add it to some events for modders
+	OR = {
+		cannot_be_killed = yes
+		is_elf = yes
 	}
 }
 is_orc = { #juke note: we need to decide if we want these to have separate triggers
@@ -91,6 +99,7 @@ is_orc = { #juke note: we need to decide if we want these to have separate trigg
 		OR = {
 			culture = { has_cultural_pillar = heritage_orc }
 			culture = { has_cultural_pillar = heritage_goblin }
+			culture = { has_cultural_pillar = heritage_troll }
 		}
 	}
 }
@@ -103,6 +112,7 @@ is_orc_culture = {
 	OR = {
 		has_cultural_pillar = heritage_orc
 		has_cultural_pillar = heritage_goblin
+		has_cultural_pillar = heritage_troll
 	}
 }
 
@@ -117,6 +127,14 @@ has_orc_accolades = { # juke note: used for accolade names - orcs will use some 
 		is_nazgul = yes
 		has_character_flag = saruman_orc_accolades
 	}
+}
+
+is_troll = {
+	culture = { has_cultural_pillar = heritage_troll }
+}
+
+is_troll_culture = {
+	has_cultural_pillar = heritage_troll
 }
 
 is_druedain = {
@@ -163,12 +181,7 @@ is_elf_culture = {
 }
 
 is_dunedain = {
-	OR = {
-		has_trait = blood_of_numenor_1
-		has_trait = blood_of_numenor_2
-		has_trait = blood_of_numenor_3
-		has_trait = blood_of_numenor_4
-	}
+	numenorean_blood_tier >= 1
 }
 
 is_nazgul = {
@@ -326,6 +339,32 @@ is_legit_istari = {
 	}
 }
 
+# For generated courtiers
+not_nazgul = {
+	culture = culture:ringwraith
+	NOT = { has_trait = nazgul }
+}
+not_istari = {
+	culture = culture:istari
+	NOT = { has_trait = istari }
+}
+not_istari_evil = {
+	culture = culture:istari_evil
+	NOT = { has_trait = istari }
+}
+not_maiar = {
+	culture = culture:maiar
+	NOT = { has_trait = maiar }
+}
+not_maiar_fallen = {
+	culture = culture:maiar_fallen
+	NOT = { has_trait = maiar }
+}
+not_valar = {
+	culture = culture:valar
+	NOT = { has_trait = valar }
+}
+
 is_underground_race = {
 	OR = {
 		is_dwarf = yes
@@ -382,45 +421,24 @@ culture_conversion_to_allowed_culture = { #example culture_conversion_to_allowed
 
 lotr_orc_buildings = { #Orc buildings are enabled under these conditions
 	OR = {
-		#culture = { has_cultural_pillar = heritage_orc }
 		is_orc = yes
-		is_goblin = yes
-		has_character_flag = is_sauron
-		has_trait = nazgul
-		faith = faith:lidless_eye
-		faith = faith:cult_of_zigur
+		this = character:mouthofsauron
 		AND = {
-			has_character_flag = is_saruman
-			OR = {
-				has_faith = faith:lidless_eye
-				has_faith = faith:cult_of_zigur
-				has_faith = faith:white_hand_cult
-			}
-			#has_culture = culture:istari_evil
+			cannot_be_killed = yes
+			religion = { is_in_family = rf_forcesofevil }
 		}
 	}
 }
 
 lotr_orc_or_nurniag_buildings = { #Orc buildings are enabled under these conditions
 	OR = {
-		#culture = { has_cultural_pillar = heritage_orc }
-		is_orc = yes
-		is_goblin = yes
 		culture = culture:nurniag
 		culture = { any_parent_culture_or_above = { this = culture:nurniag } }
-		has_character_flag = is_sauron
-		has_trait = nazgul
-		faith = faith:lidless_eye
-		faith = faith:cult_of_zigur
+		is_orc = yes
+		this = character:mouthofsauron
 		AND = {
-			has_character_flag = is_saruman
-			#OR = {
-			#	has_faith = faith:lidless_eye
-			#	has_faith = faith:cult_of_zigur
-			#	has_faith = faith:white_hand_cult
-			#}
-			#has_culture = culture:istari_evil
-			is_evil_istari = yes
+			cannot_be_killed = yes
+			religion = { is_in_family = rf_forcesofevil }
 		}
 	}
 }
@@ -429,42 +447,7 @@ lotr_subterranean_buildings = { #Subterranean holdings are enabled under these c
 	OR = {
 		#culture = { has_cultural_pillar = heritage_orc }
 		is_orc = yes
-		is_goblin = yes
 		is_dwarf = yes
 		#is_troll = yes ;>
-	}
-}
-
-lotr_marriage_allowed = { #this and the next one are inserted into vanilla marriage_triggers, best use those when you deal with marriage in events, etc.
-	lotr_children_allowed = yes
-	NOR = { # AI Numenoreans will not seek marriages before coming of full age.
-		AND = {
-			age < 20
-			age >= 16
-			has_trait = blood_of_numenor_1
-			is_ai = yes
-		}
-		AND = {
-			age < 30
-			age >= 16
-			has_trait = blood_of_numenor_2
-			is_ai = yes
-		}
-		AND = {
-			age < 40
-			age >= 16
-			has_trait = blood_of_numenor_3
-			is_ai = yes
-		}
-		AND = {
-			age < 50
-			age >= 16
-			has_trait = blood_of_numenor_4
-			is_ai = yes
-		}
-		is_nazgul = yes
-		is_maiar = yes
-		has_trait = widowed
-		has_trait = cannot_marry
 	}
 }

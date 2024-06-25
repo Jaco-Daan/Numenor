@@ -55,8 +55,20 @@
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -122,8 +134,20 @@ demanding_poet_lover_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -200,8 +224,20 @@ demanding_poet_diplomacy_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -268,8 +304,20 @@ demanding_poet_stewardship_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -346,8 +394,20 @@ demanding_poet_martial_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -414,8 +474,20 @@ demanding_poet_intrigue_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -482,8 +554,20 @@ demanding_poet_learning_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -545,8 +629,20 @@ suspicious_genealogist_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -610,8 +706,20 @@ alluring_suitor_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }

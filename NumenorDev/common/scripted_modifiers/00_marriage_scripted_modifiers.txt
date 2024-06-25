@@ -2,6 +2,12 @@
 
 
 marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
+	modifier = {
+		scope:actor = { has_character_modifier = abandoned_marriage_modifier }
+		scope:actor = scope:secondary_actor
+		add = -150
+		desc = ABANDONED_SPOUSE_MODIFIER
+	}
 	#########
 	# HOOKS #
 	#########
@@ -16,38 +22,6 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 		add = 200
 		scope:actor = { has_strong_hook = scope:recipient }
 		desc = SCHEME_STRONG_HOOK_USED
-	}
-
-	#################
-	# COMING OF AGE #
-	#################
-	modifier = {
-		add = -1000
-		scope:secondary_recipient = {
-			OR = {
-				AND = {
-					age < 20
-					age >= 16
-					has_trait = blood_of_numenor_1
-				}
-				AND = {
-					age < 30
-					age >= 16
-					has_trait = blood_of_numenor_2
-				}
-				AND = {
-					age < 40
-					age >= 16
-					has_trait = blood_of_numenor_3
-				}
-				AND = {
-					age < 50
-					age >= 16
-					has_trait = blood_of_numenor_4
-				}
-			}
-		}
-		desc = TOO_YOUNG_TO_MARRY
 	}
 	
 	#########
@@ -73,6 +47,12 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 		scope:secondary_actor.dynasty = { has_dynasty_perk = glory_legacy_1 }
 		add = glory_legacy_1_marriage_acceptance
 		desc = DYNASTY_LEGACY_GLORY_MARRIAGE_ACCEPTANCE_PERK_MODIFIER
+	}
+	modifier = { # Dynasty Khvarenah Perk acceptance, checks the secondary recipients dynasty for the perk
+		exists = scope:secondary_actor.dynasty
+		scope:secondary_actor.dynasty = { has_dynasty_perk = fp3_khvarenah_legacy_3 }
+		add = khvarenah_legacy_marriage_acceptance
+		desc = DYNASTY_LEGACY_KHVARENAH_MARRIAGE_ACCEPTANCE_PERK_MODIFIER
 	}
 
 	##########################
@@ -125,10 +105,6 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 		}
 		desc = MARRYING_HEIR_REASON
 	}
-
-	# WoK: These are currently commented out and may either be deleted or replaced by LotR-specific systems.
-    #species_and_eyecolor_marriage_modifier = yes
-    #roshar_scripted_marriage_modifier = yes
 	
 	##############################################
 	# ALLIANCE/HOSTILITY FACTORS ("REALPOLITIK") #
@@ -855,41 +831,6 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 		desc = AI_DYNASTY_PRESTIGE_REASON_SECONDARY
 	}	
 	
-	####################
-	# NUMENOREAN BLOOD #
-	####################
-	modifier = {
-        scope:secondary_actor.numenorean_blood_tier > scope:secondary_recipient.numenorean_blood_tier
-                    OR = {
-                    has_trait = blood_of_numenor_1
-                    has_trait = blood_of_numenor_2
-                    has_trait = blood_of_numenor_3
-                    has_trait = blood_of_numenor_4
-                }
-        add = {
-            value = scope:secondary_actor.numenorean_blood_tier
-            subtract = scope:secondary_recipient.numenorean_blood_tier
-            multiply = 5
-        }
-        desc = NUMENOREAN_BLOOD_HIGHER_TIER_REASON
-    }
-
-    modifier = {
-        scope:secondary_actor.numenorean_blood_tier < scope:secondary_recipient.numenorean_blood_tier
-            OR = {
-                    has_trait = blood_of_numenor_1
-                    has_trait = blood_of_numenor_2
-                    has_trait = blood_of_numenor_3
-                    has_trait = blood_of_numenor_4
-                }
-        add = {
-            value = scope:secondary_actor.numenorean_blood_tier
-            subtract = scope:secondary_recipient.numenorean_blood_tier
-            multiply = 60
-        }
-        desc = NUMENOREAN_BLOOD_LOWER_TIER_REASON
-    }
-
 
 	#####################################
 	# PENALTIES FOR INCORRECT LINEALITY # (matrilineal for men, patrilineal for women. Ignored entirely for same-sex marriage)
@@ -1140,18 +1081,16 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 	###############
 	# PROCREATION #
 	###############
-	#Non-Numenorean Blood
 	compare_modifier = { # Recipient is reluctant to marry old women (procreation is a key factor)
 		trigger = {
 			scope:secondary_actor = {
 				is_elf = no
-				age > 29
+				fertility_age_equivalent > 29
 				is_female = yes
-				NOT = { has_trait = blood_of_numenor }
 			}
 			scope:secondary_recipient = {
 				is_elf = no
-				is_adult = yes
+				is_nubile = yes
 				OR = {
 					AND = {
 						exists = scope:secondary_recipient.dynasty
@@ -1166,199 +1105,69 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 					}
 					is_ruler = yes
 					is_close_or_extended_family_of = scope:recipient
-					this = scope:recipient.player_heir
+					AND = {
+						exists = scope:recipient.player_heir
+						this = scope:recipient.player_heir
+					}
 				}
 			}
 		}
 		target = scope:secondary_actor
-		value = age
-		multiplier = -5.0
+		value = fertility_age_equivalent
+		multiplier = -10.0
 		step = 1
 		offset = -29
 		desc = MARRY_AGE
 	}
 	
-	# Tier 1 Numenorean Blood
-	compare_modifier = { # Recipient is reluctant to marry old women (procreation is a key factor)
-		trigger = {
-			scope:secondary_actor = {
-				is_elf = no
-				age > 39
-				is_female = yes
-				has_trait = blood_of_numenor_1
-			}
-			scope:secondary_recipient = {
-				is_elf = no
-				is_adult = yes
-				OR = {
-					AND = {
-						exists = scope:secondary_recipient.dynasty
-						scope:secondary_recipient.dynasty = {
-							OR = {
-								any_dynasty_member = {
-									count >= 2
-								}
-								dynasty_prestige_level > 1
-							}
-						}
-					}
-					is_ruler = yes
-					is_close_or_extended_family_of = scope:recipient
-					this = scope:recipient.player_heir
-				}
-			}
-		}
-		target = scope:secondary_actor
-		value = age
-		multiplier = -5.0
-		step = 1
-		offset = -39
-		desc = MARRY_AGE
-	}
-	
-	# Tier 2 Numenorean Blood
-	compare_modifier = { # Recipient is reluctant to marry old women (procreation is a key factor)
-		trigger = {
-			scope:secondary_actor = {
-				is_elf = no
-				age > 59
-				is_female = yes
-				has_trait = blood_of_numenor_2
-			}
-			scope:secondary_recipient = {
-				is_elf = no
-				is_adult = yes
-				OR = {
-					AND = {
-						exists = scope:secondary_recipient.dynasty
-						scope:secondary_recipient.dynasty = {
-							OR = {
-								any_dynasty_member = {
-									count >= 2
-								}
-								dynasty_prestige_level > 1
-							}
-						}
-					}
-					is_ruler = yes
-					is_close_or_extended_family_of = scope:recipient
-					this = scope:recipient.player_heir
-				}
-			}
-		}
-		target = scope:secondary_actor
-		value = age
-		multiplier = -5.0
-		step = 1
-		offset = -59
-		desc = MARRY_AGE
-	}
-	
-	# Tier 3 Numenorean Blood
-	compare_modifier = { # Recipient is reluctant to marry old women (procreation is a key factor)
-		trigger = {
-			scope:secondary_actor = {
-				is_elf = no
-				age > 109
-				is_female = yes
-				has_trait = blood_of_numenor_3
-			}
-			scope:secondary_recipient = {
-				is_elf = no
-				is_adult = yes
-				OR = {
-					AND = {
-						exists = scope:secondary_recipient.dynasty
-						scope:secondary_recipient.dynasty = {
-							OR = {
-								any_dynasty_member = {
-									count >= 2
-								}
-								dynasty_prestige_level > 1
-							}
-						}
-					}
-					is_ruler = yes
-					is_close_or_extended_family_of = scope:recipient
-					this = scope:recipient.player_heir
-				}
-			}
-		}
-		target = scope:secondary_actor
-		value = age
-		multiplier = -5.0
-		step = 1
-		offset = -109
-		desc = MARRY_AGE
-	}
-	
-	# Tier 4 Numenorean Blood
-	compare_modifier = { # Recipient is reluctant to marry old women (procreation is a key factor)
-		trigger = {
-			scope:secondary_actor = {
-				is_elf = no
-				age > 129
-				is_female = yes
-				has_trait = blood_of_numenor_4
-			}
-			scope:secondary_recipient = {
-				is_elf = no
-				is_adult = yes
-				OR = {
-					AND = {
-						exists = scope:secondary_recipient.dynasty
-						scope:secondary_recipient.dynasty = {
-							OR = {
-								any_dynasty_member = {
-									count >= 2
-								}
-								dynasty_prestige_level > 1
-							}
-						}
-					}
-					is_ruler = yes
-					is_close_or_extended_family_of = scope:recipient
-					this = scope:recipient.player_heir
-				}
-			}
-		}
-		target = scope:secondary_actor
-		value = age
-		multiplier = -5.0
-		step = 1
-		offset = -129
-		desc = MARRY_AGE
-	}
-
-	
 	compare_modifier = { # Recipient is VERY reluctant to betrothe old women to boys
 		trigger = {
 			scope:secondary_actor = {
 				is_elf = no
-				age > 20
+				fertility_age_equivalent > 20
 				is_female = yes
 			}
 			scope:secondary_recipient = {
 				is_elf = no
-				is_adult = no
+				is_nubile = no
 			}
 		}
 		target = scope:secondary_actor
-		value = age
-		multiplier = -5.0
+		value = fertility_age_equivalent
+		multiplier = -10.0
 		step = 1
 		offset = -20
 		desc = MARRY_AGE
 	}
+	
+	compare_modifier = { # Recipient is VERY reluctant to marry young Dunedain women to old men
+		trigger = {
+			scope:secondary_actor = {
+				is_elf = no
+				health_age_equivalent > 50
+			}
+			scope:secondary_recipient = {
+				is_female = yes
+				culture = { has_cultural_pillar = heritage_dunedain }
+				fertility_age_equivalent < 35
+			}
+		}
+		target = scope:secondary_actor
+		value = health_age_equivalent
+		multiplier = -10.0
+		step = 1
+		offset = -50
+		desc = MARRY_AGE
+	}
 
 	modifier = { # A Recipient is unlikely to agree to a marriage where the Secondary_recipient is fertile and the Secondary_actor isn't even if Secondary_recipient has children
-		add = -100
+		add = -200
 		
 		scope:secondary_recipient = {
 			is_elf = no
 			OR = {
 				fertility > 0.1
-				is_adult = no
+				is_nubile = no
 			}
 			OR = {
 				AND = {
@@ -1381,7 +1190,7 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 			}
 			OR = {
 				is_female = no
-				age < 45
+				fertility_age_equivalent < 45
 			}
 			any_child = {
 				count >= 1
@@ -1389,7 +1198,7 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 		}
 		scope:secondary_actor = {
 			is_elf = no
-			is_adult = yes
+			is_nubile = yes
 			OR = {
 				fertility < 0.1
 				AND = {
@@ -1402,13 +1211,13 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 	}
 
 	modifier = { # A Recipient is VERY unlikely to agree to a marriage where the Secondary_recipient is fertile and the Secondary_actor isn't if Secondary_recipient doesn't have children
-		add = -200
+		add = -500
 		
 		scope:secondary_recipient = {
 			is_elf = no
 			OR = {
 				fertility > 0.1
-				is_adult = no
+				is_nubile = no
 			}
 			OR = {
 				AND = {
@@ -1431,7 +1240,7 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 			}
 			OR = {
 				is_female = no
-				age < 45
+				fertility_age_equivalent < 45
 			}
 			any_child = {
 				count < 1
@@ -1439,7 +1248,7 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 		}
 		scope:secondary_actor = {
 			is_elf = no
-			is_adult = yes
+			is_nubile = yes
 			OR = {
 				fertility < 0.1
 				AND = {
@@ -1452,13 +1261,13 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 	}
 
 	modifier = { # A Recipient is VERY unlikely to agree to a marriage where the Secondary_recipient is a fertile woman and the Secondary_actor is an underage boy who won't become an adult before the woman is infertile
-		add = -200
+		add = -800
 		
 		scope:secondary_recipient = {
 			is_elf = no
 			is_female = yes
-			is_adult = yes
-			age < 45
+			is_nubile = yes
+			fertility_age_equivalent < 45
 			OR = {
 				AND = {
 					exists = scope:secondary_recipient.dynasty
@@ -1481,7 +1290,7 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 		}
 		scope:secondary_actor = {
 			is_elf = no
-			is_adult = no
+			is_nubile = no
 		}
 		marriage_fertile_age_reverse_value >= 43
 		
@@ -1489,16 +1298,16 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 	}
 
 	modifier = { # A Recipient is VERY unlikely to agree to a marriage where the Secondary_actor is a woman and the Secondary_recipient is an underage boy who won't become an adult before the woman is infertile
-		add = -200
+		add = -500
 		
 		scope:secondary_actor = {
 			is_elf = no
 			is_female = yes
-			is_adult = yes
+			is_nubile = yes
 		}
 		scope:secondary_recipient = {
 			is_elf = no
-			is_adult = no
+			is_nubile = no
 			OR = {
 				AND = {
 					exists = scope:secondary_recipient.dynasty
@@ -1528,7 +1337,7 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 		add = 10
 
 		scope:secondary_recipient = {
-			is_adult = yes
+			is_nubile = yes
 			NOR = {
 				dynasty = scope:recipient.dynasty
 				is_close_or_extended_family_of = scope:recipient
@@ -1548,7 +1357,7 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 	modifier = {
 		add = -10
 		scope:secondary_recipient = {
-			is_adult = yes
+			is_nubile = yes
 			OR = {		
 				is_councillor_of = scope:recipient
 				has_relation_lover = scope:recipient
@@ -1813,7 +1622,7 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 		trigger = {
 			scope:secondary_recipient = {
 				is_elf = no
-				age > 20
+				fertility_age_equivalent > 20
 				OR = {
 					dynasty = scope:recipient.dynasty
 					is_close_or_extended_family_of = scope:recipient
@@ -1822,7 +1631,7 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 		}
 		add = {
 			value = scope:secondary_recipient.age
-			subtract = 20
+			subtract = bride_middle_age
 		}
 		desc = MARRIAGE_DESPERATION
 	}
@@ -1926,36 +1735,29 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 		desc = TRADITION_PENALTY_BLACKNUMENOREAN
 	}
 
-	## Working!
-	# scope:secondary_actor.numenorean_blood_tier > scope:secondary_recipient.numenorean_blood_tier
-
+	####################
+	# NUMENOREAN BLOOD #
+	####################
 	modifier = {
-		add = 50
-		scope:secondary_actor = { has_trait = blood_of_numenor_1 }
+		scope:secondary_actor.numenorean_blood_tier >= 1
 		scope:recipient = { culture = { has_cultural_parameter = values_numenorean_blood } }
-		desc = TRADITION_BONUS_NUMENOR_BLOOD_1
+		add = {
+			value = scope:secondary_actor.numenorean_blood_tier
+			multiply = 25
+		}
+		desc = TRADITION_BONUS_NUMENOR_BLOOD_ACTOR
 	}
-
+	
 	modifier = {
-		add = 100
-		scope:secondary_actor = { has_trait = blood_of_numenor_2 }
+		scope:secondary_recipient.numenorean_blood_tier >= 1
 		scope:recipient = { culture = { has_cultural_parameter = values_numenorean_blood } }
-		desc = TRADITION_BONUS_NUMENOR_BLOOD_2
+		add = {
+			value = scope:secondary_recipient.numenorean_blood_tier
+			multiply = -25
+		}
+		desc = TRADITION_BONUS_NUMENOR_BLOOD_RECIPIENT
 	}
-
-	modifier = {
-		add = 150
-		scope:secondary_actor = { has_trait = blood_of_numenor_3 }
-		scope:recipient = { culture = { has_cultural_parameter = values_numenorean_blood } }
-		desc = TRADITION_BONUS_NUMENOR_BLOOD_3
-	}
-
-	modifier = {
-		add = 200
-		scope:secondary_actor = { has_trait = blood_of_numenor_4 }
-		scope:recipient = { culture = { has_cultural_parameter = values_numenorean_blood } }
-		desc = TRADITION_BONUS_NUMENOR_BLOOD_4
-	}
+	
 
 	################
 	#  STRUGGLES   #
@@ -2014,6 +1816,36 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 					add = 0.2
 				}
 			}
+			if = {
+				limit = {
+					scope:actor = {
+						has_trait = fp3_struggle_detractor
+						any_character_struggle = {
+							involvement = involved
+							phase_has_catalyst = catalyst_forming_alliance_between_detractor_uninvolved_rulers
+						}
+					}
+					scope:recipient = {
+						fp3_character_uninvolved_in_struggle_trigger = yes
+					}
+				}
+				add = 0.2
+			}
+			else_if = {
+				limit = {
+					scope:recipient = {
+						has_trait = fp3_struggle_detractor
+						any_character_struggle = {
+							involvement = involved
+							phase_has_catalyst = catalyst_forming_alliance_between_detractor_uninvolved_rulers
+						}
+					}
+					scope:actor = {
+						fp3_character_uninvolved_in_struggle_trigger = yes
+					}
+				}
+				add = 0.2
+			}
 		}
 		OR = {
 			AND = {
@@ -2063,7 +1895,7 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 					is_ai = yes
 					any_character_struggle = {
 						involvement = involved
-							is_secondary_character_involvement_interloper_trigger = { CHAR = scope:actor }
+						is_secondary_character_involvement_interloper_trigger = { CHAR = scope:actor }
 					}
 				}
 				scope:actor = { is_ai = yes }
@@ -2071,6 +1903,12 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 		}
 	}
 
+	modifier = { # This could technically go in piety, but since it is tied to the struggle, it goes here
+		add = 25
+		desc = STRUGGLE_MARRIAGE_ACCEPTANCE_USING_PIETY_AS_CURRENCY
+		scope:piety_cost_reduction ?= yes
+	}
+	
 	################
 	#  DIARCHIES   #
 	################
@@ -2206,6 +2044,60 @@ marriage_ai_accept_modifier = { ###MARRIAGE SCRIPTED MODIFIERS###
 	# 		is_ai = yes
 	# 	}
 	# }
+	
+	# LOW LEGITIMACY
+	modifier = {
+		desc = "LOW_LEGITIMACY_REASON"
+		scope:actor = {
+			OR = {
+				has_legitimacy_flag = reduced_marriage_acceptance
+				has_legitimacy_flag = very_reduced_marriage_acceptance
+				has_legitimacy_flag = massively_reduced_marriage_acceptance
+			}
+		}
+		add = {
+			value = 0
+			if = {
+				limit = { scope:actor = { has_legitimacy_flag = reduced_marriage_acceptance } }
+				add = -25
+			}
+			else_if = {
+				limit = { scope:actor = { has_legitimacy_flag = very_reduced_marriage_acceptance } }
+				add = -50
+			}
+			else_if = {
+				limit = { scope:actor = { has_legitimacy_flag = massively_reduced_marriage_acceptance } }
+				add = -100
+			}
+		}
+	}
+
+	# HIGH LEGITIMACY
+	modifier = {
+		desc = "HIGH_LEGITIMACY_REASON"
+		scope:actor = {
+			OR = {
+				has_legitimacy_flag = increased_marriage_acceptance
+				has_legitimacy_flag = very_increased_marriage_acceptance
+				has_legitimacy_flag = extra_increased_marriage_acceptance
+			}
+		}
+		add = {
+			value = 0
+			if = {
+				limit = { scope:actor = { has_legitimacy_flag = increased_marriage_acceptance } }
+				add = 25
+			}
+			else_if = {
+				limit = { scope:actor = { has_legitimacy_flag = very_increased_marriage_acceptance } }
+				add = 50
+			}
+			else_if = {
+				limit = { scope:actor = { has_legitimacy_flag = extra_increased_marriage_acceptance } }
+				add = 100
+			}
+		}
+	}
 }
 
 elopment_ai_accept_modifier = { #Should copy marriage_ai_accept_modifier on relevant points, note: there are no secondary targets
@@ -2227,37 +2119,6 @@ elopment_ai_accept_modifier = { #Should copy marriage_ai_accept_modifier on rele
 		desc = AI_ELOPE_CONSEQUENCES
 	}
 
-	#################
-	# COMING OF AGE #
-	#################
-	modifier = {
-		add = -1000
-		scope:secondary_recipient = {
-			OR = {
-				AND = {
-					age < 20
-					age >= 16
-					has_trait = blood_of_numenor_1
-				}
-				AND = {
-					age < 30
-					age >= 16
-					has_trait = blood_of_numenor_2
-				}
-				AND = {
-					age < 40
-					age >= 16
-					has_trait = blood_of_numenor_3
-				}
-				AND = {
-					age < 50
-					age >= 16
-					has_trait = blood_of_numenor_4
-				}
-			}
-		}
-		desc = TOO_YOUNG_TO_MARRY
-	}
 
 	#########
 	# PERKS #
@@ -2346,42 +2207,6 @@ elopment_ai_accept_modifier = { #Should copy marriage_ai_accept_modifier on rele
 		desc = MARRYING_DOWN_REASON
 	}
 
-	
-	####################
-	# NUMENOREAN BLOOD #
-	####################
-	modifier = {
-        scope:secondary_actor.numenorean_blood_tier > scope:secondary_recipient.numenorean_blood_tier
-                    OR = {
-                    has_trait = blood_of_numenor_1
-                    has_trait = blood_of_numenor_2
-                    has_trait = blood_of_numenor_3
-                    has_trait = blood_of_numenor_4
-                }
-        add = {
-            value = scope:secondary_actor.numenorean_blood_tier
-            subtract = scope:secondary_recipient.numenorean_blood_tier
-            multiply = 5
-        }
-        desc = NUMENOREAN_BLOOD_HIGHER_TIER_REASON
-    }
-
-    modifier = {
-        scope:secondary_actor.numenorean_blood_tier < scope:secondary_recipient.numenorean_blood_tier
-            OR = {
-                    has_trait = blood_of_numenor_1
-                    has_trait = blood_of_numenor_2
-                    has_trait = blood_of_numenor_3
-                    has_trait = blood_of_numenor_4
-                }
-        add = {
-            value = scope:secondary_actor.numenorean_blood_tier
-            subtract = scope:secondary_recipient.numenorean_blood_tier
-            multiply = 60
-        }
-        desc = NUMENOREAN_BLOOD_LOWER_TIER_REASON
-    }
-	
 	
 	###########################
 	# DYNASTY PRESTIGE LEVELS #

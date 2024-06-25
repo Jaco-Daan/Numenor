@@ -85,8 +85,20 @@ fp1_ms_godi_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -173,8 +185,20 @@ fp1_ms_reformed_missionary_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -254,8 +278,20 @@ fp1_ms_nithing_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -328,8 +364,20 @@ fp1_ms_warrior_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -428,8 +476,20 @@ fp1_ms_vagrant_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -507,8 +567,20 @@ fp1_western_warrior_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -583,8 +655,20 @@ fp1_eastern_warrior_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -672,8 +756,20 @@ fp1_jomsviking_bigwig = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -770,8 +866,20 @@ fp1_jomsviking_retainer_martial = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -873,8 +981,20 @@ fp1_jomsviking_retainer_prowess = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -964,8 +1084,20 @@ fp1_deceitful_warrior_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -1051,8 +1183,20 @@ fp1_deceitful_explorer_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -1247,8 +1391,20 @@ fp1_islamic_explorer_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -1322,8 +1478,20 @@ fp1_capital_county_nithing_character = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -1419,8 +1587,20 @@ fp1_trade_partner_merchant = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -1594,8 +1774,20 @@ fp1_trade_partner_priest = {
 
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -1662,8 +1854,20 @@ fp1_trade_partner_spy = {
 		}
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -1733,8 +1937,20 @@ fp1_trade_partner_warrior = {
 		
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
@@ -1782,8 +1998,20 @@ old_country_local_warlord_template = {
 		
 		# Numenor: Adds blood of numenor 
 		if = {
+			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
+			add_trait = blood_of_numenor_7
+		}
+		else_if = {
 			limit = { culture = culture:adunaic }
-			add_trait = blood_of_numenor_4
+			random_list = {
+				20 = { add_trait = blood_of_numenor_7 }
+				20 = { add_trait = blood_of_numenor_6 }
+				20 = { add_trait = blood_of_numenor_5 }
+				20 = { add_trait = blood_of_numenor_4 }
+				20 = { add_trait = blood_of_numenor_3 }
+				20 = { add_trait = blood_of_numenor_2 }
+				20 = { add_trait = blood_of_numenor_1 }
+			}
 		}
 		if = {
 			limit = { is_dwarf = yes }
