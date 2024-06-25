@@ -156,6 +156,8 @@ impassable_mountains = RANGE { 5231 5235 } # Misty Mountains
 impassable_mountains = RANGE { 5253 5278 } # Misty Mountains
 impassable_mountains = RANGE { 5236 5238 } # Blue Mountains
 
+impassable_mountains = LIST { 4642 4643 } #Old Forest
+
 
 ############
 # WASTELAND
