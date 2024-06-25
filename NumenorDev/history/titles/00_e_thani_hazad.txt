@@ -17,18 +17,42 @@ k_an_balkumagan = {
 		#change_development_level = 10
 	}
 	3482.1.13 = {
-		holder = lineofazrubensubmod1
+		holder = lineofazruben2
 	}
-	3672.1.1 = {
-		holder = lineofazrubensubmod2
+	3668.1.1 = {
+		holder = lineofazruben3
 	}
-	3810.1.1 = {
-		holder = lineofazrubensubmod3
+	3794.1.1 = {
+		holder = lineofazruben4
 	}
-	3912.1.1 = {
-		holder = 0
+	3911.1.1 = {
+		holder = lineofazruben7
 	}
-	4931.2.18 = {
+	4003.1.1 = {
+		holder = lineofazruben8
+	}
+	4075.1.1 = {
+		holder = lineofazruben9
+	}
+	4076.1.1 = {
+		holder = 0 # Republic Period
+	}
+	4643.1.1 = {
+		holder = lineofanballukkhorohinextension4
+	}
+	4679.3.6 = {
+		holder = lineofanballukkhorohinextension5
+	}
+	4758.7.27 = {
+		holder = lineofanballukkhorohinextension6
+	}
+	4897.10.16 = {
+		holder = lineofanballukkhorohinextension7
+	}
+	4933.8.14 = {
+		holder = lineofanballukkhorohinextension8
+	}
+	4991.6.23 = {
 		holder = lineofanballukkhorohin1
 		#change_development_level = 35 # An-Balkumagan reaches its height of independence prosperity and power
 	}
@@ -44,7 +68,7 @@ k_an_balkumagan = {
 	5432.7.9 = {
 		holder = lineofanballukkhorohin4
 	}
-	5502.11.29 = {
+	5469.11.29 = {
 		holder = lineofanballukkhorohin5
 	}
 	5606.1.28 = {
@@ -130,16 +154,62 @@ k_an_balkumagan = {
 
 # Duchy of Aruzayan
 d_aruzayan = {
+	2495.1.1 = {
+		holder = lineofciryamir1
+	}
+	2510.1.1 = {
+		holder = nazgul5
+		#change_development_level = 10
+	}
+	2878.1.1 = {
+		holder = 0
+	}
 	3259.8.24 = {
 		holder = lineofazruben1
-		change_development_level = 15
+		#change_development_level = 10
 	}
-	4931.2.18 = {
+	3482.1.13 = {
+		holder = lineofazruben2
+	}
+	3668.1.1 = {
+		holder = lineofazruben3
+	}
+	3794.1.1 = {
+		holder = lineofazruben4
+	}
+	3911.1.1 = {
+		holder = lineofazruben7
+	}
+	4003.1.1 = {
+		holder = lineofazruben8
+	}
+	4075.1.1 = {
+		holder = lineofazruben9
+	}
+	4076.1.1 = {
+		holder = 0 # Republic Period
+	}
+	4643.1.1 = {
+		holder = lineofanballukkhorohinextension4
+	}
+	4679.3.6 = {
+		holder = lineofanballukkhorohinextension5
+	}
+	4758.7.27 = {
+		holder = lineofanballukkhorohinextension6
+	}
+	4897.10.16 = {
+		holder = lineofanballukkhorohinextension7
+	}
+	4933.8.14 = {
+		holder = lineofanballukkhorohinextension8
+	}
+	4991.6.23 = {
 		holder = lineofanballukkhorohin1
 		change_development_level = 35 # An-Balkumagan reaches its height of independence prosperity and power
 	}
 	5045.4.4 = { # Aftermath of the Last Armada, An-Balkumagan enters severe decline, sapped of manpower and the blood of Numenor
-		change_development_level = 12
+		change_development_level = 10
 	}
 	5180.7.9 = {
 		holder = lineofanballukkhorohin2
@@ -150,7 +220,7 @@ d_aruzayan = {
 	5432.7.9 = {
 		holder = lineofanballukkhorohin4
 	}
-	5502.11.29 = {
+	5469.11.29 = {
 		holder = lineofanballukkhorohin5
 	}
 	5606.1.28 = {
@@ -190,9 +260,6 @@ d_aruzayan = {
 		holder = lineofanballukkhorohin17
 	}
 	6435.11.5 = {
-		holder = lineofanballukkhorohin18
-	}
-	6494.6.25 = {
 		holder = lineofanballukkhorohin18
 		liege = e_thon_an_kharlokh
 	}
@@ -234,12 +301,58 @@ d_aruzayan = {
 	}
 }
 c_thadath = {
+	2495.1.1 = {
+		holder = lineofciryamir1
+	}
+	2510.1.1 = {
+		holder = nazgul5
+		#change_development_level = 10
+	}
+	2878.1.1 = {
+		holder = k_wastelands_holder
+	}
 	3259.8.24 = {
 		holder = lineofazruben1
 		change_development_level = 15
 	}
-	4931.2.18 = {
-		holder = lineofanballukkhorohin1 # An-Balkumagan reaches its height of independence prosperity and power
+	3482.1.13 = {
+		holder = lineofazruben2
+	}
+	3668.1.1 = {
+		holder = lineofazruben3
+	}
+	3794.1.1 = {
+		holder = lineofazruben4
+	}
+	3911.1.1 = {
+		holder = lineofazruben7
+	}
+	4003.1.1 = {
+		holder = lineofazruben8
+	}
+	4075.1.1 = {
+		holder = lineofazruben9
+	}
+	4076.1.1 = {
+		holder = k_wastelands_holder # Republic Period
+	}
+	4643.1.1 = {
+		holder = lineofanballukkhorohinextension4
+	}
+	4679.3.6 = {
+		holder = lineofanballukkhorohinextension5
+	}
+	4758.7.27 = {
+		holder = lineofanballukkhorohinextension6
+	}
+	4897.10.16 = {
+		holder = lineofanballukkhorohinextension7
+	}
+	4933.8.14 = {
+		holder = lineofanballukkhorohinextension8
+	}
+	4991.6.23 = {
+		holder = lineofanballukkhorohin1
 	}
 	5045.4.4 = { # Aftermath of the Last Armada, An-Balkumagan enters severe decline, sapped of manpower and the blood of Numenor
 		change_development_level = 15
@@ -253,7 +366,7 @@ c_thadath = {
 	5432.7.9 = {
 		holder = lineofanballukkhorohin4
 	}
-	5502.11.29 = {
+	5469.11.29 = {
 		holder = lineofanballukkhorohin5
 	}
 	5606.1.28 = {
@@ -337,12 +450,58 @@ c_thadath = {
 	}
 }
 c_zunen = {
+	2495.1.1 = {
+		holder = lineofciryamir1
+	}
+	2510.1.1 = {
+		holder = nazgul5
+		#change_development_level = 10
+	}
+	2878.1.1 = {
+		holder = k_wastelands_holder
+	}
 	3259.8.24 = {
 		holder = lineofazruben1
 		change_development_level = 15
 	}
-	4931.2.18 = {
-		holder = lineofanballukkhorohin1 # An-Balkumagan reaches its height of independence prosperity and power
+	3482.1.13 = {
+		holder = lineofazruben2
+	}
+	3668.1.1 = {
+		holder = lineofazruben3
+	}
+	3794.1.1 = {
+		holder = lineofazruben4
+	}
+	3911.1.1 = {
+		holder = lineofazruben7
+	}
+	4003.1.1 = {
+		holder = lineofazruben8
+	}
+	4075.1.1 = {
+		holder = lineofazruben9
+	}
+	4076.1.1 = {
+		holder = k_wastelands_holder # Republic Period
+	}
+	4643.1.1 = {
+		holder = lineofanballukkhorohinextension4
+	}
+	4679.3.6 = {
+		holder = lineofanballukkhorohinextension5
+	}
+	4758.7.27 = {
+		holder = lineofanballukkhorohinextension6
+	}
+	4897.10.16 = {
+		holder = lineofanballukkhorohinextension7
+	}
+	4933.8.14 = {
+		holder = lineofanballukkhorohinextension8
+	}
+	4991.6.23 = {
+		holder = lineofanballukkhorohin1
 	}
 	5045.4.4 = { # Aftermath of the Last Armada, An-Balkumagan enters severe decline, sapped of manpower and the blood of Numenor
 		change_development_level = 15
@@ -356,7 +515,7 @@ c_zunen = {
 	5432.7.9 = {
 		holder = lineofanballukkhorohin4
 	}
-	5502.11.29 = {
+	5469.11.29 = {
 		holder = lineofanballukkhorohin5
 	}
 	5606.1.28 = {
@@ -440,12 +599,58 @@ c_zunen = {
 	}
 }
 c_tariketh_an_kharat = {
+	2495.1.1 = {
+		holder = lineofciryamir1
+	}
+	2510.1.1 = {
+		holder = nazgul5
+		#change_development_level = 10
+	}
+	2878.1.1 = {
+		holder = k_wastelands_holder
+	}
 	3259.8.24 = {
 		holder = lineofazruben1
 		change_development_level = 15
 	}
-	4931.2.18 = {
-		holder = lineofanballukkhorohin1 # An-Balkumagan reaches its height of independence prosperity and power
+	3482.1.13 = {
+		holder = lineofazruben2
+	}
+	3668.1.1 = {
+		holder = lineofazruben3
+	}
+	3794.1.1 = {
+		holder = lineofazruben4
+	}
+	3911.1.1 = {
+		holder = lineofazruben7
+	}
+	4003.1.1 = {
+		holder = lineofazruben8
+	}
+	4075.1.1 = {
+		holder = lineofazruben9
+	}
+	4076.1.1 = {
+		holder = k_wastelands_holder # Republic Period
+	}
+	4643.1.1 = {
+		holder = lineofanballukkhorohinextension4
+	}
+	4679.3.6 = {
+		holder = lineofanballukkhorohinextension5
+	}
+	4758.7.27 = {
+		holder = lineofanballukkhorohinextension6
+	}
+	4897.10.16 = {
+		holder = lineofanballukkhorohinextension7
+	}
+	4933.8.14 = {
+		holder = lineofanballukkhorohinextension8
+	}
+	4991.6.23 = {
+		holder = lineofanballukkhorohin1
 	}
 	5045.4.4 = { # Aftermath of the Last Armada, An-Balkumagan enters severe decline, sapped of manpower and the blood of Numenor
 		change_development_level = 18
@@ -459,7 +664,7 @@ c_tariketh_an_kharat = {
 	5432.7.9 = {
 		holder = lineofanballukkhorohin4
 	}
-	5502.11.29 = {
+	5469.11.29 = {
 		holder = lineofanballukkhorohin5
 	}
 	5606.1.28 = {
@@ -543,12 +748,58 @@ c_tariketh_an_kharat = {
 	}
 }
 c_adazan = {
+	2495.1.1 = {
+		holder = lineofciryamir1
+	}
+	2510.1.1 = {
+		holder = nazgul5
+		#change_development_level = 10
+	}
+	2878.1.1 = {
+		holder = k_wastelands_holder
+	}
 	3259.8.24 = {
 		holder = lineofazruben1
 		change_development_level = 15
 	}
-	4931.2.18 = {
-		holder = lineofanballukkhorohin1 # An-Balkumagan reaches its height of independence prosperity and power
+	3482.1.13 = {
+		holder = lineofazruben2
+	}
+	3668.1.1 = {
+		holder = lineofazruben3
+	}
+	3794.1.1 = {
+		holder = lineofazruben4
+	}
+	3911.1.1 = {
+		holder = lineofazruben7
+	}
+	4003.1.1 = {
+		holder = lineofazruben8
+	}
+	4075.1.1 = {
+		holder = lineofazruben9
+	}
+	4076.1.1 = {
+		holder = k_wastelands_holder # Republic Period
+	}
+	4643.1.1 = {
+		holder = lineofanballukkhorohinextension4
+	}
+	4679.3.6 = {
+		holder = lineofanballukkhorohinextension5
+	}
+	4758.7.27 = {
+		holder = lineofanballukkhorohinextension6
+	}
+	4897.10.16 = {
+		holder = lineofanballukkhorohinextension7
+	}
+	4933.8.14 = {
+		holder = lineofanballukkhorohinextension8
+	}
+	4991.6.23 = {
+		holder = lineofanballukkhorohin1
 	}
 	5045.4.4 = { # Aftermath of the Last Armada, An-Balkumagan enters severe decline, sapped of manpower and the blood of Numenor
 		change_development_level = 13
@@ -562,7 +813,7 @@ c_adazan = {
 	5432.7.9 = {
 		holder = lineofanballukkhorohin4
 	}
-	5502.11.29 = {
+	5469.11.29 = {
 		holder = lineofanballukkhorohin5
 	}
 	5606.1.28 = {
@@ -646,12 +897,58 @@ c_adazan = {
 	}
 }
 c_theru = {
+	2495.1.1 = {
+		holder = lineofciryamir1
+	}
+	2510.1.1 = {
+		holder = nazgul5
+		#change_development_level = 10
+	}
+	2878.1.1 = {
+		holder = k_wastelands_holder
+	}
 	3259.8.24 = {
 		holder = lineofazruben1
 		change_development_level = 15
 	}
-	4931.2.18 = {
-		holder = lineofanballukkhorohin1 # An-Balkumagan reaches its height of independence prosperity and power
+	3482.1.13 = {
+		holder = lineofazruben2
+	}
+	3668.1.1 = {
+		holder = lineofazruben3
+	}
+	3794.1.1 = {
+		holder = lineofazruben4
+	}
+	3911.1.1 = {
+		holder = lineofazruben7
+	}
+	4003.1.1 = {
+		holder = lineofazruben8
+	}
+	4075.1.1 = {
+		holder = lineofazruben9
+	}
+	4076.1.1 = {
+		holder = k_wastelands_holder # Republic Period
+	}
+	4643.1.1 = {
+		holder = lineofanballukkhorohinextension4
+	}
+	4679.3.6 = {
+		holder = lineofanballukkhorohinextension5
+	}
+	4758.7.27 = {
+		holder = lineofanballukkhorohinextension6
+	}
+	4897.10.16 = {
+		holder = lineofanballukkhorohinextension7
+	}
+	4933.8.14 = {
+		holder = lineofanballukkhorohinextension8
+	}
+	4991.6.23 = {
+		holder = lineofanballukkhorohin1
 	}
 	5045.4.4 = { # Aftermath of the Last Armada, An-Balkumagan enters severe decline, sapped of manpower and the blood of Numenor
 		change_development_level = 14
@@ -665,7 +962,7 @@ c_theru = {
 	5432.7.9 = {
 		holder = lineofanballukkhorohin4
 	}
-	5502.11.29 = {
+	5469.11.29 = {
 		holder = lineofanballukkhorohin5
 	}
 	5606.1.28 = {
@@ -748,109 +1045,6 @@ c_theru = {
 		holder = lineofanballukkhorohin31
 	}
 }
-c_adazan = {
-	3259.8.24 = {
-		holder = lineofazruben1
-		change_development_level = 15
-	}
-	4931.2.18 = {
-		holder = lineofanballukkhorohin1 # An-Balkumagan reaches its height of independence prosperity and power
-	}
-	5045.4.4 = { # Aftermath of the Last Armada, An-Balkumagan enters severe decline, sapped of manpower and the blood of Numenor
-		change_development_level = 15
-	}
-	5180.7.9 = {
-		holder = lineofanballukkhorohin2
-	}
-	5324.8.3 = {
-		holder = lineofanballukkhorohin3
-	}
-	5432.7.9 = {
-		holder = lineofanballukkhorohin4
-	}
-	5502.11.29 = {
-		holder = lineofanballukkhorohin5
-	}
-	5606.1.28 = {
-		holder = lineofanballukkhorohin6
-	}
-	5699.2.14 = {
-		holder = lineofanballukkhorohin7
-	}
-	5774.2.14 = {
-		holder = lineofanballukkhorohin8
-	}
-	5892.7.14 = {
-		holder = lineofanballukkhorohin9
-	}
-	5942.1.12 = {
-		holder = lineofanballukkhorohin10
-	}
-	6001.3.2 = {
-		holder = lineofanballukkhorohin11
-	}
-	6088.7.14 = {
-		holder = lineofanballukkhorohin12
-	}
-	6134.7.14 = {
-		holder = lineofanballukkhorohin13
-	}
-	6189.10.5 = {
-		holder = lineofanballukkhorohin14
-	}
-	6223.10.5 = {
-		holder = lineofanballukkhorohin15
-	}
-	6320.8.1 = {
-		holder = lineofanballukkhorohin16
-	}
-	6399.4.22 = {
-		holder = lineofanballukkhorohin17
-	}
-	6435.11.5 = {
-		holder = lineofanballukkhorohin18
-	}
-	6494.6.25 = {
-		holder = lineofanballukkhorohin18
-		liege = e_thon_an_kharlokh
-	}
-	6501.12.3 = {
-		holder = lineofanballukkhorohin19
-	}
-	6520.1.3 = {
-		holder = lineofanballukkhorohin20
-	}
-	6582.1.3 = {
-		holder = lineofanballukkhorohin21
-	}
-	6719.12.30 = {
-		holder = lineofanballukkhorohin23
-	}
-	6739.2.13 = {
-		holder = lineofanballukkhorohin24
-	}
-	6808.8.11 = {
-		holder = lineofanballukkhorohin25
-	}
-	6822.5.5 = {
-		holder = lineofanballukkhorohin26
-	}
-	6844.1.10 = {
-		holder = lineofanballukkhorohin27
-	}
-	6912.7.28 = {
-		holder = lineofanballukkhorohin28
-	}
-	6942.2.18 = {
-		holder = lineofanballukkhorohin29
-	}
-	6977.1.10 = {
-		holder = lineofanballukkhorohin30
-	}
-	7004.4.19 = {
-		holder = lineofanballukkhorohin31
-	}
-} 
 
 # Duchy of Ûrîthâni
 d_urithani = {
@@ -1046,7 +1240,7 @@ c_logakhi = {
     }
 }
 c_theran = {
-6720.2.17 = {
+    6720.2.17 = {
         holder = lineofbelphazan1 #Karbazi_i_r
 		liege = d_urithani
 		change_development_level = 14
@@ -1068,7 +1262,7 @@ c_theran = {
 	}
 }
 c_kholath = {
-6720.2.17 = {
+    6720.2.17 = {
         holder = lineofbelphazan1 #Karbazi_i_r
 		liege = d_urithani
 		change_development_level = 7
@@ -1090,7 +1284,7 @@ c_kholath = {
 	}
 }
 c_zarathun = {
-6720.2.17 = {
+    6720.2.17 = {
         holder = lineofbelphazan1 #Karbazi_i_r
 		liege = d_urithani
 		change_development_level = 3
@@ -1386,7 +1580,7 @@ c_yerna = {
 
 # Duchy of Nardûbârîm 
 d_nardubarim = {
-    5220.4.6 = {
+    5237.4.6 = {
         holder = lineofzimrakhor1 #Zimrakho_o_r
 		liege = k_an_balkumagan
     }
@@ -1457,9 +1651,6 @@ d_nardubarim = {
         holder = lineofzimrakhor45 #Inzilbe_e_l 
     }
     6949.11.23 = {
-        holder = lineofzimrakhor47 #Zadnazi_i_r 
-    }
-    6938.9.27 = {
         holder = lineofzimrakhor49 #Izindikho_o_r 
     }
     7016.12.5 = {
@@ -1470,7 +1661,7 @@ d_nardubarim = {
     }
 }
 c_lakhisor = {
-	5220.4.6 = {
+	5237.4.6 = {
         holder = lineofzimrakhor1 #Zimrakho_o_r
 		change_development_level = 12
     }
@@ -1541,9 +1732,6 @@ c_lakhisor = {
         holder = lineofzimrakhor45 #Inzilbe_e_l 
     }
     6949.11.23 = {
-        holder = lineofzimrakhor47 #Zadnazi_i_r 
-    }
-    6938.9.27 = {
         holder = lineofzimrakhor49 #Izindikho_o_r 
     }
     7016.12.5 = {
@@ -1554,7 +1742,7 @@ c_lakhisor = {
     }
 } 
 c_kamon = {
-	5220.4.6 = {
+	5237.4.6 = {
         holder = lineofzimrakhor1 #Zimrakho_o_r
 		change_development_level = 11
     }
@@ -1625,9 +1813,6 @@ c_kamon = {
         holder = lineofzimrakhor45 #Inzilbe_e_l 
     }
     6949.11.23 = {
-        holder = lineofzimrakhor47 #Zadnazi_i_r 
-    }
-    6938.9.27 = {
         holder = lineofzimrakhor49 #Izindikho_o_r 
     }
     7016.12.5 = {
@@ -1638,7 +1823,7 @@ c_kamon = {
     }
 }
 c_luntara = {
-	5220.4.6 = {
+	5237.4.6 = {
         holder = lineofzimrakhor1 #Zimrakho_o_r
 		change_development_level = 9
     }
@@ -1709,9 +1894,6 @@ c_luntara = {
         holder = lineofzimrakhor45 #Inzilbe_e_l 
     }
     6949.11.23 = {
-        holder = lineofzimrakhor47 #Zadnazi_i_r 
-    }
-    6938.9.27 = {
         holder = lineofzimrakhor49 #Izindikho_o_r 
     }
     7016.12.5 = {
@@ -1722,7 +1904,7 @@ c_luntara = {
     }
 }
 c_thalara = {
-	5220.4.6 = {
+	5237.4.6 = {
         holder = lineofzimrakhor1 #Zimrakho_o_r
 		change_development_level = 9
     }
@@ -1793,9 +1975,6 @@ c_thalara = {
         holder = lineofzimrakhor45 #Inzilbe_e_l 
     }
     6949.11.23 = {
-        holder = lineofzimrakhor47 #Zadnazi_i_r 
-    }
-    6938.9.27 = {
         holder = lineofzimrakhor49 #Izindikho_o_r 
     }
     7016.12.5 = {
@@ -2026,7 +2205,7 @@ c_asukis = {
 
 #Duchy of Benthani
 c_kyerna = {
-6705.4.15 = {
+    6705.4.15 = {
         holder = lineofkyerna1 #Zimra_a_dun 
 		liege = k_an_balkumagan
 		change_development_level = 4
@@ -2045,7 +2224,7 @@ c_kyerna = {
     }
 }
 c_krakand = {
-6705.4.15 = {
+    6705.4.15 = {
         holder = lineofkyerna1 #Zimra_a_dun 
 		change_development_level = 4
     }
@@ -2063,7 +2242,7 @@ c_krakand = {
     }
 }
 c_rayk = {
-    6653.1.10 = {
+    6666.1.10 = {
         holder = lineofostozal1 #Adu_u_nuzi_i_r
 		liege = k_an_balkumagan
 		change_development_level = 4
@@ -2082,7 +2261,7 @@ c_rayk = {
     }
 } 
 c_ostozal = {
-    6653.1.10 = {
+    6666.1.10 = {
         holder = lineofostozal1 #Adu_u_nuzi_i_r 
 		change_development_level = 5
     }
@@ -2102,7 +2281,7 @@ c_ostozal = {
 
 # Duchy of Vêlashâr
 c_bralishina = {
-    6200.4.7 = {
+    6204.4.7 = {
         holder = lineofsapazir1 #Abraza_a_n 
 		liege = k_an_balkumagan
 		change_development_level = 4
@@ -2151,7 +2330,7 @@ c_bralishina = {
     }
 } 
 c_managal = {
-    6200.4.7 = {
+    6204.4.7 = {
         holder = lineofsapazir1 #Abraza_a_n
 		change_development_level = 5
     }
@@ -2199,7 +2378,7 @@ c_managal = {
     }
 }
 c_akuzal = {
-    6200.4.7 = {
+    6204.4.7 = {
         holder = lineofsapazir1 #Abraza_a_n
 		change_development_level = 4
     }
@@ -2247,7 +2426,7 @@ c_akuzal = {
     }
 } 
 c_rakashar = {
-    6720.1.1 = {
+    6731.1.1 = {
         holder = lineofmanaman1 #Tamruzi_i_r
 		liege = k_an_balkumagan
 		change_development_level = 6
@@ -2266,7 +2445,7 @@ c_rakashar = {
     }
 }
 c_manaman = {
-    6720.1.1 = {
+    6731.1.1 = {
         holder = lineofmanaman1 #Tamruzi_i_r
 		change_development_level = 5
     }
@@ -2282,4 +2461,4 @@ c_manaman = {
     7059.1.19 = {
         holder = lineofmanaman11 #E_E_ruzagar 
     }
-} 
+}

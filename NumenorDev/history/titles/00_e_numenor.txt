@@ -621,20 +621,20 @@ d_aruwanai = {
 }
 
 d_formenore = {
-	3221.1.1 = {
+	3259.8.24 = {
 		holder = lineofazruben1
 	}
 	3482.1.13 = {
-		holder = lineofazrubensubmod1
+		holder = lineofazruben2
 	}
-	3672.1.1 = {
-		holder = lineofazrubensubmod2
+	3668.1.1 = {
+		holder = lineofazruben3
 	}
-		3810.1.1 = {
-		holder = lineofazrubensubmod3
+	3794.1.1 = {
+		holder = lineofazruben4
 	}
-		3911.1.1 = {
-			holder = lineofazrubensubmod4
+	3911.1.1 = {
+		holder = lineofazruben7
 	}
 		3917.1.1 = {
 		holder = 0
@@ -1829,23 +1829,20 @@ c_aruwanai = {
 }
 
 c_formenore = {
-	3221.1.1 = {
+	3259.8.24 = {
 		holder = lineofazruben1
 	}
 	3482.1.13 = {
-		holder = lineofazrubensubmod1
+		holder = lineofazruben2
 	}
-	3672.1.1 = {
-		holder = lineofazrubensubmod2
+	3668.1.1 = {
+		holder = lineofazruben3
 	}
-		3810.1.1 = {
-		holder = lineofazrubensubmod3
+	3794.1.1 = {
+		holder = lineofazruben4
 	}
-		3911.1.1 = {
-			holder = lineofazrubensubmod4
-	}
-		3917.1.1 = {
-		holder = 0
+	3911.1.1 = {
+		holder = lineofazruben7
 	}
 		4368.1.1 = {
 		holder = lineofazrubensubmod8
@@ -2956,23 +2953,20 @@ c_adorothe = {
 }
 
 c_hyarnumen = {
-	3221.1.1 = {
+	3259.8.24 = {
 		holder = lineofazruben1
 	}
 	3482.1.13 = {
-		holder = lineofazrubensubmod1
+		holder = lineofazruben2
 	}
-	3672.1.1 = {
-		holder = lineofazrubensubmod2
+	3668.1.1 = {
+		holder = lineofazruben3
 	}
-		3810.1.1 = {
-		holder = lineofazrubensubmod3
+	3794.1.1 = {
+		holder = lineofazruben4
 	}
-		3911.1.1 = {
-			holder = lineofazrubensubmod4
-	}
-		3917.1.1 = {
-		holder = 0
+	3911.1.1 = {
+		holder = lineofazruben7
 	}
 		4368.1.1 = {
 		holder = lineofazrubensubmod8
