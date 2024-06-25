@@ -96,9 +96,20 @@
  dynn_whitfoot_motto:0 "A charming wit and a joyful laugh"
  dynn_gollum_motto:0 "My precious"
  dynn_cotton_motto:0 "Sturdiest in Bywater"
- dynn_gamgee_motto:0 "Keep to your own business"                                          
-
-  ## BREEMEN ##
+ dynn_gamgee_motto:0 "Keep to your own business"      
+ dynn_brockhouse_motto:0 "Good diggers, great eaters"
+ dynn_brown_motto:0 "Kindness in every step, joy in every hearth"
+ dynn_diggle_motto:0 "Rooted in tradition, bound by friendship"
+ dynn_lightfoot_motto:0 "Treading gently, shining brightly"
+ dynn_greenhand_motto:0 "Harmony in nature, goodness in heart"
+ dynn_goodchild_motto:0 "Generosity blooms in good soil"
+ dynn_hayward_motto:0 "Guarding the hedge"
+ dynn_maggot_motto:0 "From the bog, we blossom"
+ dynn_noakes_motto:0 "Rooted in strength, growing with grace"
+ dynn_sandyman_motto:0 "Grinding on and on"
+ dynn_twofoot_motto:0 "One foot was not enough"
+ 
+ ## BREEMEN ##
  dynn_butterbur_motto:0 "A warm hearth and a full belly"
  dynn_ferny_motto:0 "Coin is what matters"
  dynn_goatleaf_motto:0 "What brings you to Bree?"
@@ -212,6 +223,8 @@
  dynn_maerndil_motto:0 "Faithful friend, kind servant"
  dynn_gwedhduin_motto:0 "Westermost"
  dynn_pelglain_motto:0 "Faith & Fortitude"
+ dynn_rhudainor_motto:0 "Blood is our Right"
+ dynn_amdirach_motto:0 "The Honour of the West, the Strength of the Hills"
  
  ### Rohirrim ###
  dynn_eorlings_motto:0 "Forth, and fear no darkness"
@@ -253,9 +266,10 @@
  
  ### Gwathuirim ###
  dynn_frecalings_motto:0 "The wolf stands at the western door"
+ dynn_gordaigh_motto:0 "Stride forth and sieze the bright future"
  dynn_morcad_motto:0 "Strength for Sunthra and our People"
  dynn_padri_motto:0 "May the bounty of the sea sustain"
- dynn_ferchar_motto:0 "From the riches of the Gwathló"
+ dynn_ferchar_motto:0 "From the riches of the Isen" # formerly Gwathló
  dynn_corgail_motto:0 "We forget not"
  dynn_aiguiddel_motto:0 "Let fear worry not our hearts"
  dynn_fillerbyrigdynasty_motto:0 "From the sea we come"
@@ -274,15 +288,16 @@
  dynn_cenaill_motto:0 "Break those who oppose you"
  dynn_larcnoc_motto:0 "Strong bones, sharp teeth"
  dynn_verden_motto:0 "Black boars of Dunland"
+ dynn_nimue_motto:0 "By the people's acclaim, the serpent is slain"
  
  ### Eredrim ###
  dynn_norn_arelaidh_motto:0 "Old bones tell long tales"
  dynn_hundar_motto:0 "The river runs on"
  
  ### Donan ###
- dynn_bedu_motto:0 "Hearth, Heart, Home"
- dynn_naron_motto:0 "The highest watch is ours to keep"
- dynn_ban_motto:0 "May the woods sustain and shelter us"
+ dynn_bedu_motto:0 "The winds and words of Kaz embrace us"
+ dynn_naron_motto:0 "Concealed among Kôbah's hands"
+ dynn_ban_motto:0 "Voices of the great Bels"
 
  ### Andrastim ###
  dynn_norn_vudrin_motto:0 "Children of the Lefnui"
@@ -290,17 +305,20 @@
  dynn_argedrin_motto:0 "Hear the whispers in the highest peaks"
  
  ### Hillmen of Rhudaur ###
+ dynn_thuir_motto:0 "Nine tribes into one"
  dynn_ruadcar_motto:0 "The blood of kings proves itself true"
  dynn_broccach_motto:0 "Cast out the West!"
  dynn_deirach_motto:0 "Stag bless our blades"
- dynn_ormoch_motto:0 ""
- dynn_braighir_motto:0 ""
- dynn_merghach_motto:0 ""
- dynn_taobach_motto:0 ""
- dynn_moighir_motto:0 ""
- dynn_laighannach_motto:0 ""
- dynn_cenndoch_motto:0 ""
- dynn_hillman_motto:0 "The men of the hills shall rise again"
+ dynn_ormoch_motto:0 "True Sons of Rhudaur"
+ dynn_braighir_motto:0 "Hear how the ravens whisper"
+ dynn_daurich_motto:0 "Fine ale, strong chiefs"
+ dynn_merghach_motto:0 "Born in the foothills"
+ dynn_taobach_motto:0 "Our roots reach deep"
+ dynn_moighir_motto:0 "Blades of the true king"
+ dynn_laighannach_motto:0 "Justice at spearpoint"
+ dynn_ornuch_motto:0 "Bitter deeds sow harsh revenge"
+ dynn_cenndoch_motto:0 "Strive for greater things"
+ dynn_caradach_motto:0 "Children of the nine tribes"
  
  ### Druedain ###
  dynn_aghanghu_motto:0 "Through isolation, peace"
@@ -361,6 +379,31 @@
  dynn_sarisse_motto:0 "Memory endures"
  dynn_inglor_motto:0 "Even Darkness must pass"
  dynn_inglorion_motto:0 "Wandering across the wide world"
+ dynn_lenwe_motto:0 "Saviour of the Dani"
+ dynn_belegommor_motto:0 "Great Duck of Harlindon"
+ dynn_eariel_motto:0 "Harken to the Sea"
+ dynn_meldir_motto:0 "Herald of the West"
+ dynn_ilinsor_motto:0 "Mighty blades of the Noldor"
+ dynn_lhachglin_motto:0 "Humility of the Eldar"
+ dynn_ostiel_motto:0 "Keepers of Ancient Lore"
+ dynn_airalin_motto:0 "Stalker of the Ancient Forests"
+ dynn_firiel_motto:0 "Hope Endures in the Golden Wood"
+ dynn_sulimo_motto:0 "Jewel-Smiths of the Golden Wood"
+ dynn_belatar_motto:0 "Right Hand of Amdír"
+ dynn_lothwen_motto:0 "Golden Wood, Golden Hands"
+ dynn_tindrien_motto:0 "Far do Swans Fly"
+ dynn_nathir_motto:0 "Warden of Edhellond"
+ dynn_artano_motto:0 "Watchers of Arda's wonders"
+ dynn_axandil_motto:0 "Proudest Sword of the South"
+ dynn_ethetariel_motto:0 "May music ease the suffering of this World"
+ dynn_galas_motto:0 "Vengeance of the Forest Sprites"
+ dynn_earedur_motto:0 "Stalking the Shadows lest we forget ancient evils"
+ dynn_elan_motto:0 "May our arrows strike true"
+ dynn_rian_motto:0 "Forever trusting in the innocence of all"
+ dynn_ninaer_motto:0 "Silver Stream and Trees of Green"
+ dynn_toril_motto:0 "The Wisdom of Ages"
+ dynn_valhad_motto:0 "Keepers of the Ancient Lore"
+ dynn_pelilas_motto:0 "Starlit Swords of Nelornieth"
  
  ### Mordor/Forces of Darkness ###
  dynn_melkondili_motto:0 "One Ring to Rule Them All"
@@ -418,6 +461,9 @@
  dynn_kasgrat_motto:0 "Rule by the club"
  dynn_shakrat_motto:0 "Getting gold for the Porch"
  dynn_karmakh_motto:0 "Crushing skulls for the gate"
+ dynn_ikk_rak_motto:0 "We listen."
+ dynn_mekkr_ri_motto:0 "Bite the weak first!"
+ dynn_orrkog_motto:0 "Call in the dark"
 
  ### Umbarean ###
  dynn_vardurionath_motto:0 "Forever resist the oppressive Valar"
@@ -706,7 +752,7 @@
  dynn_koldana_motto:0 "Only a strong hand can harvest good wine"
  dynn_aldiana_motto:0 "Like wine, our wealth grows with time"
  dynn_herian_motto:0 "The richest crop grows from the mightiest roots"
- dynn_jauf_motto:0 "And so he plays his part"
+ dynn_avon_motto:0 "Peace of a stranger, Pardons self-sorrow"
  dynn_jauffring_motto:0 "Sturdy vines grow by The Stream"
  dynn_blorchid_motto:0 "Wine fragrant as any flower"
  dynn_tarkov_motto:0 "Follow Tark, ever wandering"

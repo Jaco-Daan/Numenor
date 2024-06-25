@@ -51,8 +51,11 @@ sailing.1001 = {
 	
 	option = { # Actually, let me buy one...
 		name = sailing.1001.b
+		trigger = {
+			short_term_gold > small_boat_cost
+		}
 		show_as_unavailable = {
-			gold <= small_boat_cost
+			short_term_gold <= small_boat_cost
 		}
 		trigger_event = sailing.1003
 		ai_chance = {
@@ -65,6 +68,8 @@ sailing.1001 = {
 		# scope:activity = { complete_activity = yes } #TODO - no longer a thing, need to close differently in rework
 		remove_character_flag = planning_an_activity
 		remove_decision_cooldown = set_sail_decision
+		# return the money for the supplies
+		add_short_term_gold = sailing_food_and_supplies_cost
 		ai_chance = {
 			base = 0
 		}
@@ -104,16 +109,17 @@ sailing.1002 = {
 			craven = activity_stress_gain_impact
 			ambitious = activity_stress_loss_impact
 			athletic = activity_stress_loss_impact
-			mariner_1 = activity_stress_loss_impact
-			mariner_2 = activity_stress_loss_impact
-			mariner_3 = activity_stress_loss_impact
+			lifestyle_mariner = activity_stress_loss_impact
 		}
 	}
 	
 	option = { # A fine vessel
 		name = sailing.1002.b
+		trigger = {
+			short_term_gold > medium_boat_hire_cost
+		}
 		show_as_unavailable = {
-			gold <= medium_boat_hire_cost
+			short_term_gold <= medium_boat_hire_cost
 		}		
 		remove_short_term_gold = medium_boat_hire_cost
 		add_character_modifier = {
@@ -131,16 +137,17 @@ sailing.1002 = {
 				craven = activity_stress_gain_impact
 				ambitious = activity_stress_loss_impact
 				athletic = activity_stress_loss_impact
-				mariner_1 = activity_stress_loss_impact
-				mariner_2 = activity_stress_loss_impact
-				mariner_3 = activity_stress_loss_impact
+				lifestyle_mariner = activity_stress_loss_impact
 			}
 	}
 	
 	option = { # A flagship fit for a king
 		name = sailing.1002.c
+		trigger = {
+			short_term_gold > large_boat_hire_cost
+		}
 		show_as_unavailable = {
-			gold <= large_boat_hire_cost
+			short_term_gold <= large_boat_hire_cost
 		}
 		remove_short_term_gold = large_boat_hire_cost
 		add_character_modifier = {
@@ -157,9 +164,7 @@ sailing.1002 = {
 				craven = activity_stress_gain_impact
 				ambitious = activity_stress_loss_impact
 				athletic = activity_stress_loss_impact
-				mariner_1 = activity_stress_loss_impact
-				mariner_2 = activity_stress_loss_impact
-				mariner_3 = activity_stress_loss_impact
+				lifestyle_mariner = activity_stress_loss_impact
 			}
 	}
 	
@@ -192,16 +197,17 @@ sailing.1003 = {
 				craven = activity_stress_gain_impact
 				ambitious = activity_stress_loss_impact
 				athletic = activity_stress_loss_impact
-				mariner_1 = activity_stress_loss_impact
-				mariner_2 = activity_stress_loss_impact
-				mariner_3 = activity_stress_loss_impact
+				lifestyle_mariner = activity_stress_loss_impact
 			}
 	}
 	
 	option = { # A fine vessel
 		name = sailing.1003.b
+		trigger = {
+			short_term_gold > medium_boat_cost
+		}
 		show_as_unavailable = {
-			gold <= medium_boat_cost
+			short_term_gold <= medium_boat_cost
 		}
 		remove_short_term_gold = medium_boat_cost
 		add_character_modifier = medium_boat_modifier
@@ -212,16 +218,17 @@ sailing.1003 = {
 				craven = activity_stress_gain_impact
 				ambitious = activity_stress_loss_impact
 				athletic = activity_stress_loss_impact
-				mariner_1 = activity_stress_loss_impact
-				mariner_2 = activity_stress_loss_impact
-				mariner_3 = activity_stress_loss_impact
+				lifestyle_mariner = activity_stress_loss_impact
 			}
 	}
 	
 	option = { # A flagship fit for a king
 		name = sailing.1003.c
+		trigger = {
+			short_term_gold > large_boat_cost
+		}
 		show_as_unavailable = {
-			gold <= large_boat_cost
+			short_term_gold <= large_boat_cost
 		}
 		remove_short_term_gold = large_boat_cost
 		add_character_modifier = large_boat_modifier
@@ -232,9 +239,7 @@ sailing.1003 = {
 				craven = activity_stress_gain_impact
 				ambitious = activity_stress_loss_impact
 				athletic = activity_stress_loss_impact
-				mariner_1 = activity_stress_loss_impact
-				mariner_2 = activity_stress_loss_impact
-				mariner_3 = activity_stress_loss_impact
+				lifestyle_mariner = activity_stress_loss_impact
 			}
 	}
 	
@@ -925,7 +930,7 @@ sailing.1010 = {
 				location = root.capital_province
 				culture = root.culture
 				gender = female
-				age = { 70 90 }
+				age = { old_age total_life_expectancy }
 				trait = lifestyle_mystic
 				random_traits = yes
 				faith = root.faith
@@ -988,7 +993,7 @@ sailing.1010 = {
 	after = {
 		hidden_effect = {
 			scope:mystic = {
-				death = { death_reason = death_disappearance }
+				silent_disappearance_effect = yes
 			}
 		}
 		trigger_event = {
@@ -1272,14 +1277,9 @@ sailing.1013 = {
 			location = root.capital_province
 			gender = male
 			template = new_commander_character
-			age = { 35 60 }
+			age = { middle_age old_age }
 			faith = root.faith
-			random_traits_list = {
-				count = 1
-				mariner_1 = {}
-				mariner_2 = {}
-				mariner_3 = {}
-			}
+			trait = lifestyle_mariner
 			save_scope_as = recruit
 		}	
 	}
@@ -1297,15 +1297,25 @@ sailing.1013 = {
 				}
 				modifier = {
 					add = 10
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}
 				modifier = {
 					add = 20
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}
 				modifier = {
 					add = 30
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				modifier = {
 					add = 10
@@ -1344,7 +1354,7 @@ sailing.1013 = {
 					add_prestige = minor_prestige_loss
 					hidden_effect = {
 						scope:recruit = {
-							death = { death_reason = death_disappearance }
+							silent_disappearance_effect = yes
 						}
 					}
 				}
@@ -1357,13 +1367,24 @@ sailing.1013 = {
 		scope:recruit = { set_employer = root }
 		if = {
 			limit = {
-				scope:recruit = { has_trait = mariner_3 }
+				scope:recruit = {
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
+				}
 			}
 			remove_short_term_gold = 150
 		}
 		else_if = {
 			limit = {
-				scope:recruit = { has_trait = mariner_2 }
+				scope:recruit = {
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
+				}
 			}
 			remove_short_term_gold = 100
 		}
@@ -1382,7 +1403,7 @@ sailing.1013 = {
 		name = sailing.1013.c
 		hidden_effect = {
 			scope:recruit = {
-				death = { death_reason = death_disappearance }
+				silent_disappearance_effect = yes
 			}
 		}
 	}
@@ -1422,7 +1443,16 @@ sailing.1014 = {
 		hidden_effect = {
 			random_list = {
 				25 = {
-					mariner_progress_point_gain_effect = yes
+					if = {
+						limit = { has_trait = lifestyle_mariner }
+						add_trait_xp = {
+							trait = lifestyle_mariner
+							value = 5
+						}
+					}	
+					else = {
+						add_trait = lifestyle_mariner
+					}
 					send_interface_toast = {
 						left_icon = ROOT
 						title = sailing.1014.a.success.toast
@@ -1504,17 +1534,7 @@ sailing.1990 = {
 				alternative_limit = {
 					is_alive = yes
 					is_ai = yes
-					has_trait = mariner_3
-				}
-				alternative_limit = {
-					is_alive = yes
-					is_ai = yes
-					has_trait = mariner_2
-				}
-				alternative_limit = {
-					is_alive = yes
-					is_ai = yes
-					has_trait = mariner_1
+					has_trait = lifestyle_mariner
 				}
 				alternative_limit = {
 					is_alive = yes
@@ -1635,9 +1655,9 @@ sailing.1992 = {
 	}	
 	
 	option = { # Harnen
-		name = sailing.8101.tt
+		name = sailing.8100.tt
 		trigger_event = {
-			id = sailing.8101
+			id = sailing.8100
 			days = 30
 		}
 	}
@@ -3012,10 +3032,10 @@ sailing.2009 = {
 	option = {
 		name = sailing.2009.a
 		trigger = {
+			scope:stargazer = { NOT = { has_trait = lifestyle_mariner } }
 			OR = {
 				has_trait = lifestyle_mariner
 				learning > 10
-				scope:stargazer = { NOT = { has_trait = lifestyle_mariner } }
 			}
 		}
 		random = { 
@@ -3023,10 +3043,17 @@ sailing.2009 = {
 			send_interface_toast = {
 				left_icon = ROOT
 				title = sailing.2009.a.success.toast
-				scope:stargazer = { add_trait = mariner_1 }
+				scope:stargazer = { add_trait = lifestyle_mariner }
 				custom_tooltip = sailing.2009.a.mariner_progress
-				hidden_effect = {
-					mariner_progress_point_gain_effect = yes
+				if = {
+					limit = { has_trait = lifestyle_mariner }
+					add_trait_xp = {
+						trait = lifestyle_mariner
+						value = 5
+					}
+				}	
+				else = {
+					add_trait = lifestyle_mariner
 				}
 			}
 		}
@@ -3882,7 +3909,10 @@ sailing.4011 = {
 	# Frostbite
 	option = {
 		name = sailing.4011.a
-		add_character_modifier = frostbite
+		add_character_modifier = {
+			modifier = frostbite
+			years = 10
+		}
 		add_stress = 40
 		trigger_event = {
 			id = sailing.4012
@@ -4019,7 +4049,7 @@ sailing.5000 = { # Introduction to the White Hills (1/3): Gulf of Lune
 		reference = ocean
 	}
 	override_background = {
-		reference = docks_elf
+		reference = docks_elven
 	}
 	left_portrait = {
 		character = root
@@ -4340,7 +4370,7 @@ sailing.5007 = { # Coming back home released but without experience
 		reference = ocean
 	}
 	override_background = {
-		reference = docks_elf
+		reference = docks_elven
 	}
 	left_portrait = {
 		character = root
@@ -5188,11 +5218,15 @@ sailing.8001 = { # Mouths of Anduin and The Fisher-folk of Ethir http://tolkieng
 		animation = personality_callous
 	}
 	
-	option = { # If Corsairs, Sea Plundering of Fishermen boats. Gold and some fish (https://tolkienlibrary.com/press/images/FishesofMiddleEarth2008Willink.pdf)
+	option = { # Sea Plundering of Fishermen boats. Gold and some fish (https://tolkienlibrary.com/press/images/FishesofMiddleEarth2008Willink.pdf)
 		name = sailing.8001.a
 		trigger = {	
 				# culture = { has_cultural_pillar = heritage_northern_adunaic }
 				can_raid_across_water = yes
+		}
+		reverse_add_opinion = {
+			target = title:c_ethir_anduin.holder
+			modifier = raided_me_opinion
 		}
 		duel = {
 			skill = martial
@@ -5235,23 +5269,33 @@ sailing.8001 = { # Mouths of Anduin and The Fisher-folk of Ethir http://tolkieng
 		}
 	}
 	
-	option = { # Bribe fishermen levies, inspired by the Fishermen-folk levied to fait by Gondor http://tolkiengateway.net/wiki/Ethir_Anduin
+	option = { # Bribe fishermen levies, inspired by the Fishermen-folk levied to fight by Gondor http://tolkiengateway.net/wiki/Ethir_Anduin
 		name = sailing.8001.b
 		if = {
 			limit = {
-				has_trait = mariner_3
+				has_trait_xp = {
+					trait = lifestyle_mariner
+					value >= 100
+				}
 			}
 			remove_short_term_gold = 25
 		}
 		else_if = {
 			limit = {
-				has_trait = mariner_2
+				has_trait_xp = {
+					trait = lifestyle_mariner
+					value >= 50
+					value < 100
+				}
 			}
 			remove_short_term_gold = 50
 		}
 		else_if = {
 			limit = {
-				has_trait = mariner_1
+				has_trait_xp = {
+					trait = lifestyle_mariner
+					value < 50
+				}
 			}
 			remove_short_term_gold = 7
 		}
@@ -5561,11 +5605,15 @@ sailing.8005 = { # Pelargir  https://lotr.fandom.com/wiki/Pelargir
 	}
 	
 	
-	option = { # If Corsairs, Sabotage the port
+	option = { # Sabotage the port
 		name = sailing.8005.a
 		trigger = {
 				# culture = { has_cultural_pillar = heritage_northern_adunaic }
 				can_raid_across_water = yes
+		}
+		reverse_add_opinion = {
+			target = title:c_pelargir.holder			
+			modifier = raided_me_opinion
 		}
 		duel = {
 			skill = prowess
@@ -5650,7 +5698,11 @@ sailing.8005 = { # Pelargir  https://lotr.fandom.com/wiki/Pelargir
 	}	
 	
 	option = { # Steal a Royal Ship / Ship-king
-		name = sailing.8005.c		
+		name = sailing.8005.c
+		reverse_add_opinion = {
+			target = title:c_pelargir.holder			
+			modifier = raided_me_opinion
+		}
 		trigger = {
 			# culture = { has_cultural_pillar = heritage_northern_adunaic }
 			can_raid_across_water = yes
@@ -5807,8 +5859,12 @@ sailing.8008 = { # Osgiliath https://lotr.fandom.com/wiki/Osgiliath
 		animation = shock
 	}
 	
-	option = { # If Corsairs, Raiding of Osgiliath
+	option = { # Raiding of Osgiliath
 		name = sailing.8008.a
+		reverse_add_opinion = {
+			target = title:c_osgiliath.holder			
+			modifier = raided_me_opinion
+		}
 		trigger = {
 			# culture = { has_cultural_pillar = heritage_northern_adunaic }
 			can_raid_across_water = yes
@@ -6086,6 +6142,11 @@ sailing.8013 = { # Cair Andros: Garrison Control http://tolkiengateway.net/wiki/
 	
 	option = { # Garrison control: Confrontation
 		name = sailing.8013.b
+		reverse_add_opinion = {
+			target = title:c_aranelaith.holder			
+			modifier = angry_opinion
+			opinion = -15
+		}
 		duel = {
 			skill = martial
 			value = high_skill_rating
@@ -6247,7 +6308,7 @@ sailing.8017 = {
 }
 
 
-sailing.8018 = { # Wetwang as an extension of the Dead Marshes [first_mate.GetFirstNameNoTooltip]
+sailing.8018 = { # Wetwang as an extension of the Dead Marshes
 	type = character_event
 	content_source = realms_dlc
 	title = sailing.8018.t
@@ -6419,16 +6480,18 @@ sailing.8021 = { # Falls of Rauros / Argonath https://lotr.fandom.com/wiki/Falls
 }
 
 # Harnen
-# 8101 - Harnen Delta
-# 8102 - Harad Crossroad at Amrum
-# 8104 - Chelkar Tradepost
-# 8106 - Khand
+# 8100 - Harnen Delta
+# 8101 - Amakuhd
+# 8102-3 - Amrum
+# 8103 - Chelkar
+# 8104-6 - Pezarsan
+# 8107+ - Pezarsan
 			
-sailing.8101 = {
+sailing.8100 = {
 	type = character_event
 	content_source = realms_dlc
-	title = sailing.8101.t
-	desc = sailing.8101.desc
+	title = sailing.8100.t
+	desc = sailing.8100.desc
 	theme = sailing_activity
 	override_background = {
 		reference = black_ship
@@ -6444,28 +6507,38 @@ sailing.8101 = {
 	}
 
 	option = { # Engage - ship is undamaged
-		name = sailing.8101.a
+		name = sailing.8100.a
 		trigger = { owns_an_undamaged_boat = yes }
 		random_list = {
 			50 = { # Success
 				modifier = {
 					add = 20
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}		
 				modifier = {
 					add = 40
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}	
 				modifier = {
 					add = 60
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				send_interface_toast = {
 					left_icon = ROOT
-					title = sailing.8101.toast.a.success
+					title = sailing.8100.toast.a.success
 					add_gold = medium_gold_value
 					trigger_event = {
-						id = sailing.8102
+						id = sailing.8101
 						days = {20 40}
 					}
 				}
@@ -6473,24 +6546,34 @@ sailing.8101 = {
 			50 = { #Injuries and damaged ship
 				modifier = {
 					add = -20
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}		
 				modifier = {
 					add = -40
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}	
 				modifier = {
 					add = -60
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				
 				send_interface_toast = {
 					left_icon = ROOT
-					title = sailing.8101.toast.a.failure
+					title = sailing.8100.toast.a.failure
 					damage_ship = yes
 					increase_wounds_no_death_effect = { REASON = fight }
 					trigger_event = {
-						id = sailing.8102
+						id = sailing.8101
 						days = {20 40}
 					}
 				}				
@@ -6499,28 +6582,38 @@ sailing.8101 = {
 	}
 	
 	option = { # Engage - ship is damaged
-		name = sailing.8101.b
+		name = sailing.8100.b
 		trigger = { owns_an_undamaged_boat = no }
 		random_list = {
 			25 = { #Success
 				modifier = {
 					add = 20
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}		
 				modifier = {
 					add = 40
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}	
 				modifier = {
 					add = 60
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				send_interface_toast = {
 					left_icon = ROOT
-					title = sailing.8101.toast.b.success
+					title = sailing.8100.toast.b.success
 					add_prowess_skill = 1
 					trigger_event = {
-						id = sailing.8102
+						id = sailing.8101
 						days = {20 40}
 					}
 				}
@@ -6528,19 +6621,29 @@ sailing.8101 = {
 			75 = { #Shipwreck
 				modifier = {
 					add = -20
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}		
 				modifier = {
 					add = -40
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}	
 				modifier = {
 					add = -60
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				send_interface_toast = {
 					left_icon = ROOT
-					title = sailing.8101.toast.b.failure
+					title = sailing.8100.toast.b.failure
 					increase_wounds_effect = { REASON = fight }
 					damage_ship = yes
 					add_character_flag = shipwreck					
@@ -6554,7 +6657,7 @@ sailing.8101 = {
 	}	
 	
 	option = { # Naval maneuver
-		name = sailing.8101.c
+		name = sailing.8100.c
 		trigger = { 
 			NOR = {
 				has_character_flag = has_tried_to_enter_harnen
@@ -6564,26 +6667,36 @@ sailing.8101 = {
 			50 = { #Success
 				modifier = {
 					add = 20
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}		
 				modifier = {
 					add = 40
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}	
 				modifier = {
 					add = 60
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				send_interface_toast = {
 					left_icon = ROOT
-					title = sailing.8101.toast.c.success
+					title = sailing.8100.toast.c.success
 					add_martial_lifestyle_xp = minor_lifestyle_xp
 					add_character_flag = {
 						flag = has_tried_to_enter_harnen
 						years = 3
 					}
 					trigger_event = {
-						id = sailing.8102
+						id = sailing.8101
 						days = {20 40}
 					}
 				}
@@ -6591,26 +6704,36 @@ sailing.8101 = {
 			50 = { #Detected!
 				modifier = {
 					add = -20
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}		
 				modifier = {
 					add = -40
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}	
 				modifier = {
 					add = -60
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				send_interface_toast = {
 					left_icon = ROOT
-					title = sailing.8101.toast.c.failure
+					title = sailing.8100.toast.c.failure
 					add_character_flag = {
 						flag = has_tried_to_enter_harnen
 						years = 3
 					}
 					add_prestige = minor_prestige_loss
 					trigger_event = { # Unable to sneak, only combat or retreat available
-						id = sailing.8101
+						id = sailing.8100
 						days = {10 20}
 					}
 				}
@@ -6619,11 +6742,264 @@ sailing.8101 = {
 	}	
 	
 	option = { # Don't enter the Harnen, come back without experience
-		name = sailing.8101.d
+		name = sailing.8100.d
 		trigger_event = {
 			id = sailing.9002
 			days = {35 50}
 		}
+	}
+}
+
+sailing.8101 = { # Bronze tower of Ancalimon
+	type = character_event
+	content_source = realms_dlc
+	title = sailing.8101.t
+	desc = sailing.8101.desc
+	theme = sailing_activity
+	override_background = {
+		reference = docks_adunai
+	}
+
+	left_portrait = {
+		character = root
+		animation = personality_content
+	}
+	
+	immediate = {
+		character:lineofelros15 = {
+			save_scope_as = ancalimon
+		}
+	}
+
+	option = { # Join the celebrations
+		name = sailing.8101.a
+		random_list = {
+			50 = { # Too much attention
+				custom_tooltip = sailing.8101.tt
+				trigger_event = {
+					id = sailing.8111
+					days = 5
+				}
+			}
+			50 = { # Good time			
+				send_interface_toast = {
+					left_icon = ROOT
+					title = sailing.8101.toast.success
+					add_stress = medium_stress_loss
+					trigger_event = {
+						id = sailing.8102
+						days = {35 50}
+					}
+				}
+			}
+		}
+	}
+
+	option = { # Perform
+		name = sailing.8101.b
+		random_list = {
+			75 = { # Too much attention			
+				custom_tooltip = sailing.8101.tt
+				modifier = {
+					add = -10
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value > 25
+					}
+				}
+				modifier = {
+					add = -10
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value > 50
+					}
+				}
+				modifier = {
+					add = -10
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value > 75
+					}
+				}
+				modifier = {
+					add = 50
+					has_trait = drunkard
+				}
+				modifier = {
+					add = -10
+					has_trait = shy
+				}
+				modifier = {
+					add = -10
+					has_trait = lazy
+				}
+				modifier = {
+					add = -10
+					has_trait = calm
+				}
+				modifier = {
+					add = -10
+					has_trait = inappetetic
+				}
+				trigger_event = {
+					id = sailing.8111
+					days = 5
+				}
+			}
+			25 = { # You celebrate
+				send_interface_toast = {
+					left_icon = ROOT
+					title = sailing.8101.toast.success
+
+					if = {
+						limit = {
+							has_trait = lifestyle_traveler
+						}
+						add_trait_xp = {
+							trait = lifestyle_traveler
+							track = travel
+							value = 25
+						}
+					}
+					else_if = {
+						limit = {
+							has_trait = lifestyle_mariner
+						}
+						add_trait_xp = {
+							trait = lifestyle_mariner
+							track = travel
+							value = 25
+						}
+					}
+					add_piety = minor_piety_gain
+					add_prestige = minor_prestige_gain
+					trigger_event = {
+						id = sailing.8102
+						days = {35 50}
+					}
+				}
+			}
+		}
+	}
+
+	option = { # You discover something is not right...
+		name = sailing.8101.c
+		trigger = {
+			OR = {
+				has_trait = schemer
+				root.intrigue >= 12
+			}
+		}
+		send_interface_toast = {
+			left_icon = ROOT
+			title = sailing.8101.toast.success
+			
+			if = {
+				limit = {
+					has_trait = schemer
+				}
+				random = {
+					chance = 15
+					add_trait = schemer
+				}
+			}
+			else_if = {
+				limit = {
+					has_trait = lifestyle_mariner
+				}
+				add_trait_xp = {
+					trait = lifestyle_mariner
+					track = travel
+					value = 10
+				}
+			}
+			else = {
+				add_intrigue_lifestyle_xp = minor_lifestyle_xp
+			}
+			trigger_event = {
+				id = sailing.8102
+				days = {35 50}
+			}
+		}
+	}
+
+	option = { # Leave the celebrations
+		name = sailing.8101.d
+		trigger_event = {
+			id = sailing.8102
+			days = {35 50}
+		}
+	}
+	after = {
+		scope:priest = {
+			silent_disappearance_effect = yes
+		}
+	}
+}
+
+sailing.8111 = { # Bronze tower of Ancalimon: angry priests
+	type = character_event
+	content_source = realms_dlc
+	title = sailing.8111.t
+	desc = sailing.8111.desc
+	theme = sailing_activity
+	override_background = {
+		reference = temple
+	}
+	
+	left_portrait = {
+		character = root
+		animation = dancing
+	}
+
+	right_portrait = {
+		character = scope:priest
+		animation = angry
+	}
+	
+	immediate = {
+		character:lineofelros15 = {
+			save_scope_as = ancalimon
+		}
+		create_character = {
+			template = priest_character_template
+			location = scope:obstacle_province
+			culture = culture:haruze
+			dynasty = none
+			gender_female_chance = 50
+			save_scope_as = priest
+		}
+	}
+
+	option = { 
+		name = sailing.8111.a
+		random_list = {
+			50 = { # Run away
+				send_interface_toast = {
+					left_icon = ROOT
+					title = sailing.8111.toast.success
+					trigger_event = {
+						id = sailing.8102
+						days = {35 50}
+					}
+				}
+			}
+			50 = { # harmed
+				send_interface_toast = {
+					left_icon = ROOT
+					title = sailing.8111.toast.failure
+					increase_wounds_effect = { REASON = whipping }
+					trigger_event = {
+						id = sailing.8102
+						days = {35 50}
+					}
+				}
+			}
+		}
+	}
+	after = {		
+		add_stress = medium_stress_gain
+		add_piety = medium_piety_loss
 	}
 }
 
@@ -6650,11 +7026,15 @@ sailing.8102 = { # Harad Crossroads (Amrun)
 		animation = personality_callous
 	}
 
-	option = { # Corsairs Only: Sabotage the Bridge over the Harnen
+	option = { # Sabotage the Bridge over the Harnen
 		name = sailing.8102.a
 		trigger = {
 			# culture = { has_cultural_pillar = heritage_northern_adunaic }
 			can_raid_across_water = yes
+		}
+		reverse_add_opinion = {
+			target = title:c_harnen.holder			
+			modifier = raided_me_opinion
 		}
 		send_interface_toast = {			
 			title = sailing.8102.toast.a.success
@@ -6708,7 +7088,7 @@ sailing.8102 = { # Harad Crossroads (Amrun)
 	
 	option = { # Learning Northern Apysaic language
 		name = sailing.8102.c
-		remove_short_term_gold = medium_gold_value
+		remove_short_term_gold = major_gold_value
 		learn_language = language_northern_apysaic		
 		trigger_event = {
 			id = sailing.8103
@@ -7127,6 +7507,11 @@ sailing.8201 = {
 					left_icon = ROOT
 					title = sailing.8201.toast.a.success
 					add_gold = minor_gold_value
+
+					reverse_add_opinion = {
+						target = title:c_lond_daer.holder						
+						modifier = raided_me_opinion
+					}
 				}
 			}
 			50 = {		
@@ -7648,7 +8033,7 @@ sailing.8233 = {
 				send_interface_toast = {
 					left_icon = ROOT
 					title = sailing.8233.toast.a.success
-					add_trait = adventurer
+					#add_trait = adventurer
 					trigger_event = {
 						id = sailing.8234
 						days = {10 20}
@@ -7871,15 +8256,25 @@ sailing.8251 = {
 			20 = { 
 				modifier = {
 					add = 15
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}		
 				modifier = {
 					add = 30
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}	
 				modifier = {
 					add = 45
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				send_interface_toast = {
 					left_icon = ROOT
@@ -7895,15 +8290,25 @@ sailing.8251 = {
 			50 = { 
 				modifier = {
 					add = -15
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}		
 				modifier = {
 					add = -30
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}	
 				modifier = {
 					add = -45
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				
 				send_interface_toast = {
@@ -7965,6 +8370,8 @@ sailing.8262 = {
 		character = root
 		animation = personality_bold
 	}
+	
+
 	option = { 
 		name = sailing.8262.a
 		if = {
@@ -8015,11 +8422,28 @@ sailing.8263 = {
 	override_background = {
 		reference = trollshaws	
 	}
-	left_portrait = {
+	lower_center_portrait = {
 		character = root
 		animation = fear
 	}
-	
+	right_portrait = {
+		character = scope:troll
+		animation = marshal
+	}
+	immediate = {
+		
+		random_county_in_region = {
+			region = middleearth_west_arnor_rhudaur
+			title_province = { save_scope_as = rhudaur_province }
+		}
+		
+		create_character = { # Create a new troll
+			culture = culture:hill_troll
+			gender_female_chance = 0
+			location = scope:rhudaur_province
+			save_scope_as = troll
+		}
+	}
 	# Engage the Trolls
 	option = { 
 		name = sailing.8263.a
@@ -8056,7 +8480,14 @@ sailing.8263 = {
 			id = sailing.9002
 			days = {30 50}
 		}
-	}		
+	}
+	
+
+	after = {
+		scope:troll = {
+			silent_disappearance_effect = yes
+		}
+	}	
 }
 
 
@@ -8074,7 +8505,24 @@ sailing.8264 = {
 		character = root
 		animation = aggressive_dagger
 	}
-	
+	right_portrait = {
+		character = scope:troll
+		animation = dummy
+	}
+	immediate = {
+		
+		random_county_in_region = {
+			region = middleearth_west_arnor_rhudaur
+			title_province = { save_scope_as = rhudaur_province }
+		}
+		
+		create_character = { # Create a new troll
+			culture = culture:hill_troll
+			gender_female_chance = 0
+			location = scope:rhudaur_province
+			save_scope_as = troll
+		}
+	}
 	option = {
 		name = sailing.8264.a
 		duel = {
@@ -8134,6 +8582,13 @@ sailing.8264 = {
 					days = {30 50}
 				}
 			}
+		}
+	}
+	
+
+	after = {
+		scope:troll = {
+			silent_disappearance_effect = yes
 		}
 	}
 }
@@ -8529,39 +8984,15 @@ sailing.9001 = {
 			# - Returning is not necessary when owning
 
 			# Mariner skill
-			mariner_progress_point_gain_effect = yes
 			if = {
-				limit = {
-					has_character_flag = mariner_1
-				}
-				set_variable = {
-					name = mariner_lifestyle_progress
-					value = 0
-				}
-				add_trait = mariner_1
-			}
-			if = {
-				limit = {
-					has_character_flag = mariner_2
-				}
-				set_variable = {
-					name = mariner_lifestyle_progress
-					value = 0
-				}
-				change_trait_rank = {
+				limit = { has_trait = lifestyle_mariner }
+				add_trait_xp = {
 					trait = lifestyle_mariner
-					rank = 1
+					value = 10
 				}
-			}
-			if = {
-				limit = {
-					has_character_flag = mariner_3
-				}
-				remove_variable = mariner_lifestyle_progress
-				change_trait_rank = {
-					trait = lifestyle_mariner
-					rank = 1
-				}
+			}	
+			else = {
+				add_trait = lifestyle_mariner
 			}
 		}
 
@@ -8637,7 +9068,17 @@ sailing.9002 = {
 			}			
 			# - Returning is not necessary when owning
 
-			# ispanets: no mariner promotion
+			# Mariner minor skill
+			if = {
+				limit = { has_trait = lifestyle_mariner }
+				add_trait_xp = {
+					trait = lifestyle_mariner
+					value = 5
+				}
+			}	
+			else = {
+				add_trait = lifestyle_mariner
+			}
 		}
 	}
 
@@ -8735,6 +9176,7 @@ sailing.9110 = {
 					empire = root.location.empire
 					kingdom = root.location.kingdom
 					geographical_region = middleearth_valinor
+					is_wastelands = yes
 				}
 			}
 			save_scope_as = piracy_destination_1
@@ -8750,6 +9192,8 @@ sailing.9110 = {
 					#culture_group = root.culture_group
 					empire = root.location.empire
 					kingdom = root.location.kingdom
+					geographical_region = middleearth_valinor
+					is_wastelands = yes
 				}
 			}
 			save_scope_as = piracy_destination_2
@@ -8764,6 +9208,8 @@ sailing.9110 = {
 					#culture_group = root.culture.culture_group
 					empire = root.location.empire
 					kingdom = root.location.kingdom
+					geographical_region = middleearth_valinor
+					is_wastelands = yes
 				}
 			}
 			save_scope_as = piracy_destination_3
@@ -8852,15 +9298,31 @@ sailing.9111 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = 20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = 40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = 60
 						}
 					}
@@ -8884,15 +9346,31 @@ sailing.9111 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = -20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = -40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = -60
 						}
 					}
@@ -8925,15 +9403,31 @@ sailing.9111 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = 20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = 40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = 60
 						}
 					}
@@ -8957,15 +9451,31 @@ sailing.9111 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = -20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = -40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = -60
 						}
 					}
@@ -8995,15 +9505,25 @@ sailing.9111 = {
 			50 = { #Success
 				modifier = {
 					add = 20
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}		
 				modifier = {
 					add = 40
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}	
 				modifier = {
 					add = 60
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				desc = sailing.9111.c.success
 				send_interface_toast = {
@@ -9019,15 +9539,25 @@ sailing.9111 = {
 			50 = {
 				modifier = {
 					add = -20
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}		
 				modifier = {
 					add = -40
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}	
 				modifier = {
 					add = -60
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				desc = sailing.9111.c.failure
 				send_interface_toast = {
@@ -9051,15 +9581,25 @@ sailing.9111 = {
 			50 = { #Success
 				modifier = {
 					add = 20
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}		
 				modifier = {
 					add = 40
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}	
 				modifier = {
 					add = 60
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				desc = sailing.9111.d.success
 				send_interface_toast = {
@@ -9075,15 +9615,25 @@ sailing.9111 = {
 			50 = { # Shipwreck
 				modifier = {
 					add = -20
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}		
 				modifier = {
 					add = -40
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}	
 				modifier = {
 					add = -60
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				desc = sailing.9111.d.failure
 				send_interface_toast = {
@@ -9395,15 +9945,31 @@ sailing.9120 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = 20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = 40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = 60
 						}
 					}
@@ -9427,15 +9993,31 @@ sailing.9120 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = -20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = -40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = -60
 						}
 					}
@@ -9468,15 +10050,31 @@ sailing.9120 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = 20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = 40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = 60
 						}
 					}
@@ -9500,15 +10098,31 @@ sailing.9120 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = -20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = -40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = -60
 						}
 					}
@@ -9542,15 +10156,31 @@ sailing.9120 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = 20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = 40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = 60
 						}
 					}
@@ -9578,15 +10208,31 @@ sailing.9120 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = -20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = -40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = -60
 						}
 					}
@@ -9618,15 +10264,31 @@ sailing.9120 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = 20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = 40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = 60
 						}
 					}
@@ -9654,15 +10316,31 @@ sailing.9120 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = -20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = -40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = -60
 						}
 					}
@@ -9740,15 +10418,31 @@ sailing.9130 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = 20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = 40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = 60
 						}
 					}
@@ -9773,15 +10467,31 @@ sailing.9130 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = -20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = -40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = -60
 						}
 					}
@@ -9815,15 +10525,31 @@ sailing.9130 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = 20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = 40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = 60
 						}
 					}
@@ -9849,15 +10575,31 @@ sailing.9130 = {
 					value = {
 						value = scope:duel_value
 						if = {
-							limit = { has_trait = mariner_1 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value < 50
+								}
+							}
 							add = -20
 						}
 						if = {
-							limit = { has_trait = mariner_2 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 50
+									value < 100
+								}
+							}
 							add = -40
 						}
 						if = {
-							limit = { has_trait = mariner_3 }
+							limit = {
+								has_trait_xp = {
+									trait = lifestyle_mariner
+									value >= 100
+								}
+							}
 							add = -60
 						}
 					}
@@ -9988,7 +10730,7 @@ sailing.9131 = {
 				culture = scope:selected_piracy_destination.culture
 				faith = scope:selected_piracy_destination.faith
 				dynasty = none
-				trait = mariner_1
+				trait = lifestyle_mariner
 				save_scope_as = dueled_pirate
 			}
 			scope:dueled_pirate = { set_employer = root }
