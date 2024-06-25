@@ -5,7 +5,7 @@
 	
 	ethos = ethos_bellicose
 	heritage = heritage_adunaic
-	language = language_high_adunaic
+	language = language_adunaic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_blacknumenorean_legacy
