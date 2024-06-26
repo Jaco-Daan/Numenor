@@ -164,6 +164,7 @@ lineofelros89 = {
 	
 	
 	father = lineofelros88
+	mother = lineofelros26
 	
 	trait = blood_of_numenor_9
 	trait = strong
@@ -11936,6 +11937,7 @@ lineofondosto1 = {
 	culture = adunaic
 	
 	father = lineofelros88
+	mother = lineofelros26
 	
 	trait = blood_of_numenor_7
 	trait = beauty_good_3
