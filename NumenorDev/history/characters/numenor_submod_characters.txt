@@ -1267,7 +1267,7 @@ lineofelatan36 = {
 hostamirdaughter = {
 	name = "Lindissë"
 	female = yes
-	dynasty_house = dynasty_elros
+	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -1840,7 +1840,7 @@ lordsofkorlea34 = {
 }
 lordsofkorlea35 = {
     name = Nimruzîr
-    dynasty = dynasty_azru
+    dynasty_house = dynasty_azru
     religion = faith_adunaic
     culture = adunaic
 
@@ -8517,7 +8517,6 @@ lineofagathor33 = {
 	culture = adunaic
 	
 	trait = blood_of_numenor_7
-	trait = one_handed
 	
 	father = lineofagathor32
 	

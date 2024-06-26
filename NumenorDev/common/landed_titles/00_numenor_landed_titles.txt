@@ -891,7 +891,7 @@ e_numenor = {
 		d_elenore = {
 			color = { 0 0 225 }
 			
-			capital = c_athrad_elrova
+			capital = c_elrova
 			
 			c_elrova = {
 				color = { 1 10 226 }

@@ -30,7 +30,7 @@ wonder_erendis_01 = {
 		vassal_opinion = 5
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}	
 	
 	ai_value = {
@@ -62,7 +62,7 @@ wonder_eldalonde_01 = { #Numenorean Port of Eldalonde
 		development_growth_factor = 0.1
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}
 	ai_value = {
 		base = 100
@@ -97,7 +97,7 @@ wonder_eldalonde_02 = { #Eldalonde after the Akallabeth
 		vassal_opinion = 5
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}	
 	ai_value = {
 		base = 100
@@ -134,7 +134,7 @@ wonder_eldalonde_03 = {
 		no_water_crossing_penalty = yes
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}	
 	
 	ai_value = {
@@ -167,7 +167,7 @@ wonder_andunie_01 = { #Andunie, haven of the faithful
 		development_growth_factor = 0.1
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}
 	ai_value = {
 		base = 100
@@ -202,7 +202,7 @@ wonder_andunie_02 = { #Andunie after the Akallabeth
 		vassal_opinion = 5
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}	
 	ai_value = {
 		base = 100
@@ -239,7 +239,7 @@ wonder_andunie_03 = {
 		same_faith_opinion = 5
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}	
 	
 	ai_value = {
@@ -272,7 +272,7 @@ wonder_meneltarma_01 = { #Meneltarma, Holy mountain of Eru
 		development_growth_factor = 0.1
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}
 	ai_value = {
 		base = 100
@@ -309,7 +309,7 @@ wonder_meneltarma_02 = { #Meneltarma as a place to worship the Fallen
 		same_faith_opinion = 5
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}	
 	
 	ai_value = {
@@ -341,7 +341,7 @@ wonder_ondosto_01 = { #No more quarrying, sad
 		development_growth_factor = 0.1
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}
 	ai_value = {
 		base = 100
@@ -374,7 +374,7 @@ wonder_ondosto_02 = { #New quarries, nice
 		development_growth_factor = 0.6
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}	
 	
 	ai_value = {
@@ -406,7 +406,7 @@ wonder_nindamos_01 = { #fish
 		development_growth_factor = 0.1
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}
 	ai_value = {
 		base = 100
@@ -439,7 +439,7 @@ wonder_nindamos_02 = { #Fish and people
 		development_growth_factor = 0.3
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}	
 	
 	ai_value = {
@@ -467,7 +467,7 @@ wonder_oromet_01 = { #Tower destroyed during the Akallabeth
 	county_modifier = {
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}
 	ai_value = {
 		base = 100
@@ -503,7 +503,7 @@ wonder_oromet_02 = { #Tower restored
 		vassal_opinion = 5
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}	
 	
 	ai_value = {
@@ -536,7 +536,7 @@ wonder_calmindon_01 = { #Tower of Calmindon
 		same_faith_opinion = 5
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}	
 	
 	ai_value = {
@@ -564,7 +564,7 @@ wonder_sorontil_01 = { #Tower destroyed during the Akallabeth
 	county_modifier = {
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}
 	ai_value = {
 		base = 100
@@ -600,7 +600,7 @@ wonder_sorontil_02 = { #Tower restored
 		vassal_opinion = 5
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}	
 	
 	ai_value = {
@@ -632,7 +632,7 @@ wonder_romenna_01 = { #Romenna, gratest haven of Númenor
 		development_growth_factor = 0.1
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}
 	ai_value = {
 		base = 100
@@ -667,7 +667,7 @@ wonder_romenna_02 = { #Haven being restored
 		vassal_opinion = 5
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}	
 	ai_value = {
 		base = 100
@@ -704,7 +704,7 @@ wonder_romenna_03 = { # Haven restored
 		no_water_crossing_penalty = yes
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}	
 	
 	ai_value = {
@@ -733,7 +733,7 @@ wonder_armenelos_01 = { # Armenelos
 		supply_limit_mult = 3
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}
 	type = special
 	ai_value = {
@@ -766,7 +766,7 @@ wonder_armenelos_02 = { #Temple of the Fallen
 		pikemen_damage_mult = 0.05
 	}	
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}	
 	ai_value = {
 		base = 100
@@ -800,7 +800,7 @@ wonder_armenelos_03 = { #Palace of the King
 		health = 0.5
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}
 	ai_value = {
 		base = 100
@@ -835,7 +835,7 @@ wonder_armenelos_04 = { #Armenelos: Flowering of Nimloth
 		health = 0.5
 	}
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_adunaic }
+		culture = { has_cultural_pillar = heritage_adunaic }
 	}
 	ai_value = {
 		base = 100

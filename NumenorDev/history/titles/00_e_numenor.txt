@@ -707,10 +707,6 @@ d_formenore = {
 		holder = lineofazrubensubmod29
 		liege = e_numenor		
 	}
-	6980.1.1 = {
-		holder = place3
-		liege = e_numenor
-	}
 }
 
 d_khorandor = {
