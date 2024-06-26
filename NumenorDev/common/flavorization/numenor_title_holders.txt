@@ -1,4 +1,4 @@
-count_feudal_numenor = {
+﻿count_feudal_numenor = {
 	type = character
 	special = holder
 	tier = county

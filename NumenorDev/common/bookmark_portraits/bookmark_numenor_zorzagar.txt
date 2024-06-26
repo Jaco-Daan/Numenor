@@ -119,7 +119,7 @@ bookmark_numenor_zorzagar={
  			beards={ "no_beard" 159 "no_beard" 0 }
  			clothes={ "dde_hre_low_nobility_clothes" 233 "most_clothes" 0 }
  			hairstyles={ "western_hairstyles_wavy" 66 "all_hairstyles" 0 }
- 			headgear={ "adunai_dukes" 206 "no_headgear" 0 }
+ 			headgear={ "adunai_nobility" 117 "no_headgear" 0 }
  			legwear={ "western_common_legwear" 66 "all_legwear" 0 }
  			gene_shrink_body={ "shrink_all" 255 "" 0 }
  	}

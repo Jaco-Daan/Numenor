@@ -16792,7 +16792,7 @@ lineofazruben1 = { # Azrubên of Rómenna (Azûlsûzâyan), governor of Anbalukk
 	trait = just
 	trait = humble
 	trait = gregarious
-	trait = born_on_numenor
+	# trait = born_on_numenor
 	
 	3201.2.8 = {
 		birth = yes		
@@ -16813,7 +16813,7 @@ lineofazruben2 = {
 	father = lineofazruben1
 	
 	trait = blood_of_numenor_9
-	trait = born_on_numenor
+	# trait = born_on_numenor
 	
 	3415.1.1 = {
 		birth = yes
@@ -16832,7 +16832,7 @@ lineofazruben3 = {
 	father = lineofazruben2
 	
 	trait = blood_of_numenor_9
-	trait = born_on_numenor
+	# trait = born_on_numenor
 	
 	3562.1.1 = {
 		birth = yes
@@ -16850,7 +16850,7 @@ lineofazruben4 = {
 	father = lineofazruben3
 	
 	trait = blood_of_numenor_8
-	trait = born_on_numenor
+	# trait = born_on_numenor
 	
 	3697.1.1 = {
 		birth = yes
@@ -16872,7 +16872,7 @@ lineofazruben5 = {
 	trait = sadistic
 	trait = vengeful
 	trait = blood_of_numenor_7
-	trait = born_on_numenor
+	# trait = born_on_numenor
 	
 	3798.1.1 = {
 		birth = yes
@@ -16890,7 +16890,7 @@ lineofazruben6 = {
 	father = lineofazruben3
 	
 	trait = blood_of_numenor_8
-	trait = born_on_numenor
+	# trait = born_on_numenor
 	
 	3699.1.1 = {
 		birth = yes

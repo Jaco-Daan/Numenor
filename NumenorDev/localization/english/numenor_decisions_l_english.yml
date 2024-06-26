@@ -48,11 +48,11 @@
  decision_deal_with_aa_desc:0 "A few days ago our scouts reported pirate ships near our coasts and after a short struggle, we managed to capture one that has dared to go so close to our coast, they claim to be from an island realm called Ar-Adûnâim and to be worshipers Mulkhêr. We can not allow for worshipers of Mulkhêr to tarnish the reputation of the Adûnai, The Council shall be informed and a decision shall be made to deal this mockery of Anadûnê." 
  decision_deal_with_aa_confirm:0 "Deal with the Melkorites"
  
- decision_destroy_mordor:0 "Destroy Mordor"
- decision_destroy_mordor_tooltip:0 "Begin a great battle to destroy Sauron and Mordor once and for all"
- decision_destroy_mordor_desc:0 "Too long have we been on the defensive, barely managing to hold onto its lands while Mordor grew in strength. No longer! Let us end this, once and for all."
- decision_destroy_mordor_confirm:0 "It is time to end this."
- destroy_mordor_decision:0 "Launches a final war to destroy Mordor, and Sauron, once and for all"
+#  decision_destroy_mordor:0 "Destroy Mordor"
+#  decision_destroy_mordor_tooltip:0 "Begin a great battle to destroy Sauron and Mordor once and for all"
+#  decision_destroy_mordor_desc:0 "Too long have we been on the defensive, barely managing to hold onto its lands while Mordor grew in strength. No longer! Let us end this, once and for all."
+#  decision_destroy_mordor_confirm:0 "It is time to end this."
+#  destroy_mordor_decision:0 "Launches a final war to destroy Mordor, and Sauron, once and for all"
  
  decision_numenor_annex_korlea:0 "An Offer to Korlea"
  decision_numenor_annex_korlea_desc:0 "Korlea, once the mightiest of the Bellakarani cities, now a half-sunken port which the Haradric Tumakveh take for granted, it was the Adûnai who built Korlea, and it is the Adûnai who still rule it, for we have received reports that the Lord of the region is of pure Adûnaic descent. We will make him an offer to secede from Bellakar and join Númenor, in exchange, we shall send resources and manpower to rebuild Korlea and make it the headquarters of the Bâitha’n-Kadîr and a restored Pharazâin once again."

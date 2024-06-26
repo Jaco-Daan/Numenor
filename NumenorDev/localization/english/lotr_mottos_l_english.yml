@@ -1,7 +1,6 @@
 ﻿l_english:
  dynn_istari_motto:0 "Do not meddle in the affairs of wizards"
  ## Númenor Submod ##
- dynn_ciryamir_motto:0 "Forever loyal to the line of Elros"
  dynn_minorforostar_motto:0 "Dance as a bear - free and fearless"
  dynn_andunie_motto:0 "Eternal faith to the Valar"
  dynn_ciryandur_motto:0 "From the Great Sea we come"
@@ -127,8 +126,6 @@
  dynn_telcontar_motto:0 "The oath of Elendil, rekindled"
  dynn_indilzar_motto:0 "In memory of Aragorn, Isildur and Elendil" 
  dynn_ciryamir_motto:0 "Forever loyal to the line of Elros"
- dynn_minorforostar_motto:0 "Dance as a bear - free and fearless"
- dynn_andunie_motto:0 "Eternal faith to the Valar"
  dynn_ostomir_motto:0 "Loyal to the Tower of the Moon"
  dynn_arnen_moto:0 "Vanguard of Anduin"
  dynn_gondorstewards_motto:0 "In service of the White Tree"
@@ -171,7 +168,6 @@
  dynn_calionath_motto:0 "Strong be my arm"
  dynn_telemnarion_motto:0 "Watching ever Southward"
  dynn_astandur_motto:0 "In the shadows, we wait"
- dynn_ciryandur_motto:0 "From the Great Sea we come"
  dynn_haldirionath_motto:0 "Forever Loyal to Gondor"
  dynn_aicawion_motto:0 "Bane of the Easterlings"
  dynn_an_ulond_motto:0 "Proud Castellans of the Retreat of Kings"
@@ -643,7 +639,6 @@
  dynn_thonuzir_motto:0 "Lords by acclamation and deeds"
  dynn_azar_kadae_motto:0 "Sleep quietly, train diligently"
  dynn_saraj_nai_motto:0 "The wolf hunts, the sheep quake"
- dynn_urithor_motto:0 "We rebuilt this land"
  dynn_sinrihil_motto:0 "May the kindly mother protect us"
  dynn_surduhin_motto:0 "The rivers are our blood"
  dynn_aduanusi_motto:0 "People of choice, not people of blood"

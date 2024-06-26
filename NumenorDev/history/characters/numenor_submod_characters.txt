@@ -1,4 +1,4 @@
-
+﻿
 ### Númenor Submod Extension ###
 lineofelros81 = {
 	name = "Azgarzîr"
@@ -6,7 +6,7 @@ lineofelros81 = {
 	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
-	male = yes
+	
 	
 	father = lineofelros80
 	
@@ -25,7 +25,7 @@ lineofelros82 = {
 	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
-	male = yes
+	
 	
 	father = lineofelros81
 	
@@ -44,7 +44,7 @@ lineofelros83 = {
 	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
-	male = yes
+	
 	
 	father = lineofelros82
 	
@@ -63,7 +63,7 @@ lineofelros84 = {
 	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
-	male = yes
+	
 	
 	father = lineofelros83
 	
@@ -82,7 +82,7 @@ lineofelros85 = {
 	religion = melkorite
 	culture = black_numenorean
 	
-	male = yes
+	
 	
 	father = lineofelros84
 	
@@ -101,7 +101,7 @@ lineofelros86 = {
 	religion = melkorite
 	culture = black_numenorean
 	
-	male = yes
+	
 	
 	father = lineofelros85
 	
@@ -145,7 +145,7 @@ lineofelros88 = {
 	religion = faith_numenorean
 	culture = black_numenorean
 	
-	male = yes
+	
 	
 	mother = lineofelros87
 	
@@ -166,7 +166,7 @@ lineofelros89 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros88
 	
@@ -193,7 +193,7 @@ lineofelros90 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros89
 	
@@ -212,7 +212,7 @@ lineofelros91 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros90
 	
@@ -231,7 +231,7 @@ lineofelros92 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros91
 	
@@ -250,7 +250,7 @@ lineofelros93 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros92
 	
@@ -269,7 +269,7 @@ lineofelros94 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros93
 	
@@ -288,7 +288,7 @@ lineofelros95 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros94
 	
@@ -307,7 +307,7 @@ lineofelros96 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros95
 	
@@ -326,7 +326,7 @@ lineofelros97 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros96
 	
@@ -345,7 +345,7 @@ lineofelros98 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros97
 	
@@ -364,7 +364,7 @@ lineofelros99 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros98
 	
@@ -383,7 +383,7 @@ lineofelros100 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros99
 	
@@ -402,7 +402,7 @@ lineofelros101 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros100
 	
@@ -421,7 +421,7 @@ lineofelros102 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros101
 	
@@ -440,7 +440,7 @@ lineofelros103 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros102
 	
@@ -459,7 +459,7 @@ lineofelros104 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros103
 	
@@ -478,7 +478,7 @@ lineofelros105 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros104
 	
@@ -497,7 +497,7 @@ lineofelros106 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros105
 	
@@ -516,7 +516,7 @@ lineofelros107 = {
 	religion = faith_kings_men_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros106
 	
@@ -536,7 +536,7 @@ lineofelros108 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros106
 	
@@ -562,7 +562,7 @@ lineofelros109 = {
 	religion = faith_adunaic
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros108
 	
@@ -582,7 +582,7 @@ lineofelros110 = {
 	religion = faith_adunaic
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros109
 	
@@ -601,7 +601,7 @@ lineofelros111 = {
 	religion = faith_adunaic
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros110
 	
@@ -620,7 +620,7 @@ lineofelros112 = {
 	religion = faith_adunaic
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros111
 	
@@ -639,7 +639,7 @@ lineofelros113 = {
 	religion = faith_adunaic
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros112
 	
@@ -660,7 +660,7 @@ lineofelros114 = {
 	culture = adunaic
 	dna = balkazir_dna
 	
-	male = yes
+	
 	
 	father = lineofelros113
 	
@@ -688,7 +688,7 @@ lineofelros115 = {
 	religion = faith_adunaic
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros114
 	
@@ -714,7 +714,7 @@ lineofelros116 = {
 	religion = faith_adunaic
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros115
 	
@@ -738,7 +738,7 @@ lineofelros117 = {
 	religion = faith_adunaic
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros113
 	
@@ -757,7 +757,7 @@ lineofelros118 = {
 	religion = faith_adunaic
 	culture = adunaic
 	
-	male = yes
+	
 	
 	father = lineofelros117
 	
@@ -1403,7 +1403,7 @@ lineofelatan43 = {
 	
 	trait = blood_of_numenor_7
 	trait = just
-	trait = mariner_2
+	trait = lifestyle_mariner
 	trait = scholar
 	trait = shrewd
 	
@@ -2310,7 +2310,7 @@ lineofvardur27 = {
 	
 	trait = blood_of_numenor_7
 	trait = just
-	trait = mariner_2
+	trait = lifestyle_mariner
 	trait = beauty_good_1
 	
 	6998.1.1 = {
@@ -4320,8 +4320,8 @@ ruxoalendil29 = {
 	father = ruxoalendil28
 	
 	trait = blood_of_numenor_7
-	trait = mariner_3
-	trait = blademaster_1
+	trait = lifestyle_mariner
+	trait = lifestyle_blademaster
 	
 	7002.1.1 = {
 		birth = yes
@@ -12618,7 +12618,7 @@ lineofkhorandor1 = {
 	trait = wrathful
 	trait = sadistic
 	trait = brave
-	trait = mariner_3
+	trait = lifestyle_mariner
 	
 	3703.1.1 = {
 		birth = yes
@@ -12971,7 +12971,7 @@ lineofkhorandor21 = {
 	trait = zealous
 	trait = schemer
 	trait = deceitful
-	trait = mariner_2
+	trait = lifestyle_mariner
 	
 	6263.1.1 = {
 		birth = yes

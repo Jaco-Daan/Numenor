@@ -1,6 +1,15 @@
 ﻿### Numenor Submod Code ###
 heritage_adunaic = {
 	type = heritage
+	character_modifier  = {
+		halls_advantage = -10
+	}
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_adunaic
+		}
+	}
+	audio_parameter = european
 }
 ### Numenor Submod Code ###
 

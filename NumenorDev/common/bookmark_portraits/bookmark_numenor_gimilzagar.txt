@@ -119,7 +119,7 @@ bookmark_numenor_gimilzagar={
  			beards={ "no_beard" 115 "no_beard" 0 }
  			clothes={ "dde_hre_low_nobility_clothes" 82 "most_clothes" 0 }
  			hairstyles={ "western_hairstyles_straight" 113 "all_hairstyles" 0 }
- 			headgear={ "adunai_dukes" 158 "no_headgear" 0 }
+ 			headgear={ "adunai_nobility" 135 "no_headgear" 0 }
  			legwear={ "western_common_legwear" 113 "all_legwear" 0 }
  			gene_shrink_body={ "shrink_all" 255 "" 0 }
 	}

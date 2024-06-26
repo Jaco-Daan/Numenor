@@ -33,6 +33,11 @@
 	}
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
@@ -57,7 +62,7 @@
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -93,9 +98,18 @@ servant_character = {
 	}
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
 		}
 		random_list = {
 			200 = {
@@ -252,6 +266,11 @@ witchy_template = {
 	}
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
@@ -276,10 +295,11 @@ witchy_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
+
 
 merchant_template = {
 	age = { 20 40 }
@@ -323,6 +343,11 @@ merchant_template = {
 	learning = { 5 13 }
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
@@ -347,7 +372,7 @@ merchant_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -406,9 +431,18 @@ hunter_template = {
 	}
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
 		}
 		add_random_tiered_trait_track_xp_effect = {
 			TRAIT = lifestyle_hunter
@@ -477,9 +511,18 @@ falconer_template = {
 	}
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
 		}
 		add_random_tiered_trait_track_xp_effect = {
 			TRAIT = lifestyle_hunter
@@ -558,6 +601,11 @@ detective_template = {
 	learning = { 5 10 }
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
@@ -582,7 +630,7 @@ detective_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -634,9 +682,18 @@ generic_peasant_character = {
 	}
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
 		}
 		random_list = {
 			200 = {
@@ -728,9 +785,18 @@ generic_female_peasant_character = {
 	}
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
 		}
 		random_list = {
 			200 = {
@@ -811,6 +877,11 @@ challenger_peasant_character = {
 	learning = { 5 7 }
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
@@ -835,7 +906,7 @@ challenger_peasant_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -866,9 +937,18 @@ peasant_character = {
 	random_traits = yes
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
 		}
 		random_list = {
 			200 = {
@@ -929,6 +1009,11 @@ drunken_peasant_character = {
 	prowess = { 5 13 }
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
@@ -953,7 +1038,7 @@ drunken_peasant_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -977,6 +1062,11 @@ diseased_peasant_character = {
 	health = 6
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
@@ -1001,13 +1091,28 @@ diseased_peasant_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
 
 peasant_child_character = {
 	age = { 3 15 }
+	dynasty = none
+	gender_female_chance = 50
+	random_traits = yes
+	after_creation = {
+		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		add_character_flag = peasant_outfit
+	}
+}
+
+peasant_toddler_character = {
+	age = { 3 8 }
 	dynasty = none
 	gender_female_chance = 50
 	random_traits = yes
@@ -1082,6 +1187,11 @@ bandit_character = {
 			}
 		}
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
@@ -1106,7 +1216,7 @@ bandit_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -1128,6 +1238,11 @@ guide_character = {
 	}
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
@@ -1152,7 +1267,7 @@ guide_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -1170,6 +1285,11 @@ tournament_locale_character = {
 	}
 	after_creation = {
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
@@ -1194,8 +1314,8 @@ tournament_locale_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
-		}
+			change_age = { 65 180 }
+		} 
 	}
 }
 
@@ -1224,13 +1344,18 @@ child_peasant_character = {
 		}
 		add_character_flag = peasant_outfit
 		if = {
+			limit = { is_wastelands = yes }
+			set_culture = root.culture
+			set_character_faith = root.faith
+		}
+		if = {
 			limit = { is_elf = yes }
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
-		}
+			change_age = { 65 180 }
+		} 
 	}
 }

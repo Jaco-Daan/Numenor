@@ -192,7 +192,7 @@
 					buildings = {
 						castle_04
 						farm_estates_06
-						orchads_05
+						# orchads_05
 						barracks_04
 						curtain_walls_05
 					}
@@ -267,7 +267,7 @@
 						curtain_walls_06
 						common_tradeport_07
 						barracks_05
-						orchads_05
+						# orchads_05
 					}
 					special_building_slot = wonder_andunie_01
 					special_building = wonder_andunie_02
@@ -292,7 +292,7 @@
 						castle_04
 						curtain_walls_05
 						common_tradeport_07
-						orchads_05
+						# orchads_05
 						garrison_tower_02
 					}
 					special_building_slot = wonder_eldalonde_01
@@ -338,7 +338,7 @@
 						castle_04
 						common_tradeport_06
 						farm_estates_06
-						orchads_05
+						# orchads_05
 						barracks_04
 					}
 			}
@@ -376,7 +376,7 @@
 					buildings = {
 						castle_03
 						curtain_walls_04
-						orchads_05
+						# orchads_05
 						farm_estates_06
 						garrison_tower_02
 					}
@@ -395,7 +395,7 @@
 					buildings = {
 						castle_04
 						curtain_walls_06
-						orchads_05
+						# orchads_05
 						farm_estates_06
 						common_tradeport_07
 					}

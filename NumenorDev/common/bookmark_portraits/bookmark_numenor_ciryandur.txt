@@ -121,7 +121,7 @@ bookmark_numenor_ciryandur={
  		beards={ "no_beard" 84 "no_beard" 0 }
  		clothes={ "dde_hre_low_nobility_clothes" 150 "most_clothes" 0 }
  		hairstyles={ "western_hairstyles_wavy" 42 "all_hairstyles" 0 }
- 		headgear={ "adunai_dukes" 94 "no_headgear" 0 }
+ 		headgear={ "adunai_nobility" 117 "no_headgear" 0 }
  		legwear={ "western_common_legwear" 136 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  }

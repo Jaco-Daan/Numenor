@@ -117,7 +117,7 @@ middleearth_numenor = {
 		d_sorontil d_elenore d_ciryanore d_ondosto d_meneltarma
 		d_arandor d_formenore d_aruwanai d_hyarnore d_khorandor
 		d_erelonde d_hyarnudore d_zimrayan d_emerie d_nisimaldar
-		d_nunduine d_erest d_andunie d_arialome d_sirinore
+		d_nunduine d_erest d_andunie d_arialome d_sirinore d_nindamos
 	}
 }
 
@@ -224,8 +224,12 @@ middleearth_west_gondor_centralfiefdoms = {
 		d_tolfalas
 		# k_anfalas
 		d_anfalas d_serelond
-		# Numenor
-		d_sorontil d_elenore d_ciryanore d_ondosto d_meneltarma d_arandor d_formenore d_aruwanai d_hyarnore d_khorandor d_erelonde d_hyarnudore d_zimrayan d_emerie d_nisimaldar d_nunduine d_erest d_andunie d_arialome d_sirinore
+		# Numenor Submod
+		d_sorontil d_elenore d_ciryanore d_ondosto
+		d_meneltarma d_arandor d_formenore d_aruwanai
+		d_hyarnore d_khorandor d_erelonde d_hyarnudore 
+		d_zimrayan d_emerie d_nisimaldar d_nunduine d_erest 
+		d_andunie d_arialome d_sirinore d_nindamos
 	}
 }
 middleearth_west_gondor_easternfiefdoms = {
@@ -554,8 +558,6 @@ middleearth_west = {
 		middleearth_west_rhovanion
 		middleearth_west_gondor
 		middleearth_west_arnor
-		# Numenor Submod
-		middleearth_numenor
 	}
 }
 middleearth_haradwaith_far = {

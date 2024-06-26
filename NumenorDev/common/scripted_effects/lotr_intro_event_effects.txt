@@ -17,7 +17,7 @@ fire_intro_events = {
 				is_alive = yes
 			}
 			trigger_event = { 
-				id = khorahilfix.0001
+				id = numenor.9500
 				days = 1
 			}
 		}
@@ -34,7 +34,7 @@ fire_intro_events = {
 				is_alive = yes
 			}
 			trigger_event = { 
-				id = murazorfix.0001
+				id = numenor.9501
 				days = 1
 			}
 		}

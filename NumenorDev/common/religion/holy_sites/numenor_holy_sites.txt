@@ -1,4 +1,4 @@
-meneltarma = {
+﻿meneltarma = {
 	county = c_meneltarma
 	barony = b_meneltarma
 	character_modifier = {

@@ -8,27 +8,7 @@
 
 
 ###
-khorahilfix.0001 = { # Little event that makes it so Khorahil doesn't have claims
-	hidden = yes
-	
-	option = { # Bad nazgul.
-		name = khorahilfix.0001.a
-		custom_tooltip = khorahilfix.0001.a.tt
-			remove_claim = title:d_nunduine
-			remove_claim = title:k_an_balkumagan
-			remove_claim = title:e_numenor
-	}
-}
 
-murazorfix.0001 = { # Little event that makes it so Er-Murazor doesn't have a claim to Númenor
-	hidden = yes
-	
-	option = { # Bad nazgul.
-		name = murazorfix.0001.a
-		custom_tooltip = murazorfix.0001.a.tt
-			remove_claim = title:e_numenor
-	}
-}
 
 numenor.0003 = { # Introduction to Ar-Balkazir.
 	title = numenor.0003.t
@@ -92,8 +72,8 @@ numenor.0230 = { # Introduction to Lord Eldarion.
 	option = { # We've always been faithful I guess
 		name = numenor.0230.b
 		custom_tooltip = numenor.0230.b.tt
-			set_character_faith = faith:faith_numenorean
-		ai_changce = {
+		set_character_faith = faith:faith_numenorean
+		ai_chance = {
 			base = 0
 		}
 	}
@@ -525,15 +505,25 @@ numenor.2002 = { #Pirates!
 			50 = { #All ends well
 				modifier = {
 					add = -20
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}		
 				modifier = {
 					add = -40
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}	
 				modifier = {
 					add = -60
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				custom_tooltip = sailing.3200.b.failure.tt
 				damage_ship = yes
@@ -542,15 +532,25 @@ numenor.2002 = { #Pirates!
 			20 = { #Ship is unscathed
 				modifier = {
 					add = 20
-					has_trait = mariner_1
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value < 50
+					}
 				}		
 				modifier = {
 					add = 40
-					has_trait = mariner_2
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 50
+						value < 100
+					}
 				}	
 				modifier = {
 					add = 60
-					has_trait = mariner_3
+					has_trait_xp = {
+						trait = lifestyle_mariner
+						value >= 100
+					}
 				}
 				custom_tooltip = sailing.3200.b.success.tt 
 			}
@@ -641,8 +641,8 @@ numenor.3000 = {
 	after = {
 		title:e_bellakar.holder = {
 			dynasty = {
-				limit = { is_alive = yes }
 				every_dynasty_member = {
+					limit = { is_alive = yes }
 					add_opinion = {
 						modifier = bellakar_hates_numenor
 						target = scope:ruler_of_numenor
@@ -1090,5 +1090,23 @@ numenor.3310 = {
 				add = 100
 			}
 		}
+	}
+}
+
+numenor.9500 = { # Little event that makes it so Khorahil doesn't have claims
+	hidden = yes
+
+	immediate = {
+		remove_claim = title:d_nunduine
+		remove_claim = title:k_an_balkumagan
+		remove_claim = title:e_numenor
+	}
+}
+
+numenor.9501 = { # Little event that makes it so Er-Murazor doesn't have a claim to Númenor
+	hidden = yes
+
+	immediate = {
+		remove_claim = title:e_numenor
 	}
 }

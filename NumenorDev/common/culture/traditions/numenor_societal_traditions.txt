@@ -49,6 +49,6 @@
 	}
 
 	county_modifier = {
-		monthly_county_control_change_add = 0.5
+		monthly_county_control_growth_factor = 0.5
 	}	
 }

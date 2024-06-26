@@ -82,24 +82,30 @@ bribe_council_member_cost = {
 	value = 0
 	if = {
 		limit = {
-			scope:recipient = {
-				opinion = {
-					target = scope:actor
-					value < 1
+			exists = scope:recipient
+			exists = scope:actor
+		}
+		if = {
+			limit = {
+				scope:recipient = {
+					opinion = {
+						target = scope:actor
+						value < 1
+					}
 				}
 			}
+			add = 150
 		}
-		add = 150
-	}
-	if = {
-		limit = {
-			scope:recipient = {
-				opinion = {
-					target = scope:actor
-					value < -50
+		if = {
+			limit = {
+				scope:recipient = {
+					opinion = {
+						target = scope:actor
+						value < -50
+					}
 				}
 			}
+			add = 150
 		}
-		add = 150
 	}
 }

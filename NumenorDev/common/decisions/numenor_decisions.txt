@@ -64,8 +64,8 @@ decision_reclaim_umbar_numenor = {
 				NOT = { this = root }
 				culture = {
 					OR = {
-						has_cultural_pillar = heritage_daen
-						has_cultural_pillar = heritage_dunlending
+						has_cultural_pillar = heritage_daen_coentis
+						has_cultural_pillar = heritage_daen_lintis
 						has_cultural_pillar = heritage_northern_apysaic
 						has_cultural_pillar = heritage_dunedain
 						has_cultural_pillar = heritage_northern_adunaic
@@ -156,8 +156,8 @@ decision_reclaim_bellakar_numenor = {
 				NOT = { this = root }
 				culture = {
 					OR = {
-						has_cultural_pillar = heritage_daen
-						has_cultural_pillar = heritage_dunlending
+						has_cultural_pillar = heritage_daen_coentis
+						has_cultural_pillar = heritage_daen_lintis
 						has_cultural_pillar = heritage_northern_apysaic
 						has_cultural_pillar = heritage_dunedain
 						has_cultural_pillar = heritage_northern_adunaic
@@ -240,8 +240,8 @@ decision_reclaim_thani_hazad_numenor = {
 				NOT = { this = root }
 				culture = {
 					OR = {
-						has_cultural_pillar = heritage_daen
-						has_cultural_pillar = heritage_dunlending
+						has_cultural_pillar = heritage_daen_coentis
+						has_cultural_pillar = heritage_daen_lintis
 						has_cultural_pillar = heritage_northern_apysaic
 						has_cultural_pillar = heritage_dunedain
 						has_cultural_pillar = heritage_northern_adunaic
@@ -373,8 +373,8 @@ decision_reclaim_gondor_numenor = {
 				NOT = { this = root }
 				culture = {
 					OR = {
-						has_cultural_pillar = heritage_daen
-						has_cultural_pillar = heritage_dunlending
+						has_cultural_pillar = heritage_daen_coentis
+						has_cultural_pillar = heritage_daen_lintis
 						has_cultural_pillar = heritage_northern_apysaic
 						has_cultural_pillar = heritage_dunedain
 						has_cultural_pillar = heritage_northern_adunaic
@@ -492,8 +492,8 @@ decision_reclaim_harnen_numenor = {
 				NOT = { this = root }
 				culture = {
 					OR = {
-						has_cultural_pillar = heritage_daen
-						has_cultural_pillar = heritage_dunlending
+						has_cultural_pillar = heritage_daen_coentis
+						has_cultural_pillar = heritage_daen_lintis
 						has_cultural_pillar = heritage_northern_apysaic
 						has_cultural_pillar = heritage_dunedain
 						has_cultural_pillar = heritage_northern_adunaic
@@ -540,6 +540,12 @@ decision_expedition_anarike = {
 			name = unavailable_unique_decisions
 			target = flag:decision_reclaim_thani_hazad_numenor
 		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_expedition_anarike
+			}
+		}
 	}
 	is_valid = {
 		completely_controls = title:k_an_balkumagan
@@ -559,7 +565,7 @@ decision_expedition_anarike = {
 	effect = {
 		add_to_global_variable_list = {
 			name = unavailable_unique_decisions
-		target = flag:decision_expedition_anarike
+			target = flag:decision_expedition_anarike
 		}
 		custom_tooltip = decision_expedition_anarike
 			
@@ -1057,7 +1063,6 @@ decision_numenor_league_of_pelargir = {
 
 	# AI 
 	ai_goal = yes
-	ai_check_interval = 12
 	ai_potential = {
 		always = yes
 	}
@@ -1123,7 +1128,6 @@ decision_numenor_disband_council_of_sceptre = {
 
 	# AI 
 	ai_goal = yes
-	ai_check_interval = 12
 	ai_potential = {
 		always = yes
 	}
