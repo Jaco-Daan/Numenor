@@ -194,7 +194,7 @@
 						farm_estates_06
 						# orchads_05
 						barracks_04
-						curtain_walls_05
+						# curtain_walls_05
 					}
 					special_building_slot = wonder_ondosto_01
 					special_building = wonder_ondosto_01
@@ -266,7 +266,7 @@
 						castle_04
 						curtain_walls_06
 						common_tradeport_07
-						barracks_05
+						# barracks_05
 						# orchads_05
 					}
 					special_building_slot = wonder_andunie_01
@@ -339,7 +339,7 @@
 						common_tradeport_06
 						farm_estates_06
 						# orchads_05
-						barracks_04
+						# barracks_04
 					}
 			}
 }
@@ -375,8 +375,8 @@
 				6990.1.1 = {
 					buildings = {
 						castle_03
-						# curtain_walls_04
-						orchads_05
+						curtain_walls_04
+						# orchads_05
 						farm_estates_06
 						# garrison_tower_02
 					}
