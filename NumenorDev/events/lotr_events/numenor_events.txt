@@ -280,10 +280,10 @@ numenor.0010 = { #Meneltarma
 		name = numenor.0010.a
 		add_prestige = 25
 		add_piety = 25
-		add_character_modifier = {
-			modifier = blessed_by_meneltarma_modifier
-			years = 5
-		}
+		# add_character_modifier = {
+		# 	modifier = blessed_by_meneltarma_modifier
+		# 	years = 5
+		# }
 		#if = {
 		#	limit = {  NOT = { has_character_modifier = blessed_by_meneltarma_modifier }	}
 		#	add_character_modifier = blessed_by_meneltarma_modifier
@@ -780,6 +780,7 @@ numenor.3102 = { # Return in shame to Numenor
 
 numenor.3200 = {
 	hidden = yes
+	orphan = yes
 
 	immediate = {
 		add_to_global_variable_list = {

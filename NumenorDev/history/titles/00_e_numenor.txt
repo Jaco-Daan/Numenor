@@ -639,75 +639,74 @@ d_formenore = {
 	3913.1.1 = {
 		holder = 0
 	}
-		4368.1.1 = {
+	4368.1.1 = {
 		holder = lineofazrubensubmod8
 	}
-		4412.1.1 = {
+	4412.1.1 = {
 		holder = lineofazrubensubmod9
 	}
-		4550.1.1 = {
+	4550.1.1 = {
 		holder = lineofazrubensubmod10
 	}
-		4663.1.1 = {
+	4663.1.1 = {
 		holder = lineofazrubensubmod11
 	}
-		4773.1.1 = {
+	4773.1.1 = {
 		holder = lineofazrubensubmod12
 	}
-		4891.1.1 = {
+	4891.1.1 = {
 		holder = lineofazrubensubmod13
 	}
-		5021.1.1 = {
+	5021.1.1 = {
 		holder = lineofazrubensubmod14
 	}
-		5139.1.1 = {
+	5139.1.1 = {
 		holder = lineofazrubensubmod15
 	}
-		5340.1.1 = {
+	5340.1.1 = {
 		holder = lineofazrubensubmod16
 		liege = e_numenor
 	}
-		5473.1.1 = {
+	5473.1.1 = {
 		holder = lineofazrubensubmod17
 	}
-		5600.1.1 = {
+	5600.1.1 = {
 		holder = lineofazrubensubmod18
 	}
-		5736.1.1 = {
+	5736.1.1 = {
 		holder = lineofazrubensubmod19
 	}
-		5852.1.1 = {
+	5852.1.1 = {
 		holder = lineofazrubensubmod20
 	}
-		5967.1.1 = {
+	5967.1.1 = {
 		holder = lineofazrubensubmod21
 	}
-		6086.1.1 = {
+	6086.1.1 = {
 		holder = lineofazrubensubmod22
 	}
-		6211.1.1 = {
+	6211.1.1 = {
 		holder = lineofazrubensubmod23
 	}
-		6339.1.1 = {
+	6339.1.1 = {
 		holder = lineofazrubensubmod24
 	}
-		6447.1.1 = {
+	6447.1.1 = {
 		holder = lineofazrubensubmod25
 	}
-		6577.1.1 = {
+	6577.1.1 = {
 		holder = lineofazrubensubmod26
 	}
-		6696.1.1 = {
+	6696.1.1 = {
 		holder = lineofazrubensubmod27
 	}
-		6808.1.1 = {
+	6808.1.1 = {
 		holder = lineofazrubensubmod28
 	}
-		6942.1.1 = {
+	6942.1.1 = {
 		holder = lineofazrubensubmod29
 		liege = e_numenor		
 	}
-}
 	6980.1.1 = {
 		holder = place3
 		liege = e_numenor
