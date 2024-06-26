@@ -741,17 +741,19 @@ lineofelros26 = {
 	trait = beauty_good_3				
 	trait = compassionate				
 	trait = generous				
-	trait = content				
-	trait = depressed_1				
+	trait = content			
 					
 	3709.1.1 = {				
 		birth = yes			
 	}				
 	3847.1.1 = {				
 		add_spouse = lineofelros28 # Ar-Pharazôn			
-	}				
-	3911.1.1 = {				
-		death = { death_reason = death_numenor_drowned } 			
+	}
+	3912.1.1 = {
+		add_spouse = lineofelros88
+	}
+	4002.1.1 = {				
+		death = { death_reason = death_natural_causes} 			
 	}				
 }
 lineofelros27 = {					

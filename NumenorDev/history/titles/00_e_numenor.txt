@@ -80,6 +80,9 @@ e_numenor = {
 	3911.1.1 = {	
 		holder = 0 # Destruction of Numenor 
 	}
+	3912.5.8 = {
+		holder = lineofelros26 # Miriel
+	}
 	4002.1.1 = {
 		holder = lineofelros88 # Cemendur
 	}
