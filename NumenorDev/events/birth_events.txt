@@ -2116,19 +2116,19 @@ birth.2001 = {
 			if = {
 				limit = { 
 					OR = {
-						scope:real_father ?= { has_trait = blood_of_numenor_7 }
-						scope:father ?= { has_trait = blood_of_numenor_7 }
-						scope:mother ?= { has_trait = blood_of_numenor_7 }
+						scope:real_father = { has_trait = blood_of_numenor_7 }
+						scope:father = { has_trait = blood_of_numenor_7 }
+						scope:mother = { has_trait = blood_of_numenor_7 }
 					}
 					trigger_if = {
 						limit = { scope:mother = { is_ruler = yes } }
-						scope:mother.capital_county.title_province ?= { geographical_region = middleearth_numenor }
+						scope:mother.capital_county.title_province = { geographical_region = middleearth_numenor }
 					}
 					trigger_else = {
-						scope:mother.location ?= { geographical_region = middleearth_numenor }
+						scope:mother.location = { geographical_region = middleearth_numenor }
 					}
 				}
-				scope:child ?= {
+				scope:child = {
 					remove_trait = blood_of_numenor_1
 					remove_trait = blood_of_numenor_2
 					remove_trait = blood_of_numenor_3
@@ -2139,6 +2139,7 @@ birth.2001 = {
 					remove_trait = blood_of_numenor_8
 					remove_trait = blood_of_numenor_9
 					remove_trait = blood_of_numenor_10
+					
 					add_trait = blood_of_numenor_7
 				}
 			}

@@ -107,6 +107,13 @@ numenoreanblood.0001 = {
 			scope:real_father = { has_numenorean_trait = yes }
 			scope:mother = { has_numenorean_trait = yes }
 		}
+		trigger_if = {
+			limit = { scope:mother = { is_ruler = yes } }
+			NOT = { scope:mother.capital_county.title_province = { geographical_region = middleearth_numenor } }
+		}
+		trigger_else = {
+			NOT = { scope:mother.location = { geographical_region = middleearth_numenor } }
+		}
 	}
 
 	immediate = { #First clear all traits given by vanilla genetics mechanics
@@ -161,6 +168,7 @@ numenoreanblood.0001 = {
 				scope:real_father.get_numenorean_blood_tier = 10
 				scope:mother.get_numenorean_blood_tier = 10								
 			}
+			NOT = { scope:mother.location ?= { geographical_region = middleearth_numenor } }
 		}
 
 		scope:child = {
@@ -212,6 +220,7 @@ numenoreanblood.0001 = {
 					scope:mother.get_numenorean_blood_tier = 10
 				}
 			}
+			NOT = { scope:mother.location ?= { geographical_region = middleearth_numenor } }
 		}
 		random_list = {
 			100 = {
@@ -1246,6 +1255,7 @@ numenoreanblood.0001 = {
 					scope:mother.get_numenorean_blood_tier = 1
 				}
 			}
+			NOT = { scope:mother.location ?= { geographical_region = middleearth_numenor } }
 		}
 		random_list = {
 			50 = {
@@ -2674,5 +2684,4 @@ numenoreanblood.0001 = {
 			}
 		}
 	}
-
 }

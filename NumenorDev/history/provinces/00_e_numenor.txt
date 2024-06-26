@@ -12,7 +12,7 @@
 						castle_04
 						citadel_01
 						curtain_walls_04
-						common_tradeport_05
+						# common_tradeport_05
 					}
 				}	
 }
@@ -61,7 +61,7 @@
 						castle_04
 						citadel_02
 						curtain_walls_04
-						common_tradeport_06
+						# common_tradeport_06
 					}
 					special_building_slot = wonder_romenna_01
 					special_building = wonder_romenna_02
@@ -85,8 +85,8 @@
 						castle_04
 						citadel_02
 						curtain_walls_05
-						barracks_05
-						garrison_tower_02
+						# barracks_05
+						# garrison_tower_02
 					}
 					special_building_slot = wonder_armenelos_01
 					special_building = wonder_armenelos_02
@@ -115,7 +115,7 @@
 					buildings = {
 						castle_03
 						curtain_walls_04
-						common_tradeport_06
+						# common_tradeport_06
 						barracks_03
 					}
 			}
@@ -149,8 +149,8 @@
 						castle_04
 						citadel_01
 						curtain_walls_03
-						farm_estates_06
-						common_tradeport_06
+						# farm_estates_06
+						# common_tradeport_06
 					}
 			}
 }
@@ -173,7 +173,7 @@
 						castle_03
 						citadel_01
 						curtain_walls_03
-						garrison_tower_02
+						# garrison_tower_02
 					}
 					special_building_slot = wonder_sorontil_01
 					special_building = wonder_sorontil_01
@@ -293,7 +293,7 @@
 						curtain_walls_05
 						common_tradeport_07
 						# orchads_05
-						garrison_tower_02
+						# garrison_tower_02
 					}
 					special_building_slot = wonder_eldalonde_01
 					special_building = wonder_eldalonde_02
@@ -375,10 +375,10 @@
 				6990.1.1 = {
 					buildings = {
 						castle_03
-						curtain_walls_04
-						# orchads_05
+						# curtain_walls_04
+						orchads_05
 						farm_estates_06
-						garrison_tower_02
+						# garrison_tower_02
 					}
 			}
 }
@@ -394,7 +394,7 @@
 				6990.1.1 = {
 					buildings = {
 						castle_04
-						curtain_walls_06
+						# curtain_walls_06
 						# orchads_05
 						farm_estates_06
 						common_tradeport_07

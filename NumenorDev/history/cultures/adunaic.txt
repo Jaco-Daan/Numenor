@@ -59,10 +59,12 @@
 	discover_innovation = innovation_guilds
 	discover_innovation = innovation_development_03 # Urbanization
 	discover_innovation = innovation_currency_03 # Banking
-	discover_innovation = innovation_court_officials
-	discover_innovation = innovation_plate_armor
-	discover_innovation = innovation_cranes
 	
 
 	
 }	
+7010.1.2 = { # Throwing errors, so innovations moved here
+	discover_innovation = innovation_court_officials
+	discover_innovation = innovation_plate_armor
+	discover_innovation = innovation_cranes
+}
