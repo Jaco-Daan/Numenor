@@ -916,14 +916,14 @@ demand_ray_tributary = {
 		completely_controls = title:k_an_balkumagan
 		completely_controls = title:k_tulwang
 		custom_tooltip = {
-			text = "You have re-integrated [bellakar|E]"
+			text = "demand_ray_tributary_tooltip_bellakar"
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:decision_reclaim_bellakar_numenor
 			}
 		}
 		custom_tooltip = {
-			text = "You have re-integrated [thanihazad|E]"
+			text = "demand_ray_tributary_tooltip_thanihazad"
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:decision_reclaim_thani_hazad_numenor

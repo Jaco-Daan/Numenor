@@ -786,7 +786,7 @@ lineofelros119 = {
 		birth = yes
 	}
 	6998.1.1 = {
-		death = { death = death_natural_causes }
+		death = { death_reason = death_natural_causes }
 	}
 }
 

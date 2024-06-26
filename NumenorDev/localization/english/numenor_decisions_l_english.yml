@@ -74,6 +74,8 @@
  demand_ray_tributary_desc:0 "In the times of Númenor's height, the Bôzisha-Mîraz swore fealty to Númenor, not as a colony, but as a protectorate of the Sceptre, in which they recognised the High King of the Adûnaim as their Kralyi, which in their primitive language means King. The Dâr prospered from the Númenórean protection, for it could trade with the colonies of the Empire in the bay of Tûlwang, yet those days have passed, for once news of the Akallabêth reached them, the seven regents of the Dâr broke their fealty to Númenor and ever since they have been unable to regain their glory of old, but now, we shall give them a chance to change that."
  demand_ray_tributary_confirm:0 "I shall reclaim the mantle of Kralyi"
  demand_ray_tributary_tooltip:0 "Sends an ultimatum to Rây"
+ demand_ray_tributary_tooltip_bellakar:0 "You have re-integrated [bellakar|E]"
+ demand_ray_tributary_tooltip_thanihazad:0 "You have re-integrated [thanihazad|E]"
  
  decision_numenor_league_of_pelargir:0 "The Status of Pelargir"
  decision_numenor_league_of_pelargir_desc:0 "Once the mouth of the Anduin was ruled from Pelargir, our most noble and proud colony in the area, located strategically between Umbar and Vinyalondë, from it our Empire profited greatly, thanks to the efforts of the Colonial Government established; The League of Pelargir. Now that we have reconquered Gondor, the nobles of Pelargir have brought a petition to Armenelos - to restore the League of Pelargir and the more autonomous old colonial system that once existed in Gondor in exchange for greater taxes and aid in spreading our faith in Gondor."
