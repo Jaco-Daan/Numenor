@@ -96,7 +96,7 @@ lineofelros85 = {
 	}
 }
 lineofelros86 = {
-	name = "Minluzîr"
+	name = "Minluzi_i_r"
 	dynasty = dynasty_elros
 	religion = melkorite
 	culture = black_numenorean
@@ -207,7 +207,7 @@ lineofelros90 = {
 	}
 }
 lineofelros91 = {
-	name = "Azrubêl"
+	name = "Azrube_e_l"
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
@@ -226,7 +226,7 @@ lineofelros91 = {
 	}
 }
 lineofelros92 = {
-	name = "Karbazîr"
+	name = "Karbazi_i_r"
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
@@ -264,7 +264,7 @@ lineofelros93 = {
 	}
 }
 lineofelros94 = {
-	name = "Minluzîr"
+	name = "Minluzi_i_r"
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
@@ -321,7 +321,7 @@ lineofelros96 = {
 	}
 }
 lineofelros97 = {
-	name = "Tarîkmagân"
+	name = "Tari_i_kmaga_a_n"
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
@@ -596,7 +596,7 @@ lineofelros110 = {
 	}
 }
 lineofelros111 = {
-	name = "Zimrathôn"
+	name = "Zimratho_o_n"
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
@@ -615,7 +615,7 @@ lineofelros111 = {
 	}
 }
 lineofelros112 = {
-	name = "Dôlguzagar"
+	name = "Do_o_lguzagar"
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
@@ -1284,7 +1284,7 @@ hostamirdaughter = {
 }
 
 lineofelatan37 = {
-	name = "Rôthgimil"
+	name = "Ro_o_thgimil"
 	dynasty_house = dynasty_andunie
 	religion = faith_numenorean
 	culture = adunaic
@@ -1357,7 +1357,7 @@ lineofelatan40 = {
 }
 
 lineofelatan41 = {
-	name = "Karbazîr"
+	name = "Karbazi_i_r"
 	dynasty_house = dynasty_andunie
 	culture = adunaic
 	religion = faith_adunaic
@@ -1462,7 +1462,7 @@ lordsofkorlea13 = {
     }
 }
 lordsofkorlea14 = {
-    name = Azruzôr
+    name = Abrazo_o_r
     dynasty = dynasty_korleabeforedownfall
     religion = faith_numenorean
     culture = numenorean
@@ -1637,7 +1637,7 @@ lordsofkorlea22 = {
     }
 }
 lordsofkorlea23 = {
-    name = Rôthgimil
+    name = Ro_o_thgimil
     dynasty_house = dynasty_azru
     religion = faith_numenorean
     culture = adunaic
@@ -1671,7 +1671,7 @@ lordsofkorlea24 = {
     }
 }
 lordsofkorlea25 = {
-    name = Îrpân
+    name = I_I_rpa_a_n
     dynasty_house = dynasty_azru
     religion = faith_numenorean
     culture = adunaic
@@ -1688,7 +1688,7 @@ lordsofkorlea25 = {
     }
 }
 lordsofkorlea26 = {
-    name = Dôlguzagar
+    name = Do_o_lguzagar
     dynasty_house = dynasty_azru
     religion = faith_numenorean
     culture = adunaic
@@ -1839,7 +1839,7 @@ lordsofkorlea34 = {
     }
 }
 lordsofkorlea35 = {
-    name = Nimruzîr
+    name = Nimruzi_i_r
     dynasty_house = dynasty_azru
     religion = faith_adunaic
     culture = adunaic
@@ -1902,7 +1902,7 @@ lineofvardur3 = {
 	}				
 }
 lineofvardur4 = {					
-	name = "Balkuthôr"				
+	name = "Balkutho_o_r"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_kings_men_numenorean			
 	culture = black_numenorean				
@@ -2004,7 +2004,7 @@ lineofvardur9 = {
 	}				
 }
 lineofvardur10 = {					
-	name = "Karbazîr"				
+	name = "Karbazi_i_r"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_kings_men_numenorean			
 	culture = black_numenorean				
@@ -2109,7 +2109,7 @@ lineofvardur15 = {
 	}				
 }
 lineofvardur16 = {					
-	name = "Tamrubên"				
+	name = "Tamrube_e_n"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_numenorean				
 	culture = adunaic	
@@ -2143,7 +2143,7 @@ lineofvardur17 = {
 	}				
 }
 lineofvardur18 = {					
-	name = "Imrakhôr"				
+	name = "Imrakho_o_r"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_numenorean				
 	culture = adunaic					
@@ -2160,7 +2160,7 @@ lineofvardur18 = {
 	}				
 }
 lineofvardur19 = {					
-	name = "Mûrakhôr"				
+	name = "Mu_u_rakho_o_r"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_numenorean				
 	culture = adunaic					
@@ -2229,7 +2229,7 @@ lineofvardur22 = {
 }				
 
 lineofvardur23 = {					
-	name = "Akhôrahil"				
+	name = "Akho_o_rahil"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_adunaic			
 	culture = adunaic			
@@ -2247,7 +2247,7 @@ lineofvardur23 = {
 }				
 
 lineofvardur24 = {					
-	name = "Gimilzôr"				
+	name = "Gimilzo_o_r"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_adunaic			
 	culture = adunaic				
@@ -2283,7 +2283,7 @@ lineofvardur25 = {
 }				
 
 lineofvardur26 = {
-	name = "Zôrzagar"
+	name = "Zo_o_rzagar"
 	dynasty_house = dynasty_vardurionath
 	religion = faith_adunaic
 	culture = adunaic
@@ -2301,7 +2301,7 @@ lineofvardur26 = {
 }
 
 lineofvardur27 = {
-	name = "Zimrupân"
+	name = "Zimrupa_a_n"
 	dynasty_house = dynasty_vardurionath
 	religion = faith_adunaic
 	culture = adunaic
@@ -2319,7 +2319,7 @@ lineofvardur27 = {
 }
 
 linevardur28 = {
-	name = "Arnakhôr"
+	name = "Arnakho_o_r"
 	dynasty_house = dynasty_vardurionath
 	religion = faith_adunaic
 	culture = adunaic
@@ -2335,7 +2335,7 @@ linevardur28 = {
 }
 
 lineofvardur29 = {
-	name = "Adûnaphêl"
+	name = "Adu_u_naphe_e_l"
 	female = yes
 	dynasty_house = dynasty_vardurionath
 	religion = faith_adunaic
@@ -2800,7 +2800,7 @@ lineofciryandur35 = {
 	}
 }
 lineofciryandur36 = {
-	name = "Gimilzôr"
+	name = "Gimilzo_o_r"
 	dynasty = dynasty_ciryandur
 	religion = faith_adunaic
 	culture = adunaic
@@ -3518,7 +3518,7 @@ mablung38 = {
 }
 
 mablung39 = {
-	name = Tamrubên
+	name = Tamrube_e_n
 	dynasty = dynasty_mablung
 	religion = faith_numenorean
 	culture = adunaic
@@ -3554,7 +3554,7 @@ mablung40 = {
 }
 
 mablung41 = {
-	name = Nimruzîr
+	name = Nimruzi_i_r
 	dynasty = dynasty_mablung
 	religion = faith_adunaic
 	culture = adunaic
@@ -3694,7 +3694,7 @@ mablung48 = {
 }
 
 mablung49 = {
-	name = Arnakhôr
+	name = Arnakho_o_r
 	dynasty = dynasty_mablung
 	religion = faith_adunaic
 	culture = adunaic
@@ -3967,7 +3967,7 @@ ruxoalendil18 = {
 	}
 }
 ruxoalendil19 = {
-	name = "Nimruzîr"
+	name = "Nimruzi_i_r"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
 	faith = faith_numenorean
@@ -4035,7 +4035,7 @@ ruxoalendil22 = {
 	}
 }
 ruxoalendil23 = {
-	name = "Îrpân"
+	name = "I_I_rpa_a_n"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
 	faith = faith_numenorean
@@ -4146,7 +4146,7 @@ ruxoalendilthirdline1 = {
 }
 
 ruxoalendilthirdline2 = {
-	name = Dôlguzagar
+	name = Do_o_lguzagar
 	dynasty = dynasty_minorforostar
 	culture = adunaic
 	faith = faith_adunaic
@@ -4164,7 +4164,7 @@ ruxoalendilthirdline2 = {
 }
 
 ruxoalendilthirdline3 = {
-	name = Tamrubên
+	name = Tamrube_e_n
 	dynasty = dynasty_minorforostar
 	culture = adunaic
 	faith = faith_adunaic
@@ -4182,7 +4182,7 @@ ruxoalendilthirdline3 = {
 }
 
 ruxoalendilthirdline4 = {
-	name = Tarîkmagân
+	name = Tari_i_kmaga_a_n
 	dynasty = dynasty_minorforostar
 	culture = adunaic
 	faith = faith_adunaic
@@ -4261,7 +4261,7 @@ ruxoalendil25 = {
 	}
 }
 ruxoalendil26 = {
-	name = "Zimrathôn"
+	name = "Zimratho_o_n"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
 	faith = faith_adunaic
@@ -4312,7 +4312,7 @@ ruxoalendil28 = {
 	}
 }
 ruxoalendil29 = {
-	name = "Gimilzôr"
+	name = "Gimilzo_o_r"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
 	faith = faith_adunaic
@@ -4344,7 +4344,7 @@ ruxoalendil30 = {
 }
 ###CIRYAMIRIONATH OF NISINEN###
 lineofciryamir7 = { # Taken back to Númenor with his mother
-	name = "Aglarbalak"
+	name = "Aglarin"
 	dynasty = dynasty_ciryamir
 	religion = faith_numenorean
 	culture = numenorean
@@ -4416,7 +4416,7 @@ lineofciryamir10 = {
 }
 
 lineofciryamir11 = {
-	name = "Tarîkmagân"
+	name = "Tari_i_kmaga_a_n"
 	dynasty =  dynasty_ciryamir
 	religion = faith_numenorean
 	culture = numenorean
@@ -4502,7 +4502,7 @@ lineofciryamirbranch3 = {
 	}
 }
 lineofciryamirbranch4 = {
-	name = Balkuthôr
+	name = Balkutho_o_r
 	dynasty_house = dynasty_ciryamirtwo
 	religion = faith_numenorean
 	culture = adunaic
@@ -4570,7 +4570,7 @@ lineofciryamirbranch7 = {
 	}
 }
 lineofciryamirbranch8 = {
-	name = Nimrubên
+	name = Nimrube_e_n
 	dynasty_house = dynasty_ciryamirtwo
 	religion = faith_numenorean
 	culture = adunaic
@@ -4707,7 +4707,7 @@ lineofciryamirbranch13 = {
 	}
 }
 lineofciryamirbranch14 = {
-	name = Gimilzôr 
+	name = Gimilzo_o_r 
 	dynasty_house = dynasty_ciryamirtwo
 	religion = faith_numenorean
 	culture = adunaic
@@ -4758,7 +4758,7 @@ lineofciryamirbranch16 = {
 	}
 }
 lineofciryamirbranch17 = {
-	name = Akhôrahil
+	name = Akho_o_rahil
 	dynasty_house = dynasty_ciryamirtwo
 	religion = faith_adunaic
 	culture = adunaic
@@ -4792,7 +4792,7 @@ lineofciryamirbranch18 = {
 	}
 }
 lineofciryamirbranch19 = {
-	name = Dôlguzagar
+	name = Do_o_lguzagar
 	dynasty_house = dynasty_ciryamirtwo
 	religion = faith_adunaic
 	culture = adunaic
@@ -4888,7 +4888,7 @@ lineofciryamirbranch24 = {
 	}
 }
 lineofciryamirbranch25 = {
-	name = Azrubêl
+	name = Azrube_e_l
 	dynasty_house = dynasty_ciryamirtwo
 	religion = faith_adunaic
 	culture = adunaic
@@ -4969,7 +4969,7 @@ lineofark1 = {
 }
 
 lineofark2 = {
-	name = "Zimrupân"
+	name = "Zimrupa_a_n"
 	dynasty = dynasty_ciryamir
 	religion = faith_numenorean
 	culture = numenorean
@@ -5041,7 +5041,7 @@ lineofark5 = {
 }
 
 lineofark6 = {
-	name = "Nimruzîr"
+	name = "Nimruzi_i_r"
 	dynasty = dynasty_ciryamir
 	religion = faith_numenorean
 	culture = numenorean
@@ -5117,7 +5117,7 @@ lineofciryamir15 = {
 }
 
 lineofciryamir16 = {
-	name = "Gimilzôr"
+	name = "Gimilzo_o_r"
 	dynasty = dynasty_ciryamir
 	religion = faith_numenorean
 	culture = adunaic
@@ -5279,7 +5279,7 @@ lineofciryamir24 = {
 }
 
 lineofciryamir25 = {
-	name = "Nimrubên"
+	name = "Nimrube_e_n"
 	dynasty = dynasty_ciryamir
 	religion = faith_numenorean
 	culture = adunaic
@@ -5315,7 +5315,7 @@ lineofciryamir26 = {
 }
 
 lineofciryamir27 = {
-	name = "Zimrathôn"
+	name = "Zimratho_o_n"
 	dynasty = dynasty_ciryamir
 	religion = faith_adunaic
 	culture = adunaic
@@ -5333,7 +5333,7 @@ lineofciryamir27 = {
 }
 
 lineofciryamir28 = {
-	name = "Zimrathôn"
+	name = "Zimratho_o_n"
 	dynasty = dynasty_ciryamir
 	religion = faith_adunaic
 	culture = adunaic
@@ -5389,7 +5389,7 @@ lineofciryamir30 = {
 }
 
 lineofciryamir31 = {
-	name = "Nimruzîr"
+	name = "Nimruzi_i_r"
 	dynasty = dynasty_ciryamir
 	religion = faith_adunaic
 	culture = adunaic
@@ -5404,7 +5404,7 @@ lineofciryamir31 = {
 }
 
 lineofciryamir32 = {
-	name = "Minluzîr"
+	name = "Minluzi_i_r"
 	dynasty = dynasty_ciryamir
 	religion = faith_adunaic
 	culture = adunaic
@@ -5418,10 +5418,10 @@ lineofciryamir32 = {
 	}
 }
 
-## Line of Akhôrahil ##
+## Line of Akho_o_rahil ##
 
 lineofkhorahil1 = {
-	name = Akhôrahil
+	name = Akho_o_rahil
 	dynasty = dynasty_akhorahil
 	religion = faith_numenorean
 	culture = adunaic
@@ -5437,7 +5437,7 @@ lineofkhorahil1 = {
 }
 
 lineofkhorahil2 = {
-	name = Bêlphazân
+	name = Be_e_lphaza_a_n
 	dynasty = dynasty_akhorahil
 	religion = faith_numenorean
 	culture = adunaic
@@ -5455,7 +5455,7 @@ lineofkhorahil2 = {
 }
 
 lineofkhorahil3 = {
-	name = Azûlzûr
+	name = Azu_u_lzu_u_r
 	dynasty = dynasty_akhorahil
 	religion = faith_numenorean
 	culture = adunaic
@@ -5473,7 +5473,7 @@ lineofkhorahil3 = {
 }
 
 lineofkhorahil4 = {
-	name = Akhôrahil
+	name = Akho_o_rahil
 	dynasty = dynasty_akhorahil
 	religion = faith_adunaic
 	culture = adunaic
@@ -5497,7 +5497,7 @@ lineofkhorahil4 = {
 }
 
 lineofkhorahil5 = {
-	name = Tamrubên
+	name = Tamrube_e_n
 	dynasty = dynasty_akhorahil
 	religion = faith_adunaic
 	culture = adunaic
@@ -5516,7 +5516,7 @@ lineofkhorahil5 = {
 }
 
 lineofkhorahil6 = {
-	name = Imrakhôr
+	name = Imrakho_o_r
 	dynasty = dynasty_akhorahil
 	religion = faith_adunaic
 	culture = adunaic
@@ -5552,7 +5552,7 @@ lineofkhorahil7 = {
 }
 
 lineofkhorahil8 = {
-	name = Balkuthôr
+	name = Balkutho_o_r
 	dynasty = dynasty_akhorahil
 	religion = faith_adunaic
 	culture = adunaic
@@ -5570,7 +5570,7 @@ lineofkhorahil8 = {
 }
 
 lineofkhorahil9 = {
-	name = Azûlphazgân
+	name = Azu_u_lphazga_a_n
 	dynasty = dynasty_akhorahil
 	religion = faith_adunaic
 	culture = adunaic
@@ -5585,7 +5585,7 @@ lineofkhorahil9 = {
 }
 
 lineofkhorahil10 = {
-	name = Ûrzarkhôr
+	name = U_U_rzarkho_o_r
 	dynasty = dynasty_akhorahil
 	religion = faith_adunaic
 	culture = adunaic
@@ -5600,7 +5600,7 @@ lineofkhorahil10 = {
 }
 
 lineofkhorahil11 = {
-	name = Aglarbalak
+	name = Aglarin
 	dynasty = dynasty_akhorahil
 	religion = faith_adunaic
 	culture = adunaic
@@ -5615,7 +5615,7 @@ lineofkhorahil11 = {
 }
 
 lineofkhorahil12 = {
-	name = Adûnaphêl
+	name = Adu_u_naphe_e_l
 	dynasty = dynasty_akhorahil
 	religion = faith_adunaic
 	culture = adunaic
@@ -5631,7 +5631,7 @@ lineofkhorahil12 = {
 }
 
 lineofkhorahil13 = {
-	name = Gimilzôr
+	name = Gimilzo_o_r
 	dynasty = dynasty_akhorahil
 	religion = faith_adunaic
 	culture = adunaic
@@ -6748,7 +6748,7 @@ lineoftelemnacil32 = {
 }
 
 lineoftelemnacil33 = {
-    name = Minluzîr
+    name = Minluzi_i_r
 
     dynasty = dynasty_telemnacil
     religion = faith_numenorean
@@ -6817,7 +6817,7 @@ lineoftelemnacil34 = {
 }
 
 lineoftelemnacil35 = {
-    name = Tarîkmagân
+    name = Tari_i_kmaga_a_n
 
     dynasty = dynasty_telemnacil
     religion = faith_numenorean
@@ -6886,7 +6886,7 @@ lineoftelemnacil36 = {
 }
 
 lineoftelemnacil37 = {
-    name = Zimrupân
+    name = Zimrupa_a_n
 
     dynasty = dynasty_telemnacil
     religion = faith_numenorean
@@ -7093,7 +7093,7 @@ lineoftelemnacil42 = {
 }
 
 lineoftelemnacil43 = {
-    name = Nimrubên
+    name = Nimrube_e_n
 
     dynasty = dynasty_telemnacil
     religion = faith_numenorean
@@ -7507,7 +7507,7 @@ lineoftelemnacil54 = {
 }
 
 lineoftelemnacil55 = {
-    name = Zimrathôn
+    name = Zimratho_o_n
 
     dynasty = dynasty_telemnacil
     religion = faith_adunaic
@@ -7752,7 +7752,7 @@ lineoftelemnacil61 = {
 }
 
 lineoftelemnacil62 = {
-    name = Adûnaphêl
+    name = Adu_u_naphe_e_l
     female = yes
 
     religion = faith_adunaic
@@ -8203,7 +8203,7 @@ lineofagathor15 = {
 }
 
 lineofagathor16 = {
-	name = Azrubêl
+	name = Azrube_e_l
 	dynasty = dynasty_agathor
 	religion = melkorite
 	culture = black_numenorean
@@ -8223,7 +8223,7 @@ lineofagathor16 = {
 }
 
 lineofagathor17 = {
-	name = Nimruzîr
+	name = Nimruzi_i_r
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = adunaic
@@ -8295,7 +8295,7 @@ lineofagathor20 = {
 }
 
 lineofagathor21 = {
-	name = Zimrathôn
+	name = Zimratho_o_n
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = adunaic
@@ -8313,7 +8313,7 @@ lineofagathor21 = {
 }
 
 lineofagathor22 = {
-	name = Nimrubên
+	name = Nimrube_e_n
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = adunaic
@@ -8331,7 +8331,7 @@ lineofagathor22 = {
 }
 
 lineofagathor23 = {
-	name = Rôthgimil
+	name = Ro_o_thgimil
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = adunaic
@@ -8349,7 +8349,7 @@ lineofagathor23 = {
 }
 
 lineofagathor24 = {
-	name = Tarîkmagân
+	name = Tari_i_kmaga_a_n
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = adunaic
@@ -8367,7 +8367,7 @@ lineofagathor24 = {
 }
 
 lineofagathor25 = {
-	name = Minluzîr
+	name = Minluzi_i_r
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = adunaic
@@ -8385,7 +8385,7 @@ lineofagathor25 = {
 }
 
 lineofagathor26 = {
-	name = Azrubêl
+	name = Azrube_e_l
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = adunaic
@@ -8403,7 +8403,7 @@ lineofagathor26 = {
 }
 
 lineofagathor27 = {
-	name = Karbazîr
+	name = Karbazi_i_r
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = adunaic
@@ -8421,7 +8421,7 @@ lineofagathor27 = {
 }
 
 lineofagathor28 = {
-	name = Dôlguzagar
+	name = Do_o_lguzagar
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = adunaic
@@ -8439,7 +8439,7 @@ lineofagathor28 = {
 }
 
 lineofagathor29 = {
-	name = Abattârik
+	name = Abatta_a_rik
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = adunaic
@@ -8457,7 +8457,7 @@ lineofagathor29 = {
 }
 
 lineofagathor30 = {
-	name = Arnakhôr
+	name = Arnakho_o_r
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = adunaic
@@ -8493,7 +8493,7 @@ lineofagathor31 = {
 }
 
 lineofagathor32 = {
-	name = Azruzôr
+	name = Abrazo_o_r
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
 	culture = adunaic
@@ -8511,7 +8511,7 @@ lineofagathor32 = {
 }
 
 lineofagathor33 = {
-	name = Îrpân
+	name = I_I_rpa_a_n
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
 	culture = adunaic
@@ -8529,7 +8529,7 @@ lineofagathor33 = {
 }
 
 lineofagathor34 = {
-	name = Mûrakhôr
+	name = Mu_u_rakho_o_r
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
 	culture = adunaic
@@ -8547,7 +8547,7 @@ lineofagathor34 = {
 }
 
 lineofagathor35 = {
-	name = Zôrzagar
+	name = Zo_o_rzagar
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
 	culture = adunaic
@@ -8580,7 +8580,7 @@ lineofagathor36 = {
 }
 
 lineofagathor37 = {
-	name = Arphazênêth
+	name = Arphaze_e_ne_e_th
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
 	culture = adunaic
@@ -8594,7 +8594,7 @@ lineofagathor37 = {
 	}
 }
 lineofagathor39 = {
-	name = Zôrnagar
+	name = Zo_o_rnagar
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
 	culture = adunaic
@@ -8609,7 +8609,7 @@ lineofagathor39 = {
 }
 
 lineofagathor38 = {
-	name = Narûphêl
+	name = Naru_u_phe_e_l
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
 	culture = adunaic
@@ -8626,7 +8626,7 @@ lineofagathor38 = {
 
 ###Aruthani###
 lineofaru1 = {
-	name = Erubênî 
+	name = E_E_ruhil 
 	dynasty = dynasty_aruthan
 	religion = faith_numenorean
 	culture = adunaic
@@ -8744,7 +8744,7 @@ lineofaru7 = {
 	}
 }
 lineofaru8 = {
-	name = Zimrupân
+	name = Zimrupa_a_n
 	dynasty = dynasty_aruthan
 	religion = faith_numenorean
 	culture = adunaic
@@ -8761,7 +8761,7 @@ lineofaru8 = {
 	}
 }
 lineofaru9 = {
-	name = Gimilzôr
+	name = Gimilzo_o_r
 	dynasty = dynasty_aruthan
 	religion = faith_numenorean
 	culture = adunaic
@@ -8846,7 +8846,7 @@ lineofaru13 = {
 	}
 }
 lineofaru14 = {
-	name = Karbazîr
+	name = Karbazi_i_r
 	dynasty = dynasty_aruthan
 	religion = faith_adunaic
 	culture = adunaic
@@ -8863,7 +8863,7 @@ lineofaru14 = {
 	}
 }
 lineofaru15 = {
-	name = Dôlguzagar
+	name = Do_o_lguzagar
 	dynasty = dynasty_aruthan
 	religion = faith_adunaic
 	culture = adunaic
@@ -8938,7 +8938,7 @@ lineofaru19 = {
 }
 ###Elenore Bastards###
 lineelebastard1 = {
-	name = Zôrnagar
+	name = Zo_o_rnagar
 	dynasty = dynasty_elenore
 	religion = faith_numenorean
 	culture = adunaic
@@ -9043,7 +9043,7 @@ lineelebastard6 = {
 	}
 }
 lineelebastard7 = {
-	name = Ûrzarkhôr
+	name = U_U_rzarkho_o_r
 	dynasty = dynasty_elenore
 	religion = faith_numenorean
 	culture = adunaic
@@ -9060,7 +9060,7 @@ lineelebastard7 = {
 	}
 }
 lineelebastard8 = {
-	name = Azrubêl
+	name = Azrube_e_l
 	dynasty = dynasty_elenore
 	religion = faith_numenorean
 	culture = adunaic
@@ -9208,7 +9208,7 @@ lineelebastard16 = {
 
 }
 lineelebastard17 = {
-	name = Gimilzôr
+	name = Gimilzo_o_r
 	dynasty = dynasty_elenore
 	religion = faith_adunaic
 	culture = adunaic
@@ -9285,7 +9285,7 @@ lineofarialome2 = {
 	}
 }
 lineofarialome3 = {
-	name = Karbazîr
+	name = Karbazi_i_r
 	dynasty = dynasty_arialome
 	religion = faith_numenorean
 	culture = adunaic
@@ -9404,7 +9404,7 @@ lineofarialome9 = {
 	}
 }
 lineofarialome10 = {
-	name = Azûlzûr
+	name = Azu_u_lzu_u_r
 	dynasty = dynasty_arialome
 	religion = faith_numenorean
 	culture = adunaic
@@ -9506,7 +9506,7 @@ lineofarialome15 = {
 	}
 }
 lineofarialome16 = {
-	name = Tamrubên
+	name = Tamrube_e_n
 	dynasty = dynasty_arialome
 	religion = faith_adunaic
 	culture = adunaic
@@ -9686,7 +9686,7 @@ lineofazrubensubmod7 = {
 	}
 }
 lineofazrubensubmod8 = {
-	name = Tamrubên
+	name = Tamrube_e_n
 	dynasty = dynasty_azulhin
 	religion = faith_numenorean
 	culture = adunaic
@@ -9706,7 +9706,7 @@ lineofazrubensubmod8 = {
 	}
 }
 lineofazrubensubmod9 = {
-	name = Imrakhôr
+	name = Imrakho_o_r
 	dynasty = dynasty_azulhin
 	religion = faith_numenorean
 	culture = adunaic
@@ -10060,7 +10060,7 @@ lineofazrubensubmod29 = {
 	}
 }
 lineofazrubensubmod30 = {
-	name = Azrubêl
+	name = Azrube_e_l
 	dynasty = dynasty_azulhin
 	religion = faith_adunaic
 	culture = adunaic
@@ -10075,7 +10075,7 @@ lineofazrubensubmod30 = {
 }
 
 lineofazrubensubmod31 = {
-	name = Akhôrahil
+	name = Akho_o_rahil
 	dynasty = dynasty_azulhin
 	religion = faith_adunaic
 	culture = adunaic
@@ -10090,7 +10090,7 @@ lineofazrubensubmod31 = {
 }
 
 lineofazrubensubmod32 = {
-	name = Balkuthôr
+	name = Balkutho_o_r
 	dynasty = dynasty_azulhin
 	religion = faith_adunaic
 	culture = adunaic
@@ -10535,7 +10535,7 @@ lineborodirsubmod25 = {
 	}
 }
 lineborodirsubmod26 = {
-	name = Karbazîr
+	name = Karbazi_i_r
 	dynasty = dynasty_borodiriath
 	religion = faith_adunaic
 	culture = adunaic
@@ -10583,7 +10583,7 @@ lineborodirsubmod28 = {
 	}
 }
 lineborodirsubmod29 = {
-	name = Imrakhôr
+	name = Imrakho_o_r
 	dynasty = dynasty_borodiriath
 	religion = faith_adunaic
 	culture = adunaic
@@ -10677,7 +10677,7 @@ lineborodirsubmod34= {
 	}
 }
 lineborodirsubmod35 = {
-	name = Ûrzarkhôr
+	name = U_U_rzarkho_o_r
 	dynasty_house = dynasty_borodiriathtwo
 	religion = faith_adunaic
 	culture = adunaic
@@ -11482,7 +11482,7 @@ linegimilson2 = {
 }
 
 linegimilson3 = {
-	name = Gimilzôr
+	name = Gimilzo_o_r
 	dynasty_house = dynasty_gimilkhadson
 	religion = melkorite
 	culture = black_numenorean
@@ -11584,7 +11584,7 @@ linejewellord5 = {
 	}
 }
 linejewellord6 = {
-	name = Nimrubên
+	name = Nimrube_e_n
 	dynasty_house = dynasty_jeweldaughter
 	religion = faith_numenorean
 	culture = adunaic
@@ -11635,7 +11635,7 @@ linejewellord8 = {
 	}
 }
 linejewellord9 = {
-	name = Imrakhôr
+	name = Imrakho_o_r
 	dynasty_house = dynasty_jeweldaughter
 	religion = faith_numenorean
 	culture = adunaic
@@ -11788,7 +11788,7 @@ linejewellord17 = {
 	}
 }
 linejewellord18 = {
-	name = Dôlguzagar
+	name = Do_o_lguzagar
 	dynasty_house = dynasty_jeweldaughter
 	religion = faith_adunaic
 	culture = adunaic
@@ -11933,7 +11933,7 @@ linejewellord30 = {
 
 ### Lords of Ondostó ###
 lineofondosto1 = {
-	name = Arphazênêth
+	name = Arphaze_e_ne_e_th
 	female = yes
 	dynasty = dynasty_elros
 	religion = faith_numenorean
@@ -11992,7 +11992,7 @@ lineofondosto2 = {
 	}
 }
 lineofondosto3 = {
-	name = Azûlphazgân
+	name = Azu_u_lphazga_a_n
 	dynasty = dynasty_ondosto
 	religion = faith_numenorean
 	culture = adunaic
@@ -12068,7 +12068,7 @@ lineofondosto6 = {
 	}
 }
 lineofondosto7 = {
-	name = Gimilzôr
+	name = Gimilzo_o_r
 	dynasty = dynasty_ondosto
 	religion = faith_numenorean
 	culture = adunaic
@@ -12163,7 +12163,7 @@ lineofondosto11 = {
 	}
 }
 lineofondosto12 = {
-	name = Gimilzôr
+	name = Gimilzo_o_r
 	dynasty = dynasty_ondosto
 	religion = faith_numenorean
 	culture = adunaic
@@ -12201,7 +12201,7 @@ lineofondosto13 = {
 	}
 }
 lineofondosto14 = {
-	name = Karbazîr
+	name = Karbazi_i_r
 	dynasty = dynasty_ondosto
 	religion = faith_numenorean
 	culture = adunaic
@@ -12239,7 +12239,7 @@ lineofondosto15 = {
 	}
 }
 lineofondosto16 = {
-	name = Bêlphazân
+	name = Be_e_lphaza_a_n
 	dynasty = dynasty_ondosto
 	religion = faith_numenorean
 	culture = adunaic
@@ -12390,7 +12390,7 @@ lineofondosto23 = {
 	}
 }
 lineofondosto24 = {
-	name = Zôrnagar
+	name = Zo_o_rnagar
 	dynasty = dynasty_ondosto
 	religion = faith_adunaic
 	culture = adunaic
@@ -12703,7 +12703,7 @@ lineofkhorandor5 = {
 	}
 }
 lineofkhorandor6 = {
-	name = Dôlguzagar
+	name = Do_o_lguzagar
 	dynasty = dynasty_khorandor
 	religion = faith_numenorean
 	culture = adunaic
@@ -12737,7 +12737,7 @@ lineofkhorandor7 = {
 	}
 }
 lineofkhorandor8 = {
-	name = Bêlphazân
+	name = Be_e_lphaza_a_n
 	dynasty = dynasty_khorandor
 	religion = faith_numenorean
 	culture = adunaic 
@@ -12856,7 +12856,7 @@ lineofkhorandor14 = {
 	}
 }
 lineofkhorandor15 = {
-	name = Zôrnagar
+	name = Zo_o_rnagar
 	dynasty = dynasty_khorandor
 	religion = faith_numenorean
 	culture = adunaic
@@ -13057,7 +13057,7 @@ lineofsirinore2 = {
 ##PLACEHOLDER CHARACTERS##
 #HYARANORE#
 place1 = {
-	name = "Azrubêl"
+	name = "Azrube_e_l"
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -13095,7 +13095,7 @@ place2 = {
 }
 
 son2 = {
-	name = "Abattârik"
+	name = "Abatta_a_rik"
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -13189,7 +13189,7 @@ place6 = {
 }
 
 son5 = {
-	name = "Minluzîr"
+	name = "Minluzi_i_r"
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -13240,7 +13240,7 @@ place9 = {
 }
 
 son6 = {
-	name = "Nimruzîr"
+	name = "Nimruzi_i_r"
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -13348,7 +13348,7 @@ son10 = {
 
 #ZIMRAYAN
 place14 = {
-	name = "Minluzîr"
+	name = "Minluzi_i_r"
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -13455,7 +13455,7 @@ son14 = {
 }
 
 place18 = {
-	name = "Nimruzîr"
+	name = "Nimruzi_i_r"
 	religion = faith_adunaic
 	culture = adunaic
 	
