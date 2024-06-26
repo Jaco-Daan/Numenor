@@ -1226,7 +1226,7 @@ lineofelatan34 = {
 }
 
 lineofelatan35 = {
-	name = "Olondur"
+	name = "Nolondur"
 	dynasty_house = dynasty_andunie
 	religion = faith_numenorean
 	culture = adunaic
@@ -3176,7 +3176,7 @@ mablung19 = {
 }
 
 mablung20 = {
-	name = Halatir
+	name = Haldan
 	dynasty = dynasty_mablung
 	religion = faith_numenorean
 	culture = numenorean
@@ -4227,7 +4227,7 @@ ruxoalendilthirdline6 = {
 }
 
 ruxoalendilthirdline7 = {
-	name = Gimilzzagar
+	name = Gimilzagar
 	dynasty = dynasty_minorforostar
 	culture = adunaic
 	faith = faith_adunaic
@@ -13020,7 +13020,7 @@ lineofkhorandor23 = {
 	}
 }
 lineofkhorandor24 = {
-	name = U_U_ri_i_phe_e_lî
+	name = U_U_ri_i_phe_e_l
 	female = yes
 	dynasty = dynasty_khorandor
 	religion = faith_adunaic
@@ -13295,7 +13295,7 @@ place11 = {
 }
 #ERELONDE
 place12 = {
-	name = "Elantur"
+	name = "Elatar"
 	religion = faith_adunaic
 	culture = adunaic
 	
