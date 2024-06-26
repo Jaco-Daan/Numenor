@@ -92,9 +92,9 @@
  			expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  			complexion={ "complexion_4" 134 "complexion_2" 116 }
  			gene_height={ "normal_height" 212 "normal_height" 212 }
- 			gene_bs_body_type={ "body_fat_head_fat_full" 126 "body_fat_head_fat_low" 117 }
+ 			gene_bs_body_type={ "body_fat_head_fat_full" 137 "body_fat_head_fat_low" 117 }
  			gene_bs_body_shape={ "body_shape_apple_half" 255 "body_shape_triangle_half" 0 }
- 			gene_bs_bust={ "bust_clothes" 86 "bust_default" 187 }
+ 			gene_bs_bust={ "bust_clothes" 68 "bust_default" 187 }
  			gene_age={ "old_4" 243 "old_3" 255 }
  			gene_eyebrows_shape={ "close_spacing_avg_thickness" 149 "avg_spacing_avg_thickness" 150 }
  			gene_eyebrows_fullness={ "layer_2_low_thickness" 142 "layer_2_high_thickness" 241 }
@@ -114,14 +114,17 @@
  			race_head_accessory={ "man" 0 "man" 0 }
  			race_body_accessory={ "man" 0 "man" 0 }
  			pose={ "" 255 "" 0 }
- 			beards={ "no_beard" 85 "no_beard" 0 }
- 			cloaks={ "no_cloak" 85 "no_cloak" 0 }
- 			hairstyles={ "western_hairstyles_curly" 127 "all_hairstyles" 0 }
- 			headgear={ "adunai_nobility" 161 "no_headgear" 0 }
- 			legwear={ "western_common_legwear" 223 "all_legwear" 0 }
+ 			beards={ "no_beard" 255 "no_beard" 0 }
+ 			cloaks={ "no_cloak" 143 "no_cloak" 0 }
+ 			hairstyles={ "western_hairstyles_straight" 231 "all_hairstyles" 0 }
+ 			legwear={ "western_common_legwear" 182 "all_legwear" 0 }
  			gene_shrink_body={ "shrink_all" 255 "" 0 }
  			gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
- 			clothes={ "dde_hre_high_nobility_clothes" 244 "most_clothes" 0 }
+ 			gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
+ 			gene_bs_long_beard={ "long_beard" 255 "" 0 }
+ 			clothes={ "dde_hre_high_nobility_clothes" 230 "most_clothes" 0 }
+ 			headgear={ "adunai_nobility" 161 "no_headgear" 0 }
+ 			gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
 		}
 	}
 	enabled = yes
