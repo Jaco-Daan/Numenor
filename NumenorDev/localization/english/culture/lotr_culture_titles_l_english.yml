@@ -179,14 +179,14 @@
  # Thani Hazad Princes
  
  #count_male_thani_hazad:0 "Phazân"
- count_female_thani_hazad:0 "County"
+ #count_female_thani_hazad:0 "County"
  #county_thani_hazad:0 "Phazânthâni"
  #duke_male_thani_hazad:0 "Phazân"
  #duke_female_thani_hazad:0 "Phazânel"
- duchy_thani_hazad:0 "Duchy"
+ #duchy_thani_hazad:0 "Duchy"
  #king_female_thani_hazad:0 "Phazânel"
  #king_male_thani_hazad:0 "Phazân"
- kingdom_thani_hazad:0 "Kingdom"
+ #kingdom_thani_hazad:0 "Kingdom"
 
  # Bellakar
  emperor_feudal_male_adunaic_bellakar:0 "Ârû" 
