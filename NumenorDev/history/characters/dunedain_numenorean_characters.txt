@@ -2300,7 +2300,7 @@ ciryamirdad = {
 	}
 }
 minastirdaughter = {
-	name = "Lindissë"
+	name = "Lindiss_e_e"
 	female = yes
 	dynasty = dynasty_elros
 	religion = faith_numenorean
