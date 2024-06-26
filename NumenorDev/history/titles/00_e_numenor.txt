@@ -80,7 +80,7 @@ e_numenor = {
 	3911.1.1 = {	
 		holder = 0 # Destruction of Numenor 
 	}
-	3912.1.1 = {
+	3912.5.3 = {
 		holder = lineofelros26 # Miriel
 	}
 	4002.1.1 = {

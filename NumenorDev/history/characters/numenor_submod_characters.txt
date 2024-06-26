@@ -159,7 +159,7 @@ lineofelros89 = {
 	name = "Hallatan"
 	dynasty = dynasty_elros
 	religion = faith_numenorean
-	culture = adunaic
+	culture = numenorean
 	
 	
 	
@@ -175,6 +175,9 @@ lineofelros89 = {
 	
 	3900.1.1 = {
 		birth = yes
+	}
+	4002.1.1 = {
+		culture = adunaic
 	}
 	4130.1.1 = {
 		give_nickname = nick_the_vanquisher
@@ -3265,7 +3268,7 @@ mablung25 = {
 	name = Cunendur
 	dynasty = dynasty_mablung
 	religion = faith_numenorean
-	culture = adunaic
+	culture = numenorean
 	
 	father = mablung24
 	
@@ -3273,6 +3276,9 @@ mablung25 = {
 	
 	3745.1.1 = {
 		birth = yes
+	}
+	4002.1.1 = {
+		culture = adunaic
 	}
 	4031.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -3283,7 +3289,7 @@ mablung26 = {
 	name = Caramir
 	dynasty = dynasty_mablung
 	religion = faith_numenorean
-	culture = adunaic
+	culture = numenorean
 	
 	father = mablung25
 	
@@ -3291,6 +3297,9 @@ mablung26 = {
 	
 	3875.1.1 = {
 		birth = yes
+	}
+	4002.1.1 = {
+		culture = adunaic
 	}
 	4159.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -4450,7 +4459,7 @@ lineofciryamirbranch1 = {
 	name = U_U_ri_i_tho_o_r
 	dynasty = dynasty_ciryamir
 	religion = faith_numenorean
-	culture = adunaic
+	culture = numenorean
 	
 	trait = blood_of_numenor_7
 	
@@ -4458,6 +4467,9 @@ lineofciryamirbranch1 = {
 	
 	3806.1.1 = {
 		birth = yes
+	}
+	4002.1.1 = {
+		culture = adunaic
 	}
 	4032.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -8221,8 +8233,8 @@ lineofagathor16 = {
 lineofagathor17 = {
 	name = Nimruzi_i_r
 	dynasty = dynasty_agathor
-	religion = faith_dairaben 
-	culture = adunaic
+	religion = faith_kings_men_numenorean
+	culture = black_numenorean
 	
 	trait = blood_of_numenor_10
 	
@@ -8230,6 +8242,12 @@ lineofagathor17 = {
 	
 	3684.1.1 = {
 		birth = yes
+	}
+	3912.5.2 = {
+		religion = faith_dairaben
+	}
+	4002.1.1 = {
+		culture = black_numenorean
 	}
 	4005.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -10212,7 +10230,7 @@ lineborodirsubmod7 = {
 	name = Castamir
 	dynasty = dynasty_borodiriath
 	religion = faith_numenorean
-	culture = adunaic
+	culture = numenorean
 	
 	trait = blood_of_numenor_10
 	
@@ -10220,6 +10238,9 @@ lineborodirsubmod7 = {
 	
 	3893.1.1 = {
 		birth = yes
+	}
+	4002.1.1 = {
+		culture = adunaic
 	}
 	4240.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -11934,18 +11955,21 @@ lineofondosto1 = {
 	female = yes
 	dynasty = dynasty_elros
 	religion = faith_numenorean
-	culture = adunaic
+	culture = numenorean
 	
 	father = lineofelros88
 	mother = lineofelros26
 	
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_9
 	trait = beauty_good_3
 	trait = honest
 	trait = just
 	
 	3909.1.1 = {
 		birth = yes
+	}
+	4002.1.1 = {
+		culture = adunaic
 	}
 	4155.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -11980,7 +12004,7 @@ lineofondosto2 = {
 	father = lineofondostofounder
 	mother = lineofondosto1
 	
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_8
 	
 	3974.1.1 = {
 		birth = yes
@@ -12647,20 +12671,25 @@ lineofkhorandor2 = {
 lineofkhorandor3 = {
 	name = E_E_ruzagar
 	dynasty = dynasty_khorandor
-	religion = faith_dairaben 
-	culture = adunaic
+	religion = faith_kings_men_numenorean 
+	culture = black_numenorean
 
 	father = lineofkhorandor2
 	
 	trait = blood_of_numenor_7
 	trait = fickle
-	trait = kinslayer_1
 	trait = honest
 	trait = just
 	trait = zealous
 	
 	3910.1.1 = {
 		birth = yes
+	}
+	
+	4022.1.1 = {
+		culture = adunaic
+		religion = faith_dairaben
+		trait = kinslayer_1
 	}
 	4138.1.1 = {
 		death = { death_reason = death_natural_causes }
