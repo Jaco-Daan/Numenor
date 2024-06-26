@@ -30,7 +30,7 @@
 adunaic = {
 	color = { 56 68 152 }
 #	color = hsv { 0.5 0.2 0.4 }
-	created = 4187.1.1
+	created = 4002.1.1
 	parents = { numenorean black_numenorean }
 	
 	ethos = ethos_communal

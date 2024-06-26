@@ -1,12 +1,28 @@
 5493 = {	#Almaida (b_inzil)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = city_holding
+			4002.1.1 = {
+				culture = adunaic
+			}
+			6405.1.1 = {
+				religion = faith_adunaic
+			}
 }
 5353 = {	#Opele Ancalimonva (b_opele_ancalimonva)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+			4802.1.1 = {
+				religion = faith_numenorean
+			}
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 				6990.1.1 = {
 					buildings = {
 						castle_04
@@ -18,44 +34,103 @@
 }
 
 5371 = {	#Hyarmentie (b_hyarmentie)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+			4802.1.1 = {
+				religion = faith_numenorean
+			}
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5395 = { 	#Wingron (b_wingron)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5363 = { 	#Arabeleth (b_arabeleth)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5390 = {	#Adorothe (b_adorothe)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5386 = {	#Aruwanai (b_aruwanai}
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5410 = {	#Hyarnumen (b_hyarnumen)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5414 = {	#Formenore (b_formenore)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5424 = {	#Romenna (b_romenna)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = melkorite
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 				6990.1.1 = {
 					buildings = {
 						castle_04
@@ -68,18 +143,32 @@
 			}
 }
 5428 = {	#Tol Uinen (b_tol_uinen)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = melkorite
 			holding = church_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 				6990.1.1 = {
 					special_building_slot = wonder_calmindon_01
 					special_building = wonder_calmindon_01
 				}
 }
 5433 = {	#Armenelos (b_armenelos)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = melkorite
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 				6990.1.1 = {
 					buildings = {
 						castle_04
@@ -93,24 +182,52 @@
 			}
 }
 5431 = {	#Uinen (b_earendos)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = melkorite
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5435 = {	#Anariova (b_anariova)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5439 = {	#Baithal (b_baithal)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5465 = {	#Ciryalonde (b_ciryalonde)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 				6990.1.1 = {
 					buildings = {
 						castle_03
@@ -121,29 +238,64 @@
 			}
 }
 5458 = {	#Vinyon (b_vinyon)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5487 = {	#Elorna (b_elorna)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5481 = {	#Sorno (b_sorno)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5452 = {	#Elenduin (b_elenduin)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5484 = {	#Elrova (b_athrad_elrosonva)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 				6990.1.1 = {
 					buildings = {
 						castle_04
@@ -155,19 +307,39 @@
 			}
 }
 5314 = {	#Belzirbeth (b_kadar_belzirbeth)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5328 = {	#Karbelaret (b_karbelaret)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5313 = {	#Sorontil (b_sorontil)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 				6990.1.1 = {
 					buildings = {
 						castle_03
@@ -180,14 +352,28 @@
 			}
 }
 5309 = {	#Kharutarik (b_kharutarik)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5478 = {	#Ondosto (b_ondosto)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 				6990.1.1 = {
 					buildings = {
 						castle_04
@@ -201,66 +387,150 @@
 			}			
 }
 5499 = {	#Belzag (b_belzag)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5463 = {	#Herundal (b_herundal)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5469 = {	#Meryare (b_meryare)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5486 = {	#Athrangrost (b_athrangrost)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5468 = {	#Arialome (b_arialome)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5462 = {	#Vlarion (b_vlarion)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5444 = {	#Theanil (b_theanil)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5445 = {	#Erest (b_erest)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5451 = {	#Maltenost (b_maltenost)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5467 = {	#Meniel (b_meniel)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5473 = {	#Oromet (b_oromet)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 			special_building_slot = wonder_oromet_01
 			special_building = wonder_oromet_01
 }
 5482 = {	#Andunie (b_andunie)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 				6990.1.1 = {
 					buildings = {
 						castle_04
@@ -274,19 +544,40 @@
 				}
 }
 5437 = {	#Hisindor (b_hisindor)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5429 = {	#Nunduine (b_nunduine)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5427 = {	#Eldalonde (b_eldalonde)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 				6990.1.1 = {
 					buildings = {
 						castle_04
@@ -300,39 +591,88 @@
 			}			
 }
 5498 = {	#Nisinna (b_nisinna)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5404 = {	#Tarminas (b_tarminas)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5415 = {	#Morionde (b_morionde)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5396 = {	#Menost (b_menost)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5382 = {	#Farahil (b_farahil)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5362 = {	#Edrahil (b_edrahil)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5381 = {	#Erelonde (b_erelonde)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 				6990.1.1 = {
 					buildings = {
 						castle_04
@@ -344,34 +684,76 @@
 			}
 }
 5352 = {	#Zagrar (b_zagrar)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5342 = {	#Hazdore (b_hazdore)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5350 = {	#Nidirmost (b_nidirmost)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5356 = {	#Numir (b_numir)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5344 = {	#Zorakhator (b_zorakhator)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5369 = {	#Zimraopele (b_zimraopele)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 				6990.1.1 = {
 					buildings = {
 						castle_03
@@ -383,14 +765,28 @@
 			}
 }
 5366 = {	#Kharalonde (b_kharalonde)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_dairaben
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5378 = {	#Nindamos (b_nindamos)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 				6990.1.1 = {
 					buildings = {
 						castle_04
@@ -404,38 +800,80 @@
 			}
 }
 5392 = {	#Cemendor (b_cemendor)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5401 = {	#Siropela (b_siropela)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5400 = {	#Erendis (b_erendis)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 			6990.1.1 = {
 					special_building_slot = wonder_erendis_01
 					special_building = wonder_erendis_01
 			}
 }
 5412 = {	#Syntarin (b_syntaryn)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = numenorean
+			religion = faith_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5420 = {	#Melonan (b_melonan)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 }
 5441 = {	#Meneltarma (b_meneltarma)
-			culture = adunaic
-			religion = faith_adunaic
+			culture = black_numenorean
+			religion = faith_kings_men_numenorean
 			holding = castle_holding
+			4002.1.1 = {
+                culture = adunaic
+				religion = faith_numenorean
+            }
+            6405.1.1 = {
+                religion = faith_adunaic
+            }
 				6990.1.1 = {
 					special_building_slot = wonder_meneltarma_01
 					special_building = wonder_meneltarma_02

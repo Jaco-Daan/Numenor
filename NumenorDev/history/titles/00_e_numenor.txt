@@ -2155,6 +2155,7 @@ c_ondosto = {
 	}
 	5338.1.1 = {
 		holder = lineofondosto12
+		liege = e_numenor
 	}
 	5468.1.1 = {
 		holder = lineofondosto13
@@ -3096,6 +3097,7 @@ c_baithal = {
 	}
 	5336.1.1 = {
 		holder = lineofkhorandor12
+		liege = e_numenor
 	}
 	5512.1.1 = {
 		holder = lineofkhorandor13
