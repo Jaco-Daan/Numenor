@@ -3,6 +3,7 @@ heritage_adunaic = {
 	type = heritage
 	character_modifier  = {
 		halls_advantage = -10
+		diplomatic_range_mult = 0.95
 	}
 	is_shown = {
 		heritage_is_shown_trigger = {
