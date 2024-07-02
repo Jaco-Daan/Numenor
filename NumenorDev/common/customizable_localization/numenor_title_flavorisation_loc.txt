@@ -1,5 +1,5 @@
 # Numenor
-emperor_feudal_male_numenor = {
+emperor_feudal_male_numenorean = {
     type = character
     text = {
         trigger = {
@@ -18,7 +18,7 @@ emperor_feudal_male_numenor = {
     }
 }
 
-emperor_feudal_female_numenor = {
+emperor_feudal_female_numenorean = {
     type = character
     text = {
         trigger = {
