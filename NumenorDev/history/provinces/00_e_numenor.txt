@@ -39,11 +39,8 @@
 			holding = castle_holding
 			4002.1.1 = {
                 culture = adunaic
-				religion = faith_dairaben
-            }
-			4802.1.1 = {
 				religion = faith_numenorean
-			}
+            }
             6405.1.1 = {
                 religion = faith_adunaic
             }
