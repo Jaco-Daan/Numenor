@@ -1,0 +1,38 @@
+# Numenor
+emperor_feudal_male_numenor = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                faith.religion = religion:adunai_religion
+                faith.religion = religion:melkoric_religion
+				faith = faith:faith_adunaic
+				culture = culture:adunaic
+            }
+        }
+        localization_key = emperor_feudal_male_numenor
+    }
+    text = {
+        fallback = yes
+        localization_key = high_king_dunedain_numenor_in_exile
+    }
+}
+
+emperor_feudal_female_numenor = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                faith.religion = religion:adunai_religion
+                faith.religion = religion:melkoric_religion
+				faith = faith:faith_adunaic
+				culture = culture:adunaic
+            }
+        }
+        localization_key = emperor_feudal_female_numenor
+    }
+    text = {
+        fallback = yes
+        localization_key = high_king_dunedain_numenor_in_exile_female
+    }
+}
