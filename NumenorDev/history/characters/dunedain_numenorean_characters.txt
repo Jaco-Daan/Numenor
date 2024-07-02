@@ -2154,7 +2154,7 @@ lineofelatan21 = {
 ## Line of Vardur, second son of Tar Atanamir and First Governor of the fledgling colony of Umbar. 
 #  Vardur's death at the hand of Sauron's assaults prompt the fortification of Umbar by Ancalimon					
 					
-lineofvardur = {					
+lineofvardur1 = {					
 	name = Vardur # First Governor of Umbar				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
@@ -2178,13 +2178,13 @@ lineofvardur = {
 		death = { death_reason = death_battle } 			
 	}
 }
-lineofvardur1 = {					
+lineofvardur = {					
 	name = Thalion				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
-	father = lineofvardur				
+	father = lineofvardur1			
 					
 	trait = blood_of_numenor_10 
 	trait = education_martial_3
