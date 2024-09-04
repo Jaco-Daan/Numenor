@@ -165,14 +165,14 @@ numenoreanblood.0001 = {
 	option = { # Parents born on Numenor - always downgrades as post-downfall
 		trigger = {
 			OR = {
-				scope:real_father.get_numenorean_blood_tier = 10
-				scope:mother.get_numenorean_blood_tier = 10								
+				scope:real_father.get_numenorean_blood_tier = 7
+				scope:mother.get_numenorean_blood_tier = 7
 			}
 			NOT = { scope:mother.location ?= { geographical_region = middleearth_numenor } }
 		}
 
 		scope:child = {
-			add_trait = blood_of_numenor_9
+			add_trait = blood_of_numenor_6
 		}			
 	}
 	
@@ -676,13 +676,24 @@ numenoreanblood.0001 = {
 					}					
 				}
 				else_if = {
-					limit = { scope:real_father.get_numenorean_blood_tier = 7 }
+					limit = {
+						scope:real_father.get_numenorean_blood_tier = 7
+						scope:mother.location ?= { geographical_region = middleearth_numenor }
+					}
 					scope:child = {
 						add_trait = blood_of_numenor_7
 					}					
 				}
 				else_if = {
-					limit = { scope:real_father.get_numenorean_blood_tier = 6 }
+					limit = {
+						OR = {
+							scope:real_father.get_numenorean_blood_tier = 6
+							AND = {
+								scope:real_father.get_numenorean_blood_tier = 7
+								NOT = { scope:mother.location ?= { geographical_region = middleearth_numenor } }
+							}
+						}
+					}
 					scope:child = {
 						add_trait = blood_of_numenor_6
 					}					
@@ -1164,13 +1175,21 @@ numenoreanblood.0001 = {
 					}		
 				}
 				else_if = {
-					limit = { scope:real_father.get_numenorean_blood_tier = 8 }
+					limit = {
+						scope:real_father.get_numenorean_blood_tier = 8
+						scope:mother.location ?= { geographical_region = middleearth_numenor }
+					}
 					scope:child = {
 						add_trait = blood_of_numenor_7
 					}					
 				}
 				else_if = {
-					limit = { scope:real_father.get_numenorean_blood_tier = 7 }
+					limit = {
+						OR = {
+							scope:real_father.get_numenorean_blood_tier = 7
+							NOT = { scope:mother.location ?= { geographical_region = middleearth_numenor } }
+						}
+					}
 					scope:child = {
 						add_trait = blood_of_numenor_6
 					}					
@@ -1821,8 +1840,14 @@ numenoreanblood.0001 = {
 				if = {
 					limit = {
 						OR = {
-							scope:real_father.get_numenorean_blood_tier = 9
-							scope:mother.get_numenorean_blood_tier = 9
+							AND = {
+								scope:real_father.get_numenorean_blood_tier = 9
+								scope:mother.location ?= { geographical_region = middleearth_numenor }
+							}
+							AND = {
+								scope:mother.get_numenorean_blood_tier = 9
+								scope:mother.location ?= { geographical_region = middleearth_numenor }
+							}
 						}
 					}
 					scope:child = {
@@ -1832,8 +1857,14 @@ numenoreanblood.0001 = {
 				else_if = {
 					limit = {
 						OR = {
-							scope:real_father.get_numenorean_blood_tier = 8
-							scope:mother.get_numenorean_blood_tier = 8
+							AND = {
+								scope:real_father.get_numenorean_blood_tier = 8
+								scope:mother.location ?= { geographical_region = middleearth_numenor }
+							}
+							AND = {
+								scope:mother.get_numenorean_blood_tier = 8
+								scope:mother.location ?= { geographical_region = middleearth_numenor }
+							}
 						}
 					}
 					scope:child = {
@@ -1843,8 +1874,14 @@ numenoreanblood.0001 = {
 				else_if = {
 					limit = {
 						OR = {
-							scope:real_father.get_numenorean_blood_tier = 7
-							scope:mother.get_numenorean_blood_tier = 7
+							AND = {
+								scope:real_father.get_numenorean_blood_tier = 7
+								scope:mother.location ?= { geographical_region = middleearth_numenor }
+							}
+							AND = {
+								scope:mother.get_numenorean_blood_tier = 7
+								scope:mother.location ?= { geographical_region = middleearth_numenor }
+							}
 						}
 					}
 					scope:child = {
@@ -1854,8 +1891,11 @@ numenoreanblood.0001 = {
 				else_if = {
 					limit = {
 						OR = {
-							scope:real_father.get_numenorean_blood_tier = 6
-							scope:mother.get_numenorean_blood_tier = 6
+							AND = {
+								scope:real_father.get_numenorean_blood_tier = 6
+								scope:mother.get_numenorean_blood_tier = 6
+							}
+							NOT = { scope:mother.location ?= { geographical_region = middleearth_numenor } }
 						}
 					}
 					scope:child = {
@@ -2478,6 +2518,7 @@ numenoreanblood.0001 = {
 						OR = {
 							scope:real_father.get_numenorean_blood_tier = 9
 							scope:mother.get_numenorean_blood_tier = 9
+							scope:mother.location ?= { geographical_region = middleearth_numenor }
 						}
 					}
 					if = {
@@ -2506,6 +2547,7 @@ numenoreanblood.0001 = {
 						OR = {
 							scope:real_father.get_numenorean_blood_tier = 8
 							scope:mother.get_numenorean_blood_tier = 8
+							scope:mother.location ?= { geographical_region = middleearth_numenor }
 						}
 					}
 					if = {
@@ -2534,6 +2576,7 @@ numenoreanblood.0001 = {
 						OR = {
 							scope:real_father.get_numenorean_blood_tier = 7
 							scope:mother.get_numenorean_blood_tier = 7
+							NOT = { scope:mother.location ?= { geographical_region = middleearth_numenor } }
 						}
 					}
 					if = {
@@ -2562,6 +2605,7 @@ numenoreanblood.0001 = {
 						OR = {
 							scope:real_father.get_numenorean_blood_tier = 6
 							scope:mother.get_numenorean_blood_tier = 6
+							NOT = { scope:mother.location ?= { geographical_region = middleearth_numenor } }
 						}
 					}
 					if = {
@@ -2590,6 +2634,7 @@ numenoreanblood.0001 = {
 						OR = {
 							scope:real_father.get_numenorean_blood_tier = 5
 							scope:mother.get_numenorean_blood_tier = 5
+							NOT = { scope:mother.location ?= { geographical_region = middleearth_numenor } }
 						}
 					}
 					if = {
@@ -2618,6 +2663,7 @@ numenoreanblood.0001 = {
 						OR = {
 							scope:real_father.get_numenorean_blood_tier = 4
 							scope:mother.get_numenorean_blood_tier = 4
+							NOT = { scope:mother.location ?= { geographical_region = middleearth_numenor } }
 						}
 					}
 					if = {
@@ -2646,6 +2692,7 @@ numenoreanblood.0001 = {
 						OR = {
 							scope:real_father.get_numenorean_blood_tier = 3
 							scope:mother.get_numenorean_blood_tier = 3
+							NOT = { scope:mother.location ?= { geographical_region = middleearth_numenor } }
 						}
 					}
 					if = {
@@ -2674,6 +2721,7 @@ numenoreanblood.0001 = {
 						OR = {
 							scope:real_father.get_numenorean_blood_tier = 2
 							scope:mother.get_numenorean_blood_tier = 2
+							NOT = { scope:mother.location ?= { geographical_region = middleearth_numenor } }
 						}
 					}
 					scope:child = {
