@@ -1140,6 +1140,86 @@ decision_numenor_disband_council_of_sceptre = {
 # ↑↑↑ Made by Jaco_Daan ↑↑↑ #
 #############################
 
+decision_reclaim_minhiriath_numenor = {
+	title = decision_reclaim_minhiriath_numenor
+	picture = "gfx/interface/illustrations/decisions/arnor.dds"
+	major = yes
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+	selection_tooltip = decision_reclaim_minhiriath_numenor_tooltip
+	desc = decision_reclaim_minhiriath_numenor_desc
+	confirm_text = decision_reclaim_minhiriath_numenor_confirm
+	
+	is_shown = {
+		has_primary_title = title:e_numenor
+		is_landed = yes
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_reclaim_minhiriath_numenor
+			}
+		}
+	}
+	is_valid = {
+		AND = {
+			completely_controls = title:k_cardolan
+			completely_controls = title:k_arthedain
+			completely_controls = title:d_nen_gwathlo
+		}
+		prestige_level >= high_prestige_level
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+	
+	effect = {
+		title:k_cardolan = {
+			set_de_jure_liege_title = root.primary_title
+		}
+		title:k_cardolan= {
+			change_development_level = 1
+		}
+		title:k_arthedain = {
+			set_de_jure_liege_title = root.primary_title
+		}
+		title:k_arthedain = {
+			change_development_level = 1
+		}
+		title:k_rhudaur = {
+			set_de_jure_liege_title = root.primary_title
+		}
+		title:k_rhudaur = {
+			change_development_level = 1
+		}
+		title:d_nen_gwathlo = {
+			set_de_jure_liege_title = title:k_cardolan
+		}
+		title:d_nen_gwathlo = {
+			change_development_level = 1
+		}	
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+		target = flag:decision_reclaim_minhiriath_numenor
+		}
+		custom_tooltip = decision_reclaim_minhiriath_numenor
+			
+		save_scope_as = restorer
+		}
+	}
+	
+	ai_will_do = {
+		base = 100
+	}
+}
+
 #decision_palantir_romenna = {
 #    title = decision_palantir_romenna
 #    picture = "gfx/interface/illustrations/decisions/decision_palantir_amon_sul.dds"

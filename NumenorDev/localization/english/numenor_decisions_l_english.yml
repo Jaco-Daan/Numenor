@@ -88,6 +88,11 @@
  decision_numenor_disband_council_of_sceptre_confirm:0 "I shall restore the Council to its ceremonial position"
  decision_numenor_disband_council_of_sceptre_tooltip:0 "You gain the power to dictate Númenor's foreign policy"
 
+ decision_reclaim_minhiriath_numenor:0 "Reclaim the Oldest Colony"
+ decision_reclaim_minhiriath_numenor_desc:0 "The first colonies of the great Númenórean Empire were in Eriador. Vinyalondë was founded by Aldarion in S.A. 1800 as our first haven in Middle Earth. Our colonies in Eriador proved to be useful during the invasion of Zigûr the Tyrant, where he was humiliated by our grand army. During the Akallabêth we lost contact with our glorious colony, and since recovering conctact, we have found that the Adûnai of Minhiriath have suffered much, reduced to petty rabbles, we will not allow this to continue. We will reclaim our dominion over Eriador."
+ decision_reclaim_minhiriath_numenor_confirm:0 "Minhiriath and Vinyalondë reclaimed! "
+ decision_reclaim_minhiriath_numenor_tooltip:0 "Reclaim the ancient Númenórean colonies in Eriador"
+ 
  decision_expedition_anarike_title:0 "Placeholder"
  decision_expedition_anarike_tooltip:0 "Placeholder"
  decision_expedition_anarike_desc:0 "Placeholder"
