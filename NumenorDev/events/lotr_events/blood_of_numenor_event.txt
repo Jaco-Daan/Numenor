@@ -2705,7 +2705,7 @@ numenoreanblood.0001 = {
 
 	if = {
 		limit = {
-			scope:mother.location ?= { geographical_region = middleearth_numenor }
+			NOT = { scope:mother.location ?= { geographical_region = middleearth_numenor } }
 			scope:child ?= { has_trait = blood_of_numenor_7 }
 		}
 			scope:child ?= {
