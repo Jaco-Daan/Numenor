@@ -14,6 +14,13 @@ on_game_start = {
 	}
 
 	effect = {
+		every_living_character = {
+			limit = {
+				culture = culture:adunaic
+				location ?= { geographical_region = middleearth_numenor }
+			}
+			add_trait = blood_of_numenor_7
+		}
 		#Epidemics 3 months grace
 		set_global_variable = {
 			name = start_epidemic_grace
