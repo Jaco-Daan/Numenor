@@ -12,10 +12,10 @@ numenorean_submod_pikemen = {
 		}
 	type = pikemen
 	
-	damage = 48
-	toughness = 51
+	damage = 60
+	toughness = 50
 	pursuit = 0
-	screen = 0
+	screen = 60
 	
 	terrain_bonus = {
 		hills = { damage = 3 toughness = 8 }
@@ -27,15 +27,16 @@ numenorean_submod_pikemen = {
 		pikemen = 0.5
 		light_cavalry = 2
 		heavy_cavalry = 2
+		elephant_cavalry = 1
 	}
 
-	buy_cost = { gold = pikemen_recruitment_cost }
-	low_maintenance_cost = { gold = pikemen_low_maint_cost }
-	high_maintenance_cost = { gold = pikemen_high_maint_cost }
+	buy_cost = { gold = 100 }
+	low_maintenance_cost = { gold = 1 }
+	high_maintenance_cost = { gold = 2 }
 	
 	allowed_in_hired_troops = no
 	
-	stack = 100
+	stack = 80
 	ai_quality = { value = culture_ai_weight_pikemen }
 	icon = numenorean_submod_pikemen
 }
@@ -47,29 +48,26 @@ numenorean_royal_knights = {
 	type = heavy_infantry
 	
 	damage = 150
-	toughness = 50
-	pursuit = 20
-	screen = 10
+	toughness = 100
+	pursuit = 25
+	screen = 75
 	
 	terrain_bonus = {
-		plains = { damage = 30 }
-		drylands = { damage = 30 }
-		hills = { damage = -10 }
-		jungle = { damage = -25 }
-		mountains = { damage = -50 }
-		desert_mountains = { damage = -50 }
-		wetlands = { damage = -75 }
+		jungle = { damage = -20 }
+		desert_mountains = { damage = -20 }
+		wetlands = { damage = -30 }
 	}
 
 	counters = {
 		archers = 1
+		monster = 2
 	}
 
-	buy_cost = { gold = 1200 }
-	low_maintenance_cost = { gold = 5.3 }
-	high_maintenance_cost = { gold = 10.7 }
+	buy_cost = { gold = 400 }
+	low_maintenance_cost = { gold = 4 }
+	high_maintenance_cost = { gold = 8 }
 	
-	stack = 50
+	stack = 60
 
 	allowed_in_hired_troops = no
 	ai_quality = { value = @cultural_maa_extra_ai_score }
@@ -97,7 +95,7 @@ numenorean_common_soldiers = {
 	low_maintenance_cost = { gold = 1 }
 	high_maintenance_cost = { gold = 3 }
 	
-	stack = 50
+	stack = 80
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = numenorean_common_soldiers
 }
@@ -108,25 +106,27 @@ numenorean_steel_archers = {
 		}
 	type = archers
 	
-	damage = 75
-	toughness = 30
-	pursuit = 5
-	screen = 15
+	damage = 100
+	toughness = 40
+	pursuit = 30
+	screen = 10
 	
 	terrain_bonus = {
 		hills = { damage = 12 toughness = 4 }
+		mountains = { damage = 6 toughness = 2 }
 	}
 
 	counters = {
 		skirmishers = 1
 		heavy_cavalry = 1
+		archer_cavalry = 1
 	}
 
 	buy_cost = { gold = 200 }
 	low_maintenance_cost = { gold = 0.9 }
 	high_maintenance_cost = { gold = 2.7 }
 	
-	stack = 100
+	stack = 80
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = numenorean_steel_archers
 }
