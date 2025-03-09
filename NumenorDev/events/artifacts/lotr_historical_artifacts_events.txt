@@ -86,7 +86,7 @@ lotr_historical_artifacts.0001 = {
 				title:k_khazad_dum.holder ?= { is_dwarf = yes }
 				current_date < 6014.4.22 #Destruction of Khazad-dûm
 			}
-			title:k_khazad_dum.holder = { # The king of Khazad-dûm receives Durin's Axe
+			title:k_khazad_dum.holder = { # The king of Khazad-dûm receives the Ring of the Longbeards
 				create_artifact_ring_of_longbeards_effect = { OWNER = this }
 			}
 		}
@@ -186,6 +186,16 @@ lotr_historical_artifacts.0001 = {
 		
 		if = {
 			limit = {
+				current_date > 6083.1.11 #WK defeats Eärnur
+				title:k_morgul.holder ?= { is_nazgul = yes }
+			}
+			title:k_morgul.holder = { # The king of Morgul receives Eärnur's skull
+				create_artifact_skull_earnur_effect = { OWNER = this }
+			}
+		}
+		
+		if = {
+			limit = {
 				current_date > 6984.1.1 # T.A. 2951, Khamul is dispatched to rebuild and strengthen Dol Guldur as a stronghold for Mordor
 				title:k_amon_lanc.holder ?= { is_nazgul = yes }
 			}
@@ -212,7 +222,7 @@ lotr_historical_artifacts.0001 = {
 			}
 		}
 		else = {
-			character:goldenking1 ?= { # The Golden King receives his Ring
+			character:nazgul3 ?= { # The Golden King receives his Ring
 				create_artifact_goldenking_ring_effect = { OWNER = this }
 			}
 		}
@@ -240,6 +250,10 @@ lotr_historical_artifacts.0001 = {
 		character:nazgul9 ?= { # Ûvatha receives his Ring
 			create_artifact_uvatha_ring_effect = { OWNER = this }
 		}
+
+		## Maiar ##
+
+		character:lineofeonwe = { create_artifact_sword_of_manwe_effect = { OWNER = this } }
 		
 		## Wizards ##
 		if = {
@@ -291,8 +305,7 @@ lotr_historical_artifacts.0001 = {
 		## Elven ##
 		if = {
 			limit = {
-				title:k_lothlorien.holder ?= { is_elf = yes }
-				has_dlc_feature = royal_court
+				title:k_lothlorien.holder ?= { is_elf = yes } 
 			}
 			title:k_lothlorien.holder = { # The ruler of Lorien receives their artifacts
 				create_artifact_leithian_effect = { OWNER = this }
@@ -318,16 +331,33 @@ lotr_historical_artifacts.0001 = {
 				create_artifact_elessar_effect = { OWNER = this }
 			}
 		}
+
+		if = {
+			limit = {
+				title:k_lothlorien.holder = { is_elf = yes }
+				current_date < 6014.1.1 # Amroth dies in the Bay of Belfalas
+			}
+			title:k_lothlorien.holder = {
+				create_artifact_amroths_belt_effect = { OWNER = this }
+			}
+		}
+		
+		if = {
+			limit = {
+				title:e_lindon.holder ?= { is_elf = yes }
+				current_date > 3014.1.1 
+			}
+			title:e_lindon.holder = {
+				create_artifact_pearl_of_ereinion_effect = { OWNER = this }
+			}
+		}
 		
 		if = {
 			limit = { title:k_lasgalen.holder ?= { is_elf = yes } }
 			title:k_lasgalen.holder = { # The ruler of Lasgalen receives his artifacts
 				create_artifact_crown_woodland_realm_effect = { OWNER = this }
-				if = { 
-					limit = { has_dlc_feature = royal_court }
-					create_artifact_leithian_effect = { OWNER = this }
-					create_artifact_narn_effect = { OWNER = this }
-				}
+				create_artifact_leithian_effect = { OWNER = this }
+				create_artifact_narn_effect = { OWNER = this }
 				if = { 
 					limit = { current_date > 6014.1.1 }
 					create_artifact_aranthel_and_ungoldagnir_effect = { OWNER = this }
@@ -336,8 +366,7 @@ lotr_historical_artifacts.0001 = {
 		}
 		
 		if = {
-			limit = { 
-				has_dlc_feature = royal_court
+			limit = {  
 				current_date > 4830.10.4
 			}
 			character:lineoforopher3 ?= { # Thranduil receives Legolas' Childhood Sledge
@@ -349,13 +378,10 @@ lotr_historical_artifacts.0001 = {
 			limit = { title:k_imladris.holder ?= { is_elf = yes } }
 			title:k_imladris.holder = { # The ruler of Rivendell receives personal artifacts
 				create_artifact_hadhafang_effect = { OWNER = this }
-				if = {
-					limit = { has_dlc_feature = royal_court }
-					create_artifact_silver_harp_effect = { OWNER = this }
-					create_artifact_narn_effect = { OWNER = this }
-					create_artifact_leithian_effect = { OWNER = this }
-					create_artifact_ringil_effect = { OWNER = this }
-				}
+				create_artifact_silver_harp_effect = { OWNER = this }
+				create_artifact_narn_effect = { OWNER = this }
+				create_artifact_leithian_effect = { OWNER = this }
+				create_artifact_ringil_effect = { OWNER = this }
 			}
 		}
 		
@@ -370,7 +396,7 @@ lotr_historical_artifacts.0001 = {
 		}
 		else_if = {
 			limit = {
-				current_date < 4033.7.12
+				current_date > 4033.7.12
 				title:k_imladris.holder = { is_elf = yes }
 			}
 			title:k_imladris.holder = { # The ruler of Rivendell receives Aeglos
@@ -391,19 +417,15 @@ lotr_historical_artifacts.0001 = {
 		
 		if = {
 			limit = {
-				title:e_lindon.holder ?= { is_elf = yes }
-				has_dlc_feature = royal_court
+				title:e_lindon.holder ?= { is_elf = yes } 
 			}
 			title:e_lindon.holder = { # The emperor of Lindon receives his Palantir
 				create_artifact_palantir_elostirion_effect = { OWNER = this }
 			}
 		}
 		
-		if = {
-			limit = { has_dlc_feature = royal_court }
-			character:linefinwe11 = { # Maglor gets his sword
-				create_artifact_hyandolire_effect = { OWNER = this }
-			}
+		character:linefinwe11 = { # Maglor gets his sword
+			create_artifact_hyandolire_effect = { OWNER = this }
 		}
 		
 		## Dwarven ##
@@ -447,7 +469,7 @@ lotr_historical_artifacts.0001 = {
 				limit = {
 					current_date < 6974.1.1
 				}
-				character:lineofgandalf = { #Gandalf receives the key of Erebor
+				character:lineofgandalf ?= { #Gandalf receives the key of Erebor
 					create_artifact_key_of_erebor_effect = { OWNER = this }
 				}
 			}
@@ -478,21 +500,49 @@ lotr_historical_artifacts.0001 = {
 				create_artifact_durins_helm_effect = { OWNER = this }
 			}
 		}
+
+		if = {
+			limit = { 
+				title:k_barazimab_ul.holder ?= { is_dwarf = yes }
+			}
+			title:k_barazimab_ul.holder ?= { create_artifact_cursed_sword_of_blacklocks_effect = { OWNER = this } }
+		}
+		
+		if = {
+			limit = {
+				current_date > 6444.3.21
+			}
+			character:lineofargan2  = { # The Axe that walks receives the boots that walk
+				create_artifact_trusty_boots_effect = { OWNER = this }
+			}
+		}
 		
 		
 		## Hobbitses ##
 		if = {
-			limit = { title:c_hobbiton.holder ?= { is_hobbit = yes } }
+			limit = { 
+				title:c_hobbiton.holder ?= { is_hobbit = yes }
+				current_date > 6975.1.1
+			 }
 			title:c_hobbiton.holder = { # Bilbo receives Sting
 				create_artifact_sting_effect = { OWNER = this }
 				create_artifact_mithril_mail_effect = { OWNER = this }
 			}
-			if = {
-				limit = { has_dlc_feature = royal_court }
+			title:c_hobbiton.holder = { # Bilbo receives the Red Book
 				create_artifact_red_book_of_westmarch_effect = { OWNER = this }
 			}
 		}		
 		
+		## Orcs ##
+		if = {
+			limit = {
+				title:c_hwomo.holder ?= { is_orc = yes }
+				current_date > 7025.1.1
+			}
+			title:c_hwomo.holder = { # Gazduf the Bellower receives his famed horn
+				create_artifact_bellowers_horn_effect = { OWNER = this }
+			}
+		}
 		
 		## Mordor & Nazgûl ##
 		
@@ -555,7 +605,7 @@ lotr_historical_artifacts.0001 = {
 			}
 		}
 		else = {
-			character:goldenking1 ?= { # The Golden King receives a Morgul Blade and his helm
+			character:nazgul3 ?= { # The Golden King receives a Morgul Blade and his helm
 				create_artifact_morgul_blade_effect = { OWNER = this }
 				create_artifact_mask_goldenking_effect = { OWNER = this }
 			}
@@ -585,18 +635,35 @@ lotr_historical_artifacts.0001 = {
 			create_artifact_morgul_blade_effect = { OWNER = this }
 		}
 		
-		if = {
-			limit = { has_dlc_feature = royal_court }
-			character:lineofdale63 ?= { # Valdis travels to the Mountains of Mirkwood and finds the Hame of the Vampire
-				create_artifact_hame_of_the_vampire_effect = { OWNER = this }
-			}
+		character:lineofdale63 ?= { # Valdis travels to the Mountains of Mirkwood and finds the Hame of the Vampire
+			create_artifact_hame_of_the_vampire_effect = { OWNER = this }
 		}
 		
-		character:lineofsauron = { # Sauron receives the Vása
+		character:lineofsauron = { # Sauron receives his artifacts
 			create_artifact_vasa_effect = { OWNER = this }
-			if = {
-				limit = { has_dlc_feature = royal_court }
-				create_artifact_sauron_defying_thunder_effect = { OWNER = this }
+			create_artifact_sauron_defying_thunder_effect = { OWNER = this }
+		}
+		
+		if = {
+			limit = { 
+				current_date < 5978.1.1 #Minas Ithil is taken
+				title:e_gondor.holder ?= { is_human = yes }
+			}
+			title:e_gondor.holder = {
+				create_artifact_palantir_minasithil_effect = { OWNER = this }
+			}
+		}
+		else_if = {
+			limit = { 
+				current_date < 6034.1.1 #Sauron returns to Mordor
+				title:k_morgul.holder ?= { is_nazgul = yes }
+			}
+			title:k_morgul.holder = {
+				create_artifact_palantir_minasithil_effect = { OWNER = this }
+			}
+		}
+		else = {
+			character:lineofsauron = {
 				create_artifact_palantir_minasithil_effect = { OWNER = this }
 			}
 		}
@@ -606,18 +673,35 @@ lotr_historical_artifacts.0001 = {
 		if = {
 			limit = { title:e_gondor.holder ?= { is_human = yes } }
 			title:e_gondor.holder = { # The king of Gondor receives his artifacts
+				create_artifact_palantir_minasanor_effect = { OWNER = this }
+				if = {
+					limit = { current_date > 3912.1.1 }
+					create_artifact_throne_of_gondor_effect = { OWNER = this }
+				}
 				if = {
 					limit = { current_date > 5200.1.1 }
 					create_artifact_crown_of_gondor_effect = { OWNER = this }
 				}
-				if = {
-					limit = { has_dlc_feature = royal_court }
-					create_artifact_palantir_minasanor_effect = { OWNER = this }
-					if = {
-						limit = { current_date > 3912.1.1 }
-						create_artifact_throne_of_gondor_effect = { OWNER = this }
-					}
-				}
+			}
+		}
+		
+		if = {
+			limit = {
+				exists = character:lineofanarion27 #Eldacar
+				current_date > 5330.1.1
+				current_date < 5370.1.1
+			}
+			character:lineofanarion27 = { #Eldacar receives Forestel
+				create_artifact_forestel_effect = { OWNER = this }
+			}
+		}
+		else_if = {
+			limit = {
+				exists = character:lineofanarion28 #Ornendil
+				current_date >= 5330.1.1
+			}
+			character:lineofanarion28 = { #Ornendil receives Forestel
+				create_artifact_forestel_effect = { OWNER = this }
 			}
 		}
 		
@@ -625,12 +709,9 @@ lotr_historical_artifacts.0001 = {
 			limit = { title:e_gondor_steward.holder ?= { is_human = yes } }
 			title:e_gondor_steward.holder = { # The Steward receives his artifacts
 				create_artifact_steward_rod_effect = { OWNER = this }
-				if = {
-					limit = { has_dlc_feature = royal_court }
-					create_artifact_throne_of_gondor_effect = { OWNER = this }
-					create_artifact_black_chair_stewards_effect = { OWNER = this }
-					create_artifact_palantir_minasanor_effect = { OWNER = this }
-				}
+				create_artifact_throne_of_gondor_effect = { OWNER = this }
+				create_artifact_black_chair_stewards_effect = { OWNER = this }
+				create_artifact_palantir_minasanor_effect = { OWNER = this }
 			}
 		}
 		
@@ -660,10 +741,57 @@ lotr_historical_artifacts.0001 = {
 				}
 			}
 		}
+		
+		if = {
+			limit = {
+				exists = character:predolamroth181 # Maratar
+				current_date > 5300.1.1
+			}
+			character:predolamroth181 = { # Maratar receives the Swan Shield
+				create_artifact_swan_shield_effect = { OWNER = this }
+			}
+		}
 
+		if = {
+			limit = {
+				exists = character:lineofanarion26 # Valacar
+				current_date > 5300.1.1
+			}
+			character:lineofanarion26 = { # Valacar is given the Mace of Anárion as the heir apparent
+				create_artifact_mace_of_anarion_effect = { OWNER = this }
+			}
+		}
+
+		if = {
+			limit = {
+				exists = title:k_lebennin.holder
+				current_date > 6300.1.1
+			}
+			title:k_lebennin.holder = { # The Sea-lord receives the Mace of Anárion
+				create_artifact_mace_of_anarion_effect = { OWNER = this }
+			}
+		}
+		
+		if = {
+			limit = {
+				exists = title:d_watch_on_mordor.holder
+				#current_date > 5300.1.1
+			}
+			title:d_watch_on_mordor.holder = { # the commander of the Watch on Mordor receives the chronicle of the watch
+				create_artifact_watch_chronicle_effect = { OWNER = this }
+			}
+		}
+		
 
 		## Arnor ##
 		
+		if = { # Elendil receives Narsil after Akallabeth
+			limit = { title:e_arnor.holder ?= { is_human = yes } }
+			if = {
+				limit = { current_date < 4033.1.1 } # Day Narsil gets broken
+			}
+			title:e_arnor.holder = { create_artifact_narsil_effect = { OWNER = this } }
+		}
 		
 		if = {
 			limit = { 
@@ -711,56 +839,148 @@ lotr_historical_artifacts.0001 = {
 			}
 		}
 		
+		if = {
+			limit = {
+				title:c_fornost.holder ?= { is_human = yes }
+				current_date > 5300.1.1
+			}
+			title:c_fornost.holder = { # The ranger-captain of Fornost gets Dúnachar
+				create_artifact_dunachar_effect = { OWNER = this }
+			}
+		}
+
+		if = {
+			limit = {
+				title:c_adandor.holder ?= { is_human = yes }
+				current_date = 7033.1.1
+			}
+			title:c_adandor.holder = { # The ranger-captain of Adandor gets gorthagnir
+				create_artifact_gorthagnir_effect = { OWNER = this }
+			}
+		}
+		
+		if = {
+			limit = {
+				current_date = 6787.1.1
+			}
+			character:lineoftarmacilin77 = { create_artifact_gorthagnir_effect = { OWNER = this } }
+		}
 		## Rohan & Dunland ##
 		if = {
-			limit = { title:k_rohan.holder ?= { is_human = yes } }
-			title:k_rohan.holder = { # The king of Rohan receives Herugrim
-				create_artifact_herugrim_effect = { OWNER = this }
+			limit = {
+				current_date > 6033.11.11 #Fram kills the dragon
+				current_date < 6543.11.11 #Eorl founds Rohan
+				title:k_langwell.holder ?= { is_human = yes } 
+			}
+			title:k_langwell.holder = { # The king of Langwell receives the Horn of the Mark
 				create_artifact_horn_mark_effect = { OWNER = this }
 			}
 		}
+		else_if = {
+			limit = { 
+				current_date > 6543.11.11 #Eorl founds Rohan
+				title:k_rohan.holder ?= { is_human = yes } 
+			}
+			title:k_rohan.holder = { # The king of Rohan receives the Horn of the Mark
+				create_artifact_horn_mark_effect = { OWNER = this }
+			}
+		}
+		
 		if = {
 			limit = {
 				title:k_rohan.holder ?= { is_human = yes }
-				has_dlc_feature = royal_court
 			}
-			title:k_rohan.holder = { # The king of Rohan receives Tapestry of the Ride of Eorl
-				create_artifact_tapestry_ride_eorl_effect = { OWNER = this }
+			title:k_rohan.holder = { # The king of Rohan receives his artifacts
+				if = {
+					limit = { current_date > 6792.1.1 }
+					create_artifact_herugrim_effect = { OWNER = this }
+				}
+				if = {
+					limit = {
+						current_date > 6578.8.3
+					}
+					create_artifact_tapestry_ride_eorl_effect = { OWNER = this }
+				}
 			}
 		}
+		
 		if = {
-			limit = { title:d_eastfold.holder ?= { is_human = yes } }
+			limit = { 
+				title:d_eastfold.holder ?= { is_human = yes } 
+				current_date > 6600.1.1
+			}
 			title:d_eastfold.holder = { # The Third Marshal receives Guthwine
 				create_artifact_guthwine_effect = { OWNER = this }
 			}
 		}
+		
 		if = {
-			limit = { title:d_dunlandfells.holder ?= { is_human = yes } }
+			limit = { 
+				title:d_parth_celebrant.holder ?= { is_human = yes }
+				current_date > 6000.1.2
+			}
+			title:d_parth_celebrant.holder = { # The ruler of the loyal Leofrings receives Wrothbláda
+				create_artifact_wrothblada_effect = { OWNER = this }
+			}
+		}
+		
+		if = {
+			limit = { 
+				current_date > 6780.2.12
+				character:lineoffreca3 = { is_alive = yes }
+			}
+			character:lineoffreca3 = { # Wulf receives Wulf's Fang
+				create_artifact_wulf_fang_effect = { OWNER = this }
+			}
+		}
+		
+		if = {
+			limit = { 
+				title:d_dunlandfells.holder ?= { is_human = yes } 
+				current_date > 6791.1.1
+			}
 			title:d_dunlandfells.holder = { # The ruler of Dunlandfells receives Wulf's Fang
 				create_artifact_wulf_fang_effect = { OWNER = this }
+			}
+		}
+		
+		if = {
+			limit = { 
+				title:d_ronen_in_anduin.holder ?= { is_human = yes }
+				current_date > 6000.1.2
+			}
+			title:d_ronen_in_anduin.holder = { # The ruler of the Framlings receives the Helm of Nordinbad
+				create_artifact_helm_of_nordinbad_effect = { OWNER = this }
 			}
 		}
 		
 		## Bellakar ##
 		if = {
 			limit = {
-				title:d_korlea.holder ?= { is_human = yes }
-				has_dlc_feature = royal_court
+				title:d_korlea.holder ?= { is_human = yes } 
 			}
 			title:d_korlea.holder = { # The duke of Korlea receives the Bough of Oiolairë
 				create_artifact_branch_effect = { OWNER = this }
 			}
 		}
+		
 		if = {
 			limit = { title:e_bellakar.holder ?= { is_human = yes } }
 			title:e_bellakar.holder = { # The High King of Bellakar receives Niluzagar
 				create_artifact_niluzagar_effect = { OWNER = this }
-				create_artifact_ring_macilion_effect = { OWNER = this }
+				if = {
+					limit = { current_date > 4023.1.1 }
+					create_artifact_ring_macilion_effect = { OWNER = this }
+				}
 			}
 		}
+		
 		if = {
-			limit = { title:k_felaya.holder ?= { is_human = yes } }
-			title:k_felaya.holder = { # The First Lord receives the Book of the Baitha
+			limit = { 
+				title:d_hazaj_tollin.holder ?= { is_human = yes } 
+				current_date > 4960.1.1 
+			}
+			title:d_hazaj_tollin.holder = { # The duke of Hazaj Tollin receives the Book of the Baitha
 				create_artifact_book_baitha_effect = { OWNER = this }
 			}
 		}
@@ -769,61 +989,125 @@ lotr_historical_artifacts.0001 = {
 		## Near Harad, Umbar & Dune Sea ##
 		
 		if = {
-			limit = { game_start_date = 3912.1.1 }
-			title:k_mirlond.holder = { create_artifact_crown_of_herumor_effect = { OWNER = this } }
+			limit = {
+				title:d_ramlond.holder ?= { is_human = yes }
+				current_date > 3911.1.1
+				current_date < 4029.1.1
+			}
+			title:d_ramlond.holder = { create_artifact_crown_of_herumor_effect = { OWNER = this } }
 		}
-		if = {
-			limit = { game_start_date = 3912.1.1 }
-			title:k_haruzan.holder = { create_artifact_crown_of_fuinur_effect = { OWNER = this } }
-		}
+		
 		if = {
 			limit = {
-				title:k_umbar.holder ?= { is_human = yes }
-				has_dlc_feature = royal_court
+				title:k_haruzan.holder ?= { is_human = yes }
+				current_date > 3911.1.1
+				current_date < 4029.1.1
+			}
+			title:k_haruzan.holder = { create_artifact_crown_of_fuinur_effect = { OWNER = this } }
+		}
+		
+		if = {
+			limit = {
+				title:k_umbar.holder ?= { is_human = yes } 
+				current_date > 5481.1.1
 			}
 			title:k_umbar.holder = { # The king of Umbar receives the Throne of Castaher
 				create_artifact_throne_of_castaher_effect = { OWNER = this }
 			}
 		}
+		
 		if = {
-			limit = { title:d_calenfalas.holder ?= { is_human = yes } }
+			limit = { 
+				title:d_calenfalas.holder ?= { is_human = yes }
+				current_date > 7013.1.1
+			}
 			title:d_calenfalas.holder = { # The ruler of Calenfalas receives the Ephalzagar-an-Azarkhôr
 				create_artifact_spear_sealord_effect = { OWNER = this }
 			}
 		}
+		
 		if = {
 			limit = {
 				title:k_haruzan.holder ?= { is_human = yes }
-				game_start_date >= 6990.1.1 # Date of artifact creation
+				current_date >= 6990.1.1 # Date of artifact creation
 			}
 			title:k_haruzan.holder = { # The ruler of Haruzan receives the Headdress of Serpents
 				create_artifact_serpent_headdress_effect = { OWNER = this }
 			}
 		}
+		
 		if = {
-			limit = { title:d_koanoz.holder ?= { is_human = yes } }
+			limit = { 
+				title:d_koanoz.holder ?= { is_human = yes }
+				current_date >= 6990.1.1 # Date of artifact creation
+			}
 			title:d_koanoz.holder = { # The ruler of Koanoz receives Scorpion's Sting
 				create_artifact_scorpion_sting_effect = { OWNER = this }
 			}
 		}
-		character:syarrhul1 = { # Black Vizier recieves Naluzor
+		
+		if = {
+			limit = { 
+				title:d_narik_zadan.holder ?= { is_human = yes }
+				current_date >= 7013.1.1 # WotR
+			}
+			title:d_narik_zadan.holder = { # Aglarin receives the halberd wielded by her father
+				create_artifact_wave_reaper_effect = { OWNER = this }
+			}
+		}
+		
+		if = {
+			limit = { 
+				title:d_fleet_of_shadows.holder ?= { is_human = yes }
+				current_date >= 6759.9.5 # Date of artifact creation
+			}
+			title:d_fleet_of_shadows.holder = { # The ruler of the Fleet of Shadows receives the Wave-reaper halberd
+				create_artifact_wave_reaper_effect = { OWNER = this }
+			}
+		}
+		
+		character:syarrhul1 ?= { # Black Vizier recieves Naluzor
 			create_artifact_naluzor_effect = { OWNER = this }
 		}
 		
 		
 		## Tedjin ##
 		if = {
-			limit = { title:k_tedjin.holder ?= { is_human = yes } }
+			limit = { 
+				title:k_tedjin.holder ?= { is_human = yes } 
+			}
 			title:k_tedjin.holder = { # The ruler of Tedja receives the Bones of Batou Jochë
-				create_artifact_bones_batou_joche_effect = { OWNER = this }
-				create_artifact_shield_malador_effect = { OWNER = this }
+				if = {
+					limit = { current_date > 6788.1.1 }
+					create_artifact_bones_batou_joche_effect = { OWNER = this }
+				}
+				if = {
+					limit = { current_date > 6788.1.1 }
+					create_artifact_shield_malador_effect = { OWNER = this }
+				}
+			}
+		}
+		else = {
+			limit = { 
+				title:d_kref_nilja.holder ?= { is_human = yes } 
+			}
+			title:d_kref_nilja.holder = { # The ruler of Kref Nilja receives the Bones of Batou Jochë before the Tedjin unite
+				if = {
+					limit = {
+						current_date > 4573.1.1 
+					}
+					create_artifact_bones_batou_joche_effect = { OWNER = this }
+				}
 			}
 		}
 		
 		
 		## Bozisha & Storm Host ##
 		if = {
-			limit = { title:e_thon_an_kharlokh.holder ?= { is_human = yes } }
+			limit = { 
+				title:e_thon_an_kharlokh.holder ?= { is_human = yes } 
+				current_date > 4600.1.1
+			}
 			title:e_thon_an_kharlokh.holder = { # The Storm Marshal receives Storm's Wrath
 				create_artifact_storms_wrath_effect = { OWNER = this }
 			}
@@ -836,36 +1120,83 @@ lotr_historical_artifacts.0001 = {
 		}			
 		if = {
 			limit = {
-				title:k_ray.holder ?= { is_human = yes }
-				has_dlc_feature = royal_court
+				title:k_ray.holder ?= { is_human = yes } 
 			}
 			title:k_ray.holder = { # King of Ray receives the Silver Sword of Iunást
 				create_artifact_silver_sword_effect = { OWNER = this }
-				create_artifact_heart_vatra_effect = { OWNER = this }
+				if = {
+					limit = { current_date > 6900.1.1 }
+					create_artifact_heart_vatra_effect = { OWNER = this }
+				}
 			}
 		}
 		
 		## Rhovanion ##
 		if = {
 			limit = {
-				title:d_carrock_vale.holder ?= { is_human = yes }
-				has_dlc_feature = royal_court
+				title:d_carrock_vale.holder ?= { is_human = yes } 
+				current_date > 6974.1.1
 			}
 			title:d_carrock_vale.holder = { # Ruler of the Carrock Vale receives Skull of Bolg
 				create_artifact_skull_bolg_effect = { OWNER = this }
 			}
 		}	
+		
 		if = {
 			limit = {
+				current_date > 4022
+				current_date < 4025
+				title:e_lindon.holder ?= { is_elf = yes }
+			}
+			title:e_lindon.holder = { # Ruler of Lindon receives the Twin Chalices
+				create_artifact_telperion_chalice_effect = { OWNER = this }
+				create_artifact_laurelin_chalice_effect = { OWNER = this }
+			}
+		}
+		else_if = {
+			limit = {
+				current_date > 4025
+				current_date < 6791.5.21
+				title:k_lasgalen.holder ?= { is_elf = yes }
+			}
+			title:k_lasgalen.holder = { # Ruler of Lasgalen receives the Twin Chalices
+				create_artifact_telperion_chalice_effect = { OWNER = this }
+				create_artifact_laurelin_chalice_effect = { OWNER = this }
+			}
+		}
+		else_if = {
+			limit = {
+				current_date > 6791.5.21
 				title:k_dorwinion.holder ?= { is_human = yes }
-				has_dlc_feature = royal_court
 			}
 			title:k_dorwinion.holder = { # Ruler of Dorwinion receives Telperion Chalice
 				create_artifact_telperion_chalice_effect = { OWNER = this }
 			}
 		}
+		
 		if = {
-			limit = { title:k_dale.holder ?= { is_human = yes } }
+			limit = { 
+				current_date > 6785.1.1
+				current_date < 6977.1.1
+			}
+			dynasty:dynasty_aivadiuria.dynast ?= { # Ruler of Dale receives Black Arrow
+				create_artifact_black_arrow_effect = { OWNER = this }
+			}
+		}
+		if = {
+			limit = { 
+				current_date > 6965.1.1
+				character:lineofdale46 = { is_alive = yes }
+			}
+			character:lineofdale46 = { # Bard receives Bard's Bow
+				create_artifact_bard_bow_effect = { OWNER = this }
+			}
+		}
+		else_if = {
+			limit = { 
+				current_date > 6977.1.1
+				title:k_dale.holder ?= { is_human = yes } 
+			}
 			title:k_dale.holder = { # Ruler of Dale receives Bard's Bow
 				create_artifact_bard_bow_effect = { OWNER = this }
 			}
@@ -874,18 +1205,104 @@ lotr_historical_artifacts.0001 = {
 		## Rhûn and Khand ##
 		if = {
 			limit = {
-				title:k_upper_khand.holder ?= { is_human = yes }
-				has_dlc_feature = royal_court
+				current_date > 6950.1.1
+				title:k_upper_khand.holder ?= { is_human = yes } 
 			}
 			title:k_upper_khand.holder = { # Ruler of Upper Khand receives Throne of the Ôvatha
 				create_artifact_throne_ovatha_effect = { OWNER = this }
 			}
 		}
 		if = {
-			limit = { title:e_golden_realm_rhun.holder ?= { is_human = yes } }
+			limit = {
+				current_date > 6799.8.29
+				title:e_golden_realm_rhun.holder ?= { is_human = yes } 
+			}
 			title:e_golden_realm_rhun.holder = { # The emperor of Medloshukain receives the Crown of Bountig
 				create_artifact_crown_bountig_effect = { OWNER = this }
 			}
 		}	
+		
+		## Thani-Hazad ##
+
+		if = {
+			limit = {
+				title:k_gimilthani.holder ?= { is_human = yes }
+			}
+			title:k_gimilthani.holder = {
+				create_artifact_witness_of_restraint_effect = { OWNER = this }
+			}
+		}
+		if = {
+			limit = {
+				title:d_holzoreth.holder ?= { is_human = yes }
+			}
+			title:d_holzoreth.holder = {
+				create_artifact_narunuphkaran_effect = { OWNER = this }
+			}
+		}
+		if = {
+			limit = {
+				title:d_holzoreth.holder ?= { is_human = yes }
+			}
+			title:d_holzoreth.holder = {
+				create_artifact_the_grand_concordant_effect = { OWNER = this }
+			}
+		}
+		if = {
+			limit = {
+				title:d_inzilloni.holder ?= { is_human = yes }
+			}
+			title:d_inzilloni.holder = {
+				create_artifact_the_grand_concordant_effect = { OWNER = this }
+			}
+		}
+		if = {
+			limit = {
+				title:d_azarideth.holder ?= { is_human = yes }
+			}
+			title:d_azarideth.holder = {
+				create_artifact_the_grand_concordant_effect = { OWNER = this }
+			}
+		}
+		if = {
+			limit = {
+				title:k_gimilthani.holder ?= { is_human = yes }
+			}
+			title:k_gimilthani.holder = {
+				create_artifact_the_grand_concordant_effect = { OWNER = this }
+			}
+		}
+		if = {
+			limit = {
+				title:d_alsarias.holder ?= { is_human = yes }
+			}
+			title:d_alsarias.holder = {
+				create_artifact_the_grand_concordant_effect = { OWNER = this }
+			}
+		}
+		if = {
+			limit = {
+				title:d_karasalas.holder ?= { is_human = yes }
+			}
+			title:d_karasalas.holder = {
+				create_artifact_the_grand_concordant_effect = { OWNER = this }
+			}
+		}
+		if = {
+			limit = {
+				title:k_pel.holder ?= { is_human = yes }
+			}
+			title:k_pel.holder = {
+				create_artifact_the_grand_concordant_effect = { OWNER = this }
+			}
+		}
+		if = {
+			limit = {
+				title:d_gimileth.holder ?= { is_human = yes }
+			}
+			title:d_gimileth.holder = {
+				create_artifact_the_grand_concordant_effect = { OWNER = this }
+			}
+		}
 	}
 }

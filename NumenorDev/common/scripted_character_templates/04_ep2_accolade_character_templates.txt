@@ -245,6 +245,10 @@ accolade_marauder_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -457,6 +461,10 @@ accolade_idealist_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -639,11 +647,6 @@ accolade_charmer_character = {
 		}
 		set_interesting_traits_and_modifiers_effect = yes
 		add_random_tourney_participant_level_effect = yes
-		
-		if = {
-			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
-		}
 		if = {
 			limit = { is_elf = yes }
 			change_age = { 50 200 }
@@ -858,7 +861,7 @@ accolade_thug_character = {
 		}
 		if = {
 			limit = {
-				culture = { has_cultural_pillar = heritage_orc }
+				is_orc = yes
 				
 			}
 			random = {
@@ -909,6 +912,10 @@ accolade_thug_character = {
 			limit = { is_elf = yes }
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
 		}
 	}
 }
@@ -1119,6 +1126,10 @@ accolade_disciplinarian_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -1320,6 +1331,10 @@ accolade_fanatic_character = {
 			limit = { is_elf = yes }
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
 		}
 	}
 }
@@ -1587,6 +1602,10 @@ accolade_valiant_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -1804,6 +1823,10 @@ accolade_stalwart_character = {
 			limit = { is_elf = yes }
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
 		}
 	}
 }
@@ -2030,6 +2053,10 @@ accolade_scoundrel_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -2247,6 +2274,10 @@ accolade_politicker_character = {
 			limit = { is_elf = yes }
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
 		}
 	}
 }
@@ -2470,6 +2501,10 @@ accolade_tactician_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -2666,6 +2701,10 @@ accolade_reeve_character = {
 			limit = { is_elf = yes }
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
 		}
 	}
 }
@@ -2883,6 +2922,10 @@ accolade_manipulator_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -3070,6 +3113,10 @@ accolade_mentor_character = {
 			limit = { is_elf = yes }
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
 		}
 	}
 }
@@ -3308,6 +3355,10 @@ accolade_contender_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -3513,6 +3564,10 @@ accolade_archer_character = {
 			limit = { is_elf = yes }
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
 		}
 	}
 }
@@ -3734,6 +3789,10 @@ accolade_skirmisher_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -3950,6 +4009,10 @@ accolade_pike_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -4162,6 +4225,10 @@ accolade_outrider_character = {
 			limit = { is_elf = yes }
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
 		}
 	}
 }
@@ -4422,6 +4489,10 @@ accolade_vanguard_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -4652,6 +4723,10 @@ accolade_lancer_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -4862,6 +4937,10 @@ accolade_crossbowmen_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -5069,6 +5148,10 @@ accolade_besieger_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -5274,6 +5357,10 @@ accolade_camelry_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -5471,6 +5558,10 @@ accolade_elephantry_character = {
 			limit = { is_elf = yes }
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
 		}
 	}
 }
@@ -5693,6 +5784,10 @@ accolade_horse_archer_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -5890,6 +5985,10 @@ accolade_huntsmaster_character = {
 			limit = { is_elf = yes }
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
 		}
 	}
 }
@@ -6093,6 +6192,10 @@ accolade_blademaster_character = {
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
 		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
+		}
 	}
 }
 
@@ -6224,6 +6327,10 @@ accolade_master_of_revels_character = {
 			limit = { is_elf = yes }
 			change_age = { 50 200 }
 			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 40 90 }
 		}
 	}
 }

@@ -1,0 +1,13 @@
+NumenorDev_on_game_start = {
+    effect = {
+        every_living_character = {
+			limit = {
+				culture = culture:adunaic
+				location ?= { geographical_region = middleearth_numenor }
+			}
+			add_trait = blood_of_numenor_7
+		}
+        ### Numenor Submod ###
+		set_up_council_of_sceptre = yes
+    }
+}

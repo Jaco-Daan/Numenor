@@ -36,7 +36,44 @@ bp1_yearly_2021_martial_person_template = {
 	learning = { 2 4 }
 	martial = { 14 17 }
 	faith = root.faith
-	culture = root.culture
+#	culture = root.culture
+	random_culture = {
+		root.culture = {
+			trigger = {
+				root_culture_allowed = yes
+			}
+		}
+		root.capital_county.culture = {
+			trigger = {
+				capital_culture_trigger = yes
+			}
+		}
+		culture:isengard_dunlending = {
+			trigger = {
+				isengard_dunlending_trigger = yes
+			}
+		}
+		culture:isengard_urukhai = {
+			trigger = {
+				isengard_urukhai_trigger = yes
+			}
+		}
+		culture:morlughai = {
+			trigger = {
+				morlughai_trigger = yes
+			}
+		}
+		culture:black_numenorean = {
+			trigger = {
+				black_numenorean_trigger = yes
+			}
+		}
+		culture:pust = {
+			trigger = {
+				pust_trigger = yes
+			}
+		}
+	}
 	gender_female_chance = root_soldier_female_chance
 	after_creation = {
 		if = {
@@ -77,7 +114,7 @@ bp1_yearly_2021_martial_person_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -119,7 +156,44 @@ bp1_yearly_2021_learning_witch_template = {
 	learning = { 15 17 }
 	martial = { 3 6 }
 	faith = root.faith
-	culture = root.culture
+#	culture = root.culture
+	random_culture = {
+		root.culture = {
+			trigger = {
+				root_culture_allowed = yes
+			}
+		}
+		root.capital_county.culture = {
+			trigger = {
+				capital_culture_trigger = yes
+			}
+		}
+		culture:isengard_dunlending = {
+			trigger = {
+				isengard_dunlending_trigger = yes
+			}
+		}
+		culture:isengard_urukhai = {
+			trigger = {
+				isengard_urukhai_trigger = yes
+			}
+		}
+		culture:morlughai = {
+			trigger = {
+				morlughai_trigger = yes
+			}
+		}
+		culture:black_numenorean = {
+			trigger = {
+				black_numenorean_trigger = yes
+			}
+		}
+		culture:pust = {
+			trigger = {
+				pust_trigger = yes
+			}
+		}
+	}
 	gender_female_chance = 50
 	after_creation = {
 		if = {
@@ -161,7 +235,7 @@ bp1_yearly_2021_learning_witch_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -208,7 +282,44 @@ bp1_yearly_2021_learning_person_template = {
 	learning = { 15 17 }
 	martial = { 3 6 }
 	faith = root.faith
-	culture = root.culture
+#	culture = root.culture
+	random_culture = {
+		root.culture = {
+			trigger = {
+				root_culture_allowed = yes
+			}
+		}
+		root.capital_county.culture = {
+			trigger = {
+				capital_culture_trigger = yes
+			}
+		}
+		culture:isengard_dunlending = {
+			trigger = {
+				isengard_dunlending_trigger = yes
+			}
+		}
+		culture:isengard_urukhai = {
+			trigger = {
+				isengard_urukhai_trigger = yes
+			}
+		}
+		culture:morlughai = {
+			trigger = {
+				morlughai_trigger = yes
+			}
+		}
+		culture:black_numenorean = {
+			trigger = {
+				black_numenorean_trigger = yes
+			}
+		}
+		culture:pust = {
+			trigger = {
+				pust_trigger = yes
+			}
+		}
+	}
 	gender_female_chance = 50
 	after_creation = {
 		if = {
@@ -250,7 +361,7 @@ bp1_yearly_2021_learning_person_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -269,7 +380,7 @@ bp1_yearly_2021_stewardship_person_template = {
 		architect = {}
 	}
 	random_traits_list = {
-		count = 3
+		count = 1
 		honest = {}
 		gregarious = {}
 		trusting = {}
@@ -279,7 +390,7 @@ bp1_yearly_2021_stewardship_person_template = {
 	}
 	trait = greedy
 	trait = loyal
-	random_traits = no
+	random_traits = yes
 	prowess = { 2 4 }
 	diplomacy = { 5 7 }
 	stewardship = { 15 17 }
@@ -287,7 +398,44 @@ bp1_yearly_2021_stewardship_person_template = {
 	learning = { 4 7 }
 	martial = { 3 6 }
 	faith = root.faith
-	culture = root.culture
+#	culture = root.culture
+	random_culture = {
+		root.culture = {
+			trigger = {
+				root_culture_allowed = yes
+			}
+		}
+		root.capital_county.culture = {
+			trigger = {
+				capital_culture_trigger = yes
+			}
+		}
+		culture:isengard_dunlending = {
+			trigger = {
+				isengard_dunlending_trigger = yes
+			}
+		}
+		culture:isengard_urukhai = {
+			trigger = {
+				isengard_urukhai_trigger = yes
+			}
+		}
+		culture:morlughai = {
+			trigger = {
+				morlughai_trigger = yes
+			}
+		}
+		culture:black_numenorean = {
+			trigger = {
+				black_numenorean_trigger = yes
+			}
+		}
+		culture:pust = {
+			trigger = {
+				pust_trigger = yes
+			}
+		}
+	}
 	gender_female_chance = 50
 	after_creation = {
 		if = {
@@ -315,7 +463,7 @@ bp1_yearly_2021_stewardship_person_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -351,7 +499,44 @@ bp1_yearly_2021_diplomacy_person_template = {
 	learning = { 4 7 }
 	martial = { 3 6 }
 	faith = root.faith
-	culture = root.culture
+#	culture = root.culture
+	random_culture = {
+		root.culture = {
+			trigger = {
+				root_culture_allowed = yes
+			}
+		}
+		root.capital_county.culture = {
+			trigger = {
+				capital_culture_trigger = yes
+			}
+		}
+		culture:isengard_dunlending = {
+			trigger = {
+				isengard_dunlending_trigger = yes
+			}
+		}
+		culture:isengard_urukhai = {
+			trigger = {
+				isengard_urukhai_trigger = yes
+			}
+		}
+		culture:morlughai = {
+			trigger = {
+				morlughai_trigger = yes
+			}
+		}
+		culture:black_numenorean = {
+			trigger = {
+				black_numenorean_trigger = yes
+			}
+		}
+		culture:pust = {
+			trigger = {
+				pust_trigger = yes
+			}
+		}
+	}
 	gender_female_chance = 50
 	after_creation = {
 		add_random_tiered_trait_xp_effect = {
@@ -384,7 +569,7 @@ bp1_yearly_2021_diplomacy_person_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -420,7 +605,44 @@ bp1_yearly_2021_intrigue_person_template = {
 	learning = { 4 7 }
 	martial = { 3 6 }
 	faith = root.faith
-	culture = root.culture
+#	culture = root.culture
+	random_culture = {
+		root.culture = {
+			trigger = {
+				root_culture_allowed = yes
+			}
+		}
+		root.capital_county.culture = {
+			trigger = {
+				capital_culture_trigger = yes
+			}
+		}
+		culture:isengard_dunlending = {
+			trigger = {
+				isengard_dunlending_trigger = yes
+			}
+		}
+		culture:isengard_urukhai = {
+			trigger = {
+				isengard_urukhai_trigger = yes
+			}
+		}
+		culture:morlughai = {
+			trigger = {
+				morlughai_trigger = yes
+			}
+		}
+		culture:black_numenorean = {
+			trigger = {
+				black_numenorean_trigger = yes
+			}
+		}
+		culture:pust = {
+			trigger = {
+				pust_trigger = yes
+			}
+		}
+	}
 	gender_female_chance = 50
 	after_creation = {
 		if = {
@@ -448,7 +670,7 @@ bp1_yearly_2021_intrigue_person_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }

@@ -46,10 +46,10 @@ lotr_corsair_traveler_template = {
 				20 = { add_trait = blood_of_numenor_2 }
 				20 = { add_trait = blood_of_numenor_1 }
 			}
+			90 = { }
 		}
 	}
 }
-
 lotr_dunedain_traveler_template = {
 	age = { 30 110 }
 	gender_female_chance = 50
@@ -64,8 +64,12 @@ lotr_dunedain_traveler_template = {
 			# 5 = { set_culture = culture:dunedain } # Arnor remnant
 		}
 		random_list = {
-			5 = { add_trait = blood_of_numenor_2 }
-			95 = { add_trait = blood_of_numenor_1 }
+			5 = { 
+				add_trait = blood_of_numenor_3
+			}
+			95 = { 
+				add_trait = blood_of_numenor_1
+			}
 		}
 		random_list = {
 			70 = { set_character_faith = faith:faith_edain }
@@ -93,7 +97,6 @@ lotr_dunedain_traveler_template = {
 		}
 	}
 }
-
 lotr_haradrim_traveler_template = {
 	age = { 20 60 }
 	gender_female_chance = 50
@@ -167,7 +170,6 @@ lotr_haradrim_traveler_template = {
 		}
 	}
 }
-
 lotr_horse_lord_traveler_template = {
 	age = { 20 50 }
 	gender_female_chance = 50
@@ -216,7 +218,6 @@ lotr_horse_lord_traveler_template = {
 		}
 	}
 }
-
 lotr_nafarati_warchief_template = {
 	age = { 20 40 }
 	gender_female_chance = root_soldier_female_chance
@@ -274,7 +275,6 @@ lotr_nafarati_warchief_template = {
 		max_template_high_skill
 	}
 }
-
 lotr_dead_meat_template = {
 	age = { 200 500 }
 	gender_female_chance = root_soldier_female_chance
@@ -370,7 +370,6 @@ lotr_dead_meat_template = {
 		}
 	}
 }
-
 lotr_fantasy_hero_template = { # A destined great hero, one you'd find in a stereotypical RPG
 	age = { 16 20 }
 	gender_female_chance = root_soldier_female_chance # Depends on culture's view of martial roles
@@ -503,7 +502,7 @@ lotr_fantasy_hero_template = { # A destined great hero, one you'd find in a ster
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -573,9 +572,9 @@ miner_template = {
 	dynasty = none
 	random_traits = yes
 	faith = this.faith
- 	# culture = this.culture
+ 	# culture = root.culture
 	random_culture = {
-		this.culture = {
+		root.culture = {
 			trigger = {
 				restricted_culture = no
 			}
@@ -627,7 +626,7 @@ miner_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 		# Numenor: Adds blood of numenor 
 		if = {
@@ -661,7 +660,7 @@ random_dwarf_template = {
 	random_traits = yes
 	faith = this.faith
 	random_culture = {
-		this.culture = {
+		root.culture = {
 			trigger = {
 				restricted_culture = no
 			}
@@ -698,7 +697,7 @@ random_dwarf_template = {
 	after_creation = {
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -796,6 +795,74 @@ noldor_feanorian = {
 		education_martial_2 = {}
 		education_martial_3 = {}
 	}
+	after_creation = {
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 100 6950 }
+			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 0 240 }
+		}
+	}
+}
+
+valinorian_invasion_generated_ruler = {
+	age = { 20 40 }
+	random_traits = yes
+	dynasty = none
+	culture = scope:saved_culture
+	faith = scope:saved_faith
+	gender_female_chance = root_faith_clergy_gender_female_chance
+		
+	random_traits_list = {
+		count = 1
+		education_learning_2 = {}
+		education_learning_3 = {}
+		education_learning_4 = {}
+
+		education_intrigue_2 = {}
+		education_intrigue_3 = {}
+		education_intrigue_4 = {}
+
+		education_diplomacy_2 = {}
+		education_diplomacy_3 = {}
+		education_diplomacy_4 = {}
+
+		education_stewardship_2 = {}
+		education_stewardship_3 = {}
+		education_stewardship_4 = {}
+		
+		education_martial_2 = {}
+		education_martial_3 = {}
+		education_martial_4 = {}
+	}
+	learning = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+	intrigue = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+	stewardship = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+	diplomacy = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+	martial = {
+		min_template_low_skill
+		max_template_low_skill
+	}
+	prowess = {
+		min_template_low_skill
+		max_template_low_skill
+	}
+
 	after_creation = {
 		if = {
 			limit = { is_elf = yes }

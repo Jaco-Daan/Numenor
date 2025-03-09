@@ -16,6 +16,11 @@
 				root_culture_allowed = yes
 			}
 		}
+		root.capital_county.culture = {
+			trigger = {
+				capital_culture_trigger = yes
+			}
+		}
 		culture:isengard_dunlending = {
 			trigger = {
 				isengard_dunlending_trigger = yes
@@ -77,7 +82,7 @@
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -125,7 +130,7 @@ simple_priest_character_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -134,7 +139,6 @@ virtuous_priest_character_template = {
 	age = { 30 60 }
 	random_traits_list = {
 		count = 1
-		education_learning_2 = {}
 		education_learning_3 = {}
 		education_learning_4 = {}
 	}
@@ -297,6 +301,11 @@ virtuous_priest_character_template = {
 				root_culture_allowed = yes
 			}
 		}
+		root.capital_county.culture = {
+			trigger = {
+				capital_culture_trigger = yes
+			}
+		}
 		culture:isengard_dunlending = {
 			trigger = {
 				isengard_dunlending_trigger = yes
@@ -358,7 +367,7 @@ virtuous_priest_character_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -380,6 +389,11 @@ monk_character_template = {
 		root.culture = {
 			trigger = {
 				root_culture_allowed = yes
+			}
+		}
+		root.capital_county.culture = {
+			trigger = {
+				capital_culture_trigger = yes
 			}
 		}
 		culture:isengard_dunlending = {
@@ -439,7 +453,7 @@ monk_character_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -1126,7 +1140,7 @@ location_pilgrim_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 		# Now we want to add a little spice to some of them, sprinkled evenly.
 		## Some get lifestyles.
@@ -1240,7 +1254,15 @@ location_pilgrim_template = {
 				# Eunuch.
 				100 = {
 					trigger = { is_male = yes }
-					add_trait = eunuch
+					if = {
+						limit = {
+							age >= 12
+						}
+						add_trait = eunuch_1
+					}
+					else = {
+						add_trait = beardless_eunuch
+					}
 				}
 			}
 		}
@@ -1341,24 +1363,100 @@ tournament_priest_character_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
-		# Numenor: Adds blood of numenor 
-		if = {
-			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
-			add_trait = blood_of_numenor_7
-		}
-		else_if = {
-			limit = { culture = culture:adunaic }
-			random_list = {
-				20 = { add_trait = blood_of_numenor_7 }
-				20 = { add_trait = blood_of_numenor_6 }
-				20 = { add_trait = blood_of_numenor_5 }
-				20 = { add_trait = blood_of_numenor_4 }
-				20 = { add_trait = blood_of_numenor_3 }
-				20 = { add_trait = blood_of_numenor_2 }
-				20 = { add_trait = blood_of_numenor_1 }
+	}
+}
+
+monk_brewer_template = {
+	age = { 18 28 }
+	dynasty = none
+	random_traits_list = {
+		count = 1
+		education_learning_2 = {}
+		education_learning_3 = {}
+		education_learning_4 = {}
+	}
+
+	random_traits_list = {
+		count = 1
+		diligent = {}
+		patient = {}
+	}
+
+	random_traits_list = {
+		count = 2
+		humble = {}
+		content = {}
+		gluttonous = {}
+		chaste = {}
+		generous = {}
+		calm = {}
+		deceitful = {}
+		honest = {}
+		craven = {}
+		gregarious = {}
+		arbitrary = {}
+		just = {}
+		zealous = {}
+		trusting = {}
+	}
+
+	trait = devoted
+	
+	faith = root.faith
+#	culture = root.culture
+	random_culture = {
+		root.culture = {
+			trigger = {
+				root_culture_allowed = yes
 			}
+		}
+		root.capital_county.culture = {
+			trigger = {
+				capital_culture_trigger = yes
+			}
+		}
+		culture:isengard_dunlending = {
+			trigger = {
+				isengard_dunlending_trigger = yes
+			}
+		}
+		culture:isengard_urukhai = {
+			trigger = {
+				isengard_urukhai_trigger = yes
+			}
+		}
+		culture:morlughai = {
+			trigger = {
+				morlughai_trigger = yes
+			}
+		}
+		culture:black_numenorean = {
+			trigger = {
+				black_numenorean_trigger = yes
+			}
+		}
+		culture:pust = {
+			trigger = {
+				pust_trigger = yes
+			}
+		}
+	}
+	gender_female_chance = root_faith_clergy_gender_female_chance
+	learning = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+	after_creation = {
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 100 6950 }
+			replace_unelven_traits = yes
+		}
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
 		}
 	}
 }

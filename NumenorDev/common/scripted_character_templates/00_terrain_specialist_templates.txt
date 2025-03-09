@@ -41,6 +41,15 @@
 		random = {
 			chance = 33
 			add_trait = scarred
+			add_trait_xp = {
+                trait = scarred
+                value = {
+                    integer_range = {
+                        min = 5
+                        max = 100
+                    }
+                }
+            }
 		}
 		if = {
 			limit = { is_elf = yes }
@@ -67,7 +76,7 @@
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -145,7 +154,7 @@ forest_commander_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -214,7 +223,7 @@ mountain_commander_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -284,7 +293,7 @@ desert_commander_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -350,7 +359,7 @@ hill_commander_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -428,7 +437,7 @@ jungle_commander_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -483,27 +492,102 @@ open_commander_character = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
-		
-		# Numenor: Adds blood of numenor 
 		if = {
-			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
-			add_trait = blood_of_numenor_7
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
 		}
-		else_if = {
-			limit = { culture = culture:adunaic }
-			random_list = {
-				20 = { add_trait = blood_of_numenor_7 }
-				20 = { add_trait = blood_of_numenor_6 }
-				20 = { add_trait = blood_of_numenor_5 }
-				20 = { add_trait = blood_of_numenor_4 }
-				20 = { add_trait = blood_of_numenor_3 }
-				20 = { add_trait = blood_of_numenor_2 }
-				20 = { add_trait = blood_of_numenor_1 }
+	}
+}
+
+#Slightly different to the above; used in the Hereward story cycle
+wetlands_commander_character = {
+	age = { 18 40 }
+#	culture = root.culture
+	random_culture = {
+		root.culture = {
+			trigger = {
+				root_culture_allowed = yes
 			}
+		}
+		root.capital_county.culture = {
+			trigger = {
+				capital_culture_trigger = yes
+			}
+		}
+		culture:isengard_dunlending = {
+			trigger = {
+				isengard_dunlending_trigger = yes
+			}
+		}
+		culture:isengard_urukhai = {
+			trigger = {
+				isengard_urukhai_trigger = yes
+			}
+		}
+		culture:morlughai = {
+			trigger = {
+				morlughai_trigger = yes
+			}
+		}
+		culture:black_numenorean = {
+			trigger = {
+				black_numenorean_trigger = yes
+			}
+		}
+		culture:pust = {
+			trigger = {
+				pust_trigger = yes
+			}
+		}
+	}
+	faith = root.faith
+	gender_female_chance = root_soldier_female_chance
+	random_traits_list = {
+		count = 1
+		education_martial_2 = {}
+		education_martial_3 = {}
+		education_martial_4 = {}
+	}
+	random_traits_list = {
+		count = 3
+		wrathful = {}
+		calm = {}
+		patient = {}
+		impatient = {}
+		deceitful = {}
+		paranoid = {}
+		fickle = {}
+		lustful = {}
+		chaste = {}
+		cynical = {}
+		zealous = {}
+	}
+	random_traits_list = {
+		count = 1
+		lifestyle_blademaster = {}
+	}
+
+	random_traits = no
+	martial  = {
+		min_template_decent_skill
+		max_template_decent_skill
+	}
+
+	after_creation = {
+		add_trait = forder
+		add_random_tiered_trait_xp_effect = {
+			TRAIT = lifestyle_blademaster
+			LEVEL_1 = yes
+			LEVEL_3 = yes
+		}
+		if = {
+			limit = { is_elf = yes }
+			change_age = { 100 6950 }
+			replace_unelven_traits = yes
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }

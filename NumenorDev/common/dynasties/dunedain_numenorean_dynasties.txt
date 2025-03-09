@@ -87,6 +87,7 @@ dynasty_jewellord = {
 	culture = "numenorean"
 	motto = dynn_jewel_motto
 }
+
 dynasty_tindomul = {
 	name = "dynn_tindomulion"
 	culture = "numenorean"
@@ -243,4 +244,15 @@ dynasty_mixedsakaltwo = {
 dynasty_barazoncolonial = {
 	name = "dynn_barazoncolonial"
 	culture = black_numenorean
+}
+dynasty_azulhin = {
+	name = "dynn_azulhin"
+	culture = "numenorean"
+	motto = dynn_azulhin_motto
+}
+
+dynasty_beleth = {
+	name = "dynn_beleth"
+	culture = "numenorean"
+	motto = dynn_beleth_motto
 }

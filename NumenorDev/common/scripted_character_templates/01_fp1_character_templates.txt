@@ -102,7 +102,7 @@ fp1_ms_godi_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -202,7 +202,7 @@ fp1_ms_reformed_missionary_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -295,7 +295,7 @@ fp1_ms_nithing_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -381,7 +381,7 @@ fp1_ms_warrior_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -493,7 +493,7 @@ fp1_ms_vagrant_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -584,7 +584,7 @@ fp1_western_warrior_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -672,7 +672,7 @@ fp1_eastern_warrior_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -685,7 +685,7 @@ fp1_jomsviking_bigwig = {
 	#General
 	age = { 30 60 }
 	faith = root.faith
-	culture = culture:norse
+	# culture = culture:norse
 	#Education
 	random_traits_list = {
 		education_martial_2 = {
@@ -773,7 +773,7 @@ fp1_jomsviking_bigwig = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -883,7 +883,7 @@ fp1_jomsviking_retainer_martial = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -969,7 +969,7 @@ fp1_jomsviking_retainer_prowess = {
 	prowess = { min_template_decent_skill max_template_high_skill }
 	after_creation = {
 		if = {
-			limit = { has_dlc = tours_and_tournaments }
+			limit = { has_dlc_feature = tours_and_tournaments }
 			add_trait = tourney_participant
 			add_random_tourney_participant_level_effect = yes
 		}
@@ -998,7 +998,7 @@ fp1_jomsviking_retainer_prowess = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -1101,7 +1101,7 @@ fp1_deceitful_warrior_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -1200,7 +1200,7 @@ fp1_deceitful_explorer_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -1281,7 +1281,7 @@ fp1_truthful_explorer_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -1408,7 +1408,7 @@ fp1_islamic_explorer_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -1495,7 +1495,7 @@ fp1_capital_county_nithing_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -1604,7 +1604,7 @@ fp1_trade_partner_merchant = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -1791,7 +1791,7 @@ fp1_trade_partner_priest = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -1871,7 +1871,7 @@ fp1_trade_partner_spy = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -1954,7 +1954,7 @@ fp1_trade_partner_warrior = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -2015,7 +2015,7 @@ old_country_local_warlord_template = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
-		}	
+			change_age = { 65 180 }
+		}
 	}
 }

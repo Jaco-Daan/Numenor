@@ -28,7 +28,43 @@
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
-
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
+		}
+		# LotR: The Dúnedain preserved the blood of Númenor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:dunedain_ranger
+					culture = culture:uialdain
+					culture = culture:arnorian
+				}
+			}
+			random_list = {
+				15 = { add_trait = blood_of_numenor_4 }
+				35 = { add_trait = blood_of_numenor_3 }
+				35 = { add_trait = blood_of_numenor_2 }
+				15 = { add_trait = blood_of_numenor_1 }
+			}
+		}
+		
+		# LotR: The blessing of Númenor faded quicker in Gondor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:gondorian
+					culture = culture:belfalathrim
+					culture = culture:harondorim
+					culture = culture:caledhrim
+					culture = culture:orodbedhrim
+				}
+			}
+			random = {
+				chance = 25
+				add_trait = blood_of_numenor_1 
+			}
+		}
 		# Numenor: Adds blood of numenor 
 		if = {
 			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
@@ -45,10 +81,6 @@
 				20 = { add_trait = blood_of_numenor_2 }
 				20 = { add_trait = blood_of_numenor_1 }
 			}
-		}
-		if = {
-			limit = { is_dwarf = yes }
-			change_age = { 65 180 }
 		}
 	}
 }
@@ -78,7 +110,43 @@ secret_passagecrafter_character = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
-
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
+		}
+		# LotR: The Dúnedain preserved the blood of Númenor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:dunedain_ranger
+					culture = culture:uialdain
+					culture = culture:arnorian
+				}
+			}
+			random_list = {
+				15 = { add_trait = blood_of_numenor_4 }
+				35 = { add_trait = blood_of_numenor_3 }
+				35 = { add_trait = blood_of_numenor_2 }
+				15 = { add_trait = blood_of_numenor_1 }
+			}
+		}
+		
+		# LotR: The blessing of Númenor faded quicker in Gondor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:gondorian
+					culture = culture:belfalathrim
+					culture = culture:harondorim
+					culture = culture:caledhrim
+					culture = culture:orodbedhrim
+				}
+			}
+			random = {
+				chance = 25
+				add_trait = blood_of_numenor_1 
+			}
+		}
 		# Numenor: Adds blood of numenor 
 		if = {
 			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
@@ -95,10 +163,6 @@ secret_passagecrafter_character = {
 				20 = { add_trait = blood_of_numenor_2 }
 				20 = { add_trait = blood_of_numenor_1 }
 			}
-		}
-		if = {
-			limit = { is_dwarf = yes }
-			change_age = { 65 180 }
 		}
 	}
 }
@@ -135,7 +199,43 @@ preaching_tour_priest_character = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
-
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
+		}
+		# LotR: The Dúnedain preserved the blood of Númenor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:dunedain_ranger
+					culture = culture:uialdain
+					culture = culture:arnorian
+				}
+			}
+			random_list = {
+				15 = { add_trait = blood_of_numenor_4 }
+				35 = { add_trait = blood_of_numenor_3 }
+				35 = { add_trait = blood_of_numenor_2 }
+				15 = { add_trait = blood_of_numenor_1 }
+			}
+		}
+		
+		# LotR: The blessing of Númenor faded quicker in Gondor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:gondorian
+					culture = culture:belfalathrim
+					culture = culture:harondorim
+					culture = culture:caledhrim
+					culture = culture:orodbedhrim
+				}
+			}
+			random = {
+				chance = 25
+				add_trait = blood_of_numenor_1 
+			}
+		}
 		# Numenor: Adds blood of numenor 
 		if = {
 			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
@@ -152,10 +252,6 @@ preaching_tour_priest_character = {
 				20 = { add_trait = blood_of_numenor_2 }
 				20 = { add_trait = blood_of_numenor_1 }
 			}
-		}
-		if = {
-			limit = { is_dwarf = yes }
-			change_age = { 65 180 }
 		}
 	}
 }
@@ -176,24 +272,6 @@ bernard_of_clairvaux_character = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
-
-		# Numenor: Adds blood of numenor 
-		if = {
-			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
-			add_trait = blood_of_numenor_7
-		}
-		else_if = {
-			limit = { culture = culture:adunaic }
-			random_list = {
-				20 = { add_trait = blood_of_numenor_7 }
-				20 = { add_trait = blood_of_numenor_6 }
-				20 = { add_trait = blood_of_numenor_5 }
-				20 = { add_trait = blood_of_numenor_4 }
-				20 = { add_trait = blood_of_numenor_3 }
-				20 = { add_trait = blood_of_numenor_2 }
-				20 = { add_trait = blood_of_numenor_1 }
-			}
-		}
 		if = {
 			limit = { is_dwarf = yes }
 			change_age = { 65 180 }
@@ -210,6 +288,11 @@ head_chasing_monk_character = {
 		root.culture = {
 			trigger = {
 				root_culture_allowed = yes
+			}
+		}
+		root.capital_county.culture = {
+			trigger = {
+				capital_culture_trigger = yes
 			}
 		}
 		culture:isengard_dunlending = {
@@ -253,7 +336,43 @@ head_chasing_monk_character = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
-
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
+		}
+		# LotR: The Dúnedain preserved the blood of Númenor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:dunedain_ranger
+					culture = culture:uialdain
+					culture = culture:arnorian
+				}
+			}
+			random_list = {
+				15 = { add_trait = blood_of_numenor_4 }
+				35 = { add_trait = blood_of_numenor_3 }
+				35 = { add_trait = blood_of_numenor_2 }
+				15 = { add_trait = blood_of_numenor_1 }
+			}
+		}
+		
+		# LotR: The blessing of Númenor faded quicker in Gondor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:gondorian
+					culture = culture:belfalathrim
+					culture = culture:harondorim
+					culture = culture:caledhrim
+					culture = culture:orodbedhrim
+				}
+			}
+			random = {
+				chance = 25
+				add_trait = blood_of_numenor_1 
+			}
+		}
 		# Numenor: Adds blood of numenor 
 		if = {
 			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
@@ -270,10 +389,6 @@ head_chasing_monk_character = {
 				20 = { add_trait = blood_of_numenor_2 }
 				20 = { add_trait = blood_of_numenor_1 }
 			}
-		}
-		if = {
-			limit = { is_dwarf = yes }
-			change_age = { 65 180 }
 		}
 	}
 }
@@ -289,7 +404,43 @@ fake_artifact_peddler_character = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
-
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
+		}
+		# LotR: The Dúnedain preserved the blood of Númenor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:dunedain_ranger
+					culture = culture:uialdain
+					culture = culture:arnorian
+				}
+			}
+			random_list = {
+				15 = { add_trait = blood_of_numenor_4 }
+				35 = { add_trait = blood_of_numenor_3 }
+				35 = { add_trait = blood_of_numenor_2 }
+				15 = { add_trait = blood_of_numenor_1 }
+			}
+		}
+		
+		# LotR: The blessing of Númenor faded quicker in Gondor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:gondorian
+					culture = culture:belfalathrim
+					culture = culture:harondorim
+					culture = culture:caledhrim
+					culture = culture:orodbedhrim
+				}
+			}
+			random = {
+				chance = 25
+				add_trait = blood_of_numenor_1 
+			}
+		}
 		# Numenor: Adds blood of numenor 
 		if = {
 			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
@@ -306,10 +457,6 @@ fake_artifact_peddler_character = {
 				20 = { add_trait = blood_of_numenor_2 }
 				20 = { add_trait = blood_of_numenor_1 }
 			}
-		}
-		if = {
-			limit = { is_dwarf = yes }
-			change_age = { 65 180 }
 		}
 	}
 }
@@ -326,7 +473,43 @@ adoring_fan_character = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
-
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
+		}
+		# LotR: The Dúnedain preserved the blood of Númenor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:dunedain_ranger
+					culture = culture:uialdain
+					culture = culture:arnorian
+				}
+			}
+			random_list = {
+				15 = { add_trait = blood_of_numenor_4 }
+				35 = { add_trait = blood_of_numenor_3 }
+				35 = { add_trait = blood_of_numenor_2 }
+				15 = { add_trait = blood_of_numenor_1 }
+			}
+		}
+		
+		# LotR: The blessing of Númenor faded quicker in Gondor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:gondorian
+					culture = culture:belfalathrim
+					culture = culture:harondorim
+					culture = culture:caledhrim
+					culture = culture:orodbedhrim
+				}
+			}
+			random = {
+				chance = 25
+				add_trait = blood_of_numenor_1 
+			}
+		}
 		# Numenor: Adds blood of numenor 
 		if = {
 			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
@@ -343,10 +526,6 @@ adoring_fan_character = {
 				20 = { add_trait = blood_of_numenor_2 }
 				20 = { add_trait = blood_of_numenor_1 }
 			}
-		}
-		if = {
-			limit = { is_dwarf = yes }
-			change_age = { 65 180 }
 		}
 	}
 }
@@ -381,7 +560,39 @@ trepanner_character = {
 			LEVEL_1 = yes
 			LEVEL_3 = yes
 		}
-
+		# LotR: The Dúnedain preserved the blood of Númenor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:dunedain_ranger
+					culture = culture:uialdain
+					culture = culture:arnorian
+				}
+			}
+			random_list = {
+				15 = { add_trait = blood_of_numenor_4 }
+				35 = { add_trait = blood_of_numenor_3 }
+				35 = { add_trait = blood_of_numenor_2 }
+				15 = { add_trait = blood_of_numenor_1 }
+			}
+		}
+		
+		# LotR: The blessing of Númenor faded quicker in Gondor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:gondorian
+					culture = culture:belfalathrim
+					culture = culture:harondorim
+					culture = culture:caledhrim
+					culture = culture:orodbedhrim
+				}
+			}
+			random = {
+				chance = 25
+				add_trait = blood_of_numenor_1 
+			}
+		}
 		# Numenor: Adds blood of numenor 
 		if = {
 			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
@@ -426,6 +637,11 @@ random_learned_eunuch_character = {
 				root_culture_allowed = yes
 			}
 		}
+		root.capital_county.culture = {
+			trigger = {
+				capital_culture_trigger = yes
+			}
+		}
 		culture:isengard_dunlending = {
 			trigger = {
 				isengard_dunlending_trigger = yes
@@ -453,7 +669,7 @@ random_learned_eunuch_character = {
 		}
 	}
 	gender_female_chance = 0
-	trait = eunuch
+	trait = beardless_eunuch
 	learning = {
 		min_template_high_skill
 		max_template_high_skill
@@ -506,7 +722,43 @@ random_learned_eunuch_character = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
-
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
+		}
+		# LotR: The Dúnedain preserved the blood of Númenor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:dunedain_ranger
+					culture = culture:uialdain
+					culture = culture:arnorian
+				}
+			}
+			random_list = {
+				15 = { add_trait = blood_of_numenor_4 }
+				35 = { add_trait = blood_of_numenor_3 }
+				35 = { add_trait = blood_of_numenor_2 }
+				15 = { add_trait = blood_of_numenor_1 }
+			}
+		}
+		
+		# LotR: The blessings of Númenor faded quicker in Gondor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:gondorian
+					culture = culture:belfalathrim
+					culture = culture:harondorim
+					culture = culture:caledhrim
+					culture = culture:orodbedhrim
+				}
+			}
+			random = {
+				chance = 25
+				add_trait = blood_of_numenor_1 
+			}
+		}
 		# Numenor: Adds blood of numenor 
 		if = {
 			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
@@ -523,10 +775,6 @@ random_learned_eunuch_character = {
 				20 = { add_trait = blood_of_numenor_2 }
 				20 = { add_trait = blood_of_numenor_1 }
 			}
-		}
-		if = {
-			limit = { is_dwarf = yes }
-			change_age = { 65 180 }
 		}
 	}
 	
@@ -609,7 +857,43 @@ random_barrel_character = {
 			change_age = { 100 6950 }
 			replace_unelven_traits = yes
 		}
-
+		if = {
+			limit = { is_dwarf = yes }
+			change_age = { 65 180 }
+		}
+		# LotR: The Dúnedain preserved the blood of Númenor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:dunedain_ranger
+					culture = culture:uialdain
+					culture = culture:arnorian
+				}
+			}
+			random_list = {
+				15 = { add_trait = blood_of_numenor_4 }
+				35 = { add_trait = blood_of_numenor_3 }
+				35 = { add_trait = blood_of_numenor_2 }
+				15 = { add_trait = blood_of_numenor_1 }
+			}
+		}
+		
+		# LotR: The blessings of Númenor faded quicker in Gondor
+		if = {
+			limit = {
+				OR = {
+					culture = culture:gondorian
+					culture = culture:belfalathrim
+					culture = culture:harondorim
+					culture = culture:caledhrim
+					culture = culture:orodbedhrim
+				}
+			}
+			random = {
+				chance = 25
+				add_trait = blood_of_numenor_1 
+			}
+		}
 		# Numenor: Adds blood of numenor 
 		if = {
 			limit = { culture = culture:adunaic root.location = { geographical_region = middleearth_numenor } }
@@ -626,10 +910,6 @@ random_barrel_character = {
 				20 = { add_trait = blood_of_numenor_2 }
 				20 = { add_trait = blood_of_numenor_1 }
 			}
-		}
-		if = {
-			limit = { is_dwarf = yes }
-			change_age = { 65 180 }
 		}
 	}
 	

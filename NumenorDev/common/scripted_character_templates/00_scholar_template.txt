@@ -18,7 +18,7 @@ scholar_character = {
 	trait = loyal
 	random_traits = yes
 	faith = root.faith
-	# culture = root.culture
+#	culture = root.culture
 	random_culture = {
 		root.culture = {
 			trigger = {
@@ -67,7 +67,7 @@ scholar_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -89,7 +89,7 @@ writer_character = {
 	}
 	random_traits = yes
 	faith = root.faith
-	# culture = root.culture
+#	culture = root.culture
 	random_culture = {
 		root.culture = {
 			trigger = {
@@ -142,7 +142,7 @@ writer_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -158,7 +158,7 @@ capital_scholar_character = {
 	}
 	random_traits = yes
 	faith = capital_county.faith
-	# culture = root.culture
+#	culture = root.culture
 	random_culture = {
 		root.culture = {
 			trigger = {
@@ -207,7 +207,7 @@ capital_scholar_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -229,7 +229,7 @@ capital_writer_character = {
 	}
 	random_traits = yes
 	faith = capital_county.faith
-	# culture = root.culture
+#	culture = root.culture
 	random_culture = {
 		root.culture = {
 			trigger = {
@@ -282,7 +282,7 @@ capital_writer_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }

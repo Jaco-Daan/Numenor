@@ -29,7 +29,8 @@ celebration_scholar_character = {
 
 	random_traits_list = {
 		count = { 0 1 }
-		eunuch = {}
+		eunuch_1 = {}
+		beardless_eunuch = {}
 		blind = {}
 		infirm = {}
 	}
@@ -73,7 +74,7 @@ celebration_scholar_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -123,7 +124,7 @@ celebration_martial_character = {
 	prowess = extremely_high_skill_rating
 	after_creation = {
 		if = {
-			limit = { has_dlc = tours_and_tournaments }
+			limit = { has_dlc_feature = tours_and_tournaments }
 			add_trait = tourney_participant
 			add_random_tourney_participant_level_effect = yes
 		}
@@ -152,7 +153,7 @@ celebration_martial_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -221,7 +222,7 @@ celebration_diplomat_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -287,7 +288,7 @@ celebration_spy_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -344,7 +345,7 @@ celebration_steward_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -416,7 +417,7 @@ celebration_hunter_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -617,7 +618,7 @@ celebration_priest_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -698,7 +699,7 @@ celebration_artisan_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -708,7 +709,8 @@ celebration_chessmaster_character = {
 
 	random_traits_list = {
 		count = { 0 1 }
-		eunuch = {}
+		eunuch_1 = {}
+		beardless_eunuch = {}
 		blind = {}
 		infirm = {}
 	}
@@ -735,7 +737,7 @@ celebration_chessmaster_character = {
 	}
 	after_creation = {
 		if = {
-			limit = { has_dlc = tours_and_tournaments }
+			limit = { has_dlc_feature = tours_and_tournaments }
 			add_trait = tourney_participant
 			add_random_tiered_trait_track_xp_effect = {
 				TRAIT = tourney_participant
@@ -769,7 +771,7 @@ celebration_chessmaster_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -822,7 +824,7 @@ spanish_jewish_merchant_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 
@@ -877,7 +879,7 @@ spanish_conversos_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
@@ -903,7 +905,44 @@ toledan_night_character = {
 	}
 
 	faith = root.faith
-	culture = root.culture
+#	culture = root.culture
+	random_culture = {
+		root.culture = {
+			trigger = {
+				root_culture_allowed = yes
+			}
+		}
+		root.capital_county.culture = {
+			trigger = {
+				capital_culture_trigger = yes
+			}
+		}
+		culture:isengard_dunlending = {
+			trigger = {
+				isengard_dunlending_trigger = yes
+			}
+		}
+		culture:isengard_urukhai = {
+			trigger = {
+				isengard_urukhai_trigger = yes
+			}
+		}
+		culture:morlughai = {
+			trigger = {
+				morlughai_trigger = yes
+			}
+		}
+		culture:black_numenorean = {
+			trigger = {
+				black_numenorean_trigger = yes
+			}
+		}
+		culture:pust = {
+			trigger = {
+				pust_trigger = yes
+			}
+		}
+	}
 
 	gender_female_chance = root_faith_dominant_gender_adjusted_female_chance
 	
@@ -933,7 +972,7 @@ toledan_night_character = {
 		}
 		if = {
 			limit = { is_dwarf = yes }
-			change_age = { 0 240 }
+			change_age = { 65 180 }
 		}
 	}
 }
