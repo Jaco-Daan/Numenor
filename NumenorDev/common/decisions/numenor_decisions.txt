@@ -1,8 +1,9 @@
 ﻿### Numenor Decisions ###
 
 decision_reclaim_umbar_numenor = {
+	decision_group_type = realms_in_exile_major
 	title = decision_recover_umbar_numenor_title
-	picture = "gfx/interface/illustrations/decisions/umbarimage.dds"
+	picture = { reference = "gfx/interface/illustrations/decisions/umbarimage.dds" }
 	major = yes
 	ai_goal = yes
 	ai_potential = {
@@ -83,8 +84,9 @@ decision_reclaim_umbar_numenor = {
 }
 
 decision_reclaim_bellakar_numenor = {
+	decision_group_type = realms_in_exile_major
 	title = decision_reclaim_bellakar_numenor
-	picture = "gfx/interface/illustrations/decisions/bellakar.dds"
+	picture = { reference = "gfx/interface/illustrations/decisions/bellakar.dds" }
 	major = yes
 	ai_goal = yes
 	ai_potential = {
@@ -175,8 +177,9 @@ decision_reclaim_bellakar_numenor = {
 }
 
 decision_reclaim_thani_hazad_numenor = {
+	decision_group_type = realms_in_exile_major
 	title = decision_reclaim_thani_hazad_numenor
-	picture = "gfx/interface/illustrations/decisions/thanihazadimage.dds"
+	picture = { reference = "gfx/interface/illustrations/decisions/thanihazadimage.dds" }
 	major = yes
 	ai_goal = yes
 	ai_potential = {
@@ -259,8 +262,9 @@ decision_reclaim_thani_hazad_numenor = {
 }
 
 decision_reclaim_gondor_numenor = {
+	decision_group_type = realms_in_exile_major
 	title = decision_reclaim_gondor_numenor
-	picture = "gfx/interface/illustrations/decisions/gondor.dds"
+	picture = { reference = "gfx/interface/illustrations/decisions/gondor.dds" }
 	major = yes
 	ai_goal = yes
 	ai_potential = {
@@ -392,8 +396,9 @@ decision_reclaim_gondor_numenor = {
 }
 
 decision_reclaim_harnen_numenor = {
+	decision_group_type = realms_in_exile_major
 	title = decision_reclaim_harnen_numenor
-	picture = "gfx/interface/illustrations/decisions/decision_near_harad_01.dds"
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_near_harad_01.dds" }
 	major = yes
 	ai_goal = yes
 	ai_potential = {
@@ -511,8 +516,9 @@ decision_reclaim_harnen_numenor = {
 }
 
 decision_expedition_anarike = {
+	decision_group_type = realms_in_exile_major
 	title = decision_expedition_anarike_title
-	picture = "gfx/interface/illustrations/decisions/decision_near_harad_01.dds"
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_near_harad_01.dds" }
 	major = yes
 	ai_goal = yes
 	ai_potential = {
@@ -578,8 +584,9 @@ decision_expedition_anarike = {
 }
 
 decision_deal_with_aa = {
+	decision_group_type = realms_in_exile_major
 	title = decision_deal_with_aa_title
-	picture = "gfx/interface/illustrations/decisions/aradunaim.dds"
+	picture = { reference = "gfx/interface/illustrations/decisions/aradunaim.dds" }
 	major = yes
 	ai_goal = yes
 	ai_potential = {
@@ -633,7 +640,8 @@ decision_deal_with_aa = {
 }
 
 hold_memorial_at_meneltarma_decision = {
-	picture = "gfx/interface/illustrations/decisions/meneltarma.dds"
+	decision_group_type = realms_in_exile_major
+	picture = { reference = "gfx/interface/illustrations/decisions/meneltarma.dds" }
 
 	desc = hold_memorial_at_meneltarma_decision_desc
 	selection_tooltip = hold_memorial_at_meneltarma_decision_tooltip
@@ -695,9 +703,10 @@ hold_memorial_at_meneltarma_decision = {
 }
 
 decision_numenor_annex_korlea = {
+	decision_group_type = realms_in_exile_major
 	# TEXT 
 	title = decision_numenor_annex_korlea
-	picture = "gfx/interface/illustrations/decisions/decision_harad_03.dds"
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_harad_03.dds" }
 	selection_tooltip = decision_numenor_annex_korlea_tooltip
 	desc = decision_numenor_annex_korlea_desc
 	confirm_text = decision_numenor_annex_korlea_confirm
@@ -817,9 +826,10 @@ decision_numenor_annex_korlea = {
 }
 
 decision_numenor_invade_valinor = {
+	decision_group_type = realms_in_exile_major
 	# TEXT 
 	title = decision_numenor_invade_valinor
-	picture = "gfx/interface/illustrations/decisions/armament.dds"
+	picture = { reference = "gfx/interface/illustrations/decisions/armament.dds" }
 	selection_tooltip = decision_numenor_invade_valinor_tooltip
 	desc = decision_numenor_invade_valinor_desc
 	confirm_text = decision_numenor_invade_valinor_confirm
@@ -882,9 +892,10 @@ decision_numenor_invade_valinor = {
 }
 
 demand_ray_tributary = {
+	decision_group_type = realms_in_exile_major
 	# TEXT 
 	title = demand_ray_tributary
-	picture = "gfx/interface/illustrations/decisions/bozishadar.dds"
+	picture = { reference = "gfx/interface/illustrations/decisions/bozishadar.dds" }
 	selection_tooltip = demand_ray_tributary_tooltip
 	desc = demand_ray_tributary_desc
 	confirm_text = demand_ray_tributary_confirm
@@ -960,9 +971,10 @@ demand_ray_tributary = {
 }
 
 decision_numenor_league_of_pelargir = {
+	decision_group_type = realms_in_exile_major
 	# TEXT
 	title = decision_numenor_league_of_pelargir
-	picture = "gfx/interface/illustrations/decisions/pelargir.dds"
+	picture = { reference = "gfx/interface/illustrations/decisions/pelargir.dds" }
 	selection_tooltip = decision_numenor_league_of_pelargir_tooltip
 	desc = decision_numenor_league_of_pelargir_desc
 	confirm_text = decision_numenor_league_of_pelargir_confirm
@@ -1072,9 +1084,10 @@ decision_numenor_league_of_pelargir = {
 }
 
 decision_numenor_disband_council_of_sceptre = {
+	decision_group_type = realms_in_exile_major
 	# TEXT
 	title = decision_numenor_disband_council_of_sceptre
-	picture = "gfx/interface/illustrations/event_scenes/numenorthroneroom.dds"
+	picture = { reference = "gfx/interface/illustrations/event_scenes/numenorthroneroom.dds" }
 	selection_tooltip = decision_numenor_disband_council_of_sceptre_tooltip
 	desc = decision_numenor_disband_council_of_sceptre_desc
 	confirm_text = decision_numenor_disband_council_of_sceptre_confirm
@@ -1141,8 +1154,9 @@ decision_numenor_disband_council_of_sceptre = {
 #############################
 
 decision_reclaim_minhiriath_numenor = {
+	decision_group_type = realms_in_exile_major
 	title = decision_reclaim_minhiriath_numenor
-	picture = "gfx/interface/illustrations/decisions/arnor.dds"
+	picture = { reference = "gfx/interface/illustrations/decisions/arnor.dds" }
 	major = yes
 	ai_goal = yes
 	ai_potential = {
@@ -1207,12 +1221,9 @@ decision_reclaim_minhiriath_numenor = {
 		}	
 		add_to_global_variable_list = {
 			name = unavailable_unique_decisions
-		target = flag:decision_reclaim_minhiriath_numenor
+			target = flag:decision_reclaim_minhiriath_numenor
 		}
 		custom_tooltip = decision_reclaim_minhiriath_numenor
-			
-		save_scope_as = restorer
-		}
 	}
 	
 	ai_will_do = {
@@ -1222,7 +1233,7 @@ decision_reclaim_minhiriath_numenor = {
 
 #decision_palantir_romenna = {
 #    title = decision_palantir_romenna
-#    picture = "gfx/interface/illustrations/decisions/decision_palantir_amon_sul.dds"
+#    picture = { reference = "gfx/interface/illustrations/decisions/decision_palantir_amon_sul.dds" }
 #    major = yes
 #    ai_goal = yes
 #    ai_potential = {
