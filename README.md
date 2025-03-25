@@ -1,4 +1,4 @@
-![Realms in Exile](/art/marketing/logo/LotRRealmsInExileWideLayoutSmall.png)
+![Realms in Exile](LotRRealmsInExileWideLayoutSmall.png)
 ============================================================
 
 [![Discord Chat](http://img.shields.io/discord/751097183448727552.svg?logo=discord)](https://discord.gg/FKr4Zbr)
