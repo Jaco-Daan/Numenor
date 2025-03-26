@@ -298,7 +298,7 @@ dunedain_religion = {
 		}
 		faith_adunaic = {
 			color = { 41 77 199 }
-			icon = adunaben_01
+			icon = custom_adunaben_tree
 			graphical_faith = catholic_gfx
 			religious_head = d_adunai
 
