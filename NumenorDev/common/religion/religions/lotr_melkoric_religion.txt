@@ -3,7 +3,7 @@ melkoric_religion = {
 	family = rf_forcesofevil
 	graphical_faith = pagan_gfx
 	
-	doctrine_background_icon = core_tenet_banner_blank.dds
+	doctrine_background_icon = core_tenet_banner_sauron.dds
 	doctrine = forcesofevil_hostility_doctrine
 
 	#Main Group
@@ -48,10 +48,10 @@ melkoric_religion = {
 	}
 
 	holy_order_names = {
-		{ name = "holy_order_host_of_utumno" }
-		{ name = "holy_order_warriors_of_melkor" }
-		{ name = "holy_order_spawn_of_morgoth" }
-		{ name = "holy_order_sons_of_morgoth" }
+		{ name = "holy_order_host_of_utumno" coat_of_arms = "ho_host_of_utumno" }
+		{ name = "holy_order_warriors_of_melkor" coat_of_arms = "ho_warriors_of_melkor" }
+		{ name = "holy_order_spawn_of_morgoth" coat_of_arms = "ho_spawn_of_morgoth"}
+		{ name = "holy_order_sons_of_morgoth" coat_of_arms = "ho_sons_of_morgoth"}
 	}
 	
 	holy_order_maa = { adunakhori }
@@ -198,6 +198,7 @@ melkoric_religion = {
 		DeathDeityNamePossessive = forces_of_evil_death_deity_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 		WitchGodName = forces_of_evil_witch_god_name
 		WitchGodNamePossessive = forces_of_evil_witch_god_name_possessive
 		WitchGodHerHis = CHARACTER_HERHIS_HER
