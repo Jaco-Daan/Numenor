@@ -2,8 +2,8 @@
 
 # Within the ranks of the Undead, the Wights and Wraiths are accounted.
 
-nazgul1 = {
-	name = Er_Mu_u_razo_o_r # The Witch King
+nazgul1 = { # Er-Mûrazôr, the Witch-King
+	name = Er_Mu_u_razo_o_r 
 	dynasty = dynasty_witchking
 	religion = lidless_eye
 	culture = ringwraith
@@ -18,8 +18,10 @@ nazgul1 = {
 	trait = ambitious
 	trait = wrathful
 	trait = greedy
-	trait = aggressive_attacker
-
+	trait = born_on_numenor
+	trait = flexible_leader
+	trait = military_engineer
+	
 	diplomacy = 0
 	martial = 5
 	stewardship = 4
@@ -33,7 +35,6 @@ nazgul1 = {
 	trait = blood_of_numenor_10
 	2412.1.1 = {
 		birth = yes
-		
 	}
 
 	2590.1.1 = {
@@ -60,6 +61,14 @@ nazgul1 = {
 					target = character:nazgul1
 					type = loyalty_hook
 				}
+			}
+			add_trait_xp = {
+				trait = flexible_leader
+				value = 34
+			}
+			add_trait_xp = {
+				trait = military_engineer
+				value = 67
 			}
 		}
 	}
@@ -94,32 +103,74 @@ nazgul1 = {
     6007.1.1 = { # Witch King is defeated in battle, flees to Mordor
         religion = lidless_eye
     }
-	
-	6975.1.1 = {
+	6035.1.1 = { # The Nazûl take Minas Ithil
 		effect = {
-			create_character_memory = {
-				type = ascended_throne_memory
+			make_tributary = {
+				TYPE = tributary_permanent
+				SUZERAIN = character:nazgul1
+				TRIBUTARY = character:lineanzarid1
 			}
-			scope:new_memory = {
-				save_scope_as = ascended_throne_memory
-				set_variable = {
-					name = landed_title
-					value = title:k_morgul
-				}
+			make_tributary = {
+				TYPE = tributary_permanent
+				SUZERAIN = character:nazgul1
+				TRIBUTARY = character:lineofkarmian1
 			}
-		}
-	}
-
-	7032.1.1 = {
-		effect = {
 			add_dread = 100
 		}
 	}
 
+	6780.1.1 = { # Long Winter start date prep
+		effect = {
+			add_hook = {
+				type = loyalty_hook
+				target = character:nazgul2
+			}
+			add_hook = {
+				type = loyalty_hook
+				target = character:nazgul3
+			}
+			add_hook = {
+				type = loyalty_hook
+				target = character:nazgul4
+			}
+			add_hook = {
+				type = loyalty_hook
+				target = character:nazgul5
+			}
+			add_hook = {
+				type = loyalty_hook
+				target = character:nazgul6
+			}
+			add_hook = {
+				type = loyalty_hook
+				target = character:nazgul7
+			}
+			add_hook = {
+				type = loyalty_hook
+				target = character:nazgul8
+			}
+			add_hook = {
+				type = loyalty_hook
+				target = character:nazgul9
+			}
+			add_hook = {
+				type = loyalty_hook 
+				target = title:k_nurn.holder
+			}
+		}
+	}
+
+	#7013.12.2 = { #Sauron returns to Mordor, the WK becomes a direct vassal
+	#    effect = {
+	#	    free_tributary = yes
+	#	}
+	#}
+
+
 	7052.1.1 = {
 		death = {
 			death_reason = death_duel
-			killer = 6000035 # Eowyn		
+			killer = lineofeofor18 # Eowyn		
  		}
 	}
 }
@@ -131,13 +182,14 @@ nazgul2 = { # Khamûl, once High-King of Wômawas Drûs, mightiest of the great 
 	culture = ringwraith # In ancient days of the Wômaw
 	sexuality = asexual
 
-	trait = education_martial_4
+	trait = education_martial_5
 	trait = callous
 	trait = wrathful
 	trait = temperate
 	trait = shrewd
 	trait = sorcerer_1
-	trait = flexible_leader
+	trait = forest_fighter
+	trait = aggressive_attacker
 	
 	diplomacy = 5
 	martial = 6
@@ -166,23 +218,36 @@ nazgul2 = { # Khamûl, once High-King of Wômawas Drûs, mightiest of the great 
 				}
 			}
 			learn_language = language_westron
+			learn_language = language_westron_orc
 			learn_language = language_rhovanic
+		}
+		add_trait_xp = {
+			trait = forest_fighter
+			value = 34
+		}
+		add_trait_xp = {
+			trait = aggressive_attacker
+			value = 100
 		}
 	}
 	
+	6777.7.8 = { # The Witch-king gathers the Nine at Minas Morgul
+		employer = nazgul1
+	}
+	
 	6984.1.1 = {
-		effect = {
-			create_character_memory = {
-				type = ascended_throne_memory
-			}
-			scope:new_memory = {
-				save_scope_as = ascended_throne_memory
-				set_variable = {
-					name = landed_title
-					value = title:k_amon_lanc
-				}
-			}
-		}
+		# effect = {
+		# 	create_character_memory = {
+		# 		type = ascended_throne_memory
+		# 	}
+		# 	scope:new_memory = {
+		# 		save_scope_as = ascended_throne_memory
+		# 		set_variable = {
+		# 			name = landed_title
+		# 			value = title:k_amon_lanc
+		# 		}
+		# 	}
+		# }
 		make_tributary = {
 			TYPE = tributary_permanent
 			SUZERAIN = character:lineofsauron
@@ -204,7 +269,7 @@ nazgul2 = { # Khamûl, once High-King of Wômawas Drûs, mightiest of the great 
 # Harwenal Vedaraba, born Adûnabêth of Numenor, known to Gondor of old as Hôarmûrath (on account of striking as if a mist), Third of the Nine, The Golden King of Harad
 # He is a half-Haradrim, Half-Numenorean, a bastard of a Lord of Forostar
 # For ease of use, elsewhere he is referred to as the 'Haradrim Nazgul'
-goldenking1 = {
+nazgul3 = { # Harwenal the Golden King
 	name = Harwenal_Vedaraba
 	dynasty = dynasty_goldenking
 	religion = cult_of_zigur
@@ -222,6 +287,7 @@ goldenking1 = {
 	trait = sorcerer_2
 	trait = lifestyle_physician
 	trait = desert_warrior
+	trait = flexible_leader
 	trait = reclusive
 	
 	disallow_random_traits = yes
@@ -230,7 +296,6 @@ goldenking1 = {
 	trait = blood_of_numenor_8
 	2498.12.3 = {
 		birth = yes
-		
 	}
 	
 	2521.6.2 = {
@@ -255,30 +320,32 @@ goldenking1 = {
 		}
 	}
 	
-	2590.1.1 = {
-		effect = {
-			create_character_memory = {
-				type = ascended_throne_memory
-			}
-			scope:new_memory = {
-				save_scope_as = ascended_throne_memory
-				set_variable = {
-					name = landed_title
-					value = title:k_abrakhan
-				}
-			}
-		}
-	}
+	# 2590.1.1 = {
+	# 	effect = {
+	# 		create_character_memory = {
+	# 			type = ascended_throne_memory
+	# 		}
+	# 		scope:new_memory = {
+	# 			save_scope_as = ascended_throne_memory
+	# 			set_variable = {
+	# 				name = landed_title
+	# 				value = title:k_abrakhan
+	# 			}
+	# 		}
+	# 	}
+	# }
 	
 	2590.1.1 = {
-#		give_nickname = nick_golden_king # Now a Head of Faith title.
 		effect = {
+
 			add_trait = nazgul
+			give_nickname = nick_golden_king
 			add_character_flag = no_auto_family
 			add_character_flag = immune_to_disease
 			add_character_flag = goldenking
 			add_character_flag = had_nickname_event #Matt note: this is so they avoid getting another nickname other than Golden King.
 			learn_language = language_westron
+			learn_language = language_westron_orc
 			#learn_language = language_middle_apysaic	#causes errors, already known
 			spawn_army = {
 				name = decision_guard_of_abrakhan_troops
@@ -292,34 +359,25 @@ goldenking1 = {
 					type = risen_carrion
 					stacks = 5
 				}
-				origin = title:c_abrashadorh.title_province
-				location = capital_province
+				location = title:c_abrashadorh.title_province
 			}
 			character:lineofsauron = {
 				add_hook = {
-					target = character:goldenking1
+					target = character:nazgul3
 					type = loyalty_hook
 				}
 			}
-			add_hook = {
-				target = character:syarrhul1
-				type = loyalty_hook
-			}
-			add_hook = {
-				target = character:azgarabanvanda1
-				type = loyalty_hook
-			}
-			add_hook = {
-				target = character:eastkanalord1
-				type = loyalty_hook
-			}
-			add_hook = {
-				target = character:uhtyarafortslord1
-				type = loyalty_hook
-			}
-			#scope:goldenking1.dynasty = {
+			#scope:nazgul3.dynasty = {
 			#	add_dynasty_prestige = -1000
 			#}
+			add_trait_xp = {
+				trait = desert_warrior
+				value = 67
+			}
+			add_trait_xp = {
+				trait = flexible_leader
+				value = 34
+			}
 		}
 	}
 	
@@ -331,10 +389,38 @@ goldenking1 = {
 					dead_relation = character:ruxoalendil4
 				}
 			}
+			dynasty:dynasty_goldenking = {
+				add_dynasty_modifier = { modifier = golden_king_xp_boost }
+			}
 		}
 	}
 
+	4033.1.1 = {
+		religion = lidless_eye
+	}
+
+	6777.7.8 = { # The Witch-king gathers the Nine at Minas Morgul
+		employer = nazgul1
+	}
+
 	7032.1.1 = {
+		religion = cult_of_zigur
+		add_hook = {
+			target = character:syarrhul1
+			type = loyalty_hook
+		}
+		add_hook = {
+			target = character:azgarabanvanda1
+			type = loyalty_hook
+		}
+		add_hook = {
+			target = character:eastkanalord1
+			type = loyalty_hook
+		}
+		add_hook = {
+			target = character:uhtyarafortslord1
+			type = loyalty_hook
+		}
 		effect = {
 			add_dread = 100
 		}
@@ -356,6 +442,8 @@ nazgul4 = { # Yí Indûr, The Second Unifier of Mûmakan. The Fourth Nazgul
 	trait = ambitious
 	trait = cynical
 	trait = deceitful
+	trait = jungle_stalker
+	trait = aggressive_attacker
 
 	disallow_random_traits = yes
 
@@ -379,7 +467,20 @@ nazgul4 = { # Yí Indûr, The Second Unifier of Mûmakan. The Fourth Nazgul
 				}
 			}
 			learn_language = language_westron
+			learn_language = language_westron_orc
+			add_trait_xp = {
+				trait = jungle_stalker
+				value = 100
+			}
+			add_trait_xp = {
+				trait = aggressive_attacker
+				value = 67
+			}
 		}
+	}
+	
+	6777.7.8 = { # The Witch-king gathers the Nine at Minas Morgul
+		employer = nazgul1
 	}
 
 	7032.1.1 = {
@@ -391,9 +492,9 @@ nazgul4 = { # Yí Indûr, The Second Unifier of Mûmakan. The Fourth Nazgul
 	}
 }
 
-nazgul5 = {
-	name = Kho_o_rahil # The Blind Sorceror
-	dynasty_house = dynasty_khorahil
+nazgul5 = { # Khorahil, The Blind Sorceror
+	name = Kho_o_rahil 
+	dynasty = dynasty_khorahil
 	religion = lidless_eye
 	culture = ringwraith
 	sexuality = asexual
@@ -411,9 +512,11 @@ nazgul5 = {
 	trait = greedy
 	trait = administrator
 	trait = logistician
+	trait = forder
 	trait = kinslayer_3
 	trait = blood_of_numenor_10
-
+	trait = born_on_numenor
+	
 	disallow_random_traits = yes
 
 	2480.1.1 = {
@@ -448,11 +551,30 @@ nazgul5 = {
 					type = loyalty_hook
 				}
 			}
+			add_trait_xp = {
+				trait = logistician
+				value = 100
+			}
+			add_trait_xp = {
+				trait = forder
+				value = 34
+			}
 		}
+	}
+	#5083.1.1 = { #Occupies Ny Chennacatt
+	#	religion = faith_taimaraud
+	#}
+    5382.5.1 = { # Angmar start date
+		employer = nazgul1 
+    }
+
+	6777.7.8 = { # The Witch-king gathers the Nine at Minas Morgul
+		employer = nazgul1
 	}
 
 	7032.1.1 = {
 		employer = lineofsauron
+		religion = lidless_eye
 	}
 
 	7052.1.1 = { # Passes out of Ea with the destruction of the One Ring
@@ -460,7 +582,7 @@ nazgul5 = {
 	}
 }
 
-nazgul6 = { # Mauhoshat, Dwimmerleik of the North, Lord of Ûrd. The Sixth Nazgul  
+nazgul6 = { # Mauhoshat, Dwimmerlaik of the North, Lord of Ûrd. The Sixth Nazgul  
 	name = Mauhoshat
 	dynasty = dynasty_urd
 	religion = lidless_eye
@@ -480,6 +602,7 @@ nazgul6 = { # Mauhoshat, Dwimmerleik of the North, Lord of Ûrd. The Sixth Nazgu
 	trait = gregarious
 	trait = architect
 	trait = unyielding_defender
+	trait = winter_soldier
 
 	disallow_random_traits = yes
 
@@ -502,7 +625,20 @@ nazgul6 = { # Mauhoshat, Dwimmerleik of the North, Lord of Ûrd. The Sixth Nazgu
 				}
 			}
 			learn_language = language_westron
+			learn_language = language_westron_orc
+			add_trait_xp = {
+				trait = unyielding_defender
+				value = 34
+			}
+			add_trait_xp = {
+				trait = winter_soldier
+				value = 100
+			}
 		}
+	}
+
+	6777.7.8 = { # The Witch-king gathers the Nine at Minas Morgul
+		employer = nazgul1
 	}
 
 	7032.1.1 = {
@@ -526,7 +662,8 @@ nazgul7 = { # Dendra-Dwâr, Dwâr of Waw. The Seventh Nazgul
 	trait = ambitious
 	trait = wrathful
 	trait = callous
-	trait = aggressive_attacker
+	trait = forder
+	trait = reaver
 
 	disallow_random_traits = yes
 
@@ -549,7 +686,20 @@ nazgul7 = { # Dendra-Dwâr, Dwâr of Waw. The Seventh Nazgul
 				}
 			}
 			learn_language = language_westron
+			learn_language = language_westron_orc
+			add_trait_xp = {
+				trait = forder
+				value = 34
+			}
+			add_trait_xp = {
+				trait = reaver
+				value = 100
+			}
 		}
+	}
+
+	6777.7.8 = { # The Witch-king gathers the Nine at Minas Morgul
+		employer = nazgul1
 	}
 
 	7032.1.1 = {
@@ -574,6 +724,7 @@ nazgul8 = { # Rên-Iey of Khey Sârt. The Eigth Nazgul
 	trait = zealous
 	trait = brave
 	trait = holy_warrior
+	trait = reaver
 
 	disallow_random_traits = yes
 
@@ -596,7 +747,20 @@ nazgul8 = { # Rên-Iey of Khey Sârt. The Eigth Nazgul
 				}
 			}
 			learn_language = language_westron
+			learn_language = language_westron_orc
+			add_trait_xp = {
+				trait = holy_warrior
+				value = 67
+			}
+			add_trait_xp = {
+				trait = reaver
+				value = 67
+			}
 		}
+	}
+
+	6777.7.8 = { # The Witch-king gathers the Nine at Minas Morgul
+		employer = nazgul1
 	}
 
 	7032.1.1 = {
@@ -614,7 +778,7 @@ nazgul9 = { # Ûvatha/Ôvatha I of Khand. The Ninth Nazgul
 	religion = lidless_eye
 	culture = ringwraith # In ancient days of Khand
 	sexuality = asexual
-	dna = varangisdna
+#	dna = varangisdna
 
 	trait = education_martial_4
 	trait = strong
@@ -623,6 +787,7 @@ nazgul9 = { # Ûvatha/Ôvatha I of Khand. The Ninth Nazgul
 	trait = callous
 	trait = brave
 	trait = open_terrain_expert
+	trait = desert_warrior
 
 	disallow_random_traits = yes
 
@@ -646,9 +811,18 @@ nazgul9 = { # Ûvatha/Ôvatha I of Khand. The Ninth Nazgul
 				}
 			}
 			learn_language = language_westron
+			learn_language = language_westron_orc
 			learn_language = language_ulgathig
 			learn_language = language_varadia
 			learn_language = language_ioradya
+			add_trait_xp = {
+				trait = open_terrain_expert
+				value = 100
+			}
+			add_trait_xp = {
+				trait = desert_warrior
+				value = 34
+			}
 		}
 	}
 
@@ -656,6 +830,10 @@ nazgul9 = { # Ûvatha/Ôvatha I of Khand. The Ninth Nazgul
 		effect = {					
 			add_unpressed_claim = title:e_khand			
 		}					
+	}
+
+	6777.7.8 = { # The Witch-king gathers the Nine at Minas Morgul
+		employer = nazgul1
 	}
 
 	7032.1.1 = {

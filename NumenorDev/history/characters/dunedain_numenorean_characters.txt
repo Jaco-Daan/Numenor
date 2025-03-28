@@ -1,27 +1,39 @@
-﻿#####################################						
-#####################################						
-######## KINGDOM OF NUMENOR  ########						
-#####################################						
+﻿#####################################	
+#####################################	
+######## KINGDOM OF NUMENOR  ########	
+#####################################	
 #####################################	
 				
-### In order: 					
-# House of Elros, Kings of Numenor					
-# House of Elatan, Lords of Andúnië					
-# House of Ciryamir, Family of the 5th Nazgul, Khôrahil			
-# House of 	Vëandur, Captain of the Ships, Eventual Princes of Dol Amroth	
-					
-					
-###############################					
-##### The Kings of Numenor ####					
-###############################					
-					
-lineofelros1 = {					
-	name = Elros # First King of Numenor				
+### In order: 
+# House of Elros - Kings of Numenor
+# House of Elatan - Lords of Andúnië
+# House of 	Vëantur - The Ship Captains of Numenor, later Princes of Dol Amroth
+# House of Ciryamir - Family of the 5th Nazgul, Khôrahil
+# House of Ruxöalëndil - Ancestors of the Golden King
+# House of Mornion, Founders of Korlea
+# House of Ciryandur - Lords of Hazaj Tollin
+# House of Borodiriath - Colonial overlords of Ûrêzâyan
+# Herumor and Fuinur - Black Numenoreans that establish Kingdoms in Harad
+# House of Ezirkhôn - Minor Numenorean family, lone survivor in Tûmag
+
+## Black Numenoreans of Umbar
+# Colonial Sealords of Umbar - Various dynasties
+# Lords of Dusalan - Various dynasties
+# Lords of Zamadur and Annabrith - Various dynasties
+# Lords of Caldur and Eradas - Various dynasties
+# Lords of Sakal an-Khar - Various dynasties
+# Lords of Barazon
+
+###############################
+##### The Kings of Numenor ####
+###############################
+lineofelros1 = { # Elros, First King of Numenor
+	name = Elros
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean
 	dna = elros_dna_1
-					
+
 	father = linefinwe26 # Eärendil	
 	mother = lineofelwe9 # Elwing
 
@@ -30,19 +42,22 @@ lineofelros1 = {
 	stewardship = 12
 	intrigue = 6
 	learning = 10
-					
-	trait = blood_of_numenor_10 				
-	trait = beauty_good_3				
+
+	 				
+	trait = beauty_good_2				
 	trait = intellect_good_3				
 	trait = brave				
 	trait = just				
 	trait = compassionate				
 	trait = education_stewardship_4
-	trait = education_martial_4
+	# trait = education_martial_4
 	trait = twin
-					
+
+
+	trait = blood_of_numenor_10
 	534.1.1 = {				
-		birth = yes			
+		birth = yes		
+		
 	}
 	620.8.9 = {
 		add_spouse = elroswife
@@ -65,29 +80,32 @@ elroswife = { # Loþetári (Quenya name), Inzilarî (Adunaic name)
 	culture = numenorean
 	female = yes
 	dna = elroswife_dna
-					
-	trait = blood_of_numenor_10 				
+
+	 				
 	trait = beauty_good_3			
 	trait = intellect_good_2				
 	trait = gregarious				
 	trait = diligent				
 	trait = compassionate				
 	trait = education_diplomacy_4
-					
+
+
+	trait = blood_of_numenor_10
 	578.1.1 = {				
 		birth = yes			
+		
 	}
 	988.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}			
-}	
-lineofelros2 = {					
+}
+lineofelros2 = {
 	name = Vardamir # Second King of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean
 	dna = vardamir_nolimon_dna
-					
+
 	father = lineofelros1	
 	mother = elroswife
 	
@@ -96,18 +114,25 @@ lineofelros2 = {
 	stewardship = 8
 	intrigue = 4
 	learning = 12
-					
-	trait = blood_of_numenor_10 		
-	trait = intellect_good_3
+
+	 		
+	trait = intellect_good_2
 	trait = beauty_good_2
-	trait = education_learning_4				
+
+	trait = education_learning_4
+
 	trait = humble				
 	trait = just
 	trait = content
+
 	trait = scholar
-					
+
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	653.1.1 = {				
-		birth = yes			
+		birth = yes		
+		
 	}
 	732.8.2 = {
         give_nickname = nick_nolimon
@@ -118,47 +143,59 @@ lineofelros2 = {
         }
     }	
 	1063.1.1 = {				
-		death = { death_reason = death_natural_causes } 			
+		death = { death_reason = death_laid_down_life } 			
 	}				
 }
-lineofelros3 = {					
+lineofelros3 = {
 	name = Amandil # Third King of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros2				
-					
-	trait = blood_of_numenor_10 
+
+	trait = beauty_good_1
+	trait = intellect_good_1
+
 	trait = zealous
 	trait = just
 	trait = patient
-					
-	784.1.1 = {				
-		birth = yes			
-	}				
+
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
+	784.1.1 = {
+		birth = yes
+	}
 	1195.1.1 = {				
-		death = { death_reason = death_natural_causes } 			
+		death = { death_reason = death_laid_down_life } 			
 	}				
 }
-lineofelros4 = {					
+lineofelros4 = {
 	name = Elendil # Fourth King of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros3				
-					
-	trait = blood_of_numenor_10
+	trait = born_on_numenor
+	
 	trait = intellect_good_2
+	trait = beauty_good_1
+
 	trait = education_learning_4
+
 	trait = zealous
 	trait = calm
 	trait = content
+
 	trait = scholar
-					
+
+
+	trait = blood_of_numenor_10
 	942.1.1 = {				
-		birth = yes			
+		birth = yes		
+		
 	}
 	1082.1.1 = {
         give_nickname = nick_parmaite
@@ -169,22 +206,31 @@ lineofelros4 = {
         }
     }	
 	1343.1.1 = {				
-		death = { death_reason = death_natural_causes } 			
+		death = { death_reason = death_laid_down_life } 			
 	}				
 }
-lineofelros5 = {					
+lineofelros5 = {
 	name = Meneldur # Fifth King of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros4				
-					
-	trait = blood_of_numenor_10 				
-	trait = education_learning_4				
-					
+
+	trait = intellect_good_1
+	trait = beauty_good_1
+
+	trait = humble
+	trait = just
+	trait = temperate
+	 				
+	trait = education_learning_3				
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	1135.1.1 = {				
-		birth = yes			
+		birth = yes		
+		
 	}	
 	1159.1.1 = {
 	    give_nickname = nick_star_watcher
@@ -198,7 +244,7 @@ lineofelros5 = {
 		add_spouse = lineveantur2		
 	}
 	1534.1.1 = {				
-		death = { death_reason = death_natural_causes } 			
+		death = { death_reason = death_laid_down_life } 			
 	}				
 }
 lineofelros6 = {				
@@ -206,19 +252,27 @@ lineofelros6 = {
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros5	
 	mother = lineveantur2
-					
-	trait = blood_of_numenor_10 				
-	trait = education_learning_4
+		
+	trait = education_martial_4
+
 	trait = physique_good_2
+	trait = intellect_good_2
+	trait = beauty_good_1
+	trait = lifestyle_mariner
+
 	trait = impatient
-	trait = gregarious
-	trait = generous
-					
+	trait = diligent
+	trait = stubborn
+	trait = ambitious
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	1292.1.1 = {				
 		birth = yes			
+		
 	}
 	1320.1.1 = {
 	    give_nickname = nick_the_mariner_elros
@@ -227,136 +281,167 @@ lineofelros6 = {
                 flag = had_nickname_event
             }
         }
-	}	
-	1462.1.1 = {
-		add_spouse = mablung11
+		add_trait_xp = {
+			trait = lifestyle_mariner
+			value = 100
+		}
 	}
+	1462.5.1 = {
+		add_spouse = lineofbeleth3
+	}	
 	1690.1.1 = {				
-		death = { death_reason = death_natural_causes } 			
+		death = { death_reason = death_laid_down_life } 			
 	}				
 }
-lineofelros7 = {					
+lineofelros7 = {
 	name = Ancalim_e_e # Seventh Ruler of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	female = yes				
-					
+
 	father = lineofelros6
-	mother = mablung11
-					
-	trait = blood_of_numenor_10 				
+	mother = lineofbeleth3
+
+	trait = born_on_numenor
+	 				
 	trait = education_diplomacy_4				
 	trait = beauty_good_3				
-	trait = intellect_good_3				
-	trait = lustful				
+	# trait = intellect_good_3	# NO.		
+	trait = stubborn			
 	trait = arrogant				
-	trait = wrathful				
-					
+	trait = arbitrary
+	trait = chaste				
+
+
+	trait = blood_of_numenor_10
 	1465.1.1 = {				
 		birth = yes			
+		
 	}				
 	1570.1.1 = {				
-		add_spouse = lineofelros63 # Hallacar			
+		add_spouse = lineofelros63 # Hallacar
+		give_nickname = nick_emerwen_aranel
+		effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }			
 	}				
 	1877.1.1 = {				
-		death = { death_reason = death_natural_causes } 			
+		death = { death_reason = death_laid_down_life } 			
 	}				
 }
-lineofelros8 = {					
+lineofelros8 = {
 	name = An_arion # Eighth Ruler of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	mother = lineofelros7				
 	father = lineofelros63				
-					
-	trait = blood_of_numenor_10 
-					
+	trait = born_on_numenor
+	trait = beauty_good_1
+	 
+
+
+	trait = blood_of_numenor_10
 	1595.1.1 = {				
 		birth = yes			
+		
 	}				
 	1996.1.1 = {				
-		death = { death_reason = death_natural_causes } 			
+		death = { death_reason = death_laid_down_life } 			
 	}				
 }
-lineofelros9 = {					
+lineofelros9 = {
 	name = S_urion # Ninth Ruler of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros8				
-					
-	trait = blood_of_numenor_10 				
-					
-	1766.1.1 = {				
-		birth = yes			
-	}				
+
+	trait = beauty_good_1
+	 				
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
+	1766.1.1 = {
+		birth = yes
+	}
 	2166.1.1 = {				
-		death = { death_reason = death_natural_causes } 			
+		death = { death_reason = death_laid_down_life } 			
 	}				
 }
-lineofelros10 = {					
+lineofelros10 = {
 	name = Telperi_e_en # Tenth Ruler of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	female = yes				
-					
+
 	father = lineofelros9				
-					
-	trait = blood_of_numenor_10 				
+
+	 				
 	trait = beauty_good_3
 	trait = education_diplomacy_2
 	trait = arrogant				
 	trait = stubborn				
 	trait = content	
-					
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	1912.1.1 = {				
 		birth = yes			
+		
 	}				
 	2323.1.1 = {				
-		death = { death_reason = death_natural_causes } 			
+		death = { death_reason = death_laid_down_life } 			
 	}				
 }
-lineofelros11 = {					
+lineofelros11 = {
 	name = Isilmo 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros9				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	 				
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	1941.1.1 = {				
 		birth = yes			
+		
 	}				
 	2345.1.1 = {				
-		death = { death_reason = death_natural_causes } 			
+		death = { death_reason = death_laid_down_life } 			
 	}				
 }
-lineofelros12 = {					
+lineofelros12 = {
 	name = Minastir # Eleventh Ruler of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros11				
-					
-	trait = blood_of_numenor_10 	
+
+	 	
 	trait = education_diplomacy_4
 	trait = generous
 	trait = gregarious
 	trait = just
 	trait = architect
-					
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	2066.1.1 = {				
 		birth = yes			
+		
 	}
 	2100.1.1 = {
 	    give_nickname = nick_the_vigilant_elros
@@ -367,27 +452,31 @@ lineofelros12 = {
         }
 	}	
 	2465.1.1 = {				
-		death = { death_reason = death_natural_causes } 			
+		death = { death_reason = death_laid_down_life } 			
 	}				
 }
-lineofelros13 = {					
+lineofelros13 = {
 	name = Ciryatan # Twelfth Ruler of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros12				
-					
-	trait = blood_of_numenor_10
+
+	
 	trait = education_stewardship_4
 	trait = intellect_good_1
 	trait = greedy
 	trait = impatient
 	trait = brave
 	trait = lifestyle_mariner
-					
+	trait = conqueror
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	2226.1.1 = {				
-		birth = yes			
+		birth = yes		
+		
 	}
 	2280.1.1 = {
 	    give_nickname = nick_ship_builder_elros
@@ -398,26 +487,29 @@ lineofelros13 = {
         }
 	}	
 	2627.1.1 = {				
-		death = { death_reason = death_natural_causes } 			
+		death = { death_reason = death_laid_down_life } 			
 	}				
 }
-lineofelros14 = {					
+lineofelros14 = {
 	name = Atanamir # Thirteenth Ruler of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros13				
-					
-	trait = blood_of_numenor_10 				
+
+	trait = born_on_numenor
 	trait = intellect_good_3				
 	trait = arrogant				
 	trait = greedy	
 	trait = cynical
 	trait = lifestyle_mariner
-					
+
+
+	trait = blood_of_numenor_10
 	2392.1.1 = {				
-		birth = yes			
+		birth = yes		
+		
 	}
 	2590.1.1 = {
         give_nickname = nick_the_great
@@ -431,23 +523,28 @@ lineofelros14 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros15 = {					
+lineofelros15 = {
 	name = Ancalimon # Fourteenth Ruler of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros14				
-					
-	trait = blood_of_numenor_10 				
-	trait = intellect_good_2				
+
+	trait = born_on_numenor
+	trait = intellect_good_2
 	trait = education_learning_4
 	trait = lifestyle_mariner
+
 	trait = cynical
-					
-	2578.1.1 = {				
-		birth = yes			
-	}				
+	trait = fickle
+	trait = arrogant
+
+
+	trait = blood_of_numenor_10
+	2578.1.1 = {
+		birth = yes
+	}
 	2978.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
@@ -457,40 +554,45 @@ lineofelros16 = {
 	dynasty = dynasty_elros				
 	religion = faith_numenorean # While increasingly neglected, the Three Prayers to Eru were still observed by the Kings, as was the rites upon the Meneltarma		
 	culture = numenorean				
-					
+
 	father = lineofelros15				
-					
-	trait = blood_of_numenor_10
+
+	
 	trait = intellect_good_1
 	trait = greedy
 	trait = patient
 	trait = cynical
 	trait = lifestyle_mariner
-					
-	2728.1.1 = {				
-		birth = yes			
-	}				
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
+	2728.1.1 = {
+		birth = yes
+	}
 	3118.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros17 = {					
+lineofelros17 = {
 	name = Vanimeld_e_e # Sixteenth Ruler of Numenor				
 	dynasty = dynasty_elros				
-	religion = faith_numenorean # While increasingly neglected, the Three Prayers to Eru were still observed by the Kings, as was the rites upon the Meneltarma						
+	religion = faith_numenorean # While increasingly neglected, the Three Prayers to Eru were still observed by the Kings, as was the rites upon the Meneltarma	
 	culture = numenorean
 	female = yes				
-					
+
 	father = lineofelros16				
-					
-	trait = blood_of_numenor_10 				
+
+	 				
 	trait = beauty_good_3				
 	trait = lazy				
 	trait = compassionate				
 	trait = content				
-					
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	2869.1.1 = {				
 		birth = yes			
+		
 	}
 	2984.1.1 = {				
 		add_spouse = lineofelros79 # Anducal			
@@ -499,47 +601,53 @@ lineofelros17 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros18 = {					
+lineofelros18 = {
 	name = Alcarin # Seventeenth Ruler of Numenor				
 	dynasty = dynasty_elros				
-	religion = faith_numenorean # While increasingly neglected, the Three Prayers to Eru were still observed by the Kings, as was the rites upon the Meneltarma						
+	religion = faith_numenorean # While increasingly neglected, the Three Prayers to Eru were still observed by the Kings, as was the rites upon the Meneltarma	
 	culture = numenorean				
-					
+
 	father = lineofelros79				
 	mother = lineofelros17				
-					
-	trait = blood_of_numenor_10 
+
+	 
 	trait = beauty_good_1
 	trait = education_martial_3
 	trait = lifestyle_mariner	
 	trait = lifestyle_blademaster
 	trait = content
 	trait = cynical
-					
-	2998.1.1 = {				
-		birth = yes			
-	}				
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
+	2998.1.1 = {
+		birth = yes
+	}
 	3329.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros19 = {					
+lineofelros19 = {
 	name = Calmacil # Eighteenth Ruler of Numenor				
 	dynasty = dynasty_elros				
-	religion = faith_numenorean # While increasingly neglected, the Three Prayers to Eru were still observed by the Kings, as was the rites upon the Meneltarma						
+	religion = faith_numenorean # While increasingly neglected, the Three Prayers to Eru were still observed by the Kings, as was the rites upon the Meneltarma	
 	culture = numenorean				
-					
+
 	father = lineofelros18				
-					
-	trait = blood_of_numenor_10 				
+
+	 				
 	trait = physique_good_2
 	trait = strong
 	trait = cynical
 	trait = lifestyle_blademaster				
 	trait = wrathful
-					
+	trait = conqueror
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	3108.1.1 = {				
-		birth = yes			
+		birth = yes		
+		
 	}
 	3150.1.1 = {
 	    give_nickname = nick_bright_sword
@@ -553,15 +661,15 @@ lineofelros19 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros20 = {					
+lineofelros20 = {
 	name = Ardamin # Nineteenth Ruler of Numenor				
 	dynasty = dynasty_elros				
-	religion = faith_numenorean # While increasingly neglected, the Three Prayers to Eru were still observed by the Kings, as was the rites upon the Meneltarma						
+	religion = faith_numenorean # While increasingly neglected, the Three Prayers to Eru were still observed by the Kings, as was the rites upon the Meneltarma	
 	culture = numenorean				
-					
+
 	father = lineofelros19				
-					
-	trait = blood_of_numenor_10 
+
+	 
 	trait = physique_good_1
 	trait = beauty_good_1
 	trait = lifestyle_mariner
@@ -569,54 +677,63 @@ lineofelros20 = {
 	trait = cynical
 	trait = brave
 	trait = just
-					
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	3210.1.1 = {				
-		birth = yes			
+		birth = yes
+		
 	}				
 	3491.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros21 = {					
+lineofelros21 = {
 	name = Adu_u_nakho_o_r # Twentieth Ruler of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_kings_men_numenorean # The Elven-Tongues are banned, and the Faithful are persecuted - the pride of the Númenoreans reach their apex			
-	culture = black_numenorean				
-					
+	culture = numenorean				
+
 	father = lineofelros20				
-					
-	trait = blood_of_numenor_9 	
+
+	 	
 	trait = education_martial_3
 	trait = physique_good_1
 	trait = lifestyle_mariner
 	trait = callous				
 	trait = wrathful				
 	trait = ambitious				
-					
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_9
 	3301.1.1 = {				
-		birth = yes			
+		birth = yes	
+		
 	}				
 	3554.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros22 = {					
+lineofelros22 = {
 	name = Zimratho_o_n # Twenty-first Ruler of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_kings_men_numenorean				
-	culture = black_numenorean				
-					
+	culture = numenorean				
+
 	father = lineofelros21				
-					
-	trait = blood_of_numenor_8
+
+	
 	trait = education_stewardship_4
 	trait = lifestyle_mariner
 	trait = greedy
 	trait = honest
 	trait = arrogant
-					
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_8
 	3390.1.1 = {				
 		birth = yes			
+		
 	}
 	3150.1.1 = {
 	    give_nickname = nick_jewel_gatherer
@@ -630,23 +747,50 @@ lineofelros22 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros23 = {					
+lineofelros22daughter = {
+	name = Lo_o_miphe_e_l
+	female = yes
+	dynasty = dynasty_elros				
+	religion = faith_kings_men_numenorean				
+	culture = numenorean				
+
+	father = lineofelros22				
+
+	trait = patient
+	trait = diligent
+	trait = chaste
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_7
+	
+	3470.1.1 = {				
+		birth = yes			
+		
+	}
+	3697.1.1 = {				
+		death = { death_reason = death_natural_causes } 			
+	}				
+}
+lineofelros23 = {
 	name = Sakaltho_o_r # Twenty-second Ruler of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_kings_men_numenorean				
-	culture = black_numenorean				
-					
+	culture = numenorean				
+
 	father = lineofelros22				
-					
-	trait = blood_of_numenor_7
+
+	
 	trait = lifestyle_mariner
 	trait = education_martial_2
 	trait = impatient
 	trait = calm
 	trait = fickle
-					
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_7
 	3468.1.1 = {				
 		birth = yes			
+		
 	}
 	#3530.1.1 = {	#not sure we want too many nicknames, I like the ring of Shore-Son but Ill leave it out -juke
 	#    give_nickname = nick_shore_son
@@ -660,15 +804,15 @@ lineofelros23 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros24 = {					
+lineofelros24 = {
 	name = Gimilzo_o_r # Twenty-third Ruler of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_kings_men_numenorean # The Three Prayers are utterly abandoned, with Gimilzôr refusing to even ascend the Meneltarma		
-	culture = black_numenorean				
-					
+	culture = numenorean				
+
 	father = lineofelros23				
-					
-	trait = blood_of_numenor_7 	
+
+	 	
 	trait = intellect_good_1
 	trait = lifestyle_mariner
 	trait = education_intrigue_3
@@ -676,9 +820,12 @@ lineofelros24 = {
 	trait = zealous				
 	trait = callous				
 	trait = wrathful				
-					
+	trait = born_on_numenor	
+
+	trait = blood_of_numenor_7
 	3552.1.1 = {				
 		birth = yes			
+		
 	}	
 	3600.1.1 = {
 	    give_nickname = nick_star_flame
@@ -695,25 +842,28 @@ lineofelros24 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros25 = {					
+lineofelros25 = {
 	name = Palantir # Twenty-fourth Ruler of Numenor				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros24				
 	mother = lineofelatan21				
-					
-	trait = blood_of_numenor_10 				
+
+	 				
 	trait = compassionate				
 	trait = generous				
 	trait = honest				
 	trait = education_diplomacy_4				
 	trait = intellect_good_3				
 	trait = depressed_1				
-					
+	trait = born_on_numenor	
+
+	trait = blood_of_numenor_10
 	3627.1.1 = {				
-		birth = yes			
+		birth = yes		
+		
 	}		
 	3680.1.1 = {
 	    give_nickname = nick_the_far_sighted
@@ -727,24 +877,28 @@ lineofelros25 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros26 = {					
+lineofelros26 = {
 	name = M_iriel 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	female = yes				
-					
+
 	father = lineofelros25				
-					
-	trait = blood_of_numenor_10 				
+
+	 				
 	trait = beauty_good_3				
 	trait = compassionate				
 	trait = generous				
-	trait = content			
-					
+	trait = content				
+	trait = depressed_1				
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	3709.1.1 = {				
 		birth = yes			
+		
 	}				
 	3847.1.1 = {				
 		add_spouse = lineofelros28 # Ar-Pharazôn			
@@ -756,70 +910,95 @@ lineofelros26 = {
 		death = { death_reason = death_natural_causes} 			
 	}				
 }
-lineofelros27 = {					
+lineofelros27 = {
 	name = Gimilkha_a_d 				
 	dynasty = dynasty_elros				
 	religion = faith_kings_men_numenorean				
-	culture = black_numenorean				
-					
+	culture = numenorean				
+
 	father = lineofelros24				
 	mother = lineofelatan21				
-					
-	trait = blood_of_numenor_7 				
+
+	 				
 	trait = callous				
 	trait = ambitious				
 	trait = wrathful				
-					
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_7
 	3636.1.1 = {				
 		birth = yes			
+		
 	}				
 	3835.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros28 = {					
+lineofelros28 = { # Ar-Pharazôn the Golden, Last King of Numenor. You know the guy.
 	name = Pharazo_o_n 				
 	dynasty = dynasty_elros				
 	religion = melkorite				
-	culture = black_numenorean				
-					
+	culture = numenorean
+	dna = pharazon_dna
+
 	father = lineofelros27				
 					
-	trait = blood_of_numenor_7 				
-	trait = education_martial_4				
 	trait = callous				
 	trait = arrogant				
-	trait = ambitious				
-					
+	trait = ambitious
+	
+	trait = education_martial_5
+	trait = lifestyle_mariner
+	trait = conqueror #Juke note: While he was a great king, he really didnt conquer all that much - Mordor, sort of? - Trig note: he is noted to have made many conquests in Middle Earth before becoming king.
+	trait = legend
+	trait = strategist
+	trait = august
+	trait = overseer
+	
+	trait = born_on_numenor
+	trait = blood_of_numenor_7
+	
+	diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 7
+
 	3710.1.1 = {				
 		birth = yes			
+		
 	}				
 	3847.1.1 = {				
 		add_spouse = lineofelros26 	
-		give_nickname = nick_the_golden_pharazon		
+		give_nickname = nick_the_golden_pharazon
+		add_trait_xp = {
+			trait = lifestyle_mariner
+			value = 100
+		}
 	}
 	3911.1.1 = {				
 		death = { death_reason = death_valinor_crushed } 			
 	}				
-}					
-					
-### Silmariën, wife of Elatan					
-					
-lineofelros29 = {					
+}
+lineofelros29 = { # Silmariën, wife of Elatan
 	name = Silmari_e_en 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	female = yes				
-					
+
 	father = lineofelros4				
-					
-	trait = blood_of_numenor_10 				
+
+	 				
 	trait = beauty_good_3				
-					
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	1113.1.1 = {				
 		birth = yes			
+		
 	}				
 	1189.1.1 = {				
 		add_spouse = lineofelatan1			
@@ -827,478 +1006,543 @@ lineofelros29 = {
 	1534.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
-}					
-					
-### Tindómiel, the daughter of Elros					
-					
-lineofelros30 = {					
+}
+lineofelros30 = { # Tindómiel, daughter of Elros
 	name = Tind_omiel 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	female = yes				
-					
+
 	father = lineofelros1
 	mother = elroswife	
-					
-	trait = blood_of_numenor_10 				
-	trait = beauty_good_3				
-					
-	662.1.1 = {				
-		birth = yes			
-	}				
+		
+	trait = beauty_good_3
+	trait = intellect_good_1
+
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
+	662.1.1 = {
+		birth = yes
+	}
 	1071.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
-}					
-					
-### The line of Manwendil, son of Elros					
+}
 
-lineofelros31 = {					
+# Line of Manwendil
+lineofelros31 = { # Manwendil, son of Elros
 	name = Manwendil 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros1
 	mother = elroswife	
-					
-	trait = blood_of_numenor_10 				
-					
-	665.1.1 = {				
-		birth = yes			
-	}				
+
+	trait = intellect_good_2
+	trait = beauty_good_1
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+	665.1.1 = {
+		birth = yes
+	}
 	1053.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros32 = {					
+lineofelros32 = {
 	name = S_ulimar 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros31				
-					
-	trait = blood_of_numenor_10 				
-					
-	803.1.1 = {				
-		birth = yes			
-	}				
+
+	trait = intellect_good_1	
+	
+	trait = chaste
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+	803.1.1 = {
+		birth = yes
+	}
 	1222.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros33 = {					
+lineofelros33 = {
 	name = V_e_eaher 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros31				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	trait = intellect_good_1
+	trait = beauty_good_1			
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	923.1.1 = {				
 		birth = yes			
+		
 	}				
 	1322.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros34 = {					
+lineofelros34 = {
 	name = Siliel 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	female = yes				
-					
-	father = lineofelros31				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	father = lineofelros31	
+	
+	trait = intellect_good_2
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	997.1.1 = {				
 		birth = yes			
+		
 	}				
 	1392.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros35 = {					
+lineofelros35 = {
 	name = Soronr_amar 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros33				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	trait = intellect_good_1				
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	1175.1.1 = {				
 		birth = yes			
+		
 	}				
 	1580.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros36 = {					
+lineofelros36 = {
 	name = S_ulitar 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros35				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	trait = intellect_good_1			
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	1289.1.1 = {				
 		birth = yes			
+		
 	}				
 	1605.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros37 = {					
+lineofelros37 = {
 	name = N_amondil 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros36				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	 				
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	1422.1.1 = {				
 		birth = yes			
+		
 	}				
 	1799.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros38 = {					
+lineofelros38 = {
 	name = Manwendur 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros37				
-					
-	trait = blood_of_numenor_10 				
-					
-	1534.1.1 = {				
-		birth = yes			
-	}				
+
+	 				
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+	1534.1.1 = {
+		birth = yes
+	}
 	1883.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros39 = {					
+lineofelros39 = {
 	name = Irmondil 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros38				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	 				
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	1673.1.1 = {				
 		birth = yes			
+		
 	}				
 	2040.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros40 = {					
+lineofelros40 = {
 	name = S_ulion 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros39				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	 				
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	1802.1.1 = {				
 		birth = yes			
+		
 	}				
 	2160.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros41 = {					
+lineofelros41 = {
 	name = Sorontar 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros40				
-					
-	trait = blood_of_numenor_10 				
-					
-	1866.1.1 = {				
-		birth = yes			
-	}				
+
+	 				
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+	1866.1.1 = {
+		birth = yes
+	}
 	2256.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros42 = {					
+lineofelros42 = {
 	name = S_ulmacil 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros41				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	 				
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	2000.1.1 = {				
 		birth = yes			
+		
 	}				
 	2376.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros43 = {					
+lineofelros43 = {
 	name = S_ulicar 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros42				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	 				
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	2175.1.1 = {				
 		birth = yes			
+		
 	}				
 	2555.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
-}					
+}
 
-### The line of Atanalcar, son of Elros					
-					
-lineofelros44 = {					
+# Line of Atanalcar
+lineofelros44 = { # Atanalcar, son of Elros
 	name = Atanalcar 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros1
 	mother = elroswife	
-					
-	trait = blood_of_numenor_10 				
-					
-	687.1.1 = {				
-		birth = yes			
-	}				
+
+	trait = beauty_good_2
+	trait = intellect_good_2
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+	687.1.1 = {
+		birth = yes
+	}
 	1080.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros45 = {					
+lineofelros45 = {
 	name = Ardamin 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros44				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	trait = beauty_good_2
+	trait = intellect_good_1
+	 				
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	807.1.1 = {				
 		birth = yes			
+		
 	}				
 	1229.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros46 = {					
+lineofelros46 = {
 	name = N_aramir 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros45				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	trait = beauty_good_1			
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	920.1.1 = {				
 		birth = yes			
+		
 	}				
 	1381.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros47 = {					
+lineofelros47 = {
 	name = N_armenel 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros46				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	trait = beauty_good_1			
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	1045.1.1 = {				
 		birth = yes			
+		
 	}				
 	1391.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros48 = {					
+lineofelros48 = {
 	name = Alcarnir 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros47				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	 				
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	1142.1.1 = {				
-		birth = yes			
+		birth = yes	
+		
 	}				
 	1541.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros49 = {					
+lineofelros49 = {
 	name = Abrazi_i_r 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros48				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	 				
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	1253.1.1 = {				
-		birth = yes			
+		birth = yes	
+		
 	}				
 	1617.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros50 = {					
+lineofelros50 = {
 	name = Andaranel 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros49				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	 				
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	1363.1.1 = {				
 		birth = yes			
+		
 	}				
 	1650.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
-}					
+}
 
-#juke note: nazgul1 moved to undead character file
-					
-### Vardilmë, daughter of Tar-Vardamir					
-					
-lineofelros51 = {					
+lineofelros51 = { # Vardilmë, daughter of Tar-Vardamir
 	name = Vardilm_e_e 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	female = yes				
-					
+
 	father = lineofelros2				
-					
-	trait = blood_of_numenor_10 				
-	trait = beauty_good_2				
-					
-	795.1.1 = {				
-		birth = yes			
-	}				
+
+	 				
+	trait = beauty_good_2	
+	trait = intellect_good_1			
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+	795.1.1 = {
+		birth = yes
+	}
 	1202.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
-}					
-					
-###Aulendil, son of Tar-Vardamir					
-					
-lineofelros64 = {					
+}			
+lineofelros64 = { # Aulendil, son of Tar-Vardamir NEED SONS! (until at least the change of the law)
 	name = Aulendil 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros2				
-					
-	trait = blood_of_numenor_10 				
-					
-	805.1.1 = {				
-		birth = yes			
-	}				
+
+	trait = intellect_good_1
+	trait = beauty_good_1		
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+	805.1.1 = {
+		birth = yes
+	}
 	1211.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
-}					
-					
-###Line of Nolondil, son of Tar-Vardamir					
-					
-lineofelros52 = {					
+}
+
+# Line of Nolondil				
+lineofelros52 = { # Nolondil, son of Tar-Vardamir				
 	name = Nolondil 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros2				
-					
-	trait = blood_of_numenor_10 				
-					
-	814.1.1 = {				
-		birth = yes			
-	}				
+
+	trait = intellect_good_3
+	trait = beauty_good_1			
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+	814.1.1 = {
+		birth = yes
+	}
 	1217.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros53 = {					
+lineofelros53 = {
 	name = Y_avien 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	female = yes				
-					
+
 	father = lineofelros52				
-					
-	trait = blood_of_numenor_10 				
+
+	trait = intellect_good_1				
 	trait = beauty_good_2				
-					
-	963.1.1 = {				
-		birth = yes			
-	}				
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+	963.1.1 = {
+		birth = yes
+	}
 	1348.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lineofelros54 = {					
+lineofelros54 = {
 	name = Oromendil 				
 	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
-					
+
 	father = lineofelros52				
-					
-	trait = blood_of_numenor_10 				
-					
+
+	trait = intellect_good_2			
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
 	974.1.1 = {				
 		birth = yes			
+		
 	}				
 	1367.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
