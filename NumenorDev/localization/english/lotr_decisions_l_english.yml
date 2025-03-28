@@ -13,7 +13,7 @@
  decision_sail_to_valinor_tooltip: "Leave [middleearth|E] to join your kin in [valinor|E]"
  decision_sail_to_valinor_desc: "For many years since the breaking of the world, my people have taken the Straight Road, sailing westward across the Sundering Seas and out of the Spheres of [ardaconcept|E] to join our kin in [valinor|E].\n\nWhile I have built a life in [middleearth|E], and there are still many things for me to do here, I cannot silence the yearning of my soul calling me to make the great journey west."
  decision_sail_to_valinor_confirm: "The time has come"
- sail_to_valinor: "Your previous character will become unplayable"
+ sail_to_valinor: "You embark on a journey westward to Valinor.\n\nYou will be deposed on arrial and your previous character will become unplayable"
  trait_sailed_west: "Sailed West"
  trait_sailed_west_desc: "This character has taken the hidden Straight Road out of the Spheres of [ardaconcept|E] to join their people in the [undyinglands|E]."
  trait_sailed_west_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has taken the hidden Straight Road out of the Spheres of Arda to join [ROOT.GetCharacter.GetHerHis] people in the Undying Lands."
@@ -414,6 +414,24 @@
  decision_eradan_bree_desc: "The [dunedainnorth|E] keep a close watch over [eriador|E] and the Shire. Lead by their Chieftain, they work tirelessly to ensure the safety of the innocent inhabitants of the northern lands.\n\nEradan, Ranger of the North, has been summoned to the town of Bree by his liege lord, Aragorn. Will Eradan answer the call?"
  decision_eradan_bree_confirm: "I must speak with my Chieftain."
  decision_eradan_bree.tt: "You will travel to Bree to meet with Aragorn"
+ 
+ decision_talk_to_locals_sarnford:0 "Speak with the Locals: Sarn Ford"
+ decision_talk_to_locals_sarnford_tooltip:0 "Speak to some of the locals while you're resting from your adventures"
+ decision_talk_to_locals_sarnford_desc:0 "While you're in a safe location and resting from your adventures, you may speak with some of the locals and learn more about them."
+ decision_talk_to_locals_sarnford_confirm:0 "Very well."
+ decision_talk_to_locals_sarnford_tt:0 "You enter the encampment of Sarn Ford."
+ 
+ decision_talk_to_locals_bree:0 "Speak with the Locals: Bree"
+ decision_talk_to_locals_bree_tooltip:0 "Speak to some of the locals while you're resting from your adventures"
+ decision_talk_to_locals_bree_desc:0 "While you're in a safe location and resting from your adventures, you may speak with some of the locals and learn more about them."
+ decision_talk_to_locals_bree_confirm:0 "Very well."
+ decision_talk_to_locals_bree_tt:0 "You enter the town of Bree."
+ 
+ decision_talk_to_locals_imladris:0 "Speak with the Locals: Imladris"
+ decision_talk_to_locals_imladris_tooltip:0 "Speak to some of the locals while you're resting from your adventures"
+ decision_talk_to_locals_imladris_desc:0 "While you're in a safe location and resting from your adventures, you may speak with some of the locals and learn more about them."
+ decision_talk_to_locals_imladris_confirm:0 "Very well."
+ decision_talk_to_locals_imladris_tt:0 "You enter the refuge of [imladris|E]."
 
  ### Reunited Kingdom Decision Subset ###
 
@@ -693,6 +711,13 @@
  decision_calenardhon_calemmir_confirm: "Let Calemmir take its rightful place."
  decision_calenardhon_calemmir_tooltip: "Make Calemmir the capital of Calenardhon once more."
  decision_calenardhon_calemmir.tt: "The city of [GetTitleByKey('c_aldburg').GetNameNoTier] becomes the capital of the province of [GetTitleByKey('k_rohan').GetNameNoTier]."
+
+ decision_establish_the_ithilien_rangers: "Establish the Rangers of Ithilien"
+ decision_establish_the_ithilien_rangers_desc: "One the garden of [gondor|E], Ithilien has fallen to the enemy. Our people have fled, the land is laid waste, and now the forces of evil threaten the Anduin, the very lifeline of [gondor|E].\n\nYet we may still resist. Among those who have feld there are many who intimately know the secret paths and hidden ways of Ithilien, and whose hearts burn with a desire to avenge their lost home. We can recruit these men and build an elite guerrilla force to contest the forests and steams of Ithilien against the encroching shadow."
+ decision_establish_the_ithilien_rangers_tt: "Found the Rangers of Ithilien"
+ decision_establish_the_ithilien_rangers_confirm: "We will defend these lands!"
+ decision_establish_the_ithilien_rangers.tt: "You gain access to the Rangers of Ithilien Men at Arms"
+ decision_establish_the_ithilien_rangers.trigger: "An evil ruler borders you in [GetTitleByKey('k_ithilien').GetNameNoTier]."
 
  ##########################
  ### Dol Amroth Reforms ###
@@ -1225,8 +1250,8 @@
  host_of_morgul: "The Morgul-host"
  
  decision_despoil_ithilien: "Despoil Ithilien"
- decision_despoil_ithilien_tooltip: "Send forth your raiders into Ithilien to harvest its rich timber ressources"
- decision_despoil_ithilien_desc: "Directly to the west of Minas Morgul lies the so-called Garden of [gondor|E], the lush forests of Ithilien. This land is ripe for plundering and its ressources will be put to good use in the war machinery of [mordor|E]\n\nLet us send forth raiders into Ithilien and establish great logging camps from which we can harvest wood and timber!"
+ decision_despoil_ithilien_tooltip: "Send forth your raiders into Ithilien to harvest its rich timber resources"
+ decision_despoil_ithilien_desc: "Directly to the west of Minas Morgul lies the so-called Garden of [gondor|E], the lush forests of Ithilien. This land is ripe for plundering and its resources will be put to good use in the war machinery of [mordor|E]\n\nLet us send forth raiders into Ithilien and establish great logging camps from which we can harvest wood and timber!"
  decision_despoil_ithilien_confirm: "Burn them all!"
  
  decision_reorganize_nurn: "Reorganize the Slave Economy"
@@ -1883,12 +1908,13 @@
 
  decision_kill_smaug: "Reclaim Erebor"
  decision_kill_smaug_tooltip: "Start expedition to kill Smaug"
- decision_kill_smaug_desc: "The dragon is laying in our mountain for too long. He must have grown weak and lazy in that time. Many signs show that Smaug influence over mountain falls. I must take this chance and reclaim the Lonely Mountain!"
+ decision_kill_smaug_desc: "Smaug has been laying in Erebor for too long. He must have grown fat and lazy in that time. Many signs show the dragons influence over our Home has fallen. I must take this chance and reclaim the Lonely Mountain!"
  decision_kill_smaug_confirm: "Reclaim the Lonely Mountain!"
- decision_kill_smaug_decision_effect_1: "You will attempt to slay the [dragon|E] Smaug. The following will affect your success chance, up to a cap of 80%\n$BULLET_WITH_TAB$A member of the Aivadiuria dynasty living in or ruling over Laketown\n$BULLET_WITH_TAB$Lord of Laketown having high [prowess|E].\n$BULLET_WITH_TAB$Wielding a [firstage|E] [elven|E] sword.\n$BULLET_WITH_TAB$Having a First Age Dwarven Helm.\n$BULLET_WITH_TAB$You have a Hobbit help whose [intrigue|E] is [intrigue_i|E]15 or above.\n$BULLET_WITH_TAB$Lord of Laketown having a Dragonslaying [artifact|E] such as a Black Arrow or Windlance."
+ decision_kill_smaug_decision_effect_1: "You will attempt to slay the [dragon|E] Smaug. The following will affect your success chance, up to a cap of 80%\n$BULLET_WITH_TAB$A member of the [GetScriptedCharacterByHistoryID( 'lineofdale1' ).GetDynasty.GetName] dynasty being present in [GetTitleByKey('c_esgaroth').GetNameNoTier]\n$BULLET_WITH_TAB$Lord of Laketown having high [prowess|E].\n$BULLET_WITH_TAB$Wielding a [firstage|E] [elven|E] sword.\n$BULLET_WITH_TAB$Having a First Age Dwarven Helm.\n$BULLET_WITH_TAB$You have a Hobbit help whose [intrigue|E] is [intrigue_i|E]15 or above.\n$BULLET_WITH_TAB$Lord of Laketown having a Dragonslaying [artifact|E] such as a Black Arrow or Windlance."
  decision_kill_smaug_decision_effect_1_a: "You will attempt to slay the [dragon|E] Smaug. The following will affect your success chance, up to a cap of 50%\n$BULLET_WITH_TAB$Lord of Laketown having high [prowess|E].\n$BULLET_WITH_TAB$Wielding a [firstage|E] [elven|E] sword.\n$BULLET_WITH_TAB$Having a First Age Dwarven Helm.\n$BULLET_WITH_TAB$You have a Hobbit help whose [intrigue|E] is [intrigue_i|E]15 or above.\n$BULLET_WITH_TAB$Lord of Laketown having a Dragonslaying [artifact|E] such as a Black Arrow or Windlance."
  decision_kill_smaug_decision_effect_2: "If you are #N unsuccessful#!, you will #N DIE!#! and Esgaroth will become a ruin"
  decision_kill_smaug_decision_effect_3: "If you are #P successful#!, you will reclaim the Lonely Mountain and the dragon will be dead!"
+ decision_enter_erebor_chances: "You will attempt to sneak into the [lonelymountain|E].\n$BULLET_WITH_TAB$Your [intrigue|E][intrigue_i|E] and [prowess|E][prowess_i|E]will effect your chances of success\n"
 
  #####################################
  #### Artifact Crafting Decisions ####
@@ -1923,7 +1949,7 @@
  struggle_balrog_ending_kill_balrog_tooltip: "You attempt to slay the Balrog"
  struggle_balrog_ending_kill_balrog_confirm: "The dark fire will not avail you, Flame of Udûn!"
  struggle_balrog_ending_kill_balrog_decision_correct_phase_tt: "$balrog_struggle_ending_decision_correct_involvement_tt$ and the current [struggle_phase|E] is [struggle_balrog_phase_dormant|E]"
- struggle_balrog_ending_kill_balrog_strong_friend: "You have a [friend|E] of an [elven|E] or [maiargods|E] [culture|E] whose [prowess|E] is [prowess_i|E]30 or above"
+ struggle_balrog_ending_kill_balrog_strong_friend: "You have a [friend|E] of an [elven|E] or [maiargods|E] [culture|E] whose [prowess|E] is [prowess_i|E]60 or above"
  struggle_balrog_ending_kill_balrog_decision_effect_1: "You will attempt to slay the [balrog|E]. The following will affect your success chance, up to a cap of 50%:\n$BULLET_WITH_TAB$Having high [prowess|E] and [martial|E].\n$BULLET_WITH_TAB$How much of the [struggle_region|E] you control.\n$BULLET_WITH_TAB$Having an [elven|E] [friend|e]\n$BULLET_WITH_TAB$Having the Helm of Durin [artifact|E]\n"
  struggle_balrog_ending_kill_balrog_decision_effect_2: "If you are #N unsuccessful#!, you will #N DIE!#!"
  struggle_balrog_ending_kill_balrog_decision_effect_3: "If you are #P successful#!, you may still #N die#!, and the following will happen:\n"
@@ -2287,6 +2313,12 @@
  bestow_heirloom_decision_unattached_artifact_tt: "is tied to no title"
  bestow_heirloom_decision_artifact_attached_to_secondary_title_tt: "is tied to one of your secondary titles"
  bestow_heirloom_decision_silmaril_rop_tt: "is not a Silmaril or a [ringofpower|E]"
+ 
+ decision_request_orthanc_keys:0 "Request the Keys to Orthanc"
+ decision_request_orthanc_keys_tooltip:0 "Ask the ruler of [gondor|E] to grant you the keys to Orthanc"
+ decision_request_orthanc_keys_desc:0 "The rule of [GetTitleByKey('c_isengard').GetNameNoTier] is mine, but the ancient tower of Orthanc remains closed. Wrought by the forgotten craft of the [numenoreans|E], it cannot be forcibly opened.\n\nThe keys lie with the ruler of [gondor|E]. If we were able to establish friendly relations with that realm, we might be able to acquire the keys, gaining access to the tower's secrets..."
+ decision_request_orthanc_keys_confirm:0 "Let us send word to Gondor."
+ decision_request_orthanc_keys_tt:0 "You will enter the tower of Orthanc and gain access to its secrets"
 
  #####################################
  ### War of the Rohirrim Decisions ###
@@ -2378,7 +2410,7 @@
 
  decision_wulf_affirm_descent_from_freawine: "Affirm Descent from Fréawine"
  decision_wulf_affirm_descent_from_freawine_tooltip: "Confirm once and for all that the Frecalings descend from the Royal Line of Eorl."
- decision_wulf_affirm_descent_from_freawine_desc: "For years, my house has proclaimed what the doubters and naysayers refuse to accept: that [GetScriptedCharacterByHistoryID( 'lineprefreca2' ).GetFirstName], the founder of our line, was the bastard son of [GetScriptedCharacterByHistoryID( 'lineofeorl5' ).GetFirstName], the fifth king of Rohan. The blood of [GetScriptedCharacterByHistoryID( 'lineofeorl1' ).GetFirstName] flows in my veins as surely as it did in his, though the proud and arrogant have long denied it.\n\nNow, with the throne of [GetTitleByKey('k_rohan').GetNameNoTier] beneath me and the [ROOT.Char.GetHouse.GetName]#L s#! ascendant, I have the power to set the record straight. I will decree it as truth, binding Freca’s name to the royal line for all time."
+ decision_wulf_affirm_descent_from_freawine_desc: "For years, my house has proclaimed what the doubters and naysayers refuse to accept: that [GetScriptedCharacterByHistoryID( 'lineprefreca2' ).GetFirstName], the founder of our line, was the bastard son of [GetScriptedCharacterByHistoryID( 'lineofeorl6' ).GetFirstName], the fifth king of Rohan. The blood of [GetScriptedCharacterByHistoryID( 'lineofeorl1' ).GetFirstName] flows in my veins as surely as it did in his, though the proud and arrogant have long denied it.\n\nNow, with the throne of [GetTitleByKey('k_rohan').GetNameNoTier] beneath me and the [ROOT.Char.GetHouse.GetName]#L s#! ascendant, I have the power to set the record straight. I will decree it as truth, binding Freca’s name to the royal line for all time."
  decision_wulf_affirm_descent_from_freawine_confirm: "Let those who doubted us choke on their pride."
  you_are_illustrious: "Your [prestige_level|E] is at least @prestige_level_3_icon! [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L]"
  your_dynasty_is_illustrious: "Your [dynasty_prestige_level|E] is at least @dynasty_prestige_icon! #V [dynasty_prestige_level_3|L]#!"
@@ -2389,3 +2421,5 @@
  decision_invite_saruman_to_isengard_tooltip: "You confer the stewardship of the tower of Orthanc to Saruman the White."
  decision_invite_saruman_to_isengard_desc: "The [GetBuilding('wonder_angrenost_01').GetName] stands as a sentinel in the heart of [GetTitleByKey('c_isengard').GetNameNoTier], its black stone rising high above the surrounding ring of mountains. Once a proud bastion of [GetTitleByKey('e_gondor').GetNameNoTier], its glory has faded, its purpose lost to time. Now, a new opportunity arises - one that could restore Isengard to prominence.\n\n[GetScriptedCharacterByHistoryID( 'lineofsaruman' ).GetFirstNameNicknamed], the most learned of the [istariconcept|E], has expressed his desire to make [orthanc|E] his seat of power. His knowledge of ancient lore and mastery of craft could transform the ancient stronghold into a beacon of strength and wisdom for the [west|E].\n\nBy granting Saruman control of Isengard, you would gain the favour of one of [thewise|E] and forge a bond with a figure of immense influence."
  decision_invite_saruman_to_isengard_confirm: "Let those who doubted us choke on their pride."
+ 
+ 
