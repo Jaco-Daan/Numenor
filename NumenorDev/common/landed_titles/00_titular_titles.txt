@@ -644,6 +644,32 @@ d_whisperingone = { # Goblin town four-way civil war / angmar start date
 }
 
 ### Numenoreans ###
+e_numenor = {
+	color = "black"
+	#landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_minas_tirith #Temporary
+}
+
+d_andunie = {
+	color = "black"
+	#landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_minas_tirith #Temporary
+}
+
+d_nisimaldar = {
+	color = "black"
+	#landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_minas_tirith #Temporary
+}
 
 k_pelargir = {
 	color = { 53 141 162 }

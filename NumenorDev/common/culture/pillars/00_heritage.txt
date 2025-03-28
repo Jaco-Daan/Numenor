@@ -1,6 +1,11 @@
 ﻿### Numenor Submod Code ###
 heritage_adunaic = {
-	type = heritage
+	type = Heritage
+	parameters = {
+		heritage_group_numenorean = yes
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 		diplomatic_range_mult = 0.95
@@ -16,13 +21,18 @@ heritage_adunaic = {
 
 heritage_ainur = {
 	type = heritage
+	parameters = {
+		heritage_group_ainur = yes
+		is_ainur_heritage = yes
+		less_likely_to_promote_culture = yes
+	}
 	character_modifier  = {
-		stress_gain_mult = -0.5
+		stress_gain_mult = -2
 		monthly_lifestyle_xp_gain_mult = -0.75
 		monthly_prestige_gain_mult = -0.3
 		monthly_piety_gain_mult = -0.3
 		rf_forcesofevil_opinion = -500
-		halls_advantage = -10
+		halls_advantage = -10 
 	}
 	is_shown = {
 		heritage_is_shown_trigger = {
@@ -34,13 +44,18 @@ heritage_ainur = {
 
 heritage_fallen_ainur = {
 	type = heritage
+	parameters = {
+		heritage_group_ainur = yes
+		is_fallen_ainur_heritage = yes
+		less_likely_to_promote_culture = yes
+	}
 	character_modifier  = {
-		stress_gain_mult = -0.5
+		stress_gain_mult = -2
 		monthly_lifestyle_xp_gain_mult = -0.75
 		monthly_prestige_gain_mult = -0.3
 		monthly_piety_gain_mult = -0.3
 		rf_eruhini_opinion = -500
-		halls_advantage = -10
+		halls_advantage = -10 
 	}
 	is_shown = {
 		heritage_is_shown_trigger = {
@@ -52,6 +67,10 @@ heritage_fallen_ainur = {
 
 heritage_atanatari = {
 	type = heritage
+	parameters = {
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -65,6 +84,10 @@ heritage_atanatari = {
 
 heritage_eriadorim = {
 	type = heritage
+	parameters = {
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -78,6 +101,10 @@ heritage_eriadorim = {
 
 heritage_baradhrim = {
 	type = heritage
+	parameters = {
+		heritage_family_easterling = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -91,6 +118,11 @@ heritage_baradhrim = {
 
 heritage_bellakari = {
 	type = heritage
+	parameters = {
+		heritage_group_numenorean = yes
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -104,6 +136,11 @@ heritage_bellakari = {
 
 heritage_old_daen = {
 	type = heritage
+	parameters = {
+		heritage_group_haladin = yes
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -117,6 +154,11 @@ heritage_old_daen = {
 
 heritage_daen_lintis = {
 	type = heritage
+	parameters = {
+		heritage_group_haladin = yes
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -130,6 +172,11 @@ heritage_daen_lintis = {
 
 heritage_daen_coentis = {
 	type = heritage
+	parameters = {
+		heritage_group_haladin = yes
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -143,6 +190,11 @@ heritage_daen_coentis = {
 
 heritage_danan_lin = {
 	type = heritage
+	parameters = {
+		heritage_group_haladin = yes
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -176,6 +228,11 @@ heritage_druedain = {
 
 heritage_dunedain = {
 	type = heritage
+	parameters = {
+		heritage_group_numenorean = yes
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -189,6 +246,11 @@ heritage_dunedain = {
 
 heritage_hillmen = {
 	type = heritage
+	parameters = {
+		heritage_group_haladin = yes
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -221,7 +283,11 @@ heritage_periannath = {
 
 heritage_quendi = {
 	type = heritage
-
+	parameters = {
+		heritage_group_elven = yes
+		is_elven_heritage = yes
+		ai_romance_scheme_increase = yes #Need to romance to marry
+	}
 	character_modifier = {
 		life_expectancy = 28000
 		fertility = -10
@@ -231,8 +297,6 @@ heritage_quendi = {
 		epidemic_resistance = 100
 		stress_gain_mult = -0.5
 		diplomatic_range_mult = 0.5
-		army_damage_mult = 1
-		army_toughness_mult = 1
 		levy_size = -0.5
 		monthly_lifestyle_xp_gain_mult = -0.75
 		monthly_prestige_gain_mult = -0.3
@@ -243,6 +307,8 @@ heritage_quendi = {
 		cultural_head_fascination_mult = -0.5
 		rf_forcesofevil_opinion = -500
 		halls_advantage = -10
+		levy_attack = 10
+		levy_toughness = 10 
 	}
 	culture_modifier = {
 		mercenary_count_mult = -10
@@ -257,7 +323,11 @@ heritage_quendi = {
 
 heritage_calaquendi = {
 	type = heritage
-
+	parameters = {
+		heritage_group_elven = yes
+		is_elven_heritage = yes
+		ai_romance_scheme_increase = yes #Need to romance to marry
+	}
 	character_modifier = {
 		life_expectancy = 28000
 		fertility = -10
@@ -267,9 +337,7 @@ heritage_calaquendi = {
 		epidemic_resistance = 100
 		stress_gain_mult = -0.5
 		diplomatic_range_mult = 0.5
-		army_damage_mult = 1
-		army_toughness_mult = 1
-		levy_size = -0.5
+		levy_size = -0.8
 		monthly_lifestyle_xp_gain_mult = -0.75
 		monthly_prestige_gain_mult = -0.3
 		monthly_piety_gain_mult = -0.3
@@ -283,6 +351,8 @@ heritage_calaquendi = {
 		character_travel_speed_mult = 1.5
 		rf_forcesofevil_opinion = -500
 		halls_advantage = -10
+		levy_attack = 10
+		levy_toughness = 10 
 	}
 	culture_modifier = {
 		mercenary_count_mult = -10
@@ -297,7 +367,11 @@ heritage_calaquendi = {
 
 heritage_lomiquendi = {
 	type = heritage
-	
+	parameters = {
+		heritage_group_elven = yes
+		is_elven_heritage = yes
+		ai_romance_scheme_increase = yes #Need to romance to marry
+	}
 	character_modifier = {
 		life_expectancy = 28000
 		fertility = -10
@@ -307,9 +381,7 @@ heritage_lomiquendi = {
 		epidemic_resistance = 100
 		stress_gain_mult = -0.5
 		diplomatic_range_mult = 0.5
-		army_damage_mult = 1
-		army_toughness_mult = 1
-		levy_size = -0.5
+		levy_size = -0.6
 		monthly_lifestyle_xp_gain_mult = -0.75
 		monthly_prestige_gain_mult = -0.3
 		monthly_piety_gain_mult = -0.3
@@ -323,6 +395,8 @@ heritage_lomiquendi = {
 		character_travel_speed_mult = 1.5
 		rf_forcesofevil_opinion = -500
 		halls_advantage = -10
+		levy_attack = 10
+		levy_toughness = 10 
 	}
 	culture_modifier = {
 		mercenary_count_mult = -10
@@ -337,7 +411,11 @@ heritage_lomiquendi = {
 
 heritage_moriquendi = {
 	type = heritage
-
+	parameters = {
+		heritage_group_elven = yes
+		is_elven_heritage = yes
+		ai_romance_scheme_increase = yes #Need to romance to marry
+	}
 	character_modifier = {
 		life_expectancy = 28000
 		fertility = -10
@@ -347,8 +425,6 @@ heritage_moriquendi = {
 		epidemic_resistance = 100
 		stress_gain_mult = -0.5
 		diplomatic_range_mult = 0.5
-		army_damage_mult = 1
-		army_toughness_mult = 1
 		levy_size = -0.5
 		monthly_lifestyle_xp_gain_mult = -0.75
 		monthly_prestige_gain_mult = -0.3
@@ -363,6 +439,8 @@ heritage_moriquendi = {
 		character_travel_speed_mult = 1.5
 		rf_forcesofevil_opinion = -500
 		halls_advantage = -10
+		levy_attack = 10
+		levy_toughness = 10 
 	}
 	culture_modifier = {
 		mercenary_count_mult = -10
@@ -377,7 +455,11 @@ heritage_moriquendi = {
 
 heritage_hadorim = {
 	type = heritage
-	
+	parameters = {
+		heritage_group_northmen = yes
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -391,7 +473,11 @@ heritage_hadorim = {
 
 heritage_northron = {
 	type = heritage
-	
+	parameters = {
+		heritage_group_northmen = yes
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -405,6 +491,11 @@ heritage_northron = {
 
 heritage_northern_apysaic = {
 	type = heritage
+	parameters = {
+		heritage_group_apysaic = yes
+		heritage_family_haradrim = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -418,6 +509,11 @@ heritage_northern_apysaic = {
 
 heritage_middle_apysaic = {
 	type = heritage
+	parameters = {
+		heritage_group_apysaic = yes
+		heritage_family_haradrim = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -431,6 +527,11 @@ heritage_middle_apysaic = {
 
 heritage_southern_apysaic = {
 	type = heritage
+	parameters = {
+		heritage_group_apysaic = yes
+		heritage_family_haradrim = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -442,8 +543,31 @@ heritage_southern_apysaic = {
 	audio_parameter = mena
 }
 
+heritage_thani_native = {
+	type = heritage
+	parameters = {
+		heritage_group_apysaic = yes
+		heritage_family_haradrim = yes
+		is_human_heritage = yes
+	}
+	character_modifier  = {
+		halls_advantage = -10
+	}
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_thani_native
+		}
+	}
+	audio_parameter = mena
+}
+
 heritage_ioriag = {
 	type = heritage
+	parameters = {
+		heritage_group_talataerim = yes
+		heritage_family_easterling = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -457,6 +581,11 @@ heritage_ioriag = {
 
 heritage_igath = {
 	type = heritage
+	parameters = {
+		heritage_group_talataerim = yes
+		heritage_family_easterling = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -470,6 +599,11 @@ heritage_igath = {
 
 heritage_nafarati = {
 	type = heritage
+	parameters = {
+		heritage_group_mumakani = yes
+		heritage_family_haradrim = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -481,8 +615,49 @@ heritage_nafarati = {
 	audio_parameter = mena
 }
 
+heritage_kirani = {
+	type = heritage
+	parameters = {
+		heritage_group_mumakani = yes
+		heritage_family_haradrim = yes
+		is_human_heritage = yes
+	}
+	character_modifier  = {
+		halls_advantage = -10
+	}
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_kirani
+		}
+	}
+	audio_parameter = mena
+}
+
+heritage_magri = {
+	type = heritage
+	parameters = {
+		heritage_group_mumakani = yes
+		heritage_family_haradrim = yes
+		is_human_heritage = yes
+	}
+	character_modifier  = {
+		halls_advantage = -10
+	}
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_magri
+		}
+	}
+	audio_parameter = mena
+}
+
 heritage_northern_adunaic = {
 	type = heritage
+	parameters = {
+		heritage_group_numenorean = yes
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -496,13 +671,19 @@ heritage_northern_adunaic = {
 
 heritage_orc = {
 	type = heritage
+	parameters = {
+		heritage_group_orcish = yes
+		heritage_family_creatures_of_morgoth = yes
+		is_orc_heritage = yes
+	}
 	character_modifier = {
-		life_expectancy = 200
-		years_of_fertility = 160
+		life_expectancy = 120
+		years_of_fertility = 80
 		fertility = 0.5
-		health = 1
-		negate_health_penalty_add = 1
-		monthly_lifestyle_xp_gain_mult = -0.33
+		monthly_lifestyle_xp_gain_mult = -0.25
+		#negate_health_penalty_add = -0.5 #Juke note: Once we rework orcs, make them prone to disease
+		#epidemic_resistance = -10
+		#epidemic_travel_danger = 10
 		
 		volcanic_plains_travel_danger = volcanic_plains_high_danger_reduction
 		halls_travel_danger = halls_high_danger_reduction
@@ -525,13 +706,19 @@ heritage_orc = {
 
 heritage_goblin = { #juke note: boni should be adjusted later
 	type = heritage
+	parameters = {
+		heritage_group_orcish = yes
+		heritage_family_creatures_of_morgoth = yes
+		is_orc_heritage = yes
+	}
 	character_modifier = {
-		life_expectancy = 200
-		years_of_fertility = 160
+		life_expectancy = 120
+		years_of_fertility = 80
 		fertility = 0.5
-		health = 1
-		negate_health_penalty_add = 1
-		monthly_lifestyle_xp_gain_mult = -0.33
+		monthly_lifestyle_xp_gain_mult = -0.25
+		#negate_health_penalty_add = -0.5 #Juke note: Once we rework orcs, make them prone to disease
+		#epidemic_resistance = -10
+		#epidemic_travel_danger = 10
 		
 		volcanic_plains_travel_danger = volcanic_plains_high_danger_reduction
 		halls_travel_danger = halls_high_danger_reduction
@@ -554,6 +741,11 @@ heritage_goblin = { #juke note: boni should be adjusted later
 
 heritage_southern_adunaic = {
 	type = heritage
+	parameters = {
+		heritage_group_numenorean = yes
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -567,10 +759,13 @@ heritage_southern_adunaic = {
 
 heritage_troll = {
 	type = heritage
+	parameters = {
+		heritage_family_creatures_of_morgoth = yes
+		is_orc_heritage = yes
+	}
 	character_modifier = {
 		fertility = 0.3
 		health = 1
-		negate_health_penalty_add = 1
 		
 		volcanic_plains_travel_danger = volcanic_plains_high_danger_reduction
 		halls_travel_danger = halls_high_danger_reduction
@@ -593,6 +788,11 @@ heritage_troll = {
 
 heritage_tedjin = {
 	type = heritage
+	parameters = {
+		heritage_group_talataerim = yes
+		heritage_family_easterling = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -606,6 +806,11 @@ heritage_tedjin = {
 
 heritage_tulwangi = {
 	type = heritage
+	parameters = {
+		heritage_group_apysaic = yes
+		heritage_family_haradrim = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -619,9 +824,14 @@ heritage_tulwangi = {
 
 heritage_undead = {
 	type = heritage
+	parameters = {
+		heritage_family_creatures_of_morgoth = yes
+		no_lifestyle_xp_reduction_from_numenorean_blood = yes
+	}
 	character_modifier  = {
+		stress_gain_mult = -2
 		monthly_lifestyle_xp_gain_mult = -0.75
-		rf_eruhini_opinion = -100
+		rf_eruhini_opinion = -100 
 	}
 	is_shown = {
 		heritage_is_shown_trigger = {
@@ -673,8 +883,10 @@ heritage_longbeard = {
 	type = heritage
 
 	parameters = {
+		heritage_group_khazad = yes
 		can_use_mining_activity = yes
 		unlock_full_delving = yes
+		is_dwarf_heritage = yes
 	}
 
 	character_modifier = {
@@ -685,13 +897,13 @@ heritage_longbeard = {
 		health = 0.5
 		epidemic_resistance = 100
 		negate_health_penalty_add = 7
-		army_damage_mult = 1
-		army_toughness_mult = 1
 		levy_size = -0.5
 		monthly_lifestyle_xp_gain_mult = -0.2
 		halls_travel_danger = halls_high_danger_reduction
 		mountains_travel_danger = mountains_high_danger_reduction
 		hills_travel_danger = hills_high_danger_reduction
+		levy_attack = 10
+		levy_toughness = 10
 		
 		#orcish_religion_opinion = -500
 	}
@@ -710,8 +922,10 @@ heritage_firebeard = {
 	type = heritage
 
 	parameters = {
+		heritage_group_khazad = yes
 		can_use_mining_activity = yes
 		unlock_full_delving = yes
+		is_dwarf_heritage = yes
 	}
 
 	character_modifier = {
@@ -722,13 +936,13 @@ heritage_firebeard = {
 		health = 0.5
 		epidemic_resistance = 100
 		negate_health_penalty_add = 7
-		army_damage_mult = 1
-		army_toughness_mult = 1
 		levy_size = -0.5
 		monthly_lifestyle_xp_gain_mult = -0.2
 		halls_travel_danger = halls_high_danger_reduction
 		mountains_travel_danger = mountains_high_danger_reduction
 		hills_travel_danger = hills_high_danger_reduction
+		levy_attack = 10
+		levy_toughness = 10
 		
 		#orcish_religion_opinion = -500
 	}
@@ -747,8 +961,10 @@ heritage_broadbeam = {
 	type = heritage
 
 	parameters = {
+		heritage_group_khazad = yes
 		can_use_mining_activity = yes
 		unlock_full_delving = yes
+		is_dwarf_heritage = yes
 	}
 
 	character_modifier = {
@@ -759,8 +975,8 @@ heritage_broadbeam = {
 		health = 0.5
 		epidemic_resistance = 100
 		negate_health_penalty_add = 7
-		army_damage_mult = 1
-		army_toughness_mult = 1
+		levy_attack = 10
+		levy_toughness = 10
 		levy_size = -0.5
 		monthly_lifestyle_xp_gain_mult = -0.2
 		halls_travel_danger = halls_high_danger_reduction
@@ -784,8 +1000,10 @@ heritage_ironfist = {
 	type = heritage
 
 	parameters = {
+		heritage_group_khazad = yes
 		can_use_mining_activity = yes
 		unlock_full_delving = yes
+		is_dwarf_heritage = yes
 	}
 
 	character_modifier = {
@@ -796,8 +1014,8 @@ heritage_ironfist = {
 		health = 0.5
 		epidemic_resistance = 100
 		negate_health_penalty_add = 7
-		army_damage_mult = 1
-		army_toughness_mult = 1
+		levy_attack = 10
+		levy_toughness = 10
 		levy_size = -0.5
 		monthly_lifestyle_xp_gain_mult = -0.2
 		halls_travel_danger = halls_high_danger_reduction
@@ -821,8 +1039,10 @@ heritage_stiffbeard = {
 	type = heritage
 
 	parameters = {
+		heritage_group_khazad = yes
 		can_use_mining_activity = yes
 		unlock_full_delving = yes
+		is_dwarf_heritage = yes
 	}
 
 	character_modifier = {
@@ -833,8 +1053,8 @@ heritage_stiffbeard = {
 		health = 0.5
 		epidemic_resistance = 100
 		negate_health_penalty_add = 7
-		army_damage_mult = 1
-		army_toughness_mult = 1
+		levy_attack = 10
+		levy_toughness = 10
 		levy_size = -0.5
 		monthly_lifestyle_xp_gain_mult = -0.2
 		halls_travel_danger = halls_high_danger_reduction
@@ -858,8 +1078,10 @@ heritage_blacklock = {
 	type = heritage
 
 	parameters = {
+		heritage_group_khazad = yes
 		can_use_mining_activity = yes
 		unlock_full_delving = yes
+		is_dwarf_heritage = yes
 	}
 
 	character_modifier = {
@@ -870,8 +1092,8 @@ heritage_blacklock = {
 		health = 0.5
 		epidemic_resistance = 100
 		negate_health_penalty_add = 7
-		army_damage_mult = 1
-		army_toughness_mult = 1
+		levy_attack = 10
+		levy_toughness = 10
 		levy_size = -0.5
 		monthly_lifestyle_xp_gain_mult = -0.2
 		halls_travel_danger = halls_high_danger_reduction
@@ -895,8 +1117,10 @@ heritage_stonefoot = {
 	type = heritage
 
 	parameters = {
+		heritage_group_khazad = yes
 		can_use_mining_activity = yes
 		unlock_full_delving = yes
+		is_dwarf_heritage = yes
 	}
 
 	character_modifier = {
@@ -907,8 +1131,8 @@ heritage_stonefoot = {
 		health = 0.5
 		epidemic_resistance = 100
 		negate_health_penalty_add = 7
-		army_damage_mult = 1
-		army_toughness_mult = 1
+		levy_attack = 10
+		levy_toughness = 10
 		levy_size = -0.5
 		monthly_lifestyle_xp_gain_mult = -0.2
 		halls_travel_danger = halls_high_danger_reduction
@@ -930,6 +1154,11 @@ heritage_stonefoot = {
 
 heritage_north_khailuza = { # Chey-Sart (alternatively: Khey Sârt in southern Khailuzan)
 	type = heritage
+	parameters = {
+		heritage_group_talataerim = yes
+		heritage_family_easterling = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
@@ -943,12 +1172,34 @@ heritage_north_khailuza = { # Chey-Sart (alternatively: Khey Sârt in southern K
 
 heritage_south_khailuza = { # Bay of Ormal, encompassing Khy, Anarike, and some cultures of Sirayn
 	type = heritage
+	parameters = {
+		heritage_group_talataerim = yes
+		heritage_family_easterling = yes
+		is_human_heritage = yes
+	}
 	character_modifier  = {
 		halls_advantage = -10
 	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_south_khailuza
+		}
+	}
+	audio_parameter = mena
+}
+
+heritage_womaw = { # The "Dragon-Lords" of the farthest east, taught by the dragon Utumkodur in the first centuries of the Second Age
+	type = heritage
+	parameters = {
+		heritage_family_easterling = yes
+		is_human_heritage = yes
+	}
+	character_modifier  = {
+		halls_advantage = -10
+	}
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_womaw
 		}
 	}
 	audio_parameter = mena
