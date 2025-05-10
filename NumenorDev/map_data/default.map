@@ -12,13 +12,19 @@ adjacencies = "adjacencies.csv"
 island_region = "island_region.txt"
 seasons = "seasons.txt"
 
-## Númenor Submod ##
+#############
+# NUMENOR SUBMOD RESERVED PROVINCES
+#############
 
 # Numenor Submod Sea Zones
-sea_zones = LIST { 5307 5308 5315 5316 5317 5318 5319 5320 5321 5323 5324 5325 5326 5330 5331 5332 5333 5334 5335 5336 5337 5338 5376 5398 5411 }
+sea_zones = LIST { 6025 6026 6094 6116 }
+sea_zones = RANGE { 6033 6039 }
+sea_zones = RANGE { 6041 6044 }
+sea_zones = RANGE { 6048 6056 }
 
 #Numenor
-impassable_mountains = LIST { 5310 5349 5380 5394 5457 5472 5500 5501 5502 5503 5504 5505 5506 5507 5508 5509 5510 5511 5512 5513 5514 5515 5516 5517 5518 5519 5520 5521 5522 }
+impassable_mountains = LIST { 6028 6098 6112 6175 6190 }
+impassable_mountains = RANGE { 6218 6240 }
 
 #############
 # SEA ZONES
@@ -30,11 +36,12 @@ sea_zones = RANGE { 1054 1139 }
 sea_zones = RANGE { 1141 1150 }
 sea_zones = RANGE { 1152 1169 }
 sea_zones = RANGE { 3090 3096 }
-sea_zones = RANGE { 5592 5633 }
-sea_zones = RANGE { 5932 5958 }
 
 # Sea of Rhun
 sea_zones = RANGE { 1215 1219 }
+
+# Bay of Ormal 
+sea_zones = RANGE { 7218 7239 }
 
 ###############
 # MAJOR RIVERS
@@ -55,20 +62,21 @@ river_provinces = RANGE { 4103 4114 }
 river_provinces = LIST { 5634 5635 }
 river_provinces = RANGE { 5959 5961 }
 
+# Bay of Ormal 
+river_provinces = RANGE { 7213 7217 }
+
 ########
 # LAKES
 ########
 
-lakes = LIST { 1231 1233 1234 1235 1236 }
+lakes = RANGE { 1231 1236 }
 lakes = RANGE { 1240 1242 }
-lakes = RANGE { 1244 1251 }
+lakes = RANGE { 1245 1251 }
 lakes = RANGE { 1253 1257 }
 #lakes = LIST { 1256 } # Nen Hithoel (Amon Hen)
 lakes = RANGE { 1259 1262 }
-lakes = RANGE { 2248 2249 } # Uhtyara Lake of Abrakhan
+lakes = LIST { 2248 } # Uhtyara Lake of Abrakhan
 lakes = LIST { 4085 } # Lake Ata of Khand
-lakes = RANGE { 5572 5575 } # Thani Hazad Lakes
-lakes = RANGE { 5928 5931 } # Mag Tumag Lakes
 
 #####################
 # IMPASSABLE TERRAIN
@@ -90,12 +98,9 @@ impassable_mountains = RANGE { 762 767 } # Ered Nimrais
 impassable_mountains = RANGE { 1021 1024 } # Ered Nimrais
 impassable_mountains = RANGE { 1344 1349 } # Ered Nimrais
 impassable_mountains = RANGE { 1352 1367 } # Ered Nimrais
-impassable_mountains = RANGE { 1368 1376 } # Belfalas
+impassable_mountains = RANGE { 1368 1378 } # Belfalas
 impassable_mountains = LIST { 1292 } # Tolfalas
 impassable_mountains = LIST { 4116 } # Falls of Rauros
-impassable_mountains = RANGE { 6259 6267 } # White Mountains
-impassable_mountains = LIST { 6268 } # Isen River
-impassable_mountains = LIST { 6269 } # Entwash River
 
 #Eredwaith
 impassable_mountains = LIST { 1379 } # Hills of Dunland
@@ -130,7 +135,6 @@ impassable_mountains = LIST { 3070 3071 } # Great Dune Sea
 impassable_mountains = LIST { 2191 } # Eastern Harad
 impassable_mountains = RANGE { 3072 3088 } # Eastern Harad
 impassable_mountains = RANGE { 5302 5306 } # Yellow Mountains
-impassable_mountains = RANGE { 5311 5316 } # Yellow Mountains
 
 #Khand
 impassable_mountains = RANGE { 4086 4101 } # Khand
@@ -159,27 +163,20 @@ impassable_mountains = RANGE { 3014 3015 } # Nafarati
 
 #Thani-Hazad
 impassable_mountains = RANGE { 3036 3053 } # An-Balkumagan
-impassable_mountains = RANGE { 5576 5591 } # Peninsula
-impassable_mountains = RANGE { 5636 5639 } # Peninsula
 
-#Twin Kingdoms and Usakan
-impassable_mountains = LIST { 5873 } # Mag
-impassable_mountains = RANGE { 5890 5916 } # Mag, Tumag, Usakan and Tanturak
-impassable_mountains = RANGE { 5917 5927 } # Yellow Mountains
-impassable_mountains = RANGE { 5990 5996 } # Yellow Mountains
-impassable_mountains = RANGE { 6017 6024 } # Yellow Mountains
-
-#Misty Mountains # Angmar
+#Eriador
 impassable_mountains = RANGE { 4940 4990 } # Misty Mountains
 impassable_mountains = LIST { 3899 4341 4792 2303 3067 3069 1243 } # Misty Mountains
 impassable_mountains = RANGE { 5091 5110 } # Misty Mountains
 impassable_mountains = RANGE { 5231 5235 } # Misty Mountains
 impassable_mountains = RANGE { 5253 5278 } # Misty Mountains
-impassable_mountains = RANGE { 5307 5310 } # Misty Mountains
-impassable_mountains = LIST { 1232 4642 4643 } #Old Forest
-
-# Blue Mountains
 impassable_mountains = RANGE { 5236 5238 } # Blue Mountains
+
+# Khy
+impassable_mountains = RANGE { 6671 6721 } # Khy
+impassable_mountains = LIST { 7212 } # Khy
+impassable_mountains = RANGE { 7118 7139 } # Harshandatt
+impassable_mountains = RANGE { 7140 7166 } # Sirayn
 
 
 ############
