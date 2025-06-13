@@ -4,7 +4,7 @@
 ## Arandor ##
 ## Armenelos ##
 
-5433 = {	#Armenelos (b_armenelos)
+6151 = {	#Armenelos (b_armenelos)
 	culture = black_numenorean
 	religion = melkorite
 	holding = castle_holding
@@ -25,7 +25,21 @@
 		special_building = wonder_armenelos_02
 	}
 }
-5426 = {	#Minalo (b_minalo)
+6148 = {	#Arost (b_arost)
+	culture = black_numenorean
+	religion = melkorite
+	holding = none
+	4002.1.1 = {
+    	culture = adunaic
+		religion = faith_numenorean
+		holding = none
+    }
+    6405.1.1 = {
+       religion = faith_adunaic
+	   holding = none
+    }
+}
+6144 = {	#Minalo (b_minalo)
 	culture = black_numenorean
 	religion = melkorite
 	holding = city_holding
@@ -43,24 +57,10 @@
 		}
 	}
 }
-5430 = {	#Arost (b_arost)
-	culture = black_numenorean
-	religion = melkorite
-	holding = none
-	4002.1.1 = {
-    	culture = adunaic
-		religion = faith_numenorean
-		holding = none
-    }
-    6405.1.1 = {
-       religion = faith_adunaic
-	   holding = none
-    }
-}
 
 ## Romenna ##
 
-5424 = {	#Romenna (b_romenna)
+6142 = {	#Romenna (b_romenna)
 	culture = black_numenorean
 	religion = melkorite
 	holding = castle_holding
@@ -81,7 +81,7 @@
 		special_building = wonder_romenna_02
 	}
 }
-5418 = {	#Hallas (b_hallas)
+6136 = {	#Hallas (b_hallas)
 	culture = black_numenorean
 	religion = melkorite
 	holding = none
@@ -95,7 +95,7 @@
 		holding = none
 	}
 }
-5419 = {	#Sibrien (b_sibrien)
+6137 = {	#Sibrien (b_sibrien)
 	culture = black_numenorean
 	religion = melkorite
 	holding = city_holding
@@ -116,7 +116,7 @@
 
 ## Uinen ##
 
-5431 = {	#Uinen (b_earendos)
+6149 = {	#Uinen (b_earendos)
 	culture = black_numenorean
 	religion = melkorite
 	holding = castle_holding
@@ -135,7 +135,7 @@
 		}
 	}
 }
-5428 = {	#Tol Uinen (b_tol_uinen)
+6146 = {	#Tol Uinen (b_tol_uinen)
 	culture = black_numenorean
 	religion = melkorite
 	holding = church_holding
@@ -159,7 +159,7 @@
 ## Meneltarma ##
 ## Meneltarma ##
 
-5441 = {	#Meneltarma (b_meneltarma)
+6159 = {	#Meneltarma (b_meneltarma)
 	culture = black_numenorean
 	religion = faith_kings_men_numenorean
 	holding = church_holding
@@ -179,7 +179,7 @@
 		special_building = wonder_meneltarma_02
 	}
 }
-5432 = {	#Noirinan
+6150 = {	# b_norinan
 	culture = black_numenorean
 	religion = faith_kings_men_numenorean
 	holding = none
@@ -197,7 +197,7 @@
 ## Sirinore ##
 ## Sirinore ##
 
-5401 = {	#Siropela (b_siropela)
+6119 = {	#Siropela (b_siropela)
 	culture = black_numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
@@ -216,21 +216,7 @@
 		}
 	}
 }
-5402 = {	#Numar (b_numar)
-	culture = black_numenorean
-	religion = faith_kings_men_numenorean
-	holding = none
-	4002.1.1 = {
-        culture = adunaic
-		religion = faith_numenorean
-		holding = none
-    }
-    6405.1.1 = {
-        religion = faith_adunaic
-		holding = none
-    }
-}
-5403 = {	#Tarkalios (b_tarkalios)
+6121 = {	#Tarkalios (b_tarkalios)
 	culture = black_numenorean
 	religion = faith_kings_men_numenorean
 	holding = city_holding
@@ -248,10 +234,24 @@
 		}
 	}
 }
+6120 = {	#Numar (b_numar)
+	culture = black_numenorean
+	religion = faith_kings_men_numenorean
+	holding = none
+	4002.1.1 = {
+        culture = adunaic
+		religion = faith_numenorean
+		holding = none
+    }
+    6405.1.1 = {
+        religion = faith_adunaic
+		holding = none
+    }
+}
 
 ## Melonan ##
 
-5420 = {	#Melonan (b_melonan)
+6138 = {	#Melonan (b_melonan)
 	culture = black_numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
@@ -270,7 +270,21 @@
 		}
 	}
 }
-5417 = {	#Rastor (b_rastorni)
+6143 = {	#Forsiril (b_forsiril)
+	culture = black_numenorean
+	religion = faith_kings_men_numenorean
+	holding = none
+	4002.1.1 = {
+        culture = adunaic
+		religion = faith_numenorean
+		holding = none
+    }
+    6405.1.1 = {
+        religion = faith_adunaic
+		holding = none
+    }
+}
+6135 = {	#Rastor (b_rastorni)
 	culture = black_numenorean
 	religion = faith_kings_men_numenorean
 	holding = city_holding
@@ -288,25 +302,11 @@
 		}
 	}
 }
-5425 = {	#Forsiril (b_forsiril)
-	culture = black_numenorean
-	religion = faith_kings_men_numenorean
-	holding = none
-	4002.1.1 = {
-        culture = adunaic
-		religion = faith_numenorean
-		holding = none
-    }
-    6405.1.1 = {
-        religion = faith_adunaic
-		holding = none
-    }
-}
 
 ## Emerie ##
 ## Erendis ##
 
-5400 = {	#Erendis (b_erendis)
+6118 = {	#Erendis (b_erendis)
 	culture = numenorean
 	religion = faith_numenorean
 	holding = castle_holding
@@ -327,7 +327,7 @@
 		special_building = wonder_erendis_01
 	}
 }
-5405 = {	#Emerie (b_emerie)
+6123 = {	#Emerie (b_emerie)
 	culture = numenorean
 	religion = faith_numenorean
 	holding = city_holding
@@ -345,7 +345,7 @@
 		}
 	}
 }
-5389 = {	#Inzil (b_almaida)
+6107 = {	#Inzil (b_almaida)
 	culture = numenorean
 	religion = faith_numenorean
 	holding = none
