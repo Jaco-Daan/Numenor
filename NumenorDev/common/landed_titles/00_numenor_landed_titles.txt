@@ -9,6 +9,11 @@ e_numenor = {
     capital = c_armenelos
 	cultural_names = {
 		name_list_adunaic = cn_numenor_adunaic
+		name_list_mardrukan = cn_numenor_adunaic
+		name_list_umbarean = cn_numenor_adunaic
+		name_list_south_adunaic = cn_numenor_adunaic
+		name_list_kharadunai = cn_numenor_adunaic
+		name_list_bellakaze = cn_numenor_adunaic
 	}
 	k_mittalmar = {
 		color = { 133 139 222 }
@@ -21,9 +26,25 @@ e_numenor = {
 			capital = c_armenelos
 			
 			c_armenelos = {
+				cultural_names = {
+					name_list_adunaic = cn_armenelos_adunaic
+					name_list_mardrukan = cn_armenelos_adunaic
+					name_list_umbarean = cn_armenelos_adunaic
+					name_list_south_adunaic = cn_armenelos_adunaic
+					name_list_kharadunai = cn_armenelos_adunaic
+					name_list_bellakaze = cn_armenelos_adunaic
+				}
 				color = { 54 82 118 }
 				
 				b_armenelos = {
+					cultural_names = {
+						name_list_adunaic = cn_armenelos_adunaic
+						name_list_mardrukan = cn_armenelos_adunaic
+						name_list_umbarean = cn_armenelos_adunaic
+						name_list_south_adunaic = cn_armenelos_adunaic
+						name_list_kharadunai = cn_armenelos_adunaic
+						name_list_bellakaze = cn_armenelos_adunaic
+					}
 					province = 6151
 					
 					color = { 184 200 207 }	

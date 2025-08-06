@@ -262,6 +262,7 @@
  bay_of_eldanna: "Bay of Eldanna"
  
  d_adunai: "The Adûnai"
- cn_numenor_adunaic: "Númenor"
+ cn_numenor_adunaic: "Númenor" # Alrain Note: Why not Anadûnê
+ cn_armenelos_adunaic: "Arminalêth"
  
  the_: "the " #Used for Article Loc

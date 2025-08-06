@@ -13,9 +13,11 @@
  
 ### Quenya ###
 
+ tirista_ntar_aran_gloss: "[quenya_short|E] #bold Tirista 'nTar-Aran#! means 'Guards of the High King'." # Tirista Taro would be better probably, or Tirista Arano
+
 ### Sindarin ###
 
- niben_aranruth_gloss: "[sindarin_short|E] #bold Niben Aranrúth#! means 'Little King's-Ire', and is the blade of the Kings of Númenor, created after its predecessor was lost to Pharazôn's failed armada."
+ niben_aranruth_gloss: "[sindarin_short|E] #bold Niben Aranrúth#! means 'Little King's-Ire', and is the blade of the Kings of Númenor, created after its predecessor was lost to [pharazon|E]'s failed armada."
 
 ### Silvan/Nandorin ###
 
@@ -56,6 +58,14 @@
 ############ Human Tongues ############
 
 ### Adunaic ###
+
+adunaben_gloss: "[adunaic_short|E] #bold Adûnabên#! means 'Servant of the West', the name of the premier faction and faith of [numenor|E]."
+
+batan_an_phazan_gloss: "[adunaic_short|E] #bold Batân an-Phazân#! means 'Path of the Prince', a faction and faith of [numenor|E] founded by Prince Dâirabên."
+
+narduthoni_gloss: "[adunaic_short|E] #bold Nardûthônî#! means 'Many-soldiers', referring to the legions of [numenor|E]."
+
+sattaglarrama_gloss: "[adunaic_short|E] #bold Sattaglarrâma#! means 'Second Aglarrâma', the successor to [pharazon|E]'s Aglarrâma."
 
 ### Westron ###
 

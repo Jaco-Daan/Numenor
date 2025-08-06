@@ -1,27 +1,27 @@
 ﻿l_english:
  ### Númenor Submod ###
- dynn_khorahil:0 "Balkûmakhôr"
- dynn_vardurionath:0 "Vardurionath"
- dynn_azru:0 "Azruhîl"
- dynn_mab:0 "Lungumárith"
- dynn_akhor:0 "Akhôrahilôn"
- dynn_telemn:0 "Telemnacilion"
- dynn_agathor:0 "Eleronwë"
- dynn_aruthan:0 "Erubênîl"
- dynn_elenore:0 "Zôrnagarioni"
- dynn_arialome:0 "Minulzîri"
- dynn_arialomedaughter:0 "Adûnaphazôrêth"
- dynn_azulhin:0 "Azûlhîn"
- dynn_borodiriathtwo:0 "Ûrêzagarêth"
- dynn_siril:0 "Carnistiron"
- dynn_jewel:0 "Zimirlôn"
- dynn_gimilkhadson:0 "Gimilkhârêth"
- dynn_jeweldaughter:0 "Adûninzihîl"
- dynn_ciryatwo:0 "Ûrîthân"
- dynn_borodirure:0 "Atanaherion"
- dynn_ondo:0 "Nôlônduran"
- dynn_ondobastard:0 "Balkuzâl"
- dynn_khorandor:0 "Balkumên"
- dynn_syntar:0 "Syntarian"
- dynn_urithor:0 "Ûrîthôrân"
- dynn_arkia:0 "Ferrinix"
+ dynn_khorahil: "Balkûmakhôr" # Fix to Balkûkhôr-something
+ dynn_vardurionath: "Vardurionath" # Fix to Vardurioni
+ dynn_azru: "Azruhîl"
+ dynn_mab: "Lungumárith" # Fix to Nos Lungumá
+ dynn_akhor: "Akhôrahilôn" # Fix to Akhôrahilôhîn
+ dynn_telemn: "Telemnacilion"
+ dynn_agathor: "Eleronwë" # Fix to Elerondowë or something like that
+ dynn_aruthan: "Erubênîl" # Fix to Êrubênî
+ dynn_elenore: "Zôrnagarioni" # Fix to Zôrzagarôthôrî - nagar isn't Adûnâic anyways
+ dynn_arialome: "Minulzîri"
+ dynn_arialomedaughter: "Adûnaphazôrêth" # Fix to Adûnaphazôrôhîl or something
+ dynn_azulhin: "Azûlhîn"
+ dynn_borodiriathtwo: "Ûrêzagarêth" # See above, feminine suffix wouldn't work like that
+ dynn_siril: "Carnistiron" # Fix to Carnistirion
+ dynn_jewel: "Zimirlôn" # Fix to Zimra-something? Zimir works maybe
+ dynn_gimilkhadson: "Gimilkhârêth" # See above, feminine suffix wouldn't work like that
+ dynn_jeweldaughter: "Adûninzihîl" # Fix to Adûninzilôhîl
+ dynn_ciryatwo: "Ûrîthân" # Fix to Ûrîthôrî
+ dynn_borodirure: "Atanaherion"
+ dynn_ondo: "Nôlônduran" # Nôlôndur shouldn't even be a name in Adûnâic, it's Quenya
+ dynn_ondobastard: "Balkuzâl" # Balkuzôrî
+ dynn_khorandor: "Balkumên" # Maybe something other than Balak, Magânî
+ dynn_syntar: "Syntarian" # This isn't any language we know - needs fix
+ dynn_urithor: "Ûrîthôrân" # Fix to Ûrîhîl, also in base RiE
+ dynn_arkia: "Ferrinix" # This is a vanity so it's fine but we should still fix
