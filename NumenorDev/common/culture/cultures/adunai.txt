@@ -54,5 +54,8 @@ adunaic = {
 	
 	ethnicities = {
 		1 = adunaic_ethnicity
+		1 = adunaic_ethnicity_1
+		1 = adunaic_ethnicity_2
+		1 = adunaic_ethnicity_3
 	}
 }

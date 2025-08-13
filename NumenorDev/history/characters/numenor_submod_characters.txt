@@ -657,7 +657,8 @@ lineofelros114 = {
 	religion = faith_adunaic
 	sexuality = heterosexual
 	culture = adunaic
-	dna = balkazir_dna
+	#dna = balkazir_dna
+	dna = balkazir_elerossioni_dna_wotr_1
 	
 	
 	
@@ -935,7 +936,8 @@ dolamroth43 = {
 	dynasty = dynasty_dol_amroth
 	religion = faith_adunaic
 	culture = adunaic
-	dna = ciryandur_dna
+	#dna = ciryandur_dna
+	dna = ciryandur_veanturioni_dna_wotr_1
 	
 	father = dolamroth42
 	mother = lineofelros119
@@ -1396,7 +1398,8 @@ lineofelatan43 = {
 	dynasty_house = dynasty_andunie
 	culture = adunaic
 	religion = faith_adunaic
-	dna = eldarion_dna
+	#dna = eldarion_dna
+	dna = eldarion_valandilioni_wotr_dna_1
 	
 	father = lineofelatan42
 	
@@ -2286,7 +2289,8 @@ lineofvardur26 = {
 	dynasty_house = dynasty_vardurionath
 	religion = faith_adunaic
 	culture = adunaic
-	dna = zorzagar_dna
+	#dna = zorzagar_dna
+	dna = zorzagar_vardurioni_wotr_dna_1
 	
 	father = lineofvardur25
 	
