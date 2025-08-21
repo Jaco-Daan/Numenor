@@ -1,0 +1,111 @@
+﻿bm_3000_numenor = {
+	start_date = 7033.1.1
+	is_playable = yes
+	group = bm_group_3000TA
+	
+	weight = {
+		value = 1000
+	}
+	
+	# Ar- Balkazîr, King of Númenor
+	character = {
+		name = "bookmark_numenor_balkazir"
+		dynasty = dynasty_elros
+		dynasty_splendor_level = 10
+		type = male
+		birth = 6897.1.1
+		title = e_numenor
+		government = feudal_government
+		religion = faith_adunaic
+		culture = adunaic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = lineofelros114
+		position = { 1100 350 }
+		animation = personality_honorable
+	}
+	
+	# Ciryandur, Lord of Nísimaldar
+	character = {
+		name = "bookmark_numenor_ciryandur"
+		dynasty = dynasty_dol_amroth
+		dynasty_splendor_level = 7
+		type = male
+		birth = 6882.1.1
+		title = d_nisimaldar
+		government = feudal_government
+		religion = faith_adunaic
+		culture = adunaic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = dolamroth43
+		position = { 470 490 }
+		animation = personality_greedy
+	}
+	
+	# Eldarion, Lord of Andúnie
+	character = {
+		name = "bookmark_numenor_eldarion"
+		dynasty_house = dynasty_andunie
+		dynasty_splendor_level = 10
+		type = male
+		birth = 6901.1.1
+		title = d_andunie
+		government = feudal_government
+		religion = faith_adunaic
+		culture = adunaic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = lineofelatan43
+		position = { 220 320}
+		animation = personality_bold
+	}
+	
+	# Zorzagar, Lord of Hyarnore
+	character = {
+		name = "bookmark_numenor_zorzagar"
+		dynasty_house = dynasty_vardurionath
+		dynasty_splendor_level = 10
+		type = male
+		birth = 6900.1.1
+		title = d_hyarnore
+		government = feudal_government
+		religion = faith_adunaic
+		culture = adunaic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = lineofvardur26
+		position = { 1400 550 }
+		animation = personality_content
+	}
+	
+	# Niluben, Lord of Ciryanore
+    character = {
+        name = "bookmark_numenor_niluben"
+        dynasty = dynasty_ciryandur
+        dynasty_splendor_level = 4
+        type = male
+        birth = 6998.1.1
+        title = d_ciryanore
+        government = feudal_government
+        religion = faith_adunaic
+        culture = adunaic
+        difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+        history_id = lineofciryandur34
+        position = { 1260 160 }
+        animation = personality_rational
+	}
+	
+	# Gimilzagar, Lord of the Nunduine
+	character = {
+		name = "bookmark_numenor_gimilzagar"
+		dynasty = dynasty_ciryamir
+		dynasty_splendor_level = 5
+		type = male
+		birth = 6976.1.1
+		title = d_nunduine
+		government = feudal_government
+		religion = faith_adunaic
+		culture = adunaic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = lineofciryamir31
+		position = { 700 400 }
+		animation = personality_greedy
+	}
+}
