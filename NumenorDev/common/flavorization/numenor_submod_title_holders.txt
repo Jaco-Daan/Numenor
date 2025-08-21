@@ -3,8 +3,10 @@
 	special = holder
 	tier = county
 	priority = 20
-	top_liege = no
-	only_holder = yes
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
 	heritages = { heritage_adunaic }
 }
 county_feudal_numenor = {
@@ -20,8 +22,10 @@ duke_feudal_male_numenor = {
 	special = holder
 	tier = duchy
 	priority = 33
-	top_liege = no
-	only_holder = no
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = no
+	}
 	heritages = { heritage_adunaic }
 }
 
@@ -31,8 +35,10 @@ king_feudal_male_numenor = {
 	special = holder
 	tier = kingdom
 	priority = 300
-	top_liege = no
-	only_holder = no
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = no
+	}
 	heritages = { heritage_adunaic }
 }
 
@@ -42,8 +48,10 @@ king_feudal_female_numenor = {
 	special = holder
 	tier = duchy
 	priority = 300
-	top_liege = no
-	only_holder = no
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = no
+	}
 	heritages = { heritage_adunaic }
 }
 duke_feudal_female_numenor = {
@@ -52,8 +60,10 @@ duke_feudal_female_numenor = {
 	special = holder
 	tier = duchy
 	priority = 33
-	top_liege = no
-	only_holder = no
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = no
+	}
 	heritages = { heritage_adunaic }
 }
 duchy_feudal_numenor = {
@@ -74,8 +84,10 @@ emperor_feudal_male_numenorean = {
 	special = holder
 	tier = empire
 	priority = 1000
-	top_liege = no
-	only_holder = no
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = no
+	}
 	heritages = { heritage_adunaic }
 }
 emperor_feudal_female_numenorean = {
@@ -84,8 +96,10 @@ emperor_feudal_female_numenorean = {
 	special = holder
 	tier = empire
 	priority = 1000
-	top_liege = no
-	only_holder = no
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = no
+	}
 	heritages = { heritage_adunaic }
 }
 
@@ -95,7 +109,9 @@ emperor_feudal_female_numenor_nonholder = {
 	special = holder
 	tier = empire
 	priority = 1000
-	top_liege = no
-	only_holder = no
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = no
+	}
 	heritages = { heritage_adunaic }
 }
