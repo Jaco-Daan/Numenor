@@ -25,7 +25,7 @@ sea_zones = RANGE { 6041 6044 }
 sea_zones = RANGE { 6048 6056 }
 
 #Numenor
-impassable_mountains = LIST { 6028 6098 6112 6175 6190 }
+impassable_mountains = LIST { 6028 6067 6098 6112 6175 6190 }
 impassable_mountains = RANGE { 6218 6240 }
 
 #############

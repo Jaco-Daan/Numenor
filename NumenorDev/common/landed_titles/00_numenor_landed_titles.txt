@@ -193,7 +193,7 @@ e_numenor = {
 				color = { 107 8 195 }
 			
 				b_syntaryn = {
-					province = 5412
+					province = 6130
 					
 					color = { 110 7 198 }
 				}
@@ -566,11 +566,11 @@ e_numenor = {
 					
 					color = { 6 2 190 }
 				}
-				# b_anakadar = { # Missing
-				# 	province = 5391
+				b_anakadar = {
+					province = 6109
 					
-				# 	color = { 9 10 193 }
-				# }
+					color = { 9 10 193 }
+				}
 			}
 			
 			c_edrahil = {
@@ -637,11 +637,11 @@ e_numenor = {
 					
 					color = { 28 22 200 }
 				}
-				# b_irhuzanda = { #Missing
-				# 	province = 5355
+				b_irhuzanda = { 
+					province = 6073
 					
-				# 	color = { 29 30 198 }
-				# }
+					color = { 29 30 198 }
+				}
 				b_gimilost = {
 					province = 6077
 					
@@ -672,11 +672,11 @@ e_numenor = {
 			c_kharazor = {
 				color = { 32 28 198 }
 				
-				# b_kharalonde = { # Missing
-				# 	province = 5366
+				b_kharalonde = {
+					province = 6084
 					
-				# 	color = { 40 30 198 }
-				# }
+					color = { 40 30 198 }
+				}
 				b_isilthorath = {
 					province = 6079
 					
@@ -723,11 +723,11 @@ e_numenor = {
 			c_nurmir = {
 				color = { 3 65 121 }
 				
-				# b_numir = { # Missing
-				# 	province = 5356
+				b_numir = {
+					province = 6074
 					
-				# 	color = { 4 69 122 }
-				# }
+					color = { 4 69 122 }
+				}
 				b_zirpele = {
 					province = 6072
 					
@@ -779,7 +779,7 @@ e_numenor = {
 					color = { 21 59 89 }
 				}
 				b_thagril = {
-					province = 6060
+					province = 6069
 					
 					color = { 22 60 92 }
 				}
@@ -805,11 +805,11 @@ e_numenor = {
 			c_ciryalonde = {
 				color = { 71 69 139 }
 				
-				# b_ciryalonde = { # Missing
-				# 	province = 5465
+				b_ciryalonde = {
+					province = 6183
 					
-				# 	color = { 72 70 140 }
-				# }
+					color = { 72 70 140 }
+				}
 				b_kharamir = {
 					province = 6192
 					
@@ -871,11 +871,11 @@ e_numenor = {
 			c_anariova = {
 				color = { 101 82 132 }
 				
-				# b_anariova = { # Missing
-				# 	province = 5435
+				b_anariova = {
+					province = 6153
 					
-				# 	color = { 100 76 136 }
-				# }
+					color = { 100 76 136 }
+				}
 				b_lairen = {
 					province = 6165
 					
@@ -917,11 +917,11 @@ e_numenor = {
 			c_elrova = {
 				color = { 1 10 226 }
 				
-				# b_athrad_elrova = { # Missing
-				# 	province = 5484
+				b_athrad_elrova = {
+					province = 6202
 					
-				# 	color = { 2 8 224 }
-				# }
+					color = { 2 8 224 }
+				}
 				b_undal = {
 					province = 6207
 					
@@ -1014,11 +1014,11 @@ e_numenor = {
 					
 					color = { 59 147 200 }
 				}
-				# b_alkaranda = { # Missing
-				# 	province = 5311
+				b_alkaranda = {
+					province = 6029
 					
-				# 	color = { 62 153 201 }
-				# }
+					color = { 62 153 201 }
+				}
 				b_barkastan = {
 					province = 6045
 					
@@ -1055,7 +1055,7 @@ e_numenor = {
 					color = { 54 149 200 }
 				}
 				b_phurinem = {
-					province = 6046
+					province = 6040
 					
 					color = { 56 143 199 }
 				}
@@ -1218,11 +1218,11 @@ e_numenor = {
 			c_maltenost = {
 				color = { 100 120 195 }
 				
-				# b_maltenost = { # Missing
-				# 	province = 5451
+				b_maltenost = {
+					province = 6169
 					
-				# 	color = { 99 119 196 }
-				# }
+					color = { 99 119 196 }
+				}
 				b_angal = {
 					province = 6168
 					
@@ -1279,11 +1279,11 @@ e_numenor = {
 					
 					color = { 100 106 201 }
 				}
-				# b_elnalost = { # Missing
-				# 	province = 5470
+				b_elnalost = {
+					province = 6188
 					
-				# 	color = { 101 102 206 }
-				# }
+					color = { 101 102 206 }
+				}
 			}
 			
 			c_athrangrost = {
