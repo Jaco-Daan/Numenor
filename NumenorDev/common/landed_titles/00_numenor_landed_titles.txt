@@ -281,41 +281,6 @@ e_numenor = {
 				}
 			}
 			
-			c_tarminas = {
-				color = { 87 130 178 }
-				
-				b_tarminas = {
-					province = 6122
-					
-					color = { 89 127 181 }
-				}
-				b_eldanost = {
-					province = 6134
-					
-					color = { 90 126 182 }
-				}
-				b_uinendil = {
-					province = 6127
-					
-					color = { 87 130 181 }
-				}
-			}
-			
-			c_morionde = {
-				color = { 92 128 180 }
-				
-				b_morionde = {
-					province = 6133
-					
-					color = { 92 128 179 }
-				}
-				b_ruxola = {
-					province = 6125
-					
-					color = { 93 127 182 }
-				}
-			}
-			
 			c_nisinna = {
 				color = { 100 130 185 }
 				
@@ -622,12 +587,47 @@ e_numenor = {
 					color = { 19 12 190 }
 				}
 			}
+
+			c_tarminas = {
+				color = { 87 130 178 }
+				
+				b_tarminas = {
+					province = 6122
+					
+					color = { 89 127 181 }
+				}
+				b_eldanost = {
+					province = 6134
+					
+					color = { 90 126 182 }
+				}
+				b_uinendil = {
+					province = 6127
+					
+					color = { 87 130 181 }
+				}
+			}
+			
+			c_morionde = {
+				color = { 92 128 180 }
+				
+				b_morionde = {
+					province = 6133
+					
+					color = { 92 128 179 }
+				}
+				b_ruxola = {
+					province = 6125
+					
+					color = { 93 127 182 }
+				}
+			}
 		}
 		
 		d_zimrayan = {
 			color = { 22 18 200 }
 			
-			capital c_zimraopele
+			capital = c_zimraopele
 			
 			c_zimraopele = {
 				color = { 29 20 198 }
