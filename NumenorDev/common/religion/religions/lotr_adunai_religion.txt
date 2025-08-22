@@ -265,7 +265,7 @@
 
 		faith_dairaben = {
 			color = { 75 89 156 }
-			icon = numenorean_star
+			icon = custom_adunaben_helm
 			graphical_faith = catholic_gfx
 			religious_head = d_adunai
 
