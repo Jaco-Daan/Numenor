@@ -1,0 +1,23 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+@never_primary_score = -1000
+
+e_anadunemelkor = {
+	color = "black"
+	landless = yes
+	definite_form = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_armenelos
+}
+
+d_adunai = {
+	color = { 20 0 10 }
+	destroy_on_succession = no
+	destroy_if_invalid_heir = yes
+	always_follows_primary_heir = yes
+	ruler_uses_title_name = no
+	capital = c_armenelos
+}

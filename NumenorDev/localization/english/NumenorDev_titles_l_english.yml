@@ -87,6 +87,7 @@
  c_hazdore: "Hazdórë" # Fix, Hasanórë?
  c_nidirmost: "Nídirmost" # Fix, Nidhost
  c_zorakhator: "Zorâkhatôr"
+ c_noirinan: "Noirinan"
  c_kharalonde: "Kharalondë" # Fix, Hyallondë - while mixed names are OK, we should try and avoid them due to these names being for all start dates
  c_nindamos: "Nindamos"
  c_erendis: "Erendis" # Fix, Bar Erendis probably, or Bar Beregar (Veregar?)

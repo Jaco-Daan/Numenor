@@ -305,13 +305,259 @@ e_numenor = {
 					color = { 21 16 16 }
 				}
 			}
+
+			c_sorno = {
+				color = { 2 11 227 }
+				
+				b_sorno = {
+					province = 6199
+					
+					color = { 3 9 225 }
+				}
+				b_ciryator = {
+					province = 6189
+					
+					color = { 4 10 224 }
+				}
+				b_daer = {
+					province = 6177
+					
+					color = { 6 11 226 }
+				}
+			}
+		}
+	}
+
+	k_orrostar = {
+		color = { 69 69 139 }
+		
+		capital = c_ciryalonde
+		
+		d_ciryanore = {
+			color = { 70 68 140 }
+			
+			capital = c_ciryalonde
+			
+			c_ciryalonde = {
+				color = { 71 69 139 }
+				
+				b_ciryalonde = {
+					province = 6183
+					
+					color = { 72 70 140 }
+				}
+				b_kharamir = {
+					province = 6192
+					
+					color = { 73 71 139 }
+				}
+				b_lokhuzor = {
+					province = 6206
+					
+					color = { 72 70 140 }
+				}
+				b_elaton = {
+					province = 6203
+					
+					color = { 83 69 122 }
+				}
+			}
+			
+			c_vinyon = {
+				color = { 80 70 120 }
+				
+				b_vinyon = {
+					province = 6176
+					
+					color = { 79 72 123 }
+				}
+				b_sakal = {
+					province = 6184
+					
+					color = { 80 75 120 }
+				}
+				b_gulura = {
+					province = 6178
+					
+					color = { 81 74 119 }
+				}
+			}
+			
+			c_elorna = {
+				color = { 81 72 118 }
+				
+				b_elorna = {
+					province = 6205
+					
+					color = { 82 71 119 }
+				}
+				b_ziran = {
+					province = 6208
+					
+					color = { 82 70 121 }
+				}
+			}
+		}
+		
+		d_khorandor = {
+			color = { 100 80 130 }
+			
+			capital = c_anariova
+			
+			c_anariova = {
+				color = { 101 82 132 }
+				
+				b_anariova = {
+					province = 6153
+					
+					color = { 100 76 136 }
+				}
+				b_lairen = {
+					province = 6165
+					
+					color = { 102 78 140 }
+				}
+				b_khoralonde = {
+					province = 6156
+					
+					color = { 103 79 145 }
+				}
+			}
+			
+			c_baithal = {
+				color = { 105 89 140 }
+				
+				b_baithal = {
+					province = 6157
+					
+					color = { 109 90 142 }
+				}
+				b_lante = {
+					province = 6161
+					
+					color = { 111 92 141 }
+				}
+				b_minyest = {
+					province = 6167
+					
+					color = { 120 95 140 }
+				}
+			}
+		}
+		
+		d_elenore = {
+			color = { 0 0 225 }
+			
+			capital = c_elrova
+			
+			c_elrova = {
+				color = { 1 10 226 }
+				
+				b_athrad_elrova = {
+					province = 6202
+					
+					color = { 2 8 224 }
+				}
+				b_undal = {
+					province = 6207
+					
+					color = { 3 9 226 }
+				}
+				b_kharlokh = {
+					province = 6195
+					
+					color = { 4 10 228 }
+				}
+			}
+			
+			c_elenduin = {
+				color = { 10 20 230 }
+				
+				b_elenduin = {
+					province = 6170
+					
+					color = { 11 22 231 }
+				}
+				b_arminal = {
+					province = 6182
+					
+					color = { 13 24 234 }
+				}
+				b_artara = {
+					province = 6166
+					
+					color = { 14 21 235 }
+				}
+			}
 		}
 	}
 	
 	k_hyarrostar = {
 		color = { 26 24 83 }
 		
-		capital = c_opele_ancalimonva
+		capital = c_nindamos
+
+
+		d_nindamos = {
+			color = { 0 82 164 }
+
+			capital = c_nindamos
+			
+			c_nindamos = {
+				color = { 2 83 163 }
+				
+				b_nindamos = {
+					province = 6096
+					
+					color = { 2 84 162 }
+				}
+				b_eithel_siril = {
+					province = 6101
+					
+					color = { 3 81 168 }
+				}
+				b_uialgaer = {
+					province = 6092
+					
+					color = { 7 82 165 }
+				}
+			}
+			
+			c_cemendor = {
+				color = { 3 82 164 }
+				
+				b_cemendor = {
+					province = 6110
+					
+					color = { 3 81 165 }
+				}
+				b_imrast = {
+					province = 6093
+					
+					color = { 2 83 162 }
+				}
+				b_andumiel = {
+					province = 6097
+					
+					color = { 3 79 165 }
+				}
+			}
+
+			c_arabeleth = {
+				color = { 38 52 160 }
+				
+				b_arabeleth = {
+					province = 6081
+					
+					color = { 39 51 159 }
+				}
+				b_baronza = {
+					province = 6075
+					
+					color = { 40 49 165 }
+				}
+			}
+		}		
 		
 		d_hyarnore = {
 			color = { 24 26 84 }
@@ -392,20 +638,10 @@ e_numenor = {
 					
 					color = { 41 49 160 }
 				}
-			}
-			
-			c_arabeleth = {
-				color = { 38 52 160 }
-				
-				b_arabeleth = {
-					province = 6081
+				b_temp_6 = {
+					province = 6190
 					
-					color = { 39 51 159 }
-				}
-				b_baronza = {
-					province = 6075
-					
-					color = { 40 49 165 }
+					color = { 26 26 22 }
 				}
 			}
 			
@@ -443,6 +679,11 @@ e_numenor = {
 					
 					color = { 79 113 168 }
 				}
+				b_tompolle = {
+					province = 6124
+					
+					color = { 78 116 160 }
+				}
 			}
 			
 			c_hyarnumen = {
@@ -458,59 +699,9 @@ e_numenor = {
 					
 					color = { 80 120 158 }
 				}
-				b_tompolle = {
-					province = 6124
-					
-					color = { 78 116 160 }
-				}
 			}
 		}	
-
-		d_nindamos = {
-			color = { 0 82 164 }
-
-			capital = c_nindamos
-			
-			c_nindamos = {
-				color = { 2 83 163 }
-				
-				b_nindamos = {
-					province = 6096
-					
-					color = { 2 84 162 }
-				}
-				b_eithel_siril = {
-					province = 6101
-					
-					color = { 3 81 168 }
-				}
-				b_uialgaer = {
-					province = 6092
-					
-					color = { 7 82 165 }
-				}
-			}
-			
-			c_cemendor = {
-				color = { 3 82 164 }
-				
-				b_cemendor = {
-					province = 6110
-					
-					color = { 3 81 165 }
-				}
-				b_imrast = {
-					province = 6093
-					
-					color = { 2 83 162 }
-				}
-				b_andumiel = {
-					province = 6097
-					
-					color = { 3 79 165 }
-				}
-			}
-		}	
+	
 	}
 	
 	k_hyarnustar = {
@@ -541,6 +732,11 @@ e_numenor = {
 					
 					color = { 9 10 193 }
 				}
+				b_norela = {
+					province = 6102
+					
+					color = { 12 11 197 }
+				}
 			}
 			
 			c_edrahil = {
@@ -560,31 +756,6 @@ e_numenor = {
 					province = 6103
 					
 					color = { 10 13 196 }
-				}
-				b_norela = {
-					province = 6102
-					
-					color = { 12 11 197 }
-				}
-			}
-			
-			c_farahil = {
-				color = { 9 10 184 }
-				
-				b_farahil = {
-					province = 6100
-					
-					color = { 11 7 189 }
-				}
-				b_hisieri = {
-					province = 6115
-					
-					color = { 12 9 190 }
-				}
-				b_alarkadar = {
-					province = 6106
-					
-					color = { 18 10 187 }
 				}
 				b_yozala = {
 					province = 6086
@@ -658,22 +829,7 @@ e_numenor = {
 					color = { 29 20 198 }
 				}
 			}
-			
-			c_tarmeno = {
-				color = { 30 29 200 }
-				
-				b_menost = {
-					province = 6114
-					
-					color = { 34 30 199 }
-				}
-				b_farne = {
-					province = 6111
-					
-					color = { 32 28 200 }
-				}
-			}
-			
+
 			c_kharazor = {
 				color = { 32 28 198 }
 				
@@ -691,6 +847,41 @@ e_numenor = {
 					province = 6090
 					
 					color = { 42 33 200 }
+				}
+			}
+
+			c_farahil = {
+				color = { 9 10 184 }
+				
+				b_farahil = {
+					province = 6100
+					
+					color = { 11 7 189 }
+				}
+				b_hisieri = {
+					province = 6115
+					
+					color = { 12 9 190 }
+				}
+				b_alarkadar = {
+					province = 6106
+					
+					color = { 18 10 187 }
+				}
+			}
+			
+			c_tarmeno = {
+				color = { 30 29 200 }
+				
+				b_menost = {
+					province = 6114
+					
+					color = { 34 30 199 }
+				}
+				b_farne = {
+					province = 6111
+					
+					color = { 32 28 200 }
 				}
 			}
 		}
@@ -796,186 +987,228 @@ e_numenor = {
 			}
 		}
 	}
-	
-	k_orrostar = {
-		color = { 69 69 139}
+
+	k_andustar = {
+		color = { 11 158 221 }
 		
-		capital = c_ciryalonde
+		capital = c_andunie
 		
-		d_ciryanore = {
-			color = { 70 68 140 }
+		d_andunie = {
+			color = { 10 130 182 }
 			
-			capital = c_ciryalonde
+			capital = c_andunie
 			
-			c_ciryalonde = {
-				color = { 71 69 139 }
+			c_andunie = {
+				color = { 11 129 181 }
 				
-				b_ciryalonde = {
-					province = 6183
+				b_andunie = {
+					province = 6200
 					
-					color = { 72 70 140 }
+					color = { 12 130 180 }
 				}
-				b_kharamir = {
-					province = 6192
+				b_calion = {
+					province = 6209
 					
-					color = { 73 71 139 }
+					color = { 13 131 179 }
 				}
-				b_lokhuzor = {
-					province = 6206
+				b_inzil = {
+					province = 6211
 					
-					color = { 72 70 140 }
+					color = { 12 132 180 }
+				}
+				b_philon = {
+					province = 6193
+					
+					color = { 13 130 181 }
 				}
 			}
 			
-			c_vinyon = {
-				color = { 80 70 120 }
+			c_oromet = {
+				color = { 165 136 249 }
 				
-				b_vinyon = {
-					province = 6176
+				b_oromet = {
+					province = 6191
 					
-					color = { 79 72 123 }
+					color = { 166 134 250 }
 				}
-				b_sakal = {
-					province = 6184
+				b_valalonde = {
+					province = 6197
 					
-					color = { 80 75 120 }
+					color = { 167 130 249 }
 				}
-				b_gulura = {
-					province = 6178
+				b_palantira = {
+					province = 6179
 					
-					color = { 81 74 119 }
+					color = { 168 128 252 }
 				}
 			}
-			
-			c_elorna = {
-				color = { 81 72 118 }
+
+			c_maltenost = {
+				color = { 100 120 195 }
 				
-				b_elorna = {
-					province = 6205
+				b_maltenost = {
+					province = 6169
 					
-					color = { 82 71 119 }
+					color = { 99 119 196 }
 				}
-				b_elaton = {
-					province = 6203
+				b_angal = {
+					province = 6168
 					
-					color = { 83 69 122 }
+					color = { 98 120 195 }
 				}
-				b_ziran = {
-					province = 6208
+				b_balkuman = {
+					province = 6173
 					
-					color = { 82 70 121 }
+					color = { 100 119 194 }
 				}
 			}
 		}
 		
-		d_khorandor = {
-			color = { 100 80 130 }
+		d_erest = {
+			color = { 105 133 199 }
 			
-			capital = c_anariova
+			capital = c_erest
 			
-			c_anariova = {
-				color = { 101 82 132 }
+			c_erest = {
+				color = { 102 132 190 }
 				
-				b_anariova = {
-					province = 6153
+				b_erest = {
+					province = 6163
 					
-					color = { 100 76 136 }
+					color = { 103 131 189 }
 				}
-				b_lairen = {
-					province = 6165
+				b_parmon = {
+					province = 6164
 					
-					color = { 102 78 140 }
+					color = { 102 132 192 }
 				}
-				b_khoralonde = {
-					province = 6156
+				b_telemna = {
+					province = 6210
 					
-					color = { 103 79 145 }
+					color = { 14 128 182 }
 				}
 			}
 			
-			c_baithal = {
-				color = { 105 89 140 }
+			c_meniel = {
+				color = { 120 100 200 }
 				
-				b_baithal = {
-					province = 6157
-					
-					color = { 109 90 142 }
+				b_meniel = {
+					province = 6185
+				
+					color = { 121 101 198 }
 				}
-				b_lante = {
-					province = 6161
+				b_tanamir = {
+					province = 6174
 					
-					color = { 111 92 141 }
+					color = { 120 104 197 }
 				}
-				b_minyest = {
-					province = 6167
+			}
+			
+			c_athrangrost = {
+				color = { 110 140 190 }
+				
+				b_athrangrost = {
+					province = 6204
 					
-					color = { 120 95 140 }
+					color = { 108 102 187 }
+				}
+				b_thora = {
+					province = 6212
+					
+					color = { 110 101 190 }
 				}
 			}
 		}
 		
-		d_elenore = {
-			color = { 0 0 225 }
+		d_arialome = {
+			color = { 125 99 216 }
 			
-			capital = c_elrova
+			capital = c_arialome
 			
-			c_elrova = {
-				color = { 1 10 226 }
+			c_arialome = {
+				color = { 120 100 217 }
 				
-				b_athrad_elrova = {
-					province = 6202
+				b_arialome = {
+					province = 6186
 					
-					color = { 2 8 224 }
+					color = { 119 99 216 }
 				}
-				b_undal = {
-					province = 6207
+				b_marath = {
+					province = 6194
 					
-					color = { 3 9 226 }
-				}
-				b_kharlokh = {
-					province = 6195
-					
-					color = { 4 10 228 }
+					color = { 121 101 214 }
 				}
 			}
 			
-			c_sorno = {
-				color = { 2 11 227 }
+			c_vlarion = {
+				color = { 100 110 210 }
 				
-				b_sorno = {
-					province = 6199
+				b_vlarion = {
+					province = 6180
 					
-					color = { 3 9 225 }
+					color = { 101 109 211 }
 				}
-				b_ciryator = {
-					province = 6189
+				b_sangan = {
+					province = 6171
 					
-					color = { 4 10 224 }
-				}
-				b_daer = {
-					province = 6177
-					
-					color = { 6 11 226 }
+					color = { 105 111 207 }
 				}
 			}
 			
-			c_elenduin = {
-				color = { 10 20 230 }
+			c_meryare = {
+				color = { 101 103 204 }
 				
-				b_elenduin = {
-					province = 6170
+				b_meryare = {
+					province = 6187
 					
-					color = { 11 22 231 }
+					color = { 100 106 201 }
 				}
-				b_arminal = {
-					province = 6182
+				b_elnalost = {
+					province = 6188
 					
-					color = { 13 24 234 }
+					color = { 101 102 206 }
 				}
-				b_artara = {
-					province = 6166
+			}
+			
+		}
+
+		d_nisimaldar = {
+			color = { 91 130 181 }
+			
+			capital = c_eldalonde
+			
+			c_eldalonde = {
+				color = { 90 129 180 }
+				
+				b_eldalonde = {
+					province = 6145
 					
-					color = { 14 21 235 }
+					color = { 89 130 179 }
+				}
+				b_hyarmaldar = {
+					province = 6141
+					
+					color = { 91 128 182 }
+				}
+				b_formaldar = {
+					province = 6154
+					
+					color = { 93 125 181 }
+				}
+			}
+			
+			c_nisinna = {
+				color = { 100 130 185 }
+				
+				b_nisinna = {
+					province = 6216
+					
+					color = { 99 129 184 }
+				}
+				b_oiomir = {
+					province = 6139
+					
+					color = { 98 131 185 }
 				}
 			}
 		}
@@ -1009,6 +1242,11 @@ e_numenor = {
 					
 					color = { 58 145 198 }
 				}
+				b_imrarat = {
+					province = 6047
+					
+					color = { 64 154 199 }
+				}
 			}
 			
 			c_kharutarik = {
@@ -1028,11 +1266,6 @@ e_numenor = {
 					province = 6045
 					
 					color = { 63 152 202 }
-				}
-				b_imrarat = {
-					province = 6047
-					
-					color = { 64 154 199 }
 				}
 			}
 			
@@ -1124,228 +1357,4 @@ e_numenor = {
 		}
 	}
 	
-	k_andustar = {
-		color = { 11 158 221 }
-		
-		capital = c_andunie
-		
-		d_andunie = {
-			color = { 10 130 182 }
-			
-			capital = c_andunie
-			
-			c_andunie = {
-				color = { 11 129 181 }
-				
-				b_andunie = {
-					province = 6200
-					
-					color = { 12 130 180 }
-				}
-				b_calion = {
-					province = 6209
-					
-					color = { 13 131 179 }
-				}
-				b_inzil = {
-					province = 6211
-					
-					color = { 12 132 180 }
-				}
-				b_philon = {
-					province = 6193
-					
-					color = { 13 130 181 }
-				}
-				b_telemna = {
-					province = 6210
-					
-					color = { 14 128 182 }
-				}
-			}
-			
-			c_oromet = {
-				color = { 165 136 249 }
-				
-				b_oromet = {
-					province = 6191
-					
-					color = { 166 134 250 }
-				}
-				b_valalonde = {
-					province = 6197
-					
-					color = { 167 130 249 }
-				}
-				b_palantira = {
-					province = 6179
-					
-					color = { 168 128 252 }
-				}
-			}
-		}
-		
-		d_erest = {
-			color = { 105 133 199 }
-			
-			capital = c_erest
-			
-			c_erest = {
-				color = { 102 132 190 }
-				
-				b_erest = {
-					province = 6163
-					
-					color = { 103 131 189 }
-				}
-				b_parmon = {
-					province = 6164
-					
-					color = { 102 132 192 }
-				}
-			}
-			
-			c_meniel = {
-				color = { 120 100 200 }
-				
-				b_meniel = {
-					province = 6185
-				
-					color = { 121 101 198 }
-				}
-				b_tanamir = {
-					province = 6174
-					
-					color = { 120 104 197 }
-				}
-			}
-			
-			c_maltenost = {
-				color = { 100 120 195 }
-				
-				b_maltenost = {
-					province = 6169
-					
-					color = { 99 119 196 }
-				}
-				b_angal = {
-					province = 6168
-					
-					color = { 98 120 195 }
-				}
-				b_balkuman = {
-					province = 6173
-					
-					color = { 100 119 194 }
-				}
-			}
-		}
-		
-		d_arialome = {
-			color = { 125 99 216 }
-			
-			capital = c_arialome
-			
-			c_arialome = {
-				color = { 120 100 217 }
-				
-				b_arialome = {
-					province = 6186
-					
-					color = { 119 99 216 }
-				}
-				b_marath = {
-					province = 6194
-					
-					color = { 121 101 214 }
-				}
-			}
-			
-			c_vlarion = {
-				color = { 100 110 210 }
-				
-				b_vlarion = {
-					province = 6180
-					
-					color = { 101 109 211 }
-				}
-				b_sangan = {
-					province = 6171
-					
-					color = { 105 111 207 }
-				}
-			}
-			
-			c_meryare = {
-				color = { 101 103 204 }
-				
-				b_meryare = {
-					province = 6187
-					
-					color = { 100 106 201 }
-				}
-				b_elnalost = {
-					province = 6188
-					
-					color = { 101 102 206 }
-				}
-			}
-			
-			c_athrangrost = {
-				color = { 110 140 190 }
-				
-				b_athrangrost = {
-					province = 6204
-					
-					color = { 108 102 187 }
-				}
-				b_thora = {
-					province = 6212
-					
-					color = { 110 101 190 }
-				}
-			}
-		}
-
-		d_nisimaldar = {
-			color = { 91 130 181 }
-			
-			capital = c_eldalonde
-			
-			c_eldalonde = {
-				color = { 90 129 180 }
-				
-				b_eldalonde = {
-					province = 6145
-					
-					color = { 89 130 179 }
-				}
-				b_hyarmaldar = {
-					province = 6141
-					
-					color = { 91 128 182 }
-				}
-				b_formaldar = {
-					province = 6154
-					
-					color = { 93 125 181 }
-				}
-			}
-			
-			c_nisinna = {
-				color = { 100 130 185 }
-				
-				b_nisinna = {
-					province = 6216
-					
-					color = { 99 129 184 }
-				}
-				b_oiomir = {
-					province = 6139
-					
-					color = { 98 131 185 }
-				}
-			}
-		}
-	}
 }	
