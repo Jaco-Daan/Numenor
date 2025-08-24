@@ -185,7 +185,7 @@
  b_valalonde: "Valalondë"
  b_andunie: "Andúnië"
  b_calion: "Calion" # Fix, Calondo maybe
- b_inzil: "Almaida"
+ b_inzil: "Inzil" # Fix, Inzilzâyan or Inzîlzâin
  b_philon: "Philón" # Fix, Filincemar
  b_telemna: "Telemna" # Fix, Telemmar
  b_formaldar: "Formaldar"
@@ -238,7 +238,7 @@
  b_cemendor: "Cemendor"
  b_imrast: "Imrast"
  b_andumiel: "Andúmiel" # Fix, Andúnien
- b_almaida: "Inzil" # Fix, Inzilzâyan or Inzîlzâin
+ b_almaida: "Almaida"
  b_erendis: "Erendis" # Fix, Bar Erendis probably, or Bar Beregar (Veregar?)
  b_emerie: "Emerië"
  b_siriopela: "Siropela" # Fix, Siropele

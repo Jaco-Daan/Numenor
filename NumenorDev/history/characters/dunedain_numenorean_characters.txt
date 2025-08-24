@@ -2031,7 +2031,7 @@ lineofelatan1 = {
 }
 lineofelatan2 = {					
 	name = Valandil # First Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2049,7 +2049,7 @@ lineofelatan2 = {
 }
 lineofelatan3 = {					
 	name = Anardur # Second Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2066,7 +2066,7 @@ lineofelatan3 = {
 }
 lineofelatan4 = {					
 	name = Astandil # Third Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2083,7 +2083,7 @@ lineofelatan4 = {
 }
 lineofelatan5 = {					
 	name = Lauremacil # Fourth Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2100,7 +2100,7 @@ lineofelatan5 = {
 }
 lineofelatan6 = {					
 	name = Elecar # Fifth Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2117,7 +2117,7 @@ lineofelatan6 = {
 }
 lineofelatan7 = {					
 	name = Isildur # Sixth Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2134,7 +2134,7 @@ lineofelatan7 = {
 }
 lineofelatan8 = {					
 	name = An_arion # Seventh Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2151,7 +2151,7 @@ lineofelatan8 = {
 }
 lineofelatan9 = {					
 	name = Elendur # Eighth Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2168,7 +2168,7 @@ lineofelatan9 = {
 }
 lineofelatan10 = {					
 	name = V_e_eandur # Ninth Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2185,7 +2185,7 @@ lineofelatan10 = {
 }
 lineofelatan11 = {					
 	name = M_irendil # Tenth Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2202,7 +2202,7 @@ lineofelatan11 = {
 }
 lineofelatan12 = {					
 	name = N_arendur # Eleventh Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2219,7 +2219,7 @@ lineofelatan12 = {
 }
 lineofelatan13 = {					
 	name = Elentur # Twelfth Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2236,7 +2236,7 @@ lineofelatan13 = {
 }
 lineofelatan14 = {					
 	name = Ol_orendil # Thirteenth Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2253,7 +2253,7 @@ lineofelatan14 = {
 }
 lineofelatan15 = {					
 	name = Incandur # Fourteenth Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2270,7 +2270,7 @@ lineofelatan15 = {
 }
 lineofelatan16 = {					
 	name = E_a_arendur # Fifteenth Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2287,7 +2287,7 @@ lineofelatan16 = {
 }
 lineofelatan17 = {					
 	name = Silmardil # Sixteenth Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2304,7 +2304,7 @@ lineofelatan17 = {
 }
 lineofelatan18 = {					
 	name = N_umendil # Seventeenth Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2321,7 +2321,7 @@ lineofelatan18 = {
 }
 lineofelatan19 = {					
 	name = Amandil # Eighteenth Lord of Andúnië				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
@@ -2344,7 +2344,7 @@ lineofelatan19 = {
 					
 lineofelatan20 = {					
 	name = Lind_ori_e_e 				
-	dynasty_house = dynasty_andunie				
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 					
