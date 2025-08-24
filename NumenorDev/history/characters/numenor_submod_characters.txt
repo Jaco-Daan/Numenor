@@ -993,7 +993,7 @@ dolamroth46 = {
 #HOUSE OF ELATAN#
 lineofelatan22 = {
 	name = "Anarion"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -1012,7 +1012,7 @@ lineofelatan22 = {
 
 lineofelatan23 = {
 	name = "Ancalimon"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -1030,7 +1030,7 @@ lineofelatan23 = {
 
 lineofelatan24 = { 
 	name = "Manwendil"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -1048,7 +1048,7 @@ lineofelatan24 = {
 
 lineofelatan25 = { # Lordship of Andunie restored and given to Calimehtar once Númenor is unified
 	name = "Calimehtar"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -1066,7 +1066,7 @@ lineofelatan25 = { # Lordship of Andunie restored and given to Calimehtar once N
 
 lineofelatan26 = {
 	name = "Elumir"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -1084,7 +1084,7 @@ lineofelatan26 = {
 	
 lineofelatan27 = {
 	name = "Minalcar"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -1102,7 +1102,7 @@ lineofelatan27 = {
 
 lineofelatan28 = {
 	name = "Nolondil"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -1120,7 +1120,7 @@ lineofelatan28 = {
 
 lineofelatan29 = {
 	name = "Vardamir"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -1138,7 +1138,7 @@ lineofelatan29 = {
 
 lineofelatan30 = {
 	name = "Earendur"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -1156,7 +1156,7 @@ lineofelatan30 = {
 
 lineofelatan31 = {
 	name = "Malantur"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -1174,7 +1174,7 @@ lineofelatan31 = {
 
 lineofelatan32 = {
 	name = "Axantur"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -1192,7 +1192,7 @@ lineofelatan32 = {
 
 lineofelatan33 = {
 	name = "Castamir"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -1210,7 +1210,7 @@ lineofelatan33 = {
 
 lineofelatan34 = {
 	name = "Herucar"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -1228,7 +1228,7 @@ lineofelatan34 = {
 
 lineofelatan35 = {
 	name = "Nolondur"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -1246,7 +1246,7 @@ lineofelatan35 = {
 
 lineofelatan36 = {
 	name = "Atanamir"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -1286,7 +1286,7 @@ hostamirdaughter = {
 
 lineofelatan37 = {
 	name = "Ro_o_thgimil"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -1305,7 +1305,7 @@ lineofelatan37 = {
 
 lineofelatan38 = {
 	name = "Elatan"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -1323,7 +1323,7 @@ lineofelatan38 = {
 
 lineofelatan39 = {
 	name = "Valandil"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
 	
@@ -1341,7 +1341,7 @@ lineofelatan39 = {
 
 lineofelatan40 = {
 	name = "Isilmo"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_adunaic
 	
@@ -1359,7 +1359,7 @@ lineofelatan40 = {
 
 lineofelatan41 = {
 	name = "Karbazi_i_r"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_adunaic
 	
@@ -1377,7 +1377,7 @@ lineofelatan41 = {
 
 lineofelatan42 = {
 	name = "Marmacil"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_adunaic
 	
@@ -1395,7 +1395,7 @@ lineofelatan42 = {
 
 lineofelatan43 = {
 	name = "Eldarion"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_adunaic
 	#dna = eldarion_dna
@@ -1416,7 +1416,7 @@ lineofelatan43 = {
 
 lineofelatan44 = {
 	name = "Parmaite"
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_adunaic
 	
@@ -1432,7 +1432,7 @@ lineofelatan44 = {
 lineofelatan45 = {
 	name = "Ailinel"
 	female = yes
-	dynasty_house = dynasty_andunie
+	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_adunaic
 	
