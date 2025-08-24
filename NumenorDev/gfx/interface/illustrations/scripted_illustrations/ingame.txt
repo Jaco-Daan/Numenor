@@ -5305,7 +5305,7 @@ character_view_bg = {
 					}
 					OR = {
 						has_culture = culture:dunedain_ranger
-						has_culture = culture:uialdain
+						has_culture = culture:uialedain
 					}
 				}
 				AND = {
@@ -5318,7 +5318,7 @@ character_view_bg = {
 							}
 							OR = {
 								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialdain
+								has_culture = culture:uialedain
 							}
 						}
 					}
@@ -5333,7 +5333,7 @@ character_view_bg = {
 							}
 							OR = {
 								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialdain
+								has_culture = culture:uialedain
 							}
 						}
 					}
@@ -5348,7 +5348,7 @@ character_view_bg = {
 							}
 							OR = {
 								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialdain
+								has_culture = culture:uialedain
 							}
 						}
 					}
@@ -5369,7 +5369,7 @@ character_view_bg = {
 					}
 					OR = {
 						has_culture = culture:dunedain_ranger
-						has_culture = culture:uialdain
+						has_culture = culture:uialedain
 					}
 				}
 				AND = {
@@ -5382,7 +5382,7 @@ character_view_bg = {
 							}
 							OR = {
 								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialdain
+								has_culture = culture:uialedain
 							}
 						}
 					}
@@ -5397,7 +5397,7 @@ character_view_bg = {
 							}
 							OR = {
 								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialdain
+								has_culture = culture:uialedain
 							}
 						}
 					}
@@ -5412,7 +5412,7 @@ character_view_bg = {
 							}
 							OR = {
 								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialdain
+								has_culture = culture:uialedain
 							}
 						}
 					}

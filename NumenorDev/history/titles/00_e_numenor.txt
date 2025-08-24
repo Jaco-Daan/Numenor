@@ -1260,10 +1260,10 @@ d_nunduine = {
 
 d_erelonde = {
 	629.1.1 = {
-		holder = lineofagathor5
+		holder = lineofagathor_ns5
 	}
 	941.1.1 = {
-		holder = lineofagathor6
+		holder = lineofagathor_ns6
 	}
 	1163.1.1 = {
 		holder = lineofelros72
@@ -1275,95 +1275,95 @@ d_erelonde = {
 		holder = lineofelros73
 	}
 	1774.1.1 = {
-		holder = lineofagathor7
+		holder = lineofagathor_ns7
 	}
 	1976.1.1 = {
-		holder = lineofagathor8
+		holder = lineofagathor_ns8
 	}
 	2199.1.1 = {
-		holder = lineofagathor9
+		holder = lineofagathor_ns9
 	}
 	2377.1.1 = {
-		holder = lineofagathor10
+		holder = lineofagathor_ns10
 	}
 	2638.1.1 = {
-		holder = lineofagathor11
+		holder = lineofagathor_ns11
 	}
 	2924.1.1 = {
-		holder = lineofagathor12
+		holder = lineofagathor_ns12
 	}
 	3197.1.1 = {
-		holder = lineofagathor13
+		holder = lineofagathor_ns13
 	}
 	3351.1.1 = {
-		holder = lineofagathor14
+		holder = lineofagathor_ns14
 	}
 	3573.1.1 = {
-		holder = lineofagathor15
+		holder = lineofagathor_ns15
 	}
 	3740.1.1 = {
-		holder = lineofagathor16
+		holder = lineofagathor_ns16
 	}
 	3911.1.1 = {
-		holder = lineofagathor17
+		holder = lineofagathor_ns17
 	}
 	4005.1.1 = {
-		holder = lineofagathor18
+		holder = lineofagathor_ns18
 	}
 	4237.1.1 = {
-		holder = lineofagathor19
+		holder = lineofagathor_ns19
 	}
 	4520.1.1 = {
-		holder = lineofagathor20
+		holder = lineofagathor_ns20
 	}
 	4807.1.1 = {
-		holder = lineofagathor21
+		holder = lineofagathor_ns21
 	}
 	5067.1.1 = {
-		holder = lineofagathor22
+		holder = lineofagathor_ns22
 	}
 	5268.1.1 = {
-		holder = lineofagathor23
+		holder = lineofagathor_ns23
 		liege = e_numenor
 	}
 	5473.1.1 = {
-		holder = lineofagathor24
+		holder = lineofagathor_ns24
 	}
 	5664.1.1 = {
-		holder = lineofagathor25
+		holder = lineofagathor_ns25
 	}
 	5855.1.1 = {
-		holder = lineofagathor26
+		holder = lineofagathor_ns26
 	}
 	5998.1.1 = {
-		holder = lineofagathor27
+		holder = lineofagathor_ns27
 	}
 	6101.1.1 = {
-		holder = lineofagathor28
+		holder = lineofagathor_ns28
 	}
 	6244.1.1 = {
-		holder = lineofagathor29
+		holder = lineofagathor_ns29
 	}
 	6332.1.1 = {
-		holder = lineofagathor30
+		holder = lineofagathor_ns30
 	}
 	6401.1.1 = {
-		holder = lineofagathor31
+		holder = lineofagathor_ns31
 	}
 	6460.1.1 = {
-		holder = lineofagathor32
+		holder = lineofagathor_ns32
 	}
 	6620.1.1 = {
-		holder = lineofagathor33
+		holder = lineofagathor_ns33
 	}
 	6736.1.1 = {
-		holder = lineofagathor34
+		holder = lineofagathor_ns34
 	}
 	6907.1.1 = {
-		holder = lineofagathor35
+		holder = lineofagathor_ns35
 	}
 	7025.1.1 = {
-		holder = lineofagathor36
+		holder = lineofagathor_ns36
 		liege = e_numenor
 	}
 }
@@ -2369,10 +2369,10 @@ c_nunduine = {
 
 c_erelonde = {
 	629.1.1 = {
-		holder = lineofagathor5
+		holder = lineofagathor_ns5
 	}
 	941.1.1 = {
-		holder = lineofagathor6
+		holder = lineofagathor_ns6
 	}
 	1163.1.1 = {
 		holder = lineofelros72
@@ -2384,94 +2384,94 @@ c_erelonde = {
 		holder = lineofelros73
 	}
 	1774.1.1 = {
-		holder = lineofagathor7
+		holder = lineofagathor_ns7
 	}
 	1976.1.1 = {
-		holder = lineofagathor8
+		holder = lineofagathor_ns8
 	}
 	2199.1.1 = {
-		holder = lineofagathor9
+		holder = lineofagathor_ns9
 	}
 	2377.1.1 = {
-		holder = lineofagathor10
+		holder = lineofagathor_ns10
 	}
 	2638.1.1 = {
-		holder = lineofagathor11
+		holder = lineofagathor_ns11
 	}
 	2924.1.1 = {
-		holder = lineofagathor12
+		holder = lineofagathor_ns12
 	}
 	3197.1.1 = {
-		holder = lineofagathor13
+		holder = lineofagathor_ns13
 	}
 	3351.1.1 = {
-		holder = lineofagathor14
+		holder = lineofagathor_ns14
 	}
 	3573.1.1 = {
-		holder = lineofagathor15
+		holder = lineofagathor_ns15
 	}
 	3740.1.1 = {
-		holder = lineofagathor16
+		holder = lineofagathor_ns16
 	}
 	3911.1.1 = {
-		holder = lineofagathor17
+		holder = lineofagathor_ns17
 	}
 	4005.1.1 = {
-		holder = lineofagathor18
+		holder = lineofagathor_ns18
 	}
 	4237.1.1 = {
-		holder = lineofagathor19
+		holder = lineofagathor_ns19
 	}
 	4520.1.1 = {
-		holder = lineofagathor20
+		holder = lineofagathor_ns20
 	}
 	4807.1.1 = {
-		holder = lineofagathor21
+		holder = lineofagathor_ns21
 	}
 	5067.1.1 = {
-		holder = lineofagathor22
+		holder = lineofagathor_ns22
 	}
 	5268.1.1 = {
-		holder = lineofagathor23
+		holder = lineofagathor_ns23
 	}
 	5473.1.1 = {
-		holder = lineofagathor24
+		holder = lineofagathor_ns24
 	}
 	5664.1.1 = {
-		holder = lineofagathor25
+		holder = lineofagathor_ns25
 	}
 	5855.1.1 = {
-		holder = lineofagathor26
+		holder = lineofagathor_ns26
 	}
 	5998.1.1 = {
-		holder = lineofagathor27
+		holder = lineofagathor_ns27
 	}
 	6101.1.1 = {
-		holder = lineofagathor28
+		holder = lineofagathor_ns28
 	}
 	6244.1.1 = {
-		holder = lineofagathor29
+		holder = lineofagathor_ns29
 	}
 	6332.1.1 = {
-		holder = lineofagathor30
+		holder = lineofagathor_ns30
 	}
 	6401.1.1 = {
-		holder = lineofagathor31
+		holder = lineofagathor_ns31
 	}
 	6460.1.1 = {
-		holder = lineofagathor32
+		holder = lineofagathor_ns32
 	}
 	6620.1.1 = {
-		holder = lineofagathor33
+		holder = lineofagathor_ns33
 	}
 	6736.1.1 = {
-		holder = lineofagathor34
+		holder = lineofagathor_ns34
 	}
 	6907.1.1 = {
-		holder = lineofagathor35
+		holder = lineofagathor_ns35
 	}
 	7025.1.1 = {
-		holder = lineofagathor36
+		holder = lineofagathor_ns36
 		change_development_level = 23
 	}
 }
@@ -4349,10 +4349,10 @@ c_tarminas = {
 
 c_farahil = {
 	629.1.1 = {
-		holder = lineofagathor5
+		holder = lineofagathor_ns5
 	}
 	941.1.1 = {
-		holder = lineofagathor6
+		holder = lineofagathor_ns6
 	}
 	1163.1.1 = {
 		holder = lineofelros72
@@ -4364,104 +4364,104 @@ c_farahil = {
 		holder = lineofelros73
 	}
 	1774.1.1 = {
-		holder = lineofagathor7
+		holder = lineofagathor_ns7
 	}
 	1976.1.1 = {
-		holder = lineofagathor8
+		holder = lineofagathor_ns8
 	}
 	2199.1.1 = {
-		holder = lineofagathor9
+		holder = lineofagathor_ns9
 	}
 	2377.1.1 = {
-		holder = lineofagathor10
+		holder = lineofagathor_ns10
 	}
 	2638.1.1 = {
-		holder = lineofagathor11
+		holder = lineofagathor_ns11
 	}
 	2924.1.1 = {
-		holder = lineofagathor12
+		holder = lineofagathor_ns12
 	}
 	3197.1.1 = {
-		holder = lineofagathor13
+		holder = lineofagathor_ns13
 	}
 	3351.1.1 = {
-		holder = lineofagathor14
+		holder = lineofagathor_ns14
 	}
 	3573.1.1 = {
-		holder = lineofagathor15
+		holder = lineofagathor_ns15
 	}
 	3740.1.1 = {
-		holder = lineofagathor16
+		holder = lineofagathor_ns16
 	}
 	3911.1.1 = {
-		holder = lineofagathor17
+		holder = lineofagathor_ns17
 	}
 	4005.1.1 = {
-		holder = lineofagathor18
+		holder = lineofagathor_ns18
 	}
 	4237.1.1 = {
-		holder = lineofagathor19
+		holder = lineofagathor_ns19
 	}
 	4520.1.1 = {
-		holder = lineofagathor20
+		holder = lineofagathor_ns20
 	}
 	4807.1.1 = {
-		holder = lineofagathor21
+		holder = lineofagathor_ns21
 	}
 	5067.1.1 = {
-		holder = lineofagathor22
+		holder = lineofagathor_ns22
 	}
 	5268.1.1 = {
-		holder = lineofagathor23
+		holder = lineofagathor_ns23
 	}
 	5473.1.1 = {
-		holder = lineofagathor24
+		holder = lineofagathor_ns24
 	}
 	5664.1.1 = {
-		holder = lineofagathor25
+		holder = lineofagathor_ns25
 	}
 	5855.1.1 = {
-		holder = lineofagathor26
+		holder = lineofagathor_ns26
 	}
 	5998.1.1 = {
-		holder = lineofagathor27
+		holder = lineofagathor_ns27
 	}
 	6101.1.1 = {
-		holder = lineofagathor28
+		holder = lineofagathor_ns28
 	}
 	6244.1.1 = {
-		holder = lineofagathor29
+		holder = lineofagathor_ns29
 	}
 	6332.1.1 = {
-		holder = lineofagathor30
+		holder = lineofagathor_ns30
 	}
 	6401.1.1 = {
-		holder = lineofagathor31
+		holder = lineofagathor_ns31
 	}
 	6460.1.1 = {
-		holder = lineofagathor32
+		holder = lineofagathor_ns32
 	}
 	6620.1.1 = {
-		holder = lineofagathor33
+		holder = lineofagathor_ns33
 	}
 	6736.1.1 = {
-		holder = lineofagathor34
+		holder = lineofagathor_ns34
 	}
 	6907.1.1 = {
-		holder = lineofagathor35
+		holder = lineofagathor_ns35
 	}
 	7025.1.1 = {
-		holder = lineofagathor36
+		holder = lineofagathor_ns36
 		change_development_level = 15
 	}
 }
 
 c_edrahil = {
 	629.1.1 = {
-		holder = lineofagathor5
+		holder = lineofagathor_ns5
 	}
 	941.1.1 = {
-		holder = lineofagathor6
+		holder = lineofagathor_ns6
 	}
 	1163.1.1 = {
 		holder = lineofelros72
@@ -4473,94 +4473,94 @@ c_edrahil = {
 		holder = lineofelros73
 	}
 	1774.1.1 = {
-		holder = lineofagathor7
+		holder = lineofagathor_ns7
 	}
 	1976.1.1 = {
-		holder = lineofagathor8
+		holder = lineofagathor_ns8
 	}
 	2199.1.1 = {
-		holder = lineofagathor9
+		holder = lineofagathor_ns9
 	}
 	2377.1.1 = {
-		holder = lineofagathor10
+		holder = lineofagathor_ns10
 	}
 	2638.1.1 = {
-		holder = lineofagathor11
+		holder = lineofagathor_ns11
 	}
 	2924.1.1 = {
-		holder = lineofagathor12
+		holder = lineofagathor_ns12
 	}
 	3197.1.1 = {
-		holder = lineofagathor13
+		holder = lineofagathor_ns13
 	}
 	3351.1.1 = {
-		holder = lineofagathor14
+		holder = lineofagathor_ns14
 	}
 	3573.1.1 = {
-		holder = lineofagathor15
+		holder = lineofagathor_ns15
 	}
 	3740.1.1 = {
-		holder = lineofagathor16
+		holder = lineofagathor_ns16
 	}
 	3911.1.1 = {
-		holder = lineofagathor17
+		holder = lineofagathor_ns17
 	}
 	4005.1.1 = {
-		holder = lineofagathor18
+		holder = lineofagathor_ns18
 	}
 	4237.1.1 = {
-		holder = lineofagathor19
+		holder = lineofagathor_ns19
 	}
 	4520.1.1 = {
-		holder = lineofagathor20
+		holder = lineofagathor_ns20
 	}
 	4807.1.1 = {
-		holder = lineofagathor21
+		holder = lineofagathor_ns21
 	}
 	5067.1.1 = {
-		holder = lineofagathor22
+		holder = lineofagathor_ns22
 	}
 	5268.1.1 = {
-		holder = lineofagathor23
+		holder = lineofagathor_ns23
 	}
 	5473.1.1 = {
-		holder = lineofagathor24
+		holder = lineofagathor_ns24
 	}
 	5664.1.1 = {
-		holder = lineofagathor25
+		holder = lineofagathor_ns25
 	}
 	5855.1.1 = {
-		holder = lineofagathor26
+		holder = lineofagathor_ns26
 	}
 	5998.1.1 = {
-		holder = lineofagathor27
+		holder = lineofagathor_ns27
 	}
 	6101.1.1 = {
-		holder = lineofagathor28
+		holder = lineofagathor_ns28
 	}
 	6244.1.1 = {
-		holder = lineofagathor29
+		holder = lineofagathor_ns29
 	}
 	6332.1.1 = {
-		holder = lineofagathor30
+		holder = lineofagathor_ns30
 	}
 	6401.1.1 = {
-		holder = lineofagathor31
+		holder = lineofagathor_ns31
 	}
 	6460.1.1 = {
-		holder = lineofagathor32
+		holder = lineofagathor_ns32
 	}
 	6620.1.1 = {
-		holder = lineofagathor33
+		holder = lineofagathor_ns33
 	}
 	6736.1.1 = {
-		holder = lineofagathor34
+		holder = lineofagathor_ns34
 	}
 	6907.1.1 = {
-		holder = lineofagathor35
+		holder = lineofagathor_ns35
 	}
 	7025.1.1 = {
-		holder = lineofagathor36
+		holder = lineofagathor_ns36
 		change_development_level = 14
 	}
 }

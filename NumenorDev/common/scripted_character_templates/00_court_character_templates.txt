@@ -37,7 +37,7 @@
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -119,7 +119,7 @@ secret_passagecrafter_character = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -208,7 +208,7 @@ preaching_tour_priest_character = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -345,7 +345,7 @@ head_chasing_monk_character = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -413,7 +413,7 @@ fake_artifact_peddler_character = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -482,7 +482,7 @@ adoring_fan_character = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -565,7 +565,7 @@ trepanner_character = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -731,7 +731,7 @@ random_learned_eunuch_character = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -866,7 +866,7 @@ random_barrel_character = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}

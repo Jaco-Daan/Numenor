@@ -7931,7 +7931,7 @@ lineoftelemnacil68 = {
     }
 }
 ###Hatholdir of Erelonde###
-lineofagathor1 = {
+lineofagathor_ns1 = {
     name = Agathor
 	dynasty = dynasty_agathor
     religion = faith_numenorean
@@ -7967,13 +7967,13 @@ gundordaughter = {
 	}
 }
 
-lineofagathor2 = {
+lineofagathor_ns2 = {
 	name = Gundor
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = hadorim
 	
-	father = lineofagathor1
+	father = lineofagathor_ns1
 	mother = gundordaughter
 	
 	466.1.1 = {
@@ -7984,13 +7984,13 @@ lineofagathor2 = {
 	}
 }
 
-lineofagathor3 = {
+lineofagathor_ns3 = {
 	name = Mirlong
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = hadorim
 	
-	father = lineofagathor2
+	father = lineofagathor_ns2
 	
 	501.1.1 = {
 		birth = yes
@@ -8000,13 +8000,13 @@ lineofagathor3 = {
 	}
 }
 
-lineofagathor4 = {
+lineofagathor_ns4 = {
 	name = Ragnir
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = hadorim
 	
-	father = lineofagathor3
+	father = lineofagathor_ns3
 	
 	532.1.1 = {
 		birth = yes
@@ -8016,13 +8016,13 @@ lineofagathor4 = {
 	}
 }
 
-lineofagathor5 = {
+lineofagathor_ns5 = {
 	name = Elboron
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
 	culture = numenorean
 	
-	father = lineofagathor4
+	father = lineofagathor_ns4
 	
 	trait = blood_of_numenor_10
 	
@@ -8034,7 +8034,7 @@ lineofagathor5 = {
 	}
 }
 
-lineofagathor6 = {
+lineofagathor_ns6 = {
 	name = Herion
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
@@ -8042,7 +8042,7 @@ lineofagathor6 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor5
+	father = lineofagathor_ns5
 	
 	782.1.1 = {
 		birth = yes
@@ -8052,7 +8052,7 @@ lineofagathor6 = {
 	}
 }
 
-lineofagathor7 = {
+lineofagathor_ns7 = {
 	name = Vorondil
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
@@ -8070,7 +8070,7 @@ lineofagathor7 = {
 	}
 }
 
-lineofagathor8 = {
+lineofagathor_ns8 = {
 	name = Atanalcar
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
@@ -8078,7 +8078,7 @@ lineofagathor8 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor7
+	father = lineofagathor_ns7
 	
 	1832.1.1 = {
 		birth = yes
@@ -8088,7 +8088,7 @@ lineofagathor8 = {
 	}
 }
 
-lineofagathor9 = {
+lineofagathor_ns9 = {
 	name = Eldamir
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
@@ -8096,7 +8096,7 @@ lineofagathor9 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor8
+	father = lineofagathor_ns8
 	
 	2016.1.1 = {
 		birth = yes
@@ -8106,7 +8106,7 @@ lineofagathor9 = {
 	}
 }
 
-lineofagathor10 = {
+lineofagathor_ns10 = {
 	name = Hostandil
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
@@ -8114,7 +8114,7 @@ lineofagathor10 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor9
+	father = lineofagathor_ns9
 	
 	2284.1.1 = {
 		birth = yes
@@ -8124,7 +8124,7 @@ lineofagathor10 = {
 	}
 }
 
-lineofagathor11 = {
+lineofagathor_ns11 = {
 	name = Isilmo
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
@@ -8132,7 +8132,7 @@ lineofagathor11 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor10
+	father = lineofagathor_ns10
 	
 	2576.1.1 = {
 		birth = yes
@@ -8142,7 +8142,7 @@ lineofagathor11 = {
 	}
 }
 
-lineofagathor12 = {
+lineofagathor_ns12 = {
 	name = Za_a_inabe_e_n
 	dynasty = dynasty_agathor
 	religion = faith_kings_men_numenorean
@@ -8150,7 +8150,7 @@ lineofagathor12 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor11
+	father = lineofagathor_ns11
 	
 	2862.1.1 = {
 		birth = yes
@@ -8160,7 +8160,7 @@ lineofagathor12 = {
 	}
 }
 
-lineofagathor13 = {
+lineofagathor_ns13 = {
 	name = Gimla_a_n
 	dynasty = dynasty_agathor
 	religion = faith_kings_men_numenorean
@@ -8168,7 +8168,7 @@ lineofagathor13 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor12
+	father = lineofagathor_ns12
 	
 	3019.1.1 = {
 		birth = yes
@@ -8178,7 +8178,7 @@ lineofagathor13 = {
 	}
 }
 
-lineofagathor14 = {
+lineofagathor_ns14 = {
 	name = Sakaltho_o_r
 	dynasty = dynasty_agathor
 	religion = faith_kings_men_numenorean
@@ -8186,7 +8186,7 @@ lineofagathor14 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor13
+	father = lineofagathor_ns13
 	
 	3246.1.1 = {
 		birth = yes
@@ -8196,7 +8196,7 @@ lineofagathor14 = {
 	}
 }
 
-lineofagathor15 = {
+lineofagathor_ns15 = {
 	name = Aphanuzi_i_r
 	dynasty = dynasty_agathor
 	religion = faith_kings_men_numenorean
@@ -8204,7 +8204,7 @@ lineofagathor15 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor14
+	father = lineofagathor_ns14
 	
 	3408.1.1 = {
 		birth = yes
@@ -8214,7 +8214,7 @@ lineofagathor15 = {
 	}
 }
 
-lineofagathor16 = {
+lineofagathor_ns16 = {
 	name = Azrube_e_l
 	dynasty = dynasty_agathor
 	religion = melkorite
@@ -8224,7 +8224,7 @@ lineofagathor16 = {
 	trait = vengeful
 	trait = sadistic
 	
-	father = lineofagathor15
+	father = lineofagathor_ns15
 	
 	3662.1.1 = {
 		birth = yes
@@ -8234,7 +8234,7 @@ lineofagathor16 = {
 	}
 }
 
-lineofagathor17 = {
+lineofagathor_ns17 = {
 	name = Nimruzi_i_r
 	dynasty = dynasty_agathor
 	religion = faith_kings_men_numenorean
@@ -8242,7 +8242,7 @@ lineofagathor17 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor15
+	father = lineofagathor_ns15
 	
 	3684.1.1 = {
 		birth = yes
@@ -8258,7 +8258,7 @@ lineofagathor17 = {
 	}
 }
 
-lineofagathor18 = {
+lineofagathor_ns18 = {
 	name = Tamruzi_i_r
 	dynasty = dynasty_agathor
 	religion = faith_dairaben 
@@ -8266,7 +8266,7 @@ lineofagathor18 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor17
+	father = lineofagathor_ns17
 	
 	3923.1.1 = {
 		birth = yes
@@ -8276,7 +8276,7 @@ lineofagathor18 = {
 	}
 }
 
-lineofagathor19 = {
+lineofagathor_ns19 = {
 	name = Inziladu_u_n
 	dynasty = dynasty_agathor
 	religion = faith_dairaben 
@@ -8284,7 +8284,7 @@ lineofagathor19 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor18
+	father = lineofagathor_ns18
 	
 	4204.1.1 = {
 		birth = yes
@@ -8294,7 +8294,7 @@ lineofagathor19 = {
 	}
 }
 
-lineofagathor20 = {
+lineofagathor_ns20 = {
 	name = Be_e_lzagar
 	dynasty = dynasty_agathor
 	religion = faith_dairaben 
@@ -8302,7 +8302,7 @@ lineofagathor20 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor19
+	father = lineofagathor_ns19
 	
 	4497.1.1 = {
 		birth = yes
@@ -8312,7 +8312,7 @@ lineofagathor20 = {
 	}
 }
 
-lineofagathor21 = {
+lineofagathor_ns21 = {
 	name = Zimratho_o_n
 	dynasty = dynasty_agathor
 	religion = faith_dairaben 
@@ -8320,7 +8320,7 @@ lineofagathor21 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor20
+	father = lineofagathor_ns20
 	
 	4764.1.1 = {
 		birth = yes
@@ -8330,7 +8330,7 @@ lineofagathor21 = {
 	}
 }
 
-lineofagathor22 = {
+lineofagathor_ns22 = {
 	name = Nimrube_e_n
 	dynasty = dynasty_agathor
 	religion = faith_dairaben 
@@ -8338,7 +8338,7 @@ lineofagathor22 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor21
+	father = lineofagathor_ns21
 	
 	4974.1.1 = {
 		birth = yes
@@ -8348,7 +8348,7 @@ lineofagathor22 = {
 	}
 }
 
-lineofagathor23 = {
+lineofagathor_ns23 = {
 	name = Ro_o_thgimil
 	dynasty = dynasty_agathor
 	religion = faith_dairaben 
@@ -8356,7 +8356,7 @@ lineofagathor23 = {
 	
 	trait = blood_of_numenor_10
 	
-	father = lineofagathor22
+	father = lineofagathor_ns22
 
 	5189.1.1 = {
 		birth = yes
@@ -8366,7 +8366,7 @@ lineofagathor23 = {
 	}
 }
 
-lineofagathor24 = {
+lineofagathor_ns24 = {
 	name = Tari_i_kmaga_a_n
 	dynasty = dynasty_agathor
 	religion = faith_dairaben 
@@ -8374,7 +8374,7 @@ lineofagathor24 = {
 	
 	trait = blood_of_numenor_9
 	
-	father = lineofagathor23
+	father = lineofagathor_ns23
 	
 	5392.1.1 = {
 		birth = yes
@@ -8384,7 +8384,7 @@ lineofagathor24 = {
 	}
 }
 
-lineofagathor25 = {
+lineofagathor_ns25 = {
 	name = Minluzi_i_r
 	dynasty = dynasty_agathor
 	religion = faith_dairaben 
@@ -8392,7 +8392,7 @@ lineofagathor25 = {
 	
 	trait = blood_of_numenor_9
 	
-	father = lineofagathor24
+	father = lineofagathor_ns24
 	
 	5592.1.1 = {
 		birth = yes
@@ -8402,7 +8402,7 @@ lineofagathor25 = {
 	}
 }
 
-lineofagathor26 = {
+lineofagathor_ns26 = {
 	name = Azrube_e_l
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
@@ -8410,7 +8410,7 @@ lineofagathor26 = {
 	
 	trait = blood_of_numenor_8
 	
-	father = lineofagathor25
+	father = lineofagathor_ns25
 	
 	5776.1.1 = {
 		birth = yes
@@ -8420,7 +8420,7 @@ lineofagathor26 = {
 	}
 }
 
-lineofagathor27 = {
+lineofagathor_ns27 = {
 	name = Karbazi_i_r
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
@@ -8428,7 +8428,7 @@ lineofagathor27 = {
 	
 	trait = blood_of_numenor_8
 	
-	father = lineofagathor26
+	father = lineofagathor_ns26
 	
 	5871.1.1 = {
 		birth = yes
@@ -8438,7 +8438,7 @@ lineofagathor27 = {
 	}
 }
 
-lineofagathor28 = {
+lineofagathor_ns28 = {
 	name = Do_o_lguzagar
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
@@ -8446,7 +8446,7 @@ lineofagathor28 = {
 	
 	trait = blood_of_numenor_7
 	
-	father = lineofagathor27
+	father = lineofagathor_ns27
 	
 	6020.1.1 = {
 		birth = yes
@@ -8456,7 +8456,7 @@ lineofagathor28 = {
 	}
 }
 
-lineofagathor29 = {
+lineofagathor_ns29 = {
 	name = Abatta_a_rik
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
@@ -8464,7 +8464,7 @@ lineofagathor29 = {
 	
 	trait = blood_of_numenor_7
 	
-	father = lineofagathor28
+	father = lineofagathor_ns28
 	
 	6106.1.1 = {
 		birth = yes
@@ -8474,7 +8474,7 @@ lineofagathor29 = {
 	}
 }
 
-lineofagathor30 = {
+lineofagathor_ns30 = {
 	name = Arnakho_o_r
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
@@ -8482,7 +8482,7 @@ lineofagathor30 = {
 	
 	trait = blood_of_numenor_7
 	
-	father = lineofagathor29
+	father = lineofagathor_ns29
 	
 	6227.1.1 = {
 		birth = yes
@@ -8492,7 +8492,7 @@ lineofagathor30 = {
 	}
 }
 
-lineofagathor31 = {
+lineofagathor_ns31 = {
 	name = Indilzar 
 	dynasty = dynasty_agathor
 	religion = faith_numenorean
@@ -8500,7 +8500,7 @@ lineofagathor31 = {
 	
 	trait = blood_of_numenor_7
 	
-	father = lineofagathor29
+	father = lineofagathor_ns29
 	
 	6234.1.1 = {
 		birth = yes
@@ -8510,7 +8510,7 @@ lineofagathor31 = {
 	}
 }
 
-lineofagathor32 = {
+lineofagathor_ns32 = {
 	name = Abrazo_o_r
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
@@ -8518,7 +8518,7 @@ lineofagathor32 = {
 	
 	trait = blood_of_numenor_7
 	
-	father = lineofagathor31
+	father = lineofagathor_ns31
 	
 	6397.1.1 = {
 		birth = yes
@@ -8528,16 +8528,16 @@ lineofagathor32 = {
 	}
 }
 
-lineofagathor33 = {
+lineofagathor_ns33 = {
 	name = I_I_rpa_a_n
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
 	culture = adunaic
 	
 	trait = blood_of_numenor_7
-	trait = one_handed
+	trait = maimed
 	
-	father = lineofagathor32
+	father = lineofagathor_ns32
 	
 	6514.1.1 = {
 		birth = yes
@@ -8547,7 +8547,7 @@ lineofagathor33 = {
 	}
 }
 
-lineofagathor34 = {
+lineofagathor_ns34 = {
 	name = Mu_u_rakho_o_r
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
@@ -8555,7 +8555,7 @@ lineofagathor34 = {
 	
 	trait = blood_of_numenor_7
 	
-	father = lineofagathor33
+	father = lineofagathor_ns33
 	
 	6683.1.1 = {
 		birth = yes
@@ -8565,7 +8565,7 @@ lineofagathor34 = {
 	}
 }
 
-lineofagathor35 = {
+lineofagathor_ns35 = {
 	name = Zo_o_rzagar
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
@@ -8573,7 +8573,7 @@ lineofagathor35 = {
 	
 	trait = blood_of_numenor_7
 	
-	father = lineofagathor34
+	father = lineofagathor_ns34
 	
 	6832.1.1 = {
 		birth = yes
@@ -8583,7 +8583,7 @@ lineofagathor35 = {
 	}
 }
 
-lineofagathor36 = {
+lineofagathor_ns36 = {
 	name = Abrazimi_i_r
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
@@ -8591,14 +8591,14 @@ lineofagathor36 = {
 	
 	trait = blood_of_numenor_7
 	
-	father = lineofagathor34
+	father = lineofagathor_ns34
 	
 	6845.1.1 = {
 		birth = yes
 	}
 }
 
-lineofagathor37 = {
+lineofagathor_ns37 = {
 	name = Arphaze_e_ne_e_th
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
@@ -8606,13 +8606,13 @@ lineofagathor37 = {
 	
 	trait = blood_of_numenor_7
 	
-	father = lineofagathor36
+	father = lineofagathor_ns36
 	
 	6897.1.1 = {
 		birth = yes
 	}
 }
-lineofagathor39 = {
+lineofagathor_ns39 = {
 	name = Zo_o_rnagar
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
@@ -8620,14 +8620,14 @@ lineofagathor39 = {
 	
 	trait = blood_of_numenor_7
 	
-	father = lineofagathor37
+	father = lineofagathor_ns37
 	
 	6990.1.1 = {
 		birth = yes
 	}
 }
 
-lineofagathor38 = {
+lineofagathor_ns38 = {
 	name = Naru_u_phe_e_l
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
@@ -8636,7 +8636,7 @@ lineofagathor38 = {
 	
 	trait = blood_of_numenor_7
 	
-	father = lineofagathor36
+	father = lineofagathor_ns36
 	
 	6899.1.1 = {
 		birth = yes

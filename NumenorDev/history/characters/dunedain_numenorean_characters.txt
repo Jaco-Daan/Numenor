@@ -1887,7 +1887,7 @@ lineofelros72 = {
 	religion = faith_numenorean				
 	culture = numenorean
 
-	father = lineofagathor6				
+	father = lineofagathor_ns6				
 					
 	trait = blood_of_numenor_10 				
 	trait = education_learning_4				
@@ -11055,7 +11055,7 @@ lineannabrithsecond13 = {
 
 lineannabrith11 = { # Annabrith branch
 	name = Khibilatho_o_r
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
@@ -11072,7 +11072,7 @@ lineannabrith11 = { # Annabrith branch
 }	
 lineannabrith12 = {
 	name = Minlube_e_n
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
@@ -11091,7 +11091,7 @@ lineannabrith12 = {
 }	
 lineannabrith13 = {
 	name = Nimrukha_a_z
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
@@ -11110,7 +11110,7 @@ lineannabrith13 = {
 }	
 lineannabrith14 = {
 	name = Sakaltho_o_r
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
@@ -11129,7 +11129,7 @@ lineannabrith14 = {
 }	
 lineannabrith15 = {
 	name = Tu_u_limizi_i_r
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
@@ -11148,7 +11148,7 @@ lineannabrith15 = {
 }	
 lineannabrith16 = {
 	name = Zimraba_a_r
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
@@ -11167,7 +11167,7 @@ lineannabrith16 = {
 }	
 lineannabrith17 = {
 	name = U_U_ri_i_zi_i_r
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
@@ -11186,7 +11186,7 @@ lineannabrith17 = {
 }	
 lineannabrith18 = {
 	name = Sapazu_u_r
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
@@ -11205,7 +11205,7 @@ lineannabrith18 = {
 }	
 lineannabrith19 = {
 	name = Karbuzi_i_r
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
@@ -11224,7 +11224,7 @@ lineannabrith19 = {
 }	
 lineannabrith20 = {
 	name = Imruphazga_a_n
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
@@ -11243,7 +11243,7 @@ lineannabrith20 = {
 }	
 lineannabrith21 = {
 	name = Buro_o_dapa_a_n
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
@@ -11262,7 +11262,7 @@ lineannabrith21 = {
 }	
 lineannabrith22 = {
 	name = Azu_u_lkho_o_r
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
@@ -11281,7 +11281,7 @@ lineannabrith22 = {
 }	
 lineannabrith23 = {
 	name = Avalo_o_tho_o_r
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
@@ -11300,7 +11300,7 @@ lineannabrith23 = {
 }	
 lineannabrith24 = {
 	name = Bala_a_kha_a_n
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
@@ -11319,7 +11319,7 @@ lineannabrith24 = {
 }	
 lineannabrith25 = {
 	name = Go_o_dratho_o_r
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	
@@ -11338,7 +11338,7 @@ lineannabrith25 = {
 }	
 lineannabrith26 = {
 	name = Izindikho_o_r
-	dynasty_house = dynasty_annacadet
+	dynasty_house = house_annacadet
 	religion = faith_kings_men_numenorean
 	culture = old_umbarean
 	

@@ -283,7 +283,7 @@ pool_repopulate_prowess = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -467,7 +467,7 @@ pool_repopulate_diplomacy = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -746,7 +746,7 @@ pool_repopulate_martial = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -939,7 +939,7 @@ pool_repopulate_stewardship = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -1102,7 +1102,7 @@ pool_repopulate_intrigue = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -1290,7 +1290,7 @@ pool_repopulate_learning = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -1520,7 +1520,7 @@ pool_repopulate_spouse = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
@@ -2082,7 +2082,7 @@ pool_repopulate_local_flavor = {
 			limit = {
 				OR = {
 					culture = culture:dunedain_ranger
-					culture = culture:uialdain
+					culture = culture:uialedain
 					culture = culture:arnorian
 				}
 			}
