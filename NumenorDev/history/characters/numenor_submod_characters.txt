@@ -4,7 +4,7 @@ lineofelros81 = {
 	name = "Azgarzi_i_r"
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 	
 	
 	
@@ -23,7 +23,7 @@ lineofelros82 = {
 	name = "Aphanuzi_i_r"
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 	
 	
 	
@@ -42,7 +42,7 @@ lineofelros83 = {
 	name = "Azulzi_i_r"
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 	
 	
 	
@@ -61,7 +61,7 @@ lineofelros84 = {
 	name = "Gimlibe_e_n"
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 	
 	
 	
@@ -80,7 +80,7 @@ lineofelros85 = {
 	name = "Nilu_u_be_e_n"
 	dynasty = dynasty_elros
 	religion = melkorite
-	culture = black_numenorean
+	culture = numenorean
 	
 	
 	
@@ -99,7 +99,7 @@ lineofelros86 = {
 	name = "Minluzi_i_r"
 	dynasty = dynasty_elros
 	religion = melkorite
-	culture = black_numenorean
+	culture = numenorean
 	
 	
 	
@@ -123,7 +123,7 @@ lineofelros87 = {
 	name = "Imratho_o_r"
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 
 	father = lineofelros85
 	
@@ -140,7 +140,7 @@ lineofelros88 = {
 	name = "Cemendur"
 	dynasty = dynasty_elros
 	religion = faith_numenorean 
-	culture = black_numenorean
+	culture = numenorean
 	
 	father = lineofelros87
 	
@@ -1484,7 +1484,7 @@ lordsofkorlea15 = {
     name = Za_a_inabe_e_n # Was indoctrinated into the King's Men faith
     dynasty = dynasty_korleabeforedownfall
     religion = faith_kings_men_numenorean
-    culture = black_numenorean
+    culture = numenorean
 
     father = lordsofkorlea14
 
@@ -1501,7 +1501,7 @@ lordsofkorlea16 = {
     name = Pharazbalak
     dynasty = dynasty_korleabeforedownfall
     religion = faith_kings_men_numenorean
-    culture = black_numenorean
+    culture = numenorean
 
     father = lordsofkorlea15
 
@@ -1518,7 +1518,7 @@ lordsofkorlea17 = {
     name = Aba_a_zagar
     dynasty = dynasty_korleabeforedownfall
     religion = faith_kings_men_numenorean
-    culture = black_numenorean
+    culture = numenorean
 
     father = lordsofkorlea16
 
@@ -1890,7 +1890,7 @@ lineofvardur3 = {
 	name = "Minulzu_u_r"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_kings_men_numenorean			
-	culture = black_numenorean				
+	culture = numenorean				
 					
 	mother = lineofvardur2			
 					
@@ -1907,7 +1907,7 @@ lineofvardur4 = {
 	name = "Balkutho_o_r"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_kings_men_numenorean			
-	culture = black_numenorean				
+	culture = numenorean				
 					
 	father = lineofvardur3				
 					
@@ -1924,7 +1924,7 @@ lineofvardur5 = {
 	name = "Ulba_a_r"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_kings_men_numenorean					
-	culture = black_numenorean				
+	culture = numenorean				
 					
 	father = lineofvardur4				
 					
@@ -1941,7 +1941,7 @@ lineofvardur6 = {
 	name = "Zimratho_o_r"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_kings_men_numenorean					
-	culture = black_numenorean				
+	culture = numenorean				
 					
 	father = lineofvardur5				
 					
@@ -1958,7 +1958,7 @@ lineofvardur7 = {
 	name = "Sakaltho_o_r"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_kings_men_numenorean					
-	culture = black_numenorean				
+	culture = numenorean				
 					
 	father = lineofvardur6				
 					
@@ -1975,7 +1975,7 @@ lineofvardur8 = {
 	name = "Nimrukha_a_z"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_kings_men_numenorean				
-	culture = black_numenorean				
+	culture = numenorean				
 					
 	father = lineofvardur7				
 					
@@ -1992,7 +1992,7 @@ lineofvardur9 = {
 	name = "Ni_i_lozu_u_r"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_kings_men_numenorean			
-	culture = black_numenorean				
+	culture = numenorean				
 					
 	father = lineofvardur8				
 					
@@ -2009,7 +2009,7 @@ lineofvardur10 = {
 	name = "Karbazi_i_r"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_kings_men_numenorean			
-	culture = black_numenorean				
+	culture = numenorean				
 					
 	father = lineofvardur9				
 					
@@ -8146,7 +8146,7 @@ lineofagathor_ns12 = {
 	name = Za_a_inabe_e_n
 	dynasty = dynasty_agathor
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 	
 	trait = blood_of_numenor_10
 	
@@ -8164,7 +8164,7 @@ lineofagathor_ns13 = {
 	name = Gimla_a_n
 	dynasty = dynasty_agathor
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 	
 	trait = blood_of_numenor_10
 	
@@ -8182,7 +8182,7 @@ lineofagathor_ns14 = {
 	name = Sakaltho_o_r
 	dynasty = dynasty_agathor
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 	
 	trait = blood_of_numenor_10
 	
@@ -8200,7 +8200,7 @@ lineofagathor_ns15 = {
 	name = Aphanuzi_i_r
 	dynasty = dynasty_agathor
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 	
 	trait = blood_of_numenor_10
 	
@@ -8218,7 +8218,7 @@ lineofagathor_ns16 = {
 	name = Azrube_e_l
 	dynasty = dynasty_agathor
 	religion = melkorite
-	culture = black_numenorean
+	culture = numenorean
 	
 	trait = blood_of_numenor_10
 	trait = vengeful
@@ -8238,7 +8238,7 @@ lineofagathor_ns17 = {
 	name = Nimruzi_i_r
 	dynasty = dynasty_agathor
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 	
 	trait = blood_of_numenor_10
 	
@@ -8251,7 +8251,7 @@ lineofagathor_ns17 = {
 		religion = faith_dairaben
 	}
 	4002.1.1 = {
-		culture = black_numenorean
+		culture = numenorean
 	}
 	4005.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -11393,7 +11393,7 @@ gimilkhadbastard = {
 	name = Lo_o_miphe_e_l
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 	female = yes
 	
 	father = lineofelros27
@@ -11416,7 +11416,7 @@ linejewellord1 = {
 	name = Abrazimi_i_r
 	dynasty = dynasty_jewellord
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 	
 	trait = blood_of_numenor_7
 	trait = greedy
@@ -11437,7 +11437,7 @@ linejewellord2 = { # Named after his supposed Grandfather, contender for the Nú
 	name = Gimilkha_a_d
 	dynasty_house = dynasty_gimilkhadson
 	religion = melkorite
-	culture = black_numenorean
+	culture = numenorean
 	
 	father = linejewellord1
 	mother = gimilkhadbastard
@@ -11461,7 +11461,7 @@ linegimilson1 = {
 	name = Pharazo_o_n 
 	dynasty_house = dynasty_gimilkhadson
 	religion = melkorite
-	culture = black_numenorean
+	culture = numenorean
 	
 	father = linejewellord2
 	
@@ -11483,7 +11483,7 @@ linegimilson2 = {
 	name = Gimilkha_a_d
 	dynasty_house = dynasty_gimilkhadson
 	religion = melkorite
-	culture = black_numenorean
+	culture = numenorean
 	
 	father = linegimilson1
 	
@@ -11507,7 +11507,7 @@ linegimilson3 = {
 	name = Gimilzo_o_r
 	dynasty_house = dynasty_gimilkhadson
 	religion = melkorite
-	culture = black_numenorean
+	culture = numenorean
 	
 	father = linegimilson2
 	
@@ -11531,7 +11531,7 @@ linegimilson4 = {
 	name = Adu_u_nakho_o_r
 	dynasty_house = dynasty_gimilkhadson
 	religion = melkorite
-	culture = black_numenorean
+	culture = numenorean
 	
 	father = linegimilson3
 	
@@ -11555,7 +11555,7 @@ linejewellord3 = {
 	name = Adu_u_ninzil
 	dynasty_house = dynasty_jeweldaughter
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 	female = yes
 	
 	father = linejewellord1
@@ -12637,7 +12637,7 @@ lineofkhorandor1 = {
 	name = Balkumaga_a_n
 	dynasty = dynasty_khorandor
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 	
 	trait = blood_of_numenor_7
 	trait = wrathful
@@ -12656,7 +12656,7 @@ lineofkhorandor2 = {
 	name = Mu_u_razo_o_r
 	dynasty = dynasty_khorandor
 	religion = faith_kings_men_numenorean
-	culture = black_numenorean
+	culture = numenorean
 	
 	father = lineofkhorandor1
 	
@@ -12676,7 +12676,7 @@ lineofkhorandor3 = {
 	name = E_E_ruzagar
 	dynasty = dynasty_khorandor
 	religion = faith_kings_men_numenorean 
-	culture = black_numenorean
+	culture = numenorean
 
 	father = lineofkhorandor2
 	

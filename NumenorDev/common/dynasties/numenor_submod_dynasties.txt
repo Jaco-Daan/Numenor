@@ -2,7 +2,7 @@
 #### NUMENOR ####
 #################
 
-dynasty_mablung = {
+dynasty_lungumarith = {
 	name = "dynn_mab"
 	culture = "numenorean"
 	motto = dynn_mab_motto

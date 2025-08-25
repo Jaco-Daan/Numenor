@@ -305,6 +305,7 @@ dunedain_religion = {
 			doctrine = tenet_astrology
 			doctrine = doctrine_clerical_gender_male_only 
 		}
+		
 		faith_adunaic = {
 			color = { 41 77 199 }
 			icon = custom_adunaben_tree
@@ -318,9 +319,9 @@ dunedain_religion = {
 			holy_site = nindamos
 
 			# Tenets
-			doctrine = tenet_adunaic_birthright
+			doctrine = tenet_adunaic_mandate
 			doctrine = tenet_adaptive
-			doctrine = tenet_unrelenting_faith
+			doctrine = tenet_astrology
 			
 			# Doctrines
 			

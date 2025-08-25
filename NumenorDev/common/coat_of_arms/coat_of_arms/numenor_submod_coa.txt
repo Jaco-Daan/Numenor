@@ -1196,7 +1196,7 @@ dynasty_minorforostar = {
 }
 
 
-dynasty_mablung = {
+dynasty_lungumarith = {
 	pattern="pattern_numenorean_01.dds"
 	color1=white
 	color2=white
