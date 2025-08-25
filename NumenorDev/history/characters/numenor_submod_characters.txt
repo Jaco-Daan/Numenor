@@ -2820,7 +2820,7 @@ lineofciryandur36 = {
 
 mablung1 = {
 	name = Mablung
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = beorian
 	
@@ -2840,7 +2840,7 @@ mablung1 = {
 
 mablung2 = {
 	name = Gundor
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = beorian
 	
@@ -2857,7 +2857,7 @@ mablung2 = {
 
 mablung3 = {
 	name = Bereg
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = beorian
 	
@@ -2873,7 +2873,7 @@ mablung3 = {
 
 mablung4 = {
 	name = Celebrindor
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = beorian
 	
@@ -2889,7 +2889,7 @@ mablung4 = {
 
 mablung5 = {
 	name = Borlong
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -2907,7 +2907,7 @@ mablung5 = {
 
 mablung6 = {
 	name = Amlaith
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -2925,7 +2925,7 @@ mablung6 = {
 
 mablung7 = {
 	name = Dior
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -2943,7 +2943,7 @@ mablung7 = {
 
 mablung8 = {
 	name = Egalmoth
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -2961,7 +2961,7 @@ mablung8 = {
 
 mablung9 = {
 	name = Huor
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -2993,7 +2993,7 @@ beregarwife = {
 }
 mablung10 = {
 	name = Beregar
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3014,7 +3014,7 @@ mablung10 = {
 
 mablung11 = {
 	name = Erendis
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	female = yes
@@ -3036,7 +3036,7 @@ mablung11 = {
 
 mablung12 = {
 	name = Sulmacil
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3054,7 +3054,7 @@ mablung12 = {
 
 mablung13 = {
 	name = Tarondor
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3072,7 +3072,7 @@ mablung13 = {
 
 mablung14 = {
 	name = Atanamir
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3090,7 +3090,7 @@ mablung14 = {
 
 mablung15 = {
 	name = Anardil
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3108,7 +3108,7 @@ mablung15 = {
 
 mablung16 = {
 	name = Calimehtar
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3126,7 +3126,7 @@ mablung16 = {
 
 mablung17 = {
 	name = Earendur
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3144,7 +3144,7 @@ mablung17 = {
 
 mablung18 = {
 	name = Axantur
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3162,7 +3162,7 @@ mablung18 = {
 
 mablung19 = {
 	name = Arantar
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3180,7 +3180,7 @@ mablung19 = {
 
 mablung20 = {
 	name = Haldan
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3198,7 +3198,7 @@ mablung20 = {
 
 mablung21 = {
 	name = Ciryon
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3216,7 +3216,7 @@ mablung21 = {
 
 mablung22 = {
 	name = Elatan
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3234,7 +3234,7 @@ mablung22 = {
 
 mablung23 = {
 	name = Malantur
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3252,7 +3252,7 @@ mablung23 = {
 
 mablung24 = {
 	name = Autearyon
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3270,7 +3270,7 @@ mablung24 = {
 
 mablung25 = {
 	name = Cunendur
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3291,7 +3291,7 @@ mablung25 = {
 
 mablung26 = {
 	name = Caramir
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = numenorean
 	
@@ -3312,7 +3312,7 @@ mablung26 = {
 
 mablung27 = {
 	name = Calion
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -3330,7 +3330,7 @@ mablung27 = {
 
 mablung28 = {
 	name = Earcil
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -3348,7 +3348,7 @@ mablung28 = {
 
 mablung29 = {
 	name = Falmandur
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -3366,7 +3366,7 @@ mablung29 = {
 
 mablung30 = {
 	name = Herendur
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -3384,7 +3384,7 @@ mablung30 = {
 
 mablung31 = {
 	name = Herucalmo
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -3402,7 +3402,7 @@ mablung31 = {
 
 mablung32 = {
 	name = Mireatan
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -3420,7 +3420,7 @@ mablung32 = {
 
 mablung33 = {
 	name = Lauremacil
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -3438,7 +3438,7 @@ mablung33 = {
 
 mablung34 = {
 	name = Olorendur
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -3456,7 +3456,7 @@ mablung34 = {
 
 mablung35 = {
 	name = Romatar
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -3474,7 +3474,7 @@ mablung35 = {
 
 mablung36 = {
 	name = Salmandur
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -3492,7 +3492,7 @@ mablung36 = {
 
 mablung37 = {
 	name = Abatta_a_rik
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -3510,7 +3510,7 @@ mablung37 = {
 
 mablung38 = {
 	name = Aphanuzi_i_r
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -3528,7 +3528,7 @@ mablung38 = {
 
 mablung39 = {
 	name = Tamrube_e_n
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = adunaic
 	
@@ -3546,7 +3546,7 @@ mablung39 = {
 
 mablung40 = {
 	name = Zadnazi_i_r
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -3564,7 +3564,7 @@ mablung40 = {
 
 mablung41 = {
 	name = Nimruzi_i_r
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -3582,7 +3582,7 @@ mablung41 = {
 
 mablung42 = {
 	name = Be_e_lzagar
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -3600,7 +3600,7 @@ mablung42 = {
 
 mablung43 = {
 	name = Gimla_a_n
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -3618,7 +3618,7 @@ mablung43 = {
 
 mablung44 = {
 	name = Erukho_o_r
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -3636,7 +3636,7 @@ mablung44 = {
 
 mablung45 = {
 	name = Imrakho_o_r
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -3653,7 +3653,7 @@ mablung45 = {
 
 mablung46 = {
 	name = U_U_ri_i_tho_o_r
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -3671,7 +3671,7 @@ mablung46 = {
 
 mablung47 = {
 	name = Imraphe_e_l
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_adunaic
 	culture = adunaic
 	female = yes
@@ -3689,7 +3689,7 @@ mablung47 = {
 
 mablung48 = {
 	name = Azulzi_i_r
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -3704,7 +3704,7 @@ mablung48 = {
 
 mablung49 = {
 	name = Arnakho_o_r
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -3719,7 +3719,7 @@ mablung49 = {
 
 mablung50 = {
 	name = Mu_u_raphe_e_l
-	dynasty = dynasty_mablung
+	dynasty = dynasty_lungumarith
 	religion = faith_adunaic
 	culture = adunaic
 	female = yes
@@ -9687,13 +9687,30 @@ lineofarialome25 = {
 	}
 }
 ###Lords of Formenore###
+lineazrubensubmodpadding = {
+	name = Azgarzi_i_r
+	dynasty = dynasty_azulhin
+	religion = faith_kings_men_numenorean
+	culture = numenorean
+	
+	father = lineofazruben6
+	
+	trait = blood_of_numenor_7
+	
+	3690.1.1 = {
+		birth = yes
+	}
+	3982.1.1 = {
+		death = { death_reason = death_battle }
+	}
+}
 lineofazrubensubmod7 = {
 	name = Gimilkha_a_d
 	dynasty = dynasty_azulhin
 	religion = faith_kings_men_numenorean
 	culture = adunaic
 	
-	father = lineofazruben7
+	father = lineazrubensubmodpadding
 	
 	trait = blood_of_numenor_7
 	
