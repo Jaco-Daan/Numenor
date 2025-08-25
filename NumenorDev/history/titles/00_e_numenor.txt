@@ -422,8 +422,6 @@ d_andunie = {
 	7022.1.1 = {
 		holder = lineofelatan43
 	}
-	
-	
 }
 
 d_nisimaldar = {		
@@ -2916,23 +2914,56 @@ c_tauredor = {
 }
 
 c_arabeleth = {
-	6405.1.1 = {
-		holder = lineofaru10
+	4017.1.1 = {
+		holder = lordsofkorlea17
 	}
-	6441.1.1 = {
-		holder = lineofaru12
+	4099.1.1 = {
+		holder = lordsofkorlea18
 	}
-	6570.1.1 = {
-		holder = lineofaru13
+	4394.1.1 = {
+		holder = lordsofkorlea19
 	}
-	6683.1.1 = {
-		holder = lineofaru14
+	4513.1.1 = {
+		holder = lordsofkorlea20
 	}
-	6886.1.1 = {
-		holder = lineofaru15
+	4718.1.1 = {
+		holder = lordsofkorlea21
 	}
-	6974.1.1 = {
-		holder = lineofaru16
+	4919.1.1 = {
+		holder = lordsofkorlea22
+	}
+	5109.1.1 = {
+		holder = lordsofkorlea23
+	}
+	5322.1.1 = {
+		holder = lordsofkorlea24
+	}
+	5528.1.1 = {
+		holder = lordsofkorlea25
+	}
+	5717.1.1 = {
+		holder = lordsofkorlea26
+	}
+	5903.1.1 = {
+		holder = lordsofkorlea27
+	}
+	6116.1.1 = {
+		holder = lordsofkorlea28
+	}
+	6327.1.1 = {
+		holder = lordsofkorlea29
+	}
+	6527.1.1 = {
+		holder = lordsofkorlea30
+	}
+	6725.1.1 = {
+		holder = lordsofkorlea31
+	}
+	6919.1.1 = {
+		holder = lordsofkorlea32
+	}
+	7000.1.1 = {
+		holder = lordsofkorlea33
 		change_development_level = 13
 	}
 }
@@ -3264,6 +3295,88 @@ c_belizerbeth = {
 		holder = ruxoalendil27
 		change_development_level = 11
 	}
+	2477.5.12 = {
+		holder = ruxoalendil2 
+	}
+	2525.4.2 = {
+		holder = ruxoalendil3
+	}
+	2593.12.8 = {
+		holder = ruxoalendil4
+	}
+	2788.4.12 = {
+		holder = ruxoalendil5
+	}
+	2933.1.1 = {
+		holder = ruxoalendil6
+	}
+	3141.1.1 = {
+		holder = ruxoalendil7
+	}
+	3347.1.1 = {
+		holder = ruxoalendil8
+	}
+	3549.1.1 = {
+		holder = ruxoalendil9
+	}
+	3733.1.1 = {
+		holder = ruxoalendil10
+	}
+	3939.1.1 = {
+		holder = ruxoalendil11 # Made lord of all Forostar
+	}
+	4107.1.1 = {
+		holder = ruxoalendil12
+	}
+	4325.1.1 = {
+		holder = ruxoalendil13
+	}
+	4532.1.1 = {
+		holder = ruxoalendil14
+	}
+	4730.1.1 = {
+		holder = ruxoalendil15
+	}
+	4935.1.1 = {
+		holder = ruxoalendil16
+	}
+	5132.1.1 = {
+		holder = ruxoalendil17
+	}
+	5332.1.1 = {
+		holder = ruxoalendil18
+	}
+	5544.1.1 = {
+		holder = ruxoalendil19
+	}
+	5748.1.1 = {
+		holder = ruxoalendil20
+	}
+	5937.1.1 = {
+		holder = ruxoalendil21
+	}
+	6128.1.1 = {
+		holder = ruxoalendil22
+	}
+	6325.1.1 = {
+		holder = ruxoalendil23
+	}
+	6399.1.1 = {
+		holder = ruxoalendilsecondline3
+	}
+	6533.1.1 = {
+		holder = ruxoalendilthirdline1
+	}
+	6723.1.1 = {
+		holder = ruxoalendilthirdline2
+	}
+	6845.1.1 = {
+		holder = ruxoalendilthirdline3
+	}
+	6941.1.1 = {
+		holder = ruxoalendilthirdline4
+		liege = d_sorontil
+	}
 }
 
 c_forduinem = {
@@ -3527,81 +3640,71 @@ c_herundal = {
 }
 
 c_meryare = {
-	3973.1.1 = {
-		holder = lineofondostofounder 
+	4513.1.1 = {
+		holder = lineofarialome1
 	}
-	4139.1.1 = {
-		holder = lineofondosto2 
+	4729.1.1 = {
+		holder = lineofarialome2
 	}
-	4213.1.1 = {
-		holder = lineofondosto3
+	4891.1.1 = {
+		holder = lineofarialome3
 	}
-	4349.1.1 = {
-		holder = lineofondosto4
+	4991.1.1 = {
+		holder = lineofarialome4
 	}
-	4460.1.1 = {
-		holder = lineofondosto5
+	5100.1.1 = {
+		holder = lineofarialome5
 	}
-	4612.1.1 = {
-		holder = lineofondosto6
+	5216.1.1 = {
+		holder = lineofarialome6
 	}
-	4663.1.1 = {
-		holder = lineofondosto7
+	5329.1.1 = {
+		holder = lineofarialome7
 	}
-	4826.1.1 = {
-		holder = lineofondosto8
+	5440.1.1 = {
+		holder = lineofarialome8
 	}
-	5015.1.1 = {
-		holder = lineofondosto9
+	5554.1.1 = {
+		holder = lineofarialome9
 	}
-	5094.1.1 = {
-		holder = lineofondosto10
+	5699.1.1 = {
+		holder = lineofarialome10
 	}
-	5188.1.1 = {
-		holder = lineofondosto11
+	5809.1.1 = {
+		holder = lineofarialome11
 	}
-	5338.1.1 = {
-		holder = lineofondosto12
+	5956.1.1 = {
+		holder = lineofarialome12
 	}
-	5468.1.1 = {
-		holder = lineofondosto13
+	6098.1.1 = {
+		holder = lineofarialome13
 	}
-	5558.1.1 = {
-		holder = lineofondosto14 
+	6211.1.1 = {
+		holder = lineofarialome14
 	}
-	5715.1.1 = {
-		holder = lineofondosto15
+	6342.1.1 = {
+		holder = lineofarialome15
 	}
-	5884.1.1 = {
-		holder = lineofondosto16
+	6454.1.1 = {
+		holder = lineofarialome16
 	}
-	6013.1.1 = {
-		holder = lineofondosto17
+	6566.1.1 = {
+		holder = lineofarialome17
 	}
-	6209.1.1 = {
-		holder = lineofondosto18
+	6571.1.1 = {
+		holder = lineofarialome18
 	}
-	6317.1.1 = {
-		holder = lineofondosto19
+	6683.1.1 = {
+		holder = lineofarialome19
 	}
-	6491.1.1 = {
-		holder = lineofondostotwo1
+	6800.1.1 = {
+		holder = lineofarialome20
 	}
-	6595.1.1 = {
-		holder = lineofondostotwo2
+	6927.1.1 = {
+		holder = lineofarialome21
 	}
-	6628.1.1 = {
-		holder = lineofondostotwo3
-	}
-	6788.1.1 = {
-		holder = lineofondostotwo4
-	}
-	6843.1.1 = {
-		holder = lineofondostotwo5
-	}
-	6984.1.1 = {
-		holder = lineofondostotwo6
-		liege = d_arialome
+	7030.1.1 = {
+		holder = lineofarialome22
 		change_development_level = 15
 	}
 }
@@ -3754,93 +3857,60 @@ c_oromet = {
 }
 
 c_maltenost = {
-    4004.10.1 = {
-        holder = lineoftelemnacil7 #Faramir
-    }
-    4131.10.7 = {
-        holder = lineoftelemnacil9 #Mireatan
-    }
-    4279.7.15 = {
-        holder = lineoftelemnacil11 #Mamandur
-    }
-    4330.3.22 = {
-        holder = lineoftelemnacil13 #Salmandil
-    }
-    4453.9.10 = {
-        holder = lineoftelemnacil15 #Romendacil
-    }
-    4569.8.10 = {
-        holder = lineoftelemnacil17 #Penlodh
-    }
-    4692.1.25 = {
-        holder = lineoftelemnacil19 #Ulwarth
-    }
-    4823.8.1 = {
-        holder = lineoftelemnacil21 #Silmardur
-    }
-    4948.2.24 = {
-        holder = lineoftelemnacil23 #Eargon
-    }
-    5003.12.21 = {
-        holder = lineoftelemnacil25 #Olumir
-    }
-    5055.9.15 = {
-        holder = lineoftelemnacil27 #Arahad
-    }
-    5184.7.25 = {
-        holder = lineoftelemnacil29 #Arathorn
-    }
-    5301.6.8 = {
-        holder = lineoftelemnacil31 #Amrothor
-    }
-    5452.12.7 = {
-        holder = lineoftelemnacil33 #Argeleb
-    }
-    5515.12.27 = {
-        holder = lineoftelemnacil35 #Electhel
-    }
-    5583.5.25 = {
-        holder = lineoftelemnacil37 #Telcontar
-    }
-    5675.6.3 = {
-        holder = lineoftelemnacil39 #Lintoron
-    }
-    5738.2.25 = {
-        holder = lineoftelemnacil41 #Haldar
-    }
-    5822.9.12 = {
-        holder = lineoftelemnacil43 #Curimardin
-    }
-    5978.3.14 = {
-        holder = lineoftelemnacil45 #Thalion
-    }
-    6120.11.16 = {
-        holder = lineoftelemnacil47 #Borothor
-    }
-    6168.1.27 = {
-        holder = lineoftelemnacil49 #Borodir
-    }
-    6318.11.6 = {
-        holder = lineoftelemnacil51 #Electhel
-    }
-    6452.9.14 = {
-        holder = lineoftelemnacil53 #Romemir
-    }
-    6598.2.15 = {
-        holder = lineoftelemnacil55 #Marenar
-    }
-    6706.10.3 = {
-        holder = lineoftelemnacil57 #Feandil
-    }
-    6843.11.14 = {
-        holder = lineoftelemnacil59 #Eadacil
+	4100.1.1 = {
+		holder = lineofelatan25
+	}
+	4152.1.1 = {
+		holder = lineofelatan26
+	}
+	4318.1.1 = {
+		holder = lineofelatan27
+	}
+	4468.1.1 = {
+		holder = lineofelatan28
+	}
+	4615.1.1 = {
+		holder = lineofelatan29
+	}
+	4786.1.1 = {
+		holder = lineofelatan30
+	}
+	4933.1.1 = {
+		holder = lineofelatan31
+	}
+	5117.1.1 = {
+		holder = lineofelatan32
+	}
+	5321.1.1 = {
+		holder = lineofelatan33
+	}
+	5521.1.1 = {
+		holder = lineofelatan34
+	}
+	5730.1.1 = {
+		holder = lineofelatan35
+	}
+	5926.1.1 = {
+		holder = lineofelatan36
+	}
+	6117.1.1 = {
+		holder = lineofelatan37
+	}
+	6311.1.1 = {
+		holder = lineofelatan38
+	}
+	6526.1.1 = {
+		holder = lineofelatan40
+	}
+	6630.1.1 = {
+		holder = lineofelatan41
+	}
+	6855.1.1 = {
+		holder = lineofelatan42
+	}
+	7022.1.1 = {
+		holder = lineofelatan43
 		change_development_level = 15
-    }
-    6916.3.23 = {
-        holder = lineoftelemnacil61 #Angelimir
-    }
-    7045.12.7 = {
-        holder = lineoftelemnacil63 #Castamir
 	}
 }
 
@@ -4078,276 +4148,130 @@ c_nisinna = {
 }
 
 c_morionde = {
-	1150.1.1 = {	
-		holder = lineveantur1 # Vëandur
-		liege = e_numenor
+	624.1.1 = {
+		holder = mablung5
 	}
-	1399.1.1 = {	
-		holder = lineveantur3 # Vinyaher
+	959.1.1 = {
+		holder = mablung6
 	}
-	1560.1.1 = {	
-		holder = lineveantur4 # Vorondil
+	1080.1.1 = {
+		holder = mablung7
 	}
-	1696.1.1 = {	
-		holder = lineveantur5 # Voronwe
+	1125.1.1 = {
+		holder = mablung8
 	}
-	1831.1.1 = {	
-		holder = lineveantur6 # Turin
+	1263.1.1 = {
+		holder = mablung9
 	}
-	1989.1.1 = {	
-		holder = lineveantur7 # Eruaryon
+	1371.1.1 = {
+		holder = mablung10
 	}
-	2184.1.1 = {	
-		holder = lineveantur8 # Elendur
+	1487.1.1 = {
+		holder = mablung12
 	}
-	2331.1.1 = {	
-		holder = lineveantur9 # Ciryatur
+	1629.1.1 = {
+		holder = mablung13
 	}
-	2473.1.1 = {	
-		holder = lineveantur10 # Calimehtar
+	1851.1.1 = {
+		holder = mablung14
 	}
-	2634.1.1 = {	
-		holder = lineveantur11 # Cirdan
+	2071.1.1 = {
+		holder = mablung15
 	}
-	2764.1.1 = {	
-		holder = lineveantur12 # Castamir
+	2279.1.1 = {
+		holder = mablung16
 	}
-	2908.1.1 = {	
-		holder = lineveantur13 # Belehir
+	2504.1.1 = {
+		holder = mablung17
 	}
-	3053.1.1 = {	
-		holder = lineveantur14 # Arciryas
+	2767.1.1 = {
+		holder = mablung18
 	}
-	3273.1.1 = {	
-		holder = lineveantur15 # Vorommaite
+	2969.1.1 = {
+		holder = mablung19
 	}
-	3437.1.1 = {	
-		holder = lineveantur16 # Sulicar
+	3184.1.1 = {
+		holder = mablung20
 	}
-	3542.1.1 = {	
-		holder = lineveantur17 # Vinyarion
+	3342.1.1 = {
+		holder = mablung21
 	}
-	3680.1.1 = {	
-		holder = lineveantur18 # Tarciryan
+	3588.1.1 = {
+		holder = mablung22
 	}
-	3752.1.1 = {	
-		holder = predolamroth1 # Arassuil
+	3753.1.1 = {
+		holder = mablung23
 	}
-	3839.1.1 = {	
-		holder = lineofciryamir12
+	3833.1.1 = {
+		holder = mablung24
 	}
-	3911.1.1 = {
-		holder = lineofciryamirbranch1
+	3903.1.1 = {
+		holder = mablung25
 	}
-	4032.1.1 = {
-		holder = lineofciryamirbranch2
+	4031.1.1 = {
+		holder = mablung26
 	}
-	4167.1.1 = {
-		holder = lineofciryamirbranch3
+	4159.1.1 = {
+		holder = mablung27
 	}
-	4306.1.1 = {
-		holder = lineofciryamirbranch4
+	4344.1.1 = {
+		holder = mablung28
 	}
-		4442.1.1 = {
-		holder = lineofciryamirbranch5
+	4551.1.1 = {
+		holder = mablung29
 	}
-		4601.1.1 = {
-		holder = lineofciryamirbranch6
+	4784.1.1 = {
+		holder = mablung30
 	}
-		4755.1.1 = {
-		holder = lineofciryamirbranch7
+	4941.1.1 = {
+		holder = mablung31
 	}
-		4863.1.1 = {
-		holder = lineofciryamirbranch8
+	5118.1.1 = {
+		holder = mablung32
 	}
-		5016.1.1 = {
-		holder = lineofciryamirbranch9
+	5321.1.1 = {
+		holder = mablung33
 	}
-		5154.1.1 = {
-		holder = lineofciryamirbranch10
+	5528.1.1 = {
+		holder = mablung34
 	}
-		5326.1.1 = {
-		holder = lineofciryamirbranch11
+	5731.1.1 = {
+		holder = mablung35
 	}
-		5520.1.1 = {
-		holder = lineofciryamirbranch12
+	5929.1.1 = {
+		holder = mablung36
 	}
-		5685.1.1 = {
-		holder = lineofciryamirbranchfix1
+	6117.1.1 = {
+		holder = mablung37
 	}
-		5820.1.1 = {
-		holder = lineofciryamirbranchfix2
+	6247.1.1 = {
+		holder = mablung38
 	}
-		5980.1.1 = {
-		holder = lineofciryamirbranch13
+	6326.1.1 = {
+		holder = mablung39
 	}
-		6154.1.1 = {
-		holder = lineofciryamirbranch14
+	6469.1.1 = {
+		holder = mablung40
 	}
-		6314.1.1 = {
-		holder = lineofciryamirbranch15
+	6573.1.1 = {
+		holder = mablung41
 	}
-		6472.1.1 = {
-		holder = lineofciryamirbranch17
+	6682.1.1 = {
+		holder = mablung42
 	}
-		6610.1.1 = {
-		holder = lineofciryamirbranch18
+	6813.1.1 = {
+		holder = mablung43
 	}
-		6781.1.1 = {
-		holder = lineofciryamirbranch19
+	6929.1.1 = {
+		holder = mablung44
 	}
-		6904.1.1 = {
-		holder = lineofciryamirbranch20
-	}
-		6926.1.1 = {
-		holder = lineofciryamirbranch21
-	}
-		6984.1.1 = {
-		holder = lineofciryamirbranch22
-	}
-		7030.1.1 = {
-		holder = lineofciryamirbranch23
+	7001.1.1 = {
+		holder = mablung45
 		change_development_level = 15
-		liege = d_nisimaldar
 	}
 }
 
 c_tarminas = {
-	1150.1.1 = {	
-		holder = lineveantur1 # Vëandur
-		liege = e_numenor
-	}
-	1399.1.1 = {	
-		holder = lineveantur3 # Vinyaher
-	}
-	1560.1.1 = {	
-		holder = lineveantur4 # Vorondil
-	}
-	1696.1.1 = {	
-		holder = lineveantur5 # Voronwe
-	}
-	1831.1.1 = {	
-		holder = lineveantur6 # Turin
-	}
-	1989.1.1 = {	
-		holder = lineveantur7 # Eruaryon
-	}
-	2184.1.1 = {	
-		holder = lineveantur8 # Elendur
-	}
-	2331.1.1 = {	
-		holder = lineveantur9 # Ciryatur
-	}
-	2473.1.1 = {	
-		holder = lineveantur10 # Calimehtar
-	}
-	2634.1.1 = {	
-		holder = lineveantur11 # Cirdan
-	}
-	2764.1.1 = {	
-		holder = lineveantur12 # Castamir
-	}
-	2908.1.1 = {	
-		holder = lineveantur13 # Belehir
-	}
-	3053.1.1 = {	
-		holder = lineveantur14 # Arciryas
-	}
-	3273.1.1 = {	
-		holder = lineveantur15 # Vorommaite
-	}
-	3437.1.1 = {	
-		holder = lineveantur16 # Sulicar
-	}
-	3542.1.1 = {	
-		holder = lineveantur17 # Vinyarion
-	}
-	3680.1.1 = {	
-		holder = lineveantur18 # Tarciryan
-	}
-	3752.1.1 = {	
-		holder = predolamroth1 # Arassuil
-	}
-	3839.1.1 = {	
-		holder = lineofciryamir12
-	}
-	3911.1.1 = {
-		holder = lineofciryamirbranch1
-	}
-	4032.1.1 = {
-		holder = lineofciryamirbranch2
-	}
-	4167.1.1 = {
-		holder = lineofciryamirbranch3
-	}
-	4306.1.1 = {
-		holder = lineofciryamirbranch4
-	}
-		4442.1.1 = {
-		holder = lineofciryamirbranch5
-	}
-		4601.1.1 = {
-		holder = lineofciryamirbranch6
-	}
-		4755.1.1 = {
-		holder = lineofciryamirbranch7
-	}
-		4863.1.1 = {
-		holder = lineofciryamirbranch8
-	}
-		5016.1.1 = {
-		holder = lineofciryamirbranch9
-	}
-		5154.1.1 = {
-		holder = lineofciryamirbranch10
-	}
-		5326.1.1 = {
-		holder = lineofciryamirbranch11
-	}
-		5520.1.1 = {
-		holder = lineofciryamirbranch12
-	}
-		5685.1.1 = {
-		holder = lineofciryamirbranchfix1
-	}
-		5820.1.1 = {
-		holder = lineofciryamirbranchfix2
-	}
-		5980.1.1 = {
-		holder = lineofciryamirbranch13
-	}
-		6154.1.1 = {
-		holder = lineofciryamirbranch14
-	}
-		6314.1.1 = {
-		holder = lineofciryamirbranch15
-	}
-		6472.1.1 = {
-		holder = lineofciryamirbranch17
-	}
-		6610.1.1 = {
-		holder = lineofciryamirbranch18
-	}
-		6781.1.1 = {
-		holder = lineofciryamirbranch19
-	}
-		6904.1.1 = {
-		holder = lineofciryamirbranch20
-	}
-		6926.1.1 = {
-		holder = lineofciryamirbranch21
-	}
-		6984.1.1 = {
-		holder = lineofciryamirbranch22
-	}
-		7030.1.1 = {
-		holder = lineofciryamirbranch23
-		change_development_level = 14
-		liege = d_nisimaldar
-	}
-}
-
-c_farahil = {
 	629.1.1 = {
 		holder = lineofagathor_ns5
 	}
@@ -4452,6 +4376,26 @@ c_farahil = {
 	}
 	7025.1.1 = {
 		holder = lineofagathor_ns36
+		change_development_level = 14
+	}
+}
+
+c_farahil = {
+	6781.1.1 = {
+		holder = lineofciryamirbranch19
+	}
+	6904.1.1 = {
+		holder = lineofciryamirbranch20
+	}
+	6926.1.1 = {
+		holder = lineofciryamirbranch21
+	}
+	6984.1.1 = {
+		holder = lineofciryamirbranch22
+	}
+	7030.1.1 = {
+		holder = lineofciryamirbranch23
+		liege = d_zimrayan
 		change_development_level = 15
 	}
 }
@@ -5019,14 +4963,21 @@ c_tarmeno = {
 	6727.1.1 = {
 		holder = linejewellord20
 	}
-	6853.1.1 = {
-		holder = linejewellord21
+	6781.1.1 = {
+		holder = lineofciryamirbranch19
 	}
-	6921.1.1 = {
-		holder = linejewellord22
+	6904.1.1 = {
+		holder = lineofciryamirbranch20
 	}
-	7000.1.1 = {
-		holder = linejewellord23
+	6926.1.1 = {
+		holder = lineofciryamirbranch21
+	}
+	6984.1.1 = {
+		holder = lineofciryamirbranch22
+	}
+	7030.1.1 = {
+		holder = lineofciryamirbranch23
+		liege = d_zimrayan
 		change_development_level = 13
 	}
 }
@@ -5312,6 +5263,166 @@ c_meneltarma = {
 	}
 }
 
+c_temp_1 = {
+	3973.1.1 = {
+		holder = lineofondostofounder 
+	}
+	4139.1.1 = {
+		holder = lineofondosto2 
+	}
+	4213.1.1 = {
+		holder = lineofondosto3
+	}
+	4349.1.1 = {
+		holder = lineofondosto4
+	}
+	4460.1.1 = {
+		holder = lineofondosto5
+	}
+	4612.1.1 = {
+		holder = lineofondosto6
+	}
+	4663.1.1 = {
+		holder = lineofondosto7
+	}
+	4826.1.1 = {
+		holder = lineofondosto8
+	}
+	5015.1.1 = {
+		holder = lineofondosto9
+	}
+	5094.1.1 = {
+		holder = lineofondosto10
+	}
+	5188.1.1 = {
+		holder = lineofondosto11
+	}
+	5338.1.1 = {
+		holder = lineofondosto12
+	}
+	5468.1.1 = {
+		holder = lineofondosto13
+	}
+	5558.1.1 = {
+		holder = lineofondosto14 
+	}
+	5715.1.1 = {
+		holder = lineofondosto15
+	}
+	5884.1.1 = {
+		holder = lineofondosto16
+	}
+	6013.1.1 = {
+		holder = lineofondosto17
+	}
+	6209.1.1 = {
+		holder = lineofondosto18
+	}
+	6317.1.1 = {
+		holder = lineofondosto19
+	}
+	6491.1.1 = {
+		holder = lineofondostotwo1
+	}
+	6595.1.1 = {
+		holder = lineofondostotwo2
+	}
+	6628.1.1 = {
+		holder = lineofondostotwo3
+	}
+	6788.1.1 = {
+		holder = lineofondostotwo4
+	}
+	6843.1.1 = {
+		holder = lineofondostotwo5
+	}
+	6984.1.1 = {
+		holder = lineofondostotwo6
+		liege = d_ondosto
+		change_development_level = 11
+	}
+}
+
+c_temp_2 = {
+	3973.1.1 = {
+		holder = lineofondostofounder 
+	}
+	4139.1.1 = {
+		holder = lineofondosto2 
+	}
+	4213.1.1 = {
+		holder = lineofondosto3
+	}
+	4349.1.1 = {
+		holder = lineofondosto4
+	}
+	4460.1.1 = {
+		holder = lineofondosto5
+	}
+	4612.1.1 = {
+		holder = lineofondosto6
+	}
+	4663.1.1 = {
+		holder = lineofondosto7
+	}
+	4826.1.1 = {
+		holder = lineofondosto8
+	}
+	5015.1.1 = {
+		holder = lineofondosto9
+	}
+	5094.1.1 = {
+		holder = lineofondosto10
+	}
+	5188.1.1 = {
+		holder = lineofondosto11
+	}
+	5338.1.1 = {
+		holder = lineofondosto12
+	}
+	5468.1.1 = {
+		holder = lineofondosto13
+	}
+	5558.1.1 = {
+		holder = lineofondosto14 
+	}
+	5715.1.1 = {
+		holder = lineofondosto15
+	}
+	5884.1.1 = {
+		holder = lineofondosto16
+	}
+	6013.1.1 = {
+		holder = lineofondosto17
+	}
+	6209.1.1 = {
+		holder = lineofondosto18
+	}
+	6317.1.1 = {
+		holder = lineofondosto19
+	}
+	6491.1.1 = {
+		holder = lineofondostotwo1
+	}
+	6595.1.1 = {
+		holder = lineofondostotwo2
+	}
+	6628.1.1 = {
+		holder = lineofondostotwo3
+	}
+	6788.1.1 = {
+		holder = lineofondostotwo4
+	}
+	6843.1.1 = {
+		holder = lineofondostotwo5
+	}
+	6984.1.1 = {
+		holder = lineofondostotwo6
+		liege = d_ondosto
+		change_development_level = 12
+	}
+}
+
 e_anadunemelkor = {
 	3912.1.1 = {
 		holder = linejewellord2
@@ -5329,3 +5440,4 @@ e_anadunemelkor = {
 		holder = 0 # Goodbye Melkor simps - Tar-Hallatan 
 	}
 }
+
