@@ -44,7 +44,7 @@
 	# Eldarion, Lord of Andúnie
 	character = {
 		name = "bookmark_numenor_eldarion"
-		dynasty_house = dynasty_andunie
+		dynasty_house = house_andunie
 		dynasty_splendor_level = 10
 		type = male
 		birth = 6901.1.1
