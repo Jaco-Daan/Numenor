@@ -168,7 +168,7 @@
  b_athrangrost: "Athradrond" # Fix, Athradost or Athradrond
  b_thora: "Thôra"
  b_arialome: "Lómëanor" # Fix, Aralómë or just Lómëanor maybe
-#  b_marath: "Marath" #Already defined in main mod
+ b_mareth: "Mareth" #Already defined in main mod
  b_vlarion: "Ranyatir" # Fix, just something else, maybe Ranyatir
  b_sangan: "Sangan"
  b_theanil: "Taras Asëandil" # Fix, Taras Asëandil or something, IDK

@@ -988,6 +988,13 @@ dynasty_elros = { # Line of Elros
     }
 }
 
+dynasty_andunie = { # Line of Elros
+	pattern = "pattern_solid.dds"
+	textured_emblem = {
+        	texture = "te_elros.dds"
+    }
+}
+
 d_adunai = {
 	pattern="pattern_solid.dds"
 	color1=black
