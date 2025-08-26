@@ -4440,6 +4440,15 @@ decision_claim_gondor_arassuil = {
 
 	# IS_SHOWN
 	is_shown = {
+		NOT = {
+			any_held_title = {
+				OR = {
+					target_is_de_jure_liege_or_above = title:e_numenor
+					this = title:e_numenor
+				}
+			}
+		}
+
 		current_year >= 4035 # Is only shown if bookmark is after the two kingdoms split
 		
 		OR = {
