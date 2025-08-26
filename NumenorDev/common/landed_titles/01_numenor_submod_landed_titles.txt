@@ -1133,7 +1133,7 @@ e_numenor = {
 					
 					color = { 119 99 216 }
 				}
-				b_marath = {
+				b_mareth = {
 					province = 6194
 					
 					color = { 121 101 214 }
