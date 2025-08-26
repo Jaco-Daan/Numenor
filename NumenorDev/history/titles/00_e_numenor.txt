@@ -3,6 +3,7 @@
 e_numenor = {		
 	624.1.1 = {	
 		holder = lineofelros1 # Elros Minyatur
+		government = feudal_government
 	}	
 	1034.1.1 = {	
 		holder = lineofelros2 # Vardamir 
@@ -313,6 +314,7 @@ d_andunie = {
 	1290.1.1 = {	
 		holder = lineofelatan2 # Valandil
 		liege = e_numenor
+		government = feudal_government
 	}	
 	1588.1.1 = {	
 		holder = lineofelatan3 # Anardur
@@ -428,6 +430,7 @@ d_nisimaldar = {
 	1150.1.1 = {	
 		holder = lineveantur1 # Vëandur
 		liege = e_numenor
+		government = feudal_government
 	}
 	1399.1.1 = {	
 		holder = lineveantur3 # Vinyaher
@@ -561,6 +564,7 @@ d_arandor = {
 d_hyarnore = {
 	4802.1.1 = {
 		holder = lineofvardur15
+		government = feudal_government
 	}
 	4927.1.1 = {
 		holder = lineofvardur16
@@ -602,6 +606,7 @@ d_hyarnore = {
 d_aruwanai = {
 	6405.1.1 = {
 		holder = lineofaru10
+		government = feudal_government
 	}
 	6441.1.1 = {
 		holder = lineofaru12
@@ -624,6 +629,7 @@ d_aruwanai = {
 d_formenore = {
 	3259.8.24 = {
 		holder = lineofazruben1
+		government = feudal_government
 	}
 	3482.1.13 = {
 		holder = lineofazruben2
@@ -642,6 +648,7 @@ d_formenore = {
 	}
 	4368.1.1 = {
 		holder = lineofazrubensubmod8
+		government = feudal_government
 	}
 	4412.1.1 = {
 		holder = lineofazrubensubmod9
@@ -708,15 +715,12 @@ d_formenore = {
 		holder = lineofazrubensubmod29
 		liege = e_numenor		
 	}
-	6980.1.1 = {
-		holder = place3
-		liege = e_numenor
-	}
 }
 
 d_khorandor = {
 	3750.1.1 = {
 		holder = lineofkhorandor1 # Granted the western parts of the former Ananórë by Ar-Gimilzor after the former lords betrayed him
+		government = feudal_government
 	}
 	3911.1.1 = {
 		holder = lineofkhorandor2
@@ -805,6 +809,7 @@ d_khorandor = {
 d_ciryanore = {
 	6403.1.1 = {
 		holder = lineofciryandur31
+		government = feudal_government
 	}
 	6625.1.1 = {
 		holder = lineofciryandur32
@@ -822,6 +827,7 @@ d_elenore = {
 	5377.1.1 = {
 		holder = lineelebastard1
 		liege = e_numenor
+		government = feudal_government
 	}
 	5553.1.1 = {
 		holder = lineelebastard2
@@ -871,6 +877,7 @@ d_elenore = {
 d_sorontil = {
 	3939.1.1 = {
 		holder = ruxoalendil11 # Made lord of all Forostar
+		government = feudal_government
 	}
 	4107.1.1 = {
 		holder = ruxoalendil12
@@ -923,9 +930,11 @@ d_sorontil = {
 		liege = e_numenor
 	}
 }
+
 d_ondosto = {
 	3911.1.1 = {
 		holder = lineofelros88
+		government = feudal_government
 	}
 	4123.1.1 = {
 		holder = lineofelros89
@@ -1008,6 +1017,7 @@ d_ondosto = {
 d_arialome = {
 	4513.1.1 = {
 		holder = lineofarialome1
+		government = feudal_government
 	}
 	4729.1.1 = {
 		holder = lineofarialome2
@@ -1024,53 +1034,53 @@ d_arialome = {
 	5216.1.1 = {
 		holder = lineofarialome6
 	}
-		5329.1.1 = {
+	5329.1.1 = {
 		holder = lineofarialome7
 		liege = e_numenor
 	}
-		5440.1.1 = {
+	5440.1.1 = {
 		holder = lineofarialome8
 	}
-		5554.1.1 = {
+	5554.1.1 = {
 		holder = lineofarialome9
 	}
-		5699.1.1 = {
+	5699.1.1 = {
 		holder = lineofarialome10
 	}
-		5809.1.1 = {
+	5809.1.1 = {
 		holder = lineofarialome11
 	}
-		5956.1.1 = {
+	5956.1.1 = {
 		holder = lineofarialome12
 	}
-		6098.1.1 = {
+	6098.1.1 = {
 		holder = lineofarialome13
 	}
-		6211.1.1 = {
+	6211.1.1 = {
 		holder = lineofarialome14
 	}
-		6342.1.1 = {
+	6342.1.1 = {
 		holder = lineofarialome15
 	}
-		6454.1.1 = {
+	6454.1.1 = {
 		holder = lineofarialome16
 	}
-		6566.1.1 = {
+	6566.1.1 = {
 		holder = lineofarialome17
 	}
-		6571.1.1 = {
+	6571.1.1 = {
 		holder = lineofarialome18
 	}
-		6683.1.1 = {
+	6683.1.1 = {
 		holder = lineofarialome19
 	}
-		6800.1.1 = {
+	6800.1.1 = {
 		holder = lineofarialome20
 	}
-		6927.1.1 = {
+	6927.1.1 = {
 		holder = lineofarialome21
 	}
-		7030.1.1 = {
+	7030.1.1 = {
 		holder = lineofarialome22
 		liege = e_numenor
 	}
@@ -1079,6 +1089,7 @@ d_arialome = {
 d_erest = {
     4004.10.1 = {
         holder = lineoftelemnacil7 #Faramir
+		government = feudal_government
     }
     4131.10.7 = {
         holder = lineoftelemnacil9 #Mireatan
@@ -1115,7 +1126,7 @@ d_erest = {
     }
     5301.6.8 = {
         holder = lineoftelemnacil31 #Amrothor
-	liege = e_numenor
+		liege = e_numenor
     }
     5452.12.7 = {
         holder = lineoftelemnacil33 #Argeleb
@@ -1172,6 +1183,7 @@ d_erest = {
 d_nunduine = {
 	2200.1.1 = {
 		holder = ciryamirdad
+		government = feudal_government
 	}
 	2426.1.1 = {
 		holder = lineofciryamir1
@@ -1258,6 +1270,7 @@ d_nunduine = {
 d_erelonde = {
 	629.1.1 = {
 		holder = lineofagathor_ns5
+		government = feudal_government
 	}
 	941.1.1 = {
 		holder = lineofagathor_ns6
@@ -1368,6 +1381,7 @@ d_erelonde = {
 d_hyarnudore = {
 	2044.1.1 = {
 		holder = lineborodiriath1
+		government = feudal_government
 	}
 	2433.9.25 = {
 		holder = lineborodirsubmod1
@@ -1457,10 +1471,10 @@ d_hyarnudore = {
 	}
 }	
 
-
 d_zimrayan = {
 	3760.1.1 = {
 		holder = linejewellord1
+		government = feudal_government
 	}
 	3911.1.1 = {
 		holder = linejewellord2
@@ -1538,6 +1552,7 @@ d_zimrayan = {
 d_nindamos = {
 	3257.1.1 = {
 		holder = lordsofkorlea13
+		government = feudal_government
 	}
 	3434.1.1 = {
 		holder = lordsofkorlea14
@@ -1606,6 +1621,7 @@ d_nindamos = {
 d_emerie = {
 	624.1.1 = {
 		holder = mablung5
+		government = feudal_government
 	}
 	959.1.1 = {
 		holder = mablung6
@@ -1731,6 +1747,7 @@ d_emerie = {
 d_sirinore = {
 	1505.1.1 = {
 		holder = lineofsirinore2
+		government = feudal_government
 	}
 	3924.1.1 = {
 		holder = linesirinore7
@@ -3365,6 +3382,7 @@ c_belizerbeth = {
 	}
 	6533.1.1 = {
 		holder = ruxoalendilthirdline1
+		government = feudal_government
 	}
 	6723.1.1 = {
 		holder = ruxoalendilthirdline2
@@ -4079,6 +4097,7 @@ c_nisinna = {
 	}
 	3911.1.1 = {
 		holder = lineofciryamirbranch1
+		government = feudal_government
 	}
 	4032.1.1 = {
 		holder = lineofciryamirbranch2
@@ -4382,6 +4401,7 @@ c_tarminas = {
 c_farahil = {
 	6781.1.1 = {
 		holder = lineofciryamirbranch19
+		government = feudal_government
 	}
 	6904.1.1 = {
 		holder = lineofciryamirbranch20
@@ -4514,6 +4534,7 @@ c_nurmir = {
 	}
 	2433.9.25 = {
 		holder = lineborodirsubmod1
+		government = feudal_government
 	}
 	2775.1.1 = {
 		holder = lineborodirsubmod2
@@ -4693,9 +4714,11 @@ c_zorakhator = {
 c_hazdore = {
 	2044.1.1 = {
 		holder = lineborodiriath1
+		government = feudal_government
 	}
 	2433.9.25 = {
 		holder = lineborodirsubmod1
+		government = feudal_government
 	}
 	2775.1.1 = {
 		holder = lineborodirsubmod2
@@ -5322,6 +5345,7 @@ c_temp_1 = {
 	}
 	6491.1.1 = {
 		holder = lineofondostotwo1
+		government = feudal_government
 	}
 	6595.1.1 = {
 		holder = lineofondostotwo2
