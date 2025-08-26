@@ -8957,7 +8957,7 @@ lineofaru19 = {
 }
 ###Elenore Bastards###
 lineelebastard1 = {
-	name = Zo_o_rnagar
+	name = Zo_o_rzagar
 	dynasty = dynasty_elenore
 	religion = faith_numenorean
 	culture = adunaic
@@ -11997,7 +11997,7 @@ lineofondosto1 = {
 	}
 }
 lineofondostofounder = { 
-	name = No_o_lo_o_ndur
+	name = Saptha_a_nzi_i_r
 	dynasty = dynasty_ondosto
 	religion = faith_numenorean
 	culture = adunaic
@@ -13086,7 +13086,7 @@ lineofkhorandor24 = {
 }
 ### Ancient lords of Sirinore (Formerly Syntar) WIP ###
 lineofsirinore2 = {
-	name = Baian
+	name = Baian # ALRAIN NOTE Who is this and what language is this???
 	dynasty = dynasty_syntar
 	religion = faith_numenorean
 	culture = numenorean

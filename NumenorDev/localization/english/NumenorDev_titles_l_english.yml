@@ -14,138 +14,138 @@
  d_aruwanai: "Ârûthâni"
  d_formenore: "Formenórë"
  d_arandor: "Arandor"
- d_khorandor: "Khôrandor" # Fix, Khôrzâyan or Khêruzâyan
+ d_khorandor: "Khêruzâyan" # Fix, Khôrzâyan or Khêruzâyan
  d_ciryanore: "Ciryanórë"
  d_elenore: "Elenórë"
  d_sorontil: "Sorontil"
- d_ondosto: "Ondostó"
- d_arialome: "Arialómë" # Fix, Aralómë or just Lómëanor maybe
- d_erest: "Erest" # Fix, presumably from Erestor, I would just do Erosto or something. Idk
+ d_ondosto: "Ondosto"
+ d_arialome: "Lómëanor" # Fix, Aralómë or just Lómëanor maybe
+ d_erest: "Erosto" # Fix, presumably from Erestor, I would just do Erosto or something. Idk
  d_nunduine: "Nunduinë"
- d_erelonde: "Erelondë" # Fix, probably Ellondë or Elellondë
- d_hyarnudore: "Hyarnudórë" # Fix, Hyarnundor
- d_zimrayan: "Zimrâyan" # Fix, Zimrazâyan
+ d_erelonde: "Elellondë" # Fix, probably Ellondë or Elellondë
+ d_hyarnudore: "Hyarnundor" # Fix, Hyarnundor
+ d_zimrayan: "Zimrazâyan" # Fix, Zimrazâyan
  d_meneltarma: "Meneltarma"
  d_emerie: "Emerië"
- d_sirinore: "Sirinórë" # Fix, Sirilnórë
+ d_sirinore: "Sirilnórë" # Fix, Sirilnórë
  d_nindamos: "Nindamos"
  d_andunie: "Andúnië"
  d_nisimaldar: "Nísimaldar"
- c_opele_ancalimonva: "Opele Ancalimonva" # Fix, Londë Ancalimonva would be better
+ c_opele_ancalimonva: "Londë Ancalimonva" # Fix, Londë Ancalimonva would be better
  c_hyarmentie: "Hyarmentië"
- c_tauredor: "Tauredor" # Fix, Taurendor
+ c_tauredor: "Taurendor" # Fix, Taurendor
  c_arabeleth: "Arâbelêth"
  c_aruwanai: "Ârûnalêth"
- c_adorothe: "Adórothë" # Fix, No idea what this is, maybe we do Andorosto or something
+ c_adorothe: "Andorosto" # Fix, No idea what this is, maybe we do Andorosto or something
  c_formenore: "Formenórë"
  c_hyarnumen: "Hyarnúmen"
  c_romenna: "Rómenna"
  c_armenelos: "Armenelos"
- c_uinen: "Uinen" # Fix, Uinendor or Uinenos or something
+ c_uinen: "Uinenos" # Fix, Uinendor or Uinenos or something
  c_anariova: "Anáriova"
  c_baithal: "Bâithal"
- c_vinyon: "Vinyön" # Fix, Vinyos or something, ö is odd
+ c_vinyon: "Vinyos" # Fix, Vinyos or something, ö is odd
  c_ciryalonde: "Ciryalondë"
- c_elorna: "Elorna" # Fix, Elornë
- c_sorno: "Sorno" # Fix, Soron-something, probably Soronnor I guess
+ c_elorna: "Elornë" # Fix, Elornë
+ c_sorno: "Soronnor" # Fix, Soron-something, probably Soronnor I guess
  c_elenduin: "Elenduin"
- c_elrova: "Elrova" # Fix, Elroval? No idea
+ c_elrova: "Elroval" # Fix, Elroval? No idea
  c_belizerbeth: "Bêlzirbêth"
- c_forduinem: "Bar Forowing" # Fix, Bar Forwing
+ c_forduinem: "Bar Forwing" # Fix, Bar Forwing
  c_kharutarik: "Khârutârik"
  c_sorontil: "Sorontil"
- c_belzag: "Belzag" # Fix, Bêlzagarêth or something
- c_ondosto: "Ondostó"
+ c_belzag: "Bêlzagarêth" # Fix, Bêlzagarêth or something
+ c_ondosto: "Ondosto"
  c_herundal: "Tompollë"
  c_meneltarma: "Meneltarma"
- c_meryare: "Meryárë" # Fix, Meryamar
- c_arialome: "Arialómë" # Fix, Aralómë or just Lómëanor maybe
- c_athrangrost: "Athrangrost" # Fix, Athradost or Athradrond
- c_vlarion: "Vlarión" # Fix, just something else, maybe Ranyatir
+ c_meryare: "Meryamar" # Fix, Meryamar
+ c_arialome: "Lómëanor" # Fix, Aralómë or just Lómëanor maybe
+ c_athrangrost: "Athradrond" # Fix, Athradost or Athradrond
+ c_vlarion: "Ranyatir" # Fix, just something else, maybe Ranyatir
  c_andunie: "Andúnië"
  c_oromet: "Oromet"
- c_maltenost: "Maitënost" # Fix, Maitosto
- c_erelonde: "Erelondë" # Fix, probably Ellondë or Elellondë
+ c_maltenost: "Maitosto" # Fix, Maitosto
+ c_erelonde: "Elellondë" # Fix, probably Ellondë or Elellondë
  c_kharazor: "Kharazôr"
- c_nurmir: "Núrmir" # Fix, maybe Núramirë
+ c_nurmir: "Núramirë" # Fix, maybe Núramirë
  c_zagrar: "Zagrâr"
- c_erest: "Erest" # Fix, presumably from Erestor, I would just do Erosto or something. Idk
- c_theanil: "Theäníl" # Fix, Taras Asëandil or something, IDK
+ c_erest: "Erosto" # Fix, presumably from Erestor, I would just do Erosto or something. Idk
+ c_theanil: "Taras Asëandil" # Fix, Taras Asëandil or something, IDK
  c_eldalonde: "Eldalondë"
- c_meniel: "Meniël" # Fix, Menelleper
+ c_meniel: "Menelleper" # Fix, Menelleper
  c_hisindor: "Hisindor"
  c_nunduine: "Nunduinë"
  c_nisinna: "Nisinen" # Lake Nisinen
  c_tarminas: "Tarminas"
- c_morionde: "Móriondë" # Fix, Moriondo
- c_tarmeno: "Tarmeno" # Fix, Tarmenos maybe - High-way-city
- c_farahil: "Farahíl" # Fix, Faravehtë - Hunt-haunt?
- c_zimraopele: "Zimraopele" # Fix, Zimrakadar
- c_numir: "Númir" # Fix, Núnamírë
- c_edrahil: "Edrahil" # Fix, Zadân Edrahil, or Bar Edrahil
+ c_morionde: "Moriondo" # Fix, Moriondo
+ c_tarmeno: "Tarmenos" # Fix, Tarmenos maybe - High-way-city
+ c_farahil: "Faravehtë" # Fix, Faravehtë - Hunt-haunt?
+ c_zimraopele: "Zimrakadar" # Fix, Zimrakadar
+ c_numir: "Núnamírë" # Fix, Núnamírë
+ c_edrahil: "Zadân Edrahil" # Fix, Zadân Edrahil, or Bar Edrahil
  c_anakadar: "Anakadar"
- c_hazdore: "Hazdórë" # Fix, Hasanórë?
- c_nidirmost: "Nídirmost" # Fix, Nidhost
+ c_hazdore: "Hasanórë" # Fix, Hasanórë?
+ c_nidirmost: "Nidhost" # Fix, Nidhost
  c_zorakhator: "Zorâkhatôr"
  c_noirinan: "Noirinan"
- c_kharalonde: "Kharalondë" # Fix, Hyallondë - while mixed names are OK, we should try and avoid them due to these names being for all start dates
+ c_kharalonde: "Hyallondë" # Fix, Hyallondë - while mixed names are OK, we should try and avoid them due to these names being for all start dates
  c_nindamos: "Nindamos"
- c_erendis: "Erendis" # Fix, Bar Erendis probably, or Bar Beregar (Veregar?)
+ c_erendis: "Bar Erendis" # Fix, Bar Erendis probably, or Bar Beregar (Veregar?)
  c_syntarin: "Hyarastorni"
- c_siropela: "Siropela" # Fix, Siropele
- c_melonan: "Melónan" # Fix, Melanan
+ c_siropela: "Siropele" # Fix, Siropele
+ c_melonan: "Melanan" # Fix, Melanan
  c_cemendor: "Cemendor"
- b_tiralon: "Tiralon" # Fix, Tillondë
+ b_tiralon: "Tillondë" # Fix, Tillondë
  b_bela: "Bêla"
- b_opele_ancalimonva: "Opele Ancalimonva" # Fix, Londë Ancalimonva would be better
+ b_opele_ancalimonva: "Londë Ancalimonva" # Fix, Londë Ancalimonva would be better
  b_akallana: "Akallana"
  b_hyarmentie: "Hyarmentië"
  b_tirak: "Tirak"
- b_urzahila: "Urzahîla" # Fix, Urzahîlêth
- b_wingron: "Wíngrön" # Fix, Vingifalas
+ b_urzahila: "Urzahîlêth" # Fix, Urzahîlêth
+ b_wingron: "Vingifalas" # Fix, Vingifalas
  b_arabeleth: "Arâbelêth"
  b_baronza: "Baronzâ"
- b_emandor: "Emandor" # Fix, Ermondor perhaps
- b_adorothe: "Adórothë" # Fix, No idea what this is, maybe we do Andorosto or something
+ b_emandor: "Ermondor" # Fix, Ermondor perhaps
+ b_adorothe: "Andorosto" # Fix, No idea what this is, maybe we do Andorosto or something
  b_aruwanai: "Ârûnalêth"
- b_falmara: "Falmarä" # Fix, Falmallondë maybe
- b_ondolin: "Ondolin" # Fix, just Ondolindë
+ b_falmara: "Falmallondë" # Fix, Falmallondë maybe
+ b_ondolin: "Ondolindë" # Fix, just Ondolindë
  b_formenore: "Formenórë"
  b_anagzayan: "Anagzâyan"
  b_tompolle: "Mentië"
  b_hyarnumen: "Hyarnúmen"
  b_romenna: "Rómenna"
  b_hallas: "Hallas"
- b_sibrien: "Sibriën" # Fix, Silmasta
- b_minalo: "Minalo" # Fix, Minalêth
+ b_sibrien: "Silmasta" # Fix, Silmasta
+ b_minalo: "Minalêth" # Fix, Minalêth
  b_arost: "Arost"
  b_armenelos: "Armenelos"
  b_earendos: "Eärendos"
  b_tol_uinen: "Tol Uinen"
  b_anariova: "Anáriova"
- b_khoralonde: "Khôralondë" # Fix, Herulondë
- b_lairen: "Lairën" # Fix, Lairemar
+ b_khoralonde: "Herulondë" # Fix, Herulondë
+ b_lairen: "Lairemar" # Fix, Lairemar
  b_baithal: "Bâithal"
- b_lante: "Lantë" # Fix, Lantefalas
- b_minyest: "Minyest" # Fix, Minyacöa? Minyestë?
- b_vinyon: "Vinyön" # Fix, Vinyos or something, ö is odd
- b_sakal: "Sâkal" # Fix, Bârsakal
+ b_lante: "Lantefalas" # Fix, Lantefalas
+ b_minyest: "Minyestë" # Fix, Minyacöa? Minyestë?
+ b_vinyon: "Vinyos" # Fix, Vinyos or something, ö is odd
+ b_sakal: "Bârsakal" # Fix, Bârsakal
  b_gulura: "Gûlura"
  b_ciryalonde: "Ciryalondë"
  b_kharamir: "Kharamir"
- b_lokhuzor: "Lôkhuzôr" # Fix, Lôkhuzôrêth
- b_elorna: "Elorna" # Fix, Elornë
- b_elaton: "Elaton" # Fix, Elendor
+ b_lokhuzor: "Lôkhuzôrêth" # Fix, Lôkhuzôrêth
+ b_elorna: "Elornë" # Fix, Elornë
+ b_elaton: "Elendor" # Fix, Elendor
  b_ziran: "Ziran"
- b_daer: "Daer" # Fix, Daerian
- b_ciryator: "Ciryator" # Fix, Ciryamin
- b_sorno: "Sorno" # Fix, Soron-something, probably Soronnor I guess
+ b_daer: "Daerian" # Fix, Daerian
+ b_ciryator: "Ciryamin" # Fix, Ciryamin
+ b_sorno: "Soronnor" # Fix, Soron-something, probably Soronnor I guess
  b_artara: "Artâra"
  b_arminal: "Arminal"
  b_elenduin: "Elenduin"
- b_athrad_elrova: "Athrad Elrova" # Fix, Elroval? No idea
+ b_athrad_elrova: "Athrad Elroval" # Fix, Elroval? No idea
  b_undal: "Undal"
- b_kharlokh: "Khârlôkh" # Fix, Presumably something OTHER than Southern Dragon. Maybe Khârêth
+ b_kharlokh: "Khârêth" # Fix, Presumably something OTHER than Southern Dragon. Maybe Khârêth
  b_hostal: "Hostal"
  #b_kadar_belizerbet: "Kadar Bêlzirbêth"
  b_phurinem: "Phûrinem"
@@ -158,105 +158,105 @@
  b_kharutarik: "Khârutârik"
  b_marzdan: "Marzdan"
  b_narido: "Naridô"
- b_ondosto: "Ondostó" # Fix, Ondosto
- b_herundal: "Herundal" # Fix, Herundor
- b_hyonden: "Hyonden" # Fix, Hyandonor
- b_belzag: "Belzag" # Fix, Bêlzagarêth or something
- b_heruna: "Heruna" # Fix, Herumar
- b_elnalost: "Elnalost" # Fix, Elellosto
- b_meryare: "Meryárë" # Fix, Meryamar
- b_athrangrost: "Athrangrost" # Fix, Athradost or Athradrond
+ b_ondosto: "Ondosto"
+ b_herundal: "Herundor" # Fix, Herundor
+ b_hyonden: "Hyandonor" # Fix, Hyandonor
+ b_belzag: "Bêlzagarêth" # Fix, Bêlzagarêth or something
+ b_heruna: "Herumar" # Fix, Herumar
+ b_elnalost: "Elellosto" # Fix, Elellosto
+ b_meryare: "Meryamar" # Fix, Meryamar
+ b_athrangrost: "Athradrond" # Fix, Athradost or Athradrond
  b_thora: "Thôra"
- b_arialome: "Arialómë" # Fix, Aralómë or just Lómëanor maybe
+ b_arialome: "Lómëanor" # Fix, Aralómë or just Lómëanor maybe
  b_marath: "Marath"
- b_vlarion: "Vlarión" # Fix, just something else, maybe Ranyatir
+ b_vlarion: "Ranyatir" # Fix, just something else, maybe Ranyatir
  b_sangan: "Sangan"
- b_theanil: "Theäníl" # Fix, Taras Asëandil or something, IDK
+ b_theanil: "Taras Asëandil" # Fix, Taras Asëandil or something, IDK
  b_kadir: "Kadir"
- b_parmon: "Parmön" # Fix, Parmasan
- b_erest: "Erest" # Fix, presumably from Erestor, I would just do Erosto or something. Idk
- b_maltenost: "Maltenost" # Fix, Maltrenost
+ b_parmon: "Parmon" # Parmon should be fine
+ b_erest: "Erosto" # Fix, presumably from Erestor, I would just do Erosto or something. Idk
+ b_maltenost: "Maltrenost" # Fix, Maltrenost
  b_angal: "Angal"
- b_balkuman: "Balkumân" # Fix, Balîkân
- b_meniel: "Meniël" # Fix, Menelleper
- b_tanamir: "Tanamir" # Fix, Tammírë
- b_palantira: "Palantíra" # Fix, Tarmatir or something, just don't mention Palantír. Unless it's the area the Palantír is in... but Tarmatir still works
+ b_balkuman: "Balîkân" # Fix, Balîkân
+ b_meniel: "Menelleper" # Fix, Menelleper
+ b_tanamir: "Tammírë" # Fix, Tammírë
+ b_palantira: "Tarmatir" # Fix, Tarmatir or something, just don't mention Palantír. Unless it's the area the Palantír is in... but Tarmatir still works
  b_oromet: "Oromet"
  b_valalonde: "Valalondë"
  b_andunie: "Andúnië"
- b_calion: "Calion" # Fix, Calondo maybe
+ b_calion: "Calondo" # Fix, Calondo maybe
  b_inzil: "Almaida" # Fix, Inzilzâyan or Inzîlzâin
- b_philon: "Philón" # Fix, Filincemar
- b_telemna: "Telemna" # Fix, Telemmar
+ b_philon: "Filincemar" # Fix, Filincemar
+ b_telemna: "Telemmar" # Fix, Telemmar
  b_formaldar: "Formaldar"
  b_hisindor: "Hisindor"
- b_veanopla: "Vëanopele" # Fix, Vëalondë or Vëataras
+ b_veanopla: "Vëalondë" # Fix, Vëalondë or Vëataras
  b_tol_emyn: "Tol Emyn"
  b_nunduine: "Nunduinë"
  b_nisinna: "Nisinen" # Lake Nisinen
  b_oiomir: "Oiomir"
  b_hyarmaldar: "Hyarmaldar"
  b_eldalonde: "Eldalondë"
- b_eldanost: "Eldanost" # Fix, Eldanos
+ b_eldanost: "Eldanos" # Fix, Eldanos
  b_tarminas: "Tarminas"
  b_uinendil: "Eithel Siril"
- b_morionde: "Móriondë" # Fix, Moriondo
- b_ruxola: "Ruxöla" # Fix, Ruscomar
- b_farne: "Farne" # Fix, Farni
- b_menost: "Menost" # Fix, Menosto or Menos
+ b_morionde: "Moriondo" # Fix, Moriondo
+ b_ruxola: "Ruscomar" # Fix, Ruscomar
+ b_farne: "Farni" # Fix, Farni
+ b_menost: "Menosto" # Fix, Menosto or Menos
  b_alarkadar: "Alârkadar"
- b_hisieri: "Hisieri" # Fix, Hisieríma
- b_farahil: "Farahíl" # Fix, Faravehtë - Hunt-haunt?
+ b_hisieri: "Hisieríma" # Fix, Hisieríma
+ b_farahil: "Faravehtë" # Fix, Faravehtë - Hunt-haunt?
  b_yozala: "Yôzâla"
- b_gelinol: "Gelinol" # Fix, Calenond
- b_norela: "Nörela" # Fix, Laicanórë or something
- b_edrahil: "Edrahil" # Fix, Zadân Edrahil, or Bar Edrahil
- b_pharazain: "Pharazâin" # Fix, Pharazzâyan, let's keep it separate from Pharazâin
+ b_gelinol: "Calenond" # Fix, Calenond
+ b_norela: "Laicanórë" # Fix, Laicanórë or something
+ b_edrahil: "Zadân Edrahil" # Fix, Zadân Edrahil, or Bar Edrahil
+ b_pharazain: "Pharazzâyan" # Fix, Pharazzâyan, let's keep it separate from Pharazâin
  b_anakadar: "Anakadar"
- b_erelonde: "Erelondë" # Fix, probably Ellondë or Elellondë
- b_vardil: "Vardil" # Fix, Vardaminas
+ b_erelonde: "Elellondë" # Fix, probably Ellondë or Elellondë
+ b_vardil: "Vardaminas" # Fix, Vardaminas
  b_lokhran: "Lôkhran"
  b_zagrar: "Zagrâr"
  b_thagril: "Thagril"
- b_hazdore: "Hazdórë" # Fix, Hasanórë?
+ b_hazdore: "Hasanórë" # Fix, Hasanórë?
  b_thanirat: "Thanirât"
  b_phazor: "Phazôr"
- b_mirelonde: "Mirondë" # Fix, Millondë
- b_vandassar: "Vandassar" # Fix, Vandassari, also probably should change this entirely
- b_nidirmost: "Nídirmost" # Fix, Nidhost
- b_zirpele: "Zirpele" # Fix, Sirpelo
- b_numir: "Númir" # Fix, Núnamírë
- b_irhuzanda: "Irhûzanda" # Fix, Êruzâyan or Êrzâyan or something. Not sure
- b_gimilost: "Gimilost" # Fix, Gimilkadar
- b_belonde: "Belondë" # Fix, Mellondë
- b_menlor: "Menlör" # Fix, Mendosto
+ b_mirelonde: "Millondë" # Fix, Millondë
+ b_vandassar: "Vandassari" # Fix, Vandassari, also probably should change this entirely
+ b_nidirmost: "Nidhost" # Fix, Nidhost
+ b_zirpele: "Sirpelo" # Fix, Sirpelo
+ b_numir: "Núnamírë" # Fix, Núnamírë
+ b_irhuzanda: "Êrzâyan" # Fix, Êruzâyan or Êrzâyan or something. Not sure
+ b_gimilost: "Gimilkadar" # Fix, Gimilkadar
+ b_belonde: "Mellondë" # Fix, Mellondë
+ b_menlor: "Mendosto" # Fix, Mendosto
  b_isilthorath: "Nîlûthôrêth" # Fix, something other than the dynasty name, maybe Nîlûthôrêth
- b_kharalonde: "Kharalondë" # Fix, Hyallondë - while mixed names are OK, we should try and avoid them due to these names being for all start dates
+ b_kharalonde: "Hyallondë" # Fix, Hyallondë - while mixed names are OK, we should try and avoid them due to these names being for all start dates
  b_uialgaer: "Uialgaer"
- b_eithel_siril: "Uinendil" # Fix, Ehtelë Siril
+ b_eithel_siril: "Ehtelë Siril" # Fix, Ehtelë Siril
  b_nindamos: "Nindamos"
  b_cemendor: "Cemendor"
  b_imrast: "Imrast"
- b_andumiel: "Andúmiel" # Fix, Andúnien
+ b_andumiel: "Andúnien" # Fix, Andúnien
  b_almaida: "Inzilzâyan"
- b_erendis: "Erendis" # Fix, Bar Erendis probably, or Bar Beregar (Veregar?)
+ b_erendis: "Bar Erendis" # Fix, Bar Erendis probably, or Bar Beregar (Veregar?)
  b_emerie: "Emerië"
- b_siriopela: "Siropela" # Fix, Siropele
- b_tarkalios: "Tarkaliôs" # Fix, Tarcalos
- b_numar: "Númar" # Fix, Núnamar
- b_syntaryn: "Syntárin" # Fix, Sincarin
+ b_siriopela: "Siropele" # Fix, Siropele
+ b_tarkalios: "Tarcalos" # Fix, Tarcalos
+ b_numar: "Núnamar" # Fix, Núnamar
+ b_syntaryn: "Sincarin" # Fix, Sincarin
  b_tarmasundar: "Tarmasundar"
- b_zidar: "Zidar" # Fix, Zidarêth
- b_melonan: "Melónan" # Fix, Melanan
- b_rastorni: "Rastör" # Fix, Rastoro
- b_forsiril: "Forsiril" # Fix, Fossiril
+ b_zidar: "Zidarêth" # Fix, Zidarêth
+ b_melonan: "Melanan" # Fix, Melanan
+ b_rastorni: "Rastoro" # Fix, Rastoro
+ b_forsiril: "Fossiril" # Fix, Fossiril
  b_noirinan: "Noirinan"
- b_vanya: "Vanya" # Fix, Vanyien
- b_thalionda: "Thalionda" # Fix, Callova
+ b_vanya: "Vanyien" # Fix, Vanyien
+ b_thalionda: "Callova" # Fix, Callova
  b_zorakhator: "Zorâkhatôr"
- b_zimraopele: "Zimraopele" # Fix, Zimrakadar
+ b_zimraopele: "Zimrakadar" # Fix, Zimrakadar
  b_meneltarma: "Meneltarma"
- b_karbelaret: "Bar Forowing" # Fix, Bar Forwing
+ b_karbelaret: "Bar Forwing" # Fix, Bar Forwing
  b_kadar_belzirbeth: "Kadar Bêlzirbêth"
  
  bay_of_romenna: "Bay of Rómenna"
@@ -267,3 +267,15 @@
  cn_armenelos_adunaic: "Arminalêth"
  
  the_: "the " #Used for Article Loc
+
+ b_temp_1: "Mittaména"
+
+ d_temp_1: "Forpendë"
+ c_temp_1: "Forpendë"
+ b_temp_2: "Forambos"
+ b_temp_3: "Orominassë"
+ c_temp_2: "Ingamar"
+ b_temp_5: "Ingamar"
+ b_temp_4: "Artosto"
+
+ b_temp_6: "Falassosto"

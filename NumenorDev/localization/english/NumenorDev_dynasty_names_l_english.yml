@@ -1,27 +1,27 @@
 ﻿l_english:
  ### Númenor Submod ###
- dynn_khorahil: "Balkûmakhôr" # Fix to Balkûkhôr-something
- dynn_vardurionath: "Vardurioni" # Fix to Vardurioni
+ dynn_khorahil: "an-Balkûkhôr" # Maybe an-Khôrahîl?
+ dynn_vardurionath: "Vardurioni"
  dynn_azru: "Azruhîl"
- dynn_mab: "Lungumárith" # Fix to Nos Lungumá
- dynn_akhor: "Akhôrahilôhîn" # Fix to Akhôrahilôhîn
+ dynn_mab: "Bar Beregar" # This is Beregar and Erendis' dynasty, so I think Bar Beregar will be best
+ dynn_akhor: "Akhôrahilôhîn"
  dynn_telemn: "Telemnacilion"
- dynn_agathor: "Eleronwë" # Fix to Elerondowë or something like that
- dynn_aruthan: "Erubênîl" # Fix to Êrubênî
- dynn_elenore: "Zôrzagarôthôrî" # Fix to Zôrzagarôthôrî - nagar isn't Adûnâic anyways
+ dynn_agathor: "Tir Elin" # Not Eleronwë, but still related to stars
+ dynn_aruthan: "Erubênî"
+ dynn_elenore: "Zôrzagarôthôrî"
  dynn_arialome: "Minulzîri"
- dynn_arialomedaughter: "Adûnaphazôrôhîl" # Fix to Adûnaphazôrôhîl or something
+ dynn_arialomedaughter: "Adûnaphazôrôhîl"
  dynn_azulhin: "Azûlhîn"
- dynn_borodiriathtwo: "Ûrêzagarêth" # See above, feminine suffix wouldn't work like that
- dynn_siril: "Carnistirion" # Fix to Carnistirion
- dynn_jewel: "Zimirlôn" # Fix to Zimra-something? Zimir works maybe
- dynn_gimilkhadson: "Gimilkhârêth" # See above, feminine suffix wouldn't work like that
- dynn_jeweldaughter: "Adûninzilôhîl" # Fix to Adûninzilôhîl
- dynn_ciryatwo: "Ûrîthôrî" # Fix to Ûrîthôrî
+ dynn_borodiriathtwo: "Zadan Ûrêzagar"
+ dynn_siril: "Carnistirion"
+ dynn_jewel: "Abranâi 'nZimir"
+ dynn_gimilkhadson: "Zadan Gimilkhâd"
+ dynn_jeweldaughter: "Adûninzilôhîl"
+ dynn_ciryatwo: "Ûrîthôrî"
  dynn_borodirure: "Atanaherion"
- dynn_ondo: "Nôlônduran" # Nôlôndur shouldn't even be a name in Adûnâic, it's Quenya
- dynn_ondobastard: "Balkuzôrî" # Balkuzôrî
- dynn_khorandor: "Magânî" # Maybe something other than Balak, Magânî
- dynn_syntar: "Syntarian" # This isn't any language we know - needs fix
- dynn_urithor: "Ûrîhîl" # Fix to Ûrîhîl, also in base RiE
+ dynn_ondo: "Sapthâbênî"
+ dynn_ondobastard: "Balkuzôrî"
+ dynn_khorandor: "Magânî"
+ dynn_syntar: "Bar Baian" # Better but need to fix Baian, maybe Balan
+ dynn_urithor: "Ûrîhîl"
  dynn_arkia: "Ferrinix" # This is a vanity so it's fine but we should still fix
