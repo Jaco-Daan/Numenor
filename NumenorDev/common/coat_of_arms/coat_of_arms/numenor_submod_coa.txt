@@ -989,12 +989,12 @@ dynasty_elros = { # Line of Elros
     }
 }
 
-house_andunie = { # Line of Elros
-	pattern = "pattern_solid.dds"
-	textured_emblem = {
-        	texture = "te_elros.dds"
-    }
-}
+#house_andunie = { # Line of Elros
+	#pattern = "pattern_solid.dds"
+	#textured_emblem = {
+        	#texture = "te_elros.dds"
+    #}
+#}
 
 d_adunai = {
 	pattern="pattern_solid.dds"

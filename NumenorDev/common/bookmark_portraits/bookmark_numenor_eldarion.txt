@@ -1,8 +1,8 @@
-# Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
+# Auto generated file, do not edit manually. Created using console command dump_bookmark_portrait_for
 # History database id:lineofelatan43
 bookmark_numenor_eldarion={
 	type=male
-	id=42202
+	id=44238
 	random_seed=4262575248
 	age=0.510270
 	genes={ 		hair_color={ 93 162 93 162 }
@@ -97,8 +97,8 @@ bookmark_numenor_eldarion={
  		expression_other={ "cheek_wrinkles_both_01" 157 "cheek_wrinkles_both_01" 157 }
  		complexion={ "complexion_22" 97 "complexion_22" 97 }
  		gene_height={ "normal_height" 187 "normal_height" 187 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 123 "body_fat_head_fat_full" 144 }
- 		gene_bs_body_shape={ "body_shape_hourglass_half" 22 "body_shape_hourglass_half" 7 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 142 "body_fat_head_fat_full" 144 }
+ 		gene_bs_body_shape={ "body_shape_hourglass_half" 21 "body_shape_hourglass_half" 7 }
  		gene_bs_bust={ "bust_clothes" 66 "bust_clothes" 83 }
  		gene_age={ "old_beauty_4" 233 "old_beauty_4" 233 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 255 "avg_spacing_lower_thickness" 255 }
