@@ -974,6 +974,7 @@ dynasty_ciryamir = {
 	}
 
 }
+
 dynasty_ciryandur = {
 	pattern = "pattern_solid.tga"
 	textured_emblem = {
