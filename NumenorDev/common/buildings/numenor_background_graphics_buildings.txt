@@ -1,0 +1,229 @@
+﻿numenor_walls_02 = {
+	is_graphical_background = yes
+	
+	### Numenor ###
+	asset = {
+		type = pdxmesh
+		name = dunedain_walls_02_mesh
+		graphical_cultures = { dunedain_building_gfx }
+	}
+
+	is_enabled = {
+		scope:holder = {
+			culture ?= { has_building_gfx = numenorean_building_gfx }
+		}
+		OR = {
+			# These buildings will trigger the visual "upgrade" to this wall asset
+			has_building_or_higher = "palisades_02"
+			has_building_or_higher = "curtain_walls_02"
+			has_building_or_higher = "hill_forts_02"
+			has_building_or_higher = "ramparts_02"
+			has_building_or_higher = "watchtowers_02"
+			scope:holder = {
+				government_has_flag = government_is_nomadic
+				root = { fort_level = 2 }
+			}
+		}
+		NOR = {
+			# Disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
+			has_building_or_higher = "curtain_walls_03"
+			has_building_or_higher = "hill_forts_03"
+			has_building_or_higher = "ramparts_03"
+			has_building_or_higher = "watchtowers_03"
+			# has_building_or_higher = "theodosian_walls_01"
+			# has_building_or_higher = "walls_of_benin_01"
+			# has_building_or_higher = "walls_of_genoa_01"
+			# has_building_or_higher = "aurelian_walls_01"
+			# has_building_or_higher = "city_wall_of_toledo_01"
+			# has_building_or_higher = "roman_wall_of_lugo_01"
+			has_building_or_higher = "wonder_ramlond"
+			has_building_or_higher = "wonder_mirlond"
+			has_building_or_higher = "wonder_nilulonde_01"
+			has_building_or_higher = "wonder_marath_kharadune_01"
+			has_building_or_higher = "wonder_edoras_01"
+			has_building_or_higher = "wonder_aglarond_01"
+			has_building_or_higher = "wonder_angrenost_01"
+			has_building_or_higher = "wonder_isengard_01"
+			has_building_or_higher = "wonder_amon_lanc_02"
+			has_building_or_higher = "wonder_walls_linhir"
+			has_building_or_higher = "wonder_mistrand_01"
+			has_building_or_higher = "wonder_himring_01"
+			has_building_or_higher = "wonder_uruloni"
+			has_building_or_higher = "wonder_serelond"
+			has_building_or_higher = "wonder_citadel_of_azarideth"
+			has_building_or_higher = "wonder_hall_of_terilaen"
+			has_building_or_higher = "wonder_coves_irtil"
+			has_building_or_higher = "wonder_baraddur"
+			has_building_or_higher = "wonder_port_of_pelargir_01"
+			has_building_or_higher = "wonder_minas_anor_01"
+			has_building_or_higher = "wonder_minas_ithil_01"
+			has_building_or_higher = "wonder_cirith_ungol_01"
+			has_building_or_higher = "wonder_pelepelplu_01"
+			has_building_or_higher = "wonder_east_samarth_01"
+			has_building_or_higher = "wonder_west_samarth_01"
+			has_building_or_higher = "wonder_pelepelplu_original_01"
+			has_building = "wonder_port_of_hyarpende_01"
+			has_building = "wonder_minas_ithil_original"
+			has_building = "wonder_cirith_ungol_original"
+			has_building_or_higher = "wonder_umbar_01"
+			OR = {
+				has_building = "wonder_framsburg_01"
+				has_building = "wonder_framsburg_03"
+			}
+			barony = title:b_gundabad
+			barony = title:b_elostirion
+			barony = title:b_harostirion
+			barony = title:b_forostirion
+			lotr_dwarven_underground_buildings_requirement_terrain = yes
+		}
+		NOT = { scope:holder = { government_has_flag = government_is_wastelands } } #LotR
+	}
+}
+
+numenor_walls_03 = {
+	is_graphical_background = yes
+	
+	### Dunedain ###
+	asset = {
+		type = pdxmesh
+		name = dunedain_walls_03_mesh
+		graphical_cultures = { dunedain_building_gfx }
+		graphical_regions = {
+			graphical_valinor graphical_lothlorien
+			graphical_western graphical_mediterranean graphical_steppe
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			culture ?= { has_building_gfx = numenorean_building_gfx }
+		}
+		OR = {
+			# These buildings will trigger the visual "upgrade" to this wall asset
+			has_building_or_higher = "curtain_walls_03"
+			has_building_or_higher = "hill_forts_03"
+			has_building_or_higher = "ramparts_03"
+			has_building_or_higher = "watchtowers_03"
+			fort_level = 3
+		}
+		NOT = { scope:holder = { government_has_flag = government_is_wastelands } } #LotR
+
+		NOR = {
+			# Disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
+			has_building_or_higher = "curtain_walls_06"
+			has_building_or_higher = "hill_forts_06"
+			has_building_or_higher = "ramparts_06"
+			has_building_or_higher = "watchtowers_06"
+			# has_building_or_higher = "theodosian_walls_01"
+			# has_building_or_higher = "city_wall_of_toledo_01"
+			# has_building_or_higher = "roman_wall_of_lugo_01"
+			has_building_or_higher = "wonder_ramlond"
+			has_building_or_higher = "wonder_mirlond"
+			has_building_or_higher = "wonder_nilulonde_01"
+			has_building_or_higher = "wonder_marath_kharadune_01"
+			has_building_or_higher = "wonder_edoras_01"
+			has_building_or_higher = "wonder_aglarond_01"
+			has_building_or_higher = "wonder_angrenost_01"
+			has_building_or_higher = "wonder_isengard_01"
+			has_building_or_higher = "wonder_amon_lanc_02"
+			has_building_or_higher = "wonder_walls_linhir"
+			has_building_or_higher = "wonder_mistrand_01"
+			has_building_or_higher = "wonder_himring_01"
+			has_building_or_higher = "wonder_uruloni"
+			has_building_or_higher = "wonder_serelond"
+			has_building_or_higher = "wonder_citadel_of_azarideth"
+			has_building_or_higher = "wonder_hall_of_terilaen"
+			has_building_or_higher = "wonder_coves_irtil"
+			has_building_or_higher = "wonder_baraddur"
+			has_building_or_higher = "wonder_port_of_pelargir_01"
+			has_building_or_higher = "wonder_minas_anor_01"
+			has_building_or_higher = "wonder_minas_ithil_01"
+			has_building_or_higher = "wonder_cirith_ungol_01"
+			has_building_or_higher = "wonder_pelepelplu_01"
+			has_building_or_higher = "wonder_east_samarth_01"
+			has_building_or_higher = "wonder_west_samarth_01"
+			has_building = "wonder_port_of_hyarpende_01"
+			has_building = "wonder_minas_ithil_original"
+			has_building = "wonder_cirith_ungol_original"
+			has_building_or_higher = "wonder_umbar_01"
+			OR = {
+				has_building = "wonder_framsburg_01"
+				has_building = "wonder_framsburg_03"
+			}
+			barony = title:b_gundabad
+			barony = title:b_elostirion
+			barony = title:b_harostirion
+			barony = title:b_forostirion
+			lotr_dwarven_underground_buildings_requirement_terrain = yes
+		}
+	}
+}
+
+numenor_walls_04 = {
+	is_graphical_background = yes
+
+	### Gondor ###
+	asset = {
+		type = pdxmesh
+		name = dunedain_walls_04_mesh
+		graphical_cultures = { dunedain_building_gfx }
+		graphical_regions = {
+			graphical_valinor graphical_lothlorien
+			graphical_western graphical_mediterranean graphical_steppe
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			culture ?= { has_building_gfx = numenorean_building_gfx }
+		}
+		OR = {
+			# These buildings will trigger the visual "upgrade" to this wall asset
+			has_building_or_higher = "curtain_walls_06"
+			has_building_or_higher = "hill_forts_06"
+			has_building_or_higher = "ramparts_06"
+			has_building_or_higher = "watchtowers_06"
+			fort_level = 4
+		}
+		NOT = { scope:holder = { government_has_flag = government_is_wastelands } } #LotR
+
+		NOR = { #LotR
+			scope:holder = { government_has_flag = government_is_wastelands }
+			has_building_or_higher = "wonder_marath_kharadune_01"
+			has_building_or_higher = "wonder_edoras_01"
+			has_building_or_higher = "wonder_aglarond_01"
+			has_building_or_higher = "wonder_angrenost_01"
+			has_building_or_higher = "wonder_isengard_01"
+			has_building_or_higher = "wonder_amon_lanc_02"
+			has_building_or_higher = "wonder_walls_linhir"
+			has_building_or_higher = "wonder_mistrand_01"
+			has_building_or_higher = "wonder_himring_01"
+			has_building_or_higher = "wonder_uruloni"
+			has_building_or_higher = "wonder_serelond"
+			has_building_or_higher = "wonder_citadel_of_azarideth"
+			has_building_or_higher = "wonder_hall_of_terilaen"
+			has_building_or_higher = "wonder_coves_irtil"
+			has_building_or_higher = "wonder_baraddur"
+			has_building_or_higher = "wonder_port_of_pelargir_01"
+			has_building_or_higher = "wonder_minas_anor_01"
+			has_building_or_higher = "wonder_minas_ithil_01"
+			has_building_or_higher = "wonder_cirith_ungol_01"
+			has_building_or_higher = "wonder_pelepelplu_01"
+			has_building_or_higher = "wonder_east_samarth_01"
+			has_building_or_higher = "wonder_west_samarth_01"
+			has_building = "wonder_port_of_hyarpende_01"
+			has_building = "wonder_minas_ithil_original"
+			has_building = "wonder_cirith_ungol_original"
+			has_building_or_higher = "wonder_umbar_01"
+			OR = {
+				has_building = "wonder_framsburg_01"
+				has_building = "wonder_framsburg_03"
+			}
+			barony = title:b_gundabad
+			barony = title:b_elostirion
+			barony = title:b_harostirion
+			barony = title:b_forostirion
+			lotr_dwarven_underground_buildings_requirement_terrain = yes
+		}
+	}
+}
