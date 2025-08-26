@@ -23,11 +23,7 @@ fp1_ms_godi_character = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	dynasty = none
 	#Education
@@ -129,11 +125,7 @@ fp1_ms_reformed_missionary_character = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	dynasty = none
 	#Education
@@ -229,11 +221,7 @@ fp1_ms_nithing_character = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	dynasty = none
 	#Education
@@ -322,11 +310,7 @@ fp1_ms_warrior_character = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	dynasty = none
 	#Education
@@ -408,11 +392,7 @@ fp1_ms_vagrant_character = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	dynasty = none
 	#Education
@@ -800,11 +780,7 @@ fp1_jomsviking_retainer_martial = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	#Education
 	random_traits_list = {
@@ -910,11 +886,7 @@ fp1_jomsviking_retainer_prowess = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	#Education
 	random_traits_list = {
@@ -1028,11 +1000,7 @@ fp1_deceitful_warrior_character = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	dynasty = none
 	#Education
@@ -1128,11 +1096,7 @@ fp1_deceitful_explorer_character = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	dynasty = none
 	#Education
@@ -1227,11 +1191,7 @@ fp1_truthful_explorer_character = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	dynasty = none
 	#Education

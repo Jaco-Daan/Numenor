@@ -1,4 +1,4 @@
-NumenorDev_on_game_start = {
+﻿NumenorDev_on_game_start = {
     effect = {
         every_living_character = {
 			limit = {

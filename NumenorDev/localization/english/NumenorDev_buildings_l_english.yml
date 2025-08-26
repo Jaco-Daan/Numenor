@@ -82,13 +82,3 @@
   building_type_wonder_erendis_01_desc:0 "The White House of Erendis, wife of Tar-Aldarion I"
   building_wonder_erendis_01:0 "White House of Erendis"
   building_wonder_erendis_01_desc:0 "The White House of Erendis was built for Erendis by Tar-Meneldur as a gift for the betrothal to his son, Aldarion. The White House was located in the region of Emerië, known for its rolling hills and green plains. Tar-Ancalimë spent most of her childhood in The White House of Erendis, before moving to Armenelos. The House survived the Akallabêth as it was in the hills of Mittalmar but it was abandoned until the reign of Ar-Inziladûn, who gave it to his sister, Princess Zimraphel. After her death the House was not abandoned and instead given to the King of Númenor to be used as a summer residence."
- 
-  
-  explore_history_cost_discount_effect_desc:0 "$unlocks_building_desc$Reduced Cost for hosting [GetActivityType('activity_explore_history').GetTextIcon][GetActivityType('activity_explore_history').GetName] in this [holding|E]: "
-  explore_history_cost_discount_min_desc:0 "$explore_history_cost_discount_effect_desc$[EmptyScope.ScriptValue('explore_history_activity_cost_discount_min_value')|P0%]"
-  explore_history_cost_discount_medium_desc:0 "$explore_history_cost_discount_effect_desc$[EmptyScope.ScriptValue('explore_history_activity_cost_discount_medium_value')|P0%]"
-  explore_history_cost_discount_max_desc:0 "$explore_history_cost_discount_effect_desc$[EmptyScope.ScriptValue('explore_history_activity_cost_discount_max_value')|P0%]"
-  sailing_activity_cost_discount_major_desc:0 "$unlocks_building_desc$Greatly reduces the cost of hosting a [GetActivityType('activity_sailing').GetTextIcon][GetActivityType('activity_sailing').GetName] in this [holding|E]"
-  sailing_activity_cost_discount_medium_desc:0 "$unlocks_building_desc$Moderately reduces the cost of hosting a [GetActivityType('activity_sailing').GetTextIcon][GetActivityType('activity_sailing').GetName] in this [holding|E]"
-  sailing_activity_cost_discount_minor_desc:0 "$unlocks_building_desc$Reduces the cost of hosting a [GetActivityType('activity_sailing').GetTextIcon][GetActivityType('activity_sailing').GetName] in this [holding|E]"
-  unlock_warden_of_the_keys_desc:0 "\n\n[court_position|E]: [GetCourtPositionType('warden_of_the_keys_court_position').GetName()]"

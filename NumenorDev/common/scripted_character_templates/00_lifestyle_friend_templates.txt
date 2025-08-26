@@ -21,11 +21,7 @@ diplomacy_foreign_affairs_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	diplomacy  = {
@@ -86,11 +82,7 @@ diplomacy_majesty_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	diplomacy  = {
@@ -152,11 +144,7 @@ diplomacy_family_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	diplomacy  = {
@@ -219,11 +207,7 @@ martial_strategy_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	martial  = {
@@ -284,11 +268,7 @@ martial_authority_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	martial  = {
@@ -350,11 +330,7 @@ martial_chivalry_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	prowess  = {
@@ -422,11 +398,7 @@ stewardship_wealth_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	stewardship  = {
@@ -487,11 +459,7 @@ stewardship_domain_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	stewardship  = {
@@ -552,11 +520,7 @@ stewardship_duty_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	stewardship  = {
@@ -620,11 +584,7 @@ intrigue_skulduggery_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	intrigue  = {
@@ -685,11 +645,7 @@ intrigue_temptation_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	intrigue  = {
@@ -750,11 +706,7 @@ intrigue_intimidation_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	intrigue  = {
@@ -817,11 +769,7 @@ learning_medicine_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	random_traits_list = {
@@ -888,11 +836,7 @@ learning_scholarship_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	learning  = {
@@ -953,11 +897,7 @@ learning_theology_focus_friend_template = {
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	learning  = {

@@ -847,10 +847,11 @@ numenor.3202 = { # Ray gets a message from Numenor to become their tributary
 		custom_tooltip = { # Tooltip indicates that Ray becomes a client state to Numenor
 			text = numenor.3202.a.tt
 
-			make_tributary = {
-				TYPE = tributary_permanent
-				SUZERAIN = scope:numenor_ruler
-				TRIBUTARY = scope:ray_ruler
+			scope:ray_ruler = {
+				start_tributary = {
+					contract_group = tributary_subjugated
+					suzerain = scope:numenor_ruler
+				}
 			}
 		}
 		hidden_effect = {

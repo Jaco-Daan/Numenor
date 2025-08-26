@@ -1,4 +1,4 @@
-# Numenor
+﻿# Numenor
 emperor_feudal_male_numenorean = {
     type = character
     text = {

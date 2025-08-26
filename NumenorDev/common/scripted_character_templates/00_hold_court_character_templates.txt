@@ -34,11 +34,7 @@ demanding_poet_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	trait = education_learning_2
 	trait = arrogant
@@ -118,11 +114,7 @@ demanding_poet_lover_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	trait = beauty_good_2
 	trait = arrogant
@@ -202,11 +194,7 @@ demanding_poet_diplomacy_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	trait = beauty_good_2
 	trait = arrogant
@@ -297,11 +285,7 @@ demanding_poet_stewardship_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	trait = beauty_good_2
 	trait = arrogant
@@ -382,11 +366,7 @@ demanding_poet_martial_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	trait = beauty_good_2
 	trait = arrogant
@@ -477,11 +457,7 @@ demanding_poet_intrigue_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	trait = beauty_good_2
 	trait = arrogant
@@ -561,11 +537,7 @@ demanding_poet_learning_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	trait = beauty_good_2
 	trait = arrogant
@@ -646,11 +618,7 @@ suspicious_genealogist_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	trait = education_intrigue_2
 	gender_female_chance = root_soldier_female_chance
@@ -732,11 +700,7 @@ alluring_suitor_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	diplomacy = {
 		min_template_decent_skill

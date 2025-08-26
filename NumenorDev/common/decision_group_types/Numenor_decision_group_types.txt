@@ -1,0 +1,9 @@
+﻿Numenor_major = {
+	sort_order = 1000
+	gui_tags = { big_button }
+}
+
+Numenor_minor = {
+	sort_order = 900
+	gui_tags = { big_button }
+}

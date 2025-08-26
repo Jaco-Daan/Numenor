@@ -658,11 +658,7 @@ falconer_template = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	gender_female_chance = root_soldier_female_chance
 	prowess = {
@@ -1372,11 +1368,7 @@ drunken_peasant_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	trait = drunkard
 	trait = peasant_leader
@@ -1459,11 +1451,7 @@ diseased_peasant_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	trait = peasant_leader
 	random_traits_list = {

@@ -315,11 +315,7 @@ head_chasing_monk_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	trait = lunatic_1
 	trait = intellect_good_3
@@ -662,11 +658,7 @@ random_learned_eunuch_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	gender_female_chance = 0
 	trait = beardless_eunuch

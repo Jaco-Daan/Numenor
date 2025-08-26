@@ -45,8 +45,8 @@ lotr_corsair_traveler_template = {
 				20 = { add_trait = blood_of_numenor_3 }
 				20 = { add_trait = blood_of_numenor_2 }
 				20 = { add_trait = blood_of_numenor_1 }
+				90 = { }
 			}
-			90 = { }
 		}
 	}
 }
@@ -431,11 +431,7 @@ lotr_fantasy_hero_template = { # A destined great hero, one you'd find in a ster
 				morlughai_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	diplomacy = {
 		min_template_decent_skill

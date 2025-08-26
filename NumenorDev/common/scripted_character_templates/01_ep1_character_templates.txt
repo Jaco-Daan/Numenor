@@ -67,11 +67,7 @@
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	martial  = {
 		min_template_high_skill
@@ -174,11 +170,7 @@ errant_soldier_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	dynasty = none
 	gender_female_chance = root_soldier_female_chance
@@ -311,11 +303,7 @@ cinderella_character = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	faith = root.faith
 	after_creation = {
@@ -464,11 +452,7 @@ local_artisan_template = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	dynasty = none
 	random_traits_list = {
@@ -883,11 +867,7 @@ millenarian_template = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	gender_female_chance = root_faith_dominant_gender_adjusted_female_chance
 	after_creation = {
@@ -974,11 +954,7 @@ miracle_baby_template = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	gender_female_chance = root_faith_dominant_gender_adjusted_female_chance
 }
@@ -1749,11 +1725,7 @@ poet_template = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	dynasty = none
 	#Misc
@@ -1812,11 +1784,7 @@ gardener_template = {
 				black_numenorean_trigger = yes
 			}
 		}
-		culture:pust = {
-			trigger = {
-				pust_trigger = yes
-			}
-		}
+		
 	}
 	dynasty = none
 	#Misc

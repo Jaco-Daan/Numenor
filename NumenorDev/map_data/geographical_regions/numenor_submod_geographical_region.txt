@@ -24,3 +24,25 @@ middleearth_numenor = {
 		d_nunduine d_erest d_andunie d_arialome d_sirinore d_nindamos
 	}
 }
+
+graphical_western = {
+	# 
+	graphical = yes
+	color = { 255 0 0 }
+	regions = {
+		# Beleriand, Eriador, Gondor, Rohan, Anduin Rhovanion.
+		middleearth_west_beleriand
+		middleearth_west_eregion 
+		middleearth_west_arnor
+		middleearth_west_enedhwaith
+		middleearth_west_gondor
+		middleearth_west_rohan
+		middleearth_west_rhovanion_anduin
+		middleearth_west_rhovanion_mirkwood
+		middleearth_west_rhovanion_brownlands
+		middleearth_uttersouth
+		middleearth_uttersouth_shayn
+		middleearth_uttersouth_usakan
+		middleearth_numenor
+	}
+}

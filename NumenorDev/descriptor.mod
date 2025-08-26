@@ -9,5 +9,5 @@ dependencies={
 }
 name="Númenor Submod for Realms in Exile"
 picture="thumbnail.png"
-supported_version="1.12.*"
-remote_file_id="2902243711"
+supported_version="1.16.*"
+path="C:/Users/Jaco/Documents/GitHub/Numenor/NumenorDev"

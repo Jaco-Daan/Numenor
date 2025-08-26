@@ -8,6 +8,7 @@
 	heritage = heritage_adunaic
 	language = language_adunaic
 	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
 	traditions = {
 		tradition_adunaim_pride
 		tradition_seafaring
