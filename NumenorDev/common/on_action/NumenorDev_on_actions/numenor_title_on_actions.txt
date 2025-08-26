@@ -1,4 +1,4 @@
-﻿NumenorDev_on_title_gain = {
+﻿numenor_on_title_gain = {
 	effect = {
 		if = {
 			limit = {
@@ -74,7 +74,7 @@
 	}
 }
 
-NumenorDev_on_title_gain_inheritance = {
+numenor_on_title_gain_inheritance = {
 	effect = {
 		if = {
 			limit = {

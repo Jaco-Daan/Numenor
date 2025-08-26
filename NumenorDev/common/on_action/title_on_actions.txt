@@ -98,7 +98,7 @@ on_title_destroyed = {
 on_title_gain = {
 	on_actions = { 
 		lotr_on_title_gain
-		NumenorDev_on_title_gain #Numenor Submod
+		numenor_on_title_gain #Numenor Submod
 	}
 	effect = {
 		# Nomads
@@ -1667,7 +1667,7 @@ on_title_gain = {
 on_title_gain_inheritance = {
 	on_actions = { 
 		lotr_on_title_gain_inheritance
-		NumenorDev_on_title_gain_inheritance #Numenor Submod
+		numenor_on_title_gain_inheritance #Numenor Submod
 	}
 	events = {
 		diarchy.0011

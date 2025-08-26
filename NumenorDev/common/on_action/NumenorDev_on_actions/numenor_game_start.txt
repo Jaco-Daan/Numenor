@@ -1,4 +1,4 @@
-﻿NumenorDev_on_game_start = {
+﻿numenor_on_game_start = {
     effect = {
         every_living_character = {
 			limit = {
@@ -7,7 +7,7 @@
 			}
 			add_trait = blood_of_numenor_7
 		}
-        ### Numenor Submod ###
 		set_up_council_of_sceptre = yes
+		numenor_fire_intro_events = yes
     }
 }

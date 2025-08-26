@@ -155,7 +155,7 @@ create_artifact_nenya_effect = {
 			ARTIFACT = this
 			TYPE = given
 			DATE = 2285.1.1
-			RECIPIENT = character:linefinwe36 #Galadriel
+			RECIPIENT = character:lineoffinarfin5 #Galadriel
 		}
 	}
 }
@@ -2762,7 +2762,7 @@ create_artifact_galadriel_mirror_effect = {
 	create_artifact = {
 		name = galadriel_mirror_name
 		description = galadriel_mirror_description
-		creator = character:linefinwe36 #Galadriel
+		creator = character:lineoffinarfin5 #Galadriel
 		type = pedestal
 		visuals = galadriel_mirror
 		template = galadriel_mirror_template
@@ -2771,8 +2771,8 @@ create_artifact_galadriel_mirror_effect = {
 		history = {
 			type = created
 			date = 6014.1.1
-			actor = character:linefinwe36 #Galadriel
-			recipient = character:linefinwe36 #Galadriel
+			actor = character:lineoffinarfin5 #Galadriel
+			recipient = character:lineoffinarfin5 #Galadriel
 			location = province:3108 #Caras Galadhon
 		}
 		modifier = galadriel_mirror_modifier
@@ -3070,7 +3070,7 @@ create_artifact_hadhafang_effect = {
 			ARTIFACT = this
 			TYPE = inherited
 			DATE = 528.1.1
-			RECIPIENT = character:linefinwe26
+			RECIPIENT = character:lineoffingolfin9
 		}
 		lotr_add_artifact_history = { # Elrond
 			ARTIFACT = this
@@ -3099,8 +3099,8 @@ create_artifact_silver_harp_effect = {
 		history = {
 			type = created
 			date = 110.1.1
-			actor = character:linefinwe11  #Maglor
-			recipient = character:linefinwe11  #Maglor
+			actor = character:lineoffeanor2  #Maglor
+			recipient = character:lineoffeanor2  #Maglor
 			location = province:3900 #Tirion
 		}
 		modifier = silver_harp_modifier
@@ -3188,7 +3188,7 @@ create_artifact_silmaril_effect = {
 			ARTIFACT = this
 			TYPE = given
 			DATE = 542.9.10
-			RECIPIENT = character:linefinwe26
+			RECIPIENT = character:lineoffingolfin9
 		}
 	}
 }
@@ -3245,7 +3245,7 @@ create_artifact_hyandolire_effect = {
 			type = created
 			date = 2.11.30
 			actor = character:linefinwe2 #Feanor
-			recipient = character:linefinwe11 #Maglor
+			recipient = character:lineoffeanor2 #Maglor
 			location = province:3900 #Tirion
 		}
 		modifier = hyandolire_modifier
@@ -3309,7 +3309,7 @@ create_artifact_ringil_effect = {
 			ARTIFACT = this
 			TYPE = inherited
 			DATE = 528.1.1
-			RECIPIENT = character:linefinwe26
+			RECIPIENT = character:lineoffingolfin9
 		}
 		lotr_add_artifact_history = { # Elrond
 			ARTIFACT = this
@@ -4549,7 +4549,7 @@ create_artifact_mask_goldenking_effect = {
 		history = {
 			type = created
 			date = 2590.1.1
-			recipient = character:goldenking1 #Golden King
+			recipient = character:nazgul3 #Golden King
 			location = province:2250 #Abrakhân
 		}
 		modifier = mask_goldenking_modifier
@@ -8889,7 +8889,7 @@ create_artifact_dramborleg_effect = {
 		add_artifact_history = { # Earendil
 			type = inherited
 			date = 528.1.1
-			recipient = character:linefinwe26
+			recipient = character:lineoffingolfin9
 		}
 		add_artifact_history = {
 			type = given

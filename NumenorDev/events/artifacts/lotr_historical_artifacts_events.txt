@@ -69,7 +69,7 @@ lotr_historical_artifacts.0001 = {
 			}
 		}
 		else = {
-			character:linefinwe36 ?= { # Galadriel receives Nenya
+			character:lineoffinarfin5 ?= { # Galadriel receives Nenya
 				create_artifact_nenya_effect = { OWNER = this }
 			}
 		}
@@ -327,7 +327,7 @@ lotr_historical_artifacts.0001 = {
 			}
 		}
 		else = {
-			character:linefinwe36 ?= {
+			character:lineoffinarfin5 ?= {
 				create_artifact_elessar_effect = { OWNER = this }
 			}
 		}
@@ -404,7 +404,7 @@ lotr_historical_artifacts.0001 = {
 			}
 		}
 		
-		character:linefinwe26  = { # Earendil receives Simaril
+		character:lineoffingolfin9  = { # Earendil receives Simaril
 			create_artifact_silmaril_effect = { OWNER = this }
 		}
 		
@@ -424,7 +424,7 @@ lotr_historical_artifacts.0001 = {
 			}
 		}
 		
-		character:linefinwe11 = { # Maglor gets his sword
+		character:lineoffeanor2 = { # Maglor gets his sword
 			create_artifact_hyandolire_effect = { OWNER = this }
 		}
 		
