@@ -763,105 +763,6 @@
 	holding = none
 }
 
-## Nisimaldar ##
-## Eldalonde ##
-
-6145 = {	#Eldalonde (b_eldalonde)
-	culture = numenorean
-	religion = faith_numenorean
-	holding = castle_holding
-	4002.1.1 = {
-        culture = adunaic
-		religion = faith_numenorean
-    }
-    6405.1.1 = {
-        religion = faith_adunaic
-    }
-	6776.1.1 = {
-		buildings = {
-			castle_03
-			citadel_04
-			common_tradeport_06
-		}
-		special_building_slot = wonder_eldalonde_01
-		special_building = wonder_eldalonde_02
-	}			
-}
-6141 = {	#Hyarmaldar (b_hyarmaldar)
-	culture = numenorean
-	religion = faith_numenorean
-	holding = city_holding
-	4002.1.1 = {
-        culture = adunaic
-		religion = faith_numenorean
-    }
-    6405.1.1 = {
-        religion = faith_adunaic
-    }
-	6776.1.1 = {
-		buildings = {
-			city_02
-			logging_camps_04
-		}
-	}
-}
-6154 = {	#Formaldar (b_formaldar)
-	culture = numenorean
-	religion = faith_numenorean
-	holding = city_holding
-	4002.1.1 = {
-        culture = adunaic
-		religion = faith_numenorean
-    }
-    6405.1.1 = {
-        religion = faith_adunaic
-    }
-	6776.1.1 = {
-		buildings = {
-			city_02
-			logging_camps_04
-		}
-	}
-}
-
-## Nisinna ##
-
-6216 = {	#Nisinna (b_nisinna)
-	culture = numenorean
-	religion = faith_numenorean
-	holding = castle_holding
-	4002.1.1 = {
-        culture = adunaic
-		religion = faith_numenorean
-    }
-    6405.1.1 = {
-        religion = faith_adunaic
-    }
-	buildings = {
-		castle_02
-		curtain_walls_04
-		farm_estates_04
-	}
-}
-6139 = {	#Oiomir (b_oiomir)
-	culture = numenorean
-	religion = faith_numenorean
-	holding = city_holding
-	4002.1.1 = {
-        culture = adunaic
-		religion = faith_numenorean
-    }
-    6405.1.1 = {
-        religion = faith_adunaic
-    }
-	6776.1.1 = {
-		buildings = {
-			city_02
-			cereal_fields_04
-		}
-	}
-}
-
 ## Tarminas ##
 
 6122 = {	#Tarminas (b_tarminas)
@@ -1292,104 +1193,6 @@
                 religion = faith_adunaic
             }
 }
-6187 = {	#Meryare (b_meryare)
-			culture = numenorean
-			religion = faith_numenorean
-			holding = castle_holding
-			4002.1.1 = {
-                culture = adunaic
-				religion = faith_numenorean
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
-}
-6204 = {	#Athrangrost (b_athrangrost)
-			culture = numenorean
-			religion = faith_numenorean
-			holding = castle_holding
-			4002.1.1 = {
-                culture = adunaic
-				religion = faith_numenorean
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
-}
-6186 = {	#Arialome (b_arialome)
-			culture = numenorean
-			religion = faith_numenorean
-			holding = castle_holding
-			4002.1.1 = {
-                culture = adunaic
-				religion = faith_numenorean
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
-}
-6180 = {	#Vlarion (b_vlarion)
-			culture = numenorean
-			religion = faith_numenorean
-			holding = castle_holding
-			4002.1.1 = {
-                culture = adunaic
-				religion = faith_numenorean
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
-}
-6163 = {	#Erest (b_erest)
-			culture = numenorean
-			religion = faith_numenorean
-			holding = castle_holding
-			4002.1.1 = {
-                culture = adunaic
-				religion = faith_numenorean
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
-}
-6169 = {	#Maltenost (b_maltenost)
-			culture = numenorean
-			religion = faith_numenorean
-			holding = castle_holding
-			4002.1.1 = {
-                culture = adunaic
-				religion = faith_numenorean
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
-}
-6185 = {	#Meniel (b_meniel)
-			culture = numenorean
-			religion = faith_numenorean
-			holding = castle_holding
-			4002.1.1 = {
-                culture = adunaic
-				religion = faith_numenorean
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
-}
-6191 = {	#Oromet (b_oromet)
-			culture = numenorean
-			religion = faith_numenorean
-			holding = castle_holding
-			4002.1.1 = {
-                culture = adunaic
-				religion = faith_numenorean
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
-			special_building_slot = wonder_oromet_01
-			special_building = wonder_oromet_01
-}
 
 ## Andustar ##
 ## Andunie ##
@@ -1436,10 +1239,327 @@
 6193 = {
 	holding = church_holding
 	6776.1.1 = {
-		temple_03
-		scriptorium_06
+		buildings = {
+			temple_03
+			scriptorium_06
+		}
 	}
 }
+
+## Oromet ##
+6191 = {	#Oromet (b_oromet)
+	culture = numenorean
+	religion = faith_numenorean
+	holding = castle_holding
+	4002.1.1 = {
+		culture = adunaic
+		religion = faith_numenorean
+	}
+	6405.1.1 = {
+		religion = faith_adunaic
+	}
+	6776.1.1 = {
+		buildings {
+			castle_02
+			hill_forts_04
+			common_tradeport_04
+		}
+	}
+	special_building_slot = wonder_oromet_01
+	special_building = wonder_oromet_01
+}
+6179 = {	#Tarmatir (b_tarmatir)
+	holding = none
+}
+6197 = {	#Valalondë (b_valalonde)
+	holding = city_holding
+	6776.1.1 = {
+		buildings = {
+			city_02
+			common_tradeport_04
+		}
+	}
+}
+
+## Maitosto ##
+
+6169 = {	#Maltenost (b_maltenost)
+	culture = numenorean
+	religion = faith_numenorean
+	holding = castle_holding
+	4002.1.1 = {
+		culture = adunaic
+		religion = faith_numenorean
+	}
+	6405.1.1 = {
+		religion = faith_adunaic
+	}
+	6776.1.1 = {
+		buildings = {
+			castle_02
+			curtain_walls_04
+			common_tradeport_04
+		}
+	}
+}
+6168 = {	#Angal (b_angal)
+	holding = city_holding
+	6776.1.1 = {
+		buildings = {
+			city_02
+			common_tradeport_04
+		}
+	}
+}
+6173 = {	#Balîkân (b_balkuman)
+	holding = none
+}
+
+## Nisimaldar ##
+## Eldalonde ##
+
+6145 = {	#Eldalonde (b_eldalonde)
+	culture = numenorean
+	religion = faith_numenorean
+	holding = castle_holding
+	4002.1.1 = {
+        culture = adunaic
+		religion = faith_numenorean
+    }
+    6405.1.1 = {
+        religion = faith_adunaic
+    }
+	6776.1.1 = {
+		buildings = {
+			castle_03
+			curtain_walls_06
+			common_tradeport_08
+		}
+		special_building_slot = wonder_eldalonde_01
+		special_building = wonder_eldalonde_02
+		duchy_capital_building = royal_forest_02
+	}			
+}
+6141 = {	#Hyarmaldar (b_hyarmaldar)
+	holding = none
+}
+6154 = {	#Formaldar (b_formaldar)
+	holding = none
+}
+
+## Nisinna ##
+
+6216 = {	#Nisinna (b_nisinna)
+	culture = numenorean
+	religion = faith_numenorean
+	holding = castle_holding
+	4002.1.1 = {
+        culture = adunaic
+		religion = faith_numenorean
+    }
+    6405.1.1 = {
+        religion = faith_adunaic
+    }
+	6776.1.1 = {
+		buildings = {
+			castle_02
+			curtain_walls_04
+			hospices_04
+		}
+	}
+}
+6139 = {	#Oiomir (b_oiomir)
+	holding = none
+}
+
+## Erosto ##
+## Erosto ##
+6163 = {	#Eresto (b_erest)
+	culture = numenorean
+	religion = faith_numenorean
+	holding = castle_holding
+	4002.1.1 = {
+		culture = adunaic
+		religion = faith_numenorean
+	}
+	6405.1.1 = {
+		religion = faith_adunaic
+	}
+	6776.1.1 = {
+		buildings ={
+			castle_03
+			curtain_walls_06
+			cereal_fields_06
+		}
+	}
+}
+6164 = {	#Parmon (b_parmon)
+	holding = city_holding
+	6776.1.1 = {
+		buildings = {
+			city_03
+			common_tradeport_06
+		}
+	}
+}
+6210 = {	#Telemmar (b_telemna)
+	holding = church_holding
+	6776.1.1 = {
+		buildings = {
+			temple_03
+			scriptorium_06
+		}
+	}
+}
+
+## Menelleper
+6185 = {	#Menelleper (b_meniel)
+	culture = numenorean
+	religion = faith_numenorean
+	holding = castle_holding
+	4002.1.1 = {
+		culture = adunaic
+		religion = faith_numenorean
+	}
+	6405.1.1 = {
+		religion = faith_adunaic
+	}
+	6776.1.1 = {
+		buildings = {
+			castle_02
+			hill_farms_04
+			hill_forts_04
+		}
+	}
+}
+6174 = {	#Tammírë (b_tanamir)
+	holding = city_holding
+	6776.1.1 = {
+		buildings = {
+			city_02
+			hill_farms_04
+		}
+	}
+}
+
+## Athradrond ##
+
+6204 = {	#Athradrond (b_athrangrost)
+	culture = numenorean
+	religion = faith_numenorean
+	holding = castle_holding
+	4002.1.1 = {
+		culture = adunaic
+		religion = faith_numenorean
+	}
+	6405.1.1 = {
+		religion = faith_adunaic
+	}
+	6776.1.1 = {
+		buildings = {
+			castle_02
+			curtain_walls_04
+			cereal_fields_04
+		}
+	}
+}
+6212 = {	#Thôra (b_thora)
+	holding = none
+}
+
+## Lómëanor ##
+## Lómëanor ##
+6186 = {	#Lómëanor (b_arialome)
+	culture = numenorean
+	religion = faith_numenorean
+	holding = castle_holding
+	4002.1.1 = {
+		culture = adunaic
+		religion = faith_numenorean
+	}
+	6405.1.1 = {
+		religion = faith_adunaic
+	}
+	6776.1.1 = {
+		buildings = {
+			castle_03
+			ramparts_06
+			common_tradeport_06
+		}
+	}
+}
+6194 = {	#Mareth (b_mareth)
+	holding = church_holding
+	6776.1.1 = {
+		buildings = {
+			temple_03
+			scriptorium_06
+		}
+	}
+}
+
+## Ranyatir ##
+
+6180 = {	#Ranyatir (b_vlarion)
+	culture = numenorean
+	religion = faith_numenorean
+	holding = castle_holding
+	4002.1.1 = {
+		culture = adunaic
+		religion = faith_numenorean
+	}
+	6405.1.1 = {
+		religion = faith_adunaic
+	}
+	6776.1.1 = {
+		buildings = {
+			castle_02
+			curtain_walls_04
+			common_tradeport_04
+		}
+	}
+}
+6171 = {	#Sangan (b_sangan)
+	holding = city_holding
+	6776.1.1 = {
+		buildings = {
+			city_02
+			common_tradeport_04
+		}
+	}
+}
+
+## Meryamar ##
+6187 = {	#Meryamar (b_meryare)
+	culture = numenorean
+	religion = faith_numenorean
+	holding = castle_holding
+	4002.1.1 = {
+		culture = adunaic
+		religion = faith_numenorean
+	}
+	6405.1.1 = {
+		religion = faith_adunaic
+	}
+	6776.1.1 = {
+		buildings = {
+			castle_02
+			curtain_walls_04
+			common_tradeport_04
+		}
+	}
+}
+6188 = {
+	holding = city_holding
+	6776.1.1 = {
+		buildings = {
+			city_02
+			common_tradeport_04
+		}
+	}
+}
+
+
 6114 = {	#Menost (b_menost)
 			culture = numenorean
 			religion = faith_kings_men_numenorean
