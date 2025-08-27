@@ -206,6 +206,11 @@ decision_reclaim_thani_hazad_numenor = {
 		AND = {
 			completely_controls = title:k_an_balkumagan
 			completely_controls = title:k_tulwang
+			completely_controls = title:k_zimrathani
+			completely_controls = title:k_drel
+			completely_controls = title:k_pel
+			completely_controls = title:k_gimilthani
+			completely_controls = title:k_kharadune
 		}
 		prestige_level >= high_prestige_level
 	}
@@ -223,10 +228,40 @@ decision_reclaim_thani_hazad_numenor = {
 		title:k_tulwang = {
 			set_de_jure_liege_title = root.primary_title
 		}
+		title:k_zimrathani = {
+			set_de_jure_liege_title = root.primary_title
+		}
+		title:k_drel = {
+			set_de_jure_liege_title = root.primary_title
+		}
+		title:k_pel = {
+			set_de_jure_liege_title = root.primary_title
+		}
+		title:k_gimilthani = {
+			set_de_jure_liege_title = root.primary_title
+		}
+		title:k_kharadune = {
+			set_de_jure_liege_title = root.primary_title
+		}
 		title:k_an_balkumagan = {
 			change_development_level = 3
 		}
 		title:k_tulwang = {
+			change_development_level = 3
+		}
+		title:k_zimrathani = {
+			change_development_level = 3
+		}
+		title:k_drel = {
+			change_development_level = 3
+		}
+		title:k_pel = {
+			change_development_level = 3
+		}
+		title:k_gimilthani = {
+			change_development_level = 3
+		}
+		title:k_kharadune = {
 			change_development_level = 3
 		}
 		add_to_global_variable_list = {
