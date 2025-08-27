@@ -33,11 +33,6 @@
 		# tradition_staunch_traditionalists like parameters
 		expensive_convert_to_local_culture = yes
 		harder_to_hybridize = yes
-		
-		unlock_maa_numenorean_submod_pikemen = yes
-		unlock_maa_numenorean_royal_knights = yes
-		unlock_maa_numenorean_common_soldiers = yes
-		unlock_maa_numenorean_steel_archers = yes
 	}
 		
 	character_modifier = { # change from culture to tenet
