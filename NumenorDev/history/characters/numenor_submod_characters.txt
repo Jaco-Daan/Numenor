@@ -681,6 +681,13 @@ lineofelros114 = {
 	6897.1.1 = {
 		birth = yes
 	}
+	6930.12.14 = {
+		add_spouse = lineofondostotwo5a1
+		set_relation_lover = character:lineofondostotwo5a1
+	}
+	7120.6.14 = {
+		death = { death_reason = death_natural_causes }
+	}
 }
 lineofelros115 = {
 	name = "Falassion"
@@ -4303,6 +4310,15 @@ ruxoalendil27 = {
 	6902.1.1 = {
 		birth = yes
 	}
+
+	6970.2.20 = {
+		add_spouse = lineofrotthor2a31a1
+		set_relation_lover = character:lineofrotthor2a31a1
+	}
+
+	7120.4.13 = {
+		death = { death_reason = death_natural_causes }
+	}
 }
 ruxoalendil28 = {
 	name = "Minlube_e_n"
@@ -4311,6 +4327,7 @@ ruxoalendil28 = {
 	faith = faith_adunaic
 	
 	father = ruxoalendil27
+	mother = lineofrotthor2a31a1
 	
 	trait = blood_of_numenor_7
 	trait = patient
@@ -4344,6 +4361,7 @@ ruxoalendil30 = {
 	faith = faith_adunaic
 	
 	father = ruxoalendil27
+	mother = lineofrotthor2a31a1
 	
 	trait = blood_of_numenor_7
 	
@@ -7763,6 +7781,28 @@ lineoftelemnacil61 = {
     }
 }
 
+lineoftelemnacil59a1 = {
+    name = N_ari_e_e
+	female = yes
+
+    dynasty = dynasty_telemnacil
+    religion = faith_adunaic
+    culture = adunaic
+
+    father = lineoftelemnacil59
+    mother = lineoftelemnacil60
+
+    trait = blood_of_numenor_7
+
+    6824.12.11 = {
+        birth = yes
+    }
+
+    7051.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 lineoftelemnacil62 = {
     name = Adu_u_naphe_e_l
     female = yes
@@ -8585,6 +8625,7 @@ lineofagathor_ns35 = {
 
 lineofagathor_ns36 = {
 	name = Abrazimi_i_r
+	dna = abrazimir_tir_elin_wotr_dna
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
 	culture = adunaic
@@ -8610,6 +8651,23 @@ lineofagathor_ns37 = {
 	
 	6897.1.1 = {
 		birth = yes
+	}
+}
+lineofagathor_ns36a1 = {
+	name = A_A_ru_u_zagar
+	dynasty = dynasty_agathor
+	religion = faith_adunaic
+	culture = adunaic
+	
+	trait = blood_of_numenor_7
+	
+	father = lineofagathor_ns36
+	
+	6899.6.14 = {
+		birth = yes
+	}
+	7114.12.18 = {
+		death = { death_reason = death_natural_causes }
 	}
 }
 lineofagathor_ns39 = {
@@ -11970,7 +12028,7 @@ linejewellord30 = {
 	}
 }
 
-### Lords of Ondostó ###
+### Lords of Ondosto ###
 lineofondosto1 = {
 	name = Arphaze_e_ne_e_th
 	female = yes
@@ -12476,7 +12534,7 @@ lineofelros120 = {
 	religion = faith_adunaic
 	culture = adunaic
 	
-	father = lineofelros114
+	father = lineofelros113
 	
 	trait = blood_of_numenor_7
 	trait = beauty_good_2
@@ -12617,6 +12675,28 @@ lineofondostotwo6 = {
 	
 	6896.1.1 = {
 		birth = yes
+	}
+}
+lineofondostotwo5a1 = {
+	name = Be_e_lphaze_e_l
+	female = yes
+	dynasty = dynasty_ondostobastard
+	religion = faith_adunaic
+	sexuality = bisexual
+	culture = adunaic
+	
+	father = lineofondostotwo5
+	
+	trait = blood_of_numenor_7
+	trait = just
+	trait = arrogant
+	trait = chaste
+	
+	6890.12.14 = {
+		birth = yes
+	}
+	7116.5.25 = {
+		death = { death_reason = death_natural_causes }
 	}
 }
 lineofondostotwo7 = {
@@ -13102,6 +13182,838 @@ lineofsirinore2 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
+### House of Rôtthôr ###
+
+lineofrotthor2a2 = { # ...but these tales pass into the annals of Númenor the Arisen
+    name = Lo_o_kkho_o_r
+
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a1
+    mother = lineofrotthor2a1wife
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    3371.4.19 = {
+        birth = yes
+    }
+
+    3654.12.14 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a3 = {
+    name = Lo_o_khuzi_i_r
+
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a2
+
+    trait = blood_of_numenor_9
+    trait = born_on_numenor
+
+    3451.9.11 = {
+        birth = yes
+    }
+
+    3714.9.11 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a4 = {
+    name = Lazphe_e_l
+	female = yes
+
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a3
+
+    trait = blood_of_numenor_9
+    trait = born_on_numenor
+
+    3567.12.11 = {
+        birth = yes
+    }
+
+    3730.12.14 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a5 = {
+    name = U_U_rnuzi_i_r
+
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+    dynasty = dynasty_rotthori
+
+    mother = lineofrotthor2a4
+
+    trait = blood_of_numenor_8
+    trait = born_on_numenor
+
+    3678.9.14 = {
+        birth = yes
+    }
+
+    3820.6.12 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a6 = {
+    name = U_Urnurahata_a_n
+
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a5
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    3780.6.14 = {
+        birth = yes
+    }
+
+    3901.1.14 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a7 = {
+    name = Urduba_a_r
+
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a6
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    3891.5.17 = {
+        birth = yes
+    }
+
+	3911.1.1 = {
+		name = Zabatha_a_n
+		faith = faith_dairaben
+		culture = adunaic
+	}
+
+    4011.6.11 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a8 = {
+    name = Zagara_a_n
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a7
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    3915.6.14 = {
+        birth = yes
+    }
+
+    4106.9.18 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a9 = {
+    name = Zagrudo_o_n
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a8
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    4006.1.1 = {
+        birth = yes
+    }
+
+    4221.12.4 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a10 = {
+    name = Rassaro_o_th
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a9
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    4101.1.1 = {
+        birth = yes
+    }
+
+    4319.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a11 = {
+    name = Rassuzi_i_r
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a10
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    4203.1.1 = {
+        birth = yes
+    }
+
+    4421.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a12 = {
+    name = Zo_o_rphe_e_l
+	female = yes
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a11
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    4312.1.1 = {
+        birth = yes
+    }
+
+    4532.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a13 = {
+    name = Zo_o_ruzi_i_r
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    mother = lineofrotthor2a12
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = chaste
+
+    4426.1.1 = {
+        birth = yes
+    }
+
+    4650.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a14 = {
+    name = Za_a_yakkho_o_r
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a13
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    4601.1.1 = {
+        birth = yes
+    }
+
+    4821.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a15 = {
+    name = Sirkukho_o_r
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a14
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    4781.1.1 = {
+        birth = yes
+    }
+
+    5001.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a16 = {
+    name = Sakluz_i_iri_i_
+	female = yes
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a15
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    4950.1.1 = {
+        birth = yes
+    }
+
+    5171.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a17 = {
+    name = Sakalro_o_th
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    mother = lineofrotthor2a16
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    5060.1.1 = {
+        birth = yes
+    }
+
+    5283.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a18 = {
+    name = Ro_o_ttho_o_r
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a17
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    5171.1.1 = {
+        birth = yes
+    }
+
+    5400.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a19 = {
+    name = Ro_o_tthin
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a18
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    5262.1.1 = {
+        birth = yes
+    }
+
+    5480.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a20 = {
+    name = Ro_o_tthil
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a19
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    5349.1.1 = {
+        birth = yes
+    }
+
+    5560.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a21 = {
+    name = Rassaro_o_th
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a20
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    5500.1.1 = {
+        birth = yes
+    }
+
+    5721.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a22 = {
+    name = Ro_o_tho_o_zo_o_r
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a21
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    5711.1.1 = {
+        birth = yes
+    }
+
+    5936.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a23 = {
+    name = Pharzuzor
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a22
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    5870.1.1 = {
+        birth = yes
+    }
+
+    6001.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a24 = {
+    name = Pharaztho_o_n
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a23
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    5950.1.1 = {
+        birth = yes
+    }
+
+    6179.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a25 = {
+    name = Phaza_a_kkho_o_r
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a24
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    6100.1.1 = {
+        birth = yes
+    }
+
+    6326.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a26 = {
+    name = Pharzube_e_li_i_n
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a25
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    6291.1.1 = {
+        birth = yes
+    }
+
+    6511.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a27 = {
+    name = Pharazzi_i_r
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a26
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    6451.1.1 = {
+        birth = yes
+    }
+
+    6676.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a28 = {
+    name = Niluzir
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a27
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    6541.1.1 = {
+        birth = yes
+    }
+
+    6760.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a29 = {
+    name = Pharazzi_i_ri_i_
+	female = yes
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a28
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = intellect_good_2
+	trait = compassionate
+	trait = brave
+	trait = just
+	trait = education_martial_4
+
+    6666.1.1 = {
+        birth = yes
+    }
+
+    6888.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a30 = {
+    name = Khibilazi_i_r
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    mother = lineofrotthor2a29
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    6747.1.1 = {
+        birth = yes
+    }
+
+    6999.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a31 = {
+    name = Khibilro_o_th
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a30
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    6810.1.1 = {
+        birth = yes
+    }
+
+	6890.4.20 = {
+		add_spouse = lineoftelemnacil59a1
+	}
+
+    7019.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a32 = {
+    name = Rassaro_o_th
+	dna = rassaroth_rotthori_wotr_dna
+	female = yes
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a31
+	mother = lineoftelemnacil59a1
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = intellect_good_1
+	trait = just
+	trait = compassionate
+	trait = honest
+
+    6900.3.15 = {
+        birth = yes
+    }
+
+	6971.6.11 = {
+		add_matrilineal_spouse = lineofagathor_ns36a1
+		set_relation_soulmate = character:lineofagathor_ns36a1
+	}
+
+    7126.12.20 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a33 = {
+    name = Zo_o_rphe_e_l
+	female = yes
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    mother = lineofrotthor2a32
+	father = lineofagathor_ns36a1
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = intellect_good_1
+	trait = diligent
+	trait = ambitious
+	trait = arrogant
+
+    6972.6.20 = {
+        birth = yes
+    }
+
+    7199.2.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a32a1 = {
+    name = Ro_o_tthil
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    mother = lineofrotthor2a32
+	father = lineofagathor_ns36a1
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = intellect_good_1
+	trait = lazy
+	trait = gregarious
+	trait = humble
+
+    6980.12.11 = {
+        birth = yes
+    }
+
+    7206.6.14 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a32b1 = {
+    name = Sakalkali_i_
+	female = yes
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    mother = lineofrotthor2a32
+	father = lineofagathor_ns36a1
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = intellect_good_1
+	trait = impatient
+	trait = deceitful
+	trait = just
+
+    6986.11.19 = {
+        birth = yes
+    }
+
+    7205.3.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofrotthor2a31a1 = {
+    name = E_a_a_llavar
+	female = yes
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a31
+	mother = lineoftelemnacil59a1
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = intellect_good_1
+	trait = compassionate
+	trait = brave
+	trait = stubborn
+	trait = education_martial_4
+
+    6907.2.19 = {
+        birth = yes
+    }
+
+    7130.1.14 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
 ##PLACEHOLDER CHARACTERS##
 #HYARANORE#
 place1 = {
@@ -13225,7 +14137,7 @@ place5 = {
 }
 #ELENORE
 place6 = {
-	name = "Gêrmazagar"
+	name = Zo_o_rzagar
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -13262,7 +14174,7 @@ place7 = {
 		birth = yes
 	}
 }
-#ONDOSTÓ
+#Ondosto
 place8 = {
 	name = "Numendil"
 	religion = faith_adunaic

@@ -40,7 +40,7 @@
 
 adunaic_ethnicity = {
     template = "ethnicity_template"
-	using = "goblin"
+	using = "numenorean"
 
     #BODY
 	
@@ -763,7 +763,7 @@ adunaic_ethnicity = {
 
 adunaic_ethnicity_1 = {
     template = "adunaic_ethnicity"
-	using = "goblin"
+	using = "numenorean"
 
     #HEAD AND NECK
 	
@@ -1085,7 +1085,7 @@ adunaic_ethnicity_1 = {
 
 adunaic_ethnicity_2 = {
     template = "adunaic_ethnicity"
-    using = "goblin"
+    using = "numenorean"
 
     #HEAD AND NECK
 	
@@ -1357,7 +1357,7 @@ adunaic_ethnicity_2 = {
 
 adunaic_ethnicity_3 = {
     template = "adunaic_ethnicity"
-    using = "goblin"
+    using = "numenorean"
 
     skin_color = {
 		100 = { 0.15 0.15 0.275 0.275 }

@@ -1,7 +1,7 @@
 ﻿l_english:
   #### NÚMENOR SUBMOD ####
   building_type_wonder_armenelos_01:0 "Armenelos: City of Kings"
-  building_type_wonder_armenelos_01_desc:0 "Armenelos, also known as Arminalêth, is the Capital of Númenor, fairest city in the West, rivalling even Tirion. Armenelos' fortunes declined during the reign of Ar-Pharazôn who turned the city into a foggy nightmare of evil, Nimloth the Fair itself was burnt by the tyrant and the innocent people were sacrificed at the Altar of Melkor, the last straw was the Akallabêth, which left the city in ruins for centuries, during which the capital of Númenor was Ondostó."
+  building_type_wonder_armenelos_01_desc:0 "Armenelos, also known as Arminalêth, is the Capital of Númenor, fairest city in the West, rivalling even Tirion. Armenelos' fortunes declined during the reign of Ar-Pharazôn who turned the city into a foggy nightmare of evil, Nimloth the Fair itself was burnt by the tyrant and the innocent people were sacrificed at the Altar of Melkor, the last straw was the Akallabêth, which left the city in ruins for centuries, during which the capital of Númenor was Ondosto."
   building_wonder_armenelos_01:0 "Armenelos the Ruin"
   building_wonder_armenelos_01_desc:0 "Armenelos is at the lowest it has been, the entire city is crumbling and is a ghost town, nobody dares to enter Armenelos. We must rebuild this fair city in order to fortify our control of Númenor and to move the capital back there, although it will take a lot of manpower and gold."
   building_wonder_armenelos_02:0 "Armenelos: Capital of Númenor"
@@ -25,7 +25,7 @@
   building_wonder_sorontil_01:0 "The Tower in Ruins"
   building_wonder_sorontil_01_desc:0 "Ever since the Akallabêth, in which the Tower of Meneldur was broken by the tremors, it has remained a ruin, rarely visited by anyone except pilgrims and scholars, but with enough resources and manpower we can rebuild this great tower once more."
   building_wonder_sorontil_02:0 "The Tower of Tar-Meneldur"
-  building_wonder_sorontil_02_desc:0 "The Tower of Tar-Meneldur has been restored to its former glory, using stones brought from Ondostó. Our scholars now have a new place to study the stars."
+  building_wonder_sorontil_02_desc:0 "The Tower of Tar-Meneldur has been restored to its former glory, using stones brought from Ondosto. Our scholars now have a new place to study the stars."
  
   building_type_wonder_calmindon_01:0 "Calmindon"
   building_type_wonder_calmindon_01_desc:0 "Calmindon was a tower raised in Tol Uinen by Aldarion so it could shine a light across the Bay of Rómenna, while it collapsed during the Akallabêth it was rebuilt during the reign of Tar-Aldarion II."
@@ -46,12 +46,12 @@
   building_wonder_nindamos_02:0 "City of Nindamos"
   building_wonder_nindamos_02_desc:0 "Nindamos has now regained its old splendour and glory, every day dozens of ships leave its port and its markets are filled with the most exquisite collection of seafood in all of Middle Earth, peasants, merchants and nobles all visit Nindamos to purchase from its great market."
  
-  building_type_wonder_ondosto_01:0 "Great Quarries of Ondostó"
-  building_type_wonder_ondosto_01_desc:0 "Ondostó was originally founded as a village for Quarry workers, although the popularity of Ruxöalë gave the village fame, coupled with the necessity for quarrying to expand Númenor's great cities meant that the city thrived. Ondostó was the city which better survived the Akallabêth, and for a time was made the Capital of Númenor as Armenelos was rebuilding, however, the tremors of the Akallabêth destroyed its quarrying industry and has yet to recover."
+  building_type_wonder_ondosto_01:0 "Great Quarries of Ondosto"
+  building_type_wonder_ondosto_01_desc:0 "Ondosto was originally founded as a village for Quarry workers, although the popularity of Ruxöalë gave the village fame, coupled with the necessity for quarrying to expand Númenor's great cities meant that the city thrived. Ondosto was the city which better survived the Akallabêth, and for a time was made the Capital of Númenor as Armenelos was rebuilding, however, the tremors of the Akallabêth destroyed its quarrying industry and has yet to recover."
   building_wonder_ondosto_01:0 "Dead Quarrying Industry"
-  building_wonder_ondosto_01_desc:0 "Ondostó was the city which better survived the Akallabêth, and for a time was made the Capital of Númenor as Armenelos was rebuilding, however, the tremors of the Akallabêth destroyed its quarrying industry and has yet to recover, but as Númenor's population has risen over the last decades its fair cities must be expanded and therefore Ar-Balkazîr has shown interest in restoring the quarrying industry of Ondostó."
+  building_wonder_ondosto_01_desc:0 "Ondosto was the city which better survived the Akallabêth, and for a time was made the Capital of Númenor as Armenelos was rebuilding, however, the tremors of the Akallabêth destroyed its quarrying industry and has yet to recover, but as Númenor's population has risen over the last decades its fair cities must be expanded and therefore Ar-Balkazîr has shown interest in restoring the quarrying industry of Ondosto."
   building_wonder_ondosto_02:0 "Thriving Quarrying Industry"
-  building_wonder_ondosto_02_desc:0 "With the help of the Council of the Sceptre the quarries of Ondostó have been rebuilt and workers have poured into the city from all Númenor, helping restore the city to its former splendour and glory. New days are ahead of us now."
+  building_wonder_ondosto_02_desc:0 "With the help of the Council of the Sceptre the quarries of Ondosto have been rebuilt and workers have poured into the city from all Númenor, helping restore the city to its former splendour and glory. New days are ahead of us now."
  
   building_type_wonder_meneltarma_01:0 "The Meneltarma"
   building_type_wonder_meneltarma_01_desc:0 "The Meneltarma is the highest point in all of Númenor, it is believed that Aman can be seen from the top of the Meneltarma. The earlier Kings of Númenor had built roads so the three festivals of Eru could be reached by the populace. Later Kings began to neglect the Meneltarma and during the reign of Ar-Pharazôn it was forbidden to go there under pain of death. Ar-Zimraphel went to the Meneltarma during the Akallabêth but the rain had made the steep side too slippery which caused her to fall to her death."

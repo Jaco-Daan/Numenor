@@ -4678,37 +4678,33 @@ c_zorakhator = {
 	6074.1.1 = {
 		holder = lineborodirsubmod18
 	}
-	6193.1.1 = {
-		holder = lineborodirsubmod19
-	}
-	6365.1.1 = {
-		holder = lineborodirsubmod20
-	}
-	6432.1.1 = {
-		holder = lineborodirsubmod21
-	}
-	6484.1.1 = {
-		holder = lineborodirsubmod22
-	}
-	6534.1.1 = {
-		holder = lineborodirsubmod23
-	}
-	6626.1.1 = {
-		holder = lineborodirsubmod24
-	}
-	6720.1.1 = {
-		holder = lineborodirsubmod25
-	}
-	6806.1.1 = {
-		holder = lineborodirsubmod26
-	}
-	6868.1.1 = {
-		holder = lineborodirsubmod27
-	}
-	7018.1.1 = {
-		holder = lineborodirsubmod28
-		change_development_level = 15
-	}
+	6150.1.1 = { # Grant for long service
+        holder = lineofrotthor2a25 # Phaza_a_kkho_o_r
+		liege = d_hyarnudore
+    }
+	6326.1.1 = {
+        holder = lineofrotthor2a26 # Pharzube_e_li_i_n
+    }
+	6511.1.1 = {
+        holder = lineofrotthor2a27 # Pharazzi_i_r
+    }
+	6676.1.1 = {
+        holder = lineofrotthor2a28 # Niluzir
+    }
+	6760.1.1 = {
+        holder = lineofrotthor2a29 # Pharazzi_i_ri_i_ 
+		liege = e_numenor # Politics!
+    }
+	6888.1.1 = {
+        holder = lineofrotthor2a30 # Khibilazi_i_r
+    }
+	6999.1.1 = {
+        holder = lineofrotthor2a31 # Khibilro_o_th
+    }
+	7019.1.1 = {
+        holder = lineofrotthor2a32 # Rassaro_o_th
+		change_development_level = 13
+    }
 }
 
 c_hazdore = {
