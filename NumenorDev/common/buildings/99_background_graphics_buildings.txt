@@ -208,13 +208,6 @@ walls_01_tribal = {
 walls_01 = {
 	is_graphical_background = yes
 
-	### Numenor Submod ###
-	asset = {
-		type = pdxmesh
-		name = dunedain_walls_02_mesh
-		graphical_cultures = { numenorean_building_gfx }
-		graphical_regions = { }
-	}
 	### Valinor ###
 	asset = {
 		type = entity
