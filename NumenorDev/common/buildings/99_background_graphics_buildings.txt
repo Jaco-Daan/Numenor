@@ -52,7 +52,17 @@ walls_00 = {
 				has_building = "wonder_framsburg_03"
 			}
 			lotr_dwarven_underground_buildings_requirement_terrain = yes
-			is_special_building_in_numenor = yes #Numenor Submod
+			has_building_or_higher = "wonder_erendis_01"
+			has_building_or_higher = "wonder_eldalonde_01"
+			has_building_or_higher = "wonder_andunie_01"
+			has_building_or_higher = "wonder_meneltarma_01"
+			has_building_or_higher = "wonder_ondosto_01"
+			has_building_or_higher = "wonder_nindamos_01"
+			has_building_or_higher = "wonder_oromet_01"
+			has_building_or_higher = "wonder_calmindon_01"
+			has_building_or_higher = "wonder_sorontil_01"
+			has_building_or_higher = "wonder_romenna_01"
+			has_building_or_higher = "wonder_armenelos_01" #Numenor Submod
 		}
 	}
 }
@@ -200,7 +210,17 @@ walls_01_tribal = {
 			barony = title:b_harostirion
 			barony = title:b_forostirion
 			lotr_dwarven_underground_buildings_requirement_terrain = yes
-			is_special_building_in_numenor = yes #Numenor Submod
+			has_building_or_higher = "wonder_erendis_01"
+			has_building_or_higher = "wonder_eldalonde_01"
+			has_building_or_higher = "wonder_andunie_01"
+			has_building_or_higher = "wonder_meneltarma_01"
+			has_building_or_higher = "wonder_ondosto_01"
+			has_building_or_higher = "wonder_nindamos_01"
+			has_building_or_higher = "wonder_oromet_01"
+			has_building_or_higher = "wonder_calmindon_01"
+			has_building_or_higher = "wonder_sorontil_01"
+			has_building_or_higher = "wonder_romenna_01"
+			has_building_or_higher = "wonder_armenelos_01" #Numenor Submod
 		}
 		NOT = { scope:holder = { government_has_flag = government_is_wastelands } } #LotR
 	}
@@ -420,7 +440,17 @@ walls_01 = {
 			barony = title:b_harostirion
 			barony = title:b_forostirion
 			lotr_dwarven_underground_buildings_requirement_terrain = yes
-			is_special_building_in_numenor = yes #Numenor Submod
+			has_building_or_higher = "wonder_erendis_01"
+			has_building_or_higher = "wonder_eldalonde_01"
+			has_building_or_higher = "wonder_andunie_01"
+			has_building_or_higher = "wonder_meneltarma_01"
+			has_building_or_higher = "wonder_ondosto_01"
+			has_building_or_higher = "wonder_nindamos_01"
+			has_building_or_higher = "wonder_oromet_01"
+			has_building_or_higher = "wonder_calmindon_01"
+			has_building_or_higher = "wonder_sorontil_01"
+			has_building_or_higher = "wonder_romenna_01"
+			has_building_or_higher = "wonder_armenelos_01" #Numenor Submod
 		}
 		NOT = { scope:holder = { government_has_flag = government_is_wastelands } } #LotR
 	}
@@ -680,7 +710,18 @@ walls_02 = {
 			barony = title:b_harostirion
 			barony = title:b_forostirion
 			lotr_dwarven_underground_buildings_requirement_terrain = yes
-			is_special_building_in_numenor = yes #Numenor Submod
+			has_building_or_higher = "wonder_erendis_01"
+			has_building_or_higher = "wonder_eldalonde_01"
+			has_building_or_higher = "wonder_andunie_01"
+			has_building_or_higher = "wonder_meneltarma_01"
+			has_building_or_higher = "wonder_ondosto_01"
+			has_building_or_higher = "wonder_nindamos_01"
+			has_building_or_higher = "wonder_oromet_01"
+			has_building_or_higher = "wonder_calmindon_01"
+			has_building_or_higher = "wonder_sorontil_01"
+			has_building_or_higher = "wonder_romenna_01"
+			has_building_or_higher = "wonder_armenelos_01" #Numenor Submod
+			
 		}
 		NOT = { scope:holder = { government_has_flag = government_is_wastelands } } #LotR
 	}
@@ -934,7 +975,17 @@ walls_03 = {
 			barony = title:b_harostirion
 			barony = title:b_forostirion
 			lotr_dwarven_underground_buildings_requirement_terrain = yes
-			is_special_building_in_numenor = yes #Numenor Submod
+			has_building_or_higher = "wonder_erendis_01"
+			has_building_or_higher = "wonder_eldalonde_01"
+			has_building_or_higher = "wonder_andunie_01"
+			has_building_or_higher = "wonder_meneltarma_01"
+			has_building_or_higher = "wonder_ondosto_01"
+			has_building_or_higher = "wonder_nindamos_01"
+			has_building_or_higher = "wonder_oromet_01"
+			has_building_or_higher = "wonder_calmindon_01"
+			has_building_or_higher = "wonder_sorontil_01"
+			has_building_or_higher = "wonder_romenna_01"
+			has_building_or_higher = "wonder_armenelos_01" #Numenor Submod
 		}
 		NOT = { scope:holder = { government_has_flag = government_is_wastelands } } #LotR
 	}
@@ -1178,7 +1229,17 @@ walls_04 = {
 			barony = title:b_harostirion
 			barony = title:b_forostirion
 			lotr_dwarven_underground_buildings_requirement_terrain = yes
-			is_special_building_in_numenor = yes #Numenor Submod
+			has_building_or_higher = "wonder_erendis_01"
+			has_building_or_higher = "wonder_eldalonde_01"
+			has_building_or_higher = "wonder_andunie_01"
+			has_building_or_higher = "wonder_meneltarma_01"
+			has_building_or_higher = "wonder_ondosto_01"
+			has_building_or_higher = "wonder_nindamos_01"
+			has_building_or_higher = "wonder_oromet_01"
+			has_building_or_higher = "wonder_calmindon_01"
+			has_building_or_higher = "wonder_sorontil_01"
+			has_building_or_higher = "wonder_romenna_01"
+			has_building_or_higher = "wonder_armenelos_01" #Numenor Submod
 		}
 	}
 }
