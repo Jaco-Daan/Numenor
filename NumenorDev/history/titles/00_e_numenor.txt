@@ -167,6 +167,27 @@ e_numenor = {
 	}
 }
 
+d_adunai = {
+	6480.1.1 = {
+		holder = lineofelros109 # Vëantur, first Monarch to be the new Adunaben faith
+	}
+	6593.1.1 = {
+		holder = lineofelros110 # Herunúmen he oversees the full unification of Númenor
+	}
+	6626.1.1 = {
+		holder = lineofelros111 # Zimrathôn
+	}
+	6786.1.1 = {
+		holder = lineofelros112 # Dôlguzagar, First Monarch since Ar Pharazôn to make contact with Middle Earth
+	}
+	6841.1.1 = {
+		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
+	}
+	6982.1.1 = {
+		holder = lineofelros114 # Balkazîr, current king of Númenor
+	}
+}
+
 c_armenelos = {
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr
