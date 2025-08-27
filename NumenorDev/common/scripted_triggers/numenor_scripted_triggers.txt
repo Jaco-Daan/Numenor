@@ -1,3 +1,17 @@
 ﻿is_numenor = {
-		has_primary_title = title:e_numenor
+	has_primary_title = title:e_numenor
+}
+
+is_special_building_in_numenor = {
+	has_building_or_higher = "wonder_erendis_01"
+	has_building_or_higher = "wonder_eldalonde_01"
+	has_building_or_higher = "wonder_andunie_01"
+	has_building_or_higher = "wonder_meneltarma_01"
+	has_building_or_higher = "wonder_ondosto_01"
+	has_building_or_higher = "wonder_nindamos_01"
+	has_building_or_higher = "wonder_oromet_01"
+	has_building_or_higher = "wonder_calmindon_01"
+	has_building_or_higher = "wonder_sorontil_01"
+	has_building_or_higher = "wonder_romenna_01"
+	has_building_or_higher = "wonder_armenelos_01"
 }
