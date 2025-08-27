@@ -2714,9 +2714,9 @@ lineofciryamir6 = {
 ##### Bellakar - Korlean founder dynasty #####					
 ##############################################
 
-lordsofkorlea1 = {					
+lineofmornionath1 = {					
 	name = Mornion # First Lord of Korlea				
-	dynasty = dynasty_korleabeforedownfall				
+	dynasty = dynasty_mornionath				
 	religion = faith_numenorean				
 	culture = numenorean						
 					
@@ -2732,13 +2732,13 @@ lordsofkorlea1 = {
 	}				
 }
 
-lordsofkorlea2 = {					
+lineofmornionath2 = {					
 	name = Mornion # Lord of Korlea, son of Mornion				
-	dynasty = dynasty_korleabeforedownfall				
+	dynasty = dynasty_mornionath				
 	religion = faith_numenorean				
 	culture = numenorean
 
-        father = lordsofkorlea1						
+        father = lineofmornionath1						
 					
 	trait = blood_of_numenor_10 								
 	trait = arrogant			
@@ -2754,13 +2754,13 @@ lordsofkorlea2 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lordsofkorlea3 = {					
+lineofmornionath3 = {					
 	name = A_A_ru_u_zi_i_r # Lord of Korlea, son of Mornion				
-	dynasty = dynasty_korleabeforedownfall				
+	dynasty = dynasty_mornionath				
 	religion = faith_numenorean				
 	culture = numenorean
 
-        father = lordsofkorlea2							
+        father = lineofmornionath2							
 					
 	trait = blood_of_numenor_9 								
 	trait = arrogant			
@@ -2773,13 +2773,13 @@ lordsofkorlea3 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lordsofkorlea4 = {					
+lineofmornionath4 = {					
 	name = Adu_u_nazi_i_r # Lord of Korlea, son of Ârûzîr				
-	dynasty = dynasty_korleabeforedownfall				
+	dynasty = dynasty_mornionath				
 	religion = faith_numenorean				
 	culture = numenorean
 
-        father = lordsofkorlea3							
+        father = lineofmornionath3							
 					
 	trait = blood_of_numenor_8								
 	trait = arrogant			
@@ -2792,13 +2792,13 @@ lordsofkorlea4 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lordsofkorlea5 = {					
+lineofmornionath5 = {					
 	name = Alukho_o_r # Lord of Korlea, son of Adûnazîr				
-	dynasty = dynasty_korleabeforedownfall				
+	dynasty = dynasty_mornionath				
 	religion = faith_numenorean				
 	culture = numenorean
 
-        father = lordsofkorlea4							
+        father = lineofmornionath4							
 					
 	trait = blood_of_numenor_8 								
 	trait = arrogant			
@@ -2811,13 +2811,13 @@ lordsofkorlea5 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lordsofkorlea6 = {					
+lineofmornionath6 = {					
 	name = Zo_o_rnagar # Lord of Korlea, son of Alukhôr				
-	dynasty = dynasty_korleabeforedownfall				
+	dynasty = dynasty_mornionath				
 	religion = faith_numenorean				
 	culture = numenorean
 
-        father = lordsofkorlea5							
+        father = lineofmornionath5							
 					
 	trait = blood_of_numenor_7								
 	trait = arrogant			
@@ -2830,13 +2830,13 @@ lordsofkorlea6 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lordsofkorlea7 = {					
+lineofmornionath7 = {					
 	name = Khara_a_hil # Lord of Korlea, son of Zôrnagar 				
-	dynasty = dynasty_korleabeforedownfall				
+	dynasty = dynasty_mornionath				
 	religion = faith_numenorean				
 	culture = black_numenorean
 
-        father = lordsofkorlea6							
+        father = lineofmornionath6							
 					
 	trait = blood_of_numenor_7 								
 	trait = arrogant			
@@ -2849,13 +2849,13 @@ lordsofkorlea7 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lordsofkorlea8 = {					
+lineofmornionath8 = {					
 	name = Adu_u_nakho_o_r # Lord of Korlea, son of Kharâhil				
-	dynasty = dynasty_korleabeforedownfall				
+	dynasty = dynasty_mornionath				
 	religion = faith_numenorean				
 	culture = black_numenorean
 
-        father = lordsofkorlea7							
+        father = lineofmornionath7							
 					
 	trait = blood_of_numenor_7 								
 	trait = arrogant			
@@ -2868,13 +2868,13 @@ lordsofkorlea8 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lordsofkorlea9 = {					
+lineofmornionath9 = {					
 	name = Abrazimi_i_r # Lord of Korlea, son of Adûnakhôr				
-	dynasty = dynasty_korleabeforedownfall				
+	dynasty = dynasty_mornionath				
 	religion = faith_numenorean				
 	culture = black_numenorean
 
-        father = lordsofkorlea8							
+        father = lineofmornionath8							
 					
 	trait = blood_of_numenor_6 								
 	trait = arrogant			
@@ -2887,13 +2887,13 @@ lordsofkorlea9 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lordsofkorlea10 = {					
+lineofmornionath10 = {					
 	name = Aphanuzi_i_r # Lord of Korlea, son of Abrazimîr				
-	dynasty = dynasty_korleabeforedownfall				
+	dynasty = dynasty_mornionath				
 	religion = faith_numenorean				
 	culture = black_numenorean
 
-        father = lordsofkorlea9							
+        father = lineofmornionath9							
 					
 	trait = blood_of_numenor_6 								
 	trait = arrogant			
@@ -2906,13 +2906,13 @@ lordsofkorlea10 = {
 		death = { death_reason = death_natural_causes } 			
 	}				
 }
-lordsofkorlea11 = {					
+lineofmornionath11 = {					
 	name = Bala_a_kho_o_r # Lord of Korlea, son of Aphanuzîr				
-	dynasty = dynasty_korleabeforedownfall				
+	dynasty = dynasty_mornionath				
 	religion = melkorite				
 	culture = black_numenorean
 
-        father = lordsofkorlea10							
+        father = lineofmornionath10							
 					
 	trait = blood_of_numenor_6 								
 	trait = arrogant			
@@ -2929,13 +2929,13 @@ lordsofkorlea11 = {
 		} 			
 	}				
 }
-lordsofkorlea12 = {					
+lineofmornionath12 = {					
 	name = Azrutho_o_r # Lord of Korlea, son of Balâkhôr				
-	dynasty = dynasty_korleabeforedownfall				
+	dynasty = dynasty_mornionath				
 	religion = melkorite				
 	culture = black_numenorean
 
-        father = lordsofkorlea11							
+        father = lineofmornionath11							
 					
 	trait = blood_of_numenor_6 								
 	trait = arrogant			

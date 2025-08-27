@@ -1453,13 +1453,13 @@ lineofelatan45 = {
 }
 
 ###MORNIONATH###
-lordsofkorlea13 = {
+lineofmornionath13 = {
     name = Azulzi_i_r # Stayed in Númenor following the move of his familly
-    dynasty = dynasty_korleabeforedownfall
+    dynasty = dynasty_mornionath
     religion = faith_numenorean
     culture = numenorean
 
-    father = lordsofkorlea5
+    father = lineofmornionath5
 
     trait = blood_of_numenor_7
 
@@ -1470,13 +1470,13 @@ lordsofkorlea13 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea14 = {
+lineofmornionath14 = {
     name = Abrazo_o_r
-    dynasty = dynasty_korleabeforedownfall
+    dynasty = dynasty_mornionath
     religion = faith_numenorean
     culture = numenorean
 
-    father = lordsofkorlea13
+    father = lineofmornionath13
 
     trait = blood_of_numenor_7
 
@@ -1487,13 +1487,13 @@ lordsofkorlea14 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea15 = {
+lineofmornionath15 = {
     name = Za_a_inabe_e_n # Was indoctrinated into the King's Men faith
-    dynasty = dynasty_korleabeforedownfall
+    dynasty = dynasty_mornionath
     religion = faith_kings_men_numenorean
     culture = numenorean
 
-    father = lordsofkorlea14
+    father = lineofmornionath14
 
     trait = blood_of_numenor_7
 
@@ -1504,13 +1504,13 @@ lordsofkorlea15 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea16 = {
+lineofmornionath16 = {
     name = Pharazbalak
-    dynasty = dynasty_korleabeforedownfall
+    dynasty = dynasty_mornionath
     religion = faith_kings_men_numenorean
     culture = numenorean
 
-    father = lordsofkorlea15
+    father = lineofmornionath15
 
     trait = blood_of_numenor_7
 
@@ -1521,13 +1521,13 @@ lordsofkorlea16 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea17 = {
+lineofmornionath17 = {
     name = Aba_a_zagar
-    dynasty = dynasty_korleabeforedownfall
+    dynasty = dynasty_mornionath
     religion = faith_kings_men_numenorean
     culture = numenorean
 
-    father = lordsofkorlea16
+    father = lineofmornionath16
 
     trait = blood_of_numenor_7
 
@@ -1538,7 +1538,7 @@ lordsofkorlea17 = {
         death = { death_reason = death_battle }
     }
 }
-azrumom = {
+lineofmornionath17a = {
     name = Adu_u_ninzil 
     religion = faith_numenorean
     culture = numenorean
@@ -1554,16 +1554,19 @@ azrumom = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea18 = {
+
+###AZRUHÎL###
+
+lineofazruhil1 = {
     name = Azruari_i_
-    dynasty_house = dynasty_azru
-    religion = faith_numenorean
-    culture = adunaic
-	
 	female = yes
 
-    father = lordsofkorlea17
-	mother = azrumom
+    dynasty_house = dynasty_azruhil
+    religion = faith_numenorean
+    culture = adunaic
+
+    father = lineofmornionath17
+	mother = lineofmornionath17a
 
     trait = blood_of_numenor_7
 	trait = bastard
@@ -1577,13 +1580,13 @@ lordsofkorlea18 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea19 = {
+lineofazruhil2 = { 
     name = Minlube_e_n
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_numenorean
     culture = adunaic
 
-    mother = lordsofkorlea18
+    mother = lineofazruhil1
 
     trait = blood_of_numenor_7
 
@@ -1594,13 +1597,13 @@ lordsofkorlea19 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea20 = {
+lineofazruhil3 = {
     name = Nilu_u_be_e_n
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_numenorean
     culture = adunaic
 
-    father = lordsofkorlea19
+    father = lineofazruhil2
 
     trait = blood_of_numenor_7
 
@@ -1611,13 +1614,13 @@ lordsofkorlea20 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea21 = {
+lineofazruhil4 = {
     name = Avalo_o_zi_i_r
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_numenorean
     culture = adunaic
 
-    father = lordsofkorlea20
+    father = lineofazruhil3
 
     trait = blood_of_numenor_7
 
@@ -1628,13 +1631,13 @@ lordsofkorlea21 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea22 = {
+lineofazruhil5 = { 
     name = Avradizimir
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_numenorean
     culture = adunaic
 
-    father = lordsofkorlea21
+    father = lineofazruhil4
 
     trait = blood_of_numenor_7
 
@@ -1645,13 +1648,13 @@ lordsofkorlea22 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea23 = {
+lineofazruhil6 = { 
     name = Ro_o_thgimil
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_numenorean
     culture = adunaic
 
-    father = lordsofkorlea22
+    father = lineofazruhil5
 
     trait = blood_of_numenor_7
 
@@ -1662,13 +1665,13 @@ lordsofkorlea23 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea24 = {
+lineofazruhil7 = { 
     name = Be_e_lzagar
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_numenorean
     culture = adunaic
 
-    father = lordsofkorlea23
+    father = lineofazruhil6
 
     trait = blood_of_numenor_7
 
@@ -1679,13 +1682,13 @@ lordsofkorlea24 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea25 = {
+lineofazruhil8 = { 
     name = I_I_rpa_a_n
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_numenorean
     culture = adunaic
 
-    father = lordsofkorlea24
+    father = lineofazruhil7
 
     trait = blood_of_numenor_7
 
@@ -1696,13 +1699,13 @@ lordsofkorlea25 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea26 = {
+lineofazruhil9 = { 
     name = Do_o_lguzagar
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_numenorean
     culture = adunaic
 
-    father = lordsofkorlea25
+    father = lineofazruhil8
 
     trait = blood_of_numenor_7
 	trait = sadistic
@@ -1715,13 +1718,13 @@ lordsofkorlea26 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea27 = {
+lineofazruhil10 = { 
     name = Arnubalka_a_n
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_numenorean
     culture = adunaic
 
-    father = lordsofkorlea26
+    father = lineofazruhil9
 
     trait = blood_of_numenor_7
 	trait = just
@@ -1734,13 +1737,13 @@ lordsofkorlea27 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea28 = {
+lineofazruhil11 = { 
     name = Tamruzi_i_r
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_numenorean
     culture = adunaic
 
-    father = lordsofkorlea27
+    father = lineofazruhil10
 
     trait = blood_of_numenor_7
 
@@ -1751,13 +1754,13 @@ lordsofkorlea28 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea29 = {
+lineofazruhil12 = { 
     name = U_U_ri_i_zi_i_r
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_adunaic
     culture = adunaic
 
-    father = lordsofkorlea28
+    father = lineofazruhil11
 
     trait = blood_of_numenor_7
 
@@ -1768,13 +1771,13 @@ lordsofkorlea29 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea30 = {
+lineofazruhil13 = { 
     name = Bawbutho_o_r
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_adunaic
     culture = adunaic
 
-    father = lordsofkorlea29
+    father = lineofazruhil12
 
     trait = blood_of_numenor_7
 
@@ -1785,13 +1788,13 @@ lordsofkorlea30 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea31 = {
+lineofazruhil14 = { 
     name = Aglara_a_n
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_adunaic
     culture = adunaic
 
-    father = lordsofkorlea30
+    father = lineofazruhil13
 
     trait = blood_of_numenor_7
 
@@ -1802,13 +1805,13 @@ lordsofkorlea31 = {
         death = { death_reason = death_natural_causes }
     }
 }
-lordsofkorlea32 = {
+lineofazruhil15 = {
     name = Abraza_a_n
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_adunaic
     culture = adunaic
 
-    father = lordsofkorlea31
+    father = lineofazruhil14
 
     trait = blood_of_numenor_7
 
@@ -1819,13 +1822,13 @@ lordsofkorlea32 = {
         death = { death_reason = death_accident }
     }
 }
-lordsofkorlea33 = {
+lineofazruhil16 = { 
     name = Zadnazi_i_r
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_adunaic
     culture = adunaic
 
-    father = lordsofkorlea32
+    father = lineofazruhil15
 
     trait = blood_of_numenor_7
 
@@ -1833,13 +1836,13 @@ lordsofkorlea33 = {
         birth = yes
     }
 }
-lordsofkorlea34 = {
+lineofazruhil17 = { 
     name = Sakalkha_a_d
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_adunaic
     culture = adunaic
 
-    father = lordsofkorlea32
+    father = lineofazruhil15
 
     trait = blood_of_numenor_7
 
@@ -1847,13 +1850,13 @@ lordsofkorlea34 = {
         birth = yes
     }
 }
-lordsofkorlea35 = {
+lineofazruhil18 = { 
     name = Nimruzi_i_r
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_adunaic
     culture = adunaic
 
-    father = lordsofkorlea33
+    father = lineofazruhil16
 
     trait = blood_of_numenor_7
 
@@ -1861,14 +1864,14 @@ lordsofkorlea35 = {
         birth = yes
     }
 }
-lordsofkorlea36 = {
+lineofazruhil19 = {
     name = Gimilkhali_i_
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_adunaic
     culture = adunaic
 	female = yes
 	
-    father = lordsofkorlea33
+    father = lineofazruhil16
 
     trait = blood_of_numenor_7
 
@@ -1876,13 +1879,13 @@ lordsofkorlea36 = {
         birth = yes
     }
 }
-lordsofkorlea37 = {
+lineofazruhil20 = {
     name = Arnube_e_n
-    dynasty_house = dynasty_azru
+    dynasty_house = dynasty_azruhil
     religion = faith_adunaic
     culture = adunaic
 
-    father = lordsofkorlea34
+    father = lineofazruhil17
 
     trait = blood_of_numenor_7
 
