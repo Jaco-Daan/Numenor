@@ -1,24 +1,24 @@
 ﻿l_english:
  
- numenor.0001.t: "What shall we do with these Heretics?"
+ numenor.0001.t: "What Shall We Do With These Heretics?"
  numenor.0001.desc: "The Council of the Sceptre has been summoned at Armenelos to decides our course of action. While much and most of the Council agrees that utterly destroying these blasphemers should be our course of action, some argue that invading those rocky fortified islands is not worth our time and what few Men we may lose there, preferring instead to treat with the Ar-Adûnâim on friendly, if not equal, footing. Others voice even more conservative opinions, saying that we shouldn't expose ourselves to the outside world just yet. What course of action shall the King take?"
- numenor.0001.a: "We shall destroy them"
+ numenor.0001.a: "We shall destroy them!"
  numenor.0001.a.tt: "Númenor gains a claim on Tol Uialgaer"
- numenor.0001.b: "We shall negotiate"
+ numenor.0001.b: "We shall negotiate."
  numenor.0001.b.tt: "Númenor offers the Ar Adûnaim vassalage"
- numenor.0001.c: "They are not worth our time"
+ numenor.0001.c: "They are not worth our time."
  numenor.0001.c.tt: "Númenor leaves them alone"
  
  numenor.0002.t: "Númenor Sends An Ultimatum"
  numenor.0002.desc: "It seems that we were wrong about the sinking, emissaries from Númenor have demanded that we bend the knee to them, they could be lying about Númenor having not sunk or maybe they are telling the truth, what shall we do?"
- numenor.0002.a: "Whoever they are, they have more ships than Umbar, we shall bend the knee to our fellow Adûnai"
- numenor.0002.a.tt: "Ar Adûnaim stops existing, becomes a colony of Númenor"
- numenor.0002.b: "We are the true heirs of Anadûnê, we shall not abandon our noble cause"
+ numenor.0002.a: "Whoever they are, they have more ships than Umbar, we shall bend the knee to our fellow Adûnai."
+ numenor.0002.a.tt: "Ar Adûnaim stops existing and becomes a colony of Númenor"
+ numenor.0002.b: "We are the true heirs of Anadûnê, we shall not abandon our noble cause."
  numenor.0002.b.tt: "Ar Adûnaim refuses Númenor"
  
  numenor.0003.t: "The Kingdom of Númenor"
- numenor.0003.desc: ""The Edain came at last over leagues of sea and saw afar the land that was prepared for them, Andor, the Land of Gift, shimmering in a golden haze. Then they went up out of the sea and found a country fair and fruitful, and they were glad."\n\n[numenor|E] was once the greatest kingdom of Men Arda had ever seen. Yet after the [akallabeth|E], that great flood of the Isle, we lost contact with our colonies and our people suffered greatly. Those who worshipped [mulkhercharacter|E] attempted to keep their power in Armenelos, claiming to be regents of [pharazon_golden|E]. They were defeated and vanquished, but not utterly - in the year 2209 of the [thirdage|E], [GetScriptedCharacterByHistoryID( 'lineofelros107' ).GetTitledFirstName] II tried to bring back our people into worship of the Dark, until he was stopped by his brother, [GetScriptedCharacterByHistoryID( 'lineofelros108' ).GetTitledFirstName].\n\nAfter the end of the Second Númenórean Civil War our greatest scholars were sumonned by [GetScriptedCharacterByHistoryID( 'lineofelros109' ).GetTitledFirstName], [GetScriptedCharacterByHistoryID( 'lineofelros108' ).GetFirstNameNoTooltip]'s son in order to end all strife between those who kept the old Faith, and those who wished to rule as Kings in Middle Earth. Ever since, we have known much peace and prosperity. It is now the year 3000 of the [thirdage|E], 3122 years after the Akallabêth and Númenor is ruled by [GetScriptedCharacterByHistoryID( 'lineofelros114' ).GetTitledFirstName]. Having succeeded his father [GetScriptedCharacterByHistoryID( 'lineofelros113' ).GetTitledFirstName] fifty-one years ago, he rules Númenor in a time of prosperity and splendour. In [GetScriptedCharacterByHistoryID( 'lineofelros114' ).GetFirstNameNoTooltip]'s deepest dreams, he wishes to expand his realm back into Middle Earth."
- numenor.0003.a: "The Star of Eärendil will show us the way"
+ numenor.0003.desc: ""The Edain came at last over leagues of sea and saw afar the land that was prepared for them, Andor, the Land of Gift, shimmering in a golden haze. Then they went up out of the sea and found a country fair and fruitful, and they were glad."\n\n[numenor|E] was once the greatest kingdom of Men Arda had ever seen. Yet after the [akallabeth|E], that great flood of the Isle, we lost contact with our colonies and our people suffered greatly. Those who worshipped [mulkhercharacter|E] attempted to keep their power in Armenelos, claiming to be regents of [pharazon_golden|E]. They were defeated and vanquished, but not utterly - in the year 2209 of the [thirdage|E], [GetScriptedCharacterByHistoryID( 'lineofelros107' ).GetFirstNameRegnal] tried to bring back our people into worship of the Dark, until he was stopped by his brother, [GetScriptedCharacterByHistoryID( 'lineofelros108' ).GetTitledFirstName].\n\nAfter the end of the Second Númenórean Civil War our greatest scholars were sumonned by [GetScriptedCharacterByHistoryID( 'lineofelros109' ).GetTitledFirstName], [GetScriptedCharacterByHistoryID( 'lineofelros108' ).GetFirstNameNoTooltip]'s son in order to end all strife between those who kept the old Faith, and those who wished to rule as Kings in Middle Earth. Ever since, we have known much peace and prosperity. It is now the year 3000 of the [thirdage|E], 3122 years after the Akallabêth and Númenor is ruled by [GetScriptedCharacterByHistoryID( 'lineofelros114' ).GetTitledFirstName]. Having succeeded his father [GetScriptedCharacterByHistoryID( 'lineofelros113' ).GetTitledFirstName] fifty-one years ago, he rules Númenor in a time of prosperity and splendour. In [GetScriptedCharacterByHistoryID( 'lineofelros114' ).GetFirstNameNoTooltip]'s deepest dreams, he wishes to expand his realm back into Middle Earth."
+ numenor.0003.a: "The Star of Eärendil will show us the way."
  numenor.0003.a.tt: "Guide Númenor back to greatness"
 
  numenor.0010.t: "The Memorial to the Fallen"
@@ -33,28 +33,28 @@
  
  numenor.0230.t: "The Lord of Andúnië"
  numenor.0230.desc: "Ever since Silmariën married Elatan the Lordship of Andúnië have been justly ruled by the house of Elatan. During the dark days in which the King's Men harshly ruled this lands we were persecuted until our lands were revoked and we were relocated to Rómenna. Following the Akallabêth our house fled to Ondosto, the temporary capital of Númenor, where all those who wanted to rebuild our Kingdom once more united under the banner of Ar-Cemendur, following the victory of the Adûnawan in the Civil War Ar-Cemendur granted Andúnië once more to the House of Elatan, yet the fair city was a shadow of its former self for the waves of the Akallabêth had destroyed the city and collapsed the tower of Oromet, yet for as long as Númenor survived, so would Andúnië.\n\nOver the years the city was rebuilt and our lands restored with the help of the great quarries of Forostar. It is now the year 3000 of the Third Era, while Andúnië has been rebuilt a schism has grown in our House, should we continue to be adherents of the Adûnabên or shall we return to our ancient ways?"
- numenor.0230.a: "We shall always be loyal to the Kings of Númenor"
+ numenor.0230.a: "We shall always be loyal to the Kings of Númenor."
  numenor.0230.a.tt: "We shall not forsake our oath to Ar-Vëantur"
- numenor.0230.b: "We shall not forsake our legacy"
+ numenor.0230.b: "We shall not forsake our legacy."
  numenor.0230.b.tt: "We revert back to our old ways"
  
  numenor.0240.t: "The House of Vardur"
  numenor.0240.desc: "The House of Vardur, also known as the Vardurionath, are the Lords of Hyarrostar and have been since the Oath of Imrazôr, in which he converted to the Númenórean faith and took the name Vardur, to honour his distant relative.\n\nDuring the Second Númenórean Civil War the House of Vardur supported Ar-Ancalimon and gave refuge to many of his troops in Hyarnórë, after the war ended Ar-Ancalimon ordered the construction of a port there which he financed himself, he did this to reward the Vardurionath and also because he saw the strategical importance of the region, the city was named Londë Ancalimonva (Q. "Ancalimon's City") and grew to be the chief city of Hyarrostar. By the reign of Ar-Inziladûn the city hosted the Southern Númenórean Navy, and the Vardurionath were made responsible for the Southern Navy, therefore giving them more power and influence. It is now the year 3000 of the Third Era, and Lord Zôrzagar has offered Ar-Balkazîr aid in expanding the Empire back into Middle-Earth by conquering Umbar, to which the King has said yes. Time will tell if the Vardurionath shall remain loyal or will revert back to their ancient ways."
- numenor.0240.a: "We will never betray the Line of Elros and the Oath of Imrazôr"
+ numenor.0240.a: "We will never betray the Line of Elros and the Oath of Imrazôr."
  numenor.0240.a.tt: "We shall loyally aid Ar-Balkazîr"
- numenor.0240.b: "We are the rightful Kings of Anadûnê"
+ numenor.0240.b: "We are the rightful Kings of Anadûnê."
  numenor.0240.b.tt: "We shall make Anadûnê great again"
  
  numenor.0250.t: "The Heirs of Heruhyarmen"
  numenor.0250.desc: "The House of Ciryandur are the lords of Ciryalondë and one of the oldest dynasties in Númenor, being descendants of Elros through a distant female line. While the history of our house has revolved in Orrostar for the last three millenia, we can trace our roots back to Ciryandur, founder of Hazaj Tollin and his descendant, Heruhyarmen, who revolted against the influence of the King's Men but failed. When Heruhyarmen's children were taken back to Númenor they joined the Faithful in Andúnië and after the Akallabêth they fought alongside Ar-Cemendur to restore Númenor, and for that they were rewarded the Lordship of Ciryalondë, which they named after Ciryalondë of Pharazâin (Hazaj Tollin).\n\nDuring the Second Númenórean Civil War the Ciryandurion supported Ar-Ancalimon II and were rewarded with a large part of Orrostar, known as Ciryanórë. It is now the year 3000 of the Third Era, and Ar-Balkazîr wishes to expand Númenor back into Middle-Earth, and he has permission for the Ciryandurion to reclaim Hazaj Tollin. Will the Ciryandurion loyally rebuild their old colony or will the revolt of Heruhyarmen be repeated?"
- numenor.0250.a: "We shall recover Hazaj Tollin"
+ numenor.0250.a: "We shall recover Hazaj Tollin."
  numenor.0250.a.tt: "Grants a claim on Hazaj Tollin"
  
  numenor.0260.t: "The Lord of the Nunduinë"
  numenor.0260.desc: "The House of Ciryamirionath have ruled the Nunduinë since the days of Tar-Telperiën, and are descendants of Elros through a female line. The early history of the house of Ciryamir is dominated by Khôrahil, who usurped the throne of An-Balkûmagân from his father and murdered him, Khôrahil then revolted against Númenor and the Line of Elros, being aided by the Dark Lord Sauron, while Khôrahil rebelled his wife and sister managed to flee back to Númenor with her children, who returned to the Nunduinë.\n\n Following the Akallabêth the house of Ciryamir suffered in the struggle to restore Númenor but ever since they have ruled faithfuly, with many of the house occupying positions in the King's Council. During the reign of Ar-Dôlguzagar the house of Ciryamirionath were insulted, because a small part of their domain was given over to the restored Nísimaldar, while Ar-Dôlguzagar compensented the Ciryamirionath with expanding their domain to the north, some still believe this insult should not go unpunished, although Ar-Balkazîr has offered us aid in restoring the ancient colony of An-Balkûmagân for Númenor. Should we remain loyal to the Line of Elros or shall we follow in the footsteps of Khôrahil and declare our loyalty to the Dark Lord?"
- numenor.0260.a: "We shall recover An-Balkûmagân for the Line of Elros"
+ numenor.0260.a: "We shall recover An-Balkûmagân for the Line of Elros."
  numenor.0260.a.tt: "The House of Ciryamirionath remains loyal"
- numenor.0260.b: "We pledge our loyalty to the Dark Lord"
+ numenor.0260.b: "We pledge our loyalty to the Dark Lord."
  numenor.0260.b.tt: "The House of Ciryamirionath follows in the footsteps of Khôrahil"
 
  ###############################
@@ -63,12 +63,12 @@
  
  numenor.1000.t: "Reclamation of Umbar"
  numenor.1000.desc: "Umbar has finally been brought back under our control, we have sent our engineers to repair the old harbour, having fallen in ruin due to many raids and lack of funds by the local folk, the city itself is a ruin, you would not be able to tell it was once a mighty haven of Númenor, if not for the rare building that still stands. The local Lord, claims to be a descendant of Elros, through Castamir of Gondor, and if so, will be a useful ally in controlling this wild people; the Haradrim have no love for us, but we do not need them to love us, only to obey us. The Haven of Ancalimon has been reclaimed from the barbarians!"
- numenor.1000.a: "Let us restore this Great Haven"
+ numenor.1000.a: "Let us restore this Great Haven."
  numenor.1000.a.tt: "Umbar has been brought back under the control of Númenor"
  
  numenor.1001.t: "Reconquest of Umbar"
  numenor.1001.desc: "It seems that the Númenoreans want to restore their old Empire. We shall have to increase the defense our borders."
- numenor.1001.a: "Umbar is no more"
+ numenor.1001.a: "Umbar is no more."
  numenor.1001.a.tt: "Umbar has been brought under the control of Númenor"
  
  numenor.1002.t: "The Land of The Sun Reclaimed"
@@ -78,37 +78,37 @@
  
  numenor.1003.t: "Bellakar no more"
  numenor.1003.desc: "After an invasion by the Númenoreans, The lands of Bellakar have been declared a Númenórean colony once more with the Bâitha’n-Kadîr replacing the Tumakveh."
- numenor.1003.a: "Bellakar is no more"
+ numenor.1003.a: "Bellakar is no more."
  numenor.1003.a.tt: "Bellakar has been conquered by the Númenoreans"
  
  numenor.1004.t: "Thâni-Hazâd United"
  numenor.1004.desc: "Thâni-Hazâd had long been a prized possession of the House of Elros, being given to their second sons ever since the sack of Umbar by the Haradrim and Orcs until the Line of Elros there fell to infighting and their remnants were corrupted by the Haradrim which caused the Principality of Zimrathâni to fall and was divided. But in the north, the situation was worse, An-Balkûmagân fell to extremism and debauchery and the mighty Adûnai of the region became a puppet to Khôrahil. After a long military campaign, we have now successfully recovered An-Balkûmagân and Zimrathâni and we shall restore the ports to the Númenórean standard."
- numenor.1004.a: "Time to rebuild the Jewels of the south"
+ numenor.1004.a: "Time to rebuild the Jewels of the South."
  numenor.1004.a.tt: "Thâni-Hazâd is now a part of Númenor once more"
  
  numenor.1005.t: "The Council of The Seven is No More"
  numenor.1005.desc: "It seemed impossible that anyone would unite the Seven Lands, but we have received news from Armenelos that Thâni-Hazâd has been fully occupied by the Númenoreans."
- numenor.1005.a: "An Impressive feat, if nothing else"
+ numenor.1005.a: "An impressive feat, if nothing else."
  numenor.1005.a.tt: "Thâni-Hazâd is now a part of Númenor"
  
  numenor.1006.t: "Gondor Brought Back Into The Fold"
  numenor.1006.desc: "Gondor, the land of Stone, has been succesfully reintegrated into Númenor, quite peacefully, as the Gondorians have showed that they are not barbarians, and that the blood of Númenor still runs strong there. the Ar- has been invited by the local nobility for a tour of the new colony, where at Minas Tirith the Ar- was presented with a sapling of the White Tree, a descendant of Nimloth the Fair, and will be planted at the Palace of the Kings in Armenelos, the restoration of the White Tree marks the end of the Melkorist suffering, their corrupt decisions have been undone, and Isildur the Brave's actions are now known in Númenor."
- numenor.1006.a: "Nimloth the Fair, reborn"
+ numenor.1006.a: "Nimloth the Fair, reborn..."
  numenor.1006.a.tt: "Gondor has been integrated into Númenor"
  
  numenor.1007.t: "The Ruin of Gondor"
  numenor.1007.desc: "Gondor, the land of Stone, has been attacked from land and sea by the Númenórean Empire and now is a mere colony of Númenor."
- numenor.1007.a: "Gondor has fallen"
+ numenor.1007.a: "Gondor has fallen..."
  numenor.1007.a.tt: "Gondor is now a part of the Númenórean Empire"
  
  numenor.1008.t: "The Harnen"
  numenor.1008.desc: "Named and discovered by Tar-Aldarion, the Harnen was once an important economic artery, being home to great colonies such as Zimralôni, Abârloni and Kadar an-Bêlabâr, these mighty cities dominated the Zâyan an-Khârurush and ensured our trade through the wildlands of Harad was secure. From Tirith Amrûn our Haradric vassals were watched so that they would harbour no delusion of rebellion, however, the machinations of the Dark Lord weakened our colony when Adûnabêth rebelled, and while his rebellion was crushed, the colony suffered but remained as part of our Empire until the Akallabêth, in which we lost it. Now we have restored our rule there and merchants from our Empire have already begun migrating there to trade, the Harnen is once more Númenórean."
- numenor.1008.a: "The riches of the Harnen are ours"
+ numenor.1008.a: "The riches of the Harnen are ours."
  numenor.1008.a.tt: "The Harnen region has been reclaimed by the Númenoreans"
  
  numenor.1009.t: "The Harnen Free no Longer"
  numenor.1009.desc: "The Harnen, one of the most important trade routes in Middle Earth, has been conquered by the Númenoreans as part of their so-called 'Anti-Piracy' Expedition."
- numenor.1009.a: "The Spoils of the Harnen are now those of Númenor"
+ numenor.1009.a: "The Spoils of the Harnen are now those of Númenor."
  numenor.1009.a.tt: "The Harnen region is now a part of the Númenórean Empire"
 
  numenor.2001.t: "Placeholder"
@@ -123,9 +123,9 @@
  
  numenor.3000.t: "An Offer from Númenor"
  numenor.3000.desc: "During the dark of night a strange vessel made port in Korlea, clearly not from around these parts, for it felt like it belonged in the past, yet you could tell it was new; the ship bears the standard of Númenor, and as we go to welcome it, imposing figures leave the ship, emissaries of Númenor, who have come with an offer for us.\n\nNúmenor has made an interesting offer, they have noted the decline of Korlea and in their minds expected something greater, but they come not to insult us, but rather to offer us a chance to reclaim the greatness of Korlea, for it to stop being the port of the Tumakveh's and for it to become the headquarters of the Bâitha’n-Kadîr, an interesting offer indeed, but one not without risks, as the Tumakveh dynasty would surely react harshly, yet, the Adûnai of Korlea have long awaited a chance to recover our identity, not to pretend to be lesser men, and least of all, equal to them, for we are the only dynasty in Bellakar to have refused to take spouses of lesser blood, something which the Númenoreans have clearly recognised, and as we can claim direct lineage from a Númenórean, they will see us as equals.\n\nThe choice we make will determine the future of not just Korlea, but also Bellakar, we must be decide carefuly."
- numenor.3000.a: "Long have the Adûnai of Korlea waited to reclaim their old glory"
+ numenor.3000.a: "Long have the Adûnai of Korlea waited to reclaim their old glory."
  numenor.3000.a.tt: "You become a vassal of Númenor"
- numenor.3000.b: "Never shall we bend the knee to the Kingdom that supported the Melkorites of Korlea"
+ numenor.3000.b: "Never shall we bend the knee to the Kingdom that supported the Melkorites of Korlea."
  numenor.3000.b.tt: "You remain loyal to the Tumakveh"
  
  numenor.3100.t: "The Second Coming of Ar-Pharazôn"
@@ -162,7 +162,7 @@
  
  numenor.3300.title: "The Future of Pelargir"
  numenor.3300.desc: "Having welcomed and heard the petitions of the Pelargirean nobles, we have yet to come to a decision on the future of Pelargir, and Gondor. The plan that they propose will begin a complete reformation of Gondor's political system, which over the centuries has become increasingly centralised on Anórien and Ithilien, neglecting cities such as Dol Amroth and Pelargir, this greatly favoured the Kings of Gondor and the Ruling Stewards, but fair Armenelos is further away than Minas Anor and old Osgiliath, and therefore a compromise must be made on how they will be governed.\n\nHearing arguments from both sides, those that want to reform the old colonial political systems, claiming that it would benefit the wealth of Númenor more since a reformed League would be better at taxing our subjects in the Anduin versus those that wish to maintain the current one, claiming that the old colonial systems were too corrupt, and would only benefit the merchants, while the army would suffer from a lack of levies, the Ar- has yet to decide and as the council of the sceptre remains divided on the issue, it seems that a decision on the matter will not be decided soon unless the Ar- decides."
- numenor.3300.a: "The League shall be restored"
+ numenor.3300.a: "The League shall be restored."
  numenor.3300.a.tt: "The League of Pelargir is restored"
  numenor.3300.b: "Why break what works?"
  numenor.3300.b.tt: "The League of Pelargir is not restored"
