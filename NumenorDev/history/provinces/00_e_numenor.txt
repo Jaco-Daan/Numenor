@@ -951,10 +951,20 @@
 			culture = numenorean
 			religion = faith_kings_men_numenorean
 			holding = castle_holding
-			4002.1.1 = {
+			3259.8.24 = {
                 culture = adunaic
 				religion = faith_dairaben
             }
+			3913.1.1 = {
+               	culture = wastelands
+				religion = faith_wastelands_pagan
+				holding = none
+            }
+			4368.1.1 = {
+				culture = adunaic
+				religion = faith_dairaben
+				holding = castle_holding
+			}	
             6405.1.1 = {
                 religion = faith_adunaic
             }
@@ -963,10 +973,20 @@
 			culture = numenorean
 			religion = faith_kings_men_numenorean
 			holding = castle_holding
-			4002.1.1 = {
-                culture = adunaic
+			3259.8.24 = {
+				culture = adunaic
 				religion = faith_dairaben
-            }
+			}
+			3913.1.1 = {
+				culture = wastelands
+				religion = faith_wastelands_pagan
+				holding = none
+			}
+			4368.1.1 = {
+				culture = adunaic
+				religion = faith_dairaben
+				holding = castle_holding
+			}
             6405.1.1 = {
                 religion = faith_adunaic
             }
@@ -1313,12 +1333,22 @@
 			culture = numenorean
 			religion = faith_kings_men_numenorean
 			holding = castle_holding
-			4002.1.1 = {
-                culture = adunaic
-				religion = faith_dairaben
-            }
-            6405.1.1 = {
+			3922.1.1 = {
+				culture = wastelands
+				religion = faith_wastelands_pagan
+				holding = none
+			}
+			4130.1.1 = {
+				culture = numenorean
+				religion = melkorite
+				holding = castle_holding
+			}
+			4330.1.1 = {
+				religion = faith_kings_men_numenorean
+			}
+			6781.1.1 = {
                 religion = faith_adunaic
+				culture = adunaic
             }
 }
 6100 = {	#Farahil (b_farahil)
@@ -1430,10 +1460,19 @@
 			culture = numenorean
 			religion = faith_kings_men_numenorean
 			holding = castle_holding
-			4002.1.1 = {
-                culture = adunaic
-				religion = faith_dairaben
-            }
+			3922.1.1 = {
+				religion = melkorite
+			}
+			4130.1.1 = {
+				culture = wastelands
+				religion = faith_wastelands_pagan
+				holding = none
+			}
+			4330.1.1 = {
+				religion = faith_kings_men_numenorean
+				culture = numenorean
+				holding = castle_holding
+			}
             6405.1.1 = {
                 religion = faith_adunaic
             }
@@ -1451,13 +1490,19 @@
 			culture = numenorean
 			religion = faith_kings_men_numenorean
 			holding = castle_holding
-			4002.1.1 = {
-                culture = adunaic
-				religion = faith_dairaben
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
+			3922.1.1 = {
+				religion = melkorite
+			}
+			4130.1.1 = {
+				culture = wastelands
+				religion = faith_wastelands_pagan
+				holding = none
+			}
+			4330.1.1 = {
+				culture = numenorean
+				religion = faith_kings_men_numenorean
+				holding = castle_holding
+			}
 }
 
 

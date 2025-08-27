@@ -1883,72 +1883,76 @@ c_formenore = {
 		holder = lineofazruben5
 	}
 	3913.1.1 = {
-		holder = 0
+		holder = k_wastelands_holder
+		change_development_level = -100
+		government = wastelands_government
 	}
-		4368.1.1 = {
+	4368.1.1 = {
 		holder = lineofazrubensubmod8
+		change_development_level = 18
+		government = feudal_government
 	}
-		4412.1.1 = {
+	4412.1.1 = {
 		holder = lineofazrubensubmod9
 	}
-		4550.1.1 = {
+	4550.1.1 = {
 		holder = lineofazrubensubmod10
 	}
-		4663.1.1 = {
+	4663.1.1 = {
 		holder = lineofazrubensubmod11
 	}
-		4773.1.1 = {
+	4773.1.1 = {
 		holder = lineofazrubensubmod12
 	}
-		4891.1.1 = {
+	4891.1.1 = {
 		holder = lineofazrubensubmod13
 	}
-		5021.1.1 = {
+	5021.1.1 = {
 		holder = lineofazrubensubmod14
 	}
-		5139.1.1 = {
+	5139.1.1 = {
 		holder = lineofazrubensubmod15
 	}
-		5340.1.1 = {
+	5340.1.1 = {
 		holder = lineofazrubensubmod16
 	}
-		5473.1.1 = {
+	5473.1.1 = {
 		holder = lineofazrubensubmod17
 	}
-		5600.1.1 = {
+	5600.1.1 = {
 		holder = lineofazrubensubmod18
 	}
-		5736.1.1 = {
+	5736.1.1 = {
 		holder = lineofazrubensubmod19
 	}
-		5852.1.1 = {
+	5852.1.1 = {
 		holder = lineofazrubensubmod20
 	}
-		5967.1.1 = {
+	5967.1.1 = {
 		holder = lineofazrubensubmod21
 	}
-		6086.1.1 = {
+	6086.1.1 = {
 		holder = lineofazrubensubmod22
 	}
-		6211.1.1 = {
+	6211.1.1 = {
 		holder = lineofazrubensubmod23
 	}
-		6339.1.1 = {
+	6339.1.1 = {
 		holder = lineofazrubensubmod24
 	}
-		6447.1.1 = {
+	6447.1.1 = {
 		holder = lineofazrubensubmod25
 	}
-		6577.1.1 = {
+	6577.1.1 = {
 		holder = lineofazrubensubmod26
 	}
-		6696.1.1 = {
+	6696.1.1 = {
 		holder = lineofazrubensubmod27
 	}
-		6808.1.1 = {
+	6808.1.1 = {
 		holder = lineofazrubensubmod28
 	}
-		6942.1.1 = {
+	6942.1.1 = {
 		holder = lineofazrubensubmod29
 		change_development_level = 12
 	}
@@ -2619,10 +2623,14 @@ c_zimraopele = {
 		holder = linegimilson3
 	}
 	4130.1.1 = {
-		holder = 0 
+		holder = k_wastelands_holder
+		change_development_level = -100
+		government = wastelands_government
 	}
 	4330.1.1 = {
 		holder = linejewellord6
+		change_development_level = 12
+		government = feudal_government
 	}
 	4517.1.1 = {
 		holder = linejewellord7
@@ -3044,72 +3052,76 @@ c_hyarnumen = {
 		holder = lineofazruben5
 	}
 	3913.1.1 = {
-		holder = 0
+		holder = k_wastelands_holder
+		change_development_level = -100
+		government = wastelands_government
 	}
-		4368.1.1 = {
+	4368.1.1 = {
 		holder = lineofazrubensubmod8
+		change_development_level = 11
+		government = feudal_government
 	}
-		4412.1.1 = {
+	4412.1.1 = {
 		holder = lineofazrubensubmod9
 	}
-		4550.1.1 = {
+	4550.1.1 = {
 		holder = lineofazrubensubmod10
 	}
-		4663.1.1 = {
+	4663.1.1 = {
 		holder = lineofazrubensubmod11
 	}
-		4773.1.1 = {
+	4773.1.1 = {
 		holder = lineofazrubensubmod12
 	}
-		4891.1.1 = {
+	4891.1.1 = {
 		holder = lineofazrubensubmod13
 	}
-		5021.1.1 = {
+	5021.1.1 = {
 		holder = lineofazrubensubmod14
 	}
-		5139.1.1 = {
+	5139.1.1 = {
 		holder = lineofazrubensubmod15
 	}
-		5340.1.1 = {
+	5340.1.1 = {
 		holder = lineofazrubensubmod16
 	}
-		5473.1.1 = {
+	5473.1.1 = {
 		holder = lineofazrubensubmod17
 	}
-		5600.1.1 = {
+	5600.1.1 = {
 		holder = lineofazrubensubmod18
 	}
-		5736.1.1 = {
+	5736.1.1 = {
 		holder = lineofazrubensubmod19
 	}
-		5852.1.1 = {
+	5852.1.1 = {
 		holder = lineofazrubensubmod20
 	}
-		5967.1.1 = {
+	5967.1.1 = {
 		holder = lineofazrubensubmod21
 	}
-		6086.1.1 = {
+	6086.1.1 = {
 		holder = lineofazrubensubmod22
 	}
-		6211.1.1 = {
+	6211.1.1 = {
 		holder = lineofazrubensubmod23
 	}
-		6339.1.1 = {
+	6339.1.1 = {
 		holder = lineofazrubensubmod24
 	}
-		6447.1.1 = {
+	6447.1.1 = {
 		holder = lineofazrubensubmod25
 	}
-		6577.1.1 = {
+	6577.1.1 = {
 		holder = lineofazrubensubmod26
 	}
-		6696.1.1 = {
+	6696.1.1 = {
 		holder = lineofazrubensubmod27
 	}
-		6808.1.1 = {
+	6808.1.1 = {
 		holder = lineofazrubensubmod28
 	}
-		6942.1.1 = {
+	6942.1.1 = {
 		holder = lineofazrubensubmod29
 		change_development_level = 15
 	}
@@ -4955,10 +4967,14 @@ c_tarmeno = {
 		holder = linegimilson3
 	}
 	4130.1.1 = {
-		holder = 0 
+		holder = k_wastelands_holder
+		change_development_level = -100
+		government = wastelands_government
 	}
 	4330.1.1 = {
 		holder = linejewellord6
+		change_development_level = 13
+		government = feudal_government
 	}
 	4517.1.1 = {
 		holder = linejewellord7
@@ -5038,10 +5054,14 @@ c_kharazor = {
 		holder = linegimilson3
 	}
 	4130.1.1 = {
-		holder = 0 
+		holder = k_wastelands_holder
+		change_development_level = -100
+		government = wastelands_government
 	}
 	4330.1.1 = {
 		holder = linejewellord6
+		change_development_level = 13
+		government = feudal_government
 	}
 	4517.1.1 = {
 		holder = linejewellord7
@@ -5229,6 +5249,73 @@ c_syntarin = {
 }
 
 c_melonan = {
+	1505.1.1 = {
+		holder = lineofsirinore2
+	}
+	3924.1.1 = {
+		holder = linesirinore7
+	}
+	4159.1.1 = {
+		holder = linesirinore8
+	}
+	4302.1.1 = {
+		holder = linesirinore9
+	}
+	4506.1.1 = {
+		holder = linesirinore10
+	}
+	4673.1.1 = {
+		holder = linesirinore11
+	}
+	4809.1.1 = {
+		holder = linesirinore12
+	}
+	5002.1.1 = {
+		holder = linesirinore13
+	}
+	5177.1.1 = {
+		holder = linesirinore14
+	}
+	5368.1.1 = {
+		holder = linesirinore15
+	}
+	5500.1.1 = {
+		holder = linesirinore16
+	}
+	5710.1.1 = {
+		holder = linesirinore17
+	}
+	5895.1.1 = {
+		holder = linesirinore18
+	}
+	6051.1.1 = {
+		holder = linesirinore19
+	}
+	6230.1.1 = {
+		holder = linesirinore20
+	}
+	6412.1.1 = {
+		holder = linesirinore21
+	}
+	6577.1.1 = {
+		holder = linesirinore22
+	}
+	6686.1.1 = {
+		holder = linesirinore23
+	}
+	6817.1.1 = {
+		holder = linesirinore24
+	}
+	6982.1.1 = {
+		holder = linesirinore25
+	}
+	7032.1.1 = {
+		holder = linesirinore26
+		change_development_level = 14
+	}
+}
+
+c_noirinan = {
 	1505.1.1 = {
 		holder = lineofsirinore2
 	}
