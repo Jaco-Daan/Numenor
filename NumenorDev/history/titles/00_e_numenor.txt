@@ -5389,7 +5389,7 @@ c_meneltarma = {
 	}
 }
 
-c_temp_1 = {
+c_forpende = {
 	3973.1.1 = {
 		holder = lineofondostofounder 
 	}
@@ -5470,7 +5470,7 @@ c_temp_1 = {
 	}
 }
 
-c_temp_2 = {
+c_ingamar = {
 	3973.1.1 = {
 		holder = lineofondostofounder 
 	}

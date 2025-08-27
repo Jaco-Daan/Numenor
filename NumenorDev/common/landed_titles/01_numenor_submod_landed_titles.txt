@@ -248,7 +248,7 @@ e_numenor = {
 					
 					color = { 128 99 200 }
 				}
-				b_temp_1 = {
+				b_mittamena = {
 					province = 6028
 					
 					color = { 21 16 16 }
@@ -271,35 +271,35 @@ e_numenor = {
 			}
 		}
 
-		d_temp_1 = {
+		d_forpende = {
 			color = { 121 99 197 }
 			
-			capital = c_temp_1
+			capital = c_forpende
 
-			c_temp_1 = {
+			c_forpende = {
 				color = { 122 101 196 }
 				
-				b_temp_2 = {
+				b_forambos = {
 					province = 6067
 					
 					color = { 21 16 16 }
 				}
-				b_temp_3 = {
+				b_orominasse = {
 					province = 6098
 					
 					color = { 21 16 16 }
 				}
 			}
 
-			c_temp_2 = {
+			c_ingamar = {
 				color = { 122 101 196 }
 				
-				b_temp_5 = {
+				b_ingamar = {
 					province = 6175
 					
 					color = { 21 16 16 }
 				}
-				b_temp_4 = {
+				b_artosto = {
 					province = 6112
 					
 					color = { 21 16 16 }
@@ -638,7 +638,7 @@ e_numenor = {
 					
 					color = { 41 49 160 }
 				}
-				b_temp_6 = {
+				b_falassosto = {
 					province = 6190
 					
 					color = { 26 26 22 }

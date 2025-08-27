@@ -266,14 +266,13 @@
  cn_numenor_adunaic: "Númenor" # Alrain Note: Why not Anadûnê
  cn_armenelos_adunaic: "Arminalêth"
 
- b_temp_1: "Mittaména"
+ b_mittamena: "Mittaména"
 
- d_temp_1: "Forpendë"
- c_temp_1: "Forpendë"
- b_temp_2: "Forambos"
- b_temp_3: "Orominassë"
- c_temp_2: "Ingamar"
- b_temp_5: "Ingamar"
- b_temp_4: "Artosto"
-
- b_temp_6: "Falassosto"
+ d_forpende: "Forpendë"
+ c_forpende: "Forpendë"
+ b_forambos: "Forambos"
+ b_orominasse: "Orominassë"
+ c_ingamar: "Ingamar"
+ b_ingamar: "Ingamar"
+ b_artosto: "Artosto"
+ b_falassosto: "Falassosto"

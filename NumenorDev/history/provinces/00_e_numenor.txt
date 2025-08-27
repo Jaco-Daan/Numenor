@@ -622,7 +622,7 @@
 	}
 }
 
-6028 = {	#B_temp_1 (B_temp_1)
+6028 = {	#b_mittamena (b_mittamena)
 	culture = adunaic
 	religion = faith_adunaic
 	holding = none
@@ -1037,7 +1037,7 @@
             }
 }
 
-6190 = {	#B_temp_6 (b_temp_6)
+6190 = {	#Falassosto (b_falassosto)
 			culture = adunaic
 			religion = faith_adunaic
 			holding = none

@@ -146,7 +146,7 @@ middleearth_numenor = {
 	duchies = {
 		d_sorontil d_elenore d_ciryanore d_ondosto d_meneltarma
 		d_arandor d_formenore d_aruwanai d_hyarnore d_khorandor
-		d_erelonde d_hyarnudore d_zimrayan d_emerie d_nisimaldar
+		d_forpende d_erelonde d_hyarnudore d_zimrayan d_emerie d_nisimaldar
 		d_nunduine d_erest d_andunie d_arialome d_sirinore d_nindamos
 	}
 }
