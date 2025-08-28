@@ -9776,7 +9776,7 @@ lineazrubensubmodpadding = {
 	
 	trait = blood_of_numenor_7
 	
-	3690.1.1 = {
+	3770.1.1 = {
 		birth = yes
 	}
 	3982.1.1 = {
@@ -11533,6 +11533,7 @@ gimilkhadbastard = {
 	trait = disputed_heritage
 	trait = beauty_good_2
 	trait = blood_of_numenor_7
+	trait = impatient
 	trait = sadistic
 	trait = ambitious
 	
@@ -11551,6 +11552,9 @@ linejewellord1 = {
 	
 	trait = blood_of_numenor_7
 	trait = greedy
+	trait = arrogant
+	trait = callous
+
 	trait = strong
 	
 	3708.1.1 = {
@@ -11576,8 +11580,6 @@ linejewellord2 = { # Named after his supposed Grandfather, contender for the Nú
 	trait = blood_of_numenor_7
 	trait = sadistic
 	trait = greedy
-	trait = arrogant
-	trait = callous
 	trait = ambitious
 	
 	3823.1.1 = {
@@ -11624,7 +11626,6 @@ linegimilson2 = {
 	trait = vengeful
 	trait = sadistic
 	trait = schemer
-	trait = impatient
 	
 	3967.1.1 = {
 		birth = yes
