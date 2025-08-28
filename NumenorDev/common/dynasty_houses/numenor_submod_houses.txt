@@ -12,10 +12,10 @@ dynasty_khorahil = {
 	motto = dynn_khorahil_motto
 }
 
-dynasty_azruhil = {
-	name = "dynn_azruhil"
-	dynasty = dynasty_mornionath
-	motto = dynn_azruhil_motto
+dynasty_azru = {
+	name = "dynn_azru"
+	dynasty = dynasty_korleabeforedownfall
+	motto = dynn_azru_motto
 }
 dynasty_vardurionath = {
 	name = "dynn_vardurionath"

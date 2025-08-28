@@ -1008,7 +1008,7 @@ d_adunai = {
 
 }
 
-dynasty_azruhil = {
+dynasty_azru = {
 	pattern="pattern_solid.dds"
 	color1=rgb { 0 0 0 }
 	color2=white
@@ -1097,7 +1097,7 @@ dynasty_azruhil = {
 }
 
 
-dynasty_mornionath = {
+dynasty_korleabeforedownfall = {
   pattern="pattern_square_gondor_06.dds"
     color1=black
     color2=offwhite

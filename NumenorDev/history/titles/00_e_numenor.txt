@@ -1572,69 +1572,69 @@ d_zimrayan = {
 
 d_nindamos = {
 	3257.1.1 = {
-		holder = lineofmornionath13
+		holder = lordsofkorlea13
 		government = feudal_government
 	}
 	3434.1.1 = {
-		holder = lineofmornionath14
+		holder = lordsofkorlea14
 	}
 	3636.1.1 = {
-		holder = lineofmornionath15
+		holder = lordsofkorlea15
 	}
 	3826.1.1 = {
-		holder = lineofmornionath16
+		holder = lordsofkorlea16
 	}
 	4017.1.1 = {
-		holder = lineofmornionath17
+		holder = lordsofkorlea17
 	}
 	4099.1.1 = {
 		holder = 0
 	}
 	4394.1.1 = {
-		holder = lineofazruhil2
+		holder = lordsofkorlea19
 	}
 	4513.1.1 = {
-		holder = lineofazruhil3
+		holder = lordsofkorlea20
 	}
 	4718.1.1 = {
-		holder = lineofazruhil4
+		holder = lordsofkorlea21
 	}
 	4919.1.1 = {
-		holder = lineofazruhil5
+		holder = lordsofkorlea22
 	}
 	5109.1.1 = {
-		holder = lineofazruhil6
+		holder = lordsofkorlea23
 	}
 	5322.1.1 = {
-		holder = lineofazruhil7
+		holder = lordsofkorlea24
 		liege = e_numenor
 	}
 	5528.1.1 = {
-		holder = lineofazruhil8
+		holder = lordsofkorlea25
 	}
 	5717.1.1 = {
-		holder = lineofazruhil9
+		holder = lordsofkorlea26
 	}
 	5903.1.1 = {
-		holder = lineofazruhil10
+		holder = lordsofkorlea27
 	}
 	6116.1.1 = {
-		holder = lineofazruhil11
+		holder = lordsofkorlea28
 	}
 	6327.1.1 = {
-		holder = lineofazruhil12
+		holder = lordsofkorlea29
 	}
 	6527.1.1 = {
-		holder = lineofazruhil13
+		holder = lordsofkorlea30
 	}
 	6725.1.1 = {
-		holder = lineofazruhil14
+		holder = lordsofkorlea31
 	}
 	6919.1.1 = {
-		holder = lineofazruhil15
+		holder = lordsofkorlea32
 	}
 	7000.1.1 = {
-		holder = lineofazruhil16
+		holder = lordsofkorlea33
 		liege = e_numenor
 	}
 }
@@ -2688,67 +2688,67 @@ c_zimraopele = {
 
 c_nindamos = {
 	3257.1.1 = {
-		holder = lineofmornionath13
+		holder = lordsofkorlea13
 	}
 	3434.1.1 = {
-		holder = lineofmornionath14
+		holder = lordsofkorlea14
 	}
 	3636.1.1 = {
-		holder = lineofmornionath15
+		holder = lordsofkorlea15
 	}
 	3826.1.1 = {
-		holder = lineofmornionath16
+		holder = lordsofkorlea16
 	}
 	4017.1.1 = {
-		holder = lineofmornionath17
+		holder = lordsofkorlea17
 	}
 	4099.1.1 = {
-		holder = lineofazruhil1
+		holder = lordsofkorlea18
 	}
 	4394.1.1 = {
-		holder = lineofazruhil2
+		holder = lordsofkorlea19
 	}
 	4513.1.1 = {
-		holder = lineofazruhil3
+		holder = lordsofkorlea20
 	}
 	4718.1.1 = {
-		holder = lineofazruhil4
+		holder = lordsofkorlea21
 	}
 	4919.1.1 = {
-		holder = lineofazruhil5
+		holder = lordsofkorlea22
 	}
 	5109.1.1 = {
-		holder = lineofazruhil6
+		holder = lordsofkorlea23
 	}
 	5322.1.1 = {
-		holder = lineofazruhil7
+		holder = lordsofkorlea24
 	}
 	5528.1.1 = {
-		holder = lineofazruhil8
+		holder = lordsofkorlea25
 	}
 	5717.1.1 = {
-		holder = lineofazruhil9
+		holder = lordsofkorlea26
 	}
 	5903.1.1 = {
-		holder = lineofazruhil10
+		holder = lordsofkorlea27
 	}
 	6116.1.1 = {
-		holder = lineofazruhil11
+		holder = lordsofkorlea28
 	}
 	6327.1.1 = {
-		holder = lineofazruhil12
+		holder = lordsofkorlea29
 	}
 	6527.1.1 = {
-		holder = lineofazruhil13
+		holder = lordsofkorlea30
 	}
 	6725.1.1 = {
-		holder = lineofazruhil14
+		holder = lordsofkorlea31
 	}
 	6919.1.1 = {
-		holder = lineofazruhil15
+		holder = lordsofkorlea32
 	}
 	7000.1.1 = {
-		holder = lineofazruhil16
+		holder = lordsofkorlea33
 		change_development_level = 12
 	}
 }
@@ -2960,55 +2960,55 @@ c_tauredor = {
 
 c_arabeleth = {
 	4017.1.1 = {
-		holder = lineofmornionath17
+		holder = lordsofkorlea17
 	}
 	4099.1.1 = {
-		holder = lineofazruhil1
+		holder = lordsofkorlea18
 	}
 	4394.1.1 = {
-		holder = lineofazruhil2
+		holder = lordsofkorlea19
 	}
 	4513.1.1 = {
-		holder = lineofazruhil3
+		holder = lordsofkorlea20
 	}
 	4718.1.1 = {
-		holder = lineofazruhil4
+		holder = lordsofkorlea21
 	}
 	4919.1.1 = {
-		holder = lineofazruhil5
+		holder = lordsofkorlea22
 	}
 	5109.1.1 = {
-		holder = lineofazruhil6
+		holder = lordsofkorlea23
 	}
 	5322.1.1 = {
-		holder = lineofazruhil7
+		holder = lordsofkorlea24
 	}
 	5528.1.1 = {
-		holder = lineofazruhil8
+		holder = lordsofkorlea25
 	}
 	5717.1.1 = {
-		holder = lineofazruhil9
+		holder = lordsofkorlea26
 	}
 	5903.1.1 = {
-		holder = lineofazruhil10
+		holder = lordsofkorlea27
 	}
 	6116.1.1 = {
-		holder = lineofazruhil11
+		holder = lordsofkorlea28
 	}
 	6327.1.1 = {
-		holder = lineofazruhil12
+		holder = lordsofkorlea29
 	}
 	6527.1.1 = {
-		holder = lineofazruhil13
+		holder = lordsofkorlea30
 	}
 	6725.1.1 = {
-		holder = lineofazruhil14
+		holder = lordsofkorlea31
 	}
 	6919.1.1 = {
-		holder = lineofazruhil15
+		holder = lordsofkorlea32
 	}
 	7000.1.1 = {
-		holder = lineofazruhil16
+		holder = lordsofkorlea33
 		change_development_level = 13
 	}
 }
@@ -5119,7 +5119,7 @@ c_kharazor = {
 
 c_cemendor = {
 	7000.1.1 = {
-		holder = lineofazruhil16
+		holder = lordsofkorlea33
 		change_development_level = 15
 	}
 }
