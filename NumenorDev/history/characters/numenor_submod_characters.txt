@@ -12618,7 +12618,7 @@ lineofondosto26 = {
 	}
 }
 lineofondosto27 = {
-	name = Dâirabên
+	name = Da_a_irabe_e_n
 	dynasty = dynasty_ondosto
 	religion = faith_adunaic
 	culture = adunaic
@@ -13333,7 +13333,7 @@ lineofrotthor2a5 = {
     }
 }
 lineofrotthor2a6 = {
-    name = U_Urnurahata_a_n
+    name = U_U_rnurahata_a_n
 
     religion = faith_kings_men_numenorean
     culture = numenorean
