@@ -804,7 +804,7 @@ lineofelros119 = {
 
 ## House Veantur, Submod ##
 
-dolamroth35 = {
+dolamrothsubmod1 = {
 	name = "Alphros"
 	dynasty = dynasty_dol_amroth
 	religion = faith_edain
@@ -821,13 +821,13 @@ dolamroth35 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-dolamroth36 = {
+dolamrothsubmod2 = {
 	name = "Borondir"
 	dynasty = dynasty_dol_amroth
 	religion = faith_edain
 	culture = belfalathrim
 	
-	father = dolamroth35
+	father = dolamrothsubmod1
 	
 	trait = blood_of_numenor_3
 	
@@ -838,13 +838,13 @@ dolamroth36 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-dolamroth37 = {
+dolamrothsubmod3 = {
 	name = "Halbarad"
 	dynasty = dynasty_dol_amroth
 	religion = faith_edain
 	culture = belfalathrim
 	
-	father = dolamroth36
+	father = dolamrothsubmod2
 	
 	trait = blood_of_numenor_3
 	
@@ -855,13 +855,13 @@ dolamroth37 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-dolamroth38 = {
+dolamrothsubmod4 = {
 	name = "Cunendur"
 	dynasty = dynasty_dol_amroth
 	religion = faith_edain
 	culture = belfalathrim
 	
-	father = dolamroth37
+	father = dolamrothsubmod3
 	
 	trait = blood_of_numenor_3
 	
@@ -872,13 +872,13 @@ dolamroth38 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-dolamroth39 = {
+dolamrothsubmod5 = {
 	name = "Arveldir"
 	dynasty = dynasty_dol_amroth
 	religion = faith_edain
 	culture = belfalathrim
 	
-	father = dolamroth38
+	father = dolamrothsubmod4
 	
 	trait = blood_of_numenor_3
 	
@@ -889,13 +889,13 @@ dolamroth39 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-dolamroth40 = {
-	name = "Eldarion"
+dolamrothsubmod6 = {
+	name = "Eldacar"
 	dynasty = dynasty_dol_amroth
 	religion = faith_edain
 	culture = belfalathrim
 	
-	father = dolamroth39
+	father = dolamrothsubmod5
 	
 	trait = blood_of_numenor_3
 	
@@ -906,13 +906,13 @@ dolamroth40 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-dolamroth41 = {
+dolamrothsubmod7 = {
 	name = "Ausir"
 	dynasty = dynasty_dol_amroth
 	religion = faith_edain
 	culture = belfalathrim
 	
-	father = dolamroth40
+	father = dolamrothsubmod6
 	
 	trait = blood_of_numenor_3
 	
@@ -923,13 +923,13 @@ dolamroth41 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-dolamroth42 = {
+dolamrothsubmod8 = {
 	name = "Gaerdon"
 	dynasty = dynasty_dol_amroth
 	religion = faith_adunaic
 	culture = adunaic
 	
-	father = dolamroth41
+	father = dolamrothsubmod7
 	
 	trait = blood_of_numenor_3
 	
@@ -943,7 +943,7 @@ dolamroth42 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-dolamroth43 = {
+dolamrothsubmod9 = {
 	name = "Ciryandur"
 	dynasty = dynasty_dol_amroth
 	religion = faith_adunaic
@@ -951,7 +951,7 @@ dolamroth43 = {
 	#dna = ciryandur_dna
 	dna = ciryandur_veanturioni_dna_wotr_1
 	
-	father = dolamroth42
+	father = dolamrothsubmod8
 	mother = lineofelros119
 	
 	trait = blood_of_numenor_7
@@ -960,13 +960,13 @@ dolamroth43 = {
 		birth = yes
 	}
 }
-dolamroth44 = {
+dolamrothsubmod10 = {
 	name = "Teldu_u_meir"
 	dynasty = dynasty_dol_amroth
 	religion = faith_adunaic
 	culture = adunaic
 	
-	father = dolamroth43
+	father = dolamrothsubmod9
 	
 	trait = blood_of_numenor_7
 	
@@ -974,13 +974,13 @@ dolamroth44 = {
 		birth = yes
 	}
 }
-dolamroth45 = {
+dolamrothsubmod11 = {
 	name = "Sangahyando"
 	dynasty = dynasty_dol_amroth
 	religion = faith_adunaic
 	culture = adunaic
 	
-	father = dolamroth43
+	father = dolamrothsubmod9
 	
 	trait = blood_of_numenor_7
 	
@@ -988,13 +988,13 @@ dolamroth45 = {
 		birth = yes
 	}
 }
-dolamroth46 = {
+dolamrothsubmod12 = {
 	name = "Arnubalka_a_n"
 	dynasty = dynasty_dol_amroth
 	religion = faith_adunaic
 	culture = adunaic
 	
-	father = dolamroth44
+	father = dolamrothsubmod10
 	
 	trait = blood_of_numenor_7
 	

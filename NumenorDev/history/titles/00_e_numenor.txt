@@ -323,10 +323,10 @@ c_eldalonde = {
 		holder = lineofciryamirbranch19
 	}		
 	6799.1.1 = {
-		holder = dolamroth42 # Haldrahir
+		holder = dolamrothsubmod8 # Haldrahir
 	}
 	6913.1.1 = {
-		holder = dolamroth43 # Ciryandur
+		holder = dolamrothsubmod9 # Ciryandur
 		change_development_level = 36
 	}
 }
@@ -568,10 +568,10 @@ d_nisimaldar = {
 		holder = lineofciryamirbranch19
 	}		
 	6799.1.1 = {
-		holder = dolamroth42 # Haldrahir
+		holder = dolamrothsubmod8 # Haldrahir
 	}
 	6913.1.1 = {
-		holder = dolamroth43 # Ciryandur
+		holder = dolamrothsubmod9 # Ciryandur
 		liege = e_numenor
 	}
 }
@@ -4217,10 +4217,10 @@ c_nisinna = {
 		holder = lineofciryamirbranch19
 	}		
 	6799.1.1 = {
-		holder = dolamroth42 # Haldrahir
+		holder = dolamrothsubmod8 # Haldrahir
 	}
 	6913.1.1 = {
-		holder = dolamroth43 # Ciryandur
+		holder = dolamrothsubmod9 # Ciryandur
 		change_development_level = 16
 	}
 }
