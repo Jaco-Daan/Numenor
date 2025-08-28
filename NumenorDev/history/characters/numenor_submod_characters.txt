@@ -3659,6 +3659,14 @@ mablung45 = {
 	6957.1.1 = {
 		birth = yes
 	}
+	7000.1.20 = {
+		add_spouse = lineofrotthor2a30a1a1
+		set_relation_friend = character:lineofrotthor2a30a1a1
+	}
+	7173.2.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+
 }
 
 mablung46 = {
@@ -3668,6 +3676,7 @@ mablung46 = {
 	culture = adunaic
 	
 	father = mablung45
+	mother = lineofrotthor2a30a1a1
 	
 	trait = blood_of_numenor_7
 	trait = just
@@ -3687,6 +3696,7 @@ mablung47 = {
 	female = yes
 	
 	father = mablung45
+	mother = lineofrotthor2a30a1a1
 	
 	trait = blood_of_numenor_7
 	trait = beauty_good_2
@@ -7810,6 +7820,9 @@ lineoftelemnacil62 = {
     name = Adu_u_naphe_e_l
     female = yes
 
+	dynasty_house = dynasty_jeweldaughter
+	father = linejewellord22
+
     religion = faith_adunaic
     culture = adunaic
 
@@ -10710,6 +10723,24 @@ lineborodirsubmod30 = {
 		birth = yes
 	}
 }
+lineborodirsubmod28a1 = {
+	name = Khibili_i_
+	female = yes
+	dynasty = dynasty_borodiriath
+	religion = faith_adunaic
+	culture = adunaic
+	
+	trait = blood_of_numenor_7
+	
+	father = lineborodirsubmod28
+	
+	6945.6.19 = {
+		birth = yes
+	}
+	7162.2.13 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
 
 lineborodirsubmod31 = {
 	name = Be_e_lphe_e_go_o_r
@@ -10924,6 +10955,24 @@ lineborodirsubmod43= {
 	
 	6854.1.1 = {
 		birth = yes
+	}
+}
+lineborodirsubmod42a1 = {
+	name = Pharzube_e_li_i_n
+	female = yes
+	dynasty_house = dynasty_borodiriathtwo
+	religion = faith_adunaic
+	culture = adunaic
+	
+	trait = blood_of_numenor_7
+	
+	father = lineborodirsubmod42
+	
+	6859.1.12 = {
+		birth = yes
+	}
+	7074.1.14 = {
+		death = { death_reason = death_natural_causes }
 	}
 }
 lineborodirsubmod44 = {
@@ -13250,7 +13299,7 @@ lineofrotthor2a4 = {
         birth = yes
     }
 
-    3730.12.14 = {
+    3830.12.14 = {
         death = {
             death_reason = death_natural_causes
         }
@@ -13272,7 +13321,7 @@ lineofrotthor2a5 = {
         birth = yes
     }
 
-    3820.6.12 = {
+    3920.6.12 = {
         death = {
             death_reason = death_natural_causes
         }
@@ -13294,7 +13343,7 @@ lineofrotthor2a6 = {
         birth = yes
     }
 
-    3901.1.14 = {
+    4001.1.14 = {
         death = {
             death_reason = death_natural_causes
         }
@@ -13322,7 +13371,7 @@ lineofrotthor2a7 = {
 		culture = adunaic
 	}
 
-    4011.6.11 = {
+    4111.6.11 = {
         death = {
             death_reason = death_natural_causes
         }
@@ -13677,7 +13726,7 @@ lineofrotthor2a23 = {
         birth = yes
     }
 
-    6001.1.1 = {
+    6091.1.1 = {
         death = {
             death_reason = death_natural_causes
         }
@@ -13837,7 +13886,7 @@ lineofrotthor2a30 = {
         birth = yes
     }
 
-    6999.1.1 = {
+    6969.1.1 = {
         death = {
             death_reason = death_natural_causes
         }
@@ -14011,6 +14060,133 @@ lineofrotthor2a31a1 = {
     }
 
     7130.1.14 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofrotthor2a30a1 = {
+    name = Adu_u_naro_o_th
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a30
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    6816.2.11 = {
+        birth = yes
+    }
+
+	6930.2.14 = {
+		add_spouse = lineborodirsubmod42a1
+	}
+
+    7026.12.14 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a30a2 = {
+    name = D_unel
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a30a1
+	mother = lineborodirsubmod42a1
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    6935.12.11 = {
+        birth = yes
+    }
+
+	7000.2.14 = {
+		add_spouse = lineborodirsubmod28a1
+		set_relation_lover = character:lineborodirsubmod28a1
+	}
+
+    7154.3.19 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a30a3 = {
+    name = A_A_ru_u_phe_e_l
+	female = yes
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a30a2
+	mother = lineborodirsubmod28a1
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+	7005.2.14 = {
+		birth = yes
+	}
+
+    7210.4.11 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a30a2a1 = {
+    name = Adu_u_nazi_i_r
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a30a2
+	mother = lineborodirsubmod28a1
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+	7010.3.18 = {
+		birth = yes
+	}
+
+    7216.9.4 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a30a1a1 = {
+    name = Dunloth
+	female = yes
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a30a1
+	mother = lineborodirsubmod42a1
+	sexuality = homosexual
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    6941.6.16 = {
+        birth = yes
+    }
+
+    7156.12.1 = {
         death = {
             death_reason = death_natural_causes
         }

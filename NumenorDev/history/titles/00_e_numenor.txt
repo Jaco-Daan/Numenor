@@ -4731,7 +4731,7 @@ c_zorakhator = {
 	6888.1.1 = {
         holder = lineofrotthor2a30 # Khibilazi_i_r
     }
-	6999.1.1 = {
+	6969.1.1 = {
         holder = lineofrotthor2a31 # Khibilro_o_th
     }
 	7019.1.1 = {
