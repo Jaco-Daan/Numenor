@@ -614,16 +614,21 @@ lineofelros111 = {
 	}
 }
 lineofelros112 = {
-	name = "Do_o_lguzagar"
+	name = "Airendur"
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
-	
-	
+	sexuality = heterosexual
 	
 	father = lineofelros111
 	
 	trait = blood_of_numenor_7
+	trait = trusting
+	trait = patient
+	trait = eccentric
+	trait = spindly
+	trait = scholar
+	trait = education_diplomacy_3
 	
 	6621.1.1 = {
 		birth = yes

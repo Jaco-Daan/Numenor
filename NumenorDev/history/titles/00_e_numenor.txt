@@ -637,6 +637,7 @@ d_aruwanai = {
 	}
 	6683.1.1 = {
 		holder = lineofaru14
+		liege = e_numenor
 	}
 	6886.1.1 = {
 		holder = lineofaru15
@@ -817,6 +818,7 @@ d_khorandor = {
 	}
 	6753.1.1 = {
 		holder = lineofkhorahil7
+		liege = e_numenor
 	}
 	6896.1.1 = {
 		holder = lineofkhorahil8
@@ -834,6 +836,7 @@ d_ciryanore = {
 	}
 	6625.1.1 = {
 		holder = lineofciryandur32
+		liege = e_numenor
 	}
 	6816.1.1 = {
 		holder = lineofciryandur33
@@ -3339,6 +3342,96 @@ c_elenduin = {
 	}
 }
 
+c_forduinem = {
+	2180.1.1 = {
+		holder = ruxoalendil1
+		change_development_level = 10
+	}
+	2477.5.12 = {
+		holder = ruxoalendil2 
+	}
+	2525.4.2 = {
+		holder = ruxoalendil3
+	}
+	2593.12.8 = {
+		holder = ruxoalendil4
+	}
+	2788.4.12 = {
+		holder = ruxoalendil5
+	}
+	2933.1.1 = {
+		holder = ruxoalendil6
+	}
+	3141.1.1 = {
+		holder = ruxoalendil7
+	}
+	3347.1.1 = {
+		holder = ruxoalendil8
+	}
+	3549.1.1 = {
+		holder = ruxoalendil9
+	}
+	3733.1.1 = {
+		holder = ruxoalendil10
+	}
+	3939.1.1 = {
+		holder = ruxoalendil11 # Made lord of all Forostar
+	}
+	4107.1.1 = {
+		holder = ruxoalendil12
+	}
+	4325.1.1 = {
+		holder = ruxoalendil13
+	}
+	4532.1.1 = {
+		holder = ruxoalendil14
+	}
+	4730.1.1 = {
+		holder = ruxoalendil15
+	}
+	4935.1.1 = {
+		holder = ruxoalendil16
+	}
+	5132.1.1 = {
+		holder = ruxoalendil17
+	}
+	5332.1.1 = {
+		holder = ruxoalendil18
+	}
+	5544.1.1 = {
+		holder = ruxoalendil19
+	}
+	5748.1.1 = {
+		holder = ruxoalendil20
+	}
+	5937.1.1 = {
+		holder = ruxoalendil21
+	}
+	6128.1.1 = {
+		holder = ruxoalendil22
+	}
+	6325.1.1 = {
+		holder = ruxoalendil23
+	}
+	6399.1.1 = {
+		holder = ruxoalendilsecondline3
+	}
+	6533.1.1 = {
+		holder = ruxoalendilthirdline1
+	}
+	6723.1.1 = {
+		holder = ruxoalendilthirdline2
+		liege = e_numenor
+	}
+	6845.1.1 = {
+		holder = ruxoalendilthirdline3
+	}
+	6941.1.1 = {
+		holder = ruxoalendilthirdline4
+		liege = d_sorontil
+	}
+}
+
 c_belizerbeth = {
 	6927.1.1 = {
 		holder = ruxoalendil27
@@ -3429,95 +3522,6 @@ c_belizerbeth = {
 	}
 }
 
-c_forduinem = {
-	2180.1.1 = {
-		holder = ruxoalendil1
-		change_development_level = 10
-	}
-	2477.5.12 = {
-		holder = ruxoalendil2 
-	}
-	2525.4.2 = {
-		holder = ruxoalendil3
-	}
-	2593.12.8 = {
-		holder = ruxoalendil4
-	}
-	2788.4.12 = {
-		holder = ruxoalendil5
-	}
-	2933.1.1 = {
-		holder = ruxoalendil6
-	}
-	3141.1.1 = {
-		holder = ruxoalendil7
-	}
-	3347.1.1 = {
-		holder = ruxoalendil8
-	}
-	3549.1.1 = {
-		holder = ruxoalendil9
-	}
-	3733.1.1 = {
-		holder = ruxoalendil10
-	}
-	3939.1.1 = {
-		holder = ruxoalendil11 # Made lord of all Forostar
-	}
-	4107.1.1 = {
-		holder = ruxoalendil12
-	}
-	4325.1.1 = {
-		holder = ruxoalendil13
-	}
-	4532.1.1 = {
-		holder = ruxoalendil14
-	}
-	4730.1.1 = {
-		holder = ruxoalendil15
-	}
-	4935.1.1 = {
-		holder = ruxoalendil16
-	}
-	5132.1.1 = {
-		holder = ruxoalendil17
-	}
-	5332.1.1 = {
-		holder = ruxoalendil18
-	}
-	5544.1.1 = {
-		holder = ruxoalendil19
-	}
-	5748.1.1 = {
-		holder = ruxoalendil20
-	}
-	5937.1.1 = {
-		holder = ruxoalendil21
-	}
-	6128.1.1 = {
-		holder = ruxoalendil22
-	}
-	6325.1.1 = {
-		holder = ruxoalendil23
-	}
-	6399.1.1 = {
-		holder = ruxoalendilsecondline3
-	}
-	6533.1.1 = {
-		holder = ruxoalendilthirdline1
-	}
-	6723.1.1 = {
-		holder = ruxoalendilthirdline2
-	}
-	6845.1.1 = {
-		holder = ruxoalendilthirdline3
-	}
-	6941.1.1 = {
-		holder = ruxoalendilthirdline4
-		liege = d_sorontil
-	}
-}
-
 c_kharutarik = {
 	6927.1.1 = {
 		holder = ruxoalendil27
@@ -3594,6 +3598,7 @@ c_belzag = {
 	}
 	6637.1.1 = {
 		holder = lineofondosto22
+		liege = e_numenor
 	}
 	6797.1.1 = {
 		holder = lineofondosto23
@@ -4852,6 +4857,7 @@ c_hazdore = {
 	}
 	6783.1.1 = {
 		holder = lineborodirsubmod39
+		liege = e_numenor
 	}
 	6863.1.1 = {
 		holder = lineborodirsubmod40
@@ -5479,6 +5485,7 @@ c_forpende = {
 	}
 	6628.1.1 = {
 		holder = lineofondostotwo3
+		liege = e_numenor
 	}
 	6788.1.1 = {
 		holder = lineofondostotwo4
