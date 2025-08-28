@@ -1203,14 +1203,11 @@ decision_restore_numenor_province = {
 		highest_held_title_tier = tier_empire
 		has_title = title:e_numenor #Submod Numenor
 		OR = { # Ensures at least one option is still available
-			show_harondor_trigger = yes
-			show_harnendor_trigger = yes
-			show_andrast_trigger = yes
-			show_umbar_trigger = yes
-			show_calenardhon_trigger = yes
-			show_dor_rhunen_trigger = yes
-			show_enedhwaith_trigger = yes
-			show_eregion_trigger = yes
+			show_numenorean_umbar_trigger = yes
+			show_numenorean_bellakar_trigger = yes
+			show_numenorean_thani_hazad_trigger = yes
+			show_numenorean_gondor_trigger = yes
+			show_numenorean_harnen_trigger = yes
 		}
 	}
 	
