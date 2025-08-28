@@ -925,7 +925,7 @@
                 culture = adunaic
 				religion = faith_dairaben
             }
-			3913.1.1 = {
+			3911.1.1 = {
                	culture = wastelands
 				religion = faith_wastelands_pagan
 				holding = none
@@ -944,7 +944,7 @@
 				culture = adunaic
 				religion = faith_dairaben
 			}
-			3913.1.1 = {
+			3911.1.1 = {
 				culture = wastelands
 				religion = faith_wastelands_pagan
 				holding = none
