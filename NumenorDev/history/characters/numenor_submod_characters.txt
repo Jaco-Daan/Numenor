@@ -13253,7 +13253,7 @@ lineofrotthor2a2 = { # ...but these tales pass into the annals of Númenor the A
     mother = lineofrotthor2a1wife
 
     trait = blood_of_numenor_10
-    trait = born_on_numenor
+    
 
     3371.4.19 = {
         birth = yes
@@ -13275,7 +13275,7 @@ lineofrotthor2a3 = {
     father = lineofrotthor2a2
 
     trait = blood_of_numenor_9
-    trait = born_on_numenor
+    
 
     3451.9.11 = {
         birth = yes
@@ -13298,7 +13298,7 @@ lineofrotthor2a4 = {
     father = lineofrotthor2a3
 
     trait = blood_of_numenor_9
-    trait = born_on_numenor
+    
 
     3567.12.11 = {
         birth = yes
@@ -13320,7 +13320,7 @@ lineofrotthor2a5 = {
     mother = lineofrotthor2a4
 
     trait = blood_of_numenor_8
-    trait = born_on_numenor
+    
 
     3678.9.14 = {
         birth = yes
@@ -13342,7 +13342,7 @@ lineofrotthor2a6 = {
     father = lineofrotthor2a5
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     3780.6.14 = {
         birth = yes
@@ -13364,7 +13364,7 @@ lineofrotthor2a7 = {
     father = lineofrotthor2a6
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     3891.5.17 = {
         birth = yes
@@ -13392,7 +13392,7 @@ lineofrotthor2a8 = {
     father = lineofrotthor2a7
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     3915.6.14 = {
         birth = yes
@@ -13414,7 +13414,7 @@ lineofrotthor2a9 = {
     father = lineofrotthor2a8
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     4006.1.1 = {
         birth = yes
@@ -13436,7 +13436,7 @@ lineofrotthor2a10 = {
     father = lineofrotthor2a9
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     4101.1.1 = {
         birth = yes
@@ -13458,7 +13458,7 @@ lineofrotthor2a11 = {
     father = lineofrotthor2a10
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     4203.1.1 = {
         birth = yes
@@ -13481,7 +13481,7 @@ lineofrotthor2a12 = {
     father = lineofrotthor2a11
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     4312.1.1 = {
         birth = yes
@@ -13503,7 +13503,7 @@ lineofrotthor2a13 = {
     mother = lineofrotthor2a12
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 	trait = chaste
 
     4426.1.1 = {
@@ -13526,7 +13526,7 @@ lineofrotthor2a14 = {
     father = lineofrotthor2a13
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     4601.1.1 = {
         birth = yes
@@ -13548,7 +13548,7 @@ lineofrotthor2a15 = {
     father = lineofrotthor2a14
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     4781.1.1 = {
         birth = yes
@@ -13571,7 +13571,7 @@ lineofrotthor2a16 = {
     father = lineofrotthor2a15
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     4950.1.1 = {
         birth = yes
@@ -13593,7 +13593,7 @@ lineofrotthor2a17 = {
     mother = lineofrotthor2a16
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     5060.1.1 = {
         birth = yes
@@ -13615,7 +13615,7 @@ lineofrotthor2a18 = {
     father = lineofrotthor2a17
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     5171.1.1 = {
         birth = yes
@@ -13637,7 +13637,7 @@ lineofrotthor2a19 = {
     father = lineofrotthor2a18
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     5262.1.1 = {
         birth = yes
@@ -13659,7 +13659,7 @@ lineofrotthor2a20 = {
     father = lineofrotthor2a19
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     5349.1.1 = {
         birth = yes
@@ -13681,7 +13681,7 @@ lineofrotthor2a21 = {
     father = lineofrotthor2a20
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     5500.1.1 = {
         birth = yes
@@ -13703,7 +13703,7 @@ lineofrotthor2a22 = {
     father = lineofrotthor2a21
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     5711.1.1 = {
         birth = yes
@@ -13725,7 +13725,7 @@ lineofrotthor2a23 = {
     father = lineofrotthor2a22
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     5870.1.1 = {
         birth = yes
@@ -13747,7 +13747,7 @@ lineofrotthor2a24 = {
     father = lineofrotthor2a23
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     5950.1.1 = {
         birth = yes
@@ -13769,7 +13769,7 @@ lineofrotthor2a25 = {
     father = lineofrotthor2a24
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     6100.1.1 = {
         birth = yes
@@ -13791,7 +13791,7 @@ lineofrotthor2a26 = {
     father = lineofrotthor2a25
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     6291.1.1 = {
         birth = yes
@@ -13813,7 +13813,7 @@ lineofrotthor2a27 = {
     father = lineofrotthor2a26
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     6451.1.1 = {
         birth = yes
@@ -13835,7 +13835,7 @@ lineofrotthor2a28 = {
     father = lineofrotthor2a27
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     6541.1.1 = {
         birth = yes
@@ -13858,7 +13858,7 @@ lineofrotthor2a29 = {
     father = lineofrotthor2a28
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 	trait = intellect_good_2
 	trait = compassionate
 	trait = brave
@@ -13885,7 +13885,7 @@ lineofrotthor2a30 = {
     mother = lineofrotthor2a29
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     6747.1.1 = {
         birth = yes
@@ -13907,7 +13907,7 @@ lineofrotthor2a31 = {
     father = lineofrotthor2a30
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     6810.1.1 = {
         birth = yes
@@ -13936,7 +13936,7 @@ lineofrotthor2a32 = {
 	mother = lineoftelemnacil59a1
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 	trait = intellect_good_1
 	trait = just
 	trait = compassionate
@@ -13969,7 +13969,7 @@ lineofrotthor2a33 = {
 	father = lineofagathor_ns36a1
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 	trait = intellect_good_1
 	trait = diligent
 	trait = ambitious
@@ -13996,7 +13996,7 @@ lineofrotthor2a32a1 = {
 	father = lineofagathor_ns36a1
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 	trait = intellect_good_1
 	trait = lazy
 	trait = gregarious
@@ -14024,7 +14024,7 @@ lineofrotthor2a32b1 = {
 	father = lineofagathor_ns36a1
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 	trait = intellect_good_1
 	trait = impatient
 	trait = deceitful
@@ -14053,7 +14053,7 @@ lineofrotthor2a31a1 = {
 	mother = lineoftelemnacil59a1
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 	trait = intellect_good_1
 	trait = compassionate
 	trait = brave
@@ -14081,7 +14081,7 @@ lineofrotthor2a30a1 = {
     father = lineofrotthor2a30
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     6816.2.11 = {
         birth = yes
@@ -14108,7 +14108,7 @@ lineofrotthor2a30a2 = {
 	mother = lineborodirsubmod42a1
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     6935.12.11 = {
         birth = yes
@@ -14137,7 +14137,7 @@ lineofrotthor2a30a3 = {
 	mother = lineborodirsubmod28a1
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
 	7005.2.14 = {
 		birth = yes
@@ -14160,7 +14160,7 @@ lineofrotthor2a30a2a1 = {
 	mother = lineborodirsubmod28a1
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
 	7010.3.18 = {
 		birth = yes
@@ -14185,7 +14185,7 @@ lineofrotthor2a30a1a1 = {
 	sexuality = homosexual
 
     trait = blood_of_numenor_7
-    trait = born_on_numenor
+    
 
     6941.6.16 = {
         birth = yes
