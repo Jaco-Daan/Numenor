@@ -1,554 +1,554 @@
 ﻿### Numenor Decisions ###
 
-decision_reclaim_umbar_numenor = {
-	decision_group_type = Numenor_major
-	title = decision_recover_umbar_numenor_title
-	picture = { reference = "gfx/interface/illustrations/decisions/umbarimage.dds" }
+# decision_reclaim_umbar_numenor = {
+# 	decision_group_type = Numenor_major
+# 	title = decision_recover_umbar_numenor_title
+# 	picture = { reference = "gfx/interface/illustrations/decisions/umbarimage.dds" }
 	
-	ai_goal = yes
-	ai_potential = {
-		always = yes
-	}
-	ai_will_do = {
-		base = 100
-	}
-	selection_tooltip = decision_reclaim_umbar_numenor_tooltip
-	desc = decision_reclaim_umbar_numenor_desc
-	confirm_text = decision_reclaim_umbar_numenor_confirm
+# 	ai_goal = yes
+# 	ai_potential = {
+# 		always = yes
+# 	}
+# 	ai_will_do = {
+# 		base = 100
+# 	}
+# 	selection_tooltip = decision_reclaim_umbar_numenor_tooltip
+# 	desc = decision_reclaim_umbar_numenor_desc
+# 	confirm_text = decision_reclaim_umbar_numenor_confirm
 	
-	is_shown = {
-		has_primary_title = title:e_numenor
-		is_landed = yes
-		NOT = {
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:reclaim_umbar_decision_numenor
-			}
-		}
-	}
-	is_valid = {
-		completely_controls = title:k_umbar
-		completely_controls = title:k_mardruak
-		prestige_level >= high_prestige_level
-	}
+# 	is_shown = {
+# 		has_primary_title = title:e_numenor
+# 		is_landed = yes
+# 		NOT = {
+# 			is_target_in_global_variable_list = {
+# 				name = unavailable_unique_decisions
+# 				target = flag:reclaim_umbar_decision_numenor
+# 			}
+# 		}
+# 	}
+# 	is_valid = {
+# 		completely_controls = title:k_umbar
+# 		completely_controls = title:k_mardruak
+# 		prestige_level >= high_prestige_level
+# 	}
 	
-	is_valid_showing_failures_only = {
-		is_imprisoned = no
-		is_available_adult = yes
-		is_at_war = no
-	}
+# 	is_valid_showing_failures_only = {
+# 		is_imprisoned = no
+# 		is_available_adult = yes
+# 		is_at_war = no
+# 	}
 	
-	effect = {
-		title:k_umbar = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_mardruak = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_umbar = {
-			change_development_level = 3
-		}
-		title:k_mardruak = {
-			change_development_level = 3
-		}
-		add_to_global_variable_list = {
-			name = unavailable_unique_decisions
-			target = flag:reclaim_umbar_decision_numenor
-		}
-		custom_tooltip = decision_reclaim_umbar_numenor_tooltip
+# 	effect = {
+# 		title:k_umbar = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_mardruak = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_umbar = {
+# 			change_development_level = 3
+# 		}
+# 		title:k_mardruak = {
+# 			change_development_level = 3
+# 		}
+# 		add_to_global_variable_list = {
+# 			name = unavailable_unique_decisions
+# 			target = flag:reclaim_umbar_decision_numenor
+# 		}
+# 		custom_tooltip = decision_reclaim_umbar_numenor_tooltip
 			
-		trigger_event = numenor.1000
-		save_scope_as = restorer
-		# Send event to other players
-		every_player = {
-			limit = {
-				NOT = { this = root }
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_daen_coentis
-						has_cultural_pillar = heritage_daen_lintis
-						has_cultural_pillar = heritage_northern_apysaic
-						has_cultural_pillar = heritage_dunedain
-						has_cultural_pillar = heritage_northern_adunaic
-						has_cultural_pillar = heritage_hadorim
-					}
-				}
-			}
-			trigger_event = numenor.1001
-		}
-	}
+# 		trigger_event = numenor.1000
+# 		save_scope_as = restorer
+# 		# Send event to other players
+# 		every_player = {
+# 			limit = {
+# 				NOT = { this = root }
+# 				culture = {
+# 					OR = {
+# 						has_cultural_pillar = heritage_daen_coentis
+# 						has_cultural_pillar = heritage_daen_lintis
+# 						has_cultural_pillar = heritage_northern_apysaic
+# 						has_cultural_pillar = heritage_dunedain
+# 						has_cultural_pillar = heritage_northern_adunaic
+# 						has_cultural_pillar = heritage_hadorim
+# 					}
+# 				}
+# 			}
+# 			trigger_event = numenor.1001
+# 		}
+# 	}
 	
-	ai_will_do = {
-		base = 100
-	}
-}
+# 	ai_will_do = {
+# 		base = 100
+# 	}
+# }
 
-decision_reclaim_bellakar_numenor = {
-	decision_group_type = Numenor_major
-	title = decision_reclaim_bellakar_numenor
-	picture = { reference = "gfx/interface/illustrations/decisions/bellakar.dds" }
+# decision_reclaim_bellakar_numenor = {
+# 	decision_group_type = Numenor_major
+# 	title = decision_reclaim_bellakar_numenor
+# 	picture = { reference = "gfx/interface/illustrations/decisions/bellakar.dds" }
 	
-	ai_goal = yes
-	ai_potential = {
-		always = yes
-	}
-	ai_will_do = {
-		base = 100
-	}
-	selection_tooltip = decision_reclaim_bellakar_numenor_tooltip
-	desc = decision_reclaim_bellakar_numenor_desc
-	confirm_text = decision_reclaim_bellakar_numenor_confirm
+# 	ai_goal = yes
+# 	ai_potential = {
+# 		always = yes
+# 	}
+# 	ai_will_do = {
+# 		base = 100
+# 	}
+# 	selection_tooltip = decision_reclaim_bellakar_numenor_tooltip
+# 	desc = decision_reclaim_bellakar_numenor_desc
+# 	confirm_text = decision_reclaim_bellakar_numenor_confirm
 	
-	is_shown = {
-		has_primary_title = title:e_numenor
-		is_landed = yes
-		NOT = {
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:decision_reclaim_bellakar_numenor
-			}
-		}
-	}
+# 	is_shown = {
+# 		has_primary_title = title:e_numenor
+# 		is_landed = yes
+# 		NOT = {
+# 			is_target_in_global_variable_list = {
+# 				name = unavailable_unique_decisions
+# 				target = flag:decision_reclaim_bellakar_numenor
+# 			}
+# 		}
+# 	}
 
-	is_valid = {
-		AND = {
-			completely_controls = title:k_felaya
-			completely_controls = title:k_nilulonde
-			completely_controls = title:k_bellazen
-		}
-		prestige_level >= high_prestige_level
-	}
+# 	is_valid = {
+# 		AND = {
+# 			completely_controls = title:k_felaya
+# 			completely_controls = title:k_nilulonde
+# 			completely_controls = title:k_bellazen
+# 		}
+# 		prestige_level >= high_prestige_level
+# 	}
 	
-	is_valid_showing_failures_only = {
-		is_imprisoned = no
-		is_available_adult = yes
-		is_at_war = no
-	}
+# 	is_valid_showing_failures_only = {
+# 		is_imprisoned = no
+# 		is_available_adult = yes
+# 		is_at_war = no
+# 	}
 	
-	effect = {
-		title:k_bellazen = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_nilulonde = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_felaya = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_felaya = {
-			change_development_level = 1
-		}
-		title:k_bellazen = {
-			change_development_level = 1
-		}
-		title:k_nilulonde = {
-			change_development_level = 1
-		}
-		add_to_global_variable_list = {
-			name = unavailable_unique_decisions
-		target = flag:decision_reclaim_bellakar_numenor
-		}
-		custom_tooltip = decision_reclaim_bellakar_numenor_tooltip
+# 	effect = {
+# 		title:k_bellazen = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_nilulonde = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_felaya = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_felaya = {
+# 			change_development_level = 1
+# 		}
+# 		title:k_bellazen = {
+# 			change_development_level = 1
+# 		}
+# 		title:k_nilulonde = {
+# 			change_development_level = 1
+# 		}
+# 		add_to_global_variable_list = {
+# 			name = unavailable_unique_decisions
+# 		target = flag:decision_reclaim_bellakar_numenor
+# 		}
+# 		custom_tooltip = decision_reclaim_bellakar_numenor_tooltip
 			
-		trigger_event = numenor.1002
-		save_scope_as = restorer
-		# Send event to other players
-		every_player = {
-			limit = {
-				NOT = { this = root }
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_daen_coentis
-						has_cultural_pillar = heritage_daen_lintis
-						has_cultural_pillar = heritage_northern_apysaic
-						has_cultural_pillar = heritage_dunedain
-						has_cultural_pillar = heritage_northern_adunaic
-						has_cultural_pillar = heritage_hadorim
-					}
-				}
-			}
-			trigger_event = numenor.1003
-		}
-	}
+# 		trigger_event = numenor.1002
+# 		save_scope_as = restorer
+# 		# Send event to other players
+# 		every_player = {
+# 			limit = {
+# 				NOT = { this = root }
+# 				culture = {
+# 					OR = {
+# 						has_cultural_pillar = heritage_daen_coentis
+# 						has_cultural_pillar = heritage_daen_lintis
+# 						has_cultural_pillar = heritage_northern_apysaic
+# 						has_cultural_pillar = heritage_dunedain
+# 						has_cultural_pillar = heritage_northern_adunaic
+# 						has_cultural_pillar = heritage_hadorim
+# 					}
+# 				}
+# 			}
+# 			trigger_event = numenor.1003
+# 		}
+# 	}
 	
-	ai_will_do = {
-		base = 100
-	}
-}
+# 	ai_will_do = {
+# 		base = 100
+# 	}
+# }
 
-decision_reclaim_thani_hazad_numenor = {
-	decision_group_type = Numenor_major
-	title = decision_reclaim_thani_hazad_numenor
-	picture = { reference = "gfx/interface/illustrations/decisions/thanihazadimage.dds" }
+# decision_reclaim_thani_hazad_numenor = {
+# 	decision_group_type = Numenor_major
+# 	title = decision_reclaim_thani_hazad_numenor
+# 	picture = { reference = "gfx/interface/illustrations/decisions/thanihazadimage.dds" }
 	
-	ai_goal = yes
-	ai_potential = {
-		always = yes
-	}
-	ai_will_do = {
-		base = 100
-	}
-	selection_tooltip = decision_reclaim_thani_hazad_numenor_tooltip
-	desc = decision_reclaim_thani_hazad_numenor_desc
-	confirm_text = decision_reclaim_thani_hazad_numenor_confirm
+# 	ai_goal = yes
+# 	ai_potential = {
+# 		always = yes
+# 	}
+# 	ai_will_do = {
+# 		base = 100
+# 	}
+# 	selection_tooltip = decision_reclaim_thani_hazad_numenor_tooltip
+# 	desc = decision_reclaim_thani_hazad_numenor_desc
+# 	confirm_text = decision_reclaim_thani_hazad_numenor_confirm
 	
-	is_shown = {
-		has_primary_title = title:e_numenor
-		is_landed = yes
-		NOT = {
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:decision_reclaim_thani_hazad_numenor
-				}
-			}
-		}
-	is_valid = {
-		AND = {
-			completely_controls = title:k_an_balkumagan
-			completely_controls = title:k_tulwang
-			completely_controls = title:k_zimrathani
-			completely_controls = title:k_drel
-			completely_controls = title:k_pel
-			completely_controls = title:k_gimilthani
-			completely_controls = title:k_kharadune
-		}
-		prestige_level >= high_prestige_level
-	}
+# 	is_shown = {
+# 		has_primary_title = title:e_numenor
+# 		is_landed = yes
+# 		NOT = {
+# 			is_target_in_global_variable_list = {
+# 				name = unavailable_unique_decisions
+# 				target = flag:decision_reclaim_thani_hazad_numenor
+# 				}
+# 			}
+# 		}
+# 	is_valid = {
+# 		AND = {
+# 			completely_controls = title:k_an_balkumagan
+# 			completely_controls = title:k_tulwang
+# 			completely_controls = title:k_zimrathani
+# 			completely_controls = title:k_drel
+# 			completely_controls = title:k_pel
+# 			completely_controls = title:k_gimilthani
+# 			completely_controls = title:k_kharadune
+# 		}
+# 		prestige_level >= high_prestige_level
+# 	}
 	
-	is_valid_showing_failures_only = {
-		is_imprisoned = no
-		is_available_adult = yes
-		is_at_war = no
-	}
+# 	is_valid_showing_failures_only = {
+# 		is_imprisoned = no
+# 		is_available_adult = yes
+# 		is_at_war = no
+# 	}
 	
-	effect = {
-		title:k_an_balkumagan = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_tulwang = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_zimrathani = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_drel = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_pel = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_gimilthani = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_kharadune = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_an_balkumagan = {
-			change_development_level = 3
-		}
-		title:k_tulwang = {
-			change_development_level = 3
-		}
-		title:k_zimrathani = {
-			change_development_level = 3
-		}
-		title:k_drel = {
-			change_development_level = 3
-		}
-		title:k_pel = {
-			change_development_level = 3
-		}
-		title:k_gimilthani = {
-			change_development_level = 3
-		}
-		title:k_kharadune = {
-			change_development_level = 3
-		}
-		add_to_global_variable_list = {
-			name = unavailable_unique_decisions
-		target = flag:decision_reclaim_thani_hazad_numenor
-		}
-		custom_tooltip = decision_reclaim_thani_hazad_numenor
+# 	effect = {
+# 		title:k_an_balkumagan = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_tulwang = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_zimrathani = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_drel = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_pel = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_gimilthani = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_kharadune = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_an_balkumagan = {
+# 			change_development_level = 3
+# 		}
+# 		title:k_tulwang = {
+# 			change_development_level = 3
+# 		}
+# 		title:k_zimrathani = {
+# 			change_development_level = 3
+# 		}
+# 		title:k_drel = {
+# 			change_development_level = 3
+# 		}
+# 		title:k_pel = {
+# 			change_development_level = 3
+# 		}
+# 		title:k_gimilthani = {
+# 			change_development_level = 3
+# 		}
+# 		title:k_kharadune = {
+# 			change_development_level = 3
+# 		}
+# 		add_to_global_variable_list = {
+# 			name = unavailable_unique_decisions
+# 		target = flag:decision_reclaim_thani_hazad_numenor
+# 		}
+# 		custom_tooltip = decision_reclaim_thani_hazad_numenor
 			
-		trigger_event = numenor.1004
-		save_scope_as = restorer
-		# Send event to other players
-		every_player = {
-			limit = {
-				NOT = { this = root }
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_daen_coentis
-						has_cultural_pillar = heritage_daen_lintis
-						has_cultural_pillar = heritage_northern_apysaic
-						has_cultural_pillar = heritage_dunedain
-						has_cultural_pillar = heritage_northern_adunaic
-						has_cultural_pillar = heritage_hadorim
-					}
-				}
-			}
-			trigger_event = numenor.1005
-		}
-	}
+# 		trigger_event = numenor.1004
+# 		save_scope_as = restorer
+# 		# Send event to other players
+# 		every_player = {
+# 			limit = {
+# 				NOT = { this = root }
+# 				culture = {
+# 					OR = {
+# 						has_cultural_pillar = heritage_daen_coentis
+# 						has_cultural_pillar = heritage_daen_lintis
+# 						has_cultural_pillar = heritage_northern_apysaic
+# 						has_cultural_pillar = heritage_dunedain
+# 						has_cultural_pillar = heritage_northern_adunaic
+# 						has_cultural_pillar = heritage_hadorim
+# 					}
+# 				}
+# 			}
+# 			trigger_event = numenor.1005
+# 		}
+# 	}
 	
-	ai_will_do = {
-		base = 100
-	}
-}
+# 	ai_will_do = {
+# 		base = 100
+# 	}
+# }
 
-decision_reclaim_gondor_numenor = {
-	decision_group_type = Numenor_major
-	title = decision_reclaim_gondor_numenor
-	picture = { reference = "gfx/interface/illustrations/decisions/gondor.dds" }
+# decision_reclaim_gondor_numenor = {
+# 	decision_group_type = Numenor_major
+# 	title = decision_reclaim_gondor_numenor
+# 	picture = { reference = "gfx/interface/illustrations/decisions/gondor.dds" }
 	
-	ai_goal = yes
-	ai_potential = {
-		always = yes
-	}
-	ai_will_do = {
-		base = 100
-	}
-	selection_tooltip = decision_reclaim_gondor_numenor_tooltip
-	desc = decision_reclaim_gondor_numenor_desc
-	confirm_text = decision_reclaim_gondor_numenor_confirm
+# 	ai_goal = yes
+# 	ai_potential = {
+# 		always = yes
+# 	}
+# 	ai_will_do = {
+# 		base = 100
+# 	}
+# 	selection_tooltip = decision_reclaim_gondor_numenor_tooltip
+# 	desc = decision_reclaim_gondor_numenor_desc
+# 	confirm_text = decision_reclaim_gondor_numenor_confirm
 	
-	is_shown = {
-		has_primary_title = title:e_numenor
-		is_landed = yes
-		NOT = {
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:decision_reclaim_gondor_numenor
-			}
-		}
-	}
-	is_valid = {
-		AND = {
-			completely_controls = title:k_belfalas
-			completely_controls = title:k_anorien
-			completely_controls = title:k_ithilien
-			completely_controls = title:k_lamedon
-			completely_controls = title:k_anfalas
-			completely_controls = title:k_pinnath_gelin
-			completely_controls = title:k_belfalas
-			completely_controls = title:k_lebennin
-			completely_controls = title:k_isengard
-		}
-		prestige_level >= high_prestige_level
-	}
+# 	is_shown = {
+# 		has_primary_title = title:e_numenor
+# 		is_landed = yes
+# 		NOT = {
+# 			is_target_in_global_variable_list = {
+# 				name = unavailable_unique_decisions
+# 				target = flag:decision_reclaim_gondor_numenor
+# 			}
+# 		}
+# 	}
+# 	is_valid = {
+# 		AND = {
+# 			completely_controls = title:k_belfalas
+# 			completely_controls = title:k_anorien
+# 			completely_controls = title:k_ithilien
+# 			completely_controls = title:k_lamedon
+# 			completely_controls = title:k_anfalas
+# 			completely_controls = title:k_pinnath_gelin
+# 			completely_controls = title:k_belfalas
+# 			completely_controls = title:k_lebennin
+# 			completely_controls = title:k_isengard
+# 		}
+# 		prestige_level >= high_prestige_level
+# 	}
 	
-	is_valid_showing_failures_only = {
-		is_imprisoned = no
-		is_available_adult = yes
-		is_at_war = no
-	}
+# 	is_valid_showing_failures_only = {
+# 		is_imprisoned = no
+# 		is_available_adult = yes
+# 		is_at_war = no
+# 	}
 	
-	effect = {
-		title:k_belfalas = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_belfalas = {
-			change_development_level = 1
-		}
-		title:k_anfalas = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_anfalas = {
-			change_development_level = 1
-		}
-		title:k_anorien = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_anorien = {
-			change_development_level = 1
-		}
-		title:k_ithilien = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_ithilien = {
-			change_development_level = 1
-		}
-		title:k_lamedon = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_lamedon = {
-			change_development_level = 1
-		}
-		title:k_pinnath_gelin = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_pinnath_gelin = {
-			change_development_level = 1
-		}
-		title:k_lebennin = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_lebennin = {
-			change_development_level = 1
-		}
-		title:k_isengard = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_isengard = {
-			change_development_level = 1
-		}
-		title:k_andrast = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_andrast = {
-			change_development_level = 1
-		}
-		add_to_global_variable_list = {
-			name = unavailable_unique_decisions
-		target = flag:decision_reclaim_gondor_numenor
-		}
-		custom_tooltip = decision_reclaim_gondor_numenor
+# 	effect = {
+# 		title:k_belfalas = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_belfalas = {
+# 			change_development_level = 1
+# 		}
+# 		title:k_anfalas = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_anfalas = {
+# 			change_development_level = 1
+# 		}
+# 		title:k_anorien = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_anorien = {
+# 			change_development_level = 1
+# 		}
+# 		title:k_ithilien = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_ithilien = {
+# 			change_development_level = 1
+# 		}
+# 		title:k_lamedon = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_lamedon = {
+# 			change_development_level = 1
+# 		}
+# 		title:k_pinnath_gelin = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_pinnath_gelin = {
+# 			change_development_level = 1
+# 		}
+# 		title:k_lebennin = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_lebennin = {
+# 			change_development_level = 1
+# 		}
+# 		title:k_isengard = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_isengard = {
+# 			change_development_level = 1
+# 		}
+# 		title:k_andrast = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_andrast = {
+# 			change_development_level = 1
+# 		}
+# 		add_to_global_variable_list = {
+# 			name = unavailable_unique_decisions
+# 		target = flag:decision_reclaim_gondor_numenor
+# 		}
+# 		custom_tooltip = decision_reclaim_gondor_numenor
 			
-		trigger_event = numenor.1006
-		save_scope_as = restorer
-		# Send event to other players
-		every_player = {
-			limit = {
-				NOT = { this = root }
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_daen_coentis
-						has_cultural_pillar = heritage_daen_lintis
-						has_cultural_pillar = heritage_northern_apysaic
-						has_cultural_pillar = heritage_dunedain
-						has_cultural_pillar = heritage_northern_adunaic
-						has_cultural_pillar = heritage_hadorim
-					}
-				}
-			}
-			trigger_event = numenor.1007
-		}
-	}
+# 		trigger_event = numenor.1006
+# 		save_scope_as = restorer
+# 		# Send event to other players
+# 		every_player = {
+# 			limit = {
+# 				NOT = { this = root }
+# 				culture = {
+# 					OR = {
+# 						has_cultural_pillar = heritage_daen_coentis
+# 						has_cultural_pillar = heritage_daen_lintis
+# 						has_cultural_pillar = heritage_northern_apysaic
+# 						has_cultural_pillar = heritage_dunedain
+# 						has_cultural_pillar = heritage_northern_adunaic
+# 						has_cultural_pillar = heritage_hadorim
+# 					}
+# 				}
+# 			}
+# 			trigger_event = numenor.1007
+# 		}
+# 	}
 	
-	ai_will_do = {
-		base = 100
-	}
-}
+# 	ai_will_do = {
+# 		base = 100
+# 	}
+# }
 
-decision_reclaim_harnen_numenor = {
-	decision_group_type = Numenor_major
-	title = decision_reclaim_harnen_numenor
-	picture = { reference = "gfx/interface/illustrations/decisions/decision_near_harad_01.dds" }
+# decision_reclaim_harnen_numenor = {
+# 	decision_group_type = Numenor_major
+# 	title = decision_reclaim_harnen_numenor
+# 	picture = { reference = "gfx/interface/illustrations/decisions/decision_near_harad_01.dds" }
 	
-	ai_goal = yes
-	ai_potential = {
-		always = yes
-	}
-	ai_will_do = {
-		base = 100
-	}
-	selection_tooltip = decision_reclaim_harnen_numenor_tooltip
-	desc = decision_reclaim_harnen_numenor_desc
-	confirm_text = decision_reclaim_harnen_numenor_confirm
+# 	ai_goal = yes
+# 	ai_potential = {
+# 		always = yes
+# 	}
+# 	ai_will_do = {
+# 		base = 100
+# 	}
+# 	selection_tooltip = decision_reclaim_harnen_numenor_tooltip
+# 	desc = decision_reclaim_harnen_numenor_desc
+# 	confirm_text = decision_reclaim_harnen_numenor_confirm
 	
-	is_shown = {
-		has_primary_title = title:e_numenor
-		is_landed = yes
-		NOT = {
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:decision_reclaim_harnen_numenor
-				}
-			}
-		}
-	is_valid = {
-		AND = {
-			completely_controls = title:k_harondor
-			completely_controls = title:d_harfalas
-			completely_controls = title:d_rhuntir
-			completely_controls = title:d_doriant
-			completely_controls = title:d_hingren
-			completely_controls = title:d_forethir
-			completely_controls = title:d_ramlond
-			completely_controls = title:d_harnendor
-		}
-		prestige_level >= high_prestige_level
-	}
+# 	is_shown = {
+# 		has_primary_title = title:e_numenor
+# 		is_landed = yes
+# 		NOT = {
+# 			is_target_in_global_variable_list = {
+# 				name = unavailable_unique_decisions
+# 				target = flag:decision_reclaim_harnen_numenor
+# 				}
+# 			}
+# 		}
+# 	is_valid = {
+# 		AND = {
+# 			completely_controls = title:k_harondor
+# 			completely_controls = title:d_harfalas
+# 			completely_controls = title:d_rhuntir
+# 			completely_controls = title:d_doriant
+# 			completely_controls = title:d_hingren
+# 			completely_controls = title:d_forethir
+# 			completely_controls = title:d_ramlond
+# 			completely_controls = title:d_harnendor
+# 		}
+# 		prestige_level >= high_prestige_level
+# 	}
 	
-	is_valid_showing_failures_only = {
-		is_imprisoned = no
-		is_available_adult = yes
-		is_at_war = no
-	}
+# 	is_valid_showing_failures_only = {
+# 		is_imprisoned = no
+# 		is_available_adult = yes
+# 		is_at_war = no
+# 	}
 	
-	effect = {
-		title:d_rhuntir = {
-			set_de_jure_liege_title = title:k_harondor
-		}
-		title:d_doriant = {
-			set_de_jure_liege_title = title:k_mirlond
-		}
-		title:d_hingren = {
-			set_de_jure_liege_title = title:k_mirlond
-		}
-		title:d_forethir = {
-			set_de_jure_liege_title = title:k_mirlond
-		}
-		title:d_ramlond = {
-			set_de_jure_liege_title = title:k_mirlond
-		}
-		title:d_harnendor = {
-			set_de_jure_liege_title = title:k_mirlond
-		}
-		title:d_harfalas = {
-			set_de_jure_liege_title = title:k_mirlond
-		}
-		title:k_harondor = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_harondor = {
-			change_development_level = 1
-		}
-		title:k_mirlond = {
-			set_de_jure_liege_title = root.primary_title
-		}
-		title:k_mirlond = {
-			change_development_level = 1
-		}
-		add_to_global_variable_list = {
-			name = unavailable_unique_decisions
-			target = flag:decision_reclaim_harnen_numenor
-		}
-		add_to_global_variable_list = {
-			name = unavailable_unique_decisions
-			target = flag:harnen_kingdom_decision
-		}
-		add_to_global_variable_list = {
-			name = unavailable_unique_decisions
-			target = flag:colonial_harnen_decision
-		}
-		custom_tooltip = decision_reclaim_harnen_numenor_tooltip
+# 	effect = {
+# 		title:d_rhuntir = {
+# 			set_de_jure_liege_title = title:k_harondor
+# 		}
+# 		title:d_doriant = {
+# 			set_de_jure_liege_title = title:k_mirlond
+# 		}
+# 		title:d_hingren = {
+# 			set_de_jure_liege_title = title:k_mirlond
+# 		}
+# 		title:d_forethir = {
+# 			set_de_jure_liege_title = title:k_mirlond
+# 		}
+# 		title:d_ramlond = {
+# 			set_de_jure_liege_title = title:k_mirlond
+# 		}
+# 		title:d_harnendor = {
+# 			set_de_jure_liege_title = title:k_mirlond
+# 		}
+# 		title:d_harfalas = {
+# 			set_de_jure_liege_title = title:k_mirlond
+# 		}
+# 		title:k_harondor = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_harondor = {
+# 			change_development_level = 1
+# 		}
+# 		title:k_mirlond = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_mirlond = {
+# 			change_development_level = 1
+# 		}
+# 		add_to_global_variable_list = {
+# 			name = unavailable_unique_decisions
+# 			target = flag:decision_reclaim_harnen_numenor
+# 		}
+# 		add_to_global_variable_list = {
+# 			name = unavailable_unique_decisions
+# 			target = flag:harnen_kingdom_decision
+# 		}
+# 		add_to_global_variable_list = {
+# 			name = unavailable_unique_decisions
+# 			target = flag:colonial_harnen_decision
+# 		}
+# 		custom_tooltip = decision_reclaim_harnen_numenor_tooltip
 			
-		trigger_event = numenor.1008
-		save_scope_as = restorer
-		# Send event to other players
-		every_player = {
-			limit = {
-				NOT = { this = root }
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_daen_coentis
-						has_cultural_pillar = heritage_daen_lintis
-						has_cultural_pillar = heritage_northern_apysaic
-						has_cultural_pillar = heritage_dunedain
-						has_cultural_pillar = heritage_northern_adunaic
-						has_cultural_pillar = heritage_hadorim
-					}
-				}
-			}
-			trigger_event = numenor.1009
-		}
-	}
+# 		trigger_event = numenor.1008
+# 		save_scope_as = restorer
+# 		# Send event to other players
+# 		every_player = {
+# 			limit = {
+# 				NOT = { this = root }
+# 				culture = {
+# 					OR = {
+# 						has_cultural_pillar = heritage_daen_coentis
+# 						has_cultural_pillar = heritage_daen_lintis
+# 						has_cultural_pillar = heritage_northern_apysaic
+# 						has_cultural_pillar = heritage_dunedain
+# 						has_cultural_pillar = heritage_northern_adunaic
+# 						has_cultural_pillar = heritage_hadorim
+# 					}
+# 				}
+# 			}
+# 			trigger_event = numenor.1009
+# 		}
+# 	}
 	
-	ai_will_do = {
-		base = 100
-	}
-}
+# 	ai_will_do = {
+# 		base = 100
+# 	}
+# }
 
 decision_expedition_anarike = {
 	decision_group_type = Numenor_major
@@ -1181,6 +1181,526 @@ decision_numenor_disband_council_of_sceptre = {
 	}
 	ai_will_do = {
 		base = 100
+	}
+}
+
+## Dejure Province Restoration ##
+decision_restore_numenor_province = {
+	sort_order = 90
+	title = decision_restore_gondor_province.numenorean #Works for this decision
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_minas_tirith_02.dds"
+	}
+
+	decision_group_type = realms_in_exile_major
+	
+	selection_tooltip = decision_restore_gondor_province_tooltip #Works for this decision
+	desc = decision_restore_numenor_province_desc
+	confirm_text = decision_restore_gondor_province_confirm #Works for this decision
+	
+	is_shown = {
+		is_landed = yes
+		highest_held_title_tier = tier_empire
+		has_title = title:e_numenor #Submod Numenor
+		OR = { # Ensures at least one option is still available
+			show_harondor_trigger = yes
+			show_harnendor_trigger = yes
+			show_andrast_trigger = yes
+			show_umbar_trigger = yes
+			show_calenardhon_trigger = yes
+			show_dor_rhunen_trigger = yes
+			show_enedhwaith_trigger = yes
+			show_eregion_trigger = yes
+		}
+	}
+	
+	is_valid = {
+		lotr_has_numenorean_culture_trigger = yes
+		prestige_level >= high_prestige_level
+		OR = {
+			trigger_if = { # Umbar
+				limit = { show_numenorean_umbar_trigger = yes }
+				completely_controls_numenorean_province_umbar = yes
+			}
+			trigger_if = { # Bellakar
+				limit = { show_numenorean_bellakar_trigger = yes }
+				completely_controls_numenorean_province_bellakar = yes
+			}
+			trigger_if = { # Thani-Hazad
+				limit = { show_numenorean_thani_hazad_trigger = yes }
+				completely_controls_numenorean_province_thani_hazad = yes
+			}
+			trigger_if = { # Gondor
+				limit = { show_numenorean_gondor_trigger = yes }
+				completely_controls_numenorean_province_gondor = yes
+			}
+			trigger_if = { # Harnen
+				limit = { show_numenorean_harnen_trigger = yes }
+				completely_controls_numenorean_province_harnen = yes
+			}
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+	
+	widget = {
+		gui = "decision_view_widget_option_list_generic"
+		controller = decision_option_list_controller
+		decision_to_second_step_button = "decision_restore_gondor_province.second_step"
+		
+		item = {	# Fallback - Displayed if no others available
+			value = reintegrate_province_fallback
+			localization = decision_restore_gondor_province.tt.fallback
+			icon = "gfx/interface/icons/message_feed/conciliation.dds"
+			is_shown = { always = no }
+			is_valid = { always = no }
+			ai_chance = {
+				value = 100
+			}
+		}
+		
+		item = {	# Umbar
+			value = reclaim_numenor_umbar
+			current_description = decision_restore_numenor_province.tt.empty_desc
+			localization = decision_restore_gondor_province.tt.harondor
+			icon = "gfx/interface/icons/message_feed/conciliation.dds"
+			is_shown = { show_numenorean_umbar_trigger = yes }
+			is_valid = { completely_controls_numenorean_province_umbar = yes }
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {	# Bellakar
+			value = reclaim_numenor_bellakar
+			current_description = decision_restore_numenor_province.tt.empty_desc
+			localization = decision_restore_gondor_province.tt.harondor
+			icon = "gfx/interface/icons/message_feed/conciliation.dds"
+			is_shown = { show_numenorean_bellakar_trigger = yes }
+			is_valid = { completely_controls_numenorean_province_bellakar = yes }
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {	# Thani-Hazad
+			value = reclaim_numenor_thani_hazad
+			current_description = decision_restore_numenor_province.tt.empty_desc
+			localization = decision_restore_gondor_province.tt.harondor
+			icon = "gfx/interface/icons/message_feed/conciliation.dds"
+			is_shown = { show_numenorean_thani_hazad_trigger = yes }
+			is_valid = { completely_controls_numenorean_province_thani_hazad = yes }
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {	# Gondor
+			value = reclaim_numenor_gondor
+			current_description = decision_restore_numenor_province.tt.empty_desc
+			localization = decision_restore_gondor_province.tt.harondor
+			icon = "gfx/interface/icons/message_feed/conciliation.dds"
+			is_shown = { show_numenorean_gondor_trigger = yes }
+			is_valid = { completely_controls_numenorean_province_gondor = yes }
+			ai_chance = {
+				value = 100
+			}
+		}
+		item = {	# Harnen
+			value = reclaim_numenor_harnen
+			current_description = decision_restore_numenor_province.tt.empty_desc
+			localization = decision_restore_gondor_province.tt.harondor
+			icon = "gfx/interface/icons/message_feed/conciliation.dds"
+			is_shown = { show_numenorean_harnen_trigger = yes }
+			is_valid = { completely_controls_numenorean_province_harnen = yes }
+			ai_chance = {
+				value = 100
+			}
+		}
+	}
+	
+	effect = {
+		play_music_cue = lotr_cue_gondor
+		if = {		# Fallback - Displays as effect if no others available
+			limit = {
+				scope:reintegrate_province_fallback = yes
+			}
+			custom_tooltip = restore_province_fallback_effect.tt
+		}
+		else_if = {		# Umbar
+			limit = { scope:reclaim_numenor_umbar = yes }
+			custom_tooltip = restore_numenorean_umbar_decision
+			save_scope_as = new_ruler
+			title:k_umbar = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_mardruak = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_umbar = {
+				change_development_level = 3
+			}
+			title:k_mardruak = {
+				change_development_level = 3
+			}
+
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:reclaim_numenorean_umbar_decision
+			}
+			trigger_event = numenor.1000
+			save_scope_as = restorer
+			# Send event to other players
+			every_player = {
+				limit = {
+					NOT = { this = root }
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_daen_coentis
+							has_cultural_pillar = heritage_daen_lintis
+							has_cultural_pillar = heritage_northern_apysaic
+							has_cultural_pillar = heritage_dunedain
+							has_cultural_pillar = heritage_northern_adunaic
+							has_cultural_pillar = heritage_hadorim
+						}
+					}
+				}
+				trigger_event = numenor.1001
+			}
+		}
+		else_if = {		# Bellakar
+			limit = { scope:reclaim_numenor_bellakar = yes }
+			custom_tooltip = restore_numenorean_bellakar_decision
+			root = { save_scope_as = new_ruler }
+			title:k_bellazen = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_nilulonde = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_felaya = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_felaya = {
+				change_development_level = 1
+			}
+			title:k_bellazen = {
+				change_development_level = 1
+			}
+			title:k_nilulonde = {
+				change_development_level = 1
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:reclaim_numenorean_bellakar_decision
+			}
+				
+			trigger_event = numenor.1002
+			save_scope_as = restorer
+			# Send event to other players
+			every_player = {
+				limit = {
+					NOT = { this = root }
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_daen_coentis
+							has_cultural_pillar = heritage_daen_lintis
+							has_cultural_pillar = heritage_northern_apysaic
+							has_cultural_pillar = heritage_dunedain
+							has_cultural_pillar = heritage_northern_adunaic
+							has_cultural_pillar = heritage_hadorim
+						}
+					}
+				}
+				trigger_event = numenor.1003
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:reclaim_numenorean_bellakar_decision
+			}
+		}
+		else_if = {		# Thani-Hazad
+			limit = { scope:reclaim_numenor_thani_hazad = yes }
+			custom_tooltip = restore_numenorean_thani_hazad_decision
+			root = { save_scope_as = new_ruler }
+			title:k_an_balkumagan = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_tulwang = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_zimrathani = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_drel = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_pel = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_gimilthani = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_kharadune = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_an_balkumagan = {
+				change_development_level = 3
+			}
+			title:k_tulwang = {
+				change_development_level = 3
+			}
+			title:k_zimrathani = {
+				change_development_level = 3
+			}
+			title:k_drel = {
+				change_development_level = 3
+			}
+			title:k_pel = {
+				change_development_level = 3
+			}
+			title:k_gimilthani = {
+				change_development_level = 3
+			}
+			title:k_kharadune = {
+				change_development_level = 3
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:reclaim_numenorean_thani_hazad_decision
+			}
+				
+			trigger_event = numenor.1004
+			save_scope_as = restorer
+			# Send event to other players
+			every_player = {
+				limit = {
+					NOT = { this = root }
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_daen_coentis
+							has_cultural_pillar = heritage_daen_lintis
+							has_cultural_pillar = heritage_northern_apysaic
+							has_cultural_pillar = heritage_dunedain
+							has_cultural_pillar = heritage_northern_adunaic
+							has_cultural_pillar = heritage_hadorim
+						}
+					}
+				}
+				trigger_event = numenor.1005
+			}
+		}
+		else_if = {		# Gondor
+			limit = { scope:reclaim_numenor_gondor = yes }
+			custom_tooltip = restore_numenorean_gondor_decision
+			root = { save_scope_as = new_ruler }
+			title:k_belfalas = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_belfalas = {
+				change_development_level = 1
+			}
+			title:k_anfalas = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_anfalas = {
+				change_development_level = 1
+			}
+			title:k_anorien = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_anorien = {
+				change_development_level = 1
+			}
+			title:k_ithilien = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_ithilien = {
+				change_development_level = 1
+			}
+			title:k_lamedon = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_lamedon = {
+				change_development_level = 1
+			}
+			title:k_pinnath_gelin = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_pinnath_gelin = {
+				change_development_level = 1
+			}
+			title:k_lebennin = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_lebennin = {
+				change_development_level = 1
+			}
+			title:k_isengard = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_isengard = {
+				change_development_level = 1
+			}
+			title:k_andrast = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_andrast = {
+				change_development_level = 1
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:reclaim_numenorean_gondor_decision
+			}
+				
+			trigger_event = numenor.1006
+			save_scope_as = restorer
+			# Send event to other players
+			every_player = {
+				limit = {
+					NOT = { this = root }
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_daen_coentis
+							has_cultural_pillar = heritage_daen_lintis
+							has_cultural_pillar = heritage_northern_apysaic
+							has_cultural_pillar = heritage_dunedain
+							has_cultural_pillar = heritage_northern_adunaic
+							has_cultural_pillar = heritage_hadorim
+						}
+					}
+				}
+				trigger_event = numenor.1007
+			}
+		}
+		else_if = {		# Harnen
+			limit = { scope:reclaim_numenor_harnen = yes }
+			custom_tooltip = restore_numenorean_harnen_decision
+			root = { save_scope_as = new_ruler }
+			title:d_rhuntir = {
+				set_de_jure_liege_title = title:k_harondor
+			}
+			title:d_doriant = {
+				set_de_jure_liege_title = title:k_mirlond
+			}
+			title:d_hingren = {
+				set_de_jure_liege_title = title:k_mirlond
+			}
+			title:d_forethir = {
+				set_de_jure_liege_title = title:k_mirlond
+			}
+			title:d_ramlond = {
+				set_de_jure_liege_title = title:k_mirlond
+			}
+			title:d_harnendor = {
+				set_de_jure_liege_title = title:k_mirlond
+			}
+			title:d_harfalas = {
+				set_de_jure_liege_title = title:k_mirlond
+			}
+			title:k_harondor = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_harondor = {
+				change_development_level = 1
+			}
+			title:k_mirlond = {
+				set_de_jure_liege_title = root.primary_title
+			}
+			title:k_mirlond = {
+				change_development_level = 1
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:reclaim_numenorean_harnen_decision
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:harnen_kingdom_decision
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:colonial_harnen_decision
+			}
+				
+			trigger_event = numenor.1008
+			save_scope_as = restorer
+			# Send event to other players
+			every_player = {
+				limit = {
+					NOT = { this = root }
+					culture = {
+						OR = {
+							has_cultural_pillar = heritage_daen_coentis
+							has_cultural_pillar = heritage_daen_lintis
+							has_cultural_pillar = heritage_northern_apysaic
+							has_cultural_pillar = heritage_dunedain
+							has_cultural_pillar = heritage_northern_adunaic
+							has_cultural_pillar = heritage_hadorim
+						}
+					}
+				}
+				trigger_event = numenor.1009
+			}
+		}
+
+		dynasty = { add_dynasty_prestige = 300 }
+		add_legitimacy = medium_legitimacy_gain
+
+		hidden_effect = {
+			dynasty = {
+				if = {
+					limit = {
+						exists = var:reintegrated_provinces_counter
+					}
+					change_variable = {
+						name = reintegrated_provinces_counter
+						add = 1
+					}
+				}
+				else = {
+					set_variable = {
+						name = reintegrated_provinces_counter
+						value = 1
+					}
+				}
+			}
+		}
+	}
+	
+	cost = {
+		gold = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				value = 250
+			}
+			else = {
+				value = 1
+			}
+		}
+		prestige = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				value = 500
+			}
+			else = {
+				value = 1
+			}
+		}
+	}
+	
+	ai_goal = yes
+	
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 1000
 	}
 }
 
