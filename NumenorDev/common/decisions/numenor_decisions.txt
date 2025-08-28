@@ -1263,8 +1263,8 @@ decision_restore_numenor_province = {
 		item = {	# Umbar
 			value = reclaim_numenor_umbar
 			current_description = decision_restore_numenor_province.tt.empty_desc
-			localization = decision_restore_gondor_province.tt.harondor
-			icon = "gfx/interface/icons/message_feed/conciliation.dds"
+			localization = decision_restore_numenor_province.tt.umbar
+			icon = "gfx/interface/icons/message_feed/compass_light.dds"
 			is_shown = { show_numenorean_umbar_trigger = yes }
 			is_valid = { completely_controls_numenorean_province_umbar = yes }
 			ai_chance = {
@@ -1274,7 +1274,7 @@ decision_restore_numenor_province = {
 		item = {	# Bellakar
 			value = reclaim_numenor_bellakar
 			current_description = decision_restore_numenor_province.tt.empty_desc
-			localization = decision_restore_gondor_province.tt.harondor
+			localization = decision_restore_numenor_province.tt.bellakar
 			icon = "gfx/interface/icons/message_feed/conciliation.dds"
 			is_shown = { show_numenorean_bellakar_trigger = yes }
 			is_valid = { completely_controls_numenorean_province_bellakar = yes }
@@ -1285,8 +1285,8 @@ decision_restore_numenor_province = {
 		item = {	# Thani-Hazad
 			value = reclaim_numenor_thani_hazad
 			current_description = decision_restore_numenor_province.tt.empty_desc
-			localization = decision_restore_gondor_province.tt.harondor
-			icon = "gfx/interface/icons/message_feed/conciliation.dds"
+			localization = decision_restore_numenor_province.tt.thani_hazad
+			icon = "gfx/interface/icons/message_feed/steward_job.dds"
 			is_shown = { show_numenorean_thani_hazad_trigger = yes }
 			is_valid = { completely_controls_numenorean_province_thani_hazad = yes }
 			ai_chance = {
@@ -1296,8 +1296,8 @@ decision_restore_numenor_province = {
 		item = {	# Gondor
 			value = reclaim_numenor_gondor
 			current_description = decision_restore_numenor_province.tt.empty_desc
-			localization = decision_restore_gondor_province.tt.harondor
-			icon = "gfx/interface/icons/message_feed/conciliation.dds"
+			localization = decision_restore_numenor_province.tt.gondor
+			icon = "gfx/interface/icons/message_feed/gondorian_clansmen.dds"
 			is_shown = { show_numenorean_gondor_trigger = yes }
 			is_valid = { completely_controls_numenorean_province_gondor = yes }
 			ai_chance = {
@@ -1307,8 +1307,8 @@ decision_restore_numenor_province = {
 		item = {	# Harnen
 			value = reclaim_numenor_harnen
 			current_description = decision_restore_numenor_province.tt.empty_desc
-			localization = decision_restore_gondor_province.tt.harondor
-			icon = "gfx/interface/icons/message_feed/conciliation.dds"
+			localization = decision_restore_numenor_province.tt.harnen
+			icon = "gfx/interface/icons/message_feed/generic_neutral_effect.dds"
 			is_shown = { show_numenorean_harnen_trigger = yes }
 			is_valid = { completely_controls_numenorean_province_harnen = yes }
 			ai_chance = {
