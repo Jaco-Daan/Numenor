@@ -2697,9 +2697,7 @@ lineofciryamir6 = {
 	trait = blood_of_numenor_10				
 	trait = craven				
 	trait = just				
-	trait = patient				
-					
-	trait = blood_of_numenor_3				
+	trait = patient			
 					
 	2558.1.1 = {				
 		birth = yes			
@@ -3575,9 +3573,7 @@ ciryandurextension11 = { #
 	name = Kadarzagar
 	dynasty = dynasty_ciryandur
 	religion = faith_numenorean				
-	culture = bellakarani 
-
-	
+	culture = bellakarani
 	
 	father = ciryandurextension10
 
@@ -3587,6 +3583,24 @@ ciryandurextension11 = { #
 		birth = yes
 	}
 	3772.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+ciryandurextension11a = { #
+	name = U_U_ri_i_tho_o_r
+	dynasty_house = dynasty_urithorcadet
+	religion = faith_numenorean				
+	culture = bellakarani 
+
+	father = ciryandurextension10
+
+
+	trait = blood_of_numenor_7
+	3565.1.1 = {
+		birth = yes
+	}
+	3783.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -3709,26 +3723,6 @@ ciryandurextension17 = { #
 	}
 	3911.1.1 = {
 		death = { death_reason = death_drowned }
-	}
-}
-
-ciryandurextension18 = { #
-	name = U_U_ri_i_tho_o_r
-	dynasty_house = dynasty_urithorcadet
-	religion = faith_numenorean				
-	culture = bellakarani 
-
-	
-	
-	father = ciryandurextension10
-
-
-	trait = blood_of_numenor_7
-	3485.1.1 = {
-		birth = yes
-	}
-	3703.1.1 = {
-		death = { death_reason = death_natural_causes }
 	}
 }
 

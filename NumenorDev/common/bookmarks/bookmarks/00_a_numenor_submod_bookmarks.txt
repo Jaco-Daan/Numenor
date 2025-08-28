@@ -36,7 +36,7 @@
 		religion = faith_adunaic
 		culture = adunaic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = dolamroth43
+		history_id = dolamrothsubmod9
 		position = { 300 520 }
 		animation = personality_greedy
 	}

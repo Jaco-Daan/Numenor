@@ -6463,7 +6463,7 @@ lineoftelemnacil23 = {
 
     trait = ambitious
     trait = sadistic
-    trait = compassionate
+    trait = vengeful
 
     diplomacy = 4
     martial = 6
@@ -11529,8 +11529,7 @@ gimilkhadbastard = {
 	female = yes
 	
 	father = lineofelros27
-	
-	trait = bastard
+
 	trait = disputed_heritage
 	trait = beauty_good_2
 	trait = blood_of_numenor_7
