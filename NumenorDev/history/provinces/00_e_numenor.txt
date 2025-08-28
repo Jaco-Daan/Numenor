@@ -271,9 +271,6 @@
         culture = adunaic
 		religion = faith_numenorean
     }
-    6405.1.1 = {
-        religion = faith_adunaic
-    }
 	6776.1.1 = {
 		buildings = {
 			castle_02
@@ -325,9 +322,6 @@
 	4002.1.1 = {
         culture = adunaic
 		religion = faith_numenorean
-    }
-    6405.1.1 = {
-    		religion = faith_adunaic
     }
 	6776.1.1 = {
 		buildings = {
@@ -677,9 +671,7 @@
 	holding = castle_holding
 	4002.1.1 = {
         culture = adunaic
-    }
-    6405.1.1 = {
-        religion = faith_adunaic
+		religion = faith_dairaben
     }
 	6776.1.1 = {
 		buildings = {
@@ -707,9 +699,7 @@
 	holding = castle_holding
 	4002.1.1 = {
         culture = adunaic
-    }
-    6405.1.1 = {
-        religion = faith_adunaic
+		religion = faith_dairaben
     }
 	6776.1.1 = {
 		buildings = {
@@ -771,10 +761,7 @@
 	holding = castle_holding
 	4002.1.1 = {
         culture = adunaic
-		religion = faith_numenorean
-    }
-    6405.1.1 = {
-        religion = faith_adunaic
+		religion = faith_dairaben
     }
 	buildings = {
 		castle_02
@@ -825,9 +812,7 @@
         culture = adunaic
 		religion = faith_numenorean
     }
-    6405.1.1 = {
-        religion = faith_adunaic
-    }
+
 	buildings = {
 		castle_02
 		curtain_walls_04
@@ -841,9 +826,6 @@
 	4002.1.1 = {
         culture = adunaic
 		religion = faith_numenorean
-    }
-    6405.1.1 = {
-        religion = faith_adunaic
     }
 	6776.1.1 = {
 		buildings = {
@@ -883,10 +865,7 @@
 			holding = castle_holding
 			4002.1.1 = {
                 culture = adunaic
-				religion = faith_numenorean
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
+				religion = faith_dairaben
             }
 }
 6113 = { 	#Wingron (b_wingron)
@@ -921,9 +900,6 @@
                 culture = adunaic
 				religion = faith_dairaben
             }
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
 }
 6104 = {	#Aruwanai (b_aruwanai}
 			culture = numenorean
@@ -932,9 +908,6 @@
 			4002.1.1 = {
                 culture = adunaic
 				religion = faith_dairaben
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
             }
 }
 
@@ -962,9 +935,6 @@
 				religion = faith_dairaben
 				holding = castle_holding
 			}	
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
 }
 6132 = {	#Formenore (b_formenore)
 			culture = numenorean
@@ -1019,9 +989,6 @@
 			4002.1.1 = {
                 culture = adunaic
 				religion = faith_numenorean
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
             }
 				6776.1.1 = {
 					buildings = {
@@ -1108,9 +1075,6 @@
 			4002.1.1 = {
                 culture = adunaic
             }
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
 }
 6031 = {	#Sorontil (b_sorontil)
 			culture = numenorean
@@ -1120,10 +1084,7 @@
                 culture = adunaic
 				religion = faith_numenorean
             }
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
-				6776.1.1 = {
+			6776.1.1 = {
 					buildings = {
 						castle_03
 						citadel_01
@@ -1152,12 +1113,9 @@
 			holding = castle_holding
 			4002.1.1 = {
                 culture = adunaic
-				religion = faith_numenorean
+				religion = faith_dairaben
             }
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
-				6776.1.1 = {
+			6776.1.1 = {
 					buildings = {
 						castle_04
 						farm_estates_06
@@ -1175,7 +1133,7 @@
 			holding = castle_holding
 			4002.1.1 = {
                 culture = adunaic
-				religion = faith_numenorean
+				religion = faith_dairaben
             }
             6405.1.1 = {
                 religion = faith_adunaic
@@ -1206,9 +1164,6 @@
         culture = adunaic
 		religion = faith_numenorean
     }
-    6405.1.1 = {
-        religion = faith_adunaic
-    }
 	6776.1.1 = {
 		buildings = {
 			castle_04
@@ -1225,9 +1180,6 @@
 	holding = city_holding
 	4002.1.1 = {
 		culture = adunaic
-	}
-	6405.1.1 = {
-		religion = faith_adunaic
 	}
 	6776.1.1 = {
 		buildings = {
@@ -1254,9 +1206,6 @@
 	4002.1.1 = {
 		culture = adunaic
 		religion = faith_numenorean
-	}
-	6405.1.1 = {
-		religion = faith_adunaic
 	}
 	6776.1.1 = {
 		buildings {
@@ -1291,9 +1240,6 @@
 		culture = adunaic
 		religion = faith_numenorean
 	}
-	6405.1.1 = {
-		religion = faith_adunaic
-	}
 	6776.1.1 = {
 		buildings = {
 			castle_02
@@ -1325,9 +1271,6 @@
 	4002.1.1 = {
         culture = adunaic
 		religion = faith_numenorean
-    }
-    6405.1.1 = {
-        religion = faith_adunaic
     }
 	6776.1.1 = {
 		buildings = {
@@ -1421,9 +1364,6 @@
 		culture = adunaic
 		religion = faith_numenorean
 	}
-	6405.1.1 = {
-		religion = faith_adunaic
-	}
 	6776.1.1 = {
 		buildings = {
 			castle_02
@@ -1477,9 +1417,6 @@
 		culture = adunaic
 		religion = faith_numenorean
 	}
-	6405.1.1 = {
-		religion = faith_adunaic
-	}
 	6776.1.1 = {
 		buildings = {
 			castle_03
@@ -1508,9 +1445,6 @@
 		culture = adunaic
 		religion = faith_numenorean
 	}
-	6405.1.1 = {
-		religion = faith_adunaic
-	}
 	6776.1.1 = {
 		buildings = {
 			castle_02
@@ -1537,9 +1471,6 @@
 	4002.1.1 = {
 		culture = adunaic
 		religion = faith_numenorean
-	}
-	6405.1.1 = {
-		religion = faith_adunaic
 	}
 	6776.1.1 = {
 		buildings = {
@@ -1571,14 +1502,13 @@
 			}
 			4130.1.1 = {
 				culture = numenorean
-				religion = melkorite
+				religion = faith_kings_men_numenorean
 				holding = castle_holding
 			}
 			4330.1.1 = {
-				religion = faith_kings_men_numenorean
+				religion = faith_numenorean
 			}
 			6781.1.1 = {
-                religion = faith_adunaic
 				culture = adunaic
             }
 }
@@ -1601,9 +1531,6 @@
 			4002.1.1 = {
                 culture = adunaic
 				religion = faith_dairaben
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
             }
 }
 6099 = {	#Erelonde (b_erelonde)
@@ -1635,9 +1562,6 @@
                 culture = adunaic
 				religion = faith_numenorean
             }
-            6405.1.1 = {
-                religion = faith_adunaic
-            }
 }
 6060 = {	#Hazdore (b_hazdore)
 			culture = numenorean
@@ -1646,9 +1570,6 @@
 			4002.1.1 = {
                 culture = adunaic
 				religion = faith_numenorean
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
             }
 }
 6068 = {	#Nidirmost (b_nidirmost)
@@ -1682,9 +1603,6 @@
 			4002.1.1 = {
                 culture = adunaic
 				religion = faith_dairaben
-            }
-            6405.1.1 = {
-                religion = faith_adunaic
             }
 }
 6087 = {	#Zimraopele (b_zimraopele)

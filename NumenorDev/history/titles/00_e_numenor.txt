@@ -3830,71 +3830,93 @@ c_vlarion = {
 }
 
 c_athrangrost = {
-	4513.1.1 = {
-		holder = lineofarialome1
-	}
-	4729.1.1 = {
-		holder = lineofarialome2
-	}
-	4891.1.1 = {
-		holder = lineofarialome3
-	}
-	4991.1.1 = {
-		holder = lineofarialome4
-	}
-	5100.1.1 = {
-		holder = lineofarialome5
-	}
-	5216.1.1 = {
-		holder = lineofarialome6
-	}
-		5329.1.1 = {
-		holder = lineofarialome7
-	}
-		5440.1.1 = {
-		holder = lineofarialome8
-	}
-		5554.1.1 = {
-		holder = lineofarialome9
-	}
-		5699.1.1 = {
-		holder = lineofarialome10
-	}
-		5809.1.1 = {
-		holder = lineofarialome11
-	}
-		5956.1.1 = {
-		holder = lineofarialome12
-	}
-		6098.1.1 = {
-		holder = lineofarialome13
-	}
-		6211.1.1 = {
-		holder = lineofarialome14
-	}
-		6342.1.1 = {
-		holder = lineofarialome15
-	}
-		6454.1.1 = {
-		holder = lineofarialome16
-	}
-		6566.1.1 = {
-		holder = lineofarialome17
-	}
-		6571.1.1 = {
-		holder = lineofarialome18
-	}
-		6683.1.1 = {
-		holder = lineofarialome19
-	}
-		6800.1.1 = {
-		holder = lineofarialome20
-	}
-		6927.1.1 = {
-		holder = lineofarialome21
-	}
-		7030.1.1 = {
-		holder = lineofarialome22
+    4004.10.1 = {
+        holder = lineoftelemnacil7 #Faramir
+		government = feudal_government
+    }
+    4131.10.7 = {
+        holder = lineoftelemnacil9 #Mireatan
+    }
+    4279.7.15 = {
+        holder = lineoftelemnacil11 #Mamandur
+    }
+    4330.3.22 = {
+        holder = lineoftelemnacil13 #Salmandil
+    }
+    4453.9.10 = {
+        holder = lineoftelemnacil15 #Romendacil
+    }
+    4569.8.10 = {
+        holder = lineoftelemnacil17 #Penlodh
+    }
+    4692.1.25 = {
+        holder = lineoftelemnacil19 #Ulwarth
+    }
+    4823.8.1 = {
+        holder = lineoftelemnacil21 #Silmardur
+    }
+    4948.2.24 = {
+        holder = lineoftelemnacil23 #Eargon
+    }
+    5003.12.21 = {
+        holder = lineoftelemnacil25 #Olumir
+    }
+    5055.9.15 = {
+        holder = lineoftelemnacil27 #Arahad
+    }
+    5184.7.25 = {
+        holder = lineoftelemnacil29 #Arathorn
+    }
+    5301.6.8 = {
+        holder = lineoftelemnacil31 #Amrothor
+    }
+    5452.12.7 = {
+        holder = lineoftelemnacil33 #Argeleb
+    }
+    5515.12.27 = {
+        holder = lineoftelemnacil35 #Electhel
+    }
+    5583.5.25 = {
+        holder = lineoftelemnacil37 #Telcontar
+    }
+    5675.6.3 = {
+        holder = lineoftelemnacil39 #Lintoron
+    }
+    5738.2.25 = {
+        holder = lineoftelemnacil41 #Haldar
+    }
+    5822.9.12 = {
+        holder = lineoftelemnacil43 #Curimardin
+    }
+    5978.3.14 = {
+        holder = lineoftelemnacil45 #Thalion
+    }
+    6120.11.16 = {
+        holder = lineoftelemnacil47 #Borothor
+    }
+    6168.1.27 = {
+        holder = lineoftelemnacil49 #Borodir
+    }
+    6318.11.6 = {
+        holder = lineoftelemnacil51 #Electhel
+    }
+    6452.9.14 = {
+        holder = lineoftelemnacil53 #Romemir
+    }
+    6598.2.15 = {
+        holder = lineoftelemnacil55 #Marenar
+    }
+    6706.10.3 = {
+        holder = lineoftelemnacil57 #Feandil
+    }
+    6843.11.14 = {
+        holder = lineoftelemnacil59 #Eadacil
+    }
+    6916.3.23 = {
+        holder = lineoftelemnacil61 #Angelimir
+    }
+    7045.12.7 = {
+        holder = lineoftelemnacil63 #Castamir
 		change_development_level = 12
 	}
 }
@@ -4713,6 +4735,7 @@ c_zorakhator = {
 	}
 	6150.1.1 = { # Grant for long service
         holder = lineofrotthor2a25 # Phaza_a_kkho_o_r
+		government = feudal_government
 		liege = d_hyarnudore
     }
 	6326.1.1 = {
