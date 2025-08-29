@@ -4277,7 +4277,7 @@ ruxoalendil25 = {
 	name = "Be_e_lzagar"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_adunaic
+	faith = faith_numenorean
 	
 	father = ruxoalendilsecondline3
 	
@@ -4297,7 +4297,7 @@ ruxoalendil26 = {
 	name = "Zimratho_o_n"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_adunaic
+	faith = faith_numenorean
 	
 	father = ruxoalendil25
 	mother = herundilsister
