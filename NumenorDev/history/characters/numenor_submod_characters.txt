@@ -13122,10 +13122,16 @@ lineofkhorandor1 = {
 	trait = sadistic
 	trait = brave
 	trait = lifestyle_mariner
-	
+
 	3703.1.1 = {
 		birth = yes
 	}
+    3802.1.1 = {
+        give_nickname = nick_the_shipwright
+        effect = {
+            add_character_flag = had_nickname_event
+        }
+    }
 	3911.1.1 = {
 		death = { death_reason = death_valinor_crushed }
 	}
