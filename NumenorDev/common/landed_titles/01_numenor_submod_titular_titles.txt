@@ -14,7 +14,7 @@ e_anadunemelkor = {
 }
 
 e_faithful = {
-	color = "36 44 134"
+	color = { 36 44 134 }
 	landless = yes
 	definite_form = yes
 	destroy_if_invalid_heir = yes
