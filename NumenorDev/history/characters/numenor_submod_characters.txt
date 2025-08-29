@@ -14798,10 +14798,193 @@ lineofrotthor2a28a1a1 = {
     }
 
     6941.6.3 = {
-        death = {
-            death_reason = death_natural_causes
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+## THE JEWEL LORDS APPOINTED BY GIMILZOR AND PHARAZON ##
+
+## Lords of Balkuloni (Ciryalonde) ## # Arnubalkan, the Jewel Lord of Balkuloni
+linebalkuloni1 = {
+	name = Arnubalkân
+	dynasty = dynasty_balkuloni
+	culture = numenorean
+	religion = melkorite
+
+	trait = blood_of_numenor_7
+	trait = lifestyle_mariner
+	trait = wrathful
+	trait = ambitious
+	trait = callous
+	trait = reaver
+	
+	3790.1.1 = {
+		birth = yes
+	}
+	3911.1.1 = {
+		death = { death_reason = death_valinor_crushed }
+	}
+}
+linebalkuloni2 = {
+	name = Mu_u_rakho_o_r
+	dynasty = dynasty_balkuloni
+	culture = numenorean
+	religion = melkorite
+	
+	trait = blood_of_numenor_7
+	
+	father = linebalkuloni1
+	
+	3872.1.1 = {
+		birth = yes
+	}
+	4003.1.1 = {
+		death = { death_reason = death_duel killer = lineofciryandur18 }
+	}
+}
+
+## Lords of Sorontil ##
+
+linesorontiljewel1 = {
+	name = Gimlibe_e_n
+	dynasy	= dynasty_sorontiljewellord
+	culture = numenorean
+	religion = melkorite
+	
+	trait = blood_of_numenor_7
+	
+	trait = scholar
+	trait = ambitious
+	trait = shrewd
+	trait = eccentric
+	
+	3702.1.1 = {
+		birth = yes
+	}
+	3911.1.1 = {
+		death = { death_reason = death_valinor_crushed }
+	}
+}
+linesorontiljewel2 = {
+	name = Bo_o_ratho_o_r
+	dynasy	= dynasty_sorontiljewellord
+	culture = numenorean
+	religion = melkorite
+	
+	father = linesorontiljewel1
+		
+	trait = blood_of_numenor_7
+	trait = paranoid
+	trait = cynical
+	trait = physique_bad_1
+	trait = schemer
+	
+	3792.1.1 = {
+		birth = yes
+	}
+	3939.1.1 = {
+		death = { death_reason = death_execution killer = lineofciryandur18 }
+	}
+}
+linesorontiljewel3 = {
+	name = Imrazo_o_r
+	dynasy	= dynasty_sorontiljewellord
+	culture = numenorean
+	religion = melkorite
+	
+	father = linesorontiljewel1
+		
+	trait = blood_of_numenor_7
+	
+	3803.1.1 = {
+		birth = yes
+	}
+	3924.1.1 = {
+		death = { death_reason = death_battle }
+	}
+}
+linesorontiljewel4 = {
+	name = Imrazo_o_r
+	dynasy	= dynasty_sorontiljewellord
+	culture = numenorean
+	female = yes
+	religion = melkorite
+	
+	father = linesorontiljewel3
+		
+	trait = blood_of_numenor_7
+	
+	3878.1.1 = {
+		birth = yes
+	}
+	3930.1.1 = {
+		religion = faith_kings_men_numenorean
+	}
+	4098.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+## Lords of Sirinore ##
+linesirinorejewel1 = {
+	name = Do_o_lguzagar
+	dynasy	= dynasty_sirinorejewel
+	culture = numenorean
+	religion = melkorite
+		
+	trait = blood_of_numenor_7
+	trait = paranoid
+	trait = sadistic
+	trait = strong
+	trait = lifestyle_blademaster
+	trait = brave
+	
+	3742.1.1 = {
+		birth = yes
+	}
+    3802.1.1 = {
+        give_nickname = nick_the_butcher
+        effect = {
+            add_character_flag = had_nickname_event
         }
     }
+	3911.1.1 = {
+		death = { death_reason = death_valinor_crushed }
+	}
+}
+linesirinorejewel2 = {
+	name = Pharazo_o_n
+	dynasy	= dynasty_sirinorejewel
+	culture = numenorean
+	religion = melkorite
+	
+	father = linesirinorejewel1
+		
+	trait = blood_of_numenor_7
+	
+	3781.1.1 = {
+		birth = yes
+	}
+	3911.1.1 = {
+		death = { death_reason = death_valinor_crushed }
+	}
+}
+linesirinorejewel3 = {
+	name = Kathuphazga_a_n
+	dynasy	= dynasty_sirinorejewel
+	culture = numenorean
+	religion = melkorite
+	
+	father = linesirinorejewel1
+		
+	trait = blood_of_numenor_7
+	
+	3789.1.1 = {
+		birth = yes
+	}
+	3924.1.1 = {
+		death = { death_reason = death_battle }
+	}
 }
 
 ##PLACEHOLDER CHARACTERS##

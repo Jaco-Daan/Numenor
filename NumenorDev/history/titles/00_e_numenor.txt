@@ -1269,6 +1269,12 @@ d_khorandor = {
 }
 
 d_ciryanore = {
+	3822.1.1 = {
+		holder = linebalkuloni1
+	}
+	3911.1.1 = {
+		holder = 0
+	}
 	6403.1.1 = {
 		holder = lineofciryandur31
 		government = feudal_government
@@ -1338,6 +1344,13 @@ d_elenore = {
 }
 
 d_sorontil = {
+	3761.1.1 = {
+		holder = linesorontiljewel1
+	}
+	3911.1.1 = {
+		holder = linesorontiljewel2
+		liege = e_anadunemelkor
+	}
 	3939.1.1 = {
 		holder = ruxoalendil11 # Made lord of all Forostar
 		government = feudal_government
@@ -2219,6 +2232,12 @@ d_sirinore = {
 	1819.1.1 = {
 		holder = 0 # TEMPORARY UNTIL SYNTARYN DYNASTY IS DONE
 	}
+	3781.1.1 = {
+		holder = linesirinorejewel1
+	}
+	3911.1.1 = {
+		holder = 0
+	}
 	3924.1.1 = {
 		holder = linesirinore7
 	}
@@ -2543,6 +2562,9 @@ c_anariova = {
 }
 
 c_ciryalonde = {
+	3822.1.1 = {
+		holder = linebalkuloni1
+	}
 	3911.1.1 = {
         holder = k_wastelands_holder
         change_development_level = -100
@@ -2660,10 +2682,16 @@ c_elrova = {
 }
 
 c_sorontil = {
-	3939.1.1 = {
-		holder = ruxoalendil11 # Made lord of all Forostar
+	3761.1.1 = {
+		holder = linesorontiljewel1
 		government = feudal_government
 		change_development_level = 15
+	}
+	3911.1.1 = {
+		holder = linesorontiljewel2
+	}
+	3939.1.1 = {
+		holder = ruxoalendil11 # Made lord of all Forostar
 		liege = e_numenor
 	}
 	4107.1.1 = {
@@ -4744,10 +4772,16 @@ c_belizerbeth = {
 }
 
 c_kharutarik = {
-	3939.1.1 = {
-		holder = ruxoalendil11 # Made lord of all Forostar
+	3761.1.1 = {
+		holder = linesorontiljewel1
 		government = feudal_government
 		change_development_level = 13
+	}
+	3911.1.1 = {
+		holder = linesorontiljewel2
+	}
+	3939.1.1 = {
+		holder = ruxoalendil11 # Made lord of all Forostar
 		liege = e_numenor
 	}
 	4107.1.1 = {

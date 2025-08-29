@@ -83,6 +83,23 @@ dynasty_syntar = {
 	motto = dynn_syntar_motto
 }
 
+dynasty_balkuloni = {
+	name = "dynn_balkuloni"
+	culture = numenorean
+	motto = dynn_balkuloni_motto
+}
+
+dynasty_sorontiljewellord = {
+	name = dynn_sorontiljewelord
+	culture = numenorean
+	motto = dynn_sorontiljewelord_motto
+}
+
+dynasty_sirinorejewel = {
+	name = dynn_sirinorejewel
+	culture = numenorean
+	motto = dynn_sirinorejewel_motto
+}
 ## Arkia vanity character ##
 
 dynasty_vanityarkia = {
