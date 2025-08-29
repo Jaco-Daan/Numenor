@@ -656,7 +656,7 @@
 		culture = adunaic
 		religion = faith_numenorean
 	}
-	6405.1.1 = {
+	6800.1.1 = {
 		religion = faith_adunaic
 	}
 	6776.1.1 = {
@@ -1353,10 +1353,7 @@
 	holding = castle_holding
 	4002.1.1 = {
         culture = adunaic
-		religion = faith_numenorean
-    }
-    6405.1.1 = {
-        religion = faith_adunaic
+		religion = faith_dairaben
     }
 	6776.1.1 = {
 		buildings = {
@@ -1365,6 +1362,9 @@
 			cereal_fields_04
 		}
 	}
+    6800.1.1 = {
+        religion = faith_adunaic
+    }
 }
 6093 = {	#Imrast (b_imrast)
 	culture = numenorean
@@ -1618,15 +1618,15 @@
 		religion = faith_dairaben
 		holding = castle_holding
 	}
-	6405.1.1 = {
-		religion = faith_adunaic
-	}
 	6776.1.1 = {
 		buildings = {
 			castle_03
 			curtain_walls_06
 			farm_estates_06
 		}
+	}
+	6800.1.1 = {
+		religion = faith_adunaic
 	}
 }
 6126 = {	#Ondolindë (b_ondolin)
@@ -1772,10 +1772,7 @@
 	holding = castle_holding
 	4002.1.1 = {
 		culture = adunaic
-		religion = faith_dairaben
-	}
-	6405.1.1 = {
-		religion = faith_adunaic
+		religion = faith_numenorean
 	}
 	6776.1.1 = {
 		buildings = {
@@ -1783,6 +1780,9 @@
 			curtain_walls_06
 			common_tradeport_06
 		}
+	}
+	6800.1.1 = {
+		religion = faith_adunaic
 	}
 }
 6208 = {	#Ziran (b_ziran)
@@ -2129,15 +2129,15 @@
 		culture = adunaic
 		religion = faith_numenorean
 	}
-	6405.1.1 = {
-		religion = faith_adunaic
-	}
 	6776.1.1 = {
 		buildings = {
 			castle_02
 			ramparts_04
 			logging_camps_04
 		}
+	}
+	6800.1.1 = {
+		religion = faith_adunaic
 	}
 }
 6213 = {	# Hostal (b_hostal)

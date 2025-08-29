@@ -4457,6 +4457,7 @@ c_forduinem = {
 	2180.1.1 = {
 		holder = ruxoalendil1
 		change_development_level = 10
+		government = feudal_government
 	}
 	2477.5.12 = {
 		holder = ruxoalendil2 
@@ -4532,7 +4533,7 @@ c_forduinem = {
 	}
 	6723.1.1 = {
 		holder = ruxoalendilthirdline2
-		liege = e_numenor
+		liege = d_sorontil
 	}
 	6845.1.1 = {
 		holder = ruxoalendilthirdline3
@@ -6292,7 +6293,7 @@ c_hazdore = {
 	}
 	6783.1.1 = {
 		holder = lineborodirsubmod39
-		liege = e_numenor
+		liege = d_hyarnudore
 	}
 	6863.1.1 = {
 		holder = lineborodirsubmod40
@@ -6397,6 +6398,7 @@ c_zagrar = {
 	}
 	6783.1.1 = {
 		holder = lineborodirsubmod39
+		liege = d_hyarnudore
 	}
 	6863.1.1 = {
 		holder = lineborodirsubmod40
@@ -7139,7 +7141,7 @@ c_forpende = {
 	}
 	6628.1.1 = {
 		holder = lineofondostotwo3
-		liege = e_numenor
+		liege = d_ondosto
 	}
 	6788.1.1 = {
 		holder = lineofondostotwo4
