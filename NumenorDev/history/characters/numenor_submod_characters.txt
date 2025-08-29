@@ -614,7 +614,8 @@ lineofelros111 = {
 	}
 }
 lineofelros112 = {
-	name = "Airendur"
+	name = Airendur
+	dna = airendur_elerossioni_lw_dna
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
@@ -703,6 +704,7 @@ lineofelros115 = {
 	
 	
 	father = lineofelros114
+	mother = lineofondostotwo5a1
 	
 	trait = blood_of_numenor_7
 	trait = ambitious
@@ -719,6 +721,11 @@ lineofelros115 = {
 	6935.1.1 = {
 		birth = yes
 	}
+
+	6995.1.2 = {
+		add_spouse = lineofarialome21a1
+		set_relation_lover = character:lineofarialome21a1
+	}
 }
 lineofelros116 = {
 	name = "Elendil"
@@ -729,6 +736,7 @@ lineofelros116 = {
 	
 	
 	father = lineofelros115
+	mother = lineofarialome21a1
 	
 	trait = blood_of_numenor_7
 	trait = intellect_good_2
@@ -744,6 +752,105 @@ lineofelros116 = {
 		birth = yes
 	}
 }
+
+lineofelros114a1 = {
+	name = Alcarion
+	dynasty = dynasty_elros
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineofelros114
+	mother = lineofondostotwo5a1
+	
+	trait = blood_of_numenor_7
+	trait = humble
+	trait = zealous
+	trait = wrathful
+	trait = beauty_good_2
+	
+	diplomacy = 9
+	martial = 6
+	stewardship = 1
+	intrigue = 5
+	learning = 1
+	prowess = 6
+	
+	6941.6.19 = {
+		birth = yes
+	}
+	6995.1.2 = {
+		set_relation_rival = character:lineofelros115
+	}
+	7010.1.14 = {
+		add_spouse = lineofazrubensubmod28a2
+	}
+	7163.4.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofelros114a2 = {
+	name = Alqualange_e_
+	female = yes
+	dynasty = dynasty_elros
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineofelros114a1
+	mother = lineofazrubensubmod28a2
+	
+	trait = blood_of_numenor_7
+	trait = just
+	trait = brave
+	trait = stubborn
+	trait = beauty_good_1
+	trait = education_martial_3
+	
+	diplomacy = 9
+	martial = 7
+	stewardship = 6
+	intrigue = 4
+	learning = 3
+	prowess = 5
+	
+	7012.12.11 = {
+		birth = yes
+	}
+	7239.12.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofelros114a1a1 = {
+	name = Ancalim_e_e
+	female = yes
+	dynasty = dynasty_elros
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineofelros114a1
+	mother = lineofazrubensubmod28a2
+	
+	trait = blood_of_numenor_7
+	trait = just
+	trait = brave
+	trait = stubborn
+	trait = beauty_good_1
+	trait = education_martial_3
+	
+	diplomacy = 9
+	martial = 7
+	stewardship = 6
+	intrigue = 4
+	learning = 3
+	prowess = 5
+	
+	7017.8.14 = {
+		birth = yes
+	}
+	7248.4.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
 lineofelros117 = {
 	name = "Valandil"
 	dynasty = dynasty_elros
@@ -1400,6 +1507,9 @@ lineofelatan42 = {
 	6796.1.1 = {
 		birth = yes
 	}
+	6890.1.14 = {
+		add_spouse = lineofrotthor2a29b1a1
+	}
 	7022.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -1414,6 +1524,7 @@ lineofelatan43 = {
 	dna = eldarion_valandilioni_wotr_dna_1
 	
 	father = lineofelatan42
+	mother = lineofrotthor2a29b1a1
 	
 	trait = blood_of_numenor_7
 	trait = just
@@ -1427,7 +1538,7 @@ lineofelatan43 = {
 }
 
 lineofelatan44 = {
-	name = "Parmaite"
+	name = Parmait_e_e
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
@@ -4898,6 +5009,7 @@ lineofciryamirbranch22 = {
 	trait = blood_of_numenor_7
 	
 	father = lineofciryamirbranch21
+	mother = lineofrotthor2a29a1
 	
 	6833.1.1 = {
 		birth = yes
@@ -5576,6 +5688,26 @@ lineofkhorahil6 = {
 		birth = yes
 	}
 	6753.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofkhorahil5a1 = {
+	name = Zimratho_o_ni_i_
+	female = yes
+
+	dynasty = dynasty_akhorahil
+	religion = faith_adunaic
+	culture = adunaic
+	
+	trait = blood_of_numenor_7
+	
+	father = lineofkhorahil5
+	
+	6539.4.18 = {
+		birth = yes
+	}
+	6756.12.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -9241,6 +9373,25 @@ lineelebastard12 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+lineelebastard12a1 = {
+	name = Zimirro_o_th
+	female = yes
+	
+	dynasty = dynasty_elenore
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineelebastard12
+	
+	trait = blood_of_numenor_7
+	
+	6669.2.14 = {
+		birth = yes
+	}
+	6890.6.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
 lineelebastard13 = {
 	name = Na_a_lo_o_da_a_n
 	dynasty = dynasty_elenore
@@ -9736,6 +9887,29 @@ lineofarialome23 = {
 		birth = yes
 	}
 }
+lineofarialome21a1 = {
+	name = Andril
+	female = yes
+	dynasty_house = dynasty_arialomedaughter
+	religion = faith_numenorean
+	culture = adunaic
+	
+	trait = blood_of_numenor_7
+	trait = zealous
+	trait = just
+	trait = shy
+
+	trait = education_learning_4
+	
+	father = lineofarialome21
+	
+	6946.9.13 = {
+		birth = yes
+	}
+	7172.6.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
 lineofarialome24 = {
 	name = Bo_o_ratho_o_r
 	dynasty_house = dynasty_arialomedaughter
@@ -10156,17 +10330,22 @@ lineofazrubensubmod28 = {
 	6718.1.1 = {
 		birth = yes
 	}
+	6815.2.12 = {
+		add_spouse = lineofrotthor2a28a1a1
+	}
 	6942.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 lineofazrubensubmod29 = {
 	name = E_E_ruzagar
+	dna = eruzagar_azulhin_wotr_dna
 	dynasty = dynasty_azulhin
 	religion = faith_adunaic
 	culture = adunaic
 	
 	father = lineofazrubensubmod28
+	mother = lineofrotthor2a28a1a1
 	
 	trait = blood_of_numenor_7
 	
@@ -10216,6 +10395,66 @@ lineofazrubensubmod32 = {
 	
 	6986.1.1 = {
 		birth = yes
+	}
+}
+
+lineofazrubensubmod28a1 = {
+	name = Bala_a_nzi_i_r
+	dna = balanzir_azulhin_wotr_dna
+	dynasty = dynasty_azulhin
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineofazrubensubmod28
+	mother = lineofrotthor2a28a1a1
+	
+	trait = blood_of_numenor_7
+	
+	6826.9.14 = {
+		birth = yes
+	}
+	6994.12.7 = {
+		add_spouse = lineofazrubensubmod28a1wife
+	}
+	7071.6.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofazrubensubmod28a1wife = {
+	name = Zo_o_ri_i_
+	female = yes
+
+	religion = faith_adunaic
+	culture = adunaic
+	
+	trait = blood_of_numenor_7
+	
+	6930.12.4 = {
+		birth = yes
+	}
+	7152.3.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofazrubensubmod28a2 = {
+	name = Balkuphe_e_l
+	female = yes
+
+	dynasty = dynasty_azulhin
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineofazrubensubmod28a1
+	mother = lineofazrubensubmod28a1wife
+	
+	trait = blood_of_numenor_7
+	
+	6997.3.20 = {
+		birth = yes
+	}
+
+	7211.3.13 = {
+		death = { death_reason = death_natural_causes }
 	}
 }
 
@@ -12009,6 +12248,25 @@ linejewellord21 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+linejewellord21a1 = {
+	name = U_U_rnuzi_i_ri_i_
+	female = yes
+
+	dynasty_house = dynasty_jeweldaughter
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = linejewellord21
+	
+	trait = blood_of_numenor_7
+	
+	6770.12.9 = {
+		birth = yes
+	}
+	6995.4.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
 linejewellord22 = {
 	name = Marme_e_do_o_n
 	dynasty_house = dynasty_jeweldaughter
@@ -12736,6 +12994,7 @@ lineofondostotwo6 = {
 }
 lineofondostotwo5a1 = {
 	name = Be_e_lphaze_e_l
+	dna = belphazel_balkuzori_dna_wotr
 	female = yes
 	dynasty = dynasty_ondostobastard
 	religion = faith_adunaic
@@ -13841,6 +14100,10 @@ lineofrotthor2a28 = {
         birth = yes
     }
 
+	6650.1.20 = {
+		add_spouse = lineofkhorahil5a1
+	}
+
     6760.1.1 = {
         death = {
             death_reason = death_natural_causes
@@ -13849,6 +14112,7 @@ lineofrotthor2a28 = {
 }
 lineofrotthor2a29 = {
     name = Pharazzi_i_ri_i_
+	dna = pharazziri_rotthori_lw_dna
 	female = yes
 
     religion = faith_adunaic
@@ -13856,6 +14120,7 @@ lineofrotthor2a29 = {
     dynasty = dynasty_rotthori
 
     father = lineofrotthor2a28
+	mother = lineofkhorahil5a1
 
     trait = blood_of_numenor_7
     
@@ -13865,11 +14130,37 @@ lineofrotthor2a29 = {
 	trait = just
 	trait = education_martial_4
 
-    6666.1.1 = {
+    6666.6.6 = {
         birth = yes
     }
 
+	6740.2.11 = {
+		add_matrilineal_spouse = lineofrotthor2a29hub
+		set_relation_soulmate = character:lineofrotthor2a29hub
+	}
+
     6888.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a29hub = {
+    name = I_I_bal
+
+    religion = faith_adunaic
+    culture = adunaic
+
+    trait = blood_of_numenor_7
+	trait = craven
+	trait = shy
+	trait = humble
+
+    6664.1.1 = {
+        birth = yes
+    }
+
+    6885.1.1 = {
         death = {
             death_reason = death_natural_causes
         }
@@ -13882,9 +14173,13 @@ lineofrotthor2a30 = {
     culture = adunaic
     dynasty = dynasty_rotthori
 
+	father = lineofrotthor2a29hub
     mother = lineofrotthor2a29
 
     trait = blood_of_numenor_7
+	trait = brave
+	trait = just
+	trait = arrogant
     
 
     6747.1.1 = {
@@ -14192,6 +14487,252 @@ lineofrotthor2a30a1a1 = {
     }
 
     7156.12.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofrotthor2a29a1 = {
+    name = Minalkali_i_
+	female = yes
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+	father = lineofrotthor2a29hub
+    mother = lineofrotthor2a29
+
+    trait = blood_of_numenor_7
+	trait = shy
+	trait = just
+	trait = humble
+    
+
+    6750.6.7 = {
+        birth = yes
+    }
+	6770.2.14 = {
+        effect = {
+            create_betrothal = character:lineofciryamirbranch21
+		}
+    }
+	6807.11.17 = {
+		add_spouse = lineofciryamirbranch21
+		set_relation_soulmate = character:lineofciryamirbranch21
+	}
+    6976.2.14 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a29b1 = {
+    name = Aglaron
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+	father = lineofrotthor2a29hub
+    mother = lineofrotthor2a29
+
+    trait = blood_of_numenor_7
+	trait = arrogant
+	trait = wrathful
+	trait = brave
+	trait = education_learning_3
+
+    6756.2.11 = {
+        birth = yes
+    }
+
+	6828.1.15 = {
+		add_spouse = linejewellord21a1
+	}
+
+    6989.4.12 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a29b2 = {
+    name = Alphrod
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+	father = lineofrotthor2a29b1
+    mother = linejewellord21a1
+
+    trait = blood_of_numenor_7
+	trait = stubborn
+	trait = impatient
+	trait = brave
+
+    6830.2.14 = {
+        birth = yes
+    }
+
+    7047.9.11 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a29b1a1 = {
+    name = Elphil
+	female = yes
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+	father = lineofrotthor2a29b1
+    mother = linejewellord21a1
+
+    trait = blood_of_numenor_7
+
+    6834.9.22 = {
+        birth = yes
+    }
+
+    7056.2.19 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofrotthor2a28a1 = {
+    name = Ni_i_lu_u_tho_o_r
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a28
+	mother = lineofkhorahil5a1
+
+    trait = blood_of_numenor_7
+    
+	trait = intellect_good_1
+	trait = arrogant
+	trait = brave
+	trait = patient
+	trait = education_stewardship_3
+	trait = gallivanter
+
+    6659.12.1 = {
+        birth = yes
+    }
+
+	6716.2.14 = {
+		add_spouse = lineelebastard12a1
+	}
+
+    6880.2.14 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a28a2 = {
+    name = U_U_ri_i_be_e_n
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a28a1
+	mother = lineelebastard12a1
+
+    trait = blood_of_numenor_7
+
+
+    6720.2.18 = {
+        birth = yes
+    }
+
+	6800.4.11 = {
+		add_spouse = lineofrotthor2a28a2wife
+	}
+
+    6931.3.22 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a28a2wife = {
+    name = Aza_a_ri_i_
+	female = yes
+
+    religion = faith_dairaben
+    culture = adunaic
+
+    trait = blood_of_numenor_7
+
+
+    6725.6.20 = {
+        birth = yes
+    }
+
+    6942.1.11 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a28a3 = {
+    name = Da_a_irabe_e_l
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a28a2
+	mother = lineofrotthor2a28a2wife
+
+    trait = blood_of_numenor_7
+
+    6815.2.14 = {
+        birth = yes
+    }
+
+	7033.1.1 = {
+		employer = lineofrotthor2a32
+	}
+
+    7038.7.17 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofrotthor2a28a1a1 = {
+    name = Lazphe_e_l
+	female = yes
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a28a1
+	mother = lineelebastard12a1
+
+    trait = blood_of_numenor_7
+
+
+    6723.8.23 = {
+        birth = yes
+    }
+
+    6941.6.3 = {
         death = {
             death_reason = death_natural_causes
         }
