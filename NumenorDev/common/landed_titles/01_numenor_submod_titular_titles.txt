@@ -13,6 +13,16 @@ e_anadunemelkor = {
 	capital = c_armenelos
 }
 
+e_faithful = {
+	color = "36 44 134"
+	landless = yes
+	definite_form = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_ondosto
+}
+
 d_adunai = {
 	color = { 20 0 10 }
 	destroy_on_succession = no

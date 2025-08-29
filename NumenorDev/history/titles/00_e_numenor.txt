@@ -1183,6 +1183,7 @@ d_khorandor = {
 	}
 	3911.1.1 = {
 		holder = lineofkhorandor2
+		liege = e_anadunemelkor
 	}
 	4022.1.1 = {
 		holder = lineofkhorandor3
@@ -1396,6 +1397,7 @@ d_sorontil = {
 d_ondosto = {
 	3911.1.1 = {
 		holder = lineofelros88
+		liege = e_faithful
 		government = feudal_government
 	}
 	4123.1.1 = {
@@ -1779,6 +1781,7 @@ d_erelonde = {
 	}
 	3911.1.1 = {
 		holder = lineofagathor_ns17
+		liege = e_anadunemelkor
 	}
 	4005.1.1 = {
 		holder = lineofagathor_ns18
@@ -2142,6 +2145,7 @@ d_emerie = {
 	}
 	3903.1.1 = {
 		holder = mablung25
+		liege = e_faithful
 	}
 	4031.1.1 = {
 		holder = mablung26
@@ -3000,6 +3004,7 @@ c_nunduine = {
 	}
 	3823.1.1 = {
 		holder = lineofciryamir12
+		liege = e_faithful
 	}
 	3998.1.1 = {
 		holder = lineofark7
@@ -5403,6 +5408,7 @@ c_maltenost = {
 c_meniel = {
 	3911.1.1 = {
 		holder = lineofelatan24
+		liege = e_faithful
 	}
     4004.10.1 = {
         holder = lineoftelemnacil7 #Faramir
@@ -7266,8 +7272,13 @@ c_meneltarma = {
 }
 
 c_forpende = {
+	3911.1.1 = {
+		holder = lineofelros88
+		government = feudal_government
+	}
 	3973.1.1 = {
 		holder = lineofondostofounder 
+		change_development_level = 11
 	}
 	4139.1.1 = {
 		holder = lineofondosto2 
@@ -7343,11 +7354,14 @@ c_forpende = {
 	6984.1.1 = {
 		holder = lineofondostotwo6
 		liege = d_ondosto
-		change_development_level = 11
 	}
 }
 
 c_ingamar = {
+	3911.1.1 = {
+		holder = lineofelros88
+		government = feudal_government
+	}
 	3973.1.1 = {
 		holder = lineofondostofounder 
 	}
@@ -7445,3 +7459,14 @@ e_anadunemelkor = {
 	}
 }
 
+e_faithful = {
+	3912.1.1 = {
+		holder = lineofelros26 
+	}
+	4002.1.1 = {
+		holder = lineofelros88 
+	}
+	4003.1.1 = {
+		holder = 0
+	}
+}
