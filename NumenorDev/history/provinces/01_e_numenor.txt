@@ -19,10 +19,11 @@
 		buildings = {
 			castle_04
 			citadel_08
-			windmills_06
+			garrison_tower_04
 		}
 		special_building_slot = wonder_armenelos_01
 		special_building = wonder_armenelos_02
+		duchy_capital_building = military_academy_02
 	}
 }
 6148 = {	#Arost (b_arost)
@@ -181,6 +182,7 @@
 			curtain_walls_04
 			cereal_fields_04
 		}
+		duchy_capital_building = archery_ranges_02
 	}
 }
 6121 = {	#Tarkalios (b_tarkalios)
@@ -279,6 +281,7 @@
 		}
 		special_building_slot = wonder_erendis_01
 		special_building = wonder_erendis_01
+		duchy_capital_building = leisure_palace_02
 	}
 }
 6123 = {	#Emerie (b_emerie)
@@ -348,6 +351,7 @@
 			curtain_walls_04
 			cereal_fields_04
 		}
+		duchy_capital_building = archery_ranges_02
 	}
 }
 6152 = {	#Tol Emyn (b_tol_emyn)
@@ -555,6 +559,7 @@
 		}
 		special_building_slot = wonder_andunie_01
 		special_building = wonder_andunie_02
+		duchy_capital_building = leisure_palace_02
 	}
 }
 6211 = {	#Almaida (b_inzil)
@@ -749,6 +754,7 @@
 			curtain_walls_06
 			cereal_fields_06
 		}
+		duchy_capital_building = royal_armory_02
 	}
 }
 6164 = {	#Parmon (b_parmon)
@@ -850,6 +856,7 @@
 			ramparts_06
 			common_tradeport_06
 		}
+		duchy_capital_building = siege_works_02
 	}
 }
 6194 = {	#Mareth (b_mareth)
@@ -944,12 +951,13 @@
 	6405.1.1 = {
 		religion = faith_adunaic
 	}
-		6776.1.1 = {
-			buildings = {
-				castle_04
-				curtain_walls_06
-				farm_estates_06
-			}
+	6776.1.1 = {
+		buildings = {
+			castle_04
+			curtain_walls_06
+			farm_estates_06
+		}
+		duchy_capital_building = royal_armory_02
 	}
 }
 6083 = {	#Vardaminas (b_vardil)
@@ -1027,10 +1035,12 @@
         culture = adunaic
 		religion = faith_dairaben
     }
-	buildings = {
-		castle_02
-		curtain_walls_04
-		farm_estates_04
+	6776.1.1 = {
+		buildings = {
+			castle_02
+			curtain_walls_04
+			farm_estates_04
+		}
 	}
 }
 6127 = {	#Uinendil (b_uinendil)
@@ -1106,6 +1116,7 @@
 			hill_forts_04
 			hill_farms_06
 		}
+		duchy_capital_building = march_02
 	}
 }
 6057 = {	#Phazôr (b_phazor)
@@ -1283,6 +1294,7 @@
 			curtain_walls_04
 			farm_estates_06
 		}
+		duchy_capital_building = royal_armory_02
 	}
 }
 6073 = {	#Êrzâyan (b_irhuzanda)
@@ -1450,6 +1462,7 @@
 		}
 		special_building_slot = wonder_nindamos_01
 		special_building = wonder_nindamos_01
+		duchy_capital_building = archery_ranges_02
 	}
 }
 6092 = {	#Uialgaer (b_uialgaer)
@@ -1609,6 +1622,7 @@
 			ramparts_06
 			common_tradeport_06
 		}
+		duchy_capital_building = siege_works_02
 	}
 }
 6085 = {	#Falmallondë (b_falmara)
@@ -1675,6 +1689,7 @@
 			curtain_walls_08
 			common_tradeport_05
 		}
+		duchy_capital_building = archery_ranges_02
 	}
 }
 6066 = {	#Bêla (b_bela)
@@ -1792,6 +1807,7 @@
 			curtain_walls_06
 			farm_estates_06
 		}
+		duchy_capital_building = royal_armory_02
 	}
 	6800.1.1 = {
 		religion = faith_adunaic
@@ -1876,6 +1892,7 @@
 			curtain_walls_06
 			common_tradeport_06
 		}
+		duchy_capital_building = tax_assessor_02
 	}
 }
 6206 = {	#Lôkhuzôrêth (b_lokhuzor)
@@ -1985,6 +2002,7 @@
 			hill_forts_06
 			quarries_06
 		}
+		duchy_capital_building = blacksmiths_02
 	}
 }
 6165 = {	#Lairemar (b_lairen)
@@ -2066,6 +2084,7 @@
 			curtain_walls_06
 			common_tradeport_06
 		}
+		duchy_capital_building = blacksmiths_02
 	}
 }
 6195 = {	#Khârêth (b_kharlokh)
@@ -2147,6 +2166,7 @@
 		}
 		special_building_slot = wonder_ondosto_01
 		special_building = wonder_ondosto_01
+		duchy_capital_building = tax_assessor_02
 	}
 }
 6198 = {	#Naridô (b_narido)
@@ -2249,6 +2269,7 @@
 		}
 		special_building_slot = wonder_sorontil_01
 		special_building = wonder_sorontil_01
+		duchy_capital_building = blacksmiths_02
 	}
 }
 6030 = {	#Azrayât (b_azrayat)
