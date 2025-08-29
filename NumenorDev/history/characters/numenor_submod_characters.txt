@@ -14853,7 +14853,7 @@ linebalkuloni2 = {
 
 linesorontiljewel1 = {
 	name = Gimlibe_e_n
-	dynasy	= dynasty_sorontiljewellord
+	dynasty = dynasty_sorontiljewellord
 	culture = numenorean
 	religion = melkorite
 	
@@ -14873,7 +14873,7 @@ linesorontiljewel1 = {
 }
 linesorontiljewel2 = {
 	name = Bo_o_ratho_o_r
-	dynasy	= dynasty_sorontiljewellord
+	dynasty	= dynasty_sorontiljewellord
 	culture = numenorean
 	religion = melkorite
 	
@@ -14894,7 +14894,7 @@ linesorontiljewel2 = {
 }
 linesorontiljewel3 = {
 	name = Imrazo_o_r
-	dynasy	= dynasty_sorontiljewellord
+	dynasty	= dynasty_sorontiljewellord
 	culture = numenorean
 	religion = melkorite
 	
@@ -14911,7 +14911,7 @@ linesorontiljewel3 = {
 }
 linesorontiljewel4 = {
 	name = Imrazo_o_r
-	dynasy	= dynasty_sorontiljewellord
+	dynasty	= dynasty_sorontiljewellord
 	culture = numenorean
 	female = yes
 	religion = melkorite
@@ -14934,7 +14934,7 @@ linesorontiljewel4 = {
 ## Lords of Sirinore ##
 linesirinorejewel1 = {
 	name = Do_o_lguzagar
-	dynasy	= dynasty_sirinorejewel
+	dynasty	= dynasty_sirinorejewel
 	culture = numenorean
 	religion = melkorite
 		
@@ -14960,7 +14960,7 @@ linesirinorejewel1 = {
 }
 linesirinorejewel2 = {
 	name = Pharazo_o_n
-	dynasy	= dynasty_sirinorejewel
+	dynasty	= dynasty_sirinorejewel
 	culture = numenorean
 	religion = melkorite
 	
@@ -14977,7 +14977,7 @@ linesirinorejewel2 = {
 }
 linesirinorejewel3 = {
 	name = Kathuphazga_a_n
-	dynasy	= dynasty_sirinorejewel
+	dynasty	= dynasty_sirinorejewel
 	culture = numenorean
 	religion = melkorite
 	

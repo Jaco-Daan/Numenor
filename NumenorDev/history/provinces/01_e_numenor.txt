@@ -1313,7 +1313,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
-	4130.1.1 = {
+	3911.1.1 = {
 		culture = wastelands
 		religion = faith_wastelands_pagan
 		holding = none
@@ -1354,7 +1354,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
-	4130.1.1 = {
+	3911.1.1 = {
 		culture = wastelands
 		religion = faith_wastelands_pagan
 		holding = none
@@ -1392,7 +1392,13 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
+	3911.1.1 = {
+		culture = wastelands
+		religion = faith_wastelands_pagan
+		holding = none
+	}
 	4002.1.1 = {
+		holding = castle_holding
 		culture = adunaic
 		religion = faith_dairaben
 	}

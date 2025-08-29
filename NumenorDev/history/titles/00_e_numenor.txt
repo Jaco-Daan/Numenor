@@ -418,11 +418,15 @@ c_andunie = {
 	3657.1.1 = {	
 		holder = lineofelatan19 # Amandil
 	}
-	3914.1.1 = {	
-		holder = 0 # Amandil sails east / Akallabêth
-	}
+	3911.1.1 = {
+        holder = k_wastelands_holder
+        change_development_level = -100
+        government = wastelands_government
+    }
 	4100.1.1 = {
 		holder = lineofelatan25
+		change_development_level = 37
+		government = feudal_government
 	}
 	4152.1.1 = {
 		holder = lineofelatan26
@@ -782,6 +786,9 @@ d_nisimaldar = {
 		holder = lineofciryamir12
 	}
 	3911.1.1 = {
+		holder = 0
+	}
+	4002.1.1 = {
 		holder = lineofciryamirbranch1
 	}
 	4032.1.1 = {
@@ -1689,6 +1696,7 @@ d_nunduine = {
 	}
 	3823.1.1 = {
 		holder = lineofciryamir12
+		liege = e_faithful
 	}
 	3998.1.1 = {
 		holder = lineofark7
@@ -1881,6 +1889,12 @@ d_hyarnudore = {
 		holder = lineborodirsubmod6
 	}
 	3910.1.1 = {
+		holder = lineborodirsubmod7
+	}
+	3911.1.1 = {
+        holder = 0
+    }
+	4002.1.1 = {
 		holder = lineborodirsubmod7
 	}
 	4240.1.1 = {
@@ -2746,6 +2760,9 @@ c_sorontil = {
 
 c_ondosto = {
 	3911.1.1 = {
+		holder = lineofelros26
+	}
+	4002.1.1 = {
 		holder = lineofelros88
 	}
 	4123.1.1 = {
@@ -3032,7 +3049,6 @@ c_nunduine = {
 	}
 	3823.1.1 = {
 		holder = lineofciryamir12
-		liege = e_faithful
 	}
 	3998.1.1 = {
 		holder = lineofark7
@@ -3641,6 +3657,11 @@ c_siropela = {
 }
 
 c_hyarmentie = {
+	3911.1.1 = {
+        holder = k_wastelands_holder
+        change_development_level = -100
+        government = wastelands_government
+    }
 	4802.1.1 = {
 		holder = lineofvardur15
 		government = feudal_government
@@ -3683,6 +3704,11 @@ c_hyarmentie = {
 }
 
 c_tauredor = {
+	3911.1.1 = {
+        holder = k_wastelands_holder
+        change_development_level = -100
+        government = wastelands_government
+    }
 	4802.1.1 = {
 		holder = lineofvardur15
 		government = feudal_government
@@ -3725,8 +3751,15 @@ c_tauredor = {
 }
 
 c_arabeleth = {
+	3911.1.1 = {
+        holder = k_wastelands_holder
+        change_development_level = -100
+        government = wastelands_government
+    }
 	4017.1.1 = {
 		holder = lordsofkorlea17
+		change_development_level = 13
+		government = feudal_government
 	}
 	4099.1.1 = {
 		holder = lordsofkorlea18
@@ -3775,13 +3808,19 @@ c_arabeleth = {
 	}
 	7000.1.1 = {
 		holder = lordsofkorlea33
-		change_development_level = 13
 	}
 }
 
 c_adorothe = {
+	3911.1.1 = {
+        holder = k_wastelands_holder
+        change_development_level = -100
+        government = wastelands_government
+    }
 	6405.1.1 = {
 		holder = lineofaru10
+		change_development_level = 11
+		government = feudal_government
 	}
 	6441.1.1 = {
 		holder = lineofaru12
@@ -3797,7 +3836,6 @@ c_adorothe = {
 	}
 	6974.1.1 = {
 		holder = lineofaru16
-		change_development_level = 11
 	}
 }
 
@@ -5442,7 +5480,7 @@ c_maltenost = {
 c_meniel = {
 	3911.1.1 = {
 		holder = lineofelatan24
-		liege = e_faithful
+		liege = d_ondosto
 	}
     4004.10.1 = {
         holder = lineoftelemnacil7 #Faramir
@@ -6092,9 +6130,15 @@ c_tarminas = {
 }
 
 c_farahil = {
+	3911.1.1 = {
+        holder = k_wastelands_holder
+        change_development_level = -100
+        government = wastelands_government
+    }
 	6781.1.1 = {
 		holder = lineofciryamirbranch19
 		government = feudal_government
+		change_development_level = 15
 	}
 	6904.1.1 = {
 		holder = lineofciryamirbranch20
@@ -6108,7 +6152,6 @@ c_farahil = {
 	7030.1.1 = {
 		holder = lineofciryamirbranch23
 		liege = d_zimrayan
-		change_development_level = 15
 	}
 }
 
@@ -6639,22 +6682,10 @@ c_tarmeno = {
 		holder = linejewellord1
 	}
 	3911.1.1 = {
-		holder = linejewellord2
-	}
-	3922.1.1 = {
-		holder = linegimilson1
-	}
-	3954.1.1 = {
-		holder = linegimilson2
-	}
-	4092.1.1 = {
-		holder = linegimilson3
-	}
-	4130.1.1 = {
-		holder = k_wastelands_holder
-		change_development_level = -100
-		government = wastelands_government
-	}
+        holder = k_wastelands_holder
+        change_development_level = -100
+        government = wastelands_government
+    }
 	4330.1.1 = {
 		holder = linejewellord6
 		change_development_level = 13
@@ -6726,18 +6757,6 @@ c_kharazor = {
 		holder = linejewellord1
 	}
 	3911.1.1 = {
-		holder = linejewellord2
-	}
-	3922.1.1 = {
-		holder = linegimilson1
-	}
-	3954.1.1 = {
-		holder = linegimilson2
-	}
-	4092.1.1 = {
-		holder = linegimilson3
-	}
-	4130.1.1 = {
 		holder = k_wastelands_holder
 		change_development_level = -100
 		government = wastelands_government
