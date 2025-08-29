@@ -267,7 +267,7 @@ wonder_meneltarma_01 = { #Meneltarma, Holy mountain of Eru
 		fort_level = good_building_fort_level_tier_1
 		supply_limit_mult = 0.2
 		tax_mult = 0.2
-		building_slot_add = -4
+		building_slot_add = -10
 	}
 	county_modifier = {
 		development_growth_factor = 0.1
@@ -301,7 +301,7 @@ wonder_meneltarma_02 = { #Meneltarma as a place to worship the Fallen
 		fort_level = good_building_fort_level_tier_1
 		supply_limit_mult = 0.6
 		tax_mult = 0.4
-		building_slot_add = -4
+		building_slot_add = -10
 	}
 	county_modifier = {
 		development_growth_factor = 0.3
