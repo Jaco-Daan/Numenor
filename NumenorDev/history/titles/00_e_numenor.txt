@@ -1183,6 +1183,7 @@ d_khorandor = {
 	3750.1.1 = {
 		holder = lineofkhorandor1 # Granted the western parts of the former Ananórë by Ar-Gimilzor after the former lords betrayed him
 		government = feudal_government
+		liege = e_numenor
 	}
 	3911.1.1 = {
 		holder = lineofkhorandor2
@@ -1258,7 +1259,6 @@ d_khorandor = {
 	}
 	6753.1.1 = {
 		holder = lineofkhorahil7
-		liege = e_numenor
 	}
 	6896.1.1 = {
 		holder = lineofkhorahil8
@@ -1399,6 +1399,7 @@ d_ondosto = {
 	3911.1.1 = {
 		holder = lineofelros88
 		government = feudal_government
+		liege = e_numenor
 	}
 	4123.1.1 = {
 		holder = lineofelros89
@@ -1465,7 +1466,6 @@ d_ondosto = {
 	}
 	6637.1.1 = {
 		holder = lineofondosto22
-		liege = e_numenor
 	}
 	6797.1.1 = {
 		holder = lineofondosto23
