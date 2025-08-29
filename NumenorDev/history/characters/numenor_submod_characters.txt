@@ -1137,10 +1137,9 @@ lineofelatan22 = {
 	religion = faith_numenorean
 	culture = numenorean
 	
-	mother = lineofelatan20
+	father = lineofelatan16
 	
 	trait = blood_of_numenor_10
-	trait = legitimized_bastard
 	
 	3587.1.1 = {
 		birth = yes

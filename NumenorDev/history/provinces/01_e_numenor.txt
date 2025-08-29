@@ -1313,7 +1313,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
-	3911.1.1 = {
+	4130.1.1 = {
 		culture = wastelands
 		religion = faith_wastelands_pagan
 		holding = none
@@ -1354,18 +1354,15 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
-	3911.1.1 = {
+	4130.1.1 = {
 		culture = wastelands
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4130.1.1 = {
-		culture = adunaic
-		religion = faith_kings_men_numenorean
-		holding = castle_holding
-	}
 	4330.1.1 = {
+		culture = adunaic
 		religion = faith_dairaben
+		holding = castle_holding
 	}
 	6405.1.1 = {
 		religion = faith_numenorean
@@ -1376,9 +1373,6 @@
 			curtain_walls_04
 			pastures_04
 		}
-	}
-	6781.1.1 = {
-		culture = adunaic
 	}
 }
 6111 = {	#Farni (b_farne)
