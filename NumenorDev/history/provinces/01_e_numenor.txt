@@ -119,6 +119,8 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = church_holding
+	special_building_slot = wonder_meneltarma_01
+	special_building = wonder_meneltarma_02
 	4002.1.1 = {
         culture = adunaic
 		religion = faith_numenorean
@@ -126,13 +128,6 @@
     6405.1.1 = {
         religion = faith_adunaic
     }
-	6776.1.1 = {
-		buildings = {
-			temple_04
-		}
-		special_building_slot = wonder_meneltarma_01
-		special_building = wonder_meneltarma_02
-	}
 }
 
 ## Sirinore ##
