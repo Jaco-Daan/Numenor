@@ -837,6 +837,7 @@ lineofelros114a1a1 = {
 	trait = just
 	trait = brave
 	trait = stubborn
+	trait = rowdy
 	trait = beauty_good_1
 	trait = education_martial_3
 	
@@ -846,6 +847,8 @@ lineofelros114a1a1 = {
 	intrigue = 4
 	learning = 3
 	prowess = 5
+
+	disallow_random_traits = yes
 	
 	7017.8.14 = {
 		birth = yes
@@ -2036,13 +2039,13 @@ lordsofkorlea37 = {
 
 
 ##LINE OF VARDUR##
-lineofvardur3 = {					
+lineofvardur3desc = {					
 	name = "Minulzu_u_r"				
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_kings_men_numenorean			
 	culture = numenorean				
 					
-	mother = lineofvardur2			
+	mother = lineofvardur3	
 					
 	trait = blood_of_numenor_10		
 					
@@ -2059,7 +2062,7 @@ lineofvardur4 = {
 	religion = faith_kings_men_numenorean			
 	culture = numenorean				
 					
-	father = lineofvardur3				
+	father = lineofvardur3desc				
 					
 	trait = blood_of_numenor_10 				
 					
@@ -2517,7 +2520,7 @@ lineofvardur29 = {
 
 ###LINE OF CIRYANDUR OF HAZAJ TOLLIN###
 lineofciryandur12 = { # Narendil, taken back to Númenor
-	name = "Narendil"
+	name = Hyarmenion
 	dynasty = dynasty_ciryandur
 	religion = faith_numenorean				
 	culture = numenorean
@@ -2936,9 +2939,10 @@ lineofciryandur33 = {
 	}
 }
 lineofciryandur34 = {
-	name = "Nilu_u_be_e_n"
+	name = "Ni_i_lu_u_be_e_n"
 	dynasty = dynasty_ciryandur
 	religion = faith_numenorean
+	dna = niluben_ciryandurion_wotr_dna
 	culture = adunaic
 	
 	father = lineofciryandur33
@@ -5579,6 +5583,7 @@ lineofciryamir29 = {
 
 lineofciryamir30 = {
 	name = "Gimilzagar"
+	dna = gimilzagar_ciryatirioni_wotr_dna
 	dynasty = dynasty_ciryamir
 	religion = faith_adunaic
 	culture = adunaic

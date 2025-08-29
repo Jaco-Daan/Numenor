@@ -106,6 +106,6 @@
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = lineofciryamir31
 		position = { 660 780 }
-		animation = personality_greedy
+		animation = personality_dishonorable
 	}
 }
