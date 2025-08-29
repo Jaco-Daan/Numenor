@@ -676,11 +676,11 @@ lineofelros114 = {
 	trait = shrewd
 	trait = ambitious
 	trait = wrathful
-	trait = education_learning_2
+	trait = education_diplomacy_3
 	
-	diplomacy = 4
+	diplomacy = 8
 	martial = 4
-	stewardship = 2
+	stewardship = 6
 	intrigue = 3
 	learning = 5
 	
@@ -711,10 +711,11 @@ lineofelros115 = {
 	trait = cynical
 	trait = brave
 	trait = beauty_good_2
+	trait = education_learning_4
 	
 	diplomacy = 9
-	martial = 15
-	stewardship = 10
+	martial = 8
+	stewardship = 6
 	intrigue = 5
 	learning = 10
 	
@@ -741,12 +742,15 @@ lineofelros116 = {
 	trait = blood_of_numenor_7
 	trait = intellect_good_2
 	trait = patient
+	trait = brave
+	trait = just
+	trait = education_martial_4
 	
-	diplomacy = 14
+	diplomacy = 9
 	martial = 10
-	stewardship = 16
-	intrigue = 5
-	learning = 15
+	stewardship = 6
+	intrigue = 4
+	learning = 8
 	
 	7000.1.1 = {
 		birth = yes
@@ -886,6 +890,9 @@ lineofelros118 = {
 	
 	6967.1.1 = {
 		birth = yes
+	}
+	7010.1.1 = {
+		employer = lineofelros114
 	}
 }
 lineofelros119 = {
@@ -1062,6 +1069,17 @@ dolamrothsubmod9 = {
 	mother = lineofelros119
 	
 	trait = blood_of_numenor_7
+	trait = ambitious
+	trait = fickle
+	trait = lazy
+	trait = education_diplomacy_3
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 5
+	intrigue = 3
+	learning = 2
+	prowess = 4
 	
 	6882.1.1 = {
 		birth = yes
@@ -1528,9 +1546,18 @@ lineofelatan43 = {
 	
 	trait = blood_of_numenor_7
 	trait = just
+	trait = diligent
+	trait = zealous
 	trait = lifestyle_mariner
-	trait = scholar
 	trait = shrewd
+	trait = education_learning_4
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 3
+	learning = 9
+	prowess = 7
 	
 	6901.1.1 = {
 		birth = yes
@@ -2419,7 +2446,18 @@ lineofvardur26 = {
 	
 	trait = blood_of_numenor_7
 	trait = brave
+	trait = callous
+	trait = ambitious
 	trait = strong
+	trait = education_martial_3
+	trait = education_martial_prowess_4
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 6
+	intrigue = 3
+	learning = 4
+	prowess = 9
 	
 	6900.1.1 = {
 		birth = yes
@@ -2906,6 +2944,18 @@ lineofciryandur34 = {
 	father = lineofciryandur33
 	
 	trait = blood_of_numenor_7
+	trait = diligent
+	trait = arrogant
+	trait = zealous
+	trait = education_stewardship_3
+	trait = loyal
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 8
+	intrigue = 3
+	learning = 6
+	prowess = 6
 	
 	6998.1.1 = {
 		birth = yes
@@ -5538,9 +5588,16 @@ lineofciryamir30 = {
 	trait = blood_of_numenor_7
 	trait = greedy
 	trait = ambitious
+	trait = deceitful
 	trait = intellect_good_1
-	trait = patient
-	trait = gregarious
+	trait = education_intrigue_4
+
+	diplomacy = 9
+	martial = 5
+	stewardship = 6
+	intrigue = 9
+	learning = 5
+	prowess = 7
 	
 	6926.1.1 = {
 		birth = yes
@@ -10451,6 +10508,10 @@ lineofazrubensubmod28a2 = {
 	
 	6947.3.20 = {
 		birth = yes
+	}
+	
+	7010.1.1 = {
+		employer = lineofelros114
 	}
 
 	7170.3.13 = {
