@@ -1216,6 +1216,7 @@ d_khorandor = {
 	}
 	5336.1.1 = {
 		holder = lineofkhorandor12
+		liege = e_numenor
 	}
 	5512.1.1 = {
 		holder = lineofkhorandor13
@@ -1435,6 +1436,7 @@ d_ondosto = {
 	}
 	5338.1.1 = {
 		holder = lineofondosto12
+		liege = e_numenor
 	}
 	5468.1.1 = {
 		holder = lineofondosto13
@@ -2525,6 +2527,7 @@ c_ciryalonde = {
 	4002.1.1 = {
 		holder = lineofciryandur18
 		change_development_level = 19
+		government = feudal_government
 	}
 	4138.1.1 = {
 		holder = lineofciryandur19
@@ -4300,46 +4303,69 @@ c_vinyon = {
 }
 
 c_elorna = {
-	4002.1.1 = {
-		holder = lineofciryandur18
-		change_development_level = 14
+	3750.1.1 = {
+		holder = lineofkhorandor1 # Granted the western parts of the former Ananórë by Ar-Gimilzor after the former lords betrayed him
+		government = feudal_government
+	}
+	3911.1.1 = {
+		holder = lineofkhorandor2
+	}
+	4022.1.1 = {
+		holder = lineofkhorandor3
 	}
 	4138.1.1 = {
-		holder = lineofciryandur19
+		holder = lineofkhorandor4
 	}
-	4353.1.1 = {
-		holder = lineofciryandur20
+	4230.1.1 = {
+		holder = lineofkhorandor5
 	}
-	4544.1.1 = {
-		holder = lineofciryandur21
+	4386.1.1 = {
+		holder = lineofkhorandor6
 	}
-	4739.1.1 = {
-		holder = lineofciryandur22
+	4534.1.1 = {
+		holder = lineofkhorandor7
 	}
-	4944.1.1 = {
-		holder = lineofciryandur23
+	4702.1.1 = {
+		holder = lineofkhorandor8
 	}
-	5149.1.1 = {
-		holder = lineofciryandur24
+	4888.1.1 = {
+		holder = lineofkhorandor9
 	}
-	5352.1.1 = {
-		holder = lineofciryandur25
-		liege = e_numenor
+	5036.1.1 = {
+		holder = lineofkhorandor10
 	}
-	5546.1.1 = {
-		holder = lineofciryandur26
+	5180.1.1 = {
+		holder = lineofkhorandor11
 	}
-	5749.1.1 = {
-		holder = lineofciryandur27
+	5336.1.1 = {
+		holder = lineofkhorandor12
 	}
-	5950.1.1 = {
-		holder = lineofciryandur28
+	5512.1.1 = {
+		holder = lineofkhorandor13
 	}
-	6150.1.1 = {
-		holder = lineofciryandur29
+	5669.1.1 = {
+		holder = lineofkhorandor14
 	}
-	6336.1.1 = {
-		holder = lineofciryandur30
+	5826.1.1 = {
+		holder = lineofkhorandor15
+	}
+	5982.1.1 = {
+		holder = lineofkhorandor16
+	}
+	6085.1.1 = {
+		holder = lineofkhorandor17
+	}
+	6186.1.1 = {
+		holder = lineofkhorandor18
+	}
+	6272.1.1 = {
+		holder = lineofkhorandor19
+	}
+	6313.1.1 = {
+		holder = lineofkhorandor20
+	}
+	6362.1.1 = {
+		holder = lineofkhorandor21
 	}
 	6403.1.1 = {
 		holder = lineofciryandur31
