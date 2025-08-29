@@ -13,8 +13,9 @@
 		tradition_adunaim_pride
 		tradition_seafaring
 		tradition_martial_admiration
-		tradition_fishermen
-		tradition_mende_anduya
+		tradition_maritime_mercantilism
+		tradition_metal_craftsmanship
+		tradition_stand_and_fight
 	}
 	
 	name_list = name_list_adunaic

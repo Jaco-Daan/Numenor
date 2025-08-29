@@ -33,17 +33,18 @@
 		# tradition_staunch_traditionalists like parameters
 		expensive_convert_to_local_culture = yes
 		harder_to_hybridize = yes
+		less_likely_to_promote_culture = yes # These 2 parameters need to be merged to avoid text bloat
+		less_likely_to_culture_convert = yes
+
+		#Hereditary Hierechry replacements
+		poorly_educated_leaders_distrusted = yes
 	}
-		
-	character_modifier = { # change from culture to tenet
-		#same_tradition_blacknumenorean_opinion = 5
-	}
-	
+
 	culture_modifier = {
 		cultural_acceptance_gain_mult = -0.35
 	}
 
 	county_modifier = {
 		monthly_county_control_growth_factor = 0.5
-	}	
+	}
 }
