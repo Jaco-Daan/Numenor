@@ -993,14 +993,14 @@ demand_ray_tributary = {
 			text = "demand_ray_tributary_tooltip_bellakar"
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
-				target = flag:decision_reclaim_bellakar_numenor
+				target = flag:reclaim_numenorean_bellakar_decision
 			}
 		}
 		custom_tooltip = {
 			text = "demand_ray_tributary_tooltip_thanihazad"
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
-				target = flag:decision_reclaim_thani_hazad_numenor
+				target = flag:reclaim_numenorean_thani_hazad_decision
 			}
 		}
 	}
