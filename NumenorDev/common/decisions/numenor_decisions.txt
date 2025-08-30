@@ -1669,7 +1669,7 @@ decision_restore_numenor_province = {
 			}
 		}
 		else_if = {		# Minhiriath
-			limit = { scope:reclaim_numenor_umbar = yes }
+			limit = { scope:reclaim_numenor_minhiriath = yes }
 			root = { save_scope_as = new_ruler }
 			
 			title:d_nen_gwathlo = {
