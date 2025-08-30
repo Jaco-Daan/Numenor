@@ -1,0 +1,215 @@
+numenor_characters_accessories = {
+    usage = game
+	selection_behavior = max
+	priority = 2
+
+    ### ELEROSSIONI ######
+    airendur_elerossioni_wotr_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = male_hair_fp2_iberian_muslim_03
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = all_beards
+				value = 0.0
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofelros112
+				this = character:lineofelros112
+			}
+		}
+	}
+
+    balkazir_elerossioni_wotr_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = m_hair_fp3_iranian_03
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = all_beards
+				value = 0.0
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofelros114
+				this = character:lineofelros114
+			}
+		}
+	}
+
+    elendil_elerossioni_wotr_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = agot_hairstyles
+				accessory = male_valyrian_loose_hair_01
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = all_beards
+				value = 0.0
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofelros116
+				this = character:lineofelros116
+			}
+		}
+	}
+    ### VALANDILIONI ###
+    eldarion_valandilioni_wotr_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = m_hair_ep3_byzantine_01
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = all_beards
+				value = 0.0
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofelatan43
+				this = character:lineofelatan43
+			}
+		}
+	}
+    ### VARDURIONI ###
+    zorzagar_vardurioni_wotr_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = male_hair_western_09
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = all_beards
+				value = 0.0
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofvardur26
+				this = character:lineofvardur26
+			}
+		}
+	}
+    ### CIRYANDURION ###
+    niluben_ciryandurion_wotr_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = male_hair_mena_04
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = all_beards
+				value = 0.0
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofciryandur34
+				this = character:lineofciryandur34
+			}
+		}
+	}
+    ### CIRYATIRIONI ###
+    gimilzagar_ciryatirioni_wotr_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = male_hair_byzantine_01
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = all_beards
+				value = 0.0
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:lineofciryamir30
+				this = character:lineofciryamir30
+			}
+		}
+	}
+    ### VEANTURIONI ###
+    ciryandur_veanturioni_wotr_portrait = { 
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = male_hair_western_02
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = all_beards
+				value = 0.0
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 999
+				exists = this
+				exists = character:dolamrothsubmod9
+				this = character:dolamrothsubmod9
+			}
+		}
+	}
+
+}
