@@ -28,7 +28,9 @@
 # 	}
 # 	is_valid = {
 # 		completely_controls = title:k_umbar
+# 		completely_controls = title:k_mirlond
 # 		completely_controls = title:k_mardruak
+# 		completely_controls = title:k_sacred_isles
 # 		prestige_level >= high_prestige_level
 # 	}
 	
@@ -42,13 +44,25 @@
 # 		title:k_umbar = {
 # 			set_de_jure_liege_title = root.primary_title
 # 		}
+# 		title:k_mirlond = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
 # 		title:k_mardruak = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_sacred_isles = {
 # 			set_de_jure_liege_title = root.primary_title
 # 		}
 # 		title:k_umbar = {
 # 			change_development_level = 3
 # 		}
+# 		title:k_mirlond = {
+# 			change_development_level = 3
+# 		}
 # 		title:k_mardruak = {
+# 			change_development_level = 3
+# 		}
+# 		title:k_sacred_isles = {
 # 			change_development_level = 3
 # 		}
 # 		add_to_global_variable_list = {
@@ -115,6 +129,8 @@
 # 			completely_controls = title:k_felaya
 # 			completely_controls = title:k_nilulonde
 # 			completely_controls = title:k_bellazen
+# 			completely_controls = title:k_soriya
+# 			completely_controls = title:k_korlea
 # 		}
 # 		prestige_level >= high_prestige_level
 # 	}
@@ -135,6 +151,12 @@
 # 		title:k_felaya = {
 # 			set_de_jure_liege_title = root.primary_title
 # 		}
+# 		title:k_soriya = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
+# 		title:k_korlea = {
+# 			set_de_jure_liege_title = root.primary_title
+# 		}
 # 		title:k_felaya = {
 # 			change_development_level = 1
 # 		}
@@ -142,6 +164,12 @@
 # 			change_development_level = 1
 # 		}
 # 		title:k_nilulonde = {
+# 			change_development_level = 1
+# 		}
+# 		title:k_soriya = {
+# 			change_development_level = 1
+# 		}
+# 		title:k_korlea = {
 # 			change_development_level = 1
 # 		}
 # 		add_to_global_variable_list = {
