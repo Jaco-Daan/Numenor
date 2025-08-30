@@ -6844,53 +6844,53 @@ c_cemendor = {
 		change_development_level = 15
 	}
 	4099.1.1 = {
-		holder = lineofazruhil18
+		holder = lineofazruhil1
 	}
 	4394.1.1 = {
-		holder = lineofazruhil19
+		holder = lineofazruhil2
 	}
 	4513.1.1 = {
-		holder = lineofazruhil20
+		holder = lineofazruhil3
 	}
 	4718.1.1 = {
-		holder = lineofazruhil21
+		holder = lineofazruhil4
 	}
 	4919.1.1 = {
-		holder = lineofazruhil22
+		holder = lineofazruhil5
 	}
 	5109.1.1 = {
-		holder = lineofazruhil23
+		holder = lineofazruhil6
 	}
 	5322.1.1 = {
-		holder = lineofazruhil24
+		holder = lineofazruhil7
+		liege = e_numenor
 	}
 	5528.1.1 = {
-		holder = lineofazruhil25
+		holder = lineofazruhil8
 	}
 	5717.1.1 = {
-		holder = lineofazruhil26
+		holder = lineofazruhil9
 	}
 	5903.1.1 = {
-		holder = lineofazruhil27
+		holder = lineofazruhil10
 	}
 	6116.1.1 = {
-		holder = lineofazruhil28
+		holder = lineofazruhil11
 	}
 	6327.1.1 = {
-		holder = lineofazruhil29
+		holder = lineofazruhil12
 	}
 	6527.1.1 = {
-		holder = lineofazruhil30
+		holder = lineofazruhil13
 	}
 	6725.1.1 = {
-		holder = lineofazruhil31
+		holder = lineofazruhil14
 	}
 	6919.1.1 = {
-		holder = lineofazruhil32
+		holder = lineofazruhil15
 	}
 	7000.1.1 = {
-		holder = lineofazruhil33
-		change_development_level = 15
+		holder = lineofazruhil16
 	}
 }
 
