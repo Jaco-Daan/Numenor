@@ -1685,26 +1685,6 @@ decision_restore_numenor_province = {
 				name = unavailable_unique_decisions
 				target = flag:reclaim_numenorean_minhiriath_decision
 			}
-				
-			# trigger_event = numenor.1008
-			# save_scope_as = restorer
-			# Send event to other players
-			# every_player = {
-			# 	limit = {
-			# 		NOT = { this = root }
-			# 		culture = {
-			# 			OR = {
-			# 				has_cultural_pillar = heritage_daen_coentis
-			# 				has_cultural_pillar = heritage_daen_lintis
-			# 				has_cultural_pillar = heritage_northern_apysaic
-			# 				has_cultural_pillar = heritage_dunedain
-			# 				has_cultural_pillar = heritage_northern_adunaic
-			# 				has_cultural_pillar = heritage_hadorim
-			# 			}
-			# 		}
-			# 	}
-			# 	trigger_event = numenor.1009
-			# }
 		}
 
 		dynasty = { add_dynasty_prestige = 300 }
