@@ -3695,12 +3695,22 @@ c_hyarmentie = {
 	6526.1.1 = {
 		holder = lineofvardur24
 	}
-	6729.1.1 = {
-		holder = lineofvardur25
-	}
-	6929.1.1 = {
-		holder = lineofvardur26
-	}
+	6556.1.14 = { # For good service
+        holder = lineofbarimanurid4a4a20 # Inzilaba_a_r
+		liege = d_hyarnore
+    }
+	6678.6.7 = {
+        holder = lineofbarimanurid4a4a21 # Izindihil
+    }
+	6789.2.14 = {
+        holder = lineofbarimanurid4a4a22 # Inzilkhi_i_n
+    }
+	6911.3.27 = {
+        holder = lineofbarimanurid4a4a23 # Zimrazagar
+    }
+	6987.9.18 = {
+        holder = lineofbarimanurid4a4a24 # _Uruvahen
+    }
 }
 
 c_tauredor = {
