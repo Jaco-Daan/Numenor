@@ -1,8 +1,4 @@
 ﻿l_english:
  ### Númenor submod tradition ###
- tradition_adunaim_pride_name: "Adûnaic Arrogance"
- tradition_adunaim_pride_desc: "Of all the people in this world, none are more prideful than the Adûnai, for they inhabit the greatest Kingdom in the world - Númenor. Their desire to honour their birthright have made them prideful and the many millenia of isolation that Númenor had have shaped them to dislike outsiders and especially those who are not heirs of Númenor."
- culture_parameter_unlock_maa_numenorean_submod_pikemen: "Can recruit [GetMaA('numenorean_submod_pikemen').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_numenorean_royal_knights: "Can recruit [GetMaA('numenorean_royal_knights').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_numenorean_common_soldiers: "Can recruit [GetMaA('numenorean_common_soldiers').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_numenorean_steel_archers: "Can recruit [GetMaA('numenorean_steel_archers').GetName] as [men_at_arms|E]"
+ tradition_adunaim_pride_name: "Bârîm-an-Anadûnê"
+ tradition_adunaim_pride_desc: "Of all the peoples of the world, few carry themselves with such pride as the [Glossary('Bârîm-an-Anadûnê','barim_an_anadune_gloss')], for they dwell within the greatest realm of Men — [numenor|E]. Generations of prosperity and seclusion have instilled in them a deep reverence for their heritage and traditions. Their long isolation from other lands has made them cautious of outsiders, holding most dearly to kinship with those who share in the legacy of [anadune|E]."
