@@ -19,7 +19,6 @@ is_special_building_in_numenor = {
 ### Umbar ###
 completely_controls_numenorean_province_umbar = {
 	completely_controls = title:e_umbar
-	prestige_level >= high_prestige_level
 }
 
 show_numenorean_umbar_trigger = {
@@ -35,7 +34,6 @@ show_numenorean_umbar_trigger = {
 ### Bellakar ###
 completely_controls_numenorean_province_bellakar = {
 	completely_controls = title:e_bellakar
-	prestige_level >= high_prestige_level
 }
 
 show_numenorean_bellakar_trigger = {
@@ -50,14 +48,7 @@ show_numenorean_bellakar_trigger = {
 
 ### Thani-Hazad ###
 completely_controls_numenorean_province_thani_hazad = {
-	completely_controls = title:k_an_balkumagan
-	completely_controls = title:k_tulwang
-	completely_controls = title:k_zimrathani
-	completely_controls = title:k_drel
-	completely_controls = title:k_pel
-	completely_controls = title:k_gimilthani
-	completely_controls = title:k_kharadune
-	prestige_level >= high_prestige_level
+	completely_controls_region = middleearth_uttersouth_thanihazad
 }
 
 show_numenorean_thani_hazad_trigger = {
@@ -73,16 +64,7 @@ show_numenorean_thani_hazad_trigger = {
 
 ### Gondor ###
 completely_controls_numenorean_province_gondor = {
-	completely_controls = title:k_belfalas
-	completely_controls = title:k_anorien
-	completely_controls = title:k_ithilien
-	completely_controls = title:k_lamedon
-	completely_controls = title:k_anfalas
-	completely_controls = title:k_pinnath_gelin
-	completely_controls = title:k_belfalas
-	completely_controls = title:k_lebennin
-	completely_controls = title:k_isengard
-	prestige_level >= high_prestige_level
+	completely_controls_region = middleearth_west_gondor
 }
 
 show_numenorean_gondor_trigger = {
@@ -97,15 +79,7 @@ show_numenorean_gondor_trigger = {
 
 ### Harnen ###
 completely_controls_numenorean_province_harnen = {
-	completely_controls = title:k_harondor
-	completely_controls = title:d_harfalas
-	completely_controls = title:d_rhuntir
-	completely_controls = title:d_doriant
-	completely_controls = title:d_hingren
-	completely_controls = title:d_forethir
-	completely_controls = title:d_ramlond
-	completely_controls = title:d_harnendor
-	prestige_level >= high_prestige_level
+	completely_controls_region = numenorean_province_harnen
 }
 
 show_numenorean_harnen_trigger = {
@@ -116,4 +90,19 @@ show_numenorean_harnen_trigger = {
 		}
 	}
 	NOT = { title:k_harondor.empire = title:e_numenor }
+}
+
+### Minhiriath ###
+completely_controls_numenorean_province_minhiriath = {
+	completely_controls_region = numenorean_province_minhiriath
+}
+
+show_numenorean_minhiriath_trigger = {
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_numenorean_minhiriath_decision
+		}
+	}
+	NOT = { title:k_cardolan.empire = title:e_numenor }
 }

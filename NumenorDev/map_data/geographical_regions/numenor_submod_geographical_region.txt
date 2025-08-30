@@ -3341,7 +3341,22 @@ dlc_ep1_achievement_rise_of_the_ghurids = { }
 
 
 
+###########################################
+###                                     ###
+### Numenor Submod Geographical Regions ###
+###                                     ###
+###########################################
 
 
+numenorean_province_harnen = {
+	duhcies = {
+		d_annun d_laergaladrin d_eredir d_aegardh d_carnentir
+		d_harfalas d_rhuntir d_doriant d_hingren d_forethir d_ramlond d_harnendor
+	}
+}
 
-
+numenorean_province_minhiriath = {
+	duhcies = {
+		d_minhiriath d_dol_caladir d_girithlin d_ethir_gwathlo d_nen_gwathlo
+	}
+}

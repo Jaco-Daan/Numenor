@@ -300,7 +300,8 @@
 			culture:vulmaw = { custom_tooltip = vulmaw_desc }
 			culture:codyan = { custom_tooltip = codyan_desc }
 
-			### NUMENOR SUBMOD ###
+			### Numenor Submod ###
+
 			culture:adunaic = { custom_tooltip = adunaic_desc }
 		}
 	}
