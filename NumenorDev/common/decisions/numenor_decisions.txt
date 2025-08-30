@@ -1359,7 +1359,6 @@ decision_restore_numenor_province = {
 		}
 		else_if = {		# Umbar
 			limit = { scope:reclaim_numenor_umbar = yes }
-			custom_tooltip = restore_numenorean_umbar_decision
 			save_scope_as = new_ruler
 			title:k_umbar = {
 				set_de_jure_liege_title = root.primary_title
@@ -1400,7 +1399,6 @@ decision_restore_numenor_province = {
 		}
 		else_if = {		# Bellakar
 			limit = { scope:reclaim_numenor_bellakar = yes }
-			custom_tooltip = restore_numenorean_bellakar_decision
 			root = { save_scope_as = new_ruler }
 			title:k_bellazen = {
 				set_de_jure_liege_title = root.primary_title
@@ -1451,7 +1449,6 @@ decision_restore_numenor_province = {
 		}
 		else_if = {		# Thani-Hazad
 			limit = { scope:reclaim_numenor_thani_hazad = yes }
-			custom_tooltip = restore_numenorean_thani_hazad_decision
 			root = { save_scope_as = new_ruler }
 			title:k_an_balkumagan = {
 				set_de_jure_liege_title = root.primary_title
@@ -1522,7 +1519,6 @@ decision_restore_numenor_province = {
 		}
 		else_if = {		# Gondor
 			limit = { scope:reclaim_numenor_gondor = yes }
-			custom_tooltip = restore_numenorean_gondor_decision
 			root = { save_scope_as = new_ruler }
 			title:k_belfalas = {
 				set_de_jure_liege_title = root.primary_title
@@ -1605,7 +1601,6 @@ decision_restore_numenor_province = {
 		}
 		else_if = {		# Harnen
 			limit = { scope:reclaim_numenor_harnen = yes }
-			custom_tooltip = restore_numenorean_harnen_decision
 			root = { save_scope_as = new_ruler }
 			title:d_rhuntir = {
 				set_de_jure_liege_title = title:k_harondor
@@ -1675,14 +1670,13 @@ decision_restore_numenor_province = {
 		}
 		else_if = {		# Minhiriath
 			limit = { scope:reclaim_numenor_umbar = yes }
-			custom_tooltip = restore_numenorean_minhiriath_decision
 			root = { save_scope_as = new_ruler }
 			
-			title:k_cardolan = {
-				set_de_jure_liege_title = root.primary_title
-			}
 			title:d_nen_gwathlo = {
 				set_de_jure_liege_title = title:k_cardolan
+			}
+			title:k_cardolan = {
+				set_de_jure_liege_title = title:e_numenor
 			}
 			title:d_nen_gwathlo = {
 				change_development_level = 1
