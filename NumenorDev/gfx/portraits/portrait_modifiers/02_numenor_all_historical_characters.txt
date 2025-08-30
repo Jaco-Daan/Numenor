@@ -1,4 +1,4 @@
-numenor_characters_accessories = {
+﻿numenor_characters_accessories = {
     usage = game
 	selection_behavior = max
 	priority = 2
