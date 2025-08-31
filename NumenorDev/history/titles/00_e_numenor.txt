@@ -165,7 +165,7 @@ e_numenor = {
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
-	7120.6.14 = {
+	7110.6.14 = {
 		holder = lineofelros115 # Falassion
 	}
 	7159.2.14 = {
@@ -192,7 +192,7 @@ d_adunai = {
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
-	7120.6.14 = {
+	7110.6.14 = {
 		holder = lineofelros115 # Falassion
 	}
 	7159.2.14 = {
@@ -367,7 +367,7 @@ c_armenelos = {
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
-	7120.6.14 = {
+	7110.6.14 = {
 		holder = lineofelros115 # Falassion
 	}
 	7159.2.14 = {
@@ -1036,7 +1036,7 @@ d_arandor = {
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
-	7120.6.14 = {
+	7110.6.14 = {
 		holder = lineofelros115 # Falassion
 	}
 	7159.2.14 = {
@@ -4128,7 +4128,7 @@ c_romenna = {
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
-	7120.6.14 = {
+	7110.6.14 = {
 		holder = lineofelros115 # Falassion
 	}
 	7159.2.14 = {
@@ -4303,7 +4303,7 @@ c_uinen = {
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
-	7120.6.14 = {
+	7110.6.14 = {
 		holder = lineofelros115 # Falassion
 	}
 	7159.2.14 = {
@@ -7356,7 +7356,7 @@ c_meneltarma = {
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
-	7120.6.14 = {
+	7110.6.14 = {
 		holder = lineofelros115 # Falassion
 	}
 	7159.2.14 = {

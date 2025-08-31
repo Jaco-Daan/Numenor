@@ -706,7 +706,7 @@ lineofelros114 = {
 	intrigue = 3
 	learning = 5
 	
-	6897.1.1 = {
+	6885.1.1 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
@@ -720,12 +720,13 @@ lineofelros114 = {
 	6986.1.1 = {
         effect = { add_realm_law = crown_authority_3 }
     }
-	7120.6.14 = {
+	7110.6.14 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 lineofelros115 = {
 	name = "Falassion"
+	dna = falassion_elerossioni_dna_wotr
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
@@ -801,6 +802,7 @@ lineofelros116 = {
 
 lineofelros114a1 = {
 	name = Alcarion
+	dna = alcarion_elerossioni_dna_wotr
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
@@ -840,7 +842,7 @@ lineofelros114a1 = {
 	}
 }
 lineofelros114a2 = {
-	name = Alqualange_e_
+	name = Vanyafindel_e_e
 	female = yes
 	dynasty = dynasty_elros
 	religion = faith_adunaic
@@ -914,7 +916,7 @@ lineofelros114a1a1 = {
 }
 
 lineofelros117 = {
-	name = "Valandil"
+	name = Avalo_o_zi_i_r
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
@@ -928,8 +930,11 @@ lineofelros117 = {
 	trait = schemer
 	trait = shrewd
 	
-	6900.1.1 = {
+	6891.2.18 = {
 		birth = yes
+	}
+	7111.1.30 = {
+		death = { death_reason = death_natural_causes }
 	}
 }
 lineofelros118 = {
@@ -946,7 +951,7 @@ lineofelros118 = {
 	trait = just
 	trait = diligent
 	
-	6967.1.1 = {
+	6943.2.27 = {
 		birth = yes
 	}
 	7010.1.1 = {
@@ -1152,6 +1157,13 @@ dolamrothsubmod9 = {
 	
 	6882.1.1 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+	6943.2.11 = {
+		add_spouse = ruxoalendil26a1
 	}
 	7030.1.1 = { # Numenor Autonomy setup.
         effect = {
@@ -1167,35 +1179,44 @@ dolamrothsubmod9 = {
     }
 }
 dolamrothsubmod10 = {
-	name = "Teldu_u_meir"
+	name = Alquatan
 	dynasty = dynasty_dol_amroth
 	religion = faith_adunaic
 	culture = adunaic
 	
 	father = dolamrothsubmod9
+	mother = ruxoalendil26a1
 	
 	trait = blood_of_numenor_7
 	
 	6946.1.1 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+        }
 	}
 }
 dolamrothsubmod11 = {
-	name = "Sangahyando"
+	name = Nortar
 	dynasty = dynasty_dol_amroth
 	religion = faith_adunaic
 	culture = adunaic
 	
 	father = dolamrothsubmod9
+	mother = ruxoalendil26a1
 	
 	trait = blood_of_numenor_7
 	
 	6952.1.1 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
 	}
 }
 dolamrothsubmod12 = {
-	name = "Arnubalka_a_n"
+	name = Alphor
 	dynasty = dynasty_dol_amroth
 	religion = faith_adunaic
 	culture = adunaic
@@ -1747,6 +1768,10 @@ lineofelatan43 = {
             learn_language = language_quenya
         }
 	}
+	7000.1.1 = {
+		add_spouse = lineofagathor_ns38
+		set_relation_soulmate = character:lineofagathor_ns38
+	}
 	7030.1.1 = { # Numenor Autonomy setup.
         effect = {
             vassal_contract_set_obligation_level = {
@@ -1772,6 +1797,7 @@ lineofelatan44 = {
 	religion = faith_numenorean
 	
 	father = lineofelatan43
+	mother = lineofagathor_ns38
 	
 	trait = blood_of_numenor_7
 	
@@ -1793,6 +1819,7 @@ lineofelatan45 = {
 	religion = faith_numenorean
 	
 	father = lineofelatan43
+	mother = lineofagathor_ns38
 	
 	trait = blood_of_numenor_7
 	
@@ -2270,6 +2297,24 @@ lineofazruhil20 = {
         birth = yes
     }
 }
+lineofazruhil15a1 = { 
+    name = Da_a_iriphe_e_l
+	female = yes
+    dynasty_house = dynasty_azruhil
+    religion = faith_adunaic
+    culture = adunaic
+
+    father = lineofazruhil15
+
+    trait = blood_of_numenor_7
+
+    6922.2.12 = {
+        birth = yes
+    }
+	7144.6.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
 
 
 ##LINE OF VARDUR##
@@ -2478,7 +2523,7 @@ lineofvardur14 = {
 	}				
 }
 lineofvardur15 = {					
-	name = "Vardur"	##BECOMES FAITHFUL##	
+	name = Imrazo_o_r
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_numenorean				
 	culture = adunaic			
@@ -2491,7 +2536,8 @@ lineofvardur15 = {
 	trait = humble
 					
 	4701.1.1 = {				
-		birth = yes			
+		birth = yes	
+		name = Vardur		
 	}				
 	4927.1.1 = {				
 		death = { death_reason = death_natural_causes } 			
@@ -2566,7 +2612,7 @@ lineofvardur19 = {
 	}				
 }
 lineofvardur20 = {					
-	name = "Na_a_loa_a_n"				
+	name = Niluzir		
 	dynasty_house = dynasty_vardurionath				
 	religion = faith_numenorean				
 	culture = adunaic					
@@ -4862,7 +4908,7 @@ ruxoalendil26 = {
 	}
 }
 ruxoalendil27 = {
-	name = "Do_o_lguzagon"
+	name = Izindukho_o_r
 	dynasty = dynasty_minorforostar
 	culture = adunaic
 	religion = faith_adunaic
@@ -4901,7 +4947,7 @@ ruxoalendil27 = {
 	}
 }
 ruxoalendil28 = {
-	name = "Minlube_e_n"
+	name = Gimilzo_o_r
 	dynasty = dynasty_minorforostar
 	culture = adunaic
 	religion = faith_adunaic
@@ -4922,7 +4968,7 @@ ruxoalendil28 = {
 	}
 }
 ruxoalendil29 = {
-	name = "Gimilzo_o_r"
+	name = I_I_rphaza_a_n
 	dynasty = dynasty_minorforostar
 	culture = adunaic
 	religion = faith_adunaic
@@ -4956,6 +5002,31 @@ ruxoalendil30 = {
         }
 	}
 }
+
+ruxoalendil26a1 = {
+	name = Izre_e_phe_e_ri_i_
+	female = yes
+
+	dynasty = dynasty_minorforostar
+	culture = adunaic
+	religion = faith_adunaic
+	
+	father = ruxoalendil26
+	
+	trait = blood_of_numenor_7
+	trait = diligent
+	trait = shy
+	trait = intellect_good_1
+	
+	6892.6.11 = {
+		birth = yes
+	}
+
+	7122.3.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
 ###CIRYAMIRIONATH OF NISINEN###
 lineofciryamir7 = { # Taken back to Númenor with his mother
 	name = "Aglarin"
@@ -6036,6 +6107,10 @@ lineofciryamir30 = {
 	6926.1.1 = {
 		birth = yes
 	}
+	6972.1.14 = {
+		add_spouse = lineofbarimanurid4a4a24b1
+		set_relation_friend = character:lineofbarimanurid4a4a24b1
+	}
 	7030.1.1 = { # Numenor Autonomy setup.
         effect = {
 			vassal_contract_set_obligation_level = { 
@@ -6057,6 +6132,7 @@ lineofciryamir31 = {
 	culture = adunaic
 	
 	father = lineofciryamir30
+	mother = lineofbarimanurid4a4a24b1
 	
 	trait = blood_of_numenor_7
 	
@@ -9373,7 +9449,7 @@ lineofagathor_ns36 = {
 }
 
 lineofagathor_ns37 = {
-	name = Arphaze_e_ne_e_th
+	name = Arphaza_a_n
 	dynasty = dynasty_agathor
 	religion = faith_adunaic
 	culture = adunaic
@@ -9384,23 +9460,6 @@ lineofagathor_ns37 = {
 	
 	6897.1.1 = {
 		birth = yes
-	}
-}
-lineofagathor_ns36a1 = {
-	name = A_A_ru_u_zagar
-	dynasty = dynasty_agathor
-	religion = faith_adunaic
-	culture = adunaic
-	
-	trait = blood_of_numenor_7
-	
-	father = lineofagathor_ns36
-	
-	6899.6.14 = {
-		birth = yes
-	}
-	7114.12.18 = {
-		death = { death_reason = death_natural_causes }
 	}
 }
 lineofagathor_ns39 = {
@@ -9429,8 +9488,31 @@ lineofagathor_ns38 = {
 	
 	father = lineofagathor_ns36
 	
-	6899.1.1 = {
+	6900.1.1 = {
 		birth = yes
+	}
+	7000.1.1 = {
+		name = Ataniel
+	}
+	7116.3.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofagathor_ns36a1 = {
+	name = A_A_ru_u_zagar
+	dynasty = dynasty_agathor
+	religion = faith_adunaic
+	culture = adunaic
+	
+	trait = blood_of_numenor_7
+	
+	father = lineofagathor_ns36
+	
+	6899.6.14 = {
+		birth = yes
+	}
+	7114.12.18 = {
+		death = { death_reason = death_natural_causes }
 	}
 }
 
@@ -13682,6 +13764,26 @@ lineofondosto27 = {
 		birth = yes
 	}
 }
+lineofondosto24a1 = {
+	name = Balkuphe_e_l
+	female = yes
+
+	dynasty = dynasty_ondosto
+	religion = faith_adunaic
+	sexuality = bisexual
+	culture = adunaic
+	
+	father = lineofondosto24
+	
+	trait = blood_of_numenor_7
+	
+	6915.4.11 = {
+		birth = yes
+	}
+	7138.6.22 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
 
 lineofondostotwo1 = {
 	name = Balkuzo_o_r
@@ -15518,13 +15620,14 @@ lineofrotthor2a28a2 = {
 	mother = lineelebastard12a1
 
     trait = blood_of_numenor_7
+	trait = chaste
 
 
     6720.2.18 = {
         birth = yes
     }
 
-	6800.4.11 = {
+	6835.4.11 = {
 		add_spouse = lineofrotthor2a28a2wife
 	}
 
@@ -15544,11 +15647,11 @@ lineofrotthor2a28a2wife = {
     trait = blood_of_numenor_7
 
 
-    6725.6.20 = {
+    6780.1.20 = {
         birth = yes
     }
 
-    6942.1.11 = {
+    7006.6.14 = {
         death = {
             death_reason = death_natural_causes
         }
@@ -15566,7 +15669,7 @@ lineofrotthor2a28a3 = {
 
     trait = blood_of_numenor_7
 
-    6815.2.14 = {
+    6840.2.14 = {
         birth = yes
     }
 
@@ -15574,7 +15677,38 @@ lineofrotthor2a28a3 = {
 		employer = lineofrotthor2a32
 	}
 
-    7038.7.17 = {
+    7067.7.17 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a28a2a1 = {
+    name = Bana_a_thin
+	female = yes
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a28a2
+	mother = lineofrotthor2a28a2wife
+
+    trait = blood_of_numenor_7
+	trait = just
+	trait = arrogant
+	trait = compassionate
+
+    6846.6.7 = {
+        birth = yes
+    }
+
+	6900.1.20 = {
+		name = Bethriliel
+		religion = faith_adunaic
+	}
+
+    7071.7.17 = {
         death = {
             death_reason = death_natural_causes
         }
@@ -16178,7 +16312,7 @@ lineofbarimanurid4a4a23 = {
         birth = yes
     }
 
-	6880.1.14 = {
+	6840.2.19 = {
 		add_spouse = lineofvardur24a2
 	}
 
@@ -16190,6 +16324,7 @@ lineofbarimanurid4a4a23 = {
 }
 lineofbarimanurid4a4a24 = {
     name = _Uruvahen
+	dna = uruvahen_barim_an_urid_wotr_dna
 
     father = lineofbarimanurid4a4a23
 	mother = lineofvardur24a2
@@ -16212,14 +16347,277 @@ lineofbarimanurid4a4a24 = {
 	learning = 7
 	prowess = 9
 
-    6890.2.14 = {
+    6845.2.14 = {
         birth = yes
 		effect = {
             learn_language = language_sindarin
         }	
     }
 
-	7113.4.11 = {
+	6900.1.20 = {
+		add_spouse = lineofrotthor2a28a2a1
+		set_relation_soulmate = character:lineofrotthor2a28a2a1
+		effect = {
+            create_alliance = {
+                target = character:lineofrotthor2a32
+                allied_through_owner = character:lineofbarimanurid4a4a24
+                allied_through_target = character:lineofrotthor2a28a2a1
+            }
+        }
+	}
+
+	7063.4.11 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofbarimanurid4a4a25 = {
+    name = Ulmondil
+
+    father = lineofbarimanurid4a4a24
+	mother = lineofrotthor2a28a2a1
+
+    dynasty = dynasty_barim_an_urid
+    religion = faith_adunaic
+    culture = adunaic
+
+    trait = blood_of_numenor_7
+	trait = diligent
+	trait = shy
+	trait = calm
+	trait = education_learning_3
+
+	diplomacy = 9
+	martial = 4
+	stewardship = 6
+	intrigue = 5
+	learning = 7
+	prowess = 9
+
+    6909.3.11 = {
+        birth = yes
+		effect = {
+            learn_language = language_sindarin
+			learn_language = language_quenya
+        }	
+    }
+
+	6976.1.15 = {
+		add_spouse = lineofazruhil15a1
+	}
+
+	7130.2.11 = {
+        death = {
+            death_reason = death_heart_attack
+        }
+    }
+}
+lineofbarimanurid4a4a26 = {
+    name = N_ari_e_e
+	female = yes
+
+    father = lineofbarimanurid4a4a25
+	mother = lineofazruhil15a1
+
+    dynasty = dynasty_barim_an_urid
+    religion = faith_adunaic
+    culture = adunaic
+
+    trait = blood_of_numenor_7
+
+    6980.2.22 = {
+        birth = yes
+		effect = {
+            learn_language = language_sindarin
+        }	
+    }
+
+	7201.6.5 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofbarimanurid4a4a25a1 = {
+    name = Elendur
+
+    father = lineofbarimanurid4a4a25
+	mother = lineofazruhil15a1
+
+    dynasty = dynasty_barim_an_urid
+    religion = faith_adunaic
+    culture = adunaic
+
+    trait = blood_of_numenor_7
+	trait = education_learning_2
+
+    6985.5.14 = {
+        birth = yes
+		effect = {
+            learn_language = language_sindarin
+        }	
+    }
+
+	7202.1.21 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofbarimanurid4a4a24a1 = {
+    name = Ossendil
+
+    father = lineofbarimanurid4a4a24
+	mother = lineofrotthor2a28a2a1
+
+    dynasty = dynasty_barim_an_urid
+    religion = faith_adunaic
+    culture = adunaic
+
+    trait = blood_of_numenor_7
+	trait = zealous
+	trait = patient
+	trait = gregarious
+	trait = education_diplomacy_2
+
+	diplomacy = 9
+	martial = 4
+	stewardship = 6
+	intrigue = 5
+	learning = 7
+	prowess = 9
+
+    6914.7.18 = {
+        birth = yes
+		effect = {
+            learn_language = language_sindarin
+        }	
+    }
+
+	6966.12.20 = {
+		add_spouse = lineofondosto24a1
+		set_relation_soulmate = character:lineofondosto24a1
+	}
+
+	7940.4.17 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofbarimanurid4a4a24a2 = {
+    name = Turindor
+
+    father = lineofbarimanurid4a4a24a1
+	mother = lineofondosto24a1
+
+    dynasty = dynasty_barim_an_urid
+    religion = faith_adunaic
+    culture = adunaic
+
+    trait = blood_of_numenor_7
+
+    6970.2.11 = {
+        birth = yes
+		effect = {
+            learn_language = language_sindarin
+        }	
+    }
+
+	7191.4.17 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofbarimanurid4a4a24a1a1 = {
+    name = Eleniel
+	female = yes
+
+    father = lineofbarimanurid4a4a24a1
+	mother = lineofondosto24a1
+
+    dynasty = dynasty_barim_an_urid
+    religion = faith_adunaic
+    culture = adunaic
+
+    trait = blood_of_numenor_7
+
+    6975.6.7 = {
+        birth = yes
+		effect = {
+            learn_language = language_sindarin
+        }	
+    }
+
+	7194.4.17 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofbarimanurid4a4a24a1b1 = {
+    name = Tind_omiel
+	female = yes
+
+    father = lineofbarimanurid4a4a24a1
+	mother = lineofondosto24a1
+
+    dynasty = dynasty_barim_an_urid
+    religion = faith_adunaic
+    culture = adunaic
+
+    trait = blood_of_numenor_7
+	trait = education_learning_4
+
+    6979.3.18 = {
+        birth = yes
+		effect = {
+            learn_language = language_sindarin
+			learn_language = language_quenya
+        }	
+    }
+
+	7200.4.17 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
+lineofbarimanurid4a4a24b1 = {
+    name = Uinendilm_e_e
+	female = yes
+
+    father = lineofbarimanurid4a4a24
+	mother = lineofrotthor2a28a2a1
+
+    dynasty = dynasty_barim_an_urid
+    religion = faith_adunaic
+    culture = adunaic
+
+	sexuality = homosexual
+
+    trait = blood_of_numenor_7
+	trait = arrogant
+	trait = deceitful
+	trait = patient
+	trait = education_intrigue_4
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 4
+	intrigue = 8
+	learning = 4
+	prowess = 9
+
+    6920.3.14 = {
+        birth = yes
+    }
+
+	7945.6.7 = {
         death = {
             death_reason = death_natural_causes
         }
@@ -16230,7 +16628,7 @@ lineofbarimanurid4a4a24 = {
 
 ## Lords of Balkuloni (Ciryalonde) ## # Arnubalkan, the Jewel Lord of Balkuloni
 linebalkuloni1 = {
-	name = Arnubalkân
+	name = Arnubalka_a_n
 	dynasty = dynasty_balkuloni
 	culture = numenorean
 	religion = melkorite
@@ -16495,7 +16893,7 @@ son3 = {
 
 #KHORANDOR 
 place4 = {
-	name = "Tindomul"
+	name = Telumaethor
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16507,7 +16905,7 @@ place4 = {
 }
 
 son4 = {
-	name = "Siriondil"
+	name = Sirionnil
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16561,7 +16959,7 @@ son5 = {
 
 #SORONTIL
 place7 = {
-	name = "Herucalmo"
+	name = Morlach
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16573,7 +16971,7 @@ place7 = {
 }
 #Ondosto
 place8 = {
-	name = "Numendil"
+	name = Dunnil
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16612,7 +17010,7 @@ son6 = {
 
 #EREST
 place10 = {
-	name = "Ardamir"
+	name = Hirchil
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16624,7 +17022,7 @@ place10 = {
 }
 
 son7 = {
-	name = "Isilmo"
+	name = Ithilion
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16639,7 +17037,7 @@ son7 = {
 
 #NUNDUINE
 place11 = {
-	name = "Calimehtar"
+	name = Bauradan
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16651,7 +17049,7 @@ place11 = {
 }
 #ERELONDE
 place12 = {
-	name = "Elatar"
+	name = Borvegil
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16663,7 +17061,7 @@ place12 = {
 }
 
 son8 = {
-	name = "Calimir"
+	name = Belion
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16678,7 +17076,7 @@ son8 = {
 
 #HYARNUDORE
 place13 = {
-	name = "Earnur"
+	name = Aerennil
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16690,7 +17088,7 @@ place13 = {
 }
 
 son10 = {
-	name = "Angamaite"
+	name = Angdan
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16717,7 +17115,7 @@ place14 = {
 }
 
 son11 = {
-	name = "Ornendil"
+	name = U_U_rnuzi_i_r
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16732,7 +17130,7 @@ son11 = {
 
 #NINDAMOS
 place15 = {
-	name = "Arciryas"
+	name = Cuthalion
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16744,7 +17142,7 @@ place15 = {
 }
 
 son12 = {
-	name = "Calmacil"
+	name = Cirthor
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16759,7 +17157,7 @@ son12 = {
 
 #EMERIE
 place16 = {
-	name = "Hallatan"
+	name = Mindor
 	religion = faith_adunaic
 	culture = adunaic
 	
@@ -16771,7 +17169,7 @@ place16 = {
 }
 
 son13 = {
-	name = "Beregar"
+	name = Beregar
 	religion = faith_adunaic
 	culture = adunaic
 	
