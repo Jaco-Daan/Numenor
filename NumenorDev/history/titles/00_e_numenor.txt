@@ -151,7 +151,7 @@ e_numenor = {
 		holder = lineofelros109 # Vëantur, first Monarch to be the new Adunaben faith
 	}
 	6593.1.1 = {
-		holder = lineofelros110 # Herunúmen
+		holder = lineofelros110 # Elendil II
 	}
 	6626.1.1 = {
 		holder = lineofelros111 # Zimrathôn
@@ -165,6 +165,12 @@ e_numenor = {
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
+	7120.6.14 = {
+		holder = lineofelros115 # Falassion
+	}
+	7159.2.14 = {
+		holder = lineofelros116 # Elendil III
+	}
 }
 
 d_adunai = {
@@ -172,19 +178,25 @@ d_adunai = {
 		holder = lineofelros109 # Vëantur, first Monarch to be the new Adunaben faith
 	}
 	6593.1.1 = {
-		holder = lineofelros110 # Herunúmen
+		holder = lineofelros110 # Elendil II
 	}
 	6626.1.1 = {
 		holder = lineofelros111 # Zimrathôn
 	}
 	6786.1.1 = {
-		holder = lineofelros112 # Dôlguzagar, First Monarch since Ar Pharazôn to make contact with Middle Earth
+		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle Earth
 	}
 	6841.1.1 = {
 		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
+	}
+	7120.6.14 = {
+		holder = lineofelros115 # Falassion
+	}
+	7159.2.14 = {
+		holder = lineofelros116 # Elendil III
 	}
 }
 
@@ -341,13 +353,13 @@ c_armenelos = {
 		holder = lineofelros109 # Vëantur, first Monarch to be the new Adunaben faith
 	}
 	6593.1.1 = {
-		holder = lineofelros110 # Herunúmen he oversees the full unification of Númenor
+		holder = lineofelros110 # Elendil II he oversees the full unification of Númenor
 	}
 	6626.1.1 = {
 		holder = lineofelros111 # Zimrathôn
 	}
 	6786.1.1 = {
-		holder = lineofelros112 # Dôlguzagar, First Monarch since Ar Pharazôn to make contact with Middle Earth
+		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle Earth
 	}
 	6841.1.1 = {
 		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
@@ -355,8 +367,11 @@ c_armenelos = {
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
-	6982.1.1 = {
-		holder = lineofelros114 # Balkazîr
+	7120.6.14 = {
+		holder = lineofelros115 # Falassion
+	}
+	7159.2.14 = {
+		holder = lineofelros116 # Elendil III
 	}
 }
 
@@ -1007,13 +1022,13 @@ d_arandor = {
 		holder = lineofelros109 # Vëantur, first Monarch to be the new Adunaben faith
 	}
 	6593.1.1 = {
-		holder = lineofelros110 # Herunúmen he oversees the full unification of Númenor
+		holder = lineofelros110 # Elendil II he oversees the full unification of Númenor
 	}
 	6626.1.1 = {
 		holder = lineofelros111 # Zimrathôn
 	}
 	6786.1.1 = {
-		holder = lineofelros112 # Dôlguzagar, First Monarch since Ar Pharazôn to make contact with Middle Earth
+		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle Earth
 	}
 	6841.1.1 = {
 		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
@@ -1021,8 +1036,11 @@ d_arandor = {
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
-	6982.1.1 = {
-		holder = lineofelros114 # Balkazîr
+	7120.6.14 = {
+		holder = lineofelros115 # Falassion
+	}
+	7159.2.14 = {
+		holder = lineofelros116 # Elendil III
 	}
 }
 
@@ -4096,13 +4114,13 @@ c_romenna = {
 		holder = lineofelros109 # Vëantur, first Monarch to be the new Adunaben faith
 	}
 	6593.1.1 = {
-		holder = lineofelros110 # Herunúmen he oversees the full unification of Númenor
+		holder = lineofelros110 # Elendil II he oversees the full unification of Númenor
 	}
 	6626.1.1 = {
 		holder = lineofelros111 # Zimrathôn
 	}
 	6786.1.1 = {
-		holder = lineofelros112 # Dôlguzagar, First Monarch since Ar Pharazôn to make contact with Middle Earth
+		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle Earth
 	}
 	6841.1.1 = {
 		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
@@ -4110,8 +4128,11 @@ c_romenna = {
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
-	6982.1.1 = {
-		holder = lineofelros114 # Balkazîr
+	7120.6.14 = {
+		holder = lineofelros115 # Falassion
+	}
+	7159.2.14 = {
+		holder = lineofelros116 # Elendil III
 	}
 }
 
@@ -4268,13 +4289,13 @@ c_uinen = {
 		holder = lineofelros109 # Vëantur, first Monarch to be the new Adunaben faith
 	}
 	6593.1.1 = {
-		holder = lineofelros110 # Herunúmen he oversees the full unification of Númenor
+		holder = lineofelros110 # Elendil II he oversees the full unification of Númenor
 	}
 	6626.1.1 = {
 		holder = lineofelros111 # Zimrathôn
 	}
 	6786.1.1 = {
-		holder = lineofelros112 # Dôlguzagar, First Monarch since Ar Pharazôn to make contact with Middle Earth
+		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle Earth
 	}
 	6841.1.1 = {
 		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
@@ -4282,8 +4303,11 @@ c_uinen = {
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
-	6982.1.1 = {
-		holder = lineofelros114 # Balkazîr
+	7120.6.14 = {
+		holder = lineofelros115 # Falassion
+	}
+	7159.2.14 = {
+		holder = lineofelros116 # Elendil III
 	}
 }
 
@@ -7318,13 +7342,13 @@ c_meneltarma = {
 		holder = lineofelros109 # Vëantur, first Monarch to be the new Adunaben faith
 	}
 	6593.1.1 = {
-		holder = lineofelros110 # Herunúmen he oversees the full unification of Númenor
+		holder = lineofelros110 # Elendil II he oversees the full unification of Númenor
 	}
 	6626.1.1 = {
 		holder = lineofelros111 # Zimrathôn
 	}
 	6786.1.1 = {
-		holder = lineofelros112 # Dôlguzagar, First Monarch since Ar Pharazôn to make contact with Middle Earth
+		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle Earth
 	}
 	6841.1.1 = {
 		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
@@ -7332,8 +7356,11 @@ c_meneltarma = {
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
-	6982.1.1 = {
-		holder = lineofelros114 # Balkazîr
+	7120.6.14 = {
+		holder = lineofelros115 # Falassion
+	}
+	7159.2.14 = {
+		holder = lineofelros116 # Elendil III
 	}
 }
 
