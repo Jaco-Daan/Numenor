@@ -2,12 +2,12 @@
  #MaA
 
  ## Númenor ##
- numenorean_knights: "Knights of Númenor"
- numenorean_knights_flavor: "Though the Men of Westernesse bring not their horses into battle, in some cases the need for a cavalry charge cannot be avoided. Bearing heavy armour, riding well-bred steeds, and wielding weapons wrought with spells of power, the Knights of Númenor are a fearsome sight for all their enemies."
- numenorean_elites: "Tirnor Arano" 
- numenorean_elites_flavor: "The elite of the Númenorean army, they have trained for near half their lives to fight for the Line of Elros. The [Glossary('Tirnor Arano','tirnor_arano_gloss')] bear heavy armour made of Dwarven metals from the First Age, kept and guarded in the vaults of Armenelos."
- numenorean_soldiers: "Soldiers of Númenor"
- numenorean_soldiers_flavor: "The 'common' soldiers of Númenor, and the most formidable warriors of Men in Arda. Disciplined and honourable, bearing heavy armour and weapons wrought with spells of power, they are a vital asset to the Line of Elros. They compose the [Glossary('Nardûthônî','narduthoni_gloss')], formed by Ar-Cemendur of Númenor."
- numenorean_archers: "Steel-bows of Númenor"
- numenorean_archers_flavor: "The Archers of Númenor who wield the legendary Númenorean Steel-Bows. Made from hollow steel and somewhat shorter than the average longbow, they are much more powerful than anything found on Middle Earth. Their wielders shoot with range and power unparalleled among men."
+ numenorean_submod_pikemen: "Númenorean Pikemen"
+ numenorean_submod_pikemen_flavor: "The Númenorean Pikemen are the most common of the soldiers in the Númenorean army. They are loyal soldiers of the Line of Elros and have seen much battle since the creation of the [Glossary('Nardûthônî','narduthoni_gloss')] by Ar-Cemendur of Númenor."
+ numenorean_royal_knights: "Tirnor Arano" 
+ numenorean_royal_knights_flavor: "The most elite of the Númenorean army, they have trained for near half their lives to fight for the Line of Elros. The [Glossary('Tirnor Arano','tirnor_arano_gloss')] bear heavy armour made of Dwarven metals from the First Age, which are kept and guarded on the vaults of Armenelos."
+ numenorean_common_soldiers: "Soldiers of Númenor"
+ numenorean_common_soldiers_flavor: "The 'common soldiers' of Númenor - yet there is nothing common about them, for they are the most formidable fighters in Arda. Disciplined and honourable, they are a vital asset to the Line of Elros."
+ numenorean_steel_archers: "Steel-bows of Númenor"
+ numenorean_steel_archers_flavor: "The Archers of Númenor who wield the legendary Númenorean Steel-Bows. Made from hollow steel and somewhat shorter than the average longbow, they are much more powerful than anything found on Middle Earth."
  
