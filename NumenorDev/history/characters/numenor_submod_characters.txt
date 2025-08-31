@@ -3254,7 +3254,7 @@ lineofciryandur33 = {
 	}
 }
 lineofciryandur34 = {
-	name = "Ni_i_lu_u_be_e_n"
+	name = Ni_i_lube_e_n
 	dynasty = dynasty_ciryandur
 	religion = faith_numenorean
 	dna = niluben_ciryandurion_wotr_dna
