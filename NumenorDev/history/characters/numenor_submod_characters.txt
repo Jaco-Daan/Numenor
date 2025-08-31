@@ -628,12 +628,22 @@ lineofelros112 = {
 	trait = patient
 	trait = eccentric
 	trait = spindly
-	trait = scholar
+	trait = poet
 	trait = education_diplomacy_3
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 5
+	intrigue = 0
+	learning = 6
+	prowess = 8
 	
 	6621.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = {
+        effect = { add_realm_law = crown_authority_3 }
+    }
 	6841.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -649,6 +659,18 @@ lineofelros113 = {
 	father = lineofelros112
 	
 	trait = blood_of_numenor_7
+	trait = cynical
+	trait = just
+	trait = honest
+	trait = education_martial_2
+	trait = education_martial_prowess_3
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 5
+	intrigue = 9
+	learning = 5
+	prowess = 9
 	
 	6765.1.1 = {
 		birth = yes
@@ -695,6 +717,9 @@ lineofelros114 = {
 		add_spouse = lineofondostotwo5a1
 		set_relation_lover = character:lineofondostotwo5a1
 	}
+	6986.1.1 = {
+        effect = { add_realm_law = crown_authority_3 }
+    }
 	7120.6.14 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -939,7 +964,18 @@ lineofelros119 = {
 	father = lineofelros112
 	
 	trait = blood_of_numenor_7
-	trait = beauty_good_1
+	trait = beauty_good_2
+	trait = compassionate
+	trait = trusting
+	trait = eccentric
+	trait = education_diplomacy_3
+	
+	diplomacy = 9
+	martial = 4
+	stewardship = 6
+	intrigue = 3
+	learning = 8
+	prowess = 6
 	
 	6769.1.1 = {
 		birth = yes
@@ -1117,6 +1153,18 @@ dolamrothsubmod9 = {
 	6882.1.1 = {
 		birth = yes
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 dolamrothsubmod10 = {
 	name = "Teldu_u_meir"
@@ -1619,6 +1667,22 @@ lineofelatan41 = {
             learn_language = language_quenya
         }
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = {
+                type = religious_rights
+                level = 1
+            }
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6855.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -1683,6 +1747,22 @@ lineofelatan43 = {
             learn_language = language_quenya
         }
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+            vassal_contract_set_obligation_level = {
+                type = religious_rights
+                level = 1
+            }
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 
 lineofelatan44 = {
@@ -2074,6 +2154,18 @@ lineofazruhil14 = {
     6698.1.1 = {
         birth = yes
     }
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
     6919.1.1 = {
         death = { death_reason = death_natural_causes }
     }
@@ -2107,6 +2199,18 @@ lineofazruhil16 = {
 
     6902.1.1 = {
         birth = yes
+    }
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
     }
 }
 lineofazruhil17 = { 
@@ -2561,7 +2665,19 @@ lineofvardur25 = {
 					
 	6700.1.1 = {				
 		birth = yes			
-	}				
+	}		
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }		
 	6929.1.1 = {				
 		death = { death_reason = death_natural_causes }
 	}			
@@ -2595,6 +2711,18 @@ lineofvardur26 = {
 	6900.1.1 = {
 		birth = yes
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 
 lineofvardur27 = {
@@ -3069,6 +3197,22 @@ lineofciryandur32 = {
 	6589.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = {
+                type = religious_rights
+                level = 1
+            }
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6816.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -3135,6 +3279,22 @@ lineofciryandur34 = {
 	6998.1.1 = {
 		birth = yes
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+            vassal_contract_set_obligation_level = {
+                type = religious_rights
+                level = 1
+            }
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 lineofciryandur35 = {
 	name = "Balkumaga_a_n"
@@ -3941,6 +4101,22 @@ mablung42 = {
 	6592.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = {
+                type = religious_rights
+                level = 1
+            }
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6813.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -4001,6 +4177,22 @@ mablung45 = {
 		add_spouse = lineofrotthor2a30a1a1
 		set_relation_friend = character:lineofrotthor2a30a1a1
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+            vassal_contract_set_obligation_level = {
+                type = religious_rights
+                level = 1
+            }
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	7173.2.18 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -4103,7 +4295,7 @@ ruxoalendil5 = {
 	name = "Ciryamir"
 	dynasty = dynasty_minorforostar
 	culture = numenorean
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	mother = ruxoalendil4
 	
@@ -4121,7 +4313,7 @@ ruxoalendil6 = {
 	name = "Tindomul"
 	dynasty = dynasty_minorforostar
 	culture = numenorean
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil5
 	
@@ -4138,7 +4330,7 @@ ruxoalendil7 = {
 	name = "Thalion"
 	dynasty = dynasty_minorforostar
 	culture = numenorean
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil6
 	
@@ -4155,7 +4347,7 @@ ruxoalendil8 = {
 	name = "Isildur"
 	dynasty = dynasty_minorforostar
 	culture = numenorean
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil7
 	
@@ -4172,7 +4364,7 @@ ruxoalendil9 = {
 	name = "Calimmacil"
 	dynasty = dynasty_minorforostar
 	culture = numenorean
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil8
 	
@@ -4189,7 +4381,7 @@ ruxoalendil10 = {
 	name = "Minohtar"
 	dynasty = dynasty_minorforostar
 	culture = numenorean
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil9
 	
@@ -4206,7 +4398,7 @@ ruxoalendil11 = {
 	name = "Artamir"
 	dynasty = dynasty_minorforostar
 	culture = numenorean
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil10
 	
@@ -4223,7 +4415,7 @@ ruxoalendil12 = {
 	name = "Vinyarion"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil11
 	
@@ -4240,7 +4432,7 @@ ruxoalendil13 = {
 	name = "Forodacil" # Destroys all remnants of Melkorism and King's Men in Forostar
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil12
 	
@@ -4260,7 +4452,7 @@ ruxoalendil14 = {
 	name = "Minalcar"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil13
 	
@@ -4277,7 +4469,7 @@ ruxoalendil15 = {
 	name = "Ciryaher"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil14
 	
@@ -4294,7 +4486,7 @@ ruxoalendil16 = {
 	name = "Tarostar"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil15
 	
@@ -4311,7 +4503,7 @@ ruxoalendil17 = {
 	name = "Amandil"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil16
 	
@@ -4328,7 +4520,7 @@ ruxoalendil18 = {
 	name = "U_U_ri_i_tho_o_r"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil17
 	
@@ -4345,7 +4537,7 @@ ruxoalendil19 = {
 	name = "Nimruzi_i_r"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil18
 	
@@ -4362,7 +4554,7 @@ ruxoalendil20 = {
 	name = "Avalo_o_zi_i_r"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil19
 	
@@ -4379,7 +4571,7 @@ ruxoalendil21 = {
 	name = "Bawbutho_o_r"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil20
 	
@@ -4396,7 +4588,7 @@ ruxoalendil22 = {
 	name = "Arnube_e_n"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil21
 	
@@ -4413,7 +4605,7 @@ ruxoalendil23 = {
 	name = "I_I_rpa_a_n"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil22
 	
@@ -4433,7 +4625,7 @@ ruxoalendil24 = {
 	dynasty = dynasty_minorforostar
 	culture = numenorean
 	female = yes
-	faith = faith_numenorean
+	religion = faith_numenorean
 	culture = adunaic
 	
 	father = ruxoalendil22
@@ -4455,7 +4647,7 @@ ruxoalendilsecondline1 = {
 	name = "Abraza_a_n"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil20
 	
@@ -4472,7 +4664,7 @@ ruxoalendilsecondline2 = {
 	name = "Pharazbalak"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendilsecondline1
 	
@@ -4489,7 +4681,7 @@ ruxoalendilsecondline3 = { # Becomes lord of Forostar
 	name = "Aba_a_zagar"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendilsecondline2
 	
@@ -4506,7 +4698,7 @@ ruxoalendilthirdline1 = {
 	name = Azulzi_i_r
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendilsecondline3
 	
@@ -4524,7 +4716,7 @@ ruxoalendilthirdline2 = {
 	name = Do_o_lguzagar
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendilthirdline1
 	
@@ -4542,7 +4734,7 @@ ruxoalendilthirdline3 = {
 	name = Tamrube_e_n
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendilthirdline2
 	
@@ -4560,7 +4752,7 @@ ruxoalendilthirdline4 = {
 	name = Tari_i_kmaga_a_n
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendilthirdline3
 	
@@ -4575,7 +4767,7 @@ ruxoalendilthirdline5 = {
 	name = Azrube_e_n
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendilthirdline4
 	
@@ -4590,7 +4782,7 @@ ruxoalendilthirdline6 = {
 	name = Abrazi_i_r
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendilthirdline4
 	
@@ -4605,7 +4797,7 @@ ruxoalendilthirdline7 = {
 	name = Gimilzagar
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendilthirdline5
 	
@@ -4619,7 +4811,7 @@ ruxoalendil25 = {
 	name = "Be_e_lzagar"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendilsecondline3
 	
@@ -4639,7 +4831,7 @@ ruxoalendil26 = {
 	name = "Zimratho_o_n"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_numenorean
+	religion = faith_numenorean
 	
 	father = ruxoalendil25
 	mother = herundilsister
@@ -4649,6 +4841,22 @@ ruxoalendil26 = {
 	6699.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = {
+                type = religious_rights
+                level = 1
+            }
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6927.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -4657,7 +4865,7 @@ ruxoalendil27 = {
 	name = "Do_o_lguzagon"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_adunaic
+	religion = faith_adunaic
 	
 	father = ruxoalendil26
 	
@@ -4675,6 +4883,19 @@ ruxoalendil27 = {
 		set_relation_lover = character:lineofrotthor2a31a1
 	}
 
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
+
 	7120.4.13 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -4683,7 +4904,7 @@ ruxoalendil28 = {
 	name = "Minlube_e_n"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_adunaic
+	religion = faith_adunaic
 	
 	father = ruxoalendil27
 	mother = lineofrotthor2a31a1
@@ -4704,7 +4925,7 @@ ruxoalendil29 = {
 	name = "Gimilzo_o_r"
 	dynasty = dynasty_minorforostar
 	culture = adunaic
-	faith = faith_adunaic
+	religion = faith_adunaic
 	
 	father = ruxoalendil28
 	
@@ -4721,7 +4942,7 @@ ruxoalendil30 = {
 	dynasty = dynasty_minorforostar
 	female = yes
 	culture = adunaic
-	faith = faith_adunaic
+	religion = faith_adunaic
 	
 	father = ruxoalendil27
 	mother = lineofrotthor2a31a1
@@ -5200,6 +5421,18 @@ lineofciryamirbranch19 = {
 	6682.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6904.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -5760,6 +5993,18 @@ lineofciryamir29 = {
 	6702.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6931.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -5791,6 +6036,18 @@ lineofciryamir30 = {
 	6926.1.1 = {
 		birth = yes
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 
 lineofciryamir31 = {
@@ -5971,6 +6228,18 @@ lineofkhorahil7 = {
 	6672.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6896.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -6007,6 +6276,19 @@ lineofkhorahil9 = {
 	6855.1.1 = {
 		birth = yes
 	}
+	
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 
 lineofkhorahil10 = {
@@ -8033,6 +8315,19 @@ lineoftelemnacil57 = {
         add_spouse = lineoftelemnacil58
     }
 
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
+
     6843.11.14 = {
         death = { death_reason = death_natural_causes }
     }
@@ -8169,6 +8464,19 @@ lineoftelemnacil61 = {
 
     6871.4.18 = {
         add_spouse = lineoftelemnacil62
+    }
+
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
     }
 
     7045.12.7 = {
@@ -9001,6 +9309,18 @@ lineofagathor_ns34 = {
 	6683.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6907.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -9038,6 +9358,18 @@ lineofagathor_ns36 = {
 	6845.1.1 = {
 		birth = yes
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 
 lineofagathor_ns37 = {
@@ -9336,6 +9668,18 @@ lineofaru14 = {
 	6568.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6886.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -9370,6 +9714,18 @@ lineofaru16 = {
 	6852.1.1 = {
 		birth = yes
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 lineofaru17 = {
 	name = Tamruzi_i_r
@@ -9618,6 +9974,18 @@ lineelebastard12 = {
 	6572.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6799.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -9688,6 +10056,18 @@ lineelebastard15 = {
 	6891.1.1 = {
 		birth = yes
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 lineelebastard16 = {
 	name = Arnuzi_i_l
@@ -10069,6 +10449,22 @@ lineofarialome19 = {
 	6578.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = {
+                type = religious_rights
+                level = 1
+            }
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6800.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -10124,6 +10520,22 @@ lineofarialome22 = {
 	6942.1.1 = {
 		birth = yes
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+            vassal_contract_set_obligation_level = {
+                type = religious_rights
+                level = 1
+            }
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 lineofarialome23 = {
 	name = A_A_rukhu_u_ra_a_n
@@ -10570,6 +10982,18 @@ lineofazrubensubmod27 = {
 	6582.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6808.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -10609,6 +11033,18 @@ lineofazrubensubmod29 = {
 	6820.1.1 = {
 		birth = yes
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 lineofazrubensubmod30 = {
 	name = Azrube_e_l
@@ -11148,6 +11584,18 @@ lineborodirsubmod25 = {
 	6582.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6806.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -11199,6 +11647,18 @@ lineborodirsubmod28 = {
 	6862.1.1 = {
 		birth = yes
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 lineborodirsubmod29 = {
 	name = Imrakho_o_r
@@ -11909,6 +12369,18 @@ linesirinore23 = {
 	6593.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6817.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -11960,6 +12432,18 @@ linesirinore26 = {
 	6967.1.1 = {
 		birth = yes
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 linesirinore27 = {
 	name = Axantur
@@ -12488,6 +12972,18 @@ linejewellord20 = {
 	6628.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6853.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -12558,6 +13054,18 @@ linejewellord23 = {
 	6829.1.1 = {
 		birth = yes
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 linejewellord24 = {
 	name = Zimratho_o_r
@@ -13043,6 +13551,18 @@ lineofondosto22 = {
 	6573.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6797.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -13102,6 +13622,18 @@ lineofondosto25 = {
 	6962.1.1 = {
 		add_spouse = lineofelros120
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 lineofelros120 = {
 	name = Gimilinzil
@@ -13898,7 +14430,7 @@ lineofrotthor2a7 = {
 
 	3911.1.1 = {
 		name = Zabatha_a_n
-		faith = faith_dairaben
+		religion = faith_dairaben
 		culture = adunaic
 	}
 
@@ -14417,6 +14949,19 @@ lineofrotthor2a29 = {
 		set_relation_soulmate = character:lineofrotthor2a29hub
 	}
 
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
+
     6888.1.1 = {
         death = {
             death_reason = death_natural_causes
@@ -14523,6 +15068,19 @@ lineofrotthor2a32 = {
 		add_matrilineal_spouse = lineofagathor_ns36a1
 		set_relation_soulmate = character:lineofagathor_ns36a1
 	}
+
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 
     7126.12.20 = {
         death = {
@@ -15086,7 +15644,7 @@ lineofbarimanurid4a3 = {
     }
 
 	3911.1.1 = {
-		faith = faith_dairaben
+		religion = faith_dairaben
 		culture = adunaic
 	}
 
@@ -15151,9 +15709,9 @@ lineofbarimanurid4a4a1 = {
         birth = yes
     }
 
-    3954.1.0 = {
+    3954.1.1 = {
 		name = Gimlibe_e_l
-		faith = faith_dairaben
+		religion = faith_dairaben
 	}
 
 	4221.6.11 = {
