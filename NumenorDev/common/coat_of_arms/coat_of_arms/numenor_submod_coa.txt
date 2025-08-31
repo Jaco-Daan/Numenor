@@ -1948,7 +1948,6 @@ dynasty_jewellord = {
 }
 
 e_anadunemelkor = {
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 0 0 0 }
 	color2=yellow
