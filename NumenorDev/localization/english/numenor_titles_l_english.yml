@@ -87,7 +87,7 @@
  c_anakadar: "Anakadar"
  c_hazdore: "Hasanórë" # Fix, Hasanórë?
  c_nidirmost: "Nidhost" # Fix, Nidhost
- c_zorakhator: "Zorâkhatôr"
+ c_zorakhator: "Zôrâkhatôr"
  c_noirinan: "Noirinan"
  c_kharalonde: "Hyallondë" # Fix, Hyallondë - while mixed names are OK, we should try and avoid them due to these names being for all start dates
  c_nindamos: "Nindamos"
@@ -254,7 +254,7 @@
  b_noirinan: "Noirinan"
  b_vanya: "Vanyien" # Fix, Vanyien
  b_thalionda: "Callova" # Fix, Callova
- b_zorakhator: "Zorâkhatôr"
+ b_zorakhator: "Zôrâkhatôr"
  b_zimraopele: "Zimrakadar" # Fix, Zimrakadar
  b_meneltarma: "Meneltarma"
  b_karbelaret: "Bar Forwing" # Fix, Bar Forwing
