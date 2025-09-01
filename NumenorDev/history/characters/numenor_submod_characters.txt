@@ -10635,6 +10635,8 @@ lineofarialome23 = {
 }
 lineofarialome21a1 = {
 	name = Andril
+	dna = andril_adunaphazorohil_wotr_dna
+	
 	female = yes
 	dynasty_house = dynasty_arialomedaughter
 	religion = faith_numenorean
@@ -12052,6 +12054,8 @@ lineborodirsubmod45 = {
 }
 lineborodirsubmod46 = {
 	name = Avale_e_th
+	dna = avaleth_zadan_urezagar_wotr_dna
+
 	dynasty_house = dynasty_borodiriathtwo
 	religion = faith_numenorean
 	culture = adunaic
