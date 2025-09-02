@@ -285,3 +285,39 @@ create_artifact_palantir_romenna_effect = {
 		}
 	}
 }
+
+create_artifact_scroll_of_kings_effect = { # Scroll of Kings
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {
+		name = scroll_of_kings_name
+		description = scroll_of_kings_description
+		type = miscellaneous
+		visuals = scroll_of_kings
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 524.9.10
+			recipient = character:lineofelros1 #Elros
+		}
+		modifier = scroll_of_kings_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact ?= {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = scroll_of_kings
+		save_scope_as = epic
+
+		add_artifact_title_history = {
+			target = title:e_numenor
+			date = 1034.1.1
+		}
+	}
+}

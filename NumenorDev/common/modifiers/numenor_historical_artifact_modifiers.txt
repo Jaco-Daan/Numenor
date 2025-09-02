@@ -1,0 +1,7 @@
+﻿scroll_of_kings_modifier = {
+	learning = 2
+    vassal_opinion = 10
+    court_grandeur_baseline_add = 10
+    monthly_prestige = 2
+    monthly_dynasty_prestige_mult = 0.5
+}

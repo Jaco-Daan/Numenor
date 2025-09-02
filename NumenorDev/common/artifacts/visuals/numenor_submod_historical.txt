@@ -7,3 +7,9 @@ palantir_romenna = { # Palantír of Rómenna
 	asset = palantir_entity
 }
 
+scroll_of_kings = { # Scroll of Kings
+    #icon = "artifact_icons_scroll_of_kings.dds"
+    icon = "artifact_scroll.dds"
+    asset = ep1_indian_book_big_01_a_entity
+}
+

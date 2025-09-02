@@ -27,6 +27,16 @@ lotr_historical_artifacts.0001 = {
 			create_artifact_nibaran_effect = { OWNER = this }
 			}
 		}
+
+		if = {
+			limit = {
+				has_dlc_feature = royal_court
+				current_date >= 542.9.10
+			}
+			title:e_numenor.holder  = { # King of Numenor receives Scroll of Kings
+			create_artifact_scroll_of_kings_effect = { OWNER = this }
+			}
+		}
 		
 		if = {
 			limit = {
