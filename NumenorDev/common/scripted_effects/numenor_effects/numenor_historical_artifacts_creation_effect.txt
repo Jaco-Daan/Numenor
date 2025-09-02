@@ -1,5 +1,56 @@
 ﻿### Númenor ###
 
+create_artifact_dramborleg_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {
+		name = dramborleg_name
+		description = dramborleg_description
+		type = axe
+		visuals = dramborleg
+		template = dramborleg_template
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 500.1.1
+			recipient = character:lineofhador10 #Tuor
+		}
+		modifier = dramborleg_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact ?= {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = dramborleg
+		set_variable = elven
+		set_variable = relic 
+		save_scope_as = epic
+
+		lotr_add_artifact_history = { # Earendil
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 528.1.1
+			RECIPIENT = character:lineoffingolfin9
+		}
+		lotr_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = given
+			DATE = 542.9.10
+			RECIPIENT = character:lineofelros1 #Elros
+		}
+		add_artifact_title_history = {
+			target = title:e_numenor
+			date = 1034.1.1
+		}
+	}
+}
+
 create_artifact_nibaran_effect = {
     # Get the character the artifact is being made for.
     $OWNER$ = { save_scope_as = owner }
@@ -16,8 +67,9 @@ create_artifact_nibaran_effect = {
         quality = scope:quality
         history = {
             type = created
-            date = 4155.1.1
-            recipient = character:lineofelros88 #Hallatan
+            date = 4115.1.1
+			actor = character:lineofelros89 #Hallatan
+            recipient = character:lineofelros89 #Hallatan
             location = province:b_armenelos #Armenelos
         }
         modifier = anduril_modifier
@@ -27,9 +79,170 @@ create_artifact_nibaran_effect = {
 
     scope:newly_created_artifact = {
         set_variable = { name = historical_unique_artifact value = yes }
-        set_variable = anduril
+        set_variable = narsil
         save_scope_as = epic
+
+		add_artifact_title_history = {
+		target = title:e_numenor
+		date = 4149.1.1
+		}
     }
+}
+
+create_artifact_numenorean_figurine_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_famed = yes
+
+	# Create the artifact
+	create_artifact = {
+		name = numenorean_figurine_name
+		description = numenorean_figurine_description
+		type = pedestal
+		visuals = numenorean_figurine
+		template = general_unique_template
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = numenorean_figurine_modifier
+		save_scope_as = newly_created_artifact
+		decaying = yes
+	}
+
+	scope:newly_created_artifact ?= {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = numenorean_figurine 
+		save_scope_as = epic
+
+		add_artifact_title_history = {
+		target = title:e_numenor
+		date = 3912.5.3
+		}
+	}
+}
+
+create_artifact_numenorean_shield_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {
+		name = numenorean_shield_name
+		description = numenorean_shield_description
+		type = wall_small
+		visuals = numenorean_shield
+		visuals_source = title:e_numenor
+		template = general_unique_template
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = numenorean_shield_modifier
+		save_scope_as = newly_created_artifact
+		decaying = yes
+	}
+
+	scope:newly_created_artifact ?= {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = numenorean_shield 
+		save_scope_as = epic
+
+		add_artifact_title_history = {
+		target = title:e_numenor
+		date = 3912.5.3
+		}
+	}
+}
+
+create_artifact_numenorean_helm_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {
+		name = numenorean_helm_name
+		description = numenorean_helm_description
+		type = pedestal
+		visuals = numenorean_helm
+		template = general_unique_template
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = numenorean_helm_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact ?= {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = numenorean_helm 
+		save_scope_as = epic
+
+		add_artifact_title_history = {
+		target = title:e_numenor
+		date = 3912.5.3
+		}
+	}
+}
+
+create_artifact_numenorean_steelbow_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {
+		name = numenorean_steelbow_name
+		description = numenorean_steelbow_description
+		type = pedestal
+		visuals = numenorean_steelbow
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = numenorean_steelbow_modifier
+		save_scope_as = newly_created_artifact
+		decaying = yes
+	}
+
+	scope:newly_created_artifact ?= {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = numenorean_steelbow 
+		save_scope_as = epic
+
+		add_artifact_title_history = {
+		target = title:e_numenor
+		date = 3912.5.3
+		}
+	}
+}
+
+create_artifact_numenorean_shield_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {
+		name = numenorean_shield_name
+		description = numenorean_shield_description
+		type = wall_small
+		visuals = numenorean_shield
+		visuals_source = title:e_numenor
+		template = general_unique_template
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = numenorean_shield_modifier
+		save_scope_as = newly_created_artifact
+		decaying = yes
+	}
+
+	scope:newly_created_artifact ?= {
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = numenorean_shield 
+		save_scope_as = epic
+	}
 }
 
 create_artifact_palantir_romenna_effect = {
@@ -50,6 +263,7 @@ create_artifact_palantir_romenna_effect = {
 		history = {
 			type = created
 			date = 2.2.1
+			actor = character:lineoffinwe3 #Fëanor
 			recipient = character:lineoffinwe3 #Fëanor
 			location = province:b_tirion #Tirion
 		}
@@ -62,6 +276,12 @@ create_artifact_palantir_romenna_effect = {
 		set_variable = { name = historical_unique_artifact value = yes }
 		set_variable = palantir_minasanor
 		set_variable = palantir
+		set_variable = ai_ungiftable
 		save_scope_as = epic
+
+		add_artifact_title_history = {
+		target = title:e_numenor
+		date = 1063.1.1
+		}
 	}
 }

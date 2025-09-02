@@ -10,36 +10,72 @@ lotr_historical_artifacts.0001 = {
 
 	immediate = {
 		## Númenor Submod ##
-		character:lineofelros114  = { # King of Numenor receives Dramborleg
+		if = {
+			limit = {
+				current_date >= 542.9.10
+			}
+			title:e_numenor.holder  = { # King of Numenor receives Dramborleg
 			create_artifact_dramborleg_effect = { OWNER = this }
+			}
+		}
+		
+		if = {
+			limit = {
+				current_date >= 4115.1.1
+			}
+			title:e_numenor.holder  = { # King of Numenor Little Aranruth
+			create_artifact_nibaran_effect = { OWNER = this }
+			}
 		}
 		
 		if = {
 			limit = {
 				has_dlc_feature = royal_court
+				current_date >= 1063.1.1
 			}
-			character:lineofelros114  = { # King of Numenor receives Palantir
+			title:e_numenor.holder  = { # King of Numenor receives Palantir of Romenna
 				create_artifact_palantir_romenna_effect = { OWNER = this }
 			}
 		}
-		character:lineofelros114  = { # King of Numenor Little Aranruth
-			create_artifact_nibaran_effect = { OWNER = this }
+
+		if = {
+			limit = {
+				has_dlc_feature = royal_court
+				current_date >= 3912.5.3
+			}
+			title:e_numenor.holder  = { # King of Numenor receives Numenorean Figurine
+				create_artifact_numenorean_figurine_effect = { OWNER = this }
+			}
+		}
+		
+		
+		if = {
+			limit = {
+				has_dlc_feature = royal_court
+				current_date >= 3912.5.3
+			}
+			title:e_numenor.holder  = { # King of Numenor receives Numenorean Helm
+				create_artifact_numenorean_helm_effect = { OWNER = this }
+			}
+		}
+
+		if = {
+			limit = {
+				has_dlc_feature = royal_court
+				current_date >= 3912.5.3
+			}
+			title:e_numenor.holder  = { # King of Numenor receives Numenorean Shield
+				create_artifact_numenorean_shield_effect = { OWNER = this }
+			}
 		}
 		
 		if = {
 			limit = {
-				 has_dlc_feature = royal_court
+				has_dlc_feature = royal_court
+				current_date >= 3912.5.3
 			}
-			character:lineofelros114  = { # King of Numenor receives Steelbow
+			title:e_numenor.holder  = { # King of Numenor receives Numenorean Steelbow
 				create_artifact_numenorean_steelbow_effect = { OWNER = this }
-			}
-		}
-		if = {
-			limit = {
-				 has_dlc_feature = royal_court
-			}
-			character:lineofelros114  = { # King of Numenor receives Helm
-				create_artifact_numenorean_helm_effect = { OWNER = this }
 			}
 		}
 		
