@@ -649,7 +649,8 @@ lineofelros112 = {
 	}
 }
 lineofelros113 = {
-	name = "Inziladu_u_n"
+	name = Inziladu_u_n
+	dna = inziladun_elerossioni_dna
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
@@ -675,6 +676,12 @@ lineofelros113 = {
 	6765.1.1 = {
 		birth = yes
 	}
+	6780.1.1 = {
+		set_relation_crush = character:lineofbarimanurid4a4a22a1
+	}
+	6880.1.1 = { # ALRAIN NOTE, ADD FILLER KING
+		add_spouse = lineofbarimanurid4a4a22a1
+	}
 	6982.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -691,6 +698,7 @@ lineofelros114 = {
 	
 	
 	father = lineofelros113
+	mother = lineofbarimanurid4a4a22a1
 	
 	trait = blood_of_numenor_7
 	trait = just
@@ -924,6 +932,7 @@ lineofelros117 = {
 	
 	
 	father = lineofelros113
+	mother = lineofbarimanurid4a4a22a1
 	
 	trait = blood_of_numenor_7
 	trait = brave
@@ -13729,6 +13738,7 @@ lineofelros120 = {
 	culture = adunaic
 	
 	father = lineofelros113
+	mother = lineofbarimanurid4a4a22a1
 	
 	trait = blood_of_numenor_7
 	trait = beauty_good_2
@@ -15742,6 +15752,123 @@ lineofrotthor2a28a1a1 = {
     }
 }
 
+lineofrotthor2a27a1 = {
+    name = U_U_ri_i_zi_i_r
+
+    religion = faith_dairaben
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a27
+
+    trait = blood_of_numenor_7
+    
+
+    6550.3.11 = {
+        birth = yes
+    }
+
+	6600.1.20 = {
+		add_spouse = lineofrotthor2a27a1wife
+	}
+
+    6762.1.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a27a1wife = {
+    name = Aba_a_ri_i_
+	female = yes
+
+    religion = faith_adunaic
+    culture = adunaic
+
+    trait = blood_of_numenor_7
+    
+
+    6550.12.19 = {
+        birth = yes
+    }
+
+    6765.9.20 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a27a2 = {
+    name = Minalthor
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a27a1
+	mother = lineofrotthor2a27a1wife
+
+    trait = blood_of_numenor_7
+    
+
+    6610.9.14 = {
+        birth = yes
+    }
+
+	6700.3.11 = {
+		add_spouse = lineofrotthor2a27a2wife
+	}
+
+    6833.9.4 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a27a2wife = {
+    name = Khe_e_ri_i_
+	female = yes
+
+    religion = faith_adunaic
+    culture = adunaic
+
+    trait = blood_of_numenor_7
+    
+
+    6611.3.14 = {
+        birth = yes
+    }
+
+    6838.2.1 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofrotthor2a27a3 = {
+    name = Minlube_e_ni_i_
+	female = yes
+
+    religion = faith_adunaic
+    culture = adunaic
+    dynasty = dynasty_rotthori
+
+    father = lineofrotthor2a27a2
+	mother = lineofrotthor2a27a2wife
+
+    trait = blood_of_numenor_7
+    
+    6702.2.11 = {
+        birth = yes
+    }
+
+    6929.4.11 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+
 ### House of Barim an-Urid ###
 
 lineofbarimanurid4a2 = { # ...but these tales pass into the annals of Númenor the Arisen
@@ -16274,6 +16401,16 @@ lineofbarimanurid4a4a21 = {
         birth = yes
     }
 
+	6765.1.14 = {
+		effect = {
+            create_alliance = {
+                target = character:lineofrotthor2a29
+                allied_through_owner = character:lineofbarimanurid4a4a22
+                allied_through_target = character:lineofrotthor2a27a3
+            }
+        }
+	}
+
 	6789.2.14 = {
         death = {
             death_reason = death_natural_causes
@@ -16295,7 +16432,41 @@ lineofbarimanurid4a4a22 = {
         birth = yes
     }
 
+	6763.1.14 = {
+		add_spouse = lineofrotthor2a27a3
+		set_relation_lover = character:lineofrotthor2a27a3
+	}
+
 	6911.3.27 = {
+        death = {
+            death_reason = death_natural_causes
+        }
+    }
+}
+lineofbarimanurid4a4a22a1 = {
+    name = A_A_ru_u_phe_e_l
+	female = yes
+
+    father = lineofbarimanurid4a4a22
+	mother = lineofrotthor2a27a3
+
+    dynasty = dynasty_barim_an_urid
+    religion = faith_adunaic
+    culture = adunaic
+
+    trait = blood_of_numenor_7
+	trait = intellect_good_1
+	trait = beauty_good_1
+	trait = shy
+	trait = diligent
+	trait = humble
+	trait = education_diplomacy_2
+
+    6765.2.19 = {
+        birth = yes
+    }
+
+	6982.9.18 = {
         death = {
             death_reason = death_natural_causes
         }
@@ -16305,6 +16476,7 @@ lineofbarimanurid4a4a23 = {
     name = Zimrazagar
 
     father = lineofbarimanurid4a4a22
+	mother = lineofrotthor2a27a3
 
     dynasty = dynasty_barim_an_urid
     religion = faith_adunaic
@@ -16312,7 +16484,7 @@ lineofbarimanurid4a4a23 = {
 
     trait = blood_of_numenor_7
 
-    6767.6.7 = {
+    6769.6.7 = {
         birth = yes
     }
 
