@@ -176,6 +176,7 @@ e_numenor = {
 d_adunai = {
 	6480.1.1 = {
 		holder = lineofelros109 # Vëantur, first Monarch to be the new Adunaben faith
+		s = { equal_law }
 	}
 	6593.1.1 = {
 		holder = lineofelros110 # Elendil II
@@ -184,7 +185,7 @@ d_adunai = {
 		holder = lineofelros111 # Zimrathôn
 	}
 	6786.1.1 = {
-		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle Earth
+		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle-earth
 	}
 	6841.1.1 = {
 		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
