@@ -6,12 +6,6 @@
 	#motto = dynn_andunie_motto
 #}
 
-dynasty_khorahil = {
-	name = "dynn_khorahil"
-	dynasty = dynasty_ciryamir
-	motto = dynn_khorahil_motto
-}
-
 dynasty_azruhil = {
 	name = "dynn_azruhil"
 	dynasty = dynasty_mornionath

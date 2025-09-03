@@ -90,13 +90,13 @@ dynasty_balkuloni = {
 }
 
 dynasty_sorontiljewellord = {
-	name = dynn_sorontiljewelord
+	name = "dynn_sorontiljewelord"
 	culture = numenorean
 	motto = dynn_sorontiljewelord_motto
 }
 
 dynasty_sirinorejewel = {
-	name = dynn_sirinorejewel
+	name = "dynn_sirinorejewel"
 	culture = numenorean
 	motto = dynn_sirinorejewel_motto
 }

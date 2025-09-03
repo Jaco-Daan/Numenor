@@ -7364,6 +7364,20 @@ c_meneltarma = {
 	}
 }
 
+d_forpende = {
+	6814.1.1 = {
+		holder = lineofondostotwo4
+		liege = e_numenor
+	}
+	6843.1.1 = {
+		holder = lineofondostotwo5
+	}
+	6984.1.1 = {
+		holder = lineofondostotwo6
+		liege = e_numenor
+	}
+}
+
 c_forpende = {
 	3911.1.1 = {
 		holder = lineofelros88
@@ -7436,7 +7450,7 @@ c_forpende = {
 	}
 	6628.1.1 = {
 		holder = lineofondostotwo3
-		liege = d_ondosto
+		liege = e_numenor
 	}
 	6788.1.1 = {
 		holder = lineofondostotwo4
@@ -7446,7 +7460,7 @@ c_forpende = {
 	}
 	6984.1.1 = {
 		holder = lineofondostotwo6
-		liege = d_ondosto
+		liege = e_numenor
 	}
 }
 
@@ -7529,7 +7543,7 @@ c_ingamar = {
 	}
 	6984.1.1 = {
 		holder = lineofondostotwo6
-		liege = d_ondosto
+		liege = e_numenor
 		change_development_level = 12
 	}
 }
