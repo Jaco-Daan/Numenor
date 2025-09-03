@@ -102,6 +102,8 @@ lakes = LIST { 7793 7794 } # Mumakan
 # Can be colored by whoever owns the most of the province's neighbours.
 # Blocks unit movement.
 
+impassable_mountains = LIST { 3188 } # Jamie's work zone
+
 #Mordor
 impassable_mountains = RANGE { 731 736 } # Gorgoroth Wastelands
 impassable_mountains = LIST { 737 738 739 740 742 1350 1980 2117 } # Ephel Dúath
