@@ -566,6 +566,10 @@ lineofelros109 = {
 	father = lineofelros108
 	
 	trait = blood_of_numenor_7
+	trait = gregarious
+	trait = ambitious
+	trait = patient
+	trait = education_diplomacy_5
 	trait = scholar
 	
 	6361.1.1 = {
