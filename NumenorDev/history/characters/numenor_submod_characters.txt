@@ -17414,6 +17414,8 @@ place19 = {
 }
 arkiavanity = {
 	name = Arkia
+	dna = arkia_dna
+	
 	dynasty = dynasty_vanityarkia
 	religion = faith_ainur
 	culture = maiar
