@@ -4495,6 +4495,9 @@ ruxoalendil11 = {
 	3892.1.1 = {
 		birth = yes
 	}
+	4002.1.1 = {
+		add_spouse = linesorontiljewel4
+	}
 	4107.1.1 = {
 		death = { death_reason = death_battle }
 	}
@@ -4506,10 +4509,11 @@ ruxoalendil12 = {
 	religion = faith_numenorean
 	
 	father = ruxoalendil11
+	mother = linesorontiljewel4
 	
 	trait = blood_of_numenor_7
 	
-	4097.1.1 = {
+	4090.1.1 = {
 		birth = yes
 	}
 	4325.1.1 = {
@@ -16928,7 +16932,7 @@ linesorontiljewel2 = {
 		birth = yes
 	}
 	3939.1.1 = {
-		death = { death_reason = death_execution killer = lineofciryandur18 }
+		death = { death_reason = death_execution killer = ruxoalendil11 }
 	}
 }
 linesorontiljewel3 = {
@@ -16944,12 +16948,12 @@ linesorontiljewel3 = {
 	3803.1.1 = {
 		birth = yes
 	}
-	3924.1.1 = {
+	3991.1.1 = {
 		death = { death_reason = death_battle }
 	}
 }
 linesorontiljewel4 = {
-	name = Imrazo_o_r
+	name = Imraphe_e_l
 	dynasty	= dynasty_sorontiljewellord
 	culture = numenorean
 	female = yes
@@ -16962,8 +16966,8 @@ linesorontiljewel4 = {
 	3878.1.1 = {
 		birth = yes
 	}
-	3930.1.1 = {
-		religion = faith_kings_men_numenorean
+	3991.1.1 = {
+		religion = faith_dairaben
 	}
 	4098.1.1 = {
 		death = { death_reason = death_natural_causes }
