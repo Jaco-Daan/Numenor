@@ -178,9 +178,9 @@
     }
 	6776.1.1 = {
 		buildings = {
-			castle_02
-			curtain_walls_04
-			cereal_fields_04
+			castle_03
+			curtain_walls_06
+			cereal_fields_06
 		}
 		duchy_capital_building = archery_ranges_02
 	}
@@ -275,9 +275,9 @@
     }
 	6776.1.1 = {
 		buildings = {
-			castle_02
-			curtain_walls_04
-			pastures_04
+			castle_03
+			curtain_walls_06
+			pastures_06
 		}
 		special_building_slot = wonder_erendis_01
 		special_building = wonder_erendis_01
@@ -347,9 +347,9 @@
     }
 	6776.1.1 = {
 		buildings = {
-			castle_02
-			curtain_walls_04
-			cereal_fields_04
+			castle_03
+			curtain_walls_06
+			cereal_fields_06
 		}
 		duchy_capital_building = archery_ranges_02
 	}
@@ -1113,7 +1113,7 @@
 	6776.1.1 = {
 		buildings = {
 			castle_03
-			hill_forts_04
+			hill_forts_06
 			hill_farms_06
 		}
 		duchy_capital_building = march_02
@@ -1291,7 +1291,7 @@
 	6776.1.1 = {
 		buildings = {
 			castle_03
-			curtain_walls_04
+			curtain_walls_06
 			farm_estates_06
 		}
 		duchy_capital_building = royal_armory_02
