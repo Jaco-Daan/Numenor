@@ -860,7 +860,7 @@ lineofelros25 = {
 	trait = depressed_1				
 		
 
-	trait = blood_of_numenor_10
+	trait = blood_of_numenor_9
 	3627.1.1 = {				
 		birth = yes		
 		
@@ -895,7 +895,7 @@ lineofelros26 = {
 	trait = depressed_1				
 	
 
-	trait = blood_of_numenor_10
+	trait = blood_of_numenor_9
 	3709.1.1 = {				
 		birth = yes			
 		
@@ -2778,14 +2778,14 @@ lineofelatan20 = { # Lindórië, mother of Inzilbeth: the wife of Ar-Gimilzôr
 }
 lineofelatan21 = {
 	name = Inzilbe_e_th 				
-	dynasty_house = house_andunie				
+	dynasty = dynasty_elros			
 	religion = faith_numenorean				
 	culture = numenorean				
 
 	female = yes				
 
 	mother = lineofelatan20				
-
+	father = lineofelros83
 	 				
 	trait = intellect_good_2
 	trait = education_intrigue_4
@@ -2793,9 +2793,8 @@ lineofelatan21 = {
 	trait = humble				
 	trait = patient				
 	trait = just				
-
 	
-	trait = blood_of_numenor_10
+	trait = blood_of_numenor_9
 	3560.1.1 = {				
 		birth = yes	
 		

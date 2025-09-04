@@ -44,14 +44,18 @@ lineofelros83 = {
 	religion = faith_kings_men_numenorean
 	culture = numenorean
 	
-	
-	
 	father = lineofelros82
 	
 	trait = blood_of_numenor_8
+	trait = brave
+	trait = strong
+	trait = beauty_good_2
 	
 	3354.1.1 = {
 		birth = yes
+	}
+	3470.1.1 = {
+		add_spouse = lineofelatan20
 	}
 	3555.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -136,20 +140,28 @@ lineofelros87 = {
 		death = {death_reason = death_mysterious }
 	}
 }
-lineofelros88 = {
+lineofelros88 = { # Tar-Cemendur, also known as Ar-Dairaben
 	name = "Cemendur"
 	dynasty = dynasty_elros
-	religion = faith_numenorean 
+	religion = faith_kings_men_numenorean 
 	culture = numenorean
 	
 	father = lineofelros87
 	
 	trait = blood_of_numenor_7
 	trait = lifestyle_blademaster
+	trait = education_diplomacy_3
+	trait = brave
+	trait = strong
+	trait = wrathful
+	trait = cynical
 	trait = just
 	
 	3889.1.1 = {
 		birth = yes
+	}
+	3902.1.1 = {
+		religion = faith_numenorean
 	}
 	4123.1.1 = {
 		death = {death_reason = death_natural_causes }
@@ -161,8 +173,6 @@ lineofelros89 = {
 	religion = faith_numenorean
 	culture = numenorean
 	
-	
-	
 	father = lineofelros88
 	mother = lineofelros26
 	
@@ -170,6 +180,7 @@ lineofelros89 = {
 	trait = strong
 	trait = brave
 	trait = physique_good_2
+	trait = education_martial_3
 	trait = patient
 	trait = ambitious
 	
@@ -186,17 +197,19 @@ lineofelros89 = {
 		death = { death_reason = death_duel }
 	}
 }
-lineofelros90 = {
+lineofelros90 = { # Tar-Aldarion II, 'The Hand of Eru' The Faithful King who began the reconstruction of Númenor post-Civil War
 	name = "Aldarion"
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 	
-	
-	
 	father = lineofelros89
 	
 	trait = blood_of_numenor_8
+	trait = education_stewardship_2
+	trait = diligent
+	trait = wrathful
+	trait = zealous
 	
 	3963.1.1 = {
 		birth = yes
@@ -206,12 +219,10 @@ lineofelros90 = {
 	}
 }
 lineofelros91 = {
-	name = "Azrube_e_l"
+	name = Meneldur
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
-	
-	
 	
 	father = lineofelros90
 	
@@ -225,16 +236,19 @@ lineofelros91 = {
 	}
 }
 lineofelros92 = {
-	name = "Karbazi_i_r"
+	name = Miriel
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 	
-	
+	female = yes
 	
 	father = lineofelros91
 	
 	trait = blood_of_numenor_7
+	trait = just
+	trait = diligent
+	trait = arrogant
 	
 	4223.1.1 = {
 		birth = yes
@@ -243,17 +257,20 @@ lineofelros92 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-lineofelros93 = {
-	name = "Balkumaga_a_n"
+lineofelros93 = { # Tar-Ciryatan II, began the restoration of Armenelos, and moved the capital there
+	name = Ciryatan
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 	
-	
-	
-	father = lineofelros92
+	mother = lineofelros92
 	
 	trait = blood_of_numenor_7
+	trait = diligent
+	trait = brave
+	trait = impatient
+	trait = education_stewardship_4
+	trait = strong
 	
 	4372.1.1 = {
 		birth = yes
@@ -263,12 +280,10 @@ lineofelros93 = {
 	}
 }
 lineofelros94 = {
-	name = "Minluzi_i_r"
+	name = Anducal
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
-	
-	
 	
 	father = lineofelros93
 	
@@ -282,7 +297,7 @@ lineofelros94 = {
 	}
 }
 lineofelros95 = {
-	name = "Anardil"
+	name = E_a_arendur
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
@@ -320,7 +335,7 @@ lineofelros96 = {
 	}
 }
 lineofelros97 = {
-	name = "Tari_i_kmaga_a_n"
+	name = Cemendur
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
@@ -363,8 +378,6 @@ lineofelros99 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	
-	
 	father = lineofelros98
 	
 	trait = blood_of_numenor_7
@@ -376,17 +389,21 @@ lineofelros99 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-lineofelros100 = {
-	name = "Sakaltho_o_r"
+lineofelros100 = { # Tar-Falassion, The Shore King, spent most of his reign in debauchary
+	name = Falassion
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 	
-	
-	
 	father = lineofelros99
 	
 	trait = blood_of_numenor_7
+	trait = lustful
+	trait = strong
+	trait = adulterer
+	trait = lifestyle_mariner
+	trait = rakish
+	trait = athletic
 	
 	5234.1.1 = {
 		birth = yes
@@ -395,17 +412,20 @@ lineofelros100 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-lineofelros101 = {
+lineofelros101 = { # Tar-Telemnar, legitimised some of his Father's bastards, even landed the eldest
 	name = "Telemnar"
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
-	
-	
-	
+
 	father = lineofelros100
 	
 	trait = blood_of_numenor_7
+	trait = scholar
+	trait = trusting
+	trait = compassionate
+	trait = shrewd
+	trait = beauty_good_2
 	
 	5321.1.1 = {
 		birth = yes
@@ -414,17 +434,19 @@ lineofelros101 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-lineofelros102 = {
+lineofelros102 = { # Tar-Calion, the Sun King, known for his ability to fight and eagerness to do so
 	name = "Calion"
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 	
-	
-	
 	father = lineofelros101
 	
 	trait = blood_of_numenor_7
+	trait = arrogant
+	trait = brave
+	trait = lifestyle_blademaster
+	trait = gregarious
 	
 	5481.1.1 = {
 		birth = yes
@@ -433,13 +455,11 @@ lineofelros102 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-lineofelros103 = {
-	name = "Falassion"
+lineofelros103 = { 
+	name = An_arion
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
-	
-	
 	
 	father = lineofelros102
 	
@@ -458,8 +478,6 @@ lineofelros104 = {
 	religion = faith_numenorean
 	culture = adunaic
 	
-	
-	
 	father = lineofelros103
 	
 	trait = blood_of_numenor_7
@@ -471,17 +489,20 @@ lineofelros104 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-lineofelros105 = {
+lineofelros105 = { # Tar-Amandil, a peaceful King who reigned over a period of peace and splendour
 	name = "Amandil"
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 	
-	
-	
 	father = lineofelros104
 	
 	trait = blood_of_numenor_7
+	trait = temperate
+	trait = lazy
+	trait = shy
+	trait = education_learning_4
+	trait = scholar
 	
 	5974.1.1 = {
 		birth = yes
@@ -490,17 +511,22 @@ lineofelros105 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-lineofelros106 = {
-	name = "Gimilkha_a_d"
+lineofelros106 = { # Tar-Tindomiel, The Diligent Queen, spent so much of her time ruling Númenor, she neglected her children
+	name = Tind_omiel
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 	
-	
+	female = yes
 	
 	father = lineofelros105
 	
 	trait = blood_of_numenor_7
+	trait = diligent
+	trait = patient
+	trait = callous
+	trait = intellect_good_1
+	trait = education_stewardship_3
 	
 	6082.1.1 = {
 		birth = yes
@@ -515,12 +541,15 @@ lineofelros107 = {
 	religion = faith_kings_men_numenorean
 	culture = adunaic
 	
-	
-	
-	father = lineofelros106
+	mother = lineofelros106
 	
 	trait = blood_of_numenor_7
-	trait = sorcerer_3
+	trait = sorcerer_1
+	trait = lunatic_genetic
+	trait = paranoid
+	trait = fickle
+	trait = cynical
+	trait = education_learning_1
 	
 	6242.1.1 = {
 		birth = yes
@@ -529,21 +558,20 @@ lineofelros107 = {
 		death = { death_reason = death_battle }
 	}
 }
-lineofelros108 = {
+lineofelros108 = { # Tar-Ancalimon 'The Great', defeated his brother in the civil war
 	name = "Ancalimon"
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 	
-	
-	
-	father = lineofelros106
+	mother = lineofelros106
 	
 	trait = blood_of_numenor_7
 	trait = just
 	trait = diligent
 	trait = brave
 	trait = scholar
+	trait = education_martial_3
 	
 	6250.1.1 = {
 		birth = yes
@@ -555,13 +583,11 @@ lineofelros108 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-lineofelros109 = {
-	name = "Veantur"
+lineofelros109 = { # Tar-Veantur, founder of the Adunaben faith
+	name = "V_e_eantur"
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
-	
-	
 	
 	father = lineofelros108
 	
@@ -580,12 +606,10 @@ lineofelros109 = {
 	}
 }
 lineofelros110 = {
-	name = "Elendil"
+	name = "E_E_ruzagar"
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
-	
-	
 	
 	father = lineofelros109
 	
@@ -1586,6 +1610,11 @@ hostamirdaughter = {
 	father = lineofelros104
 	
 	trait = blood_of_numenor_7
+	trait = content
+	trait = humble
+	trait = beauty_good_2
+	trait = stubborn
+	trait = disinherited # Rejected the throne to marry her lover, Atanamir of Andunie
 	
 	5886.1.1 = {
 		birth = yes
@@ -12628,7 +12657,7 @@ gimilkhadbastard = {
 
 	trait = disputed_heritage
 	trait = beauty_good_2
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_6
 	trait = impatient
 	trait = sadistic
 	trait = ambitious
@@ -12646,7 +12675,7 @@ linejewellord1 = {
 	religion = faith_kings_men_numenorean
 	culture = numenorean
 	
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_6
 	trait = greedy
 	trait = arrogant
 	trait = callous
@@ -12658,6 +12687,7 @@ linejewellord1 = {
 	}
 	3822.1.1 = {
 		add_spouse = gimilkhadbastard
+		religion = melkorite
 	}
 	3911.1.1 = {
 		death = { death_reason = death_valinor_crushed }
@@ -12673,7 +12703,7 @@ linejewellord2 = { # Named after his supposed Grandfather, contender for the Nú
 	father = linejewellord1
 	mother = gimilkhadbastard
 	
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_6
 	trait = sadistic
 	trait = greedy
 	trait = ambitious
@@ -12694,7 +12724,7 @@ linegimilson1 = {
 	
 	father = linejewellord2
 	
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_6
 	trait = strong
 	trait = wrathful
 	trait = deceitful
@@ -12712,11 +12742,11 @@ linegimilson2 = {
 	name = Gimilkha_a_d
 	dynasty_house = dynasty_gimilkhadson
 	religion = melkorite
-	culture = numenorean
+	culture = adunaic
 	
 	father = linegimilson1
 	
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_6
 	
 	trait = brave
 	trait = vengeful
@@ -12735,11 +12765,11 @@ linegimilson3 = {
 	name = Gimilzo_o_r
 	dynasty_house = dynasty_gimilkhadson
 	religion = melkorite
-	culture = numenorean
+	culture = adunaic
 	
 	father = linegimilson2
 	
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_6
 	trait = arbitrary
 	trait = greedy
 	trait = ambitious
@@ -12759,11 +12789,11 @@ linegimilson4 = {
 	name = Adu_u_nakho_o_r
 	dynasty_house = dynasty_gimilkhadson
 	religion = melkorite
-	culture = numenorean
+	culture = adunaic
 	
 	father = linegimilson3
 	
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_5
 	trait = sadistic
 	trait = vengeful
 	trait = greedy
@@ -13226,7 +13256,7 @@ linejewellord30 = {
 
 ### Lords of Ondosto ###
 lineofondosto1 = {
-	name = Arphaze_e_ne_e_th
+	name = Lind_ori_e_e # Named after Miriel's great grandmother
 	female = yes
 	dynasty = dynasty_elros
 	religion = faith_numenorean

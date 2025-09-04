@@ -7368,6 +7368,7 @@ c_meneltarma = {
 d_forpende = {
 	6814.1.1 = {
 		holder = lineofondostotwo4
+		government = feudal_government
 		liege = e_numenor
 	}
 	6843.1.1 = {
