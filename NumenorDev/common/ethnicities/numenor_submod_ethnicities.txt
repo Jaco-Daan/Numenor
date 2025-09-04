@@ -360,10 +360,10 @@ adunaic_ethnicity = {
 		45 = { name = eye_corner_depth_pos    range = { 0.0 0.4 }    }
 	}
 	gene_eye_depth = {
-        20 = { name = eye_depth_neg    range = { 0.35 0.45 }    }
-		30 = { name = eye_depth_neg    range = { 0.45 0.5 }    }
-        30 = { name = eye_depth_pos    range = { 0.5 0.55 }    }
-        20 = { name = eye_depth_pos    range = { 0.55 0.65 }    }
+        5 = { name = eye_depth_neg    range = { 0.3 0.4 }    }
+		5 = { name = eye_depth_neg    range = { 0.4 0.5 }    }
+        1 = { name = eye_depth_pos    range = { 0.5 0.55 }    }
+        1 = { name = eye_depth_pos    range = { 0.55 0.65 }    }
     }
 	gene_eye_distance = {
         1 = { name = eye_distance_neg    range = { 0.25 0.35 }    }
@@ -383,8 +383,8 @@ adunaic_ethnicity = {
         10 = { name = eye_height_pos    range = { 0.55 0.75 }    }
     }
 	gene_bs_eye_size = {
-        25 = { name = eye_size_pos    range = { 0.0 0.25 }    }
-        10 = { name = eye_size_neg    range = { 0.0 0.25 }    }
+        5 = { name = eye_size_pos    range = { 0.1 0.25 }    }
+        2 = { name = eye_size_neg    range = { 0.0 0.25 }    }
 	}
 	face_detail_eye_socket = {
         5 = {  name = eye_socket_03             range = { 0.0 0.4 }     }
@@ -759,6 +759,11 @@ adunaic_ethnicity = {
     gene_bs_mouth_lower_lip_profile = {
         5 = { name = vanilla_lower_lip_profile   range = { 0 0 }    }
     }
+
+    face_detail_eye_upper_lid_def = {
+        1 = { name = upper_lid_def_1 range = { 0 1 } }
+        5 = { name = upper_lid_def_2 range = { 0 1 } }
+    }
 }
 
 adunaic_ethnicity_1 = {
@@ -881,10 +886,7 @@ adunaic_ethnicity_1 = {
         10 = { name = eye_height_pos    range = { 0.5 0.55 }    }
         10 = { name = eye_height_pos    range = { 0.55 0.75 }    }
     }
-	gene_bs_eye_size = {
-        25 = { name = eye_size_pos    range = { 0.0 0.25 }    }
-        10 = { name = eye_size_neg    range = { 0.0 0.25 }    }
-	}
+	
 	face_detail_eye_socket = {
         5 = {  name = eye_socket_03             range = { 0.0 0.4 }     }
         15 = {  name = eye_socket_02             range = { 0.0 0.4 }     }
@@ -1220,11 +1222,7 @@ adunaic_ethnicity_2 = {
 		1 = { name = eye_corner_depth_pos    range = { 0.0 0.3 }    }
         2 = { name = eye_corner_depth_pos    range = { 0.3 0.6 }    }
 	}
-	gene_eye_depth = {
-		1 = { name = eye_depth_neg    range = { 0.45 0.5 }    }
-        2 = { name = eye_depth_pos    range = { 0.5 0.55 }    }
-        20 = { name = eye_depth_pos    range = { 0.55 0.65 }    }
-    }
+	
 	gene_eye_distance = {
         1 = { name = eye_distance_neg    range = { 0.45 0.5 }    }
         2 = { name = eye_distance_pos    range = { 0.5 0.55 }    }

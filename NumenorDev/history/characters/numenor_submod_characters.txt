@@ -899,12 +899,12 @@ lineofelros114a1a1 = {
 	mother = lineofazrubensubmod28a2
 	
 	trait = blood_of_numenor_7
-	trait = just
-	trait = brave
-	trait = stubborn
-	trait = rowdy
+	trait = diligent
+	trait = deceitful
+	trait = patient
+	trait = charming
 	trait = beauty_good_1
-	trait = education_martial_3
+	trait = education_intrigue_4
 	
 	diplomacy = 4
 	martial = 6
@@ -11228,6 +11228,7 @@ lineofazrubensubmod28a1wife = {
 }
 lineofazrubensubmod28a2 = {
 	name = Balkuphe_e_l
+	dna = balkuphel_azulhin_wotr_dna
 	female = yes
 
 	dynasty = dynasty_azulhin
@@ -11236,8 +11237,20 @@ lineofazrubensubmod28a2 = {
 	
 	father = lineofazrubensubmod28a1
 	mother = lineofazrubensubmod28a1wife
+
+	trait = deceitful
+	trait = gregarious
+	trait = patient
 	
 	trait = blood_of_numenor_7
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 2
+	intrigue = 8
+	learning = 6
+	prowess = 4
 	
 	6947.3.20 = {
 		birth = yes
