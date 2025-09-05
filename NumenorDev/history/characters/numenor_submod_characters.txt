@@ -796,7 +796,7 @@ lineofelros114 = {
 	}
 }
 lineofelros115 = {
-	name = "Falassion"
+	name = Sakaltho_o_r
 	dna = falassion_elerossioni_dna_wotr
 	dynasty = dynasty_elros
 	religion = faith_adunaic
@@ -839,7 +839,7 @@ lineofelros115 = {
 	}
 }
 lineofelros116 = {
-	name = "Elendil"
+	name = Isilitho_o_r
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
@@ -872,7 +872,7 @@ lineofelros116 = {
 }
 
 lineofelros114a1 = {
-	name = Alcarion
+	name = Azrutho_o_r
 	dna = alcarion_elerossioni_dna_wotr
 	dynasty = dynasty_elros
 	religion = faith_adunaic
@@ -913,7 +913,7 @@ lineofelros114a1 = {
 	}
 }
 lineofelros114a2 = {
-	name = Vanyafindel_e_e
+	name = U_U_ri_i_phe_e_l
 	female = yes
 	dynasty = dynasty_elros
 	religion = faith_adunaic
@@ -948,7 +948,7 @@ lineofelros114a2 = {
 	}
 }
 lineofelros114a1a1 = {
-	name = Ancalim_e_e
+	name = Mu_u_raphe_e_l
 	female = yes
 	dynasty = dynasty_elros
 	religion = faith_adunaic
