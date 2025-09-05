@@ -1,0 +1,11 @@
+﻿	##################
+	# TRIGGERED ONLY #
+	##################
+
+    # Númenórean
+    nick_nucuptar_tar_hallatan = {}
+    nick_uriyaru_tar_calion = {}
+    nick_andoralcar_tar_amandil = {}
+    nick_zayanmagani_tar_tindomiel = {}
+    nick_the_great_tar_ancalimon = {}
+    nick_the_pragmatic_tar_veantur = {}

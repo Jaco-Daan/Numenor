@@ -1,0 +1,41 @@
+﻿l_english:
+  # [CHARACTER.GetShortUINameNoTooltipNoFormat]
+  # [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat]
+  # 
+  # [CharYouSheHe(CHARACTER)]
+  # [CharMyHerHis(CHARACTER)]
+  # [CharYourHerHis(CHARACTER)]
+  # [CharYoursHerHis(CHARACTER)]
+  # [CharYouHerHim(CHARACTER)]
+  # [CharYourHerHimself(CHARACTER)]
+  # [CharYouThey(CHARACTER)]
+  # [CharYouThem(CHARACTER)]
+  # [CharYourTheir(CHARACTER)]
+  #
+  # [CharAreIs(CHARACTER)]
+  # [CharHaveHas(CHARACTER)]
+  # [CharDoDoes(CHARACTER)]
+  # [CharGoGoes(CHARACTER)]
+  # [CharWereWas(CHARACTER)]
+  #
+  # [_s(CHARACTER)]
+  # [_es(CHARACTER)]
+  # [CHARACTER.GetWomanMan]
+  # [CharDontDoesnt(CHARACTER)]
+  # 
+  # (there might be more, check the vanilla file)
+  # remember to add |U at the end to capitalize the start of a sentence!
+
+  # Númenórean
+  nick_nucuptar_tar_hallatan: "Nucuptar"
+  nick_nucuptar_tar_hallatan_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] named [Glossary('Nucuptar','nucuptar_gloss')] when [CharYouSheHe(CHARACTER)] reunited the shattered principalities on the island of [numenor|E] by way of sword."
+  nick_uriyaru_tar_calion: "Ûriyârû"
+  nick_uriyaru_tar_calion_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] given the epithet [Glossary('Ûriyârû','uriyaru_gloss')] for [CharYourHerHis(CHARACTER)] bright blond hair and fiery personality. [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] also an eager and masterful swordfighter, for which [CharYouSheHe(CHARACTER)] [CharWereWas(CHARACTER)] also named [Glossary('Lintamacil','lintamacil_gloss')]."
+  nick_andoralcar_tar_amandil: "Andoralcar"
+  nick_andoralcar_tar_amandil_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] named [Glossary('Andoralcar','andoralcar_gloss')], for [CharYourHerHis(CHARACTER)] rule brought much splendor to the land of Andor, otherwise known as [westernesse|E]."
+  nick_zayanmagani_tar_tindomiel: "Zâyanmagânî"
+  nick_zayanmagani_tar_tindomiel_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] named [Glossary('Zâyanmagânî','zayanmagani_gloss')] for [CharYourHerHis(CHARACTER)] rule and [CharYourHerHis(CHARACTER)] building of the realm to greater heights than the kings before [CharYouHerHim(CHARACTER)]. But in doing so, [CharYouSheHe(CHARACTER)] neglected [CharYourHerHis(CHARACTER)] own children, leading to a calamitious civil war."
+  nick_the_great_tar_ancalimon: "the Great"
+  nick_the_great_tar_ancalimon_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] defeated [CharYourHerHis(CHARACTER)] brother, [GetScriptedCharacterByHistoryID( 'lineofelros107' ).GetFirstName], restoring faith and honor to the line of [GetScriptedCharacterByHistoryID( 'lineofelros1' ).GetFirstName]."
+  nick_the_pragmatic_tar_veantur: "the Pragmatic"
+  nick_the_pragmatic_tar_veantur_desc: "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] gregarious nature and canny mind [CharWereWas(CHARACTER)] enough to bridge the gap between the [kingsmen|E] and the [faithful|E], uniting all but the most zealous into a new faith: the [Glossary('Adûnabên','adunaben_gloss')]."

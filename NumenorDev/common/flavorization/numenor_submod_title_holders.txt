@@ -115,3 +115,26 @@ emperor_feudal_female_numenor_nonholder = {
 	}
 	heritages = { heritage_adunaic }
 }
+
+prince_emperor_feudal_numenorean = {
+	type = character
+	gender = male
+	special = ruler_child
+	priority = 250
+	heritages = { heritage_adunaic }
+	titles = { e_numenor }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}
+princess_emperor_feudal_numenorean = {
+	type = character
+	gender = female
+	special = ruler_child
+	priority = 250
+	heritages = { heritage_adunaic }
+	titles = { e_numenor }
+	flavourization_rules = { 
+		top_liege = no
+	}
+}

@@ -191,7 +191,12 @@ lineofelros89 = {
 		culture = adunaic
 	}
 	4130.1.1 = {
-		give_nickname = nick_the_vanquisher
+		give_nickname = nick_nucuptar_tar_hallatan
+		effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
 	}
 	4149.1.1 = {
 		death = { death_reason = death_duel }
@@ -436,6 +441,7 @@ lineofelros101 = { # Tar-Telemnar, legitimised some of his Father's bastards, ev
 }
 lineofelros102 = { # Tar-Calion, the Sun King, known for his ability to fight and eagerness to do so
 	name = "Calion"
+	dna = calion_uriyaru_elerossioni_dna
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
@@ -450,6 +456,12 @@ lineofelros102 = { # Tar-Calion, the Sun King, known for his ability to fight an
 	
 	5481.1.1 = {
 		birth = yes
+		give_nickname = nick_uriyaru_tar_calion
+		effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
 	}
 	5704.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -506,6 +518,12 @@ lineofelros105 = { # Tar-Amandil, a peaceful King who reigned over a period of p
 	
 	5974.1.1 = {
 		birth = yes
+		give_nickname = nick_andoralcar_tar_amandil
+		effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
 	}
 	6198.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -530,6 +548,12 @@ lineofelros106 = { # Tar-Tindomiel, The Diligent Queen, spent so much of her tim
 	
 	6082.1.1 = {
 		birth = yes
+		give_nickname = nick_zayanmagani_tar_tindomiel
+		effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
 	}
 	6306.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -577,7 +601,12 @@ lineofelros108 = { # Tar-Ancalimon 'The Great', defeated his brother in the civi
 		birth = yes
 	}
 	6403.1.1 = {
-		give_nickname = nick_the_great
+		give_nickname = nick_the_great_tar_ancalimon
+		effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
 	}
 	6480.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -600,6 +629,12 @@ lineofelros109 = { # Tar-Veantur, founder of the Adunaben faith
 	
 	6361.1.1 = {
 		birth = yes
+		give_nickname = nick_the_pragmatic_tar_veantur
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
 	}
 	6593.1.1 = {
 		death = { death_reason = death_natural_causes }
