@@ -9,7 +9,7 @@ e_numenor_adunaben = {
 		instance={
 			position={ 0.500000 0.520000 }
 			scale={ 0.115000 0.115000 }
-			depth=3.010000
+			depth=4.010000
 		}
 
 	}
@@ -19,7 +19,7 @@ e_numenor_adunaben = {
 		texture="ce_cc_edain_stars_04.dds"
 		instance={
 			scale={ 0.690000 0.690000 }
-			depth=5.010000
+			depth=6.010000
 			rotation=45
 		}
 
@@ -31,7 +31,7 @@ e_numenor_adunaben = {
 		color3=black
 		texture="beta_02_a.dds"
 		instance={
-			depth=21.010000
+			depth=22.010000
 			rotation=135
 		}
 
@@ -41,8 +41,21 @@ e_numenor_adunaben = {
 		color1=rgb { 225 221 219 }
 		texture="ce_star_20.dds"
 		instance={
-			position={ 0.500000 0.520000 }
+			position={ 0.500000 0.550000 }
 			scale={ 0.120000 0.120000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=white
+		color3=white
+		texture="adunaben_scepter_01.dds"
+		instance={
+			position={ 0.498000 0.270000 }
+			scale={ 0.285000 0.324000 }
 		}
 
 	}
@@ -51,8 +64,9 @@ e_numenor_adunaben = {
 		color1=rgb { 225 221 219 }
 		texture="adunaben_tree_01.dds"
 		instance={
+			position={ 0.500000 0.525000 }
 			scale={ 0.770000 0.770000 }
-			depth=4.010000
+			depth=5.010000
 		}
 
 	}
@@ -63,28 +77,28 @@ e_numenor_adunaben = {
 		instance={
 			position={ 0.245000 0.755000 }
 			scale={ 0.180000 0.180000 }
-			depth=6.010000
+			depth=7.010000
 			rotation=225
 		}
 
 		instance={
 			position={ 0.765000 0.755000 }
 			scale={ 0.180000 0.180000 }
-			depth=7.010000
+			depth=8.010000
 			rotation=135
 		}
 
 		instance={
 			position={ 0.770000 0.235000 }
 			scale={ 0.180000 0.180000 }
-			depth=8.010000
+			depth=9.010000
 			rotation=45
 		}
 
 		instance={
 			position={ 0.235000 0.235000 }
 			scale={ 0.180000 0.180000 }
-			depth=9.010000
+			depth=10.010000
 			rotation=315
 		}
 
@@ -94,15 +108,15 @@ e_numenor_adunaben = {
 		color1=black
 		texture="ce_star_20.dds"
 		instance={
-			position={ 0.500000 0.520000 }
+			position={ 0.500000 0.550000 }
 			scale={ 0.175000 0.175000 }
-			depth=1.010000
+			depth=2.010000
 		}
 
 		instance={
-			position={ 0.500000 0.520000 }
+			position={ 0.500000 0.550000 }
 			scale={ 0.190000 0.190000 }
-			depth=2.010000
+			depth=3.010000
 		}
 
 	}
@@ -113,71 +127,71 @@ e_numenor_adunaben = {
 		instance={
 			position={ 0.235000 0.595000 }
 			scale={ 0.160000 0.160000 }
-			depth=10.010000
+			depth=11.010000
 			rotation=45
 		}
 
 		instance={
 			position={ 0.755000 0.245000 }
 			scale={ 0.160000 0.160000 }
-			depth=11.010000
+			depth=12.010000
 		}
 
 		instance={
 			position={ 0.755000 0.755000 }
 			scale={ 0.160000 0.160000 }
-			depth=12.010000
+			depth=13.010000
 		}
 
 		instance={
 			position={ 0.770000 0.590000 }
 			scale={ 0.145000 0.145000 }
-			depth=13.010000
+			depth=14.010000
 			rotation=45
 		}
 
 		instance={
 			position={ 0.245000 0.755000 }
 			scale={ 0.160000 0.160000 }
-			depth=14.010000
+			depth=15.010000
 		}
 
 		instance={
 			position={ 0.245000 0.245000 }
 			scale={ 0.160000 0.160000 }
-			depth=15.010000
+			depth=16.010000
 		}
 
 		instance={
 			position={ 0.290000 0.405000 }
-			scale={ 0.240000 0.250000 }
-			depth=16.010000
-			rotation=45
-		}
-
-		instance={
-			position={ 0.705000 0.405000 }
 			scale={ 0.240000 0.250000 }
 			depth=17.010000
 			rotation=45
 		}
 
 		instance={
-			scale={ 0.460000 0.610000 }
+			position={ 0.705000 0.405000 }
+			scale={ 0.240000 0.250000 }
 			depth=18.010000
+			rotation=45
+		}
+
+		instance={
+			scale={ 0.460000 0.610000 }
+			depth=19.010000
 		}
 
 		instance={
 			position={ 0.500000 0.800000 }
 			scale={ 0.245000 0.250000 }
-			depth=19.010000
+			depth=20.010000
 			rotation=45
 		}
 
 		instance={
 			position={ 0.500000 0.185000 }
 			scale={ 0.225000 0.225000 }
-			depth=20.010000
+			depth=21.010000
 			rotation=135
 		}
 
