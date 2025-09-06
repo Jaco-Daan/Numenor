@@ -185,7 +185,7 @@ e_numenor_adunaben = {
 
 }
 
-e_numenor_phazan = {
+e_numenor_dairaben = {
 	pattern="pattern_solid.dds"
 	color1=rgb { 15 15 14 }
 	color2=black
