@@ -13934,6 +13934,18 @@ lineofondostotwo3 = {
 	6574.1.1 = {
 		birth = yes
 	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 	6788.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -13986,6 +13998,18 @@ lineofondostotwo6 = {
 	6896.1.1 = {
 		birth = yes
 	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 1
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 1
+			}
+        }
+    }
 }
 lineofondostotwo5a1 = {
 	name = Be_e_lphaze_e_l
