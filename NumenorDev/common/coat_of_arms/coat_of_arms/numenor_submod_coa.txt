@@ -1,8 +1,206 @@
-e_numenor = {
+e_numenor_adunaben = {
 	pattern="pattern_solid.dds"
 	color1=rgb { 15 15 14 }
 	color2=black
 	color3=red
+	colored_emblem={
+		color1=rgb { 225 221 219 }
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 0.115000 0.115000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 225 221 219 }
+		texture="ce_cc_edain_stars_04.dds"
+		instance={
+			scale={ 0.690000 0.690000 }
+			depth=5.010000
+			rotation=45
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=rgb { 225 221 219 }
+		color3=black
+		texture="beta_02_a.dds"
+		instance={
+			depth=21.010000
+			rotation=135
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 225 221 219 }
+		texture="ce_star_20.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 0.120000 0.120000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 225 221 219 }
+		texture="adunaben_tree_01.dds"
+		instance={
+			scale={ 0.770000 0.770000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 225 221 219 }
+		texture="ce_crescent_random.dds"
+		instance={
+			position={ 0.245000 0.755000 }
+			scale={ 0.180000 0.180000 }
+			depth=6.010000
+			rotation=225
+		}
+
+		instance={
+			position={ 0.765000 0.755000 }
+			scale={ 0.180000 0.180000 }
+			depth=7.010000
+			rotation=135
+		}
+
+		instance={
+			position={ 0.770000 0.235000 }
+			scale={ 0.180000 0.180000 }
+			depth=8.010000
+			rotation=45
+		}
+
+		instance={
+			position={ 0.235000 0.235000 }
+			scale={ 0.180000 0.180000 }
+			depth=9.010000
+			rotation=315
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_star_20.dds"
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 0.175000 0.175000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.500000 0.520000 }
+			scale={ 0.190000 0.190000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.235000 0.595000 }
+			scale={ 0.160000 0.160000 }
+			depth=10.010000
+			rotation=45
+		}
+
+		instance={
+			position={ 0.755000 0.245000 }
+			scale={ 0.160000 0.160000 }
+			depth=11.010000
+		}
+
+		instance={
+			position={ 0.755000 0.755000 }
+			scale={ 0.160000 0.160000 }
+			depth=12.010000
+		}
+
+		instance={
+			position={ 0.770000 0.590000 }
+			scale={ 0.145000 0.145000 }
+			depth=13.010000
+			rotation=45
+		}
+
+		instance={
+			position={ 0.245000 0.755000 }
+			scale={ 0.160000 0.160000 }
+			depth=14.010000
+		}
+
+		instance={
+			position={ 0.245000 0.245000 }
+			scale={ 0.160000 0.160000 }
+			depth=15.010000
+		}
+
+		instance={
+			position={ 0.290000 0.405000 }
+			scale={ 0.240000 0.250000 }
+			depth=16.010000
+			rotation=45
+		}
+
+		instance={
+			position={ 0.705000 0.405000 }
+			scale={ 0.240000 0.250000 }
+			depth=17.010000
+			rotation=45
+		}
+
+		instance={
+			scale={ 0.460000 0.610000 }
+			depth=18.010000
+		}
+
+		instance={
+			position={ 0.500000 0.800000 }
+			scale={ 0.245000 0.250000 }
+			depth=19.010000
+			rotation=45
+		}
+
+		instance={
+			position={ 0.500000 0.185000 }
+			scale={ 0.225000 0.225000 }
+			depth=20.010000
+			rotation=135
+		}
+
+	}
+
+}
+
+e_numenor_phazan = {
+	pattern="pattern_solid.dds"
+	color1=rgb { 15 15 14 }
+	color2=black
+	color3=red
+	colored_emblem={
+		color1=rgb { 184 149 78 }
+		color2=white
+		texture="ce_cc_edain_border_25.dds"
+		instance={
+			scale={ 0.530000 0.530000 }
+			depth=5.010000
+		}
+
+	}
+
 	colored_emblem={
 		color1=black
 		color2=white
@@ -15,18 +213,19 @@ e_numenor = {
 	}
 
 	colored_emblem={
-		color1=white
-		color2=white
-		texture="ce_cc_edain_border_25.dds"
+		color1=black
+		color2=rgb { 184 149 78 }
+		color3=black
+		texture="beta_02_a.dds"
 		instance={
-			scale={ 0.530000 0.530000 }
-			depth=5.010000
+			depth=21.010000
+			rotation=135
 		}
 
 	}
 
 	colored_emblem={
-		color1=white
+		color1=rgb { 204 201 199 }
 		texture="ce_cc_edain_stars_03.dds"
 		instance={
 			scale={ 0.830000 0.830000 }
@@ -36,17 +235,7 @@ e_numenor = {
 	}
 
 	colored_emblem={
-		color1=white
-		texture="ce_tree_castamir.dds"
-		instance={
-			position={ 0.500000 0.502000 }
-			scale={ 0.204000 0.204000 }
-		}
-
-	}
-
-	colored_emblem={
-		color1=white
+		color1=rgb { 204 201 199 }
 		texture="ce_edain_sun_01.dds"
 		instance={
 			scale={ 0.475000 0.475000 }
@@ -56,7 +245,7 @@ e_numenor = {
 	}
 
 	colored_emblem={
-		color1=white
+		color1=rgb { 204 201 199 }
 		texture="ce_crescent_random.dds"
 		instance={
 			position={ 0.280000 0.720000 }
@@ -89,33 +278,22 @@ e_numenor = {
 	}
 
 	colored_emblem={
-		color1=black
-		color2=white
-		color3=black
-		texture="beta_02_a.dds"
+		color1=rgb { 184 149 78 }
+		color2=rgb { 204 201 199 }
+		texture="ce_star_21.dds"
 		instance={
-			depth=21.010000
-			rotation=135
+			position={ 0.500000 0.502000 }
+			scale={ 0.225000 0.225000 }
 		}
 
 	}
 
 	colored_emblem={
-		color1=white
+		color1=rgb { 204 201 199 }
 		texture="ce_cc_edain_stars_04.dds"
 		instance={
 			scale={ 0.700000 0.700000 }
 			depth=2.010000
-		}
-
-	}
-
-	colored_emblem={
-		color1=white
-		texture="ce_numenor_sun_01.dds"
-		instance={
-			scale={ 0.595000 0.595000 }
-			depth=22.010000
 		}
 
 	}
@@ -2387,9 +2565,41 @@ e_anadunemelkor = {
 	color2=yellow
 	color3=red
 	colored_emblem={
-		color1=black
-		color2=rgb { 250 139 65 }
-		texture="ce_cc_pharazon_b.dds"
+		color1=rgb { 0 0 0 }
+		color2=rgb { 205 143 40 }
+		texture="ce_frame_circle_borre_single_knots.dds"
+		instance={
+			scale={ 0.855000 0.855000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 0 0 0 }
+		color2=rgb { 0 0 0 }
+		texture="beta_19_a.dds"
+		instance={
+			scale={ 0.495000 0.495000 }
+			depth=2.010000
+			rotation=23
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 0 0 0 }
+		texture="ce_block_02.dds"
+		instance={
+			scale={ 0.250000 0.250000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 170 9 9 }
+		color2=rgb { 0 0 0 }
+		texture="beta_05_ac.dds"
 		instance={
 			depth=1.010000
 		}
@@ -2397,11 +2607,11 @@ e_anadunemelkor = {
 	}
 
 	colored_emblem={
-		color1=rgb { 235 140 0 }
-		color2=black
-		texture="ce_linhir_03.dds"
+		color1=black
+		color2=rgb { 209 143 34 }
+		texture="ce_cc_pharazon_b.dds"
 		instance={
-			scale={ 0.810000 0.810000 }
+			depth=4.010000
 		}
 
 	}
