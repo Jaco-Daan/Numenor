@@ -695,6 +695,7 @@ lineofelros112 = {
 	trait = eccentric
 	trait = spindly
 	trait = poet
+	trait = scholar
 	trait = education_diplomacy_3
 
 	diplomacy = 8
