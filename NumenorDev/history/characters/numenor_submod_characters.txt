@@ -796,7 +796,7 @@ lineofelros114 = {
 	}
 }
 lineofelros115 = {
-	name = Sakaltho_o_r
+	name = Sakaltho_o_r # Change to Falassion
 	dna = falassion_elerossioni_dna_wotr
 	dynasty = dynasty_elros
 	religion = faith_adunaic
@@ -839,7 +839,7 @@ lineofelros115 = {
 	}
 }
 lineofelros116 = {
-	name = Isilitho_o_r
+	name = Isilitho_o_r # Change to something other than mixed Q. and Ad. unless extremely intentional
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
@@ -872,7 +872,7 @@ lineofelros116 = {
 }
 
 lineofelros114a1 = {
-	name = Azrutho_o_r
+	name = Aglarthor # Change to Alcarion
 	dna = alcarion_elerossioni_dna_wotr
 	dynasty = dynasty_elros
 	religion = faith_adunaic
@@ -913,7 +913,7 @@ lineofelros114a1 = {
 	}
 }
 lineofelros114a2 = {
-	name = U_U_ri_i_phe_e_l
+	name = Ba_a_naphi_i_n # Change to Vanyafindelë
 	female = yes
 	dynasty = dynasty_elros
 	religion = faith_adunaic
@@ -948,7 +948,7 @@ lineofelros114a2 = {
 	}
 }
 lineofelros114a1a1 = {
-	name = Mu_u_raphe_e_l
+	name = Aglarkali_i_ # Change to Ancalimë
 	female = yes
 	dynasty = dynasty_elros
 	religion = faith_adunaic
