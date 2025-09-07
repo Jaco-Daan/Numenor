@@ -906,6 +906,7 @@ decision_numenor_invade_valinor = {
 	# IS_SHOWN
 	is_shown = {
 		primary_title = title:e_numenor
+		faith = faith:melkorite
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -916,6 +917,7 @@ decision_numenor_invade_valinor = {
 
 	# IS_VALID
 	is_valid = {
+		is_independent_ruler = yes
 		OR = {
 			has_trait = lunatic_1
 			has_trait = possessed_1
@@ -938,6 +940,7 @@ decision_numenor_invade_valinor = {
 	
 	# EFFECT
 	effect = {
+		custom_tooltip = decision_numenor_invade_valinor_effect
 		trigger_event = {
 			id = numenor.3100
 			days = { 15 30 }
@@ -945,13 +948,13 @@ decision_numenor_invade_valinor = {
 	}
 
 	# AI
-	ai_goal = yes
+	ai_goal = no
 	ai_potential = {
-		always = yes
+		always = no
 	}
-	ai_will_do = {
-		base = 100
-	}
+	# ai_will_do = {
+	# 	base = 100
+	# }
 }
 
 demand_ray_tributary = {
