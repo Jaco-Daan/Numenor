@@ -8,6 +8,9 @@ heritage_adunaic = {
 	}
 	character_modifier  = {
 		halls_advantage = -10
+		levy_attack = 5
+		levy_toughness = 5
+		epidemic_resistance = 10
 	}
 	is_shown = {
 		heritage_is_shown_trigger = {
