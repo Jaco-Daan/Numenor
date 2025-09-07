@@ -1,19 +1,35 @@
 ﻿count_feudal_numenor = {
 	type = character
+	gender = male
 	special = holder
 	tier = county
-	priority = 20
+	priority = 202
 	flavourization_rules = { 
 		top_liege = no
 		only_holder = yes
 	}
 	heritages = { heritage_adunaic }
+	name_lists = { name_list_adunaic_numenor }
+}
+count_feudal_female_numenor = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 202
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	heritages = { heritage_adunaic }
+	name_lists = { name_list_adunaic_numenor }
 }
 county_feudal_numenor = {
 	type = title
 	tier = county
 	heritages = { heritage_adunaic }
-	priority = 20
+	name_lists = { name_list_adunaic_numenor }
+	priority = 202
 }
 
 duke_feudal_male_numenor = {
@@ -27,32 +43,7 @@ duke_feudal_male_numenor = {
 		only_holder = no
 	}
 	heritages = { heritage_adunaic }
-}
-
-king_feudal_male_numenor = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 300
-	flavourization_rules = { 
-		top_liege = no
-		only_holder = no
-	}
-	heritages = { heritage_adunaic }
-}
-
-king_feudal_female_numenor = {
-	type = character
-	gender = female
-	special = holder
-	tier = duchy
-	priority = 300
-	flavourization_rules = { 
-		top_liege = no
-		only_holder = no
-	}
-	heritages = { heritage_adunaic }
+	name_lists = { name_list_adunaic_numenor }
 }
 duke_feudal_female_numenor = {
 	type = character
@@ -65,17 +56,48 @@ duke_feudal_female_numenor = {
 		only_holder = no
 	}
 	heritages = { heritage_adunaic }
+	name_lists = { name_list_adunaic_numenor }
 }
 duchy_feudal_numenor = {
 	type = title
 	tier = duchy
 	heritages = { heritage_adunaic }
+	name_lists = { name_list_adunaic_numenor }
 	priority = 33
+}
+
+king_feudal_male_numenor = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 300
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	heritages = { heritage_adunaic }
+	name_lists = { name_list_adunaic_numenor }
+}
+
+king_feudal_female_numenor = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 300
+	flavourization_rules = { 
+		top_liege = no
+		only_holder = yes
+	}
+	heritages = { heritage_adunaic }
+	name_lists = { name_list_adunaic_numenor }
 }
 kingdom_feudal_numenor = {
 	type = title
 	tier = kingdom
 	heritages = { heritage_adunaic }
+	name_lists = { name_list_adunaic_numenor }
 	priority = 300
 }
 emperor_feudal_male_numenorean = {
@@ -116,7 +138,7 @@ emperor_feudal_female_numenor_nonholder = {
 	heritages = { heritage_adunaic }
 }
 
-prince_emperor_feudal_numenorean = {
+prince_emperor_feudal_numenor = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -127,7 +149,7 @@ prince_emperor_feudal_numenorean = {
 		top_liege = no
 	}
 }
-princess_emperor_feudal_numenorean = {
+princess_emperor_feudal_numenor = {
 	type = character
 	gender = female
 	special = ruler_child

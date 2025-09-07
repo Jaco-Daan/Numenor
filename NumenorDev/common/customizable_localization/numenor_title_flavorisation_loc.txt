@@ -34,3 +34,39 @@ emperor_feudal_female_numenorean = {
         localization_key = high_king_dunedain_numenor_in_exile_female
     }
 }
+
+prince_emperor_feudal_numenor = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                faith.religion = religion:adunai_religion
+                faith.religion = religion:melkoric_religion
+				faith = faith:faith_adunaic
+            }
+        }
+        localization_key = prince_emperor_feudal_numenorean
+    }
+    text = {
+        fallback = yes
+        localization_key = prince_emperor_feudal_numenorean_quenya
+    }
+}
+
+princess_emperor_feudal_numenor = {
+    type = character
+    text = {
+        trigger = {
+            OR = {
+                faith.religion = religion:adunai_religion
+                faith.religion = religion:melkoric_religion
+				faith = faith:faith_adunaic
+            }
+        }
+        localization_key = princess_emperor_feudal_numenorean
+    }
+    text = {
+        fallback = yes
+        localization_key = princess_emperor_feudal_numenorean_quenya
+    }
+}

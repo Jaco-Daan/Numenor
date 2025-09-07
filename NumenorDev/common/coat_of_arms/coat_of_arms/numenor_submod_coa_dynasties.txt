@@ -716,7 +716,7 @@ dynasty_ciryamirtwo = { #Ûrîthôrî Dynasty
 
 }
 
-dynasty_elenore = { Zôrzagarôthôrî Dynasty, CoA by Menelmacar of Barazinbar
+dynasty_elenore = { #Zôrzagarôthôrî Dynasty, CoA by Menelmacar of Barazinbar
 	pattern="pattern_solid.dds"
 	color1=rgb { 79 40 42 }
 	color2=white

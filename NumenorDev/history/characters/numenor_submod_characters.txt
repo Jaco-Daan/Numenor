@@ -757,7 +757,7 @@ lineofelros113 = {
 	}
 }
 lineofelros114 = {
-	name = "Balkazi_i_r"
+	name = Balkazi_i_r
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	sexuality = heterosexual
@@ -803,7 +803,7 @@ lineofelros114 = {
 	}
 }
 lineofelros115 = {
-	name = Sakaltho_o_r # Change to Falassion
+	name = Sakaltho_o_r
 	dna = falassion_elerossioni_dna_wotr
 	dynasty = dynasty_elros
 	religion = faith_adunaic
@@ -819,7 +819,7 @@ lineofelros115 = {
 	trait = cynical
 	trait = brave
 	trait = beauty_good_2
-	trait = education_learning_4
+	trait = education_martial_3
 	
 	diplomacy = 9
 	martial = 8
@@ -830,15 +830,14 @@ lineofelros115 = {
 	6935.1.1 = {
 		birth = yes
 		effect = {
-			learn_language = language_telerin
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
 
 	6995.1.2 = {
-		add_spouse = lineofarialome21a1
-		set_relation_lover = character:lineofarialome21a1
+		add_spouse = lineofazrubensubmod28a2
+		set_relation_lover = character:lineofazrubensubmod28a2
 	}
 
 	7159.2.14 = {
@@ -846,15 +845,13 @@ lineofelros115 = {
 	}
 }
 lineofelros116 = {
-	name = Isilitho_o_r # Change to something other than mixed Q. and Ad. unless extremely intentional
+	name = Minalthor
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
 	
-	
-	
 	father = lineofelros115
-	mother = lineofarialome21a1
+	mother = lineofazrubensubmod28a2
 	
 	trait = blood_of_numenor_7
 	trait = intellect_good_2
@@ -879,7 +876,7 @@ lineofelros116 = {
 }
 
 lineofelros114a1 = {
-	name = Aglarthor # Change to Alcarion
+	name = Alcarion # Change to Alcarion
 	dna = alcarion_elerossioni_dna_wotr
 	dynasty = dynasty_elros
 	religion = faith_adunaic
@@ -893,7 +890,7 @@ lineofelros114a1 = {
 	trait = zealous
 	trait = wrathful
 	trait = beauty_good_2
-	trait = education_martial_3
+	trait = education_learning_4
 	
 	diplomacy = 9
 	martial = 6
@@ -905,6 +902,7 @@ lineofelros114a1 = {
 	6941.6.19 = {
 		birth = yes
 		effect = {
+			learn_language = language_telerin
             learn_language = language_sindarin
             learn_language = language_quenya
         }
@@ -913,7 +911,8 @@ lineofelros114a1 = {
 		set_relation_rival = character:lineofelros115
 	}
 	7010.1.14 = {
-		add_spouse = lineofazrubensubmod28a2
+		add_spouse = lineofarialome21a1
+		set_relation_soulmate = character:lineofarialome21a1
 	}
 	7163.4.11 = {
 		death = { death_reason = death_natural_causes }
@@ -927,7 +926,7 @@ lineofelros114a2 = {
 	culture = adunaic
 	
 	father = lineofelros114a1
-	mother = lineofazrubensubmod28a2
+	mother = lineofarialome21a1
 	
 	trait = blood_of_numenor_7
 	trait = just
@@ -962,7 +961,7 @@ lineofelros114a1a1 = {
 	culture = adunaic
 	
 	father = lineofelros114a1
-	mother = lineofazrubensubmod28a2
+	mother = lineofarialome21a1
 	
 	trait = blood_of_numenor_7
 	trait = diligent

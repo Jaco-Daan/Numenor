@@ -20,7 +20,7 @@
 		tradition_stand_and_fight
 	}
 	
-	name_list = name_list_adunaic
+	name_list = name_list_adunaic_numenor
 	
 	coa_gfx = { numenorean_coa_gfx dunedain_group_coa_gfx }
 	building_gfx = { numenorean_building_gfx }

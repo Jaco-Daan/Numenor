@@ -1,19 +1,23 @@
 ﻿l_english:
  
  count_feudal_numenor: "Khôr"
- count_feudal_female_numenor: "Khôrel"
+ count_feudal_female_numenor: "Khôrî"
  county_feudal_numenor: "Thâni"
  duke_feudal_male_numenor: "Arkhôr"
- duke_feudal_female_numenor: "Arkhôrel"
+ duke_feudal_female_numenor: "Arkhôrî"
  duchy_feudal_numenor: "Khôrthâni"
- king_feudal_female_numenor: "Phazânel"
- king_feudal_male_numenor: "Phazân"
- kingdom_feudal_numenor: "Phazânthâni"
+ king_feudal_female_numenor: "Ârûmith"
+ king_feudal_male_numenor: "Ârûmik"
+ kingdom_feudal_numenor: "Ârûmikzâyan"
 #  emperor_feudal_male_numenorean: "[CHARACTER.Custom('emperor_feudal_male_numenorean')]" #Already defined in base mod
 #  emperor_feudal_female_numenorean: "[CHARACTER.Custom('emperor_feudal_female_numenorean')]" #Already defined in base mod
  emperor_feudal_female_numenor_nonholder: "Âri"
  emperor_feudal_male_numenor: "Ar"
  emperor_feudal_female_numenor: "Ar"
  empire_feudal_numenor: "Ârûi-Thâni"
- prince_emperor_feudal_numenorean: "Êrel" # change to Phazân
- princess_emperor_feudal_numenorean: "Êrîl" # change to Phazânêl? Phazêl?
+ prince_emperor_feudal_numenorean: "Phazân"
+ princess_emperor_feudal_numenorean: "Phazânêl" # Phazânêl?
+ prince_emperor_feudal_numenorean_quenya: "Aranion"
+ princess_emperor_feudal_numenorean_quenya: "Araniel"
+ prince_emperor_feudal_numenor: "[CHARACTER.Custom('prince_emperor_feudal_numenor')]"
+ princess_emperor_feudal_numenor: "[CHARACTER.Custom('princess_emperor_feudal_numenor')]" # Phazânêl?
