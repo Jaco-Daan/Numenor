@@ -511,7 +511,7 @@ lineofelros105 = { # Tar-Amandil, a peaceful King who reigned over a period of p
 	
 	trait = blood_of_numenor_7
 	trait = temperate
-	trait = lazy
+	trait = shrewd
 	trait = shy
 	trait = education_learning_4
 	trait = scholar
@@ -615,7 +615,7 @@ lineofelros108 = { # Tar-Ancalimon 'The Great', defeated his brother in the civi
 lineofelros109 = { # Tar-Veantur, founder of the Adunaben faith
 	name = "V_e_eantur"
 	dynasty = dynasty_elros
-	religion = faith_adunaic
+	religion = faith_numenorean
 	culture = adunaic
 	
 	father = lineofelros108
@@ -629,6 +629,9 @@ lineofelros109 = { # Tar-Veantur, founder of the Adunaben faith
 	
 	6361.1.1 = {
 		birth = yes
+	}
+	6482.1.1 = {
+		religion = faith_adunaic
 		give_nickname = nick_the_pragmatic_tar_veantur
         effect = {
             add_character_flag = {
@@ -703,6 +706,9 @@ lineofelros112 = {
 	
 	6621.1.1 = {
 		birth = yes
+	}
+	6652.1.1 = {
+		effect = { make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:faith_numenorean } }
 	}
 	6776.1.1 = {
         effect = { add_realm_law = crown_authority_3 }

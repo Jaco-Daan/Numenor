@@ -557,10 +557,13 @@ c_eldalonde = {
 		holder = lineofciryamir12
 	}
 	3911.1.1 = {
-		holder = lineofciryamirbranch1
-	}
+        holder = k_wastelands_holder
+        change_development_level = -100
+        government = wastelands_government
+    }
 	4032.1.1 = {
 		holder = lineofciryamirbranch2
+		government = feudal_government
 	}
 	4167.1.1 = {
 		holder = lineofciryamirbranch3
@@ -6329,6 +6332,16 @@ c_nurmir = {
 	}
 	3910.1.1 = {
 		holder = lineborodirsubmod7
+	}
+	3911.1.1 = {
+        holder = k_wastelands_holder
+        change_development_level = -100
+        government = wastelands_government
+    }
+	4240.1.1 = {
+		holder = lineborodirsubmod8
+		government = feudal_government
+		change_development_level = 12
 	}
 	4240.1.1 = {
 		holder = lineborodirsubmod8
