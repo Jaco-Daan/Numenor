@@ -2,7 +2,8 @@
 	county = c_meneltarma
 	barony = b_meneltarma
 	character_modifier = {
-		direct_vassal_opinion = 5
+		monthly_piety_gain_mult = 0.10
+		piety_level_impact_mult = 0.20
 	}
 }
 
@@ -11,7 +12,7 @@ armenelos = {
 	barony = b_armenelos
 	character_modifier = {
 		stewardship_per_piety_level = 1
-		monthly_piety = 0.3
+		direct_vassal_opinion = 5
 	}
 }
 
@@ -20,22 +21,22 @@ nindamos = {
 	barony = b_nindamos
 	character_modifier = {
 		naval_movement_speed_mult = 0.15
-		prowess_per_piety_level = 1
+		supply_duration = 0.25
 	}
 }
 eldalonde = {
 	county = c_eldalonde
 	barony = b_eldalonde
 	character_modifier = {
-		different_faith_liege_opinion = 10
+		stress_gain_mult = -0.10
+		health = 0.25
 	}
 }
 oromet = {
 	county = c_oromet
 	barony = b_oromet
 	character_modifier = {
-		knight_effectiveness_mult = 0.2
-		prowess_per_piety_level = 1
+		learning_per_piety_level = 1
 	}
 }
 romenna_evil = {
@@ -48,12 +49,13 @@ romenna_evil = {
 armenelos_evil = {
 	county = c_armenelos
 	character_modifier = {
-		monthly_piety_gain_mult = 0.1
+		stewardship_per_piety_level = 1
+		direct_vassal_opinion = 5
 	}
 }
 ondosto_neutral = {
 	county = c_ondosto
 	character_modifier = {
-		direct_vassal_opinion = 5
+		build_gold_cost = -0.05
 	}
 }	
