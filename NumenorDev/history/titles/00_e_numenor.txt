@@ -1216,6 +1216,7 @@ d_khorandor = {
 	}
 	4022.1.1 = {
 		holder = lineofkhorandor3
+		liege = e_numenor
 	}
 	4138.1.1 = {
 		holder = lineofkhorandor4
@@ -1383,6 +1384,7 @@ d_sorontil = {
 	3939.1.1 = {
 		holder = ruxoalendil11 # Made lord of all Forostar
 		government = feudal_government
+		liege = e_numenor
 	}
 	4107.1.1 = {
 		holder = ruxoalendil12
@@ -1597,6 +1599,7 @@ d_erest = {
     4004.10.1 = {
         holder = lineoftelemnacil7 #Faramir
 		government = feudal_government
+		liege = e_numenor
     }
     4131.10.7 = {
         holder = lineoftelemnacil9 #Mireatan
@@ -1722,6 +1725,7 @@ d_nunduine = {
 	}
 	3998.1.1 = {
 		holder = lineofark7
+		liege = e_numenor
 	}
 	4123.1.1 = {
 		holder = lineofciryamir14
@@ -2194,6 +2198,7 @@ d_emerie = {
 	}
 	3903.1.1 = {
 		holder = mablung25
+		liege = e_numenor
 		liege = e_faithful
 	}
 	4031.1.1 = {
@@ -2276,6 +2281,7 @@ d_sirinore = {
 	}
 	3924.1.1 = {
 		holder = linesirinore7
+		liege = e_numenor
 	}
 	4159.1.1 = {
 		holder = linesirinore8
@@ -2608,6 +2614,7 @@ c_ciryalonde = {
     }
 	4002.1.1 = {
 		holder = lineofciryandur18
+		liege = e_numenor
 		change_development_level = 19
 		government = feudal_government
 	}
@@ -7400,6 +7407,7 @@ c_forpende = {
 	}
 	3973.1.1 = {
 		holder = lineofondostofounder 
+		liege = e_numenor
 		change_development_level = 11
 	}
 	4139.1.1 = {
