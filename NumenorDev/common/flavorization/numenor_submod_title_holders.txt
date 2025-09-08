@@ -1,4 +1,4 @@
-﻿count_feudal_numenor = {
+﻿count_feudal_male_numenorean = {
 	type = character
 	gender = male
 	special = holder
@@ -6,12 +6,12 @@
 	priority = 202
 	flavourization_rules = { 
 		top_liege = no
-		only_holder = yes
+		only_holder = no
 	}
 	heritages = { heritage_adunaic }
 	name_lists = { name_list_adunaic_numenor }
 }
-count_feudal_female_numenor = {
+count_feudal_female_numenorean = {
 	type = character
 	gender = female
 	special = holder
@@ -19,7 +19,7 @@ count_feudal_female_numenor = {
 	priority = 202
 	flavourization_rules = { 
 		top_liege = no
-		only_holder = yes
+		only_holder = no
 	}
 	heritages = { heritage_adunaic }
 	name_lists = { name_list_adunaic_numenor }
@@ -32,7 +32,7 @@ county_feudal_numenor = {
 	priority = 202
 }
 
-duke_feudal_male_numenor = {
+duke_feudal_male_numenorean = {
 	type = character
 	gender = male
 	special = holder
@@ -45,7 +45,7 @@ duke_feudal_male_numenor = {
 	heritages = { heritage_adunaic }
 	name_lists = { name_list_adunaic_numenor }
 }
-duke_feudal_female_numenor = {
+duke_feudal_female_numenorean = {
 	type = character
 	gender = female
 	special = holder
@@ -66,7 +66,7 @@ duchy_feudal_numenor = {
 	priority = 33
 }
 
-king_feudal_male_numenor = {
+king_feudal_male_numenorean = {
 	type = character
 	gender = male
 	special = holder
@@ -80,7 +80,7 @@ king_feudal_male_numenor = {
 	name_lists = { name_list_adunaic_numenor }
 }
 
-king_feudal_female_numenor = {
+king_feudal_female_numenorean = {
 	type = character
 	gender = female
 	special = holder

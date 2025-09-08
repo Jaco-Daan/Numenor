@@ -1253,7 +1253,7 @@ lineofelros111a1a3 = {
 		birth = yes
 	}
 	7033.1.1 = {
-		employer = lineofelros114
+		employer = lineofvardur26
 	}
 	7111.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -1277,7 +1277,7 @@ lineofelros111a1a2a1 = {
 		birth = yes
 	}
 	7033.1.1 = {
-		employer = lineofelros114
+		employer = lineelebastard15
 	}
 	7118.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -1307,6 +1307,7 @@ lineofelros111a1a2b1 = {
 	7033.1.1 = {
 		employer = lineofelatan43
 		name = Armanar
+		religion = faith_numenorean
 	}
 	7129.6.7 = {
 		death = { death_reason = death_natural_causes }
@@ -9839,6 +9840,7 @@ lineofagathor_ns38 = {
 	}
 	7000.1.1 = {
 		name = Ataniel
+		religion = faith_numenorean
 	}
 	7116.3.14 = {
 		death = { death_reason = death_natural_causes }

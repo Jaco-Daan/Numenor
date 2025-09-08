@@ -1,13 +1,19 @@
 ﻿l_english:
  
- count_feudal_numenor: "Khôr"
+ count_feudal_male_numenor: "Khôr"
  count_feudal_female_numenor: "Khôrî"
+ count_feudal_male_numenorean: "[CHARACTER.Custom('count_feudal_male_numenorean')]"
+ count_feudal_female_numenorean: "[CHARACTER.Custom('count_feudal_female_numenorean')]"
  county_feudal_numenor: "Thâni"
  duke_feudal_male_numenor: "Arkhôr"
  duke_feudal_female_numenor: "Arkhôrî"
+ duke_feudal_male_numenorean: "[CHARACTER.Custom('duke_feudal_male_numenorean')]"
+ duke_feudal_female_numenorean: "[CHARACTER.Custom('duke_feudal_female_numenorean')]"
  duchy_feudal_numenor: "Khôrthâni"
  king_feudal_female_numenor: "Ârûmith"
  king_feudal_male_numenor: "Ârûmik"
+ king_feudal_male_numenorean: "[CHARACTER.Custom('king_feudal_male_numenorean')]"
+ king_feudal_female_numenorean: "[CHARACTER.Custom('king_feudal_female_numenorean')]"
  kingdom_feudal_numenor: "Ârûmikzâyan"
 #  emperor_feudal_male_numenorean: "[CHARACTER.Custom('emperor_feudal_male_numenorean')]" #Already defined in base mod
 #  emperor_feudal_female_numenorean: "[CHARACTER.Custom('emperor_feudal_female_numenorean')]" #Already defined in base mod
