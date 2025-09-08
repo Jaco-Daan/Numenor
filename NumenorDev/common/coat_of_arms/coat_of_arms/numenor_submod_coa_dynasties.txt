@@ -852,12 +852,12 @@ dynasty_elenore = { #Zôrzagarôthôrî Dynasty, CoA by Menelmacar of Barazinbar
 
 }
 
-dynasty_elros = { # Line of Elros
-	pattern = "pattern_solid.dds"
-	textured_emblem = {
-        	texture = "te_elros.dds"
-    }
-}
+# dynasty_elros = { # Line of Elros
+# 	pattern = "pattern_solid.dds"
+# 	textured_emblem = {
+#         	texture = "te_elros.dds"
+#     }
+# }
 
 dynasty_gimilkhadson = { #Zadan Gimilkhâd Dynasty
 	pattern="pattern_solid.dds"
