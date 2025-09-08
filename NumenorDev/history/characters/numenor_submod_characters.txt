@@ -632,6 +632,7 @@ lineofelros109 = { # Tar-Veantur, founder of the Adunaben faith
 	}
 	6482.1.1 = {
 		religion = faith_adunaic
+		name = Azrube_e_l
 		give_nickname = nick_the_pragmatic_tar_veantur
         effect = {
             add_character_flag = {
@@ -712,9 +713,7 @@ lineofelros112 = {
 	}
 	6652.1.1 = {
 		effect = { make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:faith_numenorean } }
-	}
-	6562.1.1 = { # Takes regnal Quenya name when dad dies, variant translation of Azrubêl
-		name = Airendur
+		name = Airendur # Adopts the name Airendur during his time in Andustar
 	}
 	6776.1.1 = {
         effect = { add_realm_law = crown_authority_3 }
