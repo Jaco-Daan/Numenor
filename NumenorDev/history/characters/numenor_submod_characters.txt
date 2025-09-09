@@ -632,7 +632,7 @@ lineofelros109 = { # Tar-Veantur, founder of the Adunaben faith
 	}
 	6482.1.1 = {
 		religion = faith_adunaic
-		name = Azrube_e_l
+		name = Azrukho_o_r
 		give_nickname = nick_the_pragmatic_tar_veantur
         effect = {
             add_character_flag = {
