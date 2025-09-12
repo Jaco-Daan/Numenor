@@ -5,6 +5,18 @@ e_numenor_adunaben = {
 	color3=red
 	colored_emblem={
 		color1=rgb { 225 221 219 }
+		color2=rgb { 225 221 219 }
+		color3=rgb { 225 221 219 }
+		texture="adunaben_scepter_01.dds"
+		instance={
+			position={ 0.498000 0.270000 }
+			scale={ 0.285000 0.324000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 225 221 219 }
 		texture="ce_circle_mask.dds"
 		instance={
 			position={ 0.500000 0.520000 }
@@ -44,18 +56,6 @@ e_numenor_adunaben = {
 			position={ 0.500000 0.550000 }
 			scale={ 0.120000 0.120000 }
 			depth=1.010000
-		}
-
-	}
-
-	colored_emblem={
-		color1=white
-		color2=white
-		color3=white
-		texture="adunaben_scepter_01.dds"
-		instance={
-			position={ 0.498000 0.270000 }
-			scale={ 0.285000 0.324000 }
 		}
 
 	}
@@ -476,10 +476,61 @@ k_mittalmar = { #Menelmacar of Barazinbar CoA
 }
 
 d_arandor = {
-	pattern = "pattern_solid.tga"
-	textured_emblem = {
-		texture = "elrosionath.dds"
+	pattern="pattern_solid.dds"
+	color1=rgb { 10 12 15 }
+	color2=black
+	color3=red
+	colored_emblem={
+		color1=rgb { 225 221 219 }
+		color2=rgb { 225 221 219 }
+		color3=rgb { 225 221 219 }
+		texture="adunaben_scepter_01.dds"
+		instance={
+			position={ 0.493000 0.640000 }
+			scale={ 0.690000 0.690000 }
+			depth=3.010000
+			rotation=360
+		}
+
 	}
+
+	colored_emblem={
+		color1=rgb { 225 221 219 }
+		color2=rgb { 225 221 219 }
+		color3=rgb { 225 221 219 }
+		texture="ce_cc_edain_stars_02.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.825000 0.825000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 10 12 15 }
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 0.220000 }
+			scale={ 0.145000 0.145000 }
+			depth=1.010000
+			rotation=45
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 225 221 219 }
+		color2=rgb { 225 221 219 }
+		color3=rgb { 225 221 219 }
+		texture="ce_star_20.dds"
+		instance={
+			position={ 0.500000 0.200000 }
+			scale={ 0.365000 0.365000 }
+		}
+
+	}
+
 }
 
 c_armenelos = {
@@ -1038,93 +1089,296 @@ c_sorno={ # Alrain CoA
 	}
 }
 
-d_nunduine = {
-	pattern = "pattern_solid.tga"
-	textured_emblem = {
-		texture = "Indilzar.dds"
-	}
-}
-
-d_emerie = {
-		pattern="pattern__solid_designer.dds"
-		color1=rgb { 0 39 4 }
-		color2=rgb { 0 40 4 }
-		color3=red
-		colored_emblem={
-			color1=white
-			color2=green_light
-			color3=black
-			texture="ce_cc_edain_border_21_b.dds"
-			instance={
-				scale={ 0.550000 0.550000 }
-				depth=5.010000
-			}
-
-		}
-
-		colored_emblem={
-			color1=white
-			texture="ce_cc_fort_01.dds"
-			instance={
-				scale={ 0.325000 0.325000 }
-				depth=4.010000
-			}
-
-		}
-
-		colored_emblem={
-			color1=green
-			texture="ce_tengwar_ando.dds"
-			instance={
-				position={ 0.290000 0.290000 }
-				scale={ 0.175000 0.175000 }
-			}
-
-			instance={
-				position={ 0.710000 0.290000 }
-				scale={ 0.175000 0.175000 }
-				depth=1.010000
-			}
-
-			instance={
-				position={ 0.290000 0.710000 }
-				scale={ 0.175000 0.175000 }
-				depth=2.010000
-			}
-
-			instance={
-				position={ 0.710000 0.710000 }
-				scale={ 0.175000 0.175000 }
-				depth=3.010000
-			}
-
-		}
-
-		colored_emblem={
-			color1=rgb { 13 50 16 }
-			color2=white
-			texture="ce_cc_edain_border_22_a.dds"
-			instance={
-				depth=6.010000
-			}
-
-		}
-
-}
-
-d_sirinore = {
+d_nunduine = { #Menelmacar CoA
 	pattern="pattern_solid.dds"
-	color1=rgb { 131 88 60 }
+	color1=rgb { 4 43 80 }
+	color2=dark_purple
+	color3=white
+	colored_emblem={
+		color1=rgb { 191 171 142 }
+		texture="ce_cc_edain_stars_05.dds"
+		instance={
+			position={ 0.300000 0.400000 }
+			scale={ 0.290000 0.290000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.700000 0.400000 }
+			scale={ 0.290000 0.290000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 191 171 142 }
+		texture="ce_cc_crown_01.dds"
+		instance={
+			position={ 1.000000 0.785000 }
+			scale={ 0.425000 0.910000 }
+			rotation=270
+		}
+
+		instance={
+			position={ 0.000000 0.785000 }
+			scale={ -0.425000 0.910000 }
+			depth=1.010000
+			rotation=90
+		}
+
+		instance={
+			position={ 1.000000 0.205000 }
+			scale={ 0.425000 0.910000 }
+			depth=2.010000
+			rotation=270
+		}
+
+		instance={
+			position={ 0.000000 0.205000 }
+			scale={ 0.425000 0.910000 }
+			depth=3.010000
+			rotation=90
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 191 171 142 }
+		texture="ce_cc_fort_05.dds"
+		instance={
+			position={ 0.500000 0.715000 }
+			scale={ 0.635000 0.635000 }
+			depth=7.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 42 42 42 }
+		color2=rgb { 246 211 159 }
+		texture="ce_cc_edain_border_15.dds"
+		instance={
+			scale={ 0.845000 1.000000 }
+			depth=8.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 191 171 142 }
+		color2=white
+		color3=white
+		texture="ce_cardolan_03.dds"
+		instance={
+			position={ 0.500000 0.240000 }
+			scale={ 0.390000 0.390000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 42 42 42 }
+		color2=rgb { 42 42 42 }
+		texture="ce_cc_edain_border_15.dds"
+		instance={
+			depth=9.010000
+		}
+
+	}
+
+}
+
+d_emerie = { #Menelmacar CoA
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 0 39 4 }
+	color2=rgb { 0 40 4 }
+	color3=red
+	colored_emblem={
+		color1=rgb { 9 29 11 }
+		texture="ce_circle_mask.dds"
+		instance={
+			scale={ 0.725000 0.725000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 212 210 209 }
+		color2=black
+		texture="ce_ram_01.dds"
+		instance={
+			position={ 0.500000 0.510000 }
+			scale={ 0.480000 0.480000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 212 210 209 }
+		color2=rgb { 212 210 209 }
+		texture="ce_polylobe_circle_frame.dds"
+		instance={
+			scale={ 0.935000 0.935000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 29 110 37 }
+		color2=rgb { 82 145 88 }
+		texture="ce_polylobe_circle_frame.dds"
+		instance={
+			scale={ 0.895000 0.895000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 212 210 209 }
+		color2=rgb { 9 29 11 }
+		color3=rgb { 51 102 56 }
+		texture="ce_cc_edain_border_21_b.dds"
+		instance={
+			scale={ 0.825000 0.825000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
+d_sirinore = { #Menelmacar CoA
+	pattern="pattern_solid.dds"
+	color1=rgb { 8 21 47 }
 	color2=yellow
 	color3=blue
 	colored_emblem={
 		color1=white
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 1.000000 }
+			scale={ 1.000000 0.225000 }
+			depth=7.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 33 62 37 }
+		color2=rgb { 130 130 130 }
+		texture="ce_cc_mountains_diag_04.dds"
+		instance={
+			position={ 0.500000 0.575000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_triangle_mask.dds"
+		instance={
+			position={ 0.500000 0.895000 }
+			scale={ 0.750000 1.000000 }
+			depth=9.010000
+			rotation=135
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 36 69 40 }
+		color2=green
+		texture="ce_triangle_mask.dds"
+		instance={
+			position={ 0.740000 1.000000 }
+			scale={ 0.445000 0.660000 }
+			depth=5.010000
+			rotation=135
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
 		color2=black
 		color3=black
-		texture="ce_pattern_numenorean_detail_03.dds"
-		instance={ 
-			scale={ 0.700000 0.700000 }
+		texture="ce_cc_mountains_diag_03.dds"
+		instance={
+			position={ 0.500000 0.300000 }
+			scale={ 0.745000 1.000000 }
+			depth=8.010000
 		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 36 69 40 }
+		texture="ce_block_02.dds"
+		instance={
+			position={ 0.500000 1.000000 }
+			scale={ 0.265000 0.265000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=black
+		color3=black
+		texture="adunaben_scepter_01.dds"
+		instance={
+			position={ 0.494000 0.605000 }
+			scale={ 0.495000 0.495000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_edain_stars_02.dds"
+		instance={
+			position={ 0.500000 0.465000 }
+			depth=10.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 72 111 148 }
+		texture="ce_cc_river_01.dds"
+		instance={
+			position={ 0.345000 0.950000 }
+			scale={ 1.000000 0.575000 }
+			depth=1.010000
+			rotation=285
+		}
+
+		instance={
+			position={ 0.655000 0.950000 }
+			scale={ 1.000000 0.575000 }
+			depth=2.010000
+			rotation=76
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 36 69 40 }
+		texture="ce_triangle_mask.dds"
+		instance={
+			position={ 0.260000 1.000000 }
+			scale={ 0.440000 0.660000 }
+			depth=6.010000
+			rotation=135
+		}
+
 	}
 
 }
@@ -1984,37 +2238,15 @@ k_hyarrostar = { #Menelmacar of Barazinbar CoA
 
 }
 
-d_hyarnore = {
+d_hyarnore = { #Menelmacar CoA
 	pattern="pattern_square_gondor_04.dds"
 	color1=rgb { 11 9 7 }
-	color2=yellow_light
-	color3=black
+	color2=rgb { 158 129 87 }
+	color3=rgb { 11 9 7 }
 	colored_emblem={
-		color1=black
-		color2=yellow
-		color3=red
-		texture="ce_pattern_diamond_frame_03.dds"
-		instance={
-			depth=1.010000
-		}
-
-	}
-
-	colored_emblem={
-		color1=offwhite
-		color2=umbar_gold
-		color3=navy_blue
-		texture="ce_linhir_03.dds"
-		instance={
-			scale={ 0.640000 0.640000 }
-			rotation=45
-		}
-
-	}
-
-	colored_emblem={
-		color1=black
-		texture="ce_pattern_diamond_00.dds"
+		color1=rgb { 17 14 12 }
+		color2=rgb { 158 129 87 }
+		texture="ce_pattern_diamond_02.dds"
 		instance={
 			depth=2.010000
 		}
@@ -2022,13 +2254,35 @@ d_hyarnore = {
 	}
 
 	colored_emblem={
-		color1=yellow
-		color2=offwhite
+		color1=rgb { 4 3 2 }
+		color2=rgb { 255 255 255 }
 		color3=offwhite
-		texture="ce_cc_edain_border_29.dds"
+		texture="ce_border_tiny_square_02.dds"
 		instance={
-			scale={ 1.125000 1.125000 }
+			scale={ 0.760000 0.760000 }
 			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 17 14 12 }
+		color2=rgb { 218 185 134 }
+		texture="ce_cc_edain_border_30_gradient.dds"
+		instance={
+			scale={ 0.775000 0.775000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		color2=rgb { 233 216 181 }
+		color3=navy_blue
+		texture="ce_star_22.dds"
+		instance={
+			rotation=45
 		}
 
 	}
