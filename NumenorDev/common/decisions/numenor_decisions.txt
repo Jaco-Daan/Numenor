@@ -948,6 +948,7 @@ decision_numenor_invade_valinor = {
 	}
 
 	# AI
+	ai_check_interval = 60
 	ai_goal = no
 	ai_potential = {
 		always = no

@@ -3,7 +3,7 @@ autoerrorfixer_variable.numenor = {
 	hidden = yes
 	orphan = yes
 	immediate = {
-		fix_variable_error = {ERROR = scroll_of_king}
+		fix_variable_error = {ERROR = scroll_of_kings}
 		fix_variable_error = {ERROR = korlea_vassalization}
 		fix_variable_error = {ERROR = overlord_protector}
 	}

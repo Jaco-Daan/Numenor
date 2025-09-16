@@ -826,7 +826,7 @@ numenor.3202 = { # Ray gets a message from Numenor to become their tributary
 	theme = stewardship_duty_focus
 
 	override_background = {
-		reference =  southern_throne
+		reference =  armenelos
 	}
 	right_portrait = { 
 		character = scope:numenor_ruler

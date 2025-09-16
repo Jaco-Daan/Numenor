@@ -630,7 +630,7 @@ lineofelros109 = { # Tar-Veantur, founder of the Adunaben faith
 	6361.1.1 = {
 		birth = yes
 	}
-	6482.1.1 = {
+	6480.1.1 = {
 		religion = faith_adunaic
 		name = Azrukho_o_r
 		give_nickname = nick_the_pragmatic_tar_veantur
@@ -924,7 +924,7 @@ lineofelros114a1 = {
 	}
 }
 lineofelros114a2 = {
-	name = Vanyafindelë
+	name = Vanyafindel_e_e
 	female = yes
 	dynasty = dynasty_elros
 	religion = faith_adunaic
@@ -959,7 +959,7 @@ lineofelros114a2 = {
 	}
 }
 lineofelros114a1a1 = {
-	name = Ancalimë
+	name = Ancalim_e_e
 	female = yes
 	dynasty = dynasty_elros
 	religion = faith_adunaic
@@ -1224,7 +1224,17 @@ lineofelros111a1a2 = {
 	}
 	6890.2.14 = {
 		add_spouse = lineofarialome20a1
-		set_relation_soulmate = character:lineofarialome20a1
+	}
+	7030.1.1 = {
+		trait = widowed
+		effect = {
+			create_character_memory = {
+				type = soulmate_died			
+				participants = {
+					dead_relation = character:lineofarialome20a1
+				}
+			}
+		}
 	}
 	7033.1.1 = {
 		trait = infirm

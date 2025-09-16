@@ -176,7 +176,7 @@ e_numenor = {
 d_adunai = {
 	6480.1.1 = {
 		holder = lineofelros109 # Vëantur, first Monarch to be the new Adunaben faith
-		s = { equal_law }
+		succession_laws = { equal_law }
 	}
 	6593.1.1 = {
 		holder = lineofelros110 # Elendil II

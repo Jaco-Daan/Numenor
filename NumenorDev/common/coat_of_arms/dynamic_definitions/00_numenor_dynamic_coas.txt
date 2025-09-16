@@ -1,4 +1,4 @@
-#Numenor Submod#
+﻿#Numenor Submod#
 e_numenor = {
 	item = {
 		trigger = { coa_switch_to_faith_adunaben_trigger = yes }
