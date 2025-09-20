@@ -1,5 +1,8 @@
 ﻿numenor_on_game_start = {
-    effect = {
+    events = {
+		numenor_historical_artifacts.0001
+	}
+	effect = {
         every_living_character = {
 			limit = {
 				culture = culture:adunaic

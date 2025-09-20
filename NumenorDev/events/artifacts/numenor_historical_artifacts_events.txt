@@ -1,0 +1,46 @@
+﻿# LotR: WIP edited real-world references.
+
+namespace = numenor_historical_artifacts
+# Generation of historical artifacts #
+
+#Historical artifacts generator at game start
+numenor_historical_artifacts.0001 = {
+	scope = none
+	hidden = yes
+
+	immediate = {
+		## Númenor Submod ##
+		character:lineofelros114  = { # King of Numenor receives Dramborleg
+			create_artifact_dramborleg_effect = { OWNER = this }
+		}
+		
+		if = {
+			limit = {
+				has_dlc_feature = royal_court
+			}
+			character:lineofelros114  = { # King of Numenor receives Palantir
+				create_artifact_palantir_romenna_effect = { OWNER = this }
+			}
+		}
+		character:lineofelros114  = { # King of Numenor Little Aranruth
+			create_artifact_nibaran_effect = { OWNER = this }
+		}
+		
+		if = {
+			limit = {
+				 has_dlc_feature = royal_court
+			}
+			character:lineofelros114  = { # King of Numenor receives Steelbow
+				create_artifact_numenorean_steelbow_effect = { OWNER = this }
+			}
+		}
+		if = {
+			limit = {
+				 has_dlc_feature = royal_court
+			}
+			character:lineofelros114  = { # King of Numenor receives Helm
+				create_artifact_numenorean_helm_effect = { OWNER = this }
+			}
+		}
+	}
+}

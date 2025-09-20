@@ -581,7 +581,7 @@ reclaim_royal_lineage_effect = {
 
 add_blood_of_numenor_effect = {
 	
-	if = {
+	if = { #Numenor Sub-mod
 		limit = {
 			culture ?= {
 				OR = {
@@ -592,7 +592,7 @@ add_blood_of_numenor_effect = {
 			location ?= { geographical_region = middleearth_numenor }
 		}
 		add_trait = blood_of_numenor_7
-	} # Level 10 #Numenor Submod Change
+	} # Level 10 
 	else_if = {
 		limit = {
 			current_year < 4894

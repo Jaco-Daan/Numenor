@@ -13643,3 +13643,123 @@ barazon21 = {
 		death = { death_reason = death_natural_causes } 
 	}
 }
+
+#### House of Beleth ##### 
+## Descents of Beleth (lineofbeor22) of the House of Beor, family of Erendis Tar-Elestirne . Minor counts in Andunie in Numenor. ##
+
+lineofbeleth1 = {				
+	name = Beregar # Father of Erendis				
+	dynasty = dynasty_beleth				
+	religion = faith_numenorean				
+	culture = numenorean				
+			
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 7
+	intrigue = 6
+	learning = 9
+	prowess = 10
+
+	trait = ambitious
+	trait = gregarious
+	trait = compassionate
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+
+	1300.9.21 = {				
+		birth = yes			
+		
+	}
+	1368.6.1 = { # 776 at age 68 
+		add_spouse = lineofbeleth2
+	}	
+	1620.8.1 = { # 320 # Based on Tolkien's notes for Erendis's age in NM 320, rough = 90	
+		death = { death_reason = death_laid_down_life } 			
+	}				
+}
+
+lineofbeleth2 = {				
+	name = N_Uneth # Mother of Erendis				
+	
+	female = yes
+	religion = faith_numenorean				
+	culture = numenorean				
+			
+	trait = education_learning_3
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 8
+	intrigue = 2
+	learning = 12
+	prowess = 10
+
+	trait = patient
+	trait = temperate
+	trait = compassionate
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+
+	1318.5.15 = {				
+		birth = yes			
+		
+	}
+	1368.6.1 = { # 776 at age 50 
+	
+	}	
+	1620.8.1 = { # 345	
+		death = { death_reason = death_laid_down_life } 			
+	}				
+}
+
+lineofbeleth3 = {				
+	name = Erendis # Wife of Tar-Aldarion				
+	
+	female = yes
+	dynasty = dynasty_beleth
+	religion = faith_numenorean				
+	culture = numenorean				
+			
+	trait = education_diplomacy_2  # Not sure what to put here, open to suggestions - Trig
+
+	father = lineofbeleth1
+	mother = lineofbeleth2
+
+	diplomacy = 4
+	martial = 1
+	stewardship = 6
+	intrigue = 8
+	learning = 7
+	prowess = 10
+
+	trait = callous
+	trait = arrogant
+	trait = stubborn
+	trait = vengeful
+
+	trait = reclusive
+
+	trait = beauty_good_2	
+
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+
+	1369.5.15 = {			
+		birth = yes
+	}
+	1462.5.1 = {
+		give_nickname = nick_tar_elestirne
+		effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+	}
+	1577.4.1 = { # 214
+		death = { death_reason = death_drowned } 			
+	}				
+}

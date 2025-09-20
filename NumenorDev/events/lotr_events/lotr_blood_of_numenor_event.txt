@@ -2688,7 +2688,7 @@ numenoreanblood.0001 = {
 		}
 	}
 
-	after = {
+	after = { #Numenor Sub-mod
 		if = {
 			limit = {
 				scope:mother.location ?= { geographical_region = middleearth_numenor }

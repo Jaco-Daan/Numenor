@@ -658,7 +658,7 @@ widget = {
 						}		
 					}
 				
-					widget_hud_main_tab = {
+					widget_hud_main_tab = { #Numenor Sub-mod
 						allow_outside = yes
 						name = "numenor_button_tutorial_uses_this1"
 						visible = "[And(GetScriptedGui('numenor_council_of_the_sceptre_hud').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End), And( Not( IsPauseMenuShown ), And(Or(Not(IsObserver), GetPlayer.IsValid), IsDefaultGUIMode)))]"
