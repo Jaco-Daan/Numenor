@@ -10,7 +10,7 @@ heritage_adunaic = {
 		halls_advantage = -10
 		levy_attack = 5
 		levy_toughness = 5
-		epidemic_resistance = 25
+		epidemic_resistance = 10
 		diplomatic_range_mult = 1.25
 	}
 	is_shown = {
