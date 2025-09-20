@@ -800,12 +800,12 @@ decision_numenor_annex_korlea = {
 		OR = {
 			AND = {
 				exists = title:d_korlea.holder
-				title:d_korlea.holder.dynasty = dynasty:dynasty_korlea
+				title:d_korlea.holder.dynasty = dynasty:dynasty_isilitoreth
 				title:d_korlea.holder.primary_title = title:d_korlea
 			}
 			AND = {
 				exists = title:k_bellazen.holder
-				title:k_bellazen.holder.dynasty = dynasty:dynasty_korlea
+				title:k_bellazen.holder.dynasty = dynasty:dynasty_isilitoreth
 				title:k_bellazen.holder.primary_title = title:k_bellazen
 			}
 		}
@@ -846,7 +846,7 @@ decision_numenor_annex_korlea = {
 		if = {
 			limit = {
 				exists = title:k_bellazen.holder
-				title:k_bellazen.holder.dynasty = dynasty:dynasty_korlea
+				title:k_bellazen.holder.dynasty = dynasty:dynasty_isilitoreth
 				title:k_bellazen.holder.primary_title = title:k_bellazen
 			}
 			title:k_bellazen.holder = { save_scope_as = korlea_vassal_decision }
