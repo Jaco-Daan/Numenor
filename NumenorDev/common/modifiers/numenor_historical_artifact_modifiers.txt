@@ -5,3 +5,8 @@
     monthly_prestige = 2
     monthly_dynasty_prestige_mult = 0.1
 }
+
+blessed_land_of_numenor = {
+    icon = health_positive
+	epidemic_resistance = 100
+}

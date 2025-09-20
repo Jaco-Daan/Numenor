@@ -12,5 +12,11 @@
 		}
 		set_up_council_of_sceptre = yes
 		numenor_fire_intro_events = yes
+		
+		# Setup plague resistance
+		every_county_in_region = {
+			geographical_region = middleearth_numenor
+			add_county_modifier = blessed_land_of_numenor
+		}
     }
 }

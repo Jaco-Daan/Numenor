@@ -10,3 +10,7 @@
  I_BRIBEB_COUNCIL_MEMBER_EFFECT:1 "You paid [gold_i]$VALUE|0-$ to [TARGET_CHARACTER.GetShortUIName]"
  I_WAS_BRIBEB_COUNCIL_MEMBER_EFFECT:1 "You were paid [gold_i]$VALUE|+0$ by [TARGET_CHARACTER.GetShortUIName]"
  IS_BRIBEB_COUNCIL_MEMBER_EFFECT: "[CHARACTER.GetShortUIName|U] is paid [gold_i]$VALUE|0V$ from [TARGET_CHARACTER.GetShortUIName]"
+
+ #Modifier 
+ blessed_land_of_numenor_name: "Blessed Land of Númenor"
+ blessed_land_of_numenor_desc: "The very land and substance of [numenor|E] is blessed with health and fertility, and disease is almost unknown upon the island."
