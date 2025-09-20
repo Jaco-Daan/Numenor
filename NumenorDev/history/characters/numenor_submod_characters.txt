@@ -925,7 +925,9 @@ lineofelros114a1 = {
 }
 lineofelros114a2 = {
 	name = Vanyafindel_e_e
+	dna = vanyafindele_elerossioni_dna_wotr
 	female = yes
+	
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
@@ -960,7 +962,9 @@ lineofelros114a2 = {
 }
 lineofelros114a1a1 = {
 	name = Ancalim_e_e
+	dna = ancalime_elerossioni_dna_wotr
 	female = yes
+
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
@@ -1019,7 +1023,35 @@ lineofelros117 = {
 	6891.2.18 = {
 		birth = yes
 	}
+	6940.1.11 = {
+		set_relation_soulmate = character:lineofelros117wife
+		add_spouse = lineofelros117wife
+	}
 	7111.1.30 = {
+		death = { death_reason = death_heart_attack }
+	}
+}
+lineofelros117wife = {
+	name = Lo_o_miphe_e_l
+	dna = lomiphel_avalozir_elerossioni_wife_dna_wotr
+	female = yes
+
+	religion = faith_adunaic
+	culture = adunaic
+	
+	trait = blood_of_numenor_7
+	trait = beauty_good_2
+	trait = chaste
+	trait = content
+	trait = temperate
+	
+	6899.3.20 = {
+		birth = yes
+	}
+	6943.2.27 = {
+		trait = infertile
+	}
+	7111.1.14 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -1029,13 +1061,14 @@ lineofelros118 = {
 	religion = faith_adunaic
 	culture = adunaic
 	
-	
-	
 	father = lineofelros117
+	mother = lineofelros117wife
 	
 	trait = blood_of_numenor_7
+	trait = beauty_good_2
 	trait = just
 	trait = diligent
+	trait = arrogant
 	
 	6943.2.27 = {
 		birth = yes
@@ -11072,7 +11105,7 @@ lineofarialome20a1 = {
             learn_language = language_sindarin
         }
 	}
-	7030.1.1 = {
+	7038.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
