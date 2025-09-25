@@ -321,7 +321,7 @@ lineofelros95 = {
 	}
 }
 lineofelros96 = {
-	name = "Ardamire"
+	name = "Calantir"
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
@@ -1930,7 +1930,7 @@ lineofelatan36 = {
 }
 
 hostamirdaughter = {
-	name = "Lindisse"
+	name = "Lindiss_e_e"
 	female = yes
 	dynasty = dynasty_elros
 	religion = faith_numenorean
