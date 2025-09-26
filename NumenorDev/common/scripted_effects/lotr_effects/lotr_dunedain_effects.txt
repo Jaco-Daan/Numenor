@@ -593,7 +593,10 @@ add_blood_of_numenor_effect = {
 				location ?= { geographical_region = middleearth_numenor }
 			}
 		}
-		add_trait = blood_of_numenor_7
+		random_list = {
+			90 = { add_trait = blood_of_numenor_7 }
+			10 = { add_trait = blood_of_numenor_6 }
+		}		
 	} 
 	else_if = {
 		limit = {
