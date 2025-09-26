@@ -583,16 +583,38 @@ add_blood_of_numenor_effect = {
 	
 	if = { #Numenor Sub-mod
 		limit = {
+			AND = {
+				culture ?= {
+					OR = {
+						this = culture:adunaic
+						any_parent_culture_or_above = { this = culture:adunaic }
+					}
+				}
+				location ?= { geographical_region = middleearth_numenor }
+			}
+		}
+		add_trait = blood_of_numenor_7
+	} 
+	else_if = {
+		limit = {
 			culture ?= {
 				OR = {
 					this = culture:adunaic
 					any_parent_culture_or_above = { this = culture:adunaic }
 				}
-			}
-			location ?= { geographical_region = middleearth_numenor }
+			}	
 		}
-		add_trait = blood_of_numenor_7
-	} # Level 10 
+		random_list = {
+			50 = { add_trait = blood_of_numenor_7 }
+			30 = { add_trait = blood_of_numenor_6 }
+			10 = { add_trait = blood_of_numenor_5 }
+			7 = { add_trait = blood_of_numenor_4 }
+			1 = { add_trait = blood_of_numenor_3 }
+			1 = { add_trait = blood_of_numenor_2 }
+			1 = { add_trait = blood_of_numenor_1 }
+		}			
+	}
+	# Level 10 
 	else_if = {
 		limit = {
 			current_year < 4894
