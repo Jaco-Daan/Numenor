@@ -8,6 +8,13 @@
 				culture = culture:adunaic
 				location ?= { geographical_region = middleearth_numenor }
 			}
+			# Removes all lower than 6 7
+			remove_trait = blood_of_numenor_1
+			remove_trait = blood_of_numenor_2
+			remove_trait = blood_of_numenor_3
+			remove_trait = blood_of_numenor_4
+			remove_trait = blood_of_numenor_5
+
 			add_trait = blood_of_numenor_7
 		}
 		set_up_council_of_sceptre = yes
@@ -15,7 +22,7 @@
 		
 		# Setup plague resistance
 		every_county_in_region = {
-			geographical_region = middleearth_numenor
+			region = middleearth_numenor
 			add_county_modifier = blessed_land_of_numenor
 		}
     }

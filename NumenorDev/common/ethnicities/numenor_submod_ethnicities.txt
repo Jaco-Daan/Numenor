@@ -383,8 +383,7 @@ adunaic_ethnicity = {
         10 = { name = eye_height_pos    range = { 0.55 0.75 }    }
     }
 	gene_bs_eye_size = {
-        5 = { name = eye_size_pos    range = { 0.1 0.25 }    }
-        2 = { name = eye_size_neg    range = { 0.0 0.25 }    }
+        1 = { name = eye_size_neg    range = { 0.1 0.3 }    }
 	}
 	face_detail_eye_socket = {
         5 = {  name = eye_socket_03             range = { 0.0 0.4 }     }
@@ -612,7 +611,7 @@ adunaic_ethnicity = {
 		# # Red
 		5 = { 0.85 0.0 1.0 0.5 }
 		# # Black
-		25 = { 0.0 0.9 0.5 1.0 }
+		25 = { 0.0 0.95 0.5 1.0 }
 	}
     gene_bs_body_shape = {
         10 = { name = body_shape_average     range = { 0.1 0.5 }      }
@@ -640,9 +639,9 @@ adunaic_ethnicity = {
        1 = {  name = complexion_17             range = { 0.3 1.0 }     }
 	}	
 	gene_body_hair = {
-        1 = {  name = body_hair_sparse             range = { 0.00 0.5 }     }
-        1 = {  name = body_hair_sparse_low_stubble             range = { 0.00 0.5 }     }
-        1 = {  name = body_hair_sparse_lower_stubble             range = { 0.00 0.5 }     }
+        1 = {  name = body_hair_sparse             range = { 0.00 0.2 }     }
+        1 = {  name = body_hair_sparse_low_stubble             range = { 0.00 0.2 }     }
+        1 = {  name = body_hair_sparse_lower_stubble             range = { 0.00 0.2 }     }
     }
 	expression_brow_wrinkles = {
         50 = {  name = brow_wrinkles_01             range = { 0.0 0.5 }     }
@@ -762,7 +761,8 @@ adunaic_ethnicity = {
 
     face_detail_eye_upper_lid_def = {
         1 = { name = upper_lid_def range = { 0 1 } }
-        5 = { name = upper_lid_def_2 range = { 0 1 } }
+        5 = { name = upper_lid_def_2 range = { 0.5 1 } }
+        5 = { name = upper_lid_def_2 range = { 1 1 } }
     }
 }
 
@@ -1919,9 +1919,6 @@ adunaic_ethnicity_4 = {
         5 = { name = eye_height_pos    range = { 0.5 0.525 }    }
         1 = { name = eye_height_pos    range = { 0.525 0.6 }    }
     }
-    gene_bs_eye_size = {
-        1 = { name = eye_size_neg    range = { 0.1 0.3 }    }
-	}
 	
 	face_detail_eye_socket = {
         5 = {  name = eye_socket_03             range = { 0.0 0.4 }     }
@@ -2023,9 +2020,5 @@ adunaic_ethnicity_4 = {
         1 = { name = vanilla_nose_septum_height  range = {0.0 0.0} }
         1 = { name = nose_septum_height  range = {0.25 0.75} }
         1 = { name = nose_septum_height  range = {0 0.25} }
-    }
-
-    face_detail_eye_upper_lid_def = {
-        1 = { name = upper_lid_def_2 range = { 0.5 1 } }
     }
 }
