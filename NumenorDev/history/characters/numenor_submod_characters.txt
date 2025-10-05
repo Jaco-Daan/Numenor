@@ -1279,6 +1279,7 @@ lineofelros111a1a2 = {
 }
 lineofelros111a1a3 = {
 	name = Ba_a_naphi_i_n
+	dna = banaphin_elerossioni_111a1a3_dna_wotr
 	female = yes
 	dynasty = dynasty_elros
 
@@ -3159,8 +3160,12 @@ lineofvardur27 = {
 	trait = lifestyle_mariner
 	trait = beauty_good_1
 	
-	6998.1.1 = {
+	6968.1.1 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
 	}
 }
 
@@ -3193,8 +3198,12 @@ lineofvardur29 = {
 	trait = blood_of_numenor_7
 	trait = beauty_good_1
 	
-	7001.1.1 = {
+	6972.1.1 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
 	}
 }
 
@@ -3606,7 +3615,7 @@ lineofciryandur31 = { # Made lord of all of Ciryanore to reward him
 	}
 }
 lineofciryandur32 = {
-	name = "Herundil"
+	name = Herundur
 	dynasty = dynasty_ciryandur
 	religion = faith_numenorean
 	culture = adunaic
@@ -3618,6 +3627,10 @@ lineofciryandur32 = {
 	
 	6589.1.1 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
 	}
 	6776.1.1 = { # Numenor Autonomy setup.
         effect = {
@@ -3640,7 +3653,7 @@ lineofciryandur32 = {
 	}
 }
 herundilsister = {
-	name = "Firiel"
+	name = M_iriel
 	dynasty = dynasty_ciryandur
 	religion = faith_numenorean
 	culture = adunaic
@@ -3659,7 +3672,7 @@ herundilsister = {
 	}
 }
 lineofciryandur33 = {
-	name = "Lo_o_khuzo_o_r"
+	name = Isilion
 	dynasty = dynasty_ciryandur
 	religion = faith_numenorean
 	culture = adunaic
@@ -3698,8 +3711,14 @@ lineofciryandur34 = {
 	learning = 6
 	prowess = 6
 	
-	6998.1.1 = {
+	6978.1.1 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+        }
+	}
+	7029.8.14 = {
+		add_spouse = lineelebastard15a1
 	}
 	7030.1.1 = { # Numenor Autonomy setup.
         effect = {
@@ -3719,12 +3738,13 @@ lineofciryandur34 = {
     }
 }
 lineofciryandur35 = {
-	name = "Balkumaga_a_n"
+	name = Phaza_a_ttho_o_r
 	dynasty = dynasty_ciryandur
 	religion = faith_numenorean
 	culture = adunaic
 	
 	father = lineofciryandur34
+	mother = lineelebastard15a1
 	
 	trait = blood_of_numenor_7
 	
@@ -3739,6 +3759,7 @@ lineofciryandur36 = {
 	culture = adunaic
 	
 	father = lineofciryandur34
+	mother = lineelebastard15a1
 	
 	trait = blood_of_numenor_7
 	
@@ -5186,6 +5207,12 @@ ruxoalendilthirdline4 = {
 	
 	6850.1.1 = {
 		birth = yes
+		effect = {
+			vassal_contract_set_obligation_level = {
+                type = religious_rights
+                level = 1
+            }
+        }
 	}
 }
 
@@ -5293,6 +5320,7 @@ ruxoalendil26 = {
 }
 ruxoalendil27 = {
 	name = Izindukho_o_r
+	dna = izindukhor_ruxoalendil_27_wotr_dna
 	dynasty = dynasty_minorforostar
 	culture = adunaic
 	religion = faith_adunaic
@@ -6730,6 +6758,7 @@ lineofkhorahil8 = {
 
 lineofkhorahil9 = {
 	name = Azu_u_lphazga_a_n
+	dna = azulphazgan_akhorahilohin_9_wotr_dna
 	dynasty = dynasty_akhorahil
 	religion = faith_adunaic
 	culture = adunaic
@@ -6819,7 +6848,7 @@ lineofkhorahil13 = {
 
 ##Telemnacilion##
 lineoftelemnacil1 = {
-    name = Telemnacil
+    name = Telemmacil
 
     dynasty = dynasty_telemnacil
     religion = faith_numenorean
@@ -8900,6 +8929,7 @@ lineoftelemnacil60 = {
 
 lineoftelemnacil61 = {
     name = Earendur
+	dna = earendur_telemmacil_61_wotr_dna
 
     dynasty = dynasty_telemnacil
     religion = faith_adunaic
@@ -8976,6 +9006,7 @@ lineoftelemnacil59a1 = {
 
 lineoftelemnacil62 = {
     name = Adu_u_naphe_e_l
+	dna = adunaphel_aduninzilohil_telemnacil62_wotr_dna
     female = yes
 
 	dynasty_house = dynasty_jeweldaughter
@@ -10544,8 +10575,25 @@ lineelebastard15 = {
         }
     }
 }
+lineelebastard15a1 = {
+	name = A_A_ru_u_phin
+	female = yes
+	dynasty = dynasty_elenore
+	religion = faith_adunaic
+	culture = adunaic
+	
+	father = lineelebastard15
+	mother = lineofelros111a1a2a1
+	
+	trait = blood_of_numenor_7
+	
+	6980.1.1 = {
+		birth = yes
+	}
+
+}
 lineelebastard16 = {
-	name = Arnuzi_i_l
+	name = Arnuzi_i_r
 	dynasty = dynasty_elenore
 	religion = faith_adunaic
 	culture = adunaic
@@ -11586,6 +11634,7 @@ lineofazrubensubmod31 = {
 
 lineofazrubensubmod32 = {
 	name = Balkutho_o_r
+	dna = balkuthor_azulhin_32_wotr_dna
 	dynasty = dynasty_azulhin
 	religion = faith_adunaic
 	culture = adunaic
@@ -12441,6 +12490,12 @@ lineborodirsubmod43= {
 	
 	6854.1.1 = {
 		birth = yes
+		effect = {
+			vassal_contract_set_obligation_level = {
+                type = religious_rights
+                level = 1
+            }
+        }
 	}
 }
 lineborodirsubmod42a1 = {
@@ -14389,7 +14444,7 @@ lineofondostotwo5a1 = {
 	trait = arrogant
 	trait = chaste
 	
-	6890.12.14 = {
+	6880.12.14 = {
 		birth = yes
 	}
 	7116.5.25 = {

@@ -3,11 +3,11 @@
 Arkia: "Arkia"
 Baian: "Baian"
 
-### PORT OVER ###
+### PORT OVER (PORTED TO MASTER NOT STEAM) ###
 Aglarkali_i_: "Aglarkalî" # Adûnâic Female - Bright, see Q. Ancalimë (not perfect translation)
 Armanar: "Armanar" # Quenya Male - Sun-ray fire, see Ad. Ûrîzôr
 Artafindel_e_e: "Artafindelë" # Quenya Female - Noble-haired
-A_A_ru_u_phine_e_th: "Ârûphinêth" # Adûnâic Female - Royal-haired, see Q. Artafindë/Artafindelë
+A_A_ru_u_phine_e_th: "Ârûphinêth" # Adûnâic Female - Royal-haired, see Q. Artafindelë
 Ataniel: "Ataniel" # Quenya Female - Man-daughter, see Ad. Narûphêl
 Ba_a_naphi_i_n: "Bânaphîn" # Adûnâic Neut - Bright-hair, see Q. Vanyafindelë (not perfect translation, Neo. Ad)
 Bethriliel: "Bethriliel" # Sindarin Female - Wife-daughter, see Ad. Banâthin
@@ -19,3 +19,10 @@ Turindor: "Turindor" # Quenya Male - Lord-minded one
 Uinendilm_e_e: "Uinendilmë" # Quenya Female - Uinen-friend
 U_U_ri_i_zo_o_r: "Ûrîzôr" # Adûnâic Male - Sun-fire, see Q. Armanar
 Vanyafindel_e_e: "Vanyafindelë" # Quenya Neut - Beautiful-haired
+
+### PORT OVER (PORTED TO NEITHER) ###
+A_A_ru_u_phin: "Ârûphin" # Adûnâic Female - Royal-hair, see Q. Artafindë
+Herundur: "Herundur" # Quenya Male - Lord-servant
+Isilion: "Isilion" # Quenya Male - Moon-son
+Phaza_a_ttho_o_r: "Phazatthôr" # Adûnâic Male - Prince-son
+Telemmacil: "Telemmacil" # Quenya Male - Silver-sword
