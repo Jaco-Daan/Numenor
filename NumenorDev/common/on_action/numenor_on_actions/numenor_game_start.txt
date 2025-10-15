@@ -23,7 +23,7 @@
 		# Setup plague resistance
 		every_county_in_region = {
 			region = middleearth_numenor
-			add_county_modifier = blessed_land_of_numenor
+			add_county_modifier = blessed_land_of_numenor_modifier
 		}
     }
 }
