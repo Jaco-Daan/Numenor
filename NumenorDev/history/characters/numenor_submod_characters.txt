@@ -681,7 +681,7 @@ lineofelros111 = {
 	}
 }
 lineofelros112 = {
-	name = Azrube_e_l
+	name = Azrube_e_n
 	dna = airendur_elerossioni_lw_dna
 	dynasty = dynasty_elros
 	religion = faith_adunaic
