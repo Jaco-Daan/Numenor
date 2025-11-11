@@ -11,10 +11,10 @@ decision_gondor_regnal_names = {
 	ai_goal = no
 	ai_check_interval = 12
 	ai_potential = {
-		always = yes
+		always = no
 	}
 	ai_will_do = {
-		base = 100
+		base = 0
 	}
 	selection_tooltip = decision_gondor_regnal_names_tooltip
 	desc = decision_gondor_regnal_names_desc
@@ -22,11 +22,15 @@ decision_gondor_regnal_names = {
 	
 	is_shown = {
 		culture = { has_cultural_pillar = heritage_dunedain }
-		has_title = title:e_gondor
+		OR = {
+			has_title = title:e_gondor
+			has_title = title:e_castamir
+		}
 		is_male = yes
 		NOT = {
 			has_character_flag = has_regnal_name
 		}
+		NOT = { has_character_flag = is_aragorn }
 	}
 	
 	is_valid_showing_failures_only = {
@@ -973,6 +977,7 @@ decision_destroy_mordor = {
 			has_primary_title = title:e_reunitedkingdom
 			any_neighboring_top_liege_realm_owner = { this = title:e_mordor.holder }
 		}	
+		faith_is_good = yes
 		# lotr_has_numenorean_culture_trigger = yes
 		NOR = {
 			is_target_in_global_variable_list = {
@@ -1019,6 +1024,17 @@ decision_destroy_mordor = {
 				}
 				completely_controls_region = custom_gondorian_heartlands
 			}
+			trigger_else = { # Must border Mordor to destroy it
+				custom_tooltip = {
+					text = you_border_mordor
+					any_realm_county = {
+						any_neighboring_county = {
+							empire = title:e_mordor
+						}
+					}
+				}
+				
+			}
 			trigger_if = {
 				limit = { is_elf = yes }
 				custom_tooltip = {
@@ -1059,22 +1075,47 @@ decision_destroy_mordor = {
 		} 
 		else = {
 			if = {
-				limit = { exists = title:e_mordor.holder }
-				start_war = {
-					casus_belli = final_battle_gondor_cb
-					target = title:e_mordor.holder
-					target_title = title:e_mordor
-				}
-
-				title:e_mordor.holder = {
-					random_character_war = {
-						limit = {
-							using_cb = final_battle_gondor_cb
-						}
-						save_scope_as = destroy_mordor_war
+				limit = { game_start_date = 6787.1.1 } #LW start date gets easy version of Destroy Mordor
+				if = {
+					limit = { exists = title:e_mordor.holder }
+					start_war = {
+						casus_belli = final_battle_gondor_for_babies_cb
+						target = title:e_mordor.holder
+						target_title = title:e_mordor
 					}
-					every_tributary = {
-						scope:destroy_mordor_war = { add_defender = prev }
+
+					title:e_mordor.holder = {
+						random_character_war = {
+							limit = {
+								using_cb = final_battle_gondor_for_babies_cb
+							}
+							save_scope_as = destroy_mordor_war
+						}
+						every_tributary = {
+							scope:destroy_mordor_war = { add_defender = prev }
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { exists = title:e_mordor.holder }
+					start_war = {
+						casus_belli = final_battle_gondor_cb
+						target = title:e_mordor.holder
+						target_title = title:e_mordor
+					}
+
+					title:e_mordor.holder = {
+						random_character_war = {
+							limit = {
+								using_cb = final_battle_gondor_cb
+							}
+							save_scope_as = destroy_mordor_war
+						}
+						every_tributary = {
+							scope:destroy_mordor_war = { add_defender = prev }
+						}
 					}
 				}
 			}
@@ -1360,8 +1401,20 @@ decision_calenardhon_claim = {
 	ai_potential = {
 		always = yes
 	}
-	ai_will_do = {
-		base = 100
+	ai_will_do = { # Don't attack good people holding it
+		base = 0
+		modifier = {
+			add = 100
+			title:k_rohan.holder ?= {
+				faith_is_evil = yes
+			}
+		}
+		modifier = { # You can attack neutrals if you feel like it
+			add = 25
+			title:k_rohan.holder ?= {
+				faith_is_good = no
+			}
+		}
 	}
 
 	selection_tooltip = decision_calenardhon_claim_tooltip
@@ -1376,13 +1429,8 @@ decision_calenardhon_claim = {
 			is_gondor = yes
 			has_primary_title = title:e_reunitedkingdom
 		}
-		
-		# OR = {
-		# 	has_title = title:e_gondor
-		# 	has_title = title:e_gondor_steward
-		# 	has_title = title:e_castamir
-		# }	
 		exists = title:k_rohan.holder
+
 		title:k_rohan.holder ?= {
 			NOT = { 
 				any_liege_or_above = {
@@ -1439,18 +1487,18 @@ decision_calenardhon_claim = {
 
 	is_valid = {
 		is_independent_ruler = yes
-		# completely_controls = title:e_gondor
+		completely_controls = title:k_anorien # You need to border Rohan
 		# prestige_level >= very_high_prestige_level
 		OR = {
 			is_gondor = yes
 			has_primary_title = title:e_reunitedkingdom
 		}
-		# OR = {
-		# 	has_title = title:e_gondor
-		# 	has_title = title:e_gondor_steward
-		# 	has_title = title:e_castamir
-		# }
-	}	
+	}
+
+	cost = {
+		prestige = 500
+		piety = 250
+	}
 
 	effect = {
 		custom_tooltip = press_calenardhon_claim_tooltip
@@ -2115,20 +2163,7 @@ decision_reunify_dunedain = {
 	
 	# EFFECT 
 	effect = {
-		if = { # Last King of the Elder Days | Achievement
-			limit = { 
-				is_ai = no
-				NOT = { exists = global_var:lotr_achievement_26 }
-				realms_achievements_enabled = yes
-				root = character:lineisildur42
-				age < 151
-				is_target_in_global_variable_list = {
-					name = unavailable_unique_decisions
-					target = flag:decision_destroy_mordor
-				}
-			}
-			set_global_variable = lotr_achievement_26
-		}
+		lotr_achievement_26_effect = yes
 		culture:dunedain = {
 			culture:dunedain = { save_temporary_scope_as = dunedain_culture }
 			culture:gondorian = { save_temporary_scope_as = gondorian_culture }
@@ -4240,7 +4275,7 @@ decision_restore_defeated_gondor = {
 		faith_is_good = yes
 
 		NAND = { # Do not show while another liberation war is ongoing
-            title:e_mordor.holder = { has_character_flag = attacked_in_gondor_liberation }
+            title:c_minas_tirith.holder.top_liege = { has_character_flag = attacked_in_gondor_liberation }
 			any_ruler = { has_character_flag = liberating_gondor }
 		}
 		
@@ -4289,6 +4324,29 @@ decision_restore_defeated_gondor = {
 			NAND = {
 				is_tributary = yes
 				suzerain = { is_maiar_fallen = yes }
+			}
+		}
+		trigger_if = {
+			limit = { is_ai = yes }
+			trigger_if = {
+				limit = { is_elf = yes }
+				custom_tooltip = {
+					text = destroy_mordor_decision_current_military_strength_elven_tt
+					root.script_current_military_strength >= title:e_mordor.holder.lotr_twenty_five_percent_of_current_military_strength
+				}
+			} 
+			trigger_else_if = {
+				limit = { is_dwarf = yes }
+				custom_tooltip = {
+					text = destroy_mordor_decision_current_military_strength_dwarven_tt
+					root.script_current_military_strength >= title:e_mordor.holder.a_third_of_current_military_strength
+				}
+			} 
+			trigger_else = {
+				custom_tooltip = {
+					text = destroy_mordor_decision_current_military_strength_default_tt
+					root.script_current_military_strength >= title:e_mordor.holder.fifty_percent_of_current_military_strength
+				}
 			}
 		}
 	}
@@ -4367,7 +4425,7 @@ decision_join_gondor_liberation = {
 	is_valid = {
 		custom_tooltip = {
 			text = decision_join_gondor_liberation_tt
-			title:e_mordor.holder = { has_character_flag = attacked_in_gondor_liberation }
+			title:c_minas_tirith.holder.top_liege = { has_character_flag = attacked_in_gondor_liberation }
 			any_ruler = { has_character_flag = liberating_gondor }
 		}
 		custom_tooltip = {
@@ -4571,6 +4629,137 @@ decision_establish_the_ithilien_rangers = {
 	ai_will_do = { base = 100 }
 	# ai_check_interval = 72 # Mutually exclusive with `ai_goal = yes`
 }
+
+#############################
+### Oath of Eorl Decision ###
+#############################
+
+decision_oath_of_eorl_gondor = {
+	title = decision_oath_of_eorl_gondor
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_oath_of_eorl.dds"
+	}
+	
+	ai_goal = yes
+
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+
+	selection_tooltip = decision_oath_of_eorl_gondor_tooltip
+	desc = decision_oath_of_eorl_gondor_desc
+	confirm_text = decision_oath_of_eorl_gondor_confirm
+	
+	decision_group_type = realms_in_exile_minor
+	
+	sort_order = 500
+	
+	is_shown = {
+		is_landed = yes
+		exists = title:k_rohan
+		NOT = { has_title = title:k_rohan }
+		OR = {
+			has_title = title:e_gondor_steward
+			has_title = title:e_gondor
+			AND = {
+				has_title = title:e_reunitedkingdom
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions
+					target = flag:decision_solidify_reunited_kingdom
+				}
+			}
+		}
+		religion = { is_in_family = rf_eruhini }
+		OR = {
+			title:k_rohan.holder.religion = { is_in_family = rf_eruhini }
+			AND = {
+				exists = global_var:gondor_approves_of_wulf
+				global_var:gondor_approves_of_wulf = yes
+			}
+		}	
+	}
+
+	is_valid = {
+		is_imprisoned = no
+		custom_tooltip = {
+			text = "LOTR_AT_PEACE_WITH_ROHAN_TRIGGER"
+			lotr_at_peace_with_rohan = yes
+		}
+		custom_tooltip = {
+			text = "LOTR_NOT_ALREADY_FIGHTING_ALONGSIDE_ROHAN_TRIGGER"
+			OR = {
+				is_at_war = no
+				any_war_ally = {
+					this = title:k_rohan.holder
+					count = 0
+				}
+			}
+		}
+		custom_tooltip = {
+			text = "is_in_defensive_war_vs_empire"
+			is_at_war = yes
+			any_character_war = {
+				is_defender = root
+				any_war_attacker = { highest_held_title_tier >= tier_kingdom }
+			}
+		}
+		custom_tooltip = {
+			text = "LOTR_ARMIES_ARE_OUTNUMBERED_TRIGGER"
+			lotr_armies_are_outnumbered = yes
+		}
+		title:k_rohan.holder = {
+			trigger_if = {
+				limit = {
+					exists = global_var:gondor_approves_of_wulf
+					global_var:gondor_approves_of_wulf = yes
+				}
+				OR = {
+					dynasty = dynasty:dynasty_eorl
+					dynasty = dynasty:dynasty_freca
+				}
+			}
+			trigger_else = {
+				dynasty = dynasty:dynasty_eorl
+			}
+		}
+		custom_tooltip = {
+			text = "LOTR_NOT_CIVIL_WAR_TRIGGER"
+			any_character_war = { #Rohan won't be called in Gondor's civil wars
+				casus_belli = {
+					OR = {
+						primary_attacker = { NOT = { is_vassal_of = root } }
+						primary_defender = { NOT = { is_vassal_of = root } }
+					}
+				}
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		custom_tooltip = {
+			text = is_considering_wulf
+			NOT = { has_character_flag = considering_wulf }
+		}
+	}
+	
+	effect = {	
+		play_music_cue = lotr_cue_beacons
+		save_scope_as = gondor
+		custom_tooltip = "call_on_rohan_for_aid_effect"
+		title:k_rohan.holder = {	
+			trigger_event = {
+				id = rohan.2000
+				days = { 30 60 }
+			}
+		}
+	}
+
+	cooldown = { years = 5 }
+}
+
 #######################
 ### MINOR DECISIONS ###
 #######################
@@ -4886,6 +5075,83 @@ decision_invite_northron_settlers = {
 					NOT = { geographical_region = custom_eastern_gondor }
 				}
 			}
+		}
+	}
+}
+
+decision_restore_guild_of_venturers = {
+	sort_order = 0
+	title = decision_restore_guild_of_venturers
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_set_sail.dds"
+	}
+
+	decision_group_type = realms_in_exile_minor
+	
+	ai_goal = no
+	ai_check_interval = 40
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+	selection_tooltip = decision_restore_guild_of_venturers_tooltip
+	desc = decision_restore_guild_of_venturers_desc
+	confirm_text = decision_restore_guild_of_venturers_confirm
+	
+	is_shown = {
+		has_trait = lifestyle_mariner
+		capital_county = {
+			is_coastal_county = yes
+		}
+		lotr_has_numenorean_culture_trigger = yes
+		NOT = {
+			is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_restore_guild_of_venturers
+			}
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+	
+	is_valid = {
+		prestige_level >= 5
+		custom_tooltip = {
+			text = has_100_mariner_xp
+			has_trait_xp = {
+				trait = lifestyle_mariner
+				value = 100
+			}
+		}
+		
+		house ?= { has_house_modifier = owns_big_ship }
+		capital_province = { 
+			has_building_or_higher = common_tradeport_08
+		}
+	}
+
+	cost = {
+		prestige = 500
+		gold = 250
+	}
+	
+	effect = {
+		house = {
+			add_house_modifier = guild_of_venturers_modifier
+		}
+		give_nickname = nick_uinendil
+		dynasty = { 
+			add_dynasty_prestige = 500
+		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_restore_guild_of_venturers
 		}
 	}
 }

@@ -661,7 +661,7 @@ heritage_new_sirayni = {
 heritage_ioriag = {
 	type = heritage
 	parameters = {
-		heritage_group_talataerim = yes
+		heritage_group_talathrim = yes
 		heritage_family_easterling = yes
 		is_human_heritage = yes
 	}
@@ -676,10 +676,28 @@ heritage_ioriag = {
 	audio_parameter = mena
 }
 
+heritage_tedjin = {
+	type = heritage
+	parameters = {
+		heritage_group_talathrim = yes
+		heritage_family_easterling = yes
+		is_human_heritage = yes
+	}
+	character_modifier  = {
+		halls_advantage = -10
+	}
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_tedjin
+		}
+	}
+	audio_parameter = mena
+}
+
 heritage_igath = {
 	type = heritage
 	parameters = {
-		heritage_group_talataerim = yes
+		heritage_group_talathrim = yes
 		heritage_family_easterling = yes
 		is_human_heritage = yes
 	}
@@ -1348,10 +1366,10 @@ heritage_stonefoot = {
 	audio_parameter = european
 }
 
-heritage_north_khailuza = { # Chey-Sart (alternatively: Khey Sârt in southern Khailuzan)
+heritage_north_khailuza = { # Chey-Sârt (alternatively: Khey Sârt in southern Khailuzan)
 	type = heritage
 	parameters = {
-		heritage_group_talataerim = yes
+		heritage_group_talathrim = yes
 		heritage_family_easterling = yes
 		is_human_heritage = yes
 	}
@@ -1369,7 +1387,7 @@ heritage_north_khailuza = { # Chey-Sart (alternatively: Khey Sârt in southern K
 heritage_south_khailuza = { # Bay of Ormal, encompassing Khy, Anarike, and some cultures of Sirayn
 	type = heritage
 	parameters = {
-		heritage_group_talataerim = yes
+		heritage_group_talathrim = yes
 		heritage_family_easterling = yes
 		is_human_heritage = yes
 	}
