@@ -1,9 +1,9 @@
-﻿#Dúnedain
-#	faith_numenorean
-#	faith_edain
-#	faith_edain_ulmo
-#	faith_edain_manwe
-#	faith_edain_varda
+﻿### Dunedain Religion ###
+# faith_numenorean
+# faith_edain
+# faith_edain_ulmo
+# faith_edain_manwe
+# faith_edain_varda
 
 dunedain_religion = {
 	family = rf_eruhini
@@ -317,7 +317,7 @@ dunedain_religion = {
 			doctrine = doctrine_clerical_gender_male_only 
 		}
 		
-		faith_adunaic = {
+		faith_adunaic = { # Numenor Submod
 			color = { 41 77 199 }
 			icon = custom_adunaben_tree
 			graphical_faith = catholic_gfx
