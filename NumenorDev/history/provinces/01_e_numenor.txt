@@ -2000,7 +2000,7 @@
 		buildings = {
 			castle_03
 			hill_forts_06
-			quarries_06
+			sapphire_mines_06
 		}
 		duchy_capital_building = blacksmiths_02
 	}
@@ -2265,7 +2265,7 @@
 		buildings = {
 			castle_03
 			citadel_04
-			quarries_06
+			mithril_mines_06
 		}
 		special_building_slot = wonder_sorontil_01
 		special_building = wonder_sorontil_01
@@ -2277,7 +2277,7 @@
 	6776.1.1 = {
 		buildings = {
 			city_03
-			quarries_06
+			iron_mines_06
 		}
 	}
 }
@@ -2286,7 +2286,7 @@
 	6776.1.1 = {
 		buildings = {
 			city_03
-			quarries_06
+			silver_mines_06
 		}
 	}
 }

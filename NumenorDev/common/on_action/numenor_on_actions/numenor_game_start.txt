@@ -25,5 +25,6 @@
 			region = middleearth_numenor
 			add_county_modifier = blessed_land_of_numenor_modifier
 		}
+		define_numenor_resources = yes
     }
 }
