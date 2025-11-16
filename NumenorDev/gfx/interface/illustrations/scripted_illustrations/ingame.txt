@@ -7157,7 +7157,7 @@ character_view_bg = {
 	}
 
 	environment = {
-		reference = "character_view/mediterranean.dds"
+		reference = "environment_cw_mediterranean_main"
 
 		trigger = {
 			OR = {
@@ -7312,7 +7312,7 @@ character_view_bg = {
 	}
 	
 	environment = {
-		reference = "character_view/mediterranean.dds"
+		reference = "environment_cw_mediterranean_main"
 
 		trigger = {
 			OR = {
