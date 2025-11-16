@@ -1525,10 +1525,9 @@ decision_restore_numenor_province = {
 							}
 						}
 					}
-				struggle:thani_hazad_struggle ?= { end_struggle = yes }
+					struggle:thani_hazad_struggle ?= { end_struggle = yes }
+				}
 			}
-		}
-    } 
 				
 			trigger_event = numenor.1004
 			save_scope_as = restorer

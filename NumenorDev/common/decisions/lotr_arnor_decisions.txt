@@ -565,7 +565,6 @@ decision_claim_gondor_arassuil = {
 
 	# IS_SHOWN
 	is_shown = {
-		always = no # Numenor submod
 		current_year >= 4035 # Is only shown if bookmark is after the two kingdoms split
 		
 		OR = {
@@ -574,7 +573,7 @@ decision_claim_gondor_arassuil = {
 		}
 		#has_title = title:d_northern_dunedain
 		NOT = { exists = title:e_gondor.holder }
-		NOT = { exists = title:e_numenor.holder } # Numenor submod
+		
 
 		# OR = {
 		# 	dynasty = dynasty:dynasty_elros
@@ -587,6 +586,20 @@ decision_claim_gondor_arassuil = {
 		NOT = { THIS = character:lineisildur42 }
 		
 		title:e_gondor_steward.holder = { is_ai = yes } #Should not be able to oust a human playing the steward
+		NOT = { # Numenor submod
+			OR = {
+				any_held_title = {
+					tier = tier_county
+					target_is_de_jure_liege_or_above = title:e_numenor
+				}
+				any_vassal_or_below = {
+					any_held_title = {
+						tier = tier_county
+						target_is_de_jure_liege_or_above = title:e_numenor
+					}
+				}
+			}
+		}
 
 		NOT = {
 			is_target_in_global_variable_list = {
