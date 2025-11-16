@@ -100,8 +100,7 @@
  decision_expedition_anarike_confirm: "Placeholder"
  decision_expedition_anarike: "Placeholder"
 
- decision_restore_numenor_province_title: ""
- decision_restore_numenor_province_desc: ""
+ decision_restore_numenor_province_desc: "Over the centuries, the [realms_in_exile|E] have declined and lost many of their former territories. If we were to reclaim them, we could once again solidify our rule and integrate these regions into our [de_jure|E]. Perhaps we could even consolidate some new regions, which we previously only ruled in name alone."
  decision_restore_numenor_province.tt.empty_desc: ""
  decision_restore_numenor_province.tt.umbar: "[GetTitleByKey('e_umbar').GetNameNoTier]"
  decision_restore_numenor_province.tt.bellakar: "[GetTitleByKey('e_bellakar').GetNameNoTier]"
