@@ -2770,40 +2770,40 @@ decision_numenor_in_exile = {
 	desc = decision_numenor_in_exile_desc
 	confirm_text = decision_numenor_in_exile_confirm
 	is_shown = {
-		NOT = { has_title = title:e_numenor } #Numenor Submod
 		lotr_has_numenorean_culture_trigger = yes # Only a Numenorean culture can claim the mantle of successor to Numenor!
 		highest_held_title_tier >= tier_empire # Only an imperial rank can hope to claim the mantle of successor to Numenor!
-		OR = { # Compromise solution
-			# Either own half of the entire region of NIE
-			any_county_in_region = {
-				region = special_nie
-				OR = {
-					holder = { is_vassal_or_below_of = root }
-					holder = root
+		AND = {
+			NOT = { has_title = title:e_numenor } #Numenor Submod
+				OR = { # Compromise solution
+				# Either own half of the entire region of NIE
+				any_county_in_region = {
+					region = special_nie
+					OR = {
+						holder = { is_vassal_or_below_of = root }
+						holder = root
+					}
+					percent >= 0.5
 				}
-				percent >= 0.5
-			}
-			# Or control six of these key locations
-			calc_true_if = { # Important colonial cities
-				amount >= 6
-				completely_controls = title:c_tharbad
-				completely_controls = title:c_lond_galen
-				completely_controls = title:c_dol_amroth
-				completely_controls = title:c_osgiliath
-				completely_controls = title:c_pelargir
-				completely_controls = title:c_umbar
-				completely_controls = title:c_nykkea
-				completely_controls = title:c_hazaj_tollin
-				completely_controls = title:c_nilulonde
-				completely_controls = title:c_korlea
-				completely_controls = title:c_tariketh_an_kharat
-				completely_controls = title:c_inzilloni
-				completely_controls = title:c_uruloni
-				completely_controls = title:c_mispir
+				# Or control six of these key locations
+				calc_true_if = { # Important colonial cities
+					amount >= 6
+					completely_controls = title:c_tharbad
+					completely_controls = title:c_lond_galen
+					completely_controls = title:c_dol_amroth
+					completely_controls = title:c_osgiliath
+					completely_controls = title:c_pelargir
+					completely_controls = title:c_umbar
+					completely_controls = title:c_nykkea
+					completely_controls = title:c_hazaj_tollin
+					completely_controls = title:c_nilulonde
+					completely_controls = title:c_korlea
+					completely_controls = title:c_tariketh_an_kharat
+					completely_controls = title:c_inzilloni
+					completely_controls = title:c_uruloni
+					completely_controls = title:c_mispir
+				}
 			}
 		}
-
-
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
