@@ -1500,6 +1500,35 @@ decision_restore_numenor_province = {
 				name = unavailable_unique_decisions
 				target = flag:reclaim_numenorean_thani_hazad_decision
 			}
+			# End Thani Struggle if ongoing
+			hidden_effect = {
+				if = {
+					limit = {
+						exists = struggle:thani_hazad_struggle
+					}
+					custom_tooltip = numenor_in_exile_thani_struggle_tt
+					struggle:thani_hazad_struggle ?= {
+						every_involved_ruler = {
+							send_interface_toast = {
+								type = event_toast_effect_neutral
+								title = numenor_in_exile_thani_struggle_toast
+								left_icon = scope:founder
+								custom_tooltip = numenor_in_exile_thani_struggle_toast_desc
+							}
+						}
+						every_interloper_ruler = {
+							send_interface_toast = {
+								type = event_toast_effect_neutral
+								title = numenor_in_exile_thani_struggle_toast
+								left_icon = scope:founder
+								custom_tooltip = numenor_in_exile_thani_struggle_toast_desc
+							}
+						}
+					}
+				struggle:thani_hazad_struggle ?= { end_struggle = yes }
+			}
+		}
+    } 
 				
 			trigger_event = numenor.1004
 			save_scope_as = restorer
