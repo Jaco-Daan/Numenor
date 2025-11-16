@@ -2774,7 +2774,7 @@ decision_numenor_in_exile = {
 		highest_held_title_tier >= tier_empire # Only an imperial rank can hope to claim the mantle of successor to Numenor!
 		AND = {
 			NOT = { has_title = title:e_numenor } #Numenor Submod
-				OR = { # Compromise solution
+			OR = { # Compromise solution
 				# Either own half of the entire region of NIE
 				any_county_in_region = {
 					region = special_nie
