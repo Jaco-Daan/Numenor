@@ -598,6 +598,7 @@ activity_explore_history = {
 		triggered_desc = {
 			trigger = {
 				OR = {
+					geographical_region = middleearth_numenor #Numenor Sub-mod
 					unique_human_archives_trigger = yes
 					unique_elven_archives_trigger = yes
 				}
