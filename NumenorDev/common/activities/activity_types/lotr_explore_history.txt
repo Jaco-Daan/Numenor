@@ -607,6 +607,7 @@ activity_explore_history = {
 		triggered_desc = {
 			trigger = { 
 				OR = { 
+					geographical_region = middleearth_numenor #Numenor Sub-mod
 					geographical_region = middleearth_west
 					geographical_region = middleearth_rhun
 					geographical_region = middleearth_mordor
