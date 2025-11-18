@@ -664,6 +664,9 @@ lotr_can_be_activity_guest = {
 
 unique_human_archives_trigger = {
 	OR = {
+		has_building_or_higher = wonder_armenelos_01 #Numenor Sub-mod
+		has_building_or_higher = wonder_andunie_01 #Numenor Sub-mod
+		has_building_or_higher = wonder_eldalonde_01 #Numenor Sub-mod
 		province:199 = this #Minas Tirith
 		province:315 = this #Dol Amroth
 		province:264 = this #Pelargir

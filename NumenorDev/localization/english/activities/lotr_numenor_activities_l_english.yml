@@ -1,0 +1,19 @@
+﻿l_english:
+
+# Numenor submod
+
+ ##################################
+ # Explore the Histories activity #
+ ##################################
+ 
+ # Provinces
+
+ activity_explore_history_province_desc_wonder_armenelos: "#P +++ $building_wonder_armenelos_02$#!\n"
+ activity_explore_history_province_desc_wonder_andunie: "#P ++ $building_wonder_andunie_02$#!\n"
+ activity_explore_history_province_desc_wonder_eldalonde: "#P ++ $building_wonder_eldalonde_02$#!\n"
+
+ explore_history_cost_discount_wonder_armenelos: "Location has $building_wonder_armenelos_02$#!"
+ explore_history_cost_discount_wonder_andunie: "Location has $building_wonder_andunie_02$#!"
+ explore_history_cost_discount_wonder_eldalonde: "Location has $building_wonder_eldalonde_02$#!"
+
+ 

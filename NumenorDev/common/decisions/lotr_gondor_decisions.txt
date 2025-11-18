@@ -910,7 +910,7 @@ decision_destroy_mordor = {
 				is_gondor = yes
 				has_primary_title = title:e_numenor_in_exile
 				has_primary_title = title:e_reunitedkingdom
-				has_primary_title = title:e_numenor #Submod Numenor
+				has_primary_title = title:e_numenor #Numenor Sub-mod
 			}
 		}
 		reference = "gfx/interface/illustrations/decisions/decision_gondor_01.dds"
@@ -952,7 +952,7 @@ decision_destroy_mordor = {
 						is_gondor = yes
 						has_primary_title = title:e_numenor_in_exile
 						has_primary_title = title:e_reunitedkingdom
-						has_primary_title = title:e_numenor #Submod Numenor
+						has_primary_title = title:e_numenor #Numenor Sub-mod
 					}
 				}
 				desc = decision_destroy_mordor_desc
@@ -973,7 +973,7 @@ decision_destroy_mordor = {
 		OR = {
 			is_gondor = yes
 			has_primary_title = title:e_numenor_in_exile
-			has_primary_title = title:e_numenor #Submod Numenor
+			has_primary_title = title:e_numenor #Numenor Sub-mod
 			has_primary_title = title:e_reunitedkingdom
 			any_neighboring_top_liege_realm_owner = { this = title:e_mordor.holder }
 		}	
@@ -1018,7 +1018,7 @@ decision_destroy_mordor = {
 					OR = {
 						is_gondor = yes
 						has_primary_title = title:e_numenor_in_exile
-						has_primary_title = title:e_numenor #Submod Numenor
+						has_primary_title = title:e_numenor #Numenor Sub-mod
 						has_primary_title = title:e_reunitedkingdom
 					}
 				}
@@ -1067,7 +1067,7 @@ decision_destroy_mordor = {
 				OR = {
 					is_gondor = yes
 					has_primary_title = title:e_numenor_in_exile
-					has_primary_title = title:e_numenor #Submod Numenor
+					has_primary_title = title:e_numenor #Numenor Sub-mod
 					has_primary_title = title:e_reunitedkingdom
 				}
 			}
@@ -1236,7 +1236,7 @@ decision_search_orthanc = {
 			has_primary_title = title:e_arnor
 			has_primary_title = title:e_numenor_in_exile
 			has_primary_title = title:e_reunitedkingdom
-			has_primary_title = title:e_numenor #Submod Numenor
+			has_primary_title = title:e_numenor #Numenor Sub-mod
 		}
 		completely_controls = title:c_isengard
 		NOT = {
@@ -1288,7 +1288,7 @@ decision_emyn_arnen_capital = {
 			has_primary_title = title:e_reunitedkingdom
 			has_primary_title = title:e_numenor_in_exile
 			has_primary_title = title:e_numenor_colonies
-			has_primary_title = title:e_numenor #Submod Numenor
+			has_primary_title = title:e_numenor #Numenor Sub-mod
 			AND = {
 				has_primary_title = title:k_ithilien
 				dynasty = {
@@ -2954,7 +2954,7 @@ decision_new_capital = {
 			triggered_desc = {
 				trigger = {
 					has_primary_title = title:e_numenor_in_exile
-					has_primary_title = title:e_numenor #Submod Numenor
+					has_primary_title = title:e_numenor #Numenor Sub-mod
 				}
 				desc = decision_new_capital.t.nie
 			}
@@ -3010,7 +3010,7 @@ decision_new_capital = {
 			triggered_desc = {
 				trigger = {
 					has_primary_title = title:e_numenor_in_exile
-					has_primary_title = title:e_numenor #Submod Numenor
+					has_primary_title = title:e_numenor #Numenor Sub-mod
 				}
 				desc = decision_new_capital.desc.nie
 			}
@@ -3556,7 +3556,7 @@ decision_restore_gondor_province = {
 			has_title = title:e_gondor
 			has_title = title:e_castamir
 			has_title = title:e_numenor_in_exile
-			has_title = title:e_numenor #Submod Numenor
+			has_title = title:e_numenor #Numenor Sub-mod
 			AND = {
 				has_title = title:e_reunitedkingdom
 				is_target_in_global_variable_list = {
@@ -4111,7 +4111,7 @@ decision_recreate_watch_on_mordor = {
 			has_primary_title = title:e_reunitedkingdom
 			has_primary_title = title:e_bellakar
 			has_primary_title = title:e_castamir
-			has_primary_title = title:e_numenor #Submod Numenor
+			has_primary_title = title:e_numenor #Numenor Sub-mod
 			AND = {
 				is_elf = yes
 				highest_held_title_tier >= tier_kingdom
@@ -4203,7 +4203,7 @@ decision_abandon_watch_on_mordor = {
 			has_primary_title = title:e_reunitedkingdom
 			has_primary_title = title:e_bellakar
 			has_primary_title = title:e_castamir
-			has_primary_title = title:e_numenor #Submod Numenor
+			has_primary_title = title:e_numenor #Numenor Sub-mod
 			AND = {
 				is_elf = yes
 				highest_held_title_tier >= tier_kingdom
