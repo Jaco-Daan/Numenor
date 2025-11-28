@@ -143,7 +143,7 @@ decision_continue_adventure_eradan = {
 					create_task_contract = {
 						task_contract_type = lotr_eradan_contract_barrowdowns
 						task_contract_employer = title:c_adandor.holder
-						location = title:c_tyrn_gorthad.title_province
+						location = title:c_dol_daergorthad.title_province
 						task_contract_tier = 4
 						save_scope_as = created_contract
 					}
@@ -565,30 +565,19 @@ decision_claim_gondor_arassuil = {
 
 	# IS_SHOWN
 	is_shown = {
+		is_ai = no
 		current_year >= 4035 # Is only shown if bookmark is after the two kingdoms split
-		
-		OR = {
-			exists = title:e_gondor_steward.holder
-			exists = title:e_castamir.holder
-		}
-		OR = {
-			has_title = title:d_northern_dunedain
-			has_title = title:k_rhudaur
-			has_title = title:k_cardolan
-			has_title = title:k_arthedain
-		}
-		NOT = { exists = title:e_gondor.holder }
-		
+		dynasty = dynasty:dynasty_elendil # You're the heir of Elendil
 
-		# OR = {
-		# 	dynasty = dynasty:dynasty_elros
-			dynasty = dynasty:dynasty_elendil
-		# 	dynasty = dynasty:dynasty_anarion
-		# }
-		
-		NOT = { is_ai = yes }
+		# Aragorn does his own thing
 		NOT = { has_character_flag = is_aragorn }
 		NOT = { THIS = character:lineisildur42 }
+
+		OR = {
+			exists = title:e_gondor_steward.holder
+			# exists = title:e_castamir.holder #Castamiris won't support you (also, there's a king already)
+		}
+		NOT = { exists = title:e_gondor.holder } # There's no king in Gondor
 		
 		title:e_gondor_steward.holder = { is_ai = yes } #Should not be able to oust a human playing the steward
 
@@ -604,6 +593,7 @@ decision_claim_gondor_arassuil = {
 	is_valid = {
 		prestige_level >= 5
 		piety_level >= 4
+		is_dynast = yes
 		trigger_if = {
 			limit = { 
 				has_dlc_feature = legends
@@ -626,7 +616,7 @@ decision_claim_gondor_arassuil = {
 		}
 		OR = {
 			exists = title:e_gondor_steward.holder
-			exists = title:e_castamir.holder
+			# exists = title:e_castamir.holder
 		}
 	}
 	
@@ -932,26 +922,14 @@ decision_adopt_arnorian_culture = {
 	# IS_SHOWN
 	is_shown = {
 		culture = { any_parent_culture_or_above = { this = culture:arnorian } }
-		OR = {
-			capital_province ?= { geographical_region = middleearth_west_arnor }
-			domicile.domicile_location ?= { geographical_region = middleearth_west_arnor }
-		}
+		capital_province = { geographical_region = middleearth_west_arnor }
 	}
 
 	decision_group_type = realms_in_exile_major
 	
 	# IS_VALID
 	is_valid = {
-		trigger_if = {
-			limit = { is_landed = yes }
-			root.realm_size >= 20
-		}
-		trigger_else = {
-			custom_tooltip ={
-				text = decision_adopt_arnorian_culture_requirements
-				is_landed = yes
-			}
-		}
+		root.realm_size >= 20
 	}
 	is_valid_showing_failures_only = {
 		is_imprisoned = no
@@ -961,9 +939,8 @@ decision_adopt_arnorian_culture = {
 	
 	# EFFECT 
 	effect = {
+
 		play_music_cue = lotr_cue_gondor
-		culture = { save_scope_as = culture }
-		hidden_effect = { culture:arnorian = { get_all_innovations_from = root.culture } }
 		set_culture = culture:arnorian
 		
 		if = { #juke note: this code should be refined so it works with multiple spouses, though its unlikely to happen
@@ -1018,23 +995,6 @@ decision_adopt_arnorian_culture = {
 					}
 				}
 				custom = all_children_custom
-				if = {
-					limit = { is_ai = yes }
-					set_culture = culture:arnorian
-				}
-			}
-		}
-		if = {
-			limit = {
-				any_courtier = {
-					culture = { any_parent_culture_or_above = { this = culture:arnorian } }
-				}
-			}
-			every_courtier = {
-				custom = decision_adopt_arnorian_culture_courtier_custom
-				limit = {
-					culture = { any_parent_culture_or_above = { this = culture:arnorian } }
-				}
 				if = {
 					limit = { is_ai = yes }
 					set_culture = culture:arnorian
@@ -1117,22 +1077,6 @@ decision_adopt_arnorian_culture = {
 					}
 					if = {
 						limit = {
-							any_courtier = {
-								culture = { any_parent_culture_or_above = { this = culture:arnorian } }
-							}
-						}
-						every_courtier = {
-							limit = {
-								culture = { any_parent_culture_or_above = { this = culture:arnorian } }
-							}
-							if = {
-								limit = { is_ai = yes }
-								hidden_effect = { set_culture = culture:arnorian }
-							}
-						}
-					}
-					if = {
-						limit = {
 							any_vassal_or_below = {
 								culture = { any_parent_culture_or_above = { this = culture:arnorian } }
 							}
@@ -1203,22 +1147,6 @@ decision_adopt_arnorian_culture = {
 										}
 									}
 								}
-								if = {
-									limit = {
-										any_courtier = {
-											culture = { any_parent_culture_or_above = { this = culture:arnorian } }
-										}
-									}
-									every_courtier = {
-										limit = {
-											culture = { any_parent_culture_or_above = { this = culture:arnorian } }
-										}
-										if = {
-											limit = { is_ai = yes }
-											hidden_effect = { set_culture = culture:arnorian }
-										}
-									}
-								}
 							}
 						}
 					}
@@ -1238,7 +1166,6 @@ decision_adopt_arnorian_culture = {
 			}
 			set_county_culture = culture:arnorian
 		}
-		custom_tooltip = decision_adopt_arnorian_culture_get_innovations
 	}
 
 	# AI
@@ -1275,14 +1202,14 @@ decision_integrate_the_northern_provinces = {
 		OR = {
 			has_title = title:e_arnor
 			AND = {
-				has_title = title:h_reunited_kingdom
+				has_title = title:e_reunitedkingdom
 				is_target_in_global_variable_list = {
 					name = unavailable_unique_decisions
 					target = flag:decision_solidify_reunited_kingdom
 				}
 			}
 			AND = {
-				has_title = title:h_numenor_in_exile
+				has_title = title:e_numenor_in_exile
 				is_target_in_global_variable_list = {
 					name = unavailable_unique_decisions
 					target = flag:decision_numenor_in_exile
@@ -1314,34 +1241,28 @@ decision_integrate_the_northern_provinces = {
 			days = 1
 		}
 		dynasty = { add_dynasty_prestige = 500 }
-		if = {
-			limit = {
-				AND = {
-					has_title = title:h_reunited_kingdom
+		hidden_effect = {
+			if = {
+				limit = {
+					has_title = title:e_reunitedkingdom
 					is_target_in_global_variable_list = {
 						name = unavailable_unique_decisions
 						target = flag:decision_solidify_reunited_kingdom
 					}
 				}
+				title:k_angmar = { set_de_jure_liege_title = title:e_reunitedkingdom }
+				title:k_forochel = { set_de_jure_liege_title = title:e_reunitedkingdom }
 			}
-			title:e_forodwaith = { set_de_jure_liege_title = title:h_reunited_kingdom }
-		}
-		else_if = {
-			limit = {
-				AND = {
-					has_title = title:h_numenor_in_exile
-					is_target_in_global_variable_list = {
-						name = unavailable_unique_decisions
-						target = flag:decision_numenor_in_exile
-					}
-				}
+			else_if = {
+				limit = { has_title = title:e_numenor_in_exile }
+				title:k_angmar = { set_de_jure_liege_title = title:e_numenor_in_exile }
+				title:k_forochel = { set_de_jure_liege_title = title:e_numenor_in_exile }
 			}
-			title:e_forodwaith = { set_de_jure_liege_title = title:h_numenor_in_exile }
-		}
-		else = {
-			title:k_angmar = { set_de_jure_liege_title = title:e_arnor }
-			title:k_forochel = { set_de_jure_liege_title = title:e_arnor }
-		}
+			else = {
+				title:k_angmar = { set_de_jure_liege_title = title:e_arnor }
+				title:k_forochel = { set_de_jure_liege_title = title:e_arnor }
+			}	
+		}	
 		add_to_global_variable_list = {
 			name = unavailable_unique_decisions
 			target = flag:decision_integrate_the_northern_provinces
@@ -1382,8 +1303,8 @@ decision_rebuild_royal_road = {
 		
 		# OR = {  Trig Note - Let non-king rulers take this.  
 		# 	has_title = title:e_arnor
-		# 	has_title = title:h_reunited_kingdom
-		# 	has_title = title:h_numenor_in_exile
+		# 	has_title = title:e_reunitedkingdom
+		# 	has_title = title:e_numenor_in_exile
 		# 	has_title = title:e_gondor
 		# 	has_title = title:e_gondor_steward
 		# 	has_title = title:e_numenor_colonies
@@ -1933,7 +1854,7 @@ decision_establish_amon_raen_city = {
 		OR = {
 			has_title = title:k_rhudaur
 			has_title = title:e_arnor
-			has_title = title:h_numenor_in_exile
+			has_title = title:e_numenor_in_exile
 		}
 		lotr_has_numenorean_culture_trigger = yes
 		NOT = {
@@ -2430,7 +2351,7 @@ decision_conquer_south_downs = {
 				has_title = title:k_arthedain
 				has_title = title:k_cardolan
 			}
-			title:d_tyrn_gorthad = { 
+			title:d_tyrn_hodhath = { 
 				any_this_title_or_de_jure_above = {
 					THIS = root.primary_title
 				}
@@ -2441,7 +2362,7 @@ decision_conquer_south_downs = {
 
 	is_valid = {
         
-        completely_controls = title:d_tyrn_gorthad
+        completely_controls = title:d_tyrn_hodhath
     }
 
     is_valid_showing_failures_only = {
@@ -2455,7 +2376,7 @@ decision_conquer_south_downs = {
 		root.primary_title = {
 			save_scope_as = primary_title
 		}
-		title:d_tyrn_gorthad = { set_de_jure_liege_title = scope:primary_title }
+		title:d_tyrn_hodhath = { set_de_jure_liege_title = scope:primary_title }
 		
 		
 		
