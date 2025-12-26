@@ -1056,7 +1056,7 @@ walls_03 = {
 			"mpo_mongol_wall_03_mesh"
 		}
 	}
-	
+
 	is_enabled = {
 		scope:holder = {
 			NOT = { government_has_flag = government_is_tribal }
