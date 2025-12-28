@@ -617,6 +617,7 @@ decision_expedition_anarike = {
 		}
 	}
 	is_valid = {
+		numenor_in_isolation_phase = no
 		completely_controls = title:k_an_balkumagan
 		prestige_level >= medium_prestige_level
 		OR = {
@@ -677,6 +678,7 @@ decision_deal_with_aa = {
 		}
 	}
 	is_valid = {
+		numenor_in_isolation_phase = no
 		completely_controls = title:e_numenor
 		prestige_level >= medium_prestige_level
 	}
@@ -723,6 +725,7 @@ hold_memorial_at_meneltarma_decision = {
 	}
 	
 	is_valid = {
+		numenor_in_isolation_phase = no
 		NOT = { has_character_flag = flag_meneltarma }
 	}
 
@@ -825,6 +828,7 @@ decision_numenor_annex_korlea = {
 
 	# IS_VALID
 	is_valid = {
+		numenor_in_isolation_phase = no
 		completely_controls = title:d_narik_zadan
 		completely_controls = title:d_hazaj_tollin
 		has_primary_title = title:e_numenor
@@ -917,6 +921,7 @@ decision_numenor_invade_valinor = {
 
 	# IS_VALID
 	is_valid = {
+		numenor_in_isolation_phase = no
 		is_independent_ruler = yes
 		OR = {
 			has_trait = lunatic_1
@@ -988,6 +993,7 @@ demand_ray_tributary = {
 
 	# IS_VALID
 	is_valid = {
+		numenor_in_isolation_phase = no
 		has_primary_title = title:e_numenor
 		completely_controls = title:k_nilulonde
 		completely_controls = title:k_bellazen
@@ -1100,6 +1106,7 @@ decision_numenor_league_of_pelargir = {
 
 	# IS_VALID
 	is_valid = {
+		numenor_in_isolation_phase = no
 		is_independent_ruler = yes
 		completely_controls_region = custom_pelargir_league
 
@@ -1245,6 +1252,7 @@ decision_restore_numenor_province = {
 	}
 	
 	is_valid = {
+		numenor_in_isolation_phase = no
 		lotr_has_numenorean_culture_trigger = yes
 		prestige_level >= high_prestige_level
 		OR = {
