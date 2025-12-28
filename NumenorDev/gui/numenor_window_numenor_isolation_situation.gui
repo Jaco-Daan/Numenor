@@ -265,12 +265,8 @@ window = {
 									enabled = "[GreaterThanOrEqualTo_CFixedPoint( EmptyScope.ScriptValue('council_of_numenor_total_approval_gui'), EmptyScope.ScriptValue('total_council_members_on_numenor_council') )]"
 									tooltip = "NUMENOR_COUNCIL_NUM_APPROVAL_STILL_NEEDED"
 									using = tooltip_ne
-									text_single = {
-										text = "NUMENOR_ENTER_ACCESSIBLE_PHASE"
-										fontsize = 16
-										default_format = "#high"
-										parentanchor = center
-									}
+									onclick = "[GetScriptedGui('numenor_swap_to_accessible_phase').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+									text = "NUMENOR_ENTER_ACCESSIBLE_PHASE"
 								}
 						    }
 

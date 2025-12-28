@@ -79,11 +79,38 @@ numenor_council_member_check_opinion_of_numenor = {
 }
 
 numneor_variables_on_council_members = {
-	every_in_global_list = {
-		variable = council_of_numenor
+	effect = {
+		every_in_global_list = {
+			variable = council_of_numenor
+			if = {
+				limit = { has_variable = agrees_with_numenor }
+				remove_variable = agrees_with_numenor
+			}
+		}
+	}
+}
+
+numenor_swap_to_accessible_phase = {
+	effect = {
 		if = {
-			limit = { has_variable = agrees_with_numenor }
-			remove_variable = agrees_with_numenor
+			limit = { situation:numenor_situation = { situation_current_phase = numenor_isolated } }
+			situation:numenor_situation = {
+				every_situation_sub_region = {
+					change_phase = { phase = numenor_accessible }
+				}
+				every_situation_participant = {
+					trigger_event = numenor_situation.0001
+				}
+			}
+		} else = {
+			situation:numenor_situation = {
+				every_situation_sub_region = {
+					change_phase = { phase = numenor_isolated }
+				}
+				every_situation_participant = {
+					trigger_event = numenor_situation.0100
+				}
+			}
 		}
 	}
 }
