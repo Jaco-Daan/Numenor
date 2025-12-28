@@ -80,8 +80,8 @@
 					icon = "gfx/interface/icons/situations/debug_situation/test_effects.dds"
 
 					all = {
-						character_modifier = {
-							diplomatic_range_mult = -1.25
+						county_modifier = {
+							development_growth_factor = 0.05
 						}
 					}
 				}
@@ -117,6 +117,7 @@
 					all = {
 						character_modifier = {
 							embarkation_cost_mult = -0.15
+							diplomatic_range_mult = 1.25
 						}
 					}
 				}
