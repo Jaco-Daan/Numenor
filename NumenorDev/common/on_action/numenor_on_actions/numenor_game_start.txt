@@ -25,5 +25,10 @@
 			region = middleearth_numenor
 			add_county_modifier = blessed_land_of_numenor_modifier
 		}
+
+		start_situation = {
+			type = numenor_situation
+			start_phase = numenor_isolated
+		}
     }
 }

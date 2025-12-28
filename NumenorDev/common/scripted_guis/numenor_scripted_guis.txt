@@ -48,3 +48,42 @@ numenor_council_right_side = {
 		}
 	}
 }
+
+numenor_council_member_check_opinion_of_numenor = {
+	effect = {
+		save_scope_as = numenor_ruler
+		every_in_global_list = {
+			variable = council_of_numenor
+			if = {
+				limit = { exists = title:e_numenor.holder }
+				if = {
+					limit = {
+						opinion = {
+							target = title:e_numenor.holder
+							value > 75
+						}
+					}
+					set_variable = {
+						name = agrees_with_numenor
+						value = 1
+					}
+				} else = {
+					set_variable = {
+						name = agrees_with_numenor
+						value = 0
+					}
+				}
+			}
+		}
+	}
+}
+
+numneor_variables_on_council_members = {
+	every_in_global_list = {
+		variable = council_of_numenor
+		if = {
+			limit = { has_variable = agrees_with_numenor }
+			remove_variable = agrees_with_numenor
+		}
+	}
+}

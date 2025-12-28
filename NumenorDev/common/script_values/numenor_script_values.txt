@@ -109,3 +109,8 @@ bribe_council_member_cost = {
 		}
 	}
 }
+
+council_members_on_numenor_council_approval = {
+	value = 0
+
+}
