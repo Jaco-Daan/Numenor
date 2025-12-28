@@ -3,6 +3,6 @@
  numenor_situation.0001.desc: "$numenor_situation.0001.t$"
  numenor_situation.0001.a: "$numenor_situation.0001.t$"
 
- numenor_situation.0100.t: "#DEBUG Numenor Accessible Phase#!"
+ numenor_situation.0100.t: "#DEBUG Numenor Isolation Phase#!"
  numenor_situation.0100.desc: "$numenor_situation.0100.t$"
  numenor_situation.0100.a: "$numenor_situation.0100.t$"
