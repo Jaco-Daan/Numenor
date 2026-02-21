@@ -17,7 +17,7 @@
 		tradition_martial_admiration
 		tradition_maritime_mercantilism
 		tradition_metal_craftsmanship
-		tradition_stand_and_fight
+		tradition_formation_fighting
 	}
 	
 	name_list = name_list_adunaic_numenor

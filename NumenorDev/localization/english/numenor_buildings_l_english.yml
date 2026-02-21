@@ -75,10 +75,13 @@
   building_wonder_eldalonde_01_desc: "Eldalondë was founded by Vëantur, Captain of the King's Ships during the reign of Tar-Elendil and grandfather to Tar-Aldarion I. Eldalondë was built around the Nísimaldar, the only region in the realms of men where Mallorn trees grew, these mallorn trees were gifted by the Eldar, whom the city was named after. During the reign of Ar-Pharazôn the Mallorn Trees were cut down to be used for the Great Armament. During the Akallabêth the city was destroyed by the waves and tremors."
   building_wonder_eldalonde_02: "Eldalondë: Capital of Nísimaldar"
   building_wonder_eldalonde_02_desc: "Although Eldalondë has seen better days, ever since the line of Vëantur has been restored in Nísimaldar the city has seen a boom in population and riches, taking advantage of the fertile Nunduinë valley which has made it the breadbasket of Númenor the city has been rebuilt with care. The Eldar may no longer visit this fair city but their wisdom and knowledge survives, when people enter Nísimaldar they believe they have entered one of the Elven realms."
-  building_wonder_eldalonde_03: "The Mallorn Trees"
+  building_wonder_eldalonde_03: "Mallorn-groves of Eldalondë"
   building_wonder_eldalonde_03_desc: "Now that we have regained contact with Middle Earth we have sent an expedition to Lórien, where saplings of the Mallorn Trees have been obtained after a deal and have now been sent to Eldalondë, where they will be planted. Once more Nísimaldar shall be the fairest county in the Westerlands."
  
   building_type_wonder_erendis_01: "White House of Erendis"
   building_type_wonder_erendis_01_desc: "The White House of Erendis, wife of Tar-Aldarion I"
   building_wonder_erendis_01: "White House of Erendis"
   building_wonder_erendis_01_desc: "The White House of Erendis was built for Erendis by Tar-Meneldur as a gift for the betrothal to his son, Aldarion. The White House was located in the region of Emerië, known for its rolling hills and green plains. Tar-Ancalimë spent most of her childhood in The White House of Erendis, before moving to Armenelos. The House survived the Akallabêth as it was in the hills of Mittalmar but it was abandoned until the reign of Ar-Inziladûn, who gave it to his sister, Princess Zimraphel. After her death the House was not abandoned and instead given to the King of Númenor to be used as a summer residence."
+ 
+  numenor_realm_size_limit_01: "Your realm size must be over 100"
+  numenor_realm_size_limit_02: "Your realm size must be over 300"

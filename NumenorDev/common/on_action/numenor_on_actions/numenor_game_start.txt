@@ -30,5 +30,6 @@
 			type = numenor_situation
 			start_phase = numenor_isolated
 		}
+		define_numenor_resources = yes
     }
 }

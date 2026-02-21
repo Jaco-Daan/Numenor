@@ -7354,9 +7354,164 @@ character_view_bg = {
 			}
 		}
 	}
+
+	environment = {
+		reference = "environment_cw_mediterranean_main"
+
+		trigger = {
+			OR = {
+				AND = {
+				 	exists = primary_title
+					primary_title.tier <= tier_duchy
+					has_culture = culture:adunaic
+				}
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = primary_title
+						primary_title.tier <= tier_duchy
+						has_culture = culture:adunaic
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = primary_title
+						primary_title.tier <= tier_duchy
+						has_culture = culture:adunaic
+					}
+				}
+				AND = {
+					exists = host
+					host = {
+						exists = primary_title
+						primary_title.tier <= tier_duchy
+						has_culture = culture:adunaic
+					}
+				}
+			}
+		}
+	}
+
+	# ADUNAIC HIGH
+
+	texture = {
+		reference = "character_view/numenorthroneroom.dds"
+
+		trigger = {
+			OR = {
+				AND = {
+				 	exists = primary_title
+					primary_title.tier >= tier_kingdom
+					has_culture = culture:adunaic
+				}
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = primary_title
+						primary_title.tier >= tier_kingdom
+						has_culture = culture:adunaic
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = primary_title
+						primary_title.tier >= tier_kingdom
+						has_culture = culture:adunaic
+					}
+				}
+				AND = {
+					exists = host
+					host = {
+						exists = primary_title
+						primary_title.tier >= tier_kingdom
+						has_culture = culture:adunaic
+					}
+				}
+			}
+		}
+	}
+
+	environment = {
+		reference = "environment_numenorean_high"
+
+		trigger = {
+			OR = {
+				AND = {
+				 	exists = primary_title
+					primary_title.tier >= tier_kingdom
+					has_culture = culture:adunaic
+				}
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = primary_title
+						primary_title.tier >= tier_kingdom
+						has_culture = culture:adunaic
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = primary_title
+						primary_title.tier >= tier_kingdom
+						has_culture = culture:adunaic
+					}
+				}
+				AND = {
+					exists = host
+					host = {
+						exists = primary_title
+						primary_title.tier >= tier_kingdom
+						has_culture = culture:adunaic
+					}
+				}
+			}
+		}
+	}
+
+	# ADUNAIC LOW
+	texture = {
+		reference = "character_view/throneroom_mediterranean.dds"
+
+		trigger = {
+			OR = {
+				AND = {
+				 	exists = primary_title
+					primary_title.tier <= tier_duchy
+					has_culture = culture:adunaic
+				}
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = primary_title
+						primary_title.tier <= tier_duchy
+						has_culture = culture:adunaic
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = primary_title
+						primary_title.tier <= tier_duchy
+						has_culture = culture:adunaic
+					}
+				}
+				AND = {
+					exists = host
+					host = {
+						exists = primary_title
+						primary_title.tier <= tier_duchy
+						has_culture = culture:adunaic
+					}
+				}
+			}
+		}
+	}
 	
 	environment = {
-		reference = "environment_adunaim_high"
+		reference = "environment_cw_mediterranean_main"
 
 		trigger = {
 			OR = {

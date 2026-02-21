@@ -33,22 +33,17 @@
 	}
 }
 
-increase_variable = {
-    if = { limit = { NOT = { has_variable = $NAME$ } }
-        set_variable = { name = $NAME$ value = 0 }
-    }
-    change_variable = {
-        name = $NAME$
-        add = $AMOUNT$
-    }
-}
-
-decrease_variable = {
-    if = { limit = { NOT = { has_variable = $NAME$ } }
-        set_variable = { name = $NAME$ value = 0 }
-    }
-    change_variable = {
-        name = $NAME$
-        subtract = $AMOUNT$
-    }
+define_numenor_resources = { # Setup resources on Numenor
+	title:b_sorontil.title_province = {
+		add_province_modifier = mining_mithril_province_modifier
+	}
+	title:b_imrarat.title_province = {
+		add_province_modifier = mining_silver_province_modifier
+	}
+	title:b_azrayat.title_province = {
+		add_province_modifier = mining_iron_province_modifier
+	}
+	title:b_anariova.title_province = {
+		add_province_modifier = mining_sapphire_province_modifier
+	}
 }
