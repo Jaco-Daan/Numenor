@@ -1,10 +1,10 @@
-# Auto generated file, do not edit manually. Created using console command dump_bookmark_portrait_for
+# Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:lineofciryandur34
 bookmark_numenor_niluben={
 	type=male
-	id=52321
+	id=63868
 	random_seed=3102439394
-	age=0.274324
+	age=0.322973
 	genes={ 		hair_color={ 109 221 109 221 }
  		skin_color={ 72 54 72 54 }
  		eye_color={ 177 57 177 57 }
@@ -97,8 +97,8 @@ bookmark_numenor_niluben={
  		expression_other={ "cheek_wrinkles_both_01" 192 "cheek_wrinkles_both_01" 192 }
  		complexion={ "complexion_9" 106 "complexion_9" 106 }
  		gene_height={ "normal_height" 163 "normal_height" 163 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 140 "body_fat_head_fat_medium" 116 }
- 		gene_bs_body_shape={ "body_shape_triangle_half" 85 "body_shape_triangle_half" 71 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 142 "body_fat_head_fat_medium" 116 }
+ 		gene_bs_body_shape={ "body_shape_triangle_half" 83 "body_shape_triangle_half" 71 }
  		gene_bs_bust={ "bust_clothes" 138 "bust_shape_2_half" 173 }
  		gene_age={ "old_beauty_2" 203 "old_beauty_2" 203 }
  		gene_eyebrows_shape={ "avg_spacing_low_thickness" 176 "avg_spacing_low_thickness" 176 }
@@ -112,7 +112,7 @@ bookmark_numenor_niluben={
  		gene_uruk_body_decals={ "no_decal" 127 "no_decal" 127 }
  		gene_haradrim_head_decals={ "no_decal" 127 "no_decal" 127 }
  		gene_subdermal_implant_decals={ "no_decal" 127 "no_decal" 127 }
- 		eye_accessory={ "normal_eyes_no_shadow" 255 "normal_eyes" 193 }
+ 		eye_accessory={ "normal_eyes" 193 "normal_eyes" 193 }
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 120 "normal_eyelashes" 120 }
  		race_head_accessory={ "man" 0 "man" 0 }
@@ -142,14 +142,16 @@ bookmark_numenor_niluben={
  		gene_bs_eye_shape={ "eye_shape_01" 98 "eye_shape_01" 98 }
  		beards={ "all_beards" 0 "no_beard" 0 }
  		cloaks={ "no_cloak" 27 "no_cloak" 0 }
- 		hairstyles={ "all_hairstyles" 66 "no_hairstyles" 0 }
- 		legwear={ "numenorean_common_legwear" 250 "all_legwear" 0 }
+ 		hairstyles={ "all_hairstyles" 53 "no_hairstyles" 0 }
+ 		legwear={ "numenorean_common_legwear" 148 "" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
+ 		gene_bs_cloak_offset2={ "cloak_offset2" 255 "cloak_offset2" 0 }
+ 		gene_bs_cloak_offset3={ "cloak_offset3" 255 "cloak_offset3" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		clothes={ "numenorean_high_clothes" 126 "" 0 }
- 		headgear={ "numenorean_high_headgear" 110 "no_headgear" 0 }
+ 		clothes={ "numenorean_high_clothes" 180 "" 0 }
+ 		headgear={ "numenorean_high_headgear" 65 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
 	entity={ 2616704408 2616704408 }
