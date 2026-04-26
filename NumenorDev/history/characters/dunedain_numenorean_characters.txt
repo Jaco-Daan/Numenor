@@ -3059,11 +3059,12 @@ lineofciryamir6 = {
 			death_reason = death_natural_causes		
 		}			
 	}				
-}					
-##############################################					
-##### Bellakar - Korlean founder dynasty #####					
-##############################################
-
+}	
+				
+############################
+##### House of Mornion #####
+############################
+# Bellakar - Korlean founder dynasty
 lineofmornionath1 = {					
 	name = Mornion # First Lord of Korlea				
 	dynasty = dynasty_mornionath				
@@ -3321,91 +3322,127 @@ zigurkhil = {
 	}				
 }
 
-### House of Ruxöalëndil ###
-# Ancestors of the Golden King
-
+###############################
+##### House of Ruxöalëndil ####
+###############################
+# Ancestors of the Ard the Silent
 ruxoalendil1 = { # Father of Adûnahil and Adûnazil
 	name = Adu_u_nazir
 	dynasty = dynasty_minorforostar
 	religion = faith_numenorean				
-	culture = numenorean							
-					
-	trait = blood_of_numenor_10							
+	culture = numenorean		
+
+			
 	trait = compassionate			
 	trait = lustful
-    trait = lazy						
-					
+    trait = lazy	
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	2179.2.14 = {				
-		birth = yes			
+		birth = yes	
 	}				
 	2477.5.12 = {				
 		death = { death_reason = death_natural_causes } 
 	}
 
 }
-ruxoalendil2 = { # Adûnahil of Forostar, father of the Golden King
+ruxoalendil2 = { # Adûnahil of Forostar, father of the Ard the Silent
 	name = Adu_u_nahil
 	dynasty = dynasty_minorforostar
 	religion = faith_numenorean		
-	culture = numenorean							
+	culture = numenorean		
 	
 	father = ruxoalendil1
 	
-	trait = blood_of_numenor_10							
+			
 	trait = compassionate			
 	trait = lustful
-    trait = lazy						
-					
+    trait = lazy	
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	2381.2.14 = {				
-		birth = yes			
+		birth = yes
 	}				
 	2488.5.12 = {				
 		add_spouse = alcariel1
 	}
 	2525.4.2 = {
-		death = { death_reason = death_murder killer = ruxoalendil3 }
+		death = { death_reason = death_murder_known killer = ruxoalendil3 }
 	}
 }
-alcariel1 = { # Alcariel, wife of Adûnahil, Step-Mother of the Golden King
+
+alcariel1 = { # Alcariel, wife of Adûnahil, Step-Mother of the Ard the Silent
 	name = Alcariel
 	religion = faith_numenorean		
 	culture = numenorean
 	female = yes
-					
-	trait = blood_of_numenor_10							
+
+			
 	trait = callous			
 	trait = zealous
     trait = generous			
-					
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	2401.2.14 = {				
-		birth = yes			
+		birth = yes	
 	}				
 	2699.2.1 = {
 		death = { death_reason = death_natural_causes } 
 	}
 }
+
+saphanirofamrun = { # Saphanir, Lover of Adûnahil, Mother of the Ard the Silent
+	name = Saphanir
+	female = yes
+
+	religion = faith_legends_of_harwan
+	culture = haruze
+
+	trait = generous
+	trait = vengeful
+	trait = diligent
+
+	disallow_random_traits = yes
+
+	trait = education_stewardship_2
+	trait = beauty_good_3
+
+	2471.4.12 = {
+		birth = yes
+	}
+
+	2521.6.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
 ruxoalendil3 = { # Adûnazil brother of Adûnahil, his murderer
 	name = Adu_u_nazil
 	dynasty = dynasty_minorforostar	
 	religion = faith_kings_men_numenorean				
-	culture = numenorean							
+	culture = numenorean		
 		
 	father = ruxoalendil1
 		
-	trait = blood_of_numenor_10							
+			
 	trait = arrogant			
 	trait = ambitious
     trait = diligent
 	trait = kinslayer_1
-					
+	trait = born_on_numenor
+
+	trait = blood_of_numenor_10
 	2403.4.2 = {				
-		birth = yes			
+		birth = yes	
 	}
 	2593.12.8 = { # S.A. 2,001
-		death = { death_reason = death_murder killer = nazgul3 }
+		death = { death_reason = death_murder_known killer = nazgul7 }
 	}
 }
-ruxoalendil4 = { # Edhelwen, elder sister of the Golden King
+ruxoalendil4 = { # Edhelwen, elder sister of the Ard the Silent
 	name = Edhelwen
 	dynasty = dynasty_minorforostar	
 	religion = faith_numenorean				
@@ -3415,13 +3452,15 @@ ruxoalendil4 = { # Edhelwen, elder sister of the Golden King
 	father = ruxoalendil2
 	mother = alcariel1
 		
-	trait = blood_of_numenor_10							
+			
 	trait = diligent			
 	trait = zealous
     trait = calm
-					
+	trait = born_on_numenor				
+
+	trait = blood_of_numenor_10
 	2491.7.22 = {				
-		birth = yes			
+		birth = yes		
 	}
 	2788.4.12 = {
 		death = { death_reason = death_natural_causes } 
@@ -4522,6 +4561,4241 @@ ciryandurextension40 = { #
 	}
 	4922.1.1 = {
 		death = { death_reason = death_execution }
+	}
+}
+
+### other branch
+
+ciryandurextension41 = { # Was forced to renouce all titles and return to numenor. He was left with the dignity of keeping his name.
+    name = Alatar
+
+    father = lineofciryandur9
+    mother = lineofciryandur9wife
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+
+    trait = honest
+    trait = content
+    trait = shy
+
+    trait = disinherited
+
+    diplomacy = 11
+    martial = 8
+    stewardship = 12
+    intrigue = 8
+    learning = 10
+    prowess = 17
+
+    trait = education_stewardship_4
+
+    2824.1.27 = {
+        birth = yes
+    }
+
+    2895.11.19 = {
+        add_spouse = ciryandurextension42
+    }
+
+    3141.6.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension42 = {
+    name = Aryawen
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = bisexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = trusting
+    trait = brave
+    trait = compassionate
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 6
+    intrigue = 2
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_2
+
+    2878.12.9 = {
+        birth = yes
+    }
+
+    3170.11.18 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension43 = {
+    name = Tarmacil
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension41
+    mother = ciryandurextension42
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = content
+    trait = gluttonous
+    trait = honest
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    2943.10.9 = {
+        birth = yes
+    }
+
+    3016.9.7 = {
+        add_spouse = ciryandurextension44
+    }
+
+    3263.3.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension44 = {
+    name = Andriel
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = shy
+    trait = calm
+    trait = temperate
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 3
+    intrigue = 4
+    learning = 3
+    prowess = 8
+
+    trait = education_intrigue_4
+
+    2942.3.24 = {
+        birth = yes
+    }
+
+    3238.3.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension45 = {
+    name = Silmardur
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension43
+    mother = ciryandurextension44
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = wrathful
+    trait = arrogant
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 3
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_1
+
+    3017.4.4 = {
+        birth = yes
+    }
+
+    3087.9.3 = {
+        add_spouse = ciryandurextension46
+    }
+
+    3332.10.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension46 = {
+    name = Mirilas
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = impatient
+    trait = fickle
+    trait = ambitious
+
+    diplomacy = 7
+    martial = 7
+    stewardship = 5
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    3015.11.6 = {
+        birth = yes
+    }
+
+    3293.4.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension47 = {
+    name = Elendin
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension45
+    mother = ciryandurextension46
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = gregarious
+    trait = zealous
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_1
+
+    3087.7.5 = {
+        birth = yes
+    }
+
+    3157.11.21 = {
+        add_spouse = ciryandurextension48
+    }
+
+    3394.2.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension48 = {
+    name = Bereth
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = stubborn
+    trait = generous
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 2
+    prowess = 8
+
+    trait = education_martial_3
+
+    3085.2.21 = {
+        birth = yes
+    }
+
+    3373.5.10 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension49 = { # Snuck Off for adventure and found love!
+    name = Calatar
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension3
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+
+    trait = content
+    trait = fickle
+    trait = brave
+	trait = gallivanter
+
+    diplomacy = 1
+    martial = 5
+    stewardship = 2
+    intrigue = 3
+    learning = 3
+    prowess = 3
+
+    trait = education_stewardship_4
+
+    3119.12.16 = {
+        birth = yes
+    }
+
+    3185.4.3 = {
+	    add_matrilineal_spouse = ciryandurextension50	
+ 		effect = {
+			set_relation_lover = { reason = lover_history target = character:ciryandurextension50 }
+            set_relation_soulmate = { reason = lover_history target = character:ciryandurextension50 }
+		}  
+    }
+
+    3403.7.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension50 = { 
+    name = Nimruphe_e_l
+    female = yes
+
+    father = lineborodiriath16
+    mother = lineborodiriath17
+
+    dynasty = dynasty_borodiriath
+    religion = faith_numenorean
+    culture = bellakarani
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+
+    trait = diligent
+    trait = brave
+    trait = ambitious
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 3
+    learning = 5
+    prowess = 8
+
+    trait = education_stewardship_3
+
+    3155.7.27 = {
+        birth = yes
+    }
+
+    3436.9.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+
+ciryandurextensionb49 = {
+    name = Halmir
+
+    father = ciryandurextension49
+    mother = ciryandurextension50    
+
+    dynasty = dynasty_borodiriath
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+
+    trait = ambitious
+    trait = stubborn
+    trait = greedy
+
+    diplomacy = 15
+    martial = 16
+    stewardship = 10
+    intrigue = 15
+    learning = 6
+    prowess = 15
+
+    trait = education_martial_4
+
+    3250.4.19 = {
+        birth = yes
+    }
+
+    3310.6.25 = {
+        add_spouse = ciryandurextensionb50
+    }
+
+    3523.8.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextensionb50 = {
+    name = U_U_ri_i_fel
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+
+    trait = wrathful
+    trait = compassionate
+    trait = just
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 2
+    intrigue = 4
+    learning = 1
+    prowess = 4
+
+    trait = education_diplomacy_4
+
+    3227.6.24 = {
+        birth = yes
+    }
+
+    3500.9.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension51 = {
+    name = Astandil
+
+    father = ciryandurextensionb49
+    mother = ciryandurextensionb50    
+
+    dynasty = dynasty_borodiriath
+    religion = faith_numenorean
+    culture = numenorean 
+
+    sexuality = asexual
+
+    trait = blood_of_numenor_9
+
+    trait = cynical
+    trait = lustful
+    trait = temperate
+
+    diplomacy = 4
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 2
+    prowess = 9
+
+    trait = education_martial_1
+
+    3310.9.6 = {
+        birth = yes
+    }
+
+    3371.6.13 = {
+        add_spouse = ciryandurextension52
+    }
+
+    3576.3.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension52 = {
+    name = Lo_o_miphe_e_l
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean 
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+    trait = born_on_numenor
+
+    trait = arrogant
+    trait = patient
+    trait = stubborn
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 4
+    intrigue = 2
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_1
+
+    3310.6.27 = {
+        birth = yes
+    }
+
+    3560.8.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+
+ciryandurextensionb51 = {
+    name = Telemmait_e_e
+
+    father = ciryandurextension51
+    mother = ciryandurextension52  
+
+
+    dynasty = dynasty_borodiriath
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+
+    trait = trusting
+    trait = arbitrary
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 5
+    intrigue = 4
+    learning = 2
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    3437.1.4 = {
+        birth = yes
+    }
+
+    3485.12.6 = {
+        add_spouse = ciryandurextensionb52
+    }
+
+    3711.3.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextensionb52 = {
+    name = Telenisse
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = homosexual
+
+    trait = blood_of_numenor_9
+
+    trait = lustful
+    trait = wrathful
+    trait = just
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    3415.4.5 = {
+        birth = yes
+    }
+
+    3701.1.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension53 = {
+    name = Bala_a_kha_a_n
+
+    dynasty = dynasty_borodiriath
+    religion = faith_numenorean
+    culture = numenorean 
+
+    father = ciryandurextensionb51
+    mother = ciryandurextensionb52
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+
+
+    trait = content
+    trait = stubborn
+    trait = vengeful
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 7
+    intrigue = 4
+    learning = 2
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    3482.9.26 = {
+        birth = yes
+    }
+
+    3543.5.14 = {
+        add_spouse = ciryandurextension54
+    }
+
+    3766.3.27 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension54 = {
+    name = Telenisse
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean 
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+    trait = born_on_numenor
+
+    trait = brave
+    trait = humble
+    trait = fickle
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 2
+
+    trait = education_martial_1
+
+    3450.4.27 = {
+        birth = yes
+    }
+
+    3739.1.24 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension55 = {
+    name = Cemendur
+
+    dynasty = dynasty_borodiriath
+    religion = faith_numenorean
+    culture = numenorean 
+
+    father = ciryandurextension53
+    mother = ciryandurextension54
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+
+    trait = wrathful
+    trait = brave
+    trait = just
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 9
+    intrigue = 5
+    learning = 2
+    prowess = 6
+
+    trait = education_stewardship_2
+
+    3553.10.26 = {
+        birth = yes
+    }
+
+    3621.8.19 = {
+        add_spouse = ciryandurextension56
+    }
+
+    3833.8.21 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension56 = {
+    name = Telerien
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean 
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+    trait = born_on_numenor
+
+    trait = stubborn
+    trait = chaste
+    trait = paranoid
+
+    diplomacy = 2
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_martial_2
+
+    3552.11.12 = {
+        birth = yes
+    }
+
+    3822.3.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+
+ciryandurextension57 = {
+    name = Sakalkha_a_d
+
+    father = ciryandurextension55
+    mother = ciryandurextension56
+
+    dynasty = dynasty_borodiriath
+    religion = faith_numenorean
+    culture = bellakarani
+
+    sexuality = homosexual
+
+    trait = blood_of_numenor_8
+
+    trait = ambitious
+    trait = lustful
+    trait = compassionate
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 9
+    learning = 5
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    3651.12.20 = {
+        birth = yes
+    }
+
+    3720.6.3 = {
+        add_spouse = ciryandurextension58
+    }
+
+    3895.5.11 = {
+        death = { death_reason = death_disappearance }
+    }
+}
+
+ciryandurextension58 = {
+    name = Ladno_o_kali
+    female = yes
+
+    religion = faith_numenorean
+    culture = bellakarani
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = lustful
+    trait = compassionate
+    trait = vengeful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 3
+    intrigue = 6
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_3
+
+    3703.6.5 = {
+        birth = yes
+    }
+
+    3911.1.1 = {
+        death = { death_reason = death_drowned }
+    }
+}
+
+ciryandurextensionb57 = {
+    name = Isilitho_o_r
+
+    father = ciryandurextension57
+    mother = ciryandurextension58    
+
+    dynasty = dynasty_borodiriath
+    religion = faith_numenorean
+    culture = bellakarani
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = wrathful
+    trait = compassionate
+    trait = diligent
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 2
+    intrigue = 7
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_4
+
+    3721.7.8 = {
+        birth = yes
+    }
+
+    3787.7.3 = {
+        add_spouse = ciryandurextensionb58
+    }
+
+    3911.1.1 = {
+        death = { death_reason = death_drowned }
+    }
+}
+
+ciryandurextensionb58 = {
+    name = Tamraphel
+    female = yes
+
+    religion = faith_numenorean
+    culture = bellakarani
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+
+    trait = impatient
+    trait = just
+    trait = chaste
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 9
+    intrigue = 7
+    learning = 4
+    prowess = 4
+
+    trait = education_stewardship_2
+
+    3720.9.3 = {
+        birth = yes
+    }
+
+    3911.1.1 = {
+        death = { death_reason = death_drowned }
+    }
+}
+
+
+ciryandurextension59 = {
+    name = Aba_a_ragar
+
+    dynasty = dynasty_borodiriath
+    religion = faith_numenorean
+    culture = bellakarani
+
+    father = ciryandurextensionb57
+    mother = ciryandurextensionb58
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = brave
+    trait = gregarious
+    trait = compassionate
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 2
+
+    trait = education_martial_1
+
+    3794.1.21 = {
+        birth = yes
+    }
+
+    3795.4.11 = {
+        give_nickname = nick_the_quarreller
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }
+    }
+
+    3828.7.13 = {
+        add_spouse = ciryandurextension60
+    }
+
+    3911.3.2 = {
+        death = { death_reason = death_battle } # dies in the seige of Korlea
+    }
+}
+
+ciryandurextension60 = {
+    name = Tanrafel
+    female = yes
+
+    religion = faith_old_bellakarean
+    culture = bellakarani
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+
+    trait = sadistic
+    trait = lustful
+    trait = arrogant
+
+    diplomacy = 5
+    martial = 10
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 3
+
+    trait = education_martial_2
+
+    3762.6.2 = {
+        birth = yes
+    }
+
+    4014.1.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension61 = {
+    name = Azruphe_e_l
+	female = yes
+
+    dynasty = dynasty_borodiriath
+    religion = faith_old_bellakarean
+    culture = bellakarani
+
+    father = ciryandurextension59
+    mother = ciryandurextension60
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = zealous
+    trait = gregarious
+    trait = compassionate
+
+	trait = beauty_good_3
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 9
+    intrigue = 5
+    learning = 9
+    prowess = 2
+
+    trait = education_stewardship_4
+
+    3830.12.4 = {
+        birth = yes
+    }
+    4099.7.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+# ciryandurextension62 = {
+#     name = Bawabe_e_th
+#     female = yes
+
+#     religion = faith_numenorean
+#     culture = bellakarani
+
+#     sexuality = heterosexual
+
+#     trait = blood_of_numenor_8
+
+#     trait = wrathful
+#     trait = stubborn
+#     trait = callous
+
+#     diplomacy = 3
+#     martial = 3
+#     stewardship = 6
+#     intrigue = 6
+#     learning = 3
+#     prowess = 7
+
+#     trait = education_stewardship_4
+
+#     3828.3.19 = {
+#         birth = yes
+#     }
+
+#     3911.1.1 = {
+#         death = { death_reason = death_drowned }
+#     }
+# }
+
+ciryandurextension63 = {
+    name = A_A_ruakku_u_ra_a_n
+
+    dynasty = dynasty_borodiriath
+    religion = faith_old_bellakarean
+    culture = bellakarani
+
+    father = ciryandurextension59
+    mother = ciryandurextension60
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = zealous
+    trait = generous
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 2
+    prowess = 7
+
+    trait = education_martial_3
+
+    3831.7.11 = {
+        birth = yes
+    }
+
+    3893.11.1 = {
+        add_spouse = ciryandurextension64
+    }
+
+    3911.12.12 = {
+        death = { death_reason = death_drowned }
+    }
+}
+
+ciryandurextension64 = {
+    name = Mu_u_raphe_e_l
+    female = yes
+
+    religion = faith_old_bellakarean
+    culture = bellakarani
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+
+    trait = impatient
+    trait = vengeful
+    trait = shy
+
+    diplomacy = 2
+    martial = 5
+    stewardship = 4
+    intrigue = 8
+    learning = 6
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    3829.7.18 = {
+        birth = yes
+    }
+
+    4083.10.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension65 = {
+    name = Tu_u_limizi_i_r
+
+    dynasty = dynasty_borodiriath
+    religion = faith_old_bellakarean
+    culture = bellakarani
+
+    father = ciryandurextensionb57
+    mother = ciryandurextensionb58
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = impatient
+    trait = ambitious
+    trait = brave
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 6
+    learning = 7
+    prowess = 2
+
+    trait = education_martial_4
+
+    3796.5.7 = {
+        birth = yes
+    }
+
+    3853.2.18 = {
+        add_spouse = ciryandurextension66
+    }
+
+    3911.1.1 = {
+        death = { death_reason = death_drowned }
+    }
+}
+
+ciryandurextension66 = {
+    name = Alkharin
+    female = yes
+
+    religion = faith_numenorean
+    culture = bellakarani
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = zealous
+    trait = sadistic
+    trait = content
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 3
+    intrigue = 3
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_3
+
+    3766.8.12 = {
+        birth = yes
+    }
+
+    4011.2.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension67 = {
+    name = Zagarkha_a_d
+
+    dynasty = dynasty_borodiriath
+    religion = faith_old_bellakarean
+    culture = bellakarani
+
+    father = ciryandurextension65
+    mother = ciryandurextension66
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = vengeful
+    trait = ambitious
+    trait = gluttonous
+
+    diplomacy = 8
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 5
+    prowess = 4
+
+    trait = education_diplomacy_3
+
+    3853.12.28 = {
+        birth = yes
+    }
+
+    3910.7.22 = {
+        add_spouse = ciryandurextension68
+    }
+
+    3911.1.1 = {
+        death = { death_reason = death_drowned }
+    }
+}
+
+ciryandurextension68 = {
+    name = Izindubeth
+    female = yes
+
+    religion = faith_old_bellakarean
+    culture = bellakarani
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = trusting
+    trait = brave
+    trait = wrathful
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 1
+    prowess = 8
+
+    trait = education_intrigue_2
+
+    3832.6.6 = {
+        birth = yes
+    }
+
+    3911.1.1 = {
+        death = { death_reason = death_drowned }
+    }
+}
+
+# ciryandurextension69 = {
+#     name = Bala_a_koreya
+#     female = yes
+
+#     religion = faith_numenorean
+#     culture = bellakarani
+
+#     father = ciryandurextension65
+#     mother = ciryandurextension66
+
+#     sexuality = heterosexual
+
+#     trait = blood_of_numenor_9
+
+#     trait = wrathful
+#     trait = arrogant
+#     trait = content
+
+#     diplomacy = 6
+#     martial = 5
+#     stewardship = 3
+#     intrigue = 5
+#     learning = 5
+#     prowess = 6
+
+#     trait = education_diplomacy_1
+
+#     3834.10.13 = {
+#         birth = yes
+#     }
+
+#     4089.4.26 = {
+#         death = { death_reason = death_natural_causes }
+#     }
+# }
+
+ciryandurextension70 = {
+    name = Agandu_u_r
+
+    dynasty = dynasty_borodiriath
+    religion = faith_old_bellakarean
+    culture = bellakarani
+
+    father = ciryandurextension65
+    mother = ciryandurextension66
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = brave
+    trait = paranoid
+    trait = generous
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 4
+    intrigue = 2
+    learning = 6
+    prowess = 5
+
+    trait = education_diplomacy_3
+
+    3855.11.13 = {
+        birth = yes
+    }
+
+    3911.3.7 = {
+        death = { death_reason = death_battle } # dies in the seige of Korlea
+    }
+}
+
+ciryandurextension71 = {
+    name = Izinduphel
+    female = yes
+
+    religion = faith_old_bellakarean
+    culture = bellakarani
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+
+    trait = lustful
+    trait = diligent
+    trait = stubborn
+
+    diplomacy = 5
+    martial = 4
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    3834.7.17 = {
+        birth = yes
+    }
+
+    4069.1.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+### Mainline extention
+
+ciryandurextension72 = {
+    name = Neruzo
+
+    father = ciryandurextension47
+    mother = ciryandurextension48
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = bisexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = gluttonous
+    trait = gregarious
+    trait = honest
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 5
+    intrigue = 6
+    learning = 6
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    3158.2.6 = {
+        birth = yes
+    }
+
+    3228.11.23 = {
+        add_spouse = ciryandurextension73
+    }
+
+    3430.2.22 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension73 = {
+    name = Kastafel
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = generous
+    trait = shy
+    trait = ambitious
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 8
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_1
+
+    3211.3.23 = {
+        birth = yes
+    }
+
+    3499.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension74 = {
+    name = Adu_u_nabe_e_l
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension72
+    mother = ciryandurextension73
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = wrathful
+    trait = chaste
+    trait = fickle
+
+    diplomacy = 5
+    martial = 7
+    stewardship = 4
+    intrigue = 5
+    learning = 3
+    prowess = 6
+
+    trait = education_martial_2
+
+    3282.2.20 = {
+        birth = yes
+    }
+
+    3351.1.25 = {
+        add_spouse = ciryandurextension75
+    }
+
+    3576.7.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension75 = {
+    name = Azruphe_e_l
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = vengeful
+    trait = patient
+    trait = temperate
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 6
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    3280.7.20 = {
+        birth = yes
+    }
+
+    3575.9.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension76 = {
+    name = Nu_u_luzi_i_r
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension74
+    mother = ciryandurextension75
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = gregarious
+    trait = humble
+    trait = craven
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 3
+    intrigue = 9
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    3351.4.14 = {
+        birth = yes
+    }
+
+    3423.10.3 = {
+        add_spouse = ciryandurextension77
+    }
+
+    3625.6.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension77 = {
+    name = Morbe
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = lustful
+    trait = stubborn
+    trait = deceitful
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 5
+    intrigue = 6
+    learning = 2
+    prowess = 2
+
+    trait = education_martial_1
+
+    3351.10.6 = {
+        birth = yes
+    }
+
+    3635.6.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension78 = {
+    name = Aphanuzi_i_r
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension76
+    mother = ciryandurextension77
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = ambitious
+    trait = gluttonous
+    trait = zealous
+
+    diplomacy = 4
+    martial = 1
+    stewardship = 3
+    intrigue = 3
+    learning = 5
+    prowess = 10
+
+    trait = education_learning_2
+
+    3423.4.5 = {
+        birth = yes
+    }
+
+    3488.1.22 = {
+        add_spouse = ciryandurextension79
+    }
+
+    3715.3.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension79 = {
+    name = Misindubet
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = shy
+    trait = honest
+    trait = just
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 4
+    intrigue = 7
+    learning = 3
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    3422.2.15 = {
+        birth = yes
+    }
+
+    3698.5.15 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension80 = {
+    name = Amrothor
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension78
+    mother = ciryandurextension79
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = lustful
+    trait = arbitrary
+    trait = zealous
+
+    diplomacy = 9
+    martial = 10
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_1
+
+    3489.12.16 = {
+        birth = yes
+    }
+
+    3562.12.7 = {
+        add_spouse = ciryandurextension81
+    }
+
+    3766.3.6 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension81 = {
+    name = Lo_o_mihil
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = homosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = fickle
+    trait = brave
+    trait = generous
+
+    diplomacy = 1
+    martial = 6
+    stewardship = 4
+    intrigue = 4
+    learning = 8
+    prowess = 1
+
+    trait = education_learning_3
+
+    3488.2.21 = {
+        birth = yes
+    }
+
+    3787.12.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension82 = {
+    name = Falmandil
+
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension80
+    mother = ciryandurextension81
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = just
+    trait = diligent
+    trait = callous
+
+    diplomacy = 3
+    martial = 5
+    stewardship = 3
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_martial_2
+
+    3562.3.6 = {
+        birth = yes
+    }
+
+    3627.8.27 = {
+        add_spouse = ciryandurextension83
+    }
+
+    3859.5.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension83 = {
+    name = Tarandis
+
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = asexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = cynical
+    trait = lustful
+    trait = temperate
+
+    diplomacy = 6
+    martial = 6
+    stewardship = 5
+    intrigue = 5
+    learning = 4
+    prowess = 3
+
+    trait = education_diplomacy_4
+
+    3560.10.24 = {
+        birth = yes
+    }
+
+    3846.8.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension84 = {
+    name = Elatar
+
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension82
+    mother = ciryandurextension83
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = calm
+    trait = arrogant
+    trait = patient
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 1
+    prowess = 5
+
+    trait = education_intrigue_1
+
+    3629.10.25 = {
+        birth = yes
+    }
+
+    3695.12.14 = {
+        add_spouse = ciryandurextension85
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension85 = {
+    name = Irime
+
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = asexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = honest
+    trait = content
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 4
+    intrigue = 5
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_1
+
+    3629.4.20 = {
+        birth = yes
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension86 = {
+    name = Cemendil
+
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension84
+    mother = ciryandurextension85
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = stubborn
+    trait = content
+    trait = brave
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 4
+
+    trait = education_martial_1
+
+    3695.3.13 = {
+        birth = yes
+    }
+
+    3768.3.12 = {
+        add_spouse = ciryandurextension87
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension87 = {
+    name = Inzilbe_e_lin
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = impatient
+    trait = content
+    trait = wrathful
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 6
+    intrigue = 5
+    learning = 6
+    prowess = 10
+
+    trait = education_martial_3
+
+    3695.10.14 = {
+        birth = yes
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension88 = {
+    name = Valandur
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension86
+    mother = ciryandurextension87
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = content
+    trait = just
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 6
+    intrigue = 3
+    learning = 4
+    prowess = 6
+
+    trait = education_stewardship_3
+
+    3769.3.13 = {
+        birth = yes
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension89 = {
+    name = Nahloedan
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension86
+    mother = ciryandurextension87
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = brave
+    trait = impatient
+    trait = cynical
+
+    diplomacy = 3
+    martial = 10
+    stewardship = 3
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_4
+
+    3770.10.13 = {
+        birth = yes
+    }
+
+    3843.12.26 = {
+        add_spouse = ciryandurextension90
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension90 = {
+    name = Avahlet
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = zealous
+    trait = brave
+    trait = temperate
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 7
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_stewardship_2
+
+    3770.1.17 = {
+        birth = yes
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension91 = {
+    name = Tamarsi
+	female = yes
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension89
+    mother = ciryandurextension90
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = arrogant
+    trait = impatient
+    trait = brave
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 4
+    intrigue = 9
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_4
+
+    3845.5.8 = {
+        birth = yes
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension92 = {
+    name = Sarazileya
+    female = yes
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension89
+    mother = ciryandurextension90
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = brave
+    trait = wrathful
+    trait = compassionate
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 10
+    intrigue = 4
+    learning = 5
+    prowess = 6
+
+    trait = education_stewardship_4
+
+    3865.9.5 = {
+        birth = yes
+    }
+
+    3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension93 = {
+    name = Karahil
+    female = yes
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension84
+    mother = ciryandurextension85
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = lustful
+    trait = honest
+    trait = fickle
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 4
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    3700.6.6 = {
+        birth = yes
+    }
+
+    3782.6.25 = {
+        death = { death_reason = death_drowned  }
+    }
+}
+
+ciryandurextension94 = {
+    name = Agorahil
+
+    dynasty = dynasty_ciryandur
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = ciryandurextension78
+    mother = ciryandurextension79
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = brave
+    trait = fickle
+    trait = humble
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 8
+    intrigue = 4
+    learning = 1
+    prowess = 7
+
+    trait = education_stewardship_3
+
+    3492.8.23 = {
+        birth = yes
+    }
+
+    3561.6.23 = {
+        add_spouse = ciryandurextension95
+    }
+
+    3782.5.9 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension95 = {
+    name = Morbehil
+    female = yes
+
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+
+    sexuality = homosexual
+
+    trait = blood_of_numenor_8
+    trait = born_on_numenor
+
+    trait = callous
+    trait = content
+    trait = vengeful
+
+    diplomacy = 7
+    martial = 9
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 5
+
+    trait = education_martial_4
+
+    3490.9.23 = {
+        birth = yes
+    }
+
+    3723.11.20 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension96 = {
+    name = Zimrazu_u_l
+
+    dynasty = dynasty_ciryandur
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+
+    father = ciryandurextension94
+    mother = ciryandurextension95
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_9
+    trait = born_on_numenor
+
+    trait = impatient
+    trait = arrogant
+    trait = zealous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_2
+
+    3566.1.3 = {
+        birth = yes
+    }
+
+    3633.10.16 = {
+        add_spouse = ciryandurextension97
+    }
+
+    3836.2.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension97 = {
+    name = Baldereya
+    female = yes
+
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+
+    sexuality = homosexual
+
+    trait = blood_of_numenor_8
+    trait = born_on_numenor
+
+    trait = stubborn
+    trait = cynical
+    trait = lustful
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 2
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    3561.9.20 = {
+        birth = yes
+    }
+
+    3817.11.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+ciryandurextension98 = {
+    name = Inzilbe_e_l
+
+    dynasty = dynasty_ciryandur
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+
+    father = ciryandurextension96
+    mother = ciryandurextension97
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_8
+    trait = born_on_numenor
+
+    trait = cynical
+    trait = brave
+    trait = temperate
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 7
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    3636.4.12 = {
+        birth = yes
+    }
+
+    3710.2.13 = {
+        add_spouse = ciryandurextension99
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension99 = {
+    name = Kastafel
+    female = yes
+
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    trait = honest
+    trait = trusting
+    trait = craven
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_4
+
+    3635.9.26 = {
+        birth = yes
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension100 = {
+    name = Zimrube_e_l
+
+    dynasty = dynasty_ciryandur
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+
+    father = ciryandurextension98
+    mother = ciryandurextension99
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    trait = honest
+    trait = fickle
+    trait = arrogant
+
+    diplomacy = 1
+    martial = 8
+    stewardship = 1
+    intrigue = 3
+    learning = 3
+    prowess = 5
+
+    trait = education_martial_2
+
+    3710.5.9 = {
+        birth = yes
+    }
+
+    3777.6.16 = {
+        add_spouse = ciryandurextension101
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension101 = {
+    name = Arfazenet
+    female = yes
+
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    trait = brave
+    trait = impatient
+    trait = wrathful
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 6
+    intrigue = 4
+    learning = 3
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    3710.11.17 = {
+        birth = yes
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension102 = {
+    name = Tamarsi
+
+    dynasty = dynasty_ciryandur
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+
+    father = ciryandurextension100
+    mother = ciryandurextension101
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    trait = lazy
+    trait = brave
+    trait = paranoid
+
+    diplomacy = 4
+    martial = 9
+    stewardship = 3
+    intrigue = 5
+    learning = 1
+    prowess = 7
+
+    trait = education_martial_3
+
+    3780.10.23 = {
+        birth = yes
+    }
+
+    3848.7.4 = {
+        add_spouse = ciryandurextension103
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension103 = {
+    name = Avahleyo
+    female = yes
+
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    trait = arbitrary
+    trait = lustful
+    trait = diligent
+
+    diplomacy = 4
+    martial = 8
+    stewardship = 2
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    3780.10.28 = {
+        birth = yes
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension104 = {
+    name = Suarifel
+    female = yes
+
+    dynasty = dynasty_ciryandur
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+
+    father = ciryandurextension102
+    mother = ciryandurextension103
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    trait = just
+    trait = fickle
+    trait = humble
+
+    diplomacy = 2
+    martial = 9
+    stewardship = 3
+    intrigue = 7
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_1
+
+    3850.11.18 = {
+        birth = yes
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension105 = {
+    name = Abrasi
+
+    dynasty = dynasty_ciryandur
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+
+    father = ciryandurextension102
+    mother = ciryandurextension103
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+    trait = born_on_numenor
+
+    trait = stubborn
+    trait = greedy
+    trait = brave
+
+    diplomacy = 8
+    martial = 3
+    stewardship = 6
+    intrigue = 2
+    learning = 8
+    prowess = 11
+
+    trait = education_diplomacy_3
+
+    3852.1.27 = {
+        birth = yes
+    }
+
+    3910.4.7 = {
+        add_spouse = ciryandurextension106
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension106 = {
+    name = Suarifel
+    female = yes
+
+    religion = faith_kings_men_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_7
+    trait = born_on_numenor
+
+    trait = compassionate
+    trait = just
+    trait = paranoid
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 3
+    intrigue = 2
+    learning = 3
+    prowess = 8
+
+    trait = education_martial_2
+
+    3852.4.25 = {
+        birth = yes
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension107 = {
+    name = Kadarjaga
+
+    dynasty = dynasty_ciryandur
+	religion = melkorite
+	culture = black_numenorean
+
+    father = ciryandurextension100
+    mother = ciryandurextension101
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+    trait = born_on_numenor
+
+    trait = temperate
+    trait = chaste
+    trait = calm
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 4
+    intrigue = 8
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    3781.6.24 = {
+        birth = yes
+    }
+
+    3855.1.21 = {
+        add_spouse = ciryandurextension108
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension108 = {
+    name = Adu_u_naphe_e_l
+    female = yes
+
+	religion = melkorite
+	culture = black_numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+    trait = born_on_numenor
+
+    trait = brave
+    trait = compassionate
+    trait = arbitrary
+
+    diplomacy = 4
+    martial = 6
+    stewardship = 4
+    intrigue = 7
+    learning = 4
+    prowess = 6
+
+    trait = education_intrigue_2
+
+    3779.9.14 = {
+        birth = yes
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+ciryandurextension109 = {
+    name = Adu_u_naphe_e_l
+    female = yes
+
+    dynasty = dynasty_ciryandur
+	religion = melkorite
+	culture = black_numenorean
+
+    father = ciryandurextension107
+    mother = ciryandurextension108
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_6
+    trait = born_on_numenor
+
+    trait = brave
+    trait = impatient
+    trait = temperate
+
+    diplomacy = 3
+    martial = 6
+    stewardship = 10
+    intrigue = 6
+    learning = 4
+    prowess = 7
+
+    trait = education_stewardship_2
+
+    3855.11.17 = {
+        birth = yes
+    }
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+#######################
+### Line of Elentir ###
+#######################
+# Scion of Ingoldur who stayed behind on numenor, eventually moving to Bellakar. 
+
+lineofelentirold1 = {
+    name = Almion
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = lineofingoldur1
+    mother = lineofelatan10a1
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = gallivanter
+    trait = loyal
+
+    trait = stubborn
+    trait = content
+    trait = shy
+
+    diplomacy = 4
+    martial = 3
+    stewardship = 8
+    intrigue = 4
+    learning = 10
+    prowess = 7
+
+    trait = education_learning_4
+
+    2820.3.17 = {
+        birth = yes
+    }
+
+    2889.7.2 = {
+        add_spouse = lineofelros16cousin 
+    }
+
+    3100.1.1 = {
+        give_nickname = nick_the_stayer
+        effect = {
+            add_character_flag = {
+                flag = had_nickname_event
+            }
+        }   
+    }
+
+    3160.5.12 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold3 = {
+    name = Anardur
+
+    father = lineofelentirold1
+    mother = lineofelros16cousin
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = content
+    trait = stubborn
+    trait = lustful
+
+    diplomacy = 7
+    martial = 5
+    stewardship = 9
+    intrigue = 9
+    learning = 6
+    prowess = 5
+
+    trait = education_stewardship_3
+
+    2893.2.8 = {
+        birth = yes
+    }
+
+    2965.12.28 = {
+        add_spouse = lineofelentirold4
+    }
+
+    3230.11.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold4 = {
+    name = Celebiel
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+        trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = deceitful
+    trait = trusting
+    trait = fickle
+
+    diplomacy = 1
+    martial = 7
+    stewardship = 1
+    intrigue = 4
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_4
+
+    2948.1.19 = {
+        birth = yes
+    }
+
+    3287.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold5 = {
+    name = Y_avien
+    female = yes
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = lineofelentirold3
+    mother = lineofelentirold4
+
+    sexuality = heterosexual
+
+        trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = gregarious
+    trait = content
+    trait = just
+
+    diplomacy = 3
+    martial = 11
+    stewardship = 3
+    intrigue = 4
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_2
+
+    3015.4.19 = {
+        birth = yes
+    }
+
+    3340.2.17 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold6 = {
+    name = Artandil
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = lineofelentirold3
+    mother = lineofelentirold4
+
+    sexuality = heterosexual
+
+        trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = shy
+    trait = honest
+    trait = sadistic
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    3013.12.17 = {
+        birth = yes
+    }
+
+    3082.3.22 = {
+        add_spouse = lineofelentirold7
+    }
+
+    3343.4.4 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold7 = {
+    name = Hereniel
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+        trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = honest
+    trait = just
+    trait = calm
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 6
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_martial_3
+
+    3016.1.28 = {
+        birth = yes
+    }
+
+    3330.11.26 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold8 = {
+    name = Borwen
+    female = yes
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = lineofelentirold6
+    mother = lineofelentirold7
+
+    sexuality = heterosexual
+
+        trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = wrathful
+    trait = diligent
+    trait = sadistic
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 4
+    intrigue = 5
+    learning = 2
+    prowess = 5
+
+    trait = education_diplomacy_2
+
+    3085.5.14 = {
+        birth = yes
+    }
+
+    3411.4.13 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold9 = {
+    name = M_irion
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = lineofelentirold6
+    mother = lineofelentirold7
+
+    sexuality = heterosexual
+
+        trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = generous
+    trait = lazy
+    trait = stubborn
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 3
+    intrigue = 5
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    3086.10.12 = {
+        birth = yes
+    }
+
+    3154.7.19 = {
+        add_spouse = lineofelentirold10
+    }
+
+    3411.9.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold10 = {
+    name = Beinwen
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+        trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = wrathful
+    trait = impatient
+    trait = content
+
+    diplomacy = 2
+    martial = 3
+    stewardship = 5
+    intrigue = 7
+    learning = 4
+    prowess = 7
+
+    trait = education_intrigue_4
+
+    3084.10.8 = {
+        birth = yes
+    }
+
+    3201.11.3 = {
+        death = { death_reason = death_plotting  }
+    }
+}
+
+lineofelentirold11 = {
+    name = Asgon
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = lineofelentirold9
+    mother = lineofelentirold10
+
+    sexuality = heterosexual
+
+        trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = content
+    trait = just
+    trait = stubborn
+
+    diplomacy = 3
+    martial = 8
+    stewardship = 2
+    intrigue = 5
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_3
+
+    3159.5.2 = {
+        birth = yes
+    }
+
+    3233.4.22 = {
+        add_spouse = lineofelentirold12
+    }
+
+    3473.5.1 = {
+        death = { death_reason = death_natural_causes  }
+    }
+}
+
+lineofelentirold12 = {
+    name = Laurelach
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+        trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = impatient
+    trait = cynical
+    trait = ambitious
+
+    diplomacy = 3
+    martial = 10
+    stewardship = 3
+    intrigue = 5
+    learning = 3
+    prowess = 4
+
+    trait = education_martial_4
+
+    3159.10.3 = {
+        birth = yes
+    }
+
+    3474.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold13 = {
+    name = Herenion
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = lineofelentirold11
+    mother = lineofelentirold12
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = zealous
+    trait = brave
+    trait = temperate
+
+    diplomacy = 3
+    martial = 9
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 4
+
+    trait = education_martial_3
+
+    3235.6.21 = {
+        birth = yes
+    }
+
+    3537.5.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+
+lineofelentirold14 = {
+    name = Vorommacil
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = lineofelentirold11
+    mother = lineofelentirold12
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = impatient
+    trait = arrogant
+    trait = zealous
+
+    diplomacy = 6
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_2
+
+    3232.10.11 = {
+        birth = yes
+    }
+
+    3304.5.20 = {
+        add_spouse = lineofelentirold15
+    }
+
+    3532.10.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold15 = {
+    name = Ilumire
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = homosexual
+
+        trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = stubborn
+    trait = compassionate
+    trait = generous
+
+    diplomacy = 9
+    martial = 6
+    stewardship = 6
+    intrigue = 4
+    learning = 2
+    prowess = 7
+
+    trait = education_diplomacy_3
+
+    3233.11.8 = {
+        birth = yes
+    }
+
+    3535.9.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold16 = {
+    name = Cirion
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = lineofelentirold14
+    mother = lineofelentirold15
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = cynical
+    trait = brave
+    trait = temperate
+
+    diplomacy = 3
+    martial = 3
+    stewardship = 7
+    intrigue = 10
+    learning = 3
+    prowess = 5
+
+    trait = education_intrigue_2
+
+    3306.11.28 = {
+        birth = yes
+    }
+
+    3381.5.14 = {
+        add_spouse = lineofelentirold17
+    }
+
+    3602.10.28 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold17 = {
+    name = Eariel
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+        trait = blood_of_numenor_10
+	trait = born_on_numenor
+
+    trait = honest
+    trait = trusting
+    trait = craven
+
+    diplomacy = 3
+    martial = 7
+    stewardship = 4
+    intrigue = 4
+    learning = 6
+    prowess = 4
+
+    trait = education_martial_4
+
+    3304.5.20 = {
+        birth = yes
+    }
+
+    3604.12.19 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold18 = {
+    name = Cunendil
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = lineofelentirold16
+    mother = lineofelentirold17
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = vengeful
+    trait = chaste
+    trait = trusting
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 3
+    intrigue = 5
+    learning = 2
+    prowess = 6
+
+    trait = education_martial_2
+
+    3383.6.23 = {
+        birth = yes
+    }
+
+    3455.6.10 = {
+        add_spouse = lineofelentirold19
+    }
+
+    3674.11.8 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold19 = {
+    name = Yavien
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = homosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = deceitful
+    trait = lazy
+    trait = wrathful
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 10
+    intrigue = 3
+    learning = 1
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    3438.10.11 = {
+        birth = yes
+    }
+
+    3723.10.3 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold20 = {
+    name = Elessar
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = lineofelentirold18
+    mother = lineofelentirold19
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = trusting
+    trait = gluttonous
+    trait = arrogant
+
+    diplomacy = 10
+    martial = 6
+    stewardship = 4
+    intrigue = 5
+    learning = 5
+    prowess = 3
+
+    trait = education_diplomacy_2
+
+    3507.1.23 = {
+        birth = yes
+    }
+
+    3574.7.21 = {
+        add_spouse = lineofelentirold21
+    }
+
+    3802.3.25 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold21 = {
+    name = Morlime
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = stubborn
+    trait = generous
+    trait = lustful
+
+    diplomacy = 5
+    martial = 6
+    stewardship = 5
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_2
+
+    3507.8.20 = {
+        birth = yes
+    }
+
+    3789.9.11 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+# lineofelentirold22 = {
+#     name = Labadal
+
+#     dynasty = dynasty_elentirold
+#     religion = faith_numenorean
+#     culture = numenorean
+
+#     father = lineofelentirold20
+#     mother = lineofelentirold21
+
+#     sexuality = heterosexual
+
+#     trait = blood_of_numenor_10
+#     trait = born_on_numenor
+
+#     trait = honest
+#     trait = fickle
+#     trait = paranoid
+
+#     diplomacy = 3
+#     martial = 7
+#     stewardship = 5
+#     intrigue = 6
+#     learning = 6
+#     prowess = 3
+
+#     trait = education_martial_3
+
+#     3579.11.15 = {
+#         birth = yes
+#     }
+
+#     3650.12.9 = {
+#         add_spouse = lineofelentirold23
+#     }
+
+#     3869.9.3 = {
+#         death = { death_reason = death_natural_causes }
+#     }
+# }
+
+lineofelentirold23 = {
+    name = Urwen
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = brave
+    trait = temperate
+    trait = stubborn
+
+    diplomacy = 4
+    martial = 4
+    stewardship = 2
+    intrigue = 3
+    learning = 1
+    prowess = 6
+
+    trait = education_diplomacy_3
+
+    3579.9.18 = {
+        birth = yes
+    }
+
+    3869.4.5 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+# lineofelentirold24 = {
+#     name = Ulbar
+
+#     dynasty = dynasty_elentirold
+#     religion = faith_numenorean
+#     culture = numenorean
+
+#     father = lineofelentirold40
+#     mother = lineofelentirold41
+
+#     sexuality = heterosexual
+
+#     trait = blood_of_numenor_10
+#     trait = born_on_numenor
+
+#     trait = patient
+#     trait = stubborn
+#     trait = zealous
+
+#     diplomacy = 2
+#     martial = 7
+#     stewardship = 5
+#     intrigue = 1
+#     learning = 4
+#     prowess = 5
+
+#     trait = education_martial_2
+
+#     3654.8.6 = {
+#         birth = yes
+#     }
+
+#     3726.10.26 = {
+#         add_spouse = lineofelentirold25
+#     }
+
+# 	3911.1.1 = {				
+# 		death = { death_reason = death_numenor_drowned } 			
+# 	}
+# }
+
+# lineofelentirold25 = {
+#     name = Gelliel
+#     female = yes
+
+#     religion = faith_numenorean
+#     culture = numenorean
+
+#     sexuality = heterosexual
+
+#     trait = blood_of_numenor_10
+#     trait = born_on_numenor
+
+#     trait = stubborn
+#     trait = arbitrary
+#     trait = content
+
+#     diplomacy = 3
+#     martial = 6
+#     stewardship = 7
+#     intrigue = 3
+#     learning = 5
+#     prowess = 4
+
+#     trait = education_stewardship_1
+
+#     3653.4.11 = {
+#         birth = yes
+#     }
+
+# 	3911.1.1 = {				
+# 		death = { death_reason = death_numenor_drowned } 			
+# 	}
+# }
+
+# lineofelentirold26 = {
+#     name = Lindorie
+#     female = yes
+
+#     dynasty = dynasty_elentirold
+#     religion = faith_numenorean
+#     culture = numenorean
+
+#     father = lineofelentirold24
+#     mother = lineofelentirold25
+
+#     sexuality = bisexual
+
+#     trait = blood_of_numenor_10
+#     trait = born_on_numenor
+
+#     trait = gregarious
+#     trait = generous
+#     trait = callous
+# 	trait = depressed_1
+
+#     diplomacy = 3
+#     martial = 6
+#     stewardship = 4
+#     intrigue = 4
+#     learning = 4
+#     prowess = 3
+
+#     trait = education_martial_3
+
+#     3727.9.13 = {
+#         birth = yes
+#     }
+# 	3911.1.1 = {				
+# 		trait = widowed 	
+# 	}	
+#     3993.12.18 = {
+#         death = { death_reason = death_script_cruelty   }
+#     }
+# }
+
+# lineofelentirold27 = {
+#     name = Falandil
+
+#     dynasty = dynasty_elentirold
+#     religion = faith_numenorean
+#     culture = numenorean
+
+#     father = lineofelentirold24
+#     mother = lineofelentirold25
+
+#     sexuality = homosexual
+
+#     trait = blood_of_numenor_10
+#     trait = born_on_numenor
+
+#     trait = arrogant
+#     trait = forgiving
+#     trait = just
+
+#     diplomacy = 5
+#     martial = 7
+#     stewardship = 4
+#     intrigue = 3
+#     learning = 3
+#     prowess = 4
+
+#     trait = education_martial_3
+
+#     3728.2.10 = {
+#         birth = yes
+#     }
+
+#     3797.11.3 = {
+#         add_spouse = lineofelentirold28
+#     }
+
+# 	3911.1.1 = {				
+# 		death = { death_reason = death_numenor_drowned } 			
+# 	}	
+# }
+
+lineofelentirold28 = {
+    name = Quimelle
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = temperate
+    trait = diligent
+    trait = callous
+
+    diplomacy = 6
+    martial = 7
+    stewardship = 7
+    intrigue = 7
+    learning = 4
+    prowess = 3
+
+    trait = education_martial_4
+
+    3728.2.4 = {
+        birth = yes
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}	
+}
+
+# lineofelentirold29 = {
+#     name = Amlaith
+
+#     dynasty = dynasty_elentirold
+#     religion = faith_numenorean
+#     culture = numenorean
+
+#     father = lineofelentirold18
+#     mother = lineofelentirold19
+
+#     sexuality = heterosexual
+
+#     trait = blood_of_numenor_10
+#     trait = born_on_numenor
+
+#     trait = brave
+#     trait = wrathful
+#     trait = generous
+
+#     diplomacy = 2
+#     martial = 5
+#     stewardship = 5
+#     intrigue = 7
+#     learning = 4
+#     prowess = 3
+
+#     trait = education_intrigue_4
+
+#     3508.9.9 = {
+#         birth = yes
+#     }
+
+#     3573.9.17 = {
+#         add_spouse = lineofelentirold30
+#     }
+
+#     3799.12.20 = {
+#         death = { death_reason = death_natural_causes }
+#     }
+# }
+
+# lineofelentirold30 = {
+#     name = Indil
+#     female = yes
+
+#     religion = faith_numenorean
+#     culture = numenorean
+
+#     sexuality = heterosexual
+
+#     trait = blood_of_numenor_10
+#     trait = born_on_numenor
+
+#     trait = lustful
+#     trait = forgiving
+#     trait = paranoid
+
+#     diplomacy = 5
+#     martial = 6
+#     stewardship = 4
+#     intrigue = 7
+#     learning = 5
+#     prowess = 8
+
+#     trait = education_intrigue_3
+
+#     3507.5.25 = {
+#         birth = yes
+#     }
+
+#     3799.12.10 = {
+#         death = { death_reason = death_natural_causes }
+#     }
+# }
+
+# lineofelentirold31 = {
+#     name = Bregil
+#     female = yes
+
+#     dynasty = dynasty_elentirold
+#     religion = faith_numenorean
+#     culture = numenorean
+
+#     father = lineofelentirold29
+#     mother = lineofelentirold30
+
+#     sexuality = heterosexual
+
+#     trait = blood_of_numenor_10
+#     trait = born_on_numenor
+
+#     trait = content
+#     trait = wrathful
+#     trait = lazy
+
+#     diplomacy = 1
+#     martial = 8
+#     stewardship = 6
+#     intrigue = 4
+#     learning = 5
+#     prowess = 5
+
+#     trait = education_martial_3
+
+#     3576.1.3 = {
+#         birth = yes
+#     }
+
+#     3856.4.10 = {
+#         death = { death_reason = death_natural_causes }
+#     }
+# }
+
+lineofelentirold32 = {
+    name = Halmir
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = lineofelentirold20
+    mother = lineofelentirold21
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = stubborn
+    trait = lazy
+    trait = just
+
+    diplomacy = 6
+    martial = 4
+    stewardship = 5
+    intrigue = 9
+    learning = 3
+    prowess = 8
+
+    trait = education_intrigue_1
+
+    3578.7.1 = {
+        birth = yes
+    }
+
+    3650.10.20 = {
+        add_spouse = lineofelentirold33
+    }
+
+    3868.9.7 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold33 = {
+    name = Adanel
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = zealous
+    trait = shy
+    trait = lustful
+
+    diplomacy = 6
+    martial = 3
+    stewardship = 4
+    intrigue = 6
+    learning = 3
+    prowess = 4
+
+    trait = education_diplomacy_2
+
+    3576.2.25 = {
+        birth = yes
+    }
+
+    3876.7.1 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
+lineofelentirold34 = {
+    name = Ausir
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = lineofelentirold32	
+    mother = lineofelentirold33
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = chaste
+    trait = brave
+    trait = zealous
+
+    diplomacy = 5
+    martial = 9
+    stewardship = 3
+    intrigue = 8
+    learning = 6
+    prowess = 5
+
+    trait = education_martial_3
+
+    3651.1.13 = {
+        birth = yes
+    }
+
+    3724.8.7 = {
+        add_spouse = lineofelentirold35
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}	
+	
+}
+
+lineofelentirold35 = {
+    name = Oarwen
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = chaste
+    trait = diligent
+    trait = stubborn
+
+    diplomacy = 2
+    martial = 7
+    stewardship = 2
+    intrigue = 3
+    learning = 5
+    prowess = 5
+
+    trait = education_martial_2
+
+    3650.4.10 = {
+        birth = yes
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}	
+}
+
+
+lineofelentirold36 = {
+    name = Gwathir
+
+    father = lineofelentirold32
+    mother = lineofelentirold33
+
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = homosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = patient
+    trait = content
+    trait = arrogant
+
+    diplomacy = 2
+    martial = 2
+    stewardship = 3
+    intrigue = 7
+    learning = 3
+    prowess = 4
+
+    trait = education_intrigue_3
+
+    3650.9.3 = {
+        birth = yes
+    }
+
+    3718.3.20 = {
+        add_spouse = lineofelentirold37
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+lineofelentirold37 = {
+    name = Itarilde
+    female = yes
+
+    religion = faith_numenorean
+    culture = numenorean
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = vengeful
+    trait = chaste
+    trait = trusting
+
+    diplomacy = 5
+    martial = 8
+    stewardship = 7
+    intrigue = 4
+    learning = 4
+    prowess = 2
+
+    trait = education_martial_3
+
+    3650.11.8 = {
+        birth = yes
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
+	}
+}
+
+lineofelentirold38 = {
+    name = Emeldir
+	female = yes
+
+    dynasty = dynasty_elentirold
+    religion = faith_numenorean
+    culture = numenorean
+
+    father = lineofelentirold36
+    mother = lineofelentirold37
+
+    sexuality = heterosexual
+
+    trait = blood_of_numenor_10
+    trait = born_on_numenor
+
+    trait = cynical
+    trait = deceitful
+    trait = lazy
+
+    diplomacy = 4
+    martial = 5
+    stewardship = 10
+    intrigue = 3
+    learning = 1
+    prowess = 4
+
+    trait = education_stewardship_3
+
+    3771.9.3 = {
+        birth = yes
+    }
+
+    3843.1.4 = {
+        add_spouse = ciryandurextension88
+    }
+
+	3911.1.1 = {				
+		death = { death_reason = death_numenor_drowned } 			
 	}
 }
 
@@ -24745,177 +29019,6 @@ lineumbar19 = {
 			killer = lineofanarion20 # King Hyarmendacil I		
 		}			
 	}				
-}
-
-##HERUMOR AND FUINUR##
-lineherumor1 = {
-	name = "Tindomul"
-	dynasty = dynasty_tindomul
-	religion = faith_numenorean
-	culture = numenorean
-	
-	
-	
-	
-	trait = blood_of_numenor_6
-	3585.1.1 = {
-		birth = yes
-		
-	}
-	3795.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineherumor2 = {
-	name = "N_Umendil"
-	dynasty = dynasty_tindomul
-	religion = faith_numenorean
-	culture = numenorean
-	
-	father = lineherumor1
-	
-	
-	
-	
-	trait = blood_of_numenor_6
-	3612.1.1 = {
-		birth = yes
-		
-	}
-	3816.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineherumor3 = {
-	name = "Angrion"
-	dynasty = dynasty_tindomul
-	religion = faith_numenorean
-	culture = numenorean
-	
-	father = lineherumor1
-	
-	
-	
-	
-	trait = blood_of_numenor_6
-	3621.1.1 = {
-		birth = yes
-		
-	}
-	3822.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineherumor4 = {
-	name = "Eldarion"
-	dynasty = dynasty_tindomul
-	religion = faith_numenorean
-	culture = numenorean
-	
-	father = lineherumor2
-	
-	
-	
-	
-	trait = blood_of_numenor_6
-	3781.1.1 = {
-		birth = yes
-		
-	}
-	3909.1.1 = {
-		death = { death_reason = death_execution } # Executed for being faithful
-	}
-}
-
-lineherumor5 = {
-	name = "Herumor"
-	dynasty_house = house_herumor
-	religion = melkorite
-	culture = black_numenorean
-	
-	father = lineherumor4
-	
-	
-	trait = brave
-	trait = wrathful
-	trait = intellect_good_1
-	trait = torturer
-	
-	
-	trait = blood_of_numenor_6
-	3892.1.1 = {
-		birth = yes
-		
-	}
-	4032.1.1 = {
-		death = { death_reason = death_battle } # Died in Last Alliance
-	}
-}
-
-lineherumor8 = {
-	name = "Tari_i_kmaga_a_n"
-	dynasty_house = house_herumor
-	religion = melkorite
-	culture = black_numenorean
-	
-	father = lineherumor5
-	
-	
-	
-
-	trait = blood_of_numenor_6
-	3921.1.1 = {
-		birth = yes
-		
-	}
-	4042.1.1 = {
-		death = { death_reason = death_murder } # Murdered by Haradrim
-	}
-}
-
-lineherumor6 = {
-	name = "Castarion"
-	dynasty = dynasty_tindomul
-	religion = faith_numenorean
-	culture = numenorean
-	
-	father = lineherumor3
-	
-	
-	
-	
-	trait = blood_of_numenor_6
-	3790.1.1 = {
-		birth = yes
-		
-	}
-	3911.1.1 = {
-		death = { death_reason = death_numenor_drowned }
-	}
-}
-
-lineherumor7 = {
-	name = "Fuinur"
-	dynasty_house = house_fuinur
-	religion = melkorite
-	culture = black_numenorean
-	
-	father = lineherumor6
-	
-	
-	
-	
-	trait = blood_of_numenor_6
-	3867.1.1 = {
-		birth = yes
-		
-	}
-	4029.1.1 = {
-		death = { death_reason = death_duel }
-	}
 }
 
 linedusalan1 = {

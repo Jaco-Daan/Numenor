@@ -695,7 +695,7 @@ lineofelros112 = {
 	trait = patient
 	trait = eccentric
 	trait = spindly
-	trait = poet
+	trait = lifestyle_poet
 	trait = scholar
 	trait = education_diplomacy_3
 

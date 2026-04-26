@@ -548,62 +548,60 @@ adunai_religion = {
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
 			}
-faith_pharazon = {
-			color = { 140 31 20 }
-			icon = black_numenorean_06
-			graphical_faith = catholic_gfx
+		faith_pharazon = {
+		color = { 140 31 20 }
+		icon = black_numenorean_06
+		graphical_faith = catholic_gfx
 
-			# CHANGE / FIX HOLY SITES
+		# CHANGE / FIX HOLY SITES
 
-			holy_site = umbar
-			holy_site = korlea
-			holy_site = tariketh_an_kharat
-			holy_site = uruloni
-			holy_site = sarul
+		holy_site = umbar
+		holy_site = korlea
+		holy_site = tariketh_an_kharat
+		holy_site = uruloni
+		holy_site = sarul
 
-			# Tenets
-			doctrine_selection_pair = {
-				requires_dlc_flag = the_northern_lords
-				doctrine = tenet_gruesome_festivals
-				fallback_doctrine = tenet_human_sacrifice
-			}
-			doctrine = tenet_warmonger
-			doctrine = tenet_adunaic_birthright
-			
-			# Doctrines
-			doctrine = doctrine_dominion_of_the_dark #
-			
-			doctrine = doctrine_consanguinity_divine #doctrine_consanguinity_cousins
-			doctrine = doctrine_theocracy_lay_clergy
-			doctrine = doctrine_temporal_head
-			doctrine = doctrine_clerical_function_recruitment
-			doctrine = doctrine_clerical_gender_either
-			doctrine = doctrine_clerical_marriage_allowed
-			doctrine = doctrine_deviancy_shunned
-			doctrine = doctrine_adultery_men_accepted
-			doctrine = doctrine_adultery_women_shunned
-			doctrine = doctrine_kinslaying_close_kin_crime
-			doctrine = doctrine_witchcraft_shunned
-			doctrine = doctrine_gender_male_dominated
-			doctrine = doctrine_monotheist
+		# Tenets
+		doctrine_selection_pair = {
+			requires_dlc_flag = the_northern_lords
+			doctrine = tenet_gruesome_festivals
+			fallback_doctrine = tenet_human_sacrifice
+		}
+		doctrine = tenet_warmonger
+		doctrine = tenet_adunaic_birthright
+		
+		# Doctrines
+		doctrine = doctrine_dominion_of_the_dark #
+		
+		doctrine = doctrine_consanguinity_divine #doctrine_consanguinity_cousins
+		doctrine = doctrine_theocracy_lay_clergy
+		doctrine = doctrine_temporal_head
+		doctrine = doctrine_clerical_function_recruitment
+		doctrine = doctrine_clerical_gender_either
+		doctrine = doctrine_clerical_marriage_allowed
+		doctrine = doctrine_deviancy_shunned
+		doctrine = doctrine_adultery_men_accepted
+		doctrine = doctrine_adultery_women_shunned
+		doctrine = doctrine_kinslaying_close_kin_crime
+		doctrine = doctrine_witchcraft_shunned
+		doctrine = doctrine_gender_male_dominated
+		doctrine = doctrine_monotheist
 
-			localization = {
-				#HighGodName
-				HighGodNameAlternateSheHe = CHARACTER_SHEHE_HE
-				HighGodName = deity_pharazon_immortal
-				HighGodName2 = deity_pharazon_immortal
-				HighGodNamePossessive = deity_pharazon_immortal_possessive
-				HighGodNameSheHe = CHARACTER_SHEHE_HE
-				HighGodHerselfHimself = CHARACTER_HIMSELF
-				HighGodHerHis = CHARACTER_HERHIS_HIS
-				HighGodNameAlternate = deity_pharazon
-				HighGodName2Alternate = deity_pharazon
-				HighGodNameAlternatePossessive = deity_pharazon_possessive
-				HighGodAlternateHerHis = CHARACTER_HERHIS_HIS
-				HighGodAlternateSheHe = CHARACTER_SHEHE_HE
-				HighGodAlternateHerselfHimself = CHARACTER_HIMSELF
-			}
-			
-		}	
+		localization = {
+			#HighGodName
+			HighGodNameAlternateSheHe = CHARACTER_SHEHE_HE
+			HighGodName = deity_pharazon_immortal
+			HighGodName2 = deity_pharazon_immortal
+			HighGodNamePossessive = deity_pharazon_immortal_possessive
+			HighGodNameSheHe = CHARACTER_SHEHE_HE
+			HighGodHerselfHimself = CHARACTER_HIMSELF
+			HighGodHerHis = CHARACTER_HERHIS_HIS
+			HighGodNameAlternate = deity_pharazon
+			HighGodName2Alternate = deity_pharazon
+			HighGodNameAlternatePossessive = deity_pharazon_possessive
+			HighGodAlternateHerHis = CHARACTER_HERHIS_HIS
+			HighGodAlternateSheHe = CHARACTER_SHEHE_HE
+			HighGodAlternateHerselfHimself = CHARACTER_HIMSELF
+		}
 	}
 }
