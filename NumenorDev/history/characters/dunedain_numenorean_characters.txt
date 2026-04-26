@@ -130,7 +130,7 @@ lineofelros2 = {
 
 	trait = scholar
 
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	653.1.1 = {				
@@ -164,7 +164,7 @@ lineofelros3 = {
 	trait = just
 	trait = patient
 
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	784.1.1 = {
@@ -181,7 +181,7 @@ lineofelros4 = {
 	culture = numenorean				
 
 	father = lineofelros3				
-	trait = born_on_numenor
+	
 	
 	trait = intellect_good_2
 	trait = beauty_good_1
@@ -228,7 +228,7 @@ lineofelros5 = {
 	trait = temperate
 	 				
 	trait = education_learning_3				
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	1135.1.1 = {				
@@ -271,7 +271,7 @@ lineofelros6 = {
 	trait = stubborn
 	trait = ambitious
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1292.1.1 = {				
 		birth = yes			
@@ -307,7 +307,7 @@ lineofelros7 = {
 	father = lineofelros6
 	mother = mablung11
 
-	trait = born_on_numenor
+	
 	 				
 	trait = education_diplomacy_4				
 	trait = beauty_good_3				
@@ -344,7 +344,7 @@ lineofelros8 = {
 
 	mother = lineofelros7				
 	father = lineofelros63				
-	trait = born_on_numenor
+	
 	trait = beauty_good_1
 	 
 
@@ -368,7 +368,7 @@ lineofelros9 = {
 
 	trait = beauty_good_1
 	 				
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	1766.1.1 = {
@@ -394,7 +394,7 @@ lineofelros10 = {
 	trait = arrogant				
 	trait = stubborn				
 	trait = content	
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	1912.1.1 = {				
@@ -414,7 +414,7 @@ lineofelros11 = {
 	father = lineofelros9				
 
 	 				
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	1941.1.1 = {				
@@ -439,7 +439,7 @@ lineofelros12 = {
 	trait = gregarious
 	trait = just
 	trait = architect
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	2066.1.1 = {				
@@ -474,7 +474,7 @@ lineofelros13 = {
 	trait = brave
 	trait = lifestyle_mariner
 	trait = conqueror
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	2226.1.1 = {				
@@ -501,7 +501,7 @@ lineofelros14 = {
 
 	father = lineofelros13				
 
-	trait = born_on_numenor
+	
 	trait = intellect_good_3				
 	trait = arrogant				
 	trait = greedy	
@@ -534,7 +534,7 @@ lineofelros15 = {
 
 	father = lineofelros14				
 
-	trait = born_on_numenor
+	
 	trait = intellect_good_2
 	trait = education_learning_4
 	trait = lifestyle_mariner
@@ -566,7 +566,7 @@ lineofelros16 = {
 	trait = patient
 	trait = cynical
 	trait = lifestyle_mariner
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	2728.1.1 = {
@@ -592,7 +592,7 @@ lineofelros16cousin = {
 	trait = cynical
 	trait = content
 	trait = lifestyle_mariner
-	trait = born_on_numenor
+	
 
 	trait = loyal
 
@@ -619,7 +619,7 @@ lineofelros17 = {
 	trait = lazy				
 	trait = compassionate				
 	trait = content				
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	2869.1.1 = {				
@@ -649,7 +649,7 @@ lineofelros18 = {
 	trait = lifestyle_blademaster
 	trait = content
 	trait = cynical
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	2998.1.1 = {
@@ -674,7 +674,7 @@ lineofelros19 = {
 	trait = lifestyle_blademaster				
 	trait = wrathful
 	trait = conqueror
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	3108.1.1 = {				
@@ -709,7 +709,7 @@ lineofelros20 = {
 	trait = cynical
 	trait = brave
 	trait = just
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	3210.1.1 = {				
@@ -735,7 +735,7 @@ lineofelros21 = {
 	trait = callous				
 	trait = wrathful				
 	trait = ambitious				
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_9
 	3301.1.1 = {				
@@ -760,7 +760,7 @@ lineofelros22 = {
 	trait = greedy
 	trait = honest
 	trait = arrogant
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_8
 	3390.1.1 = {				
@@ -791,7 +791,7 @@ lineofelros22daughter = {
 	trait = patient
 	trait = diligent
 	trait = chaste
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_7
 	
@@ -817,7 +817,7 @@ lineofelros23 = {
 	trait = impatient
 	trait = calm
 	trait = fickle
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_7
 	3468.1.1 = {				
@@ -852,7 +852,7 @@ lineofelros24 = {
 	trait = zealous				
 	trait = callous				
 	trait = wrathful				
-	trait = born_on_numenor	
+		
 
 	trait = blood_of_numenor_7
 	3552.1.1 = {				
@@ -890,7 +890,7 @@ lineofelros25 = {
 	trait = education_diplomacy_4				
 	trait = intellect_good_3				
 	trait = depressed_1				
-	trait = born_on_numenor	
+		
 
 	trait = blood_of_numenor_8
 	3627.1.1 = {				
@@ -925,7 +925,7 @@ lineofelros26 = {
 	trait = generous				
 	trait = content				
 	trait = depressed_1				
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_8
 	3709.1.1 = {				
@@ -955,7 +955,7 @@ lineofelros27 = {
 	trait = callous				
 	trait = ambitious				
 	trait = wrathful				
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_6
 	3636.1.1 = {				
@@ -987,7 +987,7 @@ lineofelros28 = { # Ar-Pharazôn the Golden, Last King of Numenor. You know the 
 	trait = august
 	trait = overseer
 	
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_6
 	
 	diplomacy = 5
@@ -1025,7 +1025,7 @@ lineofelros29 = { # Silmariën, wife of Elatan
 
 	 				
 	trait = beauty_good_3				
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	1113.1.1 = {				
@@ -1053,7 +1053,7 @@ lineofelros30 = { # Tindómiel, daughter of Elros
 	trait = beauty_good_3
 	trait = intellect_good_1
 
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_10
 	662.1.1 = {
@@ -1077,7 +1077,7 @@ lineofelros31 = { # Manwendil, son of Elros
 	trait = intellect_good_2
 	trait = beauty_good_1
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	665.1.1 = {
 		birth = yes
@@ -1098,7 +1098,7 @@ lineofelros32 = {
 	
 	trait = chaste
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	803.1.1 = {
 		birth = yes
@@ -1118,7 +1118,7 @@ lineofelros33 = {
 	trait = intellect_good_1
 	trait = beauty_good_1			
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	923.1.1 = {				
 		birth = yes			
@@ -1140,7 +1140,7 @@ lineofelros34 = {
 	
 	trait = intellect_good_2
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	997.1.1 = {				
 		birth = yes			
@@ -1160,7 +1160,7 @@ lineofelros35 = {
 
 	trait = intellect_good_1				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1175.1.1 = {				
 		birth = yes			
@@ -1180,7 +1180,7 @@ lineofelros36 = {
 
 	trait = intellect_good_1			
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1289.1.1 = {				
 		birth = yes			
@@ -1200,7 +1200,7 @@ lineofelros37 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1422.1.1 = {				
 		birth = yes			
@@ -1220,7 +1220,7 @@ lineofelros38 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1534.1.1 = {
 		birth = yes
@@ -1239,7 +1239,7 @@ lineofelros39 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1673.1.1 = {				
 		birth = yes			
@@ -1259,7 +1259,7 @@ lineofelros40 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1802.1.1 = {				
 		birth = yes			
@@ -1279,7 +1279,7 @@ lineofelros41 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1866.1.1 = {
 		birth = yes
@@ -1298,7 +1298,7 @@ lineofelros42 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2000.1.1 = {				
 		birth = yes			
@@ -1318,7 +1318,7 @@ lineofelros43 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2175.1.1 = {				
 		birth = yes			
@@ -1339,7 +1339,7 @@ lineofelros43son = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2331.1.1 = {				
 		birth = yes			
@@ -1360,7 +1360,7 @@ lineofelros43grandson = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2501.1.1 = {				
 		birth = yes			
@@ -1384,7 +1384,7 @@ lineofelros44 = { # Atanalcar, son of Elros
 	trait = beauty_good_2
 	trait = intellect_good_2
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	687.1.1 = {
 		birth = yes
@@ -1404,7 +1404,7 @@ lineofelros45 = {
 	trait = beauty_good_2
 	trait = intellect_good_1
 	 				
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	807.1.1 = {				
 		birth = yes			
@@ -1424,7 +1424,7 @@ lineofelros46 = {
 
 	trait = beauty_good_1			
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	920.1.1 = {				
 		birth = yes			
@@ -1444,7 +1444,7 @@ lineofelros47 = {
 
 	trait = beauty_good_1			
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1045.1.1 = {				
 		birth = yes			
@@ -1464,7 +1464,7 @@ lineofelros48 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1142.1.1 = {				
 		birth = yes	
@@ -1484,7 +1484,7 @@ lineofelros49 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1253.1.1 = {				
 		birth = yes	
@@ -1504,7 +1504,7 @@ lineofelros50 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1363.1.1 = {				
 		birth = yes			
@@ -1529,7 +1529,7 @@ lineofelros51 = { # Vardilmë, daughter of Tar-Vardamir
 	trait = beauty_good_2	
 	trait = intellect_good_1			
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	795.1.1 = {
 		birth = yes
@@ -1549,7 +1549,7 @@ lineofelros64 = { # Aulendil, son of Tar-Vardamir NEED SONS! (until at least the
 	trait = intellect_good_1
 	trait = beauty_good_1		
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	805.1.1 = {
 		birth = yes
@@ -1571,7 +1571,7 @@ lineofelros52 = { # Nolondil, son of Tar-Vardamir
 	trait = intellect_good_3
 	trait = beauty_good_1			
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	814.1.1 = {
 		birth = yes
@@ -1593,7 +1593,7 @@ lineofelros53 = {
 	trait = intellect_good_1				
 	trait = beauty_good_2				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	963.1.1 = {
 		birth = yes
@@ -1612,7 +1612,7 @@ lineofelros54 = {
 
 	trait = intellect_good_2			
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	974.1.1 = {				
 		birth = yes			
@@ -1634,7 +1634,7 @@ lineofelros55 = {
 
 	trait = intellect_good_1				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1102.1.1 = {
 		birth = yes
@@ -1654,7 +1654,7 @@ lineofelros56 = {
 	trait = intellect_good_1
 	trait = beauty_good_1	
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	987.1.1 = {
 		birth = yes
@@ -1675,7 +1675,7 @@ lineofelros57 = {
 
 	trait = intellect_good_1			
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1143.1.1 = {				
 		birth = yes			
@@ -1693,7 +1693,7 @@ lineofelros58 = { # NEEDS SONS
 
 	father = lineofelros56					
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1154.1.1 = {
 		birth = yes
@@ -1713,7 +1713,7 @@ lineofelros59 = {
 	trait = beauty_good_1
 	trait = intellect_good_1			
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1167.1.1 = {
 		birth = yes
@@ -1732,7 +1732,7 @@ lineofelros60 = {
 
 	father = lineofelros59				
 
-	trait = born_on_numenor	 				
+		 				
 	trait = beauty_good_2
 	trait = intellect_good_1				
 
@@ -1756,7 +1756,7 @@ lineofelros61 = { # Hallatan of Hyarastorni
 
 	trait = beauty_good_1
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	
 	trait = content
@@ -1793,7 +1793,7 @@ lineofelros62 = { # NEEDS HUSBAND
 
 	father = lineofelros61				
 
-	trait = born_on_numenor	 				
+		 				
 	trait = beauty_good_1				
 
 
@@ -1817,7 +1817,7 @@ ciryandurmom = {
 	 				
 	trait = beauty_good_2				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1532.1.1 = {
 		birth = yes
@@ -1843,7 +1843,7 @@ lineofelros63 = {
 	trait = humble
 	trait = gregarious
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1444.1.1 = {
 		birth = yes
@@ -1874,7 +1874,7 @@ lineofelros65 = { # Eärendur, son of Tar-Amandil
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	953.1.1 = {				
 		birth = yes			
@@ -1894,7 +1894,7 @@ lineofelros66 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1221.1.1 = {				
 		birth = yes			
@@ -1914,7 +1914,7 @@ lineofelros67 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1262.1.1 = {
 		birth = yes
@@ -1937,7 +1937,7 @@ lineofelros68 = { # Mairen, daughter of Tar-Amandil
 	 				
 	trait = beauty_good_2				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	969.1.1 = {
 		birth = yes
@@ -1956,7 +1956,7 @@ lineofelros69 = { # Isilmë, daughter of Tar-Elendil
 
 	father = lineofelros4				
 
-	trait = born_on_numenor	 				
+		 				
 	trait = beauty_good_3				
 
 
@@ -1981,7 +1981,7 @@ lineofelros70 = { # Ailinel, daughter of Tar-Meneldur
 	father = lineofelros5
 	mother = lineveantur2
 
-	trait = born_on_numenor	 				
+		 				
 	trait = beauty_good_2			
 
 	trait = blood_of_numenor_10
@@ -2006,7 +2006,7 @@ lineofelros71 = {
 	 				
 	trait = education_learning_4				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1298.1.1 = {				
 		birth = yes			
@@ -2029,7 +2029,7 @@ lineofelros72 = { # Hatholdir, descendant of the House of Hador
 									
 	trait = education_learning_4				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1130.1.1 = {
 		birth = yes
@@ -2047,7 +2047,7 @@ lineofelros73 = {
 	father = lineofelros71				
 	mother = lineofelros70				
 
-	trait = born_on_numenor	 				
+		 				
 	trait = physique_good_3				
 
 
@@ -2072,7 +2072,7 @@ lineofelros74 = { # Almiel, daughter of Tar-Meneldur
 	father = lineofelros5	
 	mother = lineveantur2
 
-	trait = born_on_numenor	 				
+		 				
 	trait = beauty_good_2				
 
 
@@ -2095,7 +2095,7 @@ lineofelros75 = { # Daughter of Tar-Anárion
 
 	father = lineofelros8				
 
-	trait = born_on_numenor	 				
+		 				
 	trait = beauty_good_2				
 
 
@@ -2117,7 +2117,7 @@ lineofelros76 = { # Daughter of Tar-Anárion
 
 	father = lineofelros8				
 
-	trait = born_on_numenor	 				
+		 				
 	trait = beauty_good_2				
 
 
@@ -2137,7 +2137,6 @@ lineofelros80 = { # Gimilzagar, son of Tar-Calmacil
 
 	father = lineofelros19				
 
-	trait = born_on_numenor
 	trait = blood_of_numenor_10
 	3222.1.1 = {
 		birth = yes
@@ -2165,7 +2164,7 @@ lineofvardur1 = { # Vardur, second son of Tar Atanamir and First Governor of the
 	trait = unyielding_defender
 	trait = lifestyle_mariner
 	
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2601.1.1 = { # S.A. 2,009
 		birth = yes			
@@ -2189,7 +2188,7 @@ lineofvardur2 = {
 	trait = lifestyle_mariner
 	trait = unyielding_defender
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2700.1.1 = {
 		birth = yes		
@@ -2211,7 +2210,7 @@ lineofelros77 = { # Vardur's second son - survived the assault on Umbar, but is 
 	trait = education_diplomacy_2
 	trait = lifestyle_mariner
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2703.12.2 = {
 		birth = yes		
@@ -2236,7 +2235,7 @@ lineofvardur3 = { # Daughter of Vardur - survived the assault on Umbar, but is t
 	trait = beauty_good_2
 	trait = chaste	
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2705.4.18 = {
 		birth = yes			
@@ -2256,7 +2255,7 @@ lineofelros78 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2788.1.1 = {
 		birth = yes
@@ -2275,7 +2274,7 @@ lineofelros79 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2878.1.1 = {
 		birth = yes
@@ -2296,7 +2295,7 @@ lineofelros78a1 = { # We can remove him, originally he was supposed to be Minalk
 
 	father = lineofelros78			
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2883.4.19 = {
 		birth = yes
@@ -2315,7 +2314,7 @@ lineofelros18a1 = {
 
 	father = lineofelros18	
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	3120.6.11 = {
 		birth = yes
@@ -2339,7 +2338,7 @@ lineofelros20a1 = {
 	trait = greedy				
 	trait = stubborn				
 	trait = ambitious				
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_9
 	3311.4.19 = {
@@ -2363,7 +2362,7 @@ lineofelros20a2 = {
 	trait = deceitful				
 	trait = stubborn				
 	trait = compassionate				
-	trait = born_on_numenor
+	
 
 	trait = blood_of_numenor_8
 	3401.2.11 = {
@@ -2383,7 +2382,7 @@ minastirdaughter = { # Daughter of Minastir
 	culture = numenorean
 	
 	trait = blood_of_numenor_10
-	trait = born_on_numenor
+	
 	
 	father = lineofelros12
 	
@@ -2410,7 +2409,7 @@ lineofelatan1 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1116.1.1 = {				
 		birth = yes			
@@ -2434,7 +2433,7 @@ lineofelatan2 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1222.1.1 = {
 		birth = yes
@@ -2453,7 +2452,7 @@ lineofelatan3 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1375.1.1 = {
 		birth = yes
@@ -2472,7 +2471,7 @@ lineofelatan4 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1524.1.1 = {				
 		birth = yes			
@@ -2492,7 +2491,7 @@ lineofelatan5 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1687.1.1 = {
 		birth = yes
@@ -2511,7 +2510,7 @@ lineofelatan6 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	1895.1.1 = {
 		birth = yes
@@ -2530,7 +2529,7 @@ lineofelatan7 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2040.1.1 = {
 		birth = yes
@@ -2549,7 +2548,7 @@ lineofelatan8 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2314.1.1 = {				
 		birth = yes			
@@ -2569,7 +2568,7 @@ lineofelatan9 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2484.1.1 = {				
 		birth = yes			
@@ -2589,7 +2588,7 @@ lineofelatan10 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2542.1.1 = {				
 		birth = yes			
@@ -2609,7 +2608,7 @@ lineofelatan11 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2702.1.1 = {				
 		birth = yes			
@@ -2636,7 +2635,7 @@ lineofelatan10a1 = {
     trait = forgiving
 
     trait = blood_of_numenor_10
-	trait = born_on_numenor
+	
 
     diplomacy = 9
     martial = 3
@@ -2669,7 +2668,7 @@ lineofelatan12 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2860.1.1 = {				
 		birth = yes			
@@ -2689,7 +2688,7 @@ lineofelatan13 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	2992.1.1 = {				
 		birth = yes			
@@ -2709,7 +2708,7 @@ lineofelatan14 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	3102.1.1 = {				
 		birth = yes			
@@ -2732,7 +2731,7 @@ lineofelatan15 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	3212.1.1 = {				
 		birth = yes			
@@ -2752,7 +2751,7 @@ lineofelatan16 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	3312.1.1 = {				
 		birth = yes			
@@ -2772,7 +2771,7 @@ lineofelatan17 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	3385.1.1 = {
 		birth = yes
@@ -2791,7 +2790,7 @@ lineofelatan18 = {
 
 	 				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	3472.1.1 = {				
 		birth = yes			
@@ -2815,7 +2814,7 @@ lineofelatan19 = {
 	trait = honest				
 	trait = just				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	3621.1.1 = {				
 		birth = yes	
@@ -2843,7 +2842,7 @@ lineofelatan20 = { # Lindórië, mother of Inzilbeth the wife of Ar-Gimilzôr
 	trait = humble				
 	trait = chaste				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 	3331.1.1 = {
 		birth = yes
@@ -2870,7 +2869,7 @@ lineofelatan21 = {
 	trait = patient				
 	trait = just				
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_9
 	3560.1.1 = {				
 		birth = yes	
@@ -2895,7 +2894,7 @@ ciryamirdad = {
 	culture = numenorean
 	
 	trait = blood_of_numenor_10
-	trait = born_on_numenor
+	
 	
 	2195.1.1 = {
 		birth = yes
@@ -2918,7 +2917,7 @@ lineofciryamir1 = {
 
 	trait = intellect_good_2				
 	trait = blood_of_numenor_10
-	trait = born_on_numenor
+	
 	
 	2321.1.1 = {				
 		birth = yes	
@@ -2943,7 +2942,7 @@ lineofciryamir2 = {
 
 	trait = beauty_good_2				
 	trait = blood_of_numenor_10
-	trait = born_on_numenor
+	
 	
 	2332.1.1 = {				
 		birth = yes	
@@ -2971,7 +2970,7 @@ lineofciryamir3 = {
 	trait = compassionate				
 	trait = humble				
 	trait = blood_of_numenor_10
-	trait = born_on_numenor
+	
 	
 	2491.1.1 = {				
 		birth = yes	
@@ -2997,7 +2996,7 @@ lineofciryamir4 = {
 	trait = vengeful				
 	trait = patient
 	trait = blood_of_numenor_10
-	trait = born_on_numenor
+	
 	
 	2543.1.1 = {
 		birth = yes
@@ -3024,7 +3023,7 @@ lineofciryamir5 = {
 	trait = compassionate				
 	trait = paranoid				
 	trait = blood_of_numenor_10
-	trait = born_on_numenor
+	
 	
 	2552.1.1 = {
 		birth = yes
@@ -3049,7 +3048,7 @@ lineofciryamir6 = {
 	trait = just				
 	trait = patient				
 	trait = blood_of_numenor_10
-	trait = born_on_numenor
+	
 	
 	2558.1.1 = {				
 		birth = yes			
@@ -9149,7 +9148,7 @@ lineezirkhon2 = {
 	
 	trait = education_intrigue_3
 	trait = blood_of_numenor_7
-	trait = born_on_numenor
+	
 
     3686.12.6 = {
         birth = yes
@@ -9176,7 +9175,7 @@ lineezirkhon2wife = {
 	
 	trait = education_stewardship_2
 	trait = blood_of_numenor_6
-	trait = born_on_numenor
+	
 
     3705.6.12 = {
         birth = yes
@@ -9203,7 +9202,7 @@ lineezirkhon3 = {
 	trait = education_diplomacy_3
 	trait = lifestyle_reveler
 	trait = blood_of_numenor_6
-	trait = born_on_numenor
+	
 
     3768.11.5 = {
         birth = yes
@@ -9231,7 +9230,7 @@ lineezirkhon3wife = {
 	trait = education_intrigue_1
 	trait = beauty_good_1
 	trait = blood_of_numenor_6
-	trait = born_on_numenor
+	
 
     3793.1.22 = {
         birth = yes
@@ -9255,7 +9254,7 @@ lineezirkhon4 = {
 	trait = impatient
 	
 	trait = blood_of_numenor_5
-	trait = born_on_numenor
+	
 
     3896.11.5 = {
         birth = yes
@@ -9282,7 +9281,7 @@ lineezirkhon5 = {
 	
 	trait = education_stewardship_2
 	trait = blood_of_numenor_6
-	trait = born_on_numenor
+	
 
     3775.3.26 = {
         birth = yes
@@ -9312,7 +9311,7 @@ lineezirkhon6 = { # Kibilun 'the Stranded', Numenorean Naval Officer in the Down
 	
 	trait = education_martial_3
 	trait = blood_of_numenor_6
-	trait = born_on_numenor
+	
 
     3782.2.3 = {
         birth = yes
@@ -9354,7 +9353,7 @@ lineezirkhon6wife = {
 	
 	trait = education_diplomacy_2
 	trait = blood_of_numenor_6
-	trait = born_on_numenor
+	
 
     3806.12.26 = {
         birth = yes
@@ -9379,7 +9378,7 @@ lineezirkhon7 = {
     trait = content
 	
 	trait = blood_of_numenor_6
-	trait = born_on_numenor
+	
 
     3896.3.26 = {
         birth = yes
@@ -9458,7 +9457,7 @@ lineofsealord4daughter = { # Can move if this doesn't work
 
 	father = lineofsealord4
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_9
 
 	3303.9.14 = {				
@@ -13647,7 +13646,7 @@ barazon1 = {
 	religion = faith_kings_men_numenorean
 	culture = black_numenorean
 	
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_7
 
 	3542.1.1 = {
@@ -14045,7 +14044,7 @@ lineofbeleth1 = {
 	trait = gregarious
 	trait = compassionate
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 
 	1300.9.21 = {				
@@ -14080,7 +14079,7 @@ lineofbeleth2 = {
 	trait = temperate
 	trait = compassionate
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 
 	1318.5.15 = {				
@@ -14125,7 +14124,7 @@ lineofbeleth3 = {
 
 	trait = beauty_good_2	
 
-	trait = born_on_numenor
+	
 	trait = blood_of_numenor_10
 
 	1369.5.15 = {			
