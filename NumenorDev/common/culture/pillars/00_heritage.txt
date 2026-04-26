@@ -32,9 +32,9 @@ heritage_ainur = {
 	character_modifier  = {
 		stress_gain_mult = -2
 		monthly_lifestyle_xp_gain_mult = -0.75
-		monthly_prestige_gain_mult = -0.3
-		monthly_piety_gain_mult = -0.3
-		rf_forcesofevil_opinion = -500
+		#monthly_prestige_gain_mult = -0.3
+		#monthly_piety_gain_mult = -0.3
+		# rf_forcesofevil_opinion = -500
 		halls_advantage = -10 
 	}
 	is_shown = {
@@ -55,9 +55,9 @@ heritage_fallen_ainur = {
 	character_modifier  = {
 		stress_gain_mult = -2
 		monthly_lifestyle_xp_gain_mult = -0.75
-		monthly_prestige_gain_mult = -0.3
-		monthly_piety_gain_mult = -0.3
-		rf_eruhini_opinion = -500
+		#monthly_prestige_gain_mult = -0.3
+		#monthly_piety_gain_mult = -0.3
+		# rf_eruhini_opinion = -500
 		halls_advantage = -10 
 	}
 	is_shown = {
@@ -93,7 +93,7 @@ heritage_mordorrim = {
 	}
 	character_modifier  = {
 		halls_advantage = -10
-		rf_eruhini_opinion = -500
+		# rf_eruhini_opinion = -500
 	}
 	is_shown = {
 		heritage_is_shown_trigger = {
@@ -311,12 +311,12 @@ heritage_quendi = {
 	}
 	character_modifier = {
 		life_expectancy = 28000
-		fertility = -10
+		years_of_fertility = 13000
 		attraction_opinion = 20
 		negate_health_penalty_add = 10
 		health = 10
 		epidemic_resistance = 100
-		stress_gain_mult = -0.5
+		# stress_gain_mult = -0.5
 		diplomatic_range_mult = 0.5
 		levy_size = -0.5
 		monthly_lifestyle_xp_gain_mult = -0.75
@@ -326,10 +326,11 @@ heritage_quendi = {
 		prowess = 3
 		levy_reinforcement_rate = -0.5
 		cultural_head_fascination_mult = -0.5
-		rf_forcesofevil_opinion = -500
+		# rf_forcesofevil_opinion = -500
 		halls_advantage = -10
 		levy_attack = 10
-		levy_toughness = 10 
+		levy_toughness = 10
+		enemy_hostile_scheme_success_chance_max_add = -70
 	}
 	culture_modifier = {
 		mercenary_count_mult = -10
@@ -351,12 +352,12 @@ heritage_calaquendi = {
 	}
 	character_modifier = {
 		life_expectancy = 28000
-		fertility = -10
+		years_of_fertility = 13000
 		attraction_opinion = 20
 		negate_health_penalty_add = 10
 		health = 10
 		epidemic_resistance = 100
-		stress_gain_mult = -0.5
+		# stress_gain_mult = -0.5
 		diplomatic_range_mult = 0.5
 		levy_size = -0.8
 		monthly_lifestyle_xp_gain_mult = -0.75
@@ -370,10 +371,11 @@ heritage_calaquendi = {
 		forest_travel_danger = forest_low_danger_reduction
 		mallorn_forest_travel_danger = mallorn_forest_low_danger_reduction
 		character_travel_speed_mult = 1.5
-		rf_forcesofevil_opinion = -500
+		# rf_forcesofevil_opinion = -500
 		halls_advantage = -10
 		levy_attack = 10
-		levy_toughness = 10 
+		levy_toughness = 10
+		enemy_hostile_scheme_success_chance_max_add = -70
 	}
 	culture_modifier = {
 		mercenary_count_mult = -10
@@ -395,12 +397,12 @@ heritage_lomiquendi = {
 	}
 	character_modifier = {
 		life_expectancy = 28000
-		fertility = -10
+		years_of_fertility = 13000
 		attraction_opinion = 20
 		negate_health_penalty_add = 10
 		health = 10
 		epidemic_resistance = 100
-		stress_gain_mult = -0.5
+		# stress_gain_mult = -0.5
 		diplomatic_range_mult = 0.5
 		levy_size = -0.6
 		monthly_lifestyle_xp_gain_mult = -0.75
@@ -414,10 +416,11 @@ heritage_lomiquendi = {
 		forest_travel_danger = forest_high_danger_reduction
 		mallorn_forest_travel_danger = mallorn_forest_high_danger_reduction
 		character_travel_speed_mult = 1.5
-		rf_forcesofevil_opinion = -500
+		# rf_forcesofevil_opinion = -500
 		halls_advantage = -10
 		levy_attack = 10
-		levy_toughness = 10 
+		levy_toughness = 10
+		enemy_hostile_scheme_success_chance_max_add = -70
 	}
 	culture_modifier = {
 		mercenary_count_mult = -10
@@ -439,12 +442,12 @@ heritage_moriquendi = {
 	}
 	character_modifier = {
 		life_expectancy = 28000
-		fertility = -10
+		years_of_fertility = 13000
 		attraction_opinion = 20
 		negate_health_penalty_add = 10
 		health = 10
 		epidemic_resistance = 100
-		stress_gain_mult = -0.5
+		# stress_gain_mult = -0.5
 		diplomatic_range_mult = 0.5
 		levy_size = -0.5
 		monthly_lifestyle_xp_gain_mult = -0.75
@@ -458,10 +461,11 @@ heritage_moriquendi = {
 		forest_travel_danger = forest_high_danger_reduction
 		mallorn_forest_travel_danger = mallorn_forest_high_danger_reduction
 		character_travel_speed_mult = 1.5
-		rf_forcesofevil_opinion = -500
+		# rf_forcesofevil_opinion = -500
 		halls_advantage = -10
 		levy_attack = 10
-		levy_toughness = 10 
+		levy_toughness = 10
+		enemy_hostile_scheme_success_chance_max_add = -70
 	}
 	culture_modifier = {
 		mercenary_count_mult = -10
@@ -474,7 +478,7 @@ heritage_moriquendi = {
 	audio_parameter = european
 }
 
-heritage_hadorim = {
+heritage_eotheod = {
 	type = heritage
 	parameters = {
 		heritage_group_northmen = yes
@@ -486,7 +490,7 @@ heritage_hadorim = {
 	}
 	is_shown = {
 		heritage_is_shown_trigger = {
-			HERITAGE = heritage_hadorim
+			HERITAGE = heritage_eotheod
 		}
 	}
 	audio_parameter = european
@@ -582,8 +586,6 @@ heritage_thani_native = {
 	audio_parameter = mena
 }
 
-### START OF WIP BAY OF ORMAL APYSAIC HERITAGES ###
-
 heritage_elinse = {
 	type = heritage
 	parameters = {
@@ -605,7 +607,7 @@ heritage_elinse = {
 heritage_harshandatt = {
 	type = heritage
 	parameters = {
-		heritage_group_apysaic = yes
+		heritage_group_muranian = yes
 		heritage_family_haradrim = yes
 		is_human_heritage = yes
 	}
@@ -623,7 +625,7 @@ heritage_harshandatt = {
 heritage_old_sirayni = {
 	type = heritage
 	parameters = {
-		heritage_group_apysaic = yes
+		heritage_group_muranian = yes
 		heritage_family_haradrim = yes
 		is_human_heritage = yes
 	}
@@ -656,12 +658,12 @@ heritage_new_sirayni = {
 	audio_parameter = mena
 }
 
-### END OF WIP BAY OF ORMAL HERITAGES ###
 
+# Talathrim Heritages 
 heritage_ioriag = {
 	type = heritage
 	parameters = {
-		heritage_group_talataerim = yes
+		heritage_group_talathrim = yes
 		heritage_family_easterling = yes
 		is_human_heritage = yes
 	}
@@ -676,10 +678,28 @@ heritage_ioriag = {
 	audio_parameter = mena
 }
 
+heritage_tedjin = {
+	type = heritage
+	parameters = {
+		heritage_group_talathrim = yes
+		heritage_family_easterling = yes
+		is_human_heritage = yes
+	}
+	character_modifier  = {
+		halls_advantage = -10
+	}
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_tedjin
+		}
+	}
+	audio_parameter = mena
+}
+
 heritage_igath = {
 	type = heritage
 	parameters = {
-		heritage_group_talataerim = yes
+		heritage_group_talathrim = yes
 		heritage_family_easterling = yes
 		is_human_heritage = yes
 	}
@@ -694,7 +714,8 @@ heritage_igath = {
 	audio_parameter = mena
 }
 
-heritage_nafarati = {
+# Mumakani Heritages 
+heritage_mumakani = {
 	type = heritage
 	parameters = {
 		heritage_group_mumakani = yes
@@ -706,7 +727,25 @@ heritage_nafarati = {
 	}
 	is_shown = {
 		heritage_is_shown_trigger = {
-			HERITAGE = heritage_nafarati
+			HERITAGE = heritage_mumakani
+		}
+	}
+	audio_parameter = mena
+}
+
+heritage_geshan = {
+	type = heritage
+	parameters = {
+		heritage_group_mumakani = yes
+		heritage_family_haradrim = yes
+		is_human_heritage = yes
+	}
+	character_modifier  = {
+		halls_advantage = -10
+	}
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_geshan
 		}
 	}
 	audio_parameter = mena
@@ -730,6 +769,24 @@ heritage_kirani = {
 	audio_parameter = mena
 }
 
+heritage_hathorim = {
+	type = heritage
+	parameters = {
+		heritage_group_mumakani = yes
+		heritage_family_haradrim = yes
+		is_human_heritage = yes
+	}
+	character_modifier  = {
+		halls_advantage = -10
+	}
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_hathorim
+		}
+	}
+	audio_parameter = mena
+}
+
 heritage_magri = {
 	type = heritage
 	parameters = {
@@ -748,7 +805,6 @@ heritage_magri = {
 	audio_parameter = mena
 }
 
-### START OF WIP BAY OF ORMAL MUMAKANI HERITAGES ###
 heritage_shayn = {
 	type = heritage
 	parameters = {
@@ -766,13 +822,12 @@ heritage_shayn = {
 	}
 	audio_parameter = mena
 }
-### END OF WIP BAY OF ORMAL MUMAKANI HERITAGES ###
 
-heritage_northern_adunaic = {
+heritage_sare = {
 	type = heritage
 	parameters = {
-		heritage_group_numenorean = yes
-		heritage_family_edain = yes
+		heritage_group_mumakani = yes
+		heritage_family_haradrim = yes
 		is_human_heritage = yes
 	}
 	character_modifier  = {
@@ -780,12 +835,13 @@ heritage_northern_adunaic = {
 	}
 	is_shown = {
 		heritage_is_shown_trigger = {
-			HERITAGE = heritage_northern_adunaic
+			HERITAGE = heritage_sare
 		}
 	}
-	audio_parameter = european
+	audio_parameter = mena
 }
 
+# Orcish Heritages
 heritage_orc = {
 	type = heritage
 	parameters = {
@@ -796,26 +852,27 @@ heritage_orc = {
 	character_modifier = {
 		life_expectancy = 120
 		years_of_fertility = 80
-		fertility = 0.5
 		monthly_lifestyle_xp_gain_mult = -0.25
-		#negate_health_penalty_add = -0.5 #Juke note: Once we rework orcs, make them prone to disease
-		#epidemic_resistance = -10
-		#epidemic_travel_danger = 10
+		negate_health_penalty_add = -0.5 #Juke note: Once we rework orcs, make them prone to disease
+		epidemic_resistance = -10
+		epidemic_travel_danger = 10
 		
 		volcanic_plains_travel_danger = volcanic_plains_high_danger_reduction
 		halls_travel_danger = halls_high_danger_reduction
 		mountains_travel_danger = mountains_medium_danger_reduction
 		hills_travel_danger = hills_medium_danger_reduction
+
+		halls_supply_limit_mult = 0.5
 		
-		general_opinion = -35	#-25 from heritage + -10 from Orcish Society
-		rf_eruhini_opinion = -500
+		# general_opinion = -35	#-25 from heritage + -10 from Orcish Society #Handled via custom government
+		# rf_eruhini_opinion = -500
 		
 		#Moved from Orcish Society
 		monthly_county_control_decline_factor = -0.2
-		vassal_opinion = -30 # An Orc Overlord can never rest easy
+		# vassal_opinion = -30 # An Orc Overlord can never rest easy #Handled via custom government
 		#general_opinion = -10 
 		
-		ai_honor = -40 # Orcs are not an honorable lot!
+		ai_honor = -80 # Orcs are not an honorable lot!
 		ai_war_chance = 1
 		ai_war_cooldown = -0.25
 		levy_size = 0.4 #0.15 from Orcish Society + 0.25 from Strength in Numbers
@@ -858,24 +915,26 @@ heritage_goblin = { #juke note: boni should be adjusted later
 		years_of_fertility = 80
 		fertility = 0.5
 		monthly_lifestyle_xp_gain_mult = -0.25
-		#negate_health_penalty_add = -0.5 #Juke note: Once we rework orcs, make them prone to disease
-		#epidemic_resistance = -10
-		#epidemic_travel_danger = 10
+		negate_health_penalty_add = -0.5 #Juke note: Once we rework orcs, make them prone to disease
+		epidemic_resistance = -10
+		epidemic_travel_danger = 10
 		
 		volcanic_plains_travel_danger = volcanic_plains_high_danger_reduction
 		halls_travel_danger = halls_high_danger_reduction
 		mountains_travel_danger = mountains_medium_danger_reduction
 		hills_travel_danger = hills_medium_danger_reduction
 		
-		general_opinion = -35	#-25 from heritage + -10 from Orcish Society
-		rf_eruhini_opinion = -500
+		halls_supply_limit_mult = 0.5
+
+		# general_opinion = -35	#-25 from heritage + -10 from Orcish Society #Handled via custom government
+		# rf_eruhini_opinion = -500
 		
 		#Moved from Orcish Society
 		monthly_county_control_decline_factor = -0.2
-		vassal_opinion = -30 # An Orc Overlord can never rest easy
+		# vassal_opinion = -30 # An Orc Overlord can never rest easy #Handled via custom government
 		#general_opinion = -10 
 		
-		ai_honor = -40 # Orcs are not an honorable lot!
+		ai_honor = -80 # Orcs are not an honorable lot!
 		ai_war_chance = 1
 		ai_war_cooldown = -0.25
 		levy_size = 0.4 #0.15 from Orcish Society + 0.25 from Strength in Numbers
@@ -905,6 +964,54 @@ heritage_goblin = { #juke note: boni should be adjusted later
 	audio_parameter = european
 }
 
+heritage_troll = {
+	type = heritage
+	parameters = {
+		heritage_family_creatures_of_morgoth = yes
+		is_orc_heritage = yes
+	}
+	character_modifier = {
+		fertility = 0.3
+		health = 1
+		
+		volcanic_plains_travel_danger = volcanic_plains_high_danger_reduction
+		halls_travel_danger = halls_high_danger_reduction
+		mountains_travel_danger = mountains_medium_danger_reduction
+		hills_travel_danger = hills_medium_danger_reduction
+		
+		general_opinion = -30
+		# rf_eruhini_opinion = -500
+	}
+	culture_modifier = {
+		mercenary_count_mult = -10
+	}
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_troll
+		}
+	}
+	audio_parameter = european
+}
+
+
+# Adunaic Heritages 
+heritage_northern_adunaic = {
+	type = heritage
+	parameters = {
+		heritage_group_numenorean = yes
+		heritage_family_edain = yes
+		is_human_heritage = yes
+	}
+	character_modifier  = {
+		halls_advantage = -10
+	}
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_northern_adunaic
+		}
+	}
+	audio_parameter = european
+}
 heritage_southern_adunaic = {
 	type = heritage
 	parameters = {
@@ -939,52 +1046,6 @@ heritage_eastern_adunaic = {
 	}
 	audio_parameter = european
 }
-heritage_troll = {
-	type = heritage
-	parameters = {
-		heritage_family_creatures_of_morgoth = yes
-		is_orc_heritage = yes
-	}
-	character_modifier = {
-		fertility = 0.3
-		health = 1
-		
-		volcanic_plains_travel_danger = volcanic_plains_high_danger_reduction
-		halls_travel_danger = halls_high_danger_reduction
-		mountains_travel_danger = mountains_medium_danger_reduction
-		hills_travel_danger = hills_medium_danger_reduction
-		
-		general_opinion = -30
-		rf_eruhini_opinion = -500
-	}
-	culture_modifier = {
-		mercenary_count_mult = -10
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_troll
-		}
-	}
-	audio_parameter = european
-}
-
-heritage_tedjin = {
-	type = heritage
-	parameters = {
-		heritage_group_talataerim = yes
-		heritage_family_easterling = yes
-		is_human_heritage = yes
-	}
-	character_modifier  = {
-		halls_advantage = -10
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_tedjin
-		}
-	}
-	audio_parameter = mena
-}
 
 heritage_tulwangi = {
 	type = heritage
@@ -1013,7 +1074,7 @@ heritage_undead = {
 	character_modifier  = {
 		stress_gain_mult = -2
 		monthly_lifestyle_xp_gain_mult = -0.75
-		rf_eruhini_opinion = -100 
+		# rf_eruhini_opinion = -100 
 	}
 	is_shown = {
 		heritage_is_shown_trigger = {
@@ -1032,6 +1093,7 @@ heritage_wastelands = {
 		attraction_opinion = 1000
 		general_opinion = 1000
 		epidemic_resistance = 40
+		diplomatic_range_mult = -10
 	}
 	is_shown = {
 		heritage_is_shown_trigger = {
@@ -1348,10 +1410,10 @@ heritage_stonefoot = {
 	audio_parameter = european
 }
 
-heritage_north_khailuza = { # Chey-Sart (alternatively: Khey Sârt in southern Khailuzan)
+heritage_north_khailuza = { # Chey-Sart (alternatively: Khey Sart in southern Khailuzan)
 	type = heritage
 	parameters = {
-		heritage_group_talataerim = yes
+		heritage_group_talathrim = yes
 		heritage_family_easterling = yes
 		is_human_heritage = yes
 	}
@@ -1369,7 +1431,7 @@ heritage_north_khailuza = { # Chey-Sart (alternatively: Khey Sârt in southern K
 heritage_south_khailuza = { # Bay of Ormal, encompassing Khy, Anarike, and some cultures of Sirayn
 	type = heritage
 	parameters = {
-		heritage_group_talataerim = yes
+		heritage_group_talathrim = yes
 		heritage_family_easterling = yes
 		is_human_heritage = yes
 	}
