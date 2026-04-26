@@ -1,4 +1,142 @@
-﻿# THE KINGDOM OF NUMENOR		
+﻿# THE KINGDOM OF NUMENOR
+
+h_numenor = {			
+	2465.1.1 = { # The Numenoreans begin to exert dominion over the shores of Middle-earth
+		holder = lineofelros13 # Ciryatan 
+	}	
+	2627.1.1 = {	
+		holder = lineofelros14 # Atanamir 
+	}	
+	2813.1.1 = {	
+		holder = lineofelros15 # Ancalimon 
+	}	
+	2978.1.1 = {	
+		holder = lineofelros16 # Telemmaitë 
+	}	
+	3118.1.1 = {	
+		holder = lineofelros17 # Vanimeldë 
+	}	
+	3229.1.1 = {	
+		holder = lineofelros18 # Alcarin 
+	}	
+	3329.1.1 = {	
+		holder = lineofelros19 # Calmacil 
+	}	
+	3417.1.1 = {	
+		holder = lineofelros20 # Ardamin 
+	}	
+	3491.1.1 = {	
+		holder = lineofelros21 # Adûnakhôr 
+	}	
+	3554.1.1 = {	
+		holder = lineofelros22 # Zimrathôn 
+	}	
+	3625.1.1 = {	
+		holder = lineofelros23 # Sakalthôr 
+	}	
+	3694.1.1 = {	
+		holder = lineofelros24 # Gimilzôr
+	}	
+	3769.1.1 = {	
+		holder = lineofelros25 # Palantir 
+	}	
+	3847.1.1 = {	
+		holder = lineofelros28 # Pharazôn 
+	}	
+	3911.1.1 = {	
+		holder = 0 # Destruction of Numenor 
+	}
+	3912.5.3 = {
+		holder = lineofelros26 # Miriel
+	}
+	4002.1.1 = {
+		holder = lineofelros88 # Cemendur
+	}
+	4123.1.1 = {
+		holder = lineofelros89 # Hallatan
+	}
+	4149.1.1 = {
+		holder = lineofelros90 # Aldarion II
+	}
+	4202.1.1 = {
+		holder = lineofelros91 # Azrubêl
+	}
+	4338.1.1 = {
+		holder = lineofelros92 # Karbazîr
+	}
+	4449.1.1 = {
+		holder = lineofelros93 # Balkumagân II
+	}
+	4601.1.1 = {
+		holder = lineofelros94 # Minluzîr
+	}
+	4652.1.1 = {
+		holder = lineofelros95 # Anardil
+	}
+	4815.1.1 = {
+		holder = lineofelros96 # Ardamírë
+	}
+	5004.1.1 = {
+		holder = lineofelros97 # Tarîkmagân
+	}
+	5083.1.1 = {
+		holder = lineofelros98 # Aratan
+	}
+	5177.1.1 = {
+		holder = lineofelros99 # Elatan
+	}
+	5327.1.1 = {
+		holder = lineofelros100 # Sakalthôr II
+	}
+	5457.1.1 = {
+		holder = lineofelros101 # Telemnar
+	}
+	5547.1.1 = {
+		holder = lineofelros102 # Calion
+	}
+	5704.1.1 = {
+		holder = lineofelros103 # Soronto
+	}
+	5873.1.1 = {
+		holder = lineofelros104 # Hostamir
+	}
+	6002.1.1 = {
+		holder = lineofelros105 # Oromendil
+	}
+	6198.1.1 = {
+		holder = lineofelros106 # Gimilkhâd
+	}
+	6306.1.1 = {
+		holder = lineofelros107 # Balkumagân III He tries to revert Númenor back to darkness, fails, dies in battle
+	}
+	6403.1.1 = { 
+		holder = lineofelros108 # Ancalimon II
+	}
+	6480.1.1 = {
+		holder = lineofelros109 # Vëantur, first Monarch to be the new Adunaben faith
+	}
+	6593.1.1 = {
+		holder = lineofelros110 # Elendil II
+	}
+	6626.1.1 = {
+		holder = lineofelros111 # Zimrathôn
+	}
+	6786.1.1 = {
+		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle-earth
+	}
+	6841.1.1 = {
+		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
+	}
+	6982.1.1 = {
+		holder = lineofelros114 # Balkazîr, current king of Númenor
+	}
+	7110.6.14 = {
+		holder = lineofelros115 # Falassion
+	}
+	7159.2.14 = {
+		holder = lineofelros116 # Elendil III
+	}
+}	
 		
 e_numenor = {		
 	624.1.1 = {	

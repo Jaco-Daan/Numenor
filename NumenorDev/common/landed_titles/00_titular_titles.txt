@@ -888,14 +888,14 @@ d_fangs_of_the_forest = { # Mirkwood Orcs near Thranduil
 }
 
 ### Numenoreans ###
-# e_numenor = { # Numenor submod
-# 	color = "black"
-# 	#landless = yes
-# 	destroy_if_invalid_heir = yes
-# 	de_jure_drift_disabled = yes
-# 	always_follows_primary_heir = yes
-# 	capital = c_minas_tirith #Temporary
-# }
+h_numenor = {
+	color = "black"
+	#landless = yes
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = yes
+	always_follows_primary_heir = yes
+	capital = c_armenelos #Numenor Submod
+}
 
 #e_numenor = { # Numenor submod
 #	color = "black"
