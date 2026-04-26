@@ -929,9 +929,10 @@ decision_destroy_mordor = {
 		trigger = {
 			OR = {
 				is_gondor = yes
-				has_primary_title = title:e_numenor_in_exile
-				has_primary_title = title:e_reunitedkingdom
-				has_primary_title = title:e_numenor #Submod Numenor
+				has_primary_title = title:h_numenor_in_exile
+				has_primary_title = title:h_reunitedkingdom
+				has_primary_title = title:e_numenor #Numenor Submod
+				has_primary_title = title:h_numenor #Numenor Submod
 			}
 		}
 		reference = "gfx/interface/illustrations/decisions/decision_gondor_01.dds"

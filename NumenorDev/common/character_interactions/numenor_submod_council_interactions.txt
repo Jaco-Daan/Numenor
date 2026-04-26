@@ -65,7 +65,7 @@
 	is_valid_showing_failures_only = {
 		scope:actor.gold >= gift_value
 		scope:recipient = {
-			is_busy_in_events_localised = yes
+			is_available = yes
 			NOT = {
 				has_trait = honest
 				has_trait = just
