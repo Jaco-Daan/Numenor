@@ -689,7 +689,7 @@
 		special_building_slot = wonder_eldalonde_01
 		special_building = wonder_eldalonde_02
 		duchy_capital_building = royal_forest_02
-	}			
+	}
 }
 6141 = {	#Hyarmaldar (b_hyarmaldar)
 	holding = none

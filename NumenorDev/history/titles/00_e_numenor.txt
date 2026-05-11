@@ -1,50 +1,50 @@
 ﻿# THE KINGDOM OF NUMENOR
 
-h_numenor = {			
+h_numenor = {
 	2465.1.1 = { # The Numenoreans begin to exert dominion over the shores of Middle-earth
-		holder = lineofelros13 # Ciryatan 
-	}	
-	2627.1.1 = {	
-		holder = lineofelros14 # Atanamir 
-	}	
-	2813.1.1 = {	
-		holder = lineofelros15 # Ancalimon 
-	}	
-	2978.1.1 = {	
-		holder = lineofelros16 # Telemmaitë 
-	}	
-	3118.1.1 = {	
-		holder = lineofelros17 # Vanimeldë 
-	}	
-	3229.1.1 = {	
-		holder = lineofelros18 # Alcarin 
-	}	
-	3329.1.1 = {	
-		holder = lineofelros19 # Calmacil 
-	}	
-	3417.1.1 = {	
-		holder = lineofelros20 # Ardamin 
-	}	
-	3491.1.1 = {	
-		holder = lineofelros21 # Adûnakhôr 
-	}	
-	3554.1.1 = {	
-		holder = lineofelros22 # Zimrathôn 
-	}	
-	3625.1.1 = {	
-		holder = lineofelros23 # Sakalthôr 
-	}	
-	3694.1.1 = {	
+		holder = lineofelros13 # Ciryatan
+	}
+	2627.1.1 = {
+		holder = lineofelros14 # Atanamir
+	}
+	2813.1.1 = {
+		holder = lineofelros15 # Ancalimon
+	}
+	2978.1.1 = {
+		holder = lineofelros16 # Telemmaitë
+	}
+	3118.1.1 = {
+		holder = lineofelros17 # Vanimeldë
+	}
+	3229.1.1 = {
+		holder = lineofelros18 # Alcarin
+	}
+	3329.1.1 = {
+		holder = lineofelros19 # Calmacil
+	}
+	3417.1.1 = {
+		holder = lineofelros20 # Ardamin
+	}
+	3491.1.1 = {
+		holder = lineofelros21 # Adûnakhôr
+	}
+	3554.1.1 = {
+		holder = lineofelros22 # Zimrathôn
+	}
+	3625.1.1 = {
+		holder = lineofelros23 # Sakalthôr
+	}
+	3694.1.1 = {
 		holder = lineofelros24 # Gimilzôr
-	}	
-	3769.1.1 = {	
-		holder = lineofelros25 # Palantir 
-	}	
-	3847.1.1 = {	
-		holder = lineofelros28 # Pharazôn 
-	}	
-	3911.1.1 = {	
-		holder = 0 # Destruction of Numenor 
+	}
+	3769.1.1 = {
+		holder = lineofelros25 # Palantir
+	}
+	3847.1.1 = {
+		holder = lineofelros28 # Pharazôn
+	}
+	3911.1.1 = {
+		holder = 0 # Destruction of Numenor
 	}
 	3912.5.3 = {
 		holder = lineofelros26 # Miriel
@@ -109,7 +109,7 @@ h_numenor = {
 	6306.1.1 = {
 		holder = lineofelros107 # Balkumagân III He tries to revert Númenor back to darkness, fails, dies in battle
 	}
-	6403.1.1 = { 
+	6403.1.1 = {
 		holder = lineofelros108 # Ancalimon II
 	}
 	6480.1.1 = {
@@ -136,88 +136,88 @@ h_numenor = {
 	7159.2.14 = {
 		holder = lineofelros116 # Elendil III
 	}
-}	
-		
-e_numenor = {		
-	624.1.1 = {	
+}
+
+e_numenor = {
+	624.1.1 = {
 		holder = lineofelros1 # Elros Minyatur
 		government = feudal_government
-	}	
-	1034.1.1 = {	
-		holder = lineofelros2 # Vardamir 
-	}	
-	1063.1.1 = {	
-		holder = lineofelros3 # Amandil 
-	}	
-	1195.1.1 = {	
-		holder = lineofelros4 # Elendil 
-	}	
-	1343.1.1 = {	
-		holder = lineofelros5 # Meneldur 
-	}	
-	1534.1.1 = {	
-		holder = lineofelros6 # Aldarion 
+	}
+	1034.1.1 = {
+		holder = lineofelros2 # Vardamir
+	}
+	1063.1.1 = {
+		holder = lineofelros3 # Amandil
+	}
+	1195.1.1 = {
+		holder = lineofelros4 # Elendil
+	}
+	1343.1.1 = {
+		holder = lineofelros5 # Meneldur
+	}
+	1534.1.1 = {
+		holder = lineofelros6 # Aldarion
 		succession_laws = { equal_law } # Aldarion amends the law of succession
-	}	
-	1690.1.1 = {	
-		holder = lineofelros7 # Ancalimë 
-	}	
-	1877.1.1 = {	
-		holder = lineofelros8 # Anárion 
-	}	
-	1996.1.1 = {	
-		holder = lineofelros9 # Súrion 
-	}	
-	2166.1.1 = {	
-		holder = lineofelros10 # Telperiën 
-	}	
-	2323.1.1 = {	
-		holder = lineofelros12 # Minastir 
-	}	
-	2465.1.1 = {	
-		holder = lineofelros13 # Ciryatan 
-	}	
-	2627.1.1 = {	
-		holder = lineofelros14 # Atanamir 
-	}	
-	2813.1.1 = {	
-		holder = lineofelros15 # Ancalimon 
-	}	
-	2978.1.1 = {	
-		holder = lineofelros16 # Telemmaitë 
-	}	
-	3118.1.1 = {	
-		holder = lineofelros17 # Vanimeldë 
-	}	
-	3229.1.1 = {	
-		holder = lineofelros18 # Alcarin 
-	}	
-	3329.1.1 = {	
-		holder = lineofelros19 # Calmacil 
-	}	
-	3417.1.1 = {	
-		holder = lineofelros20 # Ardamin 
-	}	
-	3491.1.1 = {	
-		holder = lineofelros21 # Adûnakhôr 
-	}	
-	3554.1.1 = {	
-		holder = lineofelros22 # Zimrathôn 
-	}	
-	3625.1.1 = {	
-		holder = lineofelros23 # Sakalthôr 
-	}	
-	3694.1.1 = {	
-		holder = lineofelros24 # Gimilzôr 
-	}	
-	3769.1.1 = {	
-		holder = lineofelros25 # Palantir 
-	}	
-	3847.1.1 = {	
-		holder = lineofelros28 # Pharazôn 
-	}	
-	3911.1.1 = {	
-		holder = 0 # Destruction of Numenor 
+	}
+	1690.1.1 = {
+		holder = lineofelros7 # Ancalimë
+	}
+	1877.1.1 = {
+		holder = lineofelros8 # Anárion
+	}
+	1996.1.1 = {
+		holder = lineofelros9 # Súrion
+	}
+	2166.1.1 = {
+		holder = lineofelros10 # Telperiën
+	}
+	2323.1.1 = {
+		holder = lineofelros12 # Minastir
+	}
+	2465.1.1 = {
+		holder = lineofelros13 # Ciryatan
+	}
+	2627.1.1 = {
+		holder = lineofelros14 # Atanamir
+	}
+	2813.1.1 = {
+		holder = lineofelros15 # Ancalimon
+	}
+	2978.1.1 = {
+		holder = lineofelros16 # Telemmaitë
+	}
+	3118.1.1 = {
+		holder = lineofelros17 # Vanimeldë
+	}
+	3229.1.1 = {
+		holder = lineofelros18 # Alcarin
+	}
+	3329.1.1 = {
+		holder = lineofelros19 # Calmacil
+	}
+	3417.1.1 = {
+		holder = lineofelros20 # Ardamin
+	}
+	3491.1.1 = {
+		holder = lineofelros21 # Adûnakhôr
+	}
+	3554.1.1 = {
+		holder = lineofelros22 # Zimrathôn
+	}
+	3625.1.1 = {
+		holder = lineofelros23 # Sakalthôr
+	}
+	3694.1.1 = {
+		holder = lineofelros24 # Gimilzôr
+	}
+	3769.1.1 = {
+		holder = lineofelros25 # Palantir
+	}
+	3847.1.1 = {
+		holder = lineofelros28 # Pharazôn
+	}
+	3911.1.1 = {
+		holder = 0 # Destruction of Numenor
 	}
 	3912.5.3 = {
 		holder = lineofelros26 # Miriel
@@ -282,7 +282,7 @@ e_numenor = {
 	6306.1.1 = {
 		holder = lineofelros107 # Balkumagân III He tries to revert Númenor back to darkness, fails, dies in battle
 	}
-	6403.1.1 = { 
+	6403.1.1 = {
 		holder = lineofelros108 # Ancalimon II
 	}
 	6480.1.1 = {
@@ -340,84 +340,84 @@ d_adunai = {
 }
 
 c_armenelos = {
-	624.1.1 = {	
+	624.1.1 = {
 		holder = lineofelros1 # Elros Minyatur
 		government = feudal_government
 		change_development_level = 41
-	}	
-	1034.1.1 = {	
-		holder = lineofelros2 # Vardamir 
-	}	
-	1063.1.1 = {	
-		holder = lineofelros3 # Amandil 
-	}	
-	1195.1.1 = {	
-		holder = lineofelros4 # Elendil 
-	}	
-	1343.1.1 = {	
-		holder = lineofelros5 # Meneldur 
-	}	
-	1534.1.1 = {	
-		holder = lineofelros6 # Aldarion 
+	}
+	1034.1.1 = {
+		holder = lineofelros2 # Vardamir
+	}
+	1063.1.1 = {
+		holder = lineofelros3 # Amandil
+	}
+	1195.1.1 = {
+		holder = lineofelros4 # Elendil
+	}
+	1343.1.1 = {
+		holder = lineofelros5 # Meneldur
+	}
+	1534.1.1 = {
+		holder = lineofelros6 # Aldarion
 		succession_laws = { equal_law } # Aldarion amends the law of succession
-	}	
-	1690.1.1 = {	
-		holder = lineofelros7 # Ancalimë 
-	}	
-	1877.1.1 = {	
-		holder = lineofelros8 # Anárion 
-	}	
-	1996.1.1 = {	
-		holder = lineofelros9 # Súrion 
-	}	
-	2166.1.1 = {	
-		holder = lineofelros10 # Telperiën 
-	}	
-	2323.1.1 = {	
-		holder = lineofelros12 # Minastir 
-	}	
-	2465.1.1 = {	
-		holder = lineofelros13 # Ciryatan 
-	}	
-	2627.1.1 = {	
-		holder = lineofelros14 # Atanamir 
-	}	
-	2813.1.1 = {	
-		holder = lineofelros15 # Ancalimon 
-	}	
-	2978.1.1 = {	
-		holder = lineofelros16 # Telemmaitë 
-	}	
-	3118.1.1 = {	
-		holder = lineofelros17 # Vanimeldë 
-	}	
-	3229.1.1 = {	
-		holder = lineofelros18 # Alcarin 
-	}	
-	3329.1.1 = {	
-		holder = lineofelros19 # Calmacil 
-	}	
-	3417.1.1 = {	
-		holder = lineofelros20 # Ardamin 
-	}	
-	3491.1.1 = {	
-		holder = lineofelros21 # Adûnakhôr 
-	}	
-	3554.1.1 = {	
-		holder = lineofelros22 # Zimrathôn 
-	}	
-	3625.1.1 = {	
-		holder = lineofelros23 # Sakalthôr 
-	}	
-	3694.1.1 = {	
-		holder = lineofelros24 # Gimilzôr 
-	}	
-	3769.1.1 = {	
-		holder = lineofelros25 # Palantir 
-	}	
-	3847.1.1 = {	
-		holder = lineofelros28 # Pharazôn 
-	}	
+	}
+	1690.1.1 = {
+		holder = lineofelros7 # Ancalimë
+	}
+	1877.1.1 = {
+		holder = lineofelros8 # Anárion
+	}
+	1996.1.1 = {
+		holder = lineofelros9 # Súrion
+	}
+	2166.1.1 = {
+		holder = lineofelros10 # Telperiën
+	}
+	2323.1.1 = {
+		holder = lineofelros12 # Minastir
+	}
+	2465.1.1 = {
+		holder = lineofelros13 # Ciryatan
+	}
+	2627.1.1 = {
+		holder = lineofelros14 # Atanamir
+	}
+	2813.1.1 = {
+		holder = lineofelros15 # Ancalimon
+	}
+	2978.1.1 = {
+		holder = lineofelros16 # Telemmaitë
+	}
+	3118.1.1 = {
+		holder = lineofelros17 # Vanimeldë
+	}
+	3229.1.1 = {
+		holder = lineofelros18 # Alcarin
+	}
+	3329.1.1 = {
+		holder = lineofelros19 # Calmacil
+	}
+	3417.1.1 = {
+		holder = lineofelros20 # Ardamin
+	}
+	3491.1.1 = {
+		holder = lineofelros21 # Adûnakhôr
+	}
+	3554.1.1 = {
+		holder = lineofelros22 # Zimrathôn
+	}
+	3625.1.1 = {
+		holder = lineofelros23 # Sakalthôr
+	}
+	3694.1.1 = {
+		holder = lineofelros24 # Gimilzôr
+	}
+	3769.1.1 = {
+		holder = lineofelros25 # Palantir
+	}
+	3847.1.1 = {
+		holder = lineofelros28 # Pharazôn
+	}
 	3911.1.1 = {
 		holder = k_wastelands_holder
 		change_development_level = -100
@@ -485,7 +485,7 @@ c_armenelos = {
 	6306.1.1 = {
 		holder = lineofelros107 # Balkumagân III He tries to revert Númenor back to darkness, fails, dies in battle
 	}
-	6403.1.1 = { 
+	6403.1.1 = {
 		holder = lineofelros108 # Ancalimon II
 	}
 	6480.1.1 = {
@@ -515,61 +515,61 @@ c_armenelos = {
 }
 
 c_andunie = {
-	1290.1.1 = {	
+	1290.1.1 = {
 		holder = lineofelatan2 # Valandil
 		liege = e_numenor
 		government = feudal_government
 		change_development_level = 37
-	}	
-	1588.1.1 = {	
+	}
+	1588.1.1 = {
 		holder = lineofelatan3 # Anardur
 	}
-	1768.1.1 = {	
+	1768.1.1 = {
 		holder = lineofelatan4 # Astandil
 	}
-	1914.1.1 = {	
+	1914.1.1 = {
 		holder = lineofelatan5 # Lauremacil
 	}
-	2069.1.1 = {	
+	2069.1.1 = {
 		holder = lineofelatan6 # Elecar
 	}
-	2270.1.1 = {	
+	2270.1.1 = {
 		holder = lineofelatan7 # Isildur
 	}
-	2409.1.1 = {	
+	2409.1.1 = {
 		holder = lineofelatan8 # Anárion
 	}
-	2576.1.1 = {	
+	2576.1.1 = {
 		holder = lineofelatan9 # Elendur
 	}
-	2741.1.1 = {	
+	2741.1.1 = {
 		holder = lineofelatan10 # Vëandur
 	}
-	2910.1.1 = {	
+	2910.1.1 = {
 		holder = lineofelatan11 # Mírendil
 	}
-	3084.1.1 = {	
+	3084.1.1 = {
 		holder = lineofelatan12 # Nárendur
 	}
-	3232.1.1 = {	
+	3232.1.1 = {
 		holder = lineofelatan13 # Elentur
 	}
-	3360.1.1 = {	
+	3360.1.1 = {
 		holder = lineofelatan14 # Olórendil
 	}
-	3473.1.1 = {	
+	3473.1.1 = {
 		holder = lineofelatan15 # Incandur
 	}
-	3527.1.1 = {	
+	3527.1.1 = {
 		holder = lineofelatan16 # Eärendur
 	}
-	3592.1.1 = {	
+	3592.1.1 = {
 		holder = lineofelatan17 # Silmardil
 	}
-	3632.1.1 = {	
+	3632.1.1 = {
 		holder = lineofelatan18 # Númendil
 	}
-	3657.1.1 = {	
+	3657.1.1 = {
 		holder = lineofelatan19 # Amandil
 	}
 	3911.1.1 = {
@@ -636,62 +636,62 @@ c_andunie = {
 }
 
 c_eldalonde = {
-	1150.1.1 = {	
+	1150.1.1 = {
 		holder = lineveantur1 # Vëandur
 		liege = e_numenor
 	}
-	1399.1.1 = {	
+	1399.1.1 = {
 		holder = lineveantur3 # Vinyaher
 	}
-	1560.1.1 = {	
+	1560.1.1 = {
 		holder = lineveantur4 # Vorondil
 	}
-	1696.1.1 = {	
+	1696.1.1 = {
 		holder = lineveantur5 # Voronwe
 	}
-	1831.1.1 = {	
+	1831.1.1 = {
 		holder = lineveantur6 # Turin
 	}
-	1989.1.1 = {	
+	1989.1.1 = {
 		holder = lineveantur7 # Eruaryon
 	}
-	2184.1.1 = {	
+	2184.1.1 = {
 		holder = lineveantur8 # Elendur
 	}
-	2331.1.1 = {	
+	2331.1.1 = {
 		holder = lineveantur9 # Ciryatur
 	}
-	2473.1.1 = {	
+	2473.1.1 = {
 		holder = lineveantur10 # Calimehtar
 	}
-	2634.1.1 = {	
+	2634.1.1 = {
 		holder = lineveantur11 # Cirdan
 	}
-	2764.1.1 = {	
+	2764.1.1 = {
 		holder = lineveantur12 # Castamir
 	}
-	2908.1.1 = {	
+	2908.1.1 = {
 		holder = lineveantur13 # Belehir
 	}
-	3053.1.1 = {	
+	3053.1.1 = {
 		holder = lineveantur14 # Arciryas
 	}
-	3273.1.1 = {	
+	3273.1.1 = {
 		holder = lineveantur15 # Vorommaite
 	}
-	3437.1.1 = {	
+	3437.1.1 = {
 		holder = lineveantur16 # Sulicar
 	}
-	3542.1.1 = {	
+	3542.1.1 = {
 		holder = lineveantur17 # Vinyarion
 	}
-	3680.1.1 = {	
+	3680.1.1 = {
 		holder = lineveantur18 # Tarciryan
 	}
-	3752.1.1 = {	
+	3752.1.1 = {
 		holder = predolamroth1 # Arassuil
 	}
-	3839.1.1 = {	
+	3839.1.1 = {
 		holder = lineofciryamir12
 	}
 	3911.1.1 = {
@@ -756,7 +756,7 @@ c_eldalonde = {
 	}
 		6781.1.1 = {
 		holder = lineofciryamirbranch19
-	}		
+	}
 	6799.1.1 = {
 		holder = dolamrothsubmod8 # Haldrahir
 	}
@@ -766,64 +766,64 @@ c_eldalonde = {
 	}
 }
 
-d_andunie = {		
-	1290.1.1 = {	
+d_andunie = {
+	1290.1.1 = {
 		holder = lineofelatan2 # Valandil
 		liege = e_numenor
 		government = feudal_government
-	}	
-	1588.1.1 = {	
+	}
+	1588.1.1 = {
 		holder = lineofelatan3 # Anardur
 	}
-	1768.1.1 = {	
+	1768.1.1 = {
 		holder = lineofelatan4 # Astandil
 	}
-	1914.1.1 = {	
+	1914.1.1 = {
 		holder = lineofelatan5 # Lauremacil
 	}
-	2069.1.1 = {	
+	2069.1.1 = {
 		holder = lineofelatan6 # Elecar
 	}
-	2270.1.1 = {	
+	2270.1.1 = {
 		holder = lineofelatan7 # Isildur
 	}
-	2409.1.1 = {	
+	2409.1.1 = {
 		holder = lineofelatan8 # Anárion
 	}
-	2576.1.1 = {	
+	2576.1.1 = {
 		holder = lineofelatan9 # Elendur
 	}
-	2741.1.1 = {	
+	2741.1.1 = {
 		holder = lineofelatan10 # Vëandur
 	}
-	2910.1.1 = {	
+	2910.1.1 = {
 		holder = lineofelatan11 # Mírendil
 	}
-	3084.1.1 = {	
+	3084.1.1 = {
 		holder = lineofelatan12 # Nárendur
 	}
-	3232.1.1 = {	
+	3232.1.1 = {
 		holder = lineofelatan13 # Elentur
 	}
-	3360.1.1 = {	
+	3360.1.1 = {
 		holder = lineofelatan14 # Olórendil
 	}
-	3473.1.1 = {	
+	3473.1.1 = {
 		holder = lineofelatan15 # Incandur
 	}
-	3527.1.1 = {	
+	3527.1.1 = {
 		holder = lineofelatan16 # Eärendur
 	}
-	3592.1.1 = {	
+	3592.1.1 = {
 		holder = lineofelatan17 # Silmardil
 	}
-	3632.1.1 = {	
+	3632.1.1 = {
 		holder = lineofelatan18 # Númendil
 	}
-	3657.1.1 = {	
+	3657.1.1 = {
 		holder = lineofelatan19 # Amandil
 	}
-	3914.1.1 = {	
+	3914.1.1 = {
 		holder = 0 # Amandil sails east / Akallabêth
 	}
 	4100.1.1 = {
@@ -882,64 +882,64 @@ d_andunie = {
 	}
 }
 
-d_nisimaldar = {		
-	1150.1.1 = {	
+d_nisimaldar = {
+	1150.1.1 = {
 		holder = lineveantur1 # Vëandur
 		liege = e_numenor
 		government = feudal_government
 	}
-	1399.1.1 = {	
+	1399.1.1 = {
 		holder = lineveantur3 # Vinyaher
 	}
-	1560.1.1 = {	
+	1560.1.1 = {
 		holder = lineveantur4 # Vorondil
 	}
-	1696.1.1 = {	
+	1696.1.1 = {
 		holder = lineveantur5 # Voronwe
 	}
-	1831.1.1 = {	
+	1831.1.1 = {
 		holder = lineveantur6 # Turin
 	}
-	1989.1.1 = {	
+	1989.1.1 = {
 		holder = lineveantur7 # Eruaryon
 	}
-	2184.1.1 = {	
+	2184.1.1 = {
 		holder = lineveantur8 # Elendur
 	}
-	2331.1.1 = {	
+	2331.1.1 = {
 		holder = lineveantur9 # Ciryatur
 	}
-	2473.1.1 = {	
+	2473.1.1 = {
 		holder = lineveantur10 # Calimehtar
 	}
-	2634.1.1 = {	
+	2634.1.1 = {
 		holder = lineveantur11 # Cirdan
 	}
-	2764.1.1 = {	
+	2764.1.1 = {
 		holder = lineveantur12 # Castamir
 	}
-	2908.1.1 = {	
+	2908.1.1 = {
 		holder = lineveantur13 # Belehir
 	}
-	3053.1.1 = {	
+	3053.1.1 = {
 		holder = lineveantur14 # Arciryas
 	}
-	3273.1.1 = {	
+	3273.1.1 = {
 		holder = lineveantur15 # Vorommaite
 	}
-	3437.1.1 = {	
+	3437.1.1 = {
 		holder = lineveantur16 # Sulicar
 	}
-	3542.1.1 = {	
+	3542.1.1 = {
 		holder = lineveantur17 # Vinyarion
 	}
-	3680.1.1 = {	
+	3680.1.1 = {
 		holder = lineveantur18 # Tarciryan
 	}
-	3752.1.1 = {	
+	3752.1.1 = {
 		holder = predolamroth1 # Arassuil
 	}
-	3839.1.1 = {	
+	3839.1.1 = {
 		holder = lineofciryamir12
 	}
 	3911.1.1 = {
@@ -1004,7 +1004,7 @@ d_nisimaldar = {
 	}
 		6781.1.1 = {
 		holder = lineofciryamirbranch19
-	}		
+	}
 	6799.1.1 = {
 		holder = dolamrothsubmod8 # Haldrahir
 	}
@@ -1015,84 +1015,84 @@ d_nisimaldar = {
 }
 
 d_arandor = {
-	624.1.1 = {	
+	624.1.1 = {
 		holder = lineofelros1 # Elros Minyatur
-	}	
-	1034.1.1 = {	
-		holder = lineofelros2 # Vardamir 
-	}	
-	1063.1.1 = {	
-		holder = lineofelros3 # Amandil 
-	}	
-	1195.1.1 = {	
-		holder = lineofelros4 # Elendil 
-	}	
-	1343.1.1 = {	
-		holder = lineofelros5 # Meneldur 
-	}	
-	1534.1.1 = {	
-		holder = lineofelros6 # Aldarion 
+	}
+	1034.1.1 = {
+		holder = lineofelros2 # Vardamir
+	}
+	1063.1.1 = {
+		holder = lineofelros3 # Amandil
+	}
+	1195.1.1 = {
+		holder = lineofelros4 # Elendil
+	}
+	1343.1.1 = {
+		holder = lineofelros5 # Meneldur
+	}
+	1534.1.1 = {
+		holder = lineofelros6 # Aldarion
 		succession_laws = { equal_law } # Aldarion amends the law of succession
-	}	
-	1690.1.1 = {	
-		holder = lineofelros7 # Ancalimë 
-	}	
-	1877.1.1 = {	
-		holder = lineofelros8 # Anárion 
-	}	
-	1996.1.1 = {	
-		holder = lineofelros9 # Súrion 
-	}	
-	2166.1.1 = {	
-		holder = lineofelros10 # Telperiën 
-	}	
-	2323.1.1 = {	
-		holder = lineofelros12 # Minastir 
-	}	
-	2465.1.1 = {	
-		holder = lineofelros13 # Ciryatan 
-	}	
-	2627.1.1 = {	
-		holder = lineofelros14 # Atanamir 
-	}	
-	2813.1.1 = {	
-		holder = lineofelros15 # Ancalimon 
-	}	
-	2978.1.1 = {	
-		holder = lineofelros16 # Telemmaitë 
-	}	
-	3118.1.1 = {	
-		holder = lineofelros17 # Vanimeldë 
-	}	
-	3229.1.1 = {	
-		holder = lineofelros18 # Alcarin 
-	}	
-	3329.1.1 = {	
-		holder = lineofelros19 # Calmacil 
-	}	
-	3417.1.1 = {	
-		holder = lineofelros20 # Ardamin 
-	}	
-	3491.1.1 = {	
-		holder = lineofelros21 # Adûnakhôr 
-	}	
-	3554.1.1 = {	
-		holder = lineofelros22 # Zimrathôn 
-	}	
-	3625.1.1 = {	
-		holder = lineofelros23 # Sakalthôr 
-	}	
-	3694.1.1 = {	
-		holder = lineofelros24 # Gimilzôr 
-	}	
-	3769.1.1 = {	
-		holder = lineofelros25 # Palantir 
-	}	
-	3847.1.1 = {	
-		holder = lineofelros28 # Pharazôn 
-	}	
-	3911.1.1 = {	
-		holder = 0 # Destruction of Numenor 
+	}
+	1690.1.1 = {
+		holder = lineofelros7 # Ancalimë
+	}
+	1877.1.1 = {
+		holder = lineofelros8 # Anárion
+	}
+	1996.1.1 = {
+		holder = lineofelros9 # Súrion
+	}
+	2166.1.1 = {
+		holder = lineofelros10 # Telperiën
+	}
+	2323.1.1 = {
+		holder = lineofelros12 # Minastir
+	}
+	2465.1.1 = {
+		holder = lineofelros13 # Ciryatan
+	}
+	2627.1.1 = {
+		holder = lineofelros14 # Atanamir
+	}
+	2813.1.1 = {
+		holder = lineofelros15 # Ancalimon
+	}
+	2978.1.1 = {
+		holder = lineofelros16 # Telemmaitë
+	}
+	3118.1.1 = {
+		holder = lineofelros17 # Vanimeldë
+	}
+	3229.1.1 = {
+		holder = lineofelros18 # Alcarin
+	}
+	3329.1.1 = {
+		holder = lineofelros19 # Calmacil
+	}
+	3417.1.1 = {
+		holder = lineofelros20 # Ardamin
+	}
+	3491.1.1 = {
+		holder = lineofelros21 # Adûnakhôr
+	}
+	3554.1.1 = {
+		holder = lineofelros22 # Zimrathôn
+	}
+	3625.1.1 = {
+		holder = lineofelros23 # Sakalthôr
+	}
+	3694.1.1 = {
+		holder = lineofelros24 # Gimilzôr
+	}
+	3769.1.1 = {
+		holder = lineofelros25 # Palantir
+	}
+	3847.1.1 = {
+		holder = lineofelros28 # Pharazôn
+	}
+	3911.1.1 = {
+		holder = 0 # Destruction of Numenor
 	}
 	3912.5.3 = {
 		holder = lineofelros26 # Miriel
@@ -1157,7 +1157,7 @@ d_arandor = {
 	6306.1.1 = {
 		holder = lineofelros107 # Balkumagân III He tries to revert Númenor back to darkness, fails, dies in battle
 	}
-	6403.1.1 = { 
+	6403.1.1 = {
 		holder = lineofelros108 # Ancalimon II
 	}
 	6480.1.1 = {
@@ -1339,7 +1339,7 @@ d_formenore = {
 	}
 	6942.1.1 = {
 		holder = lineofazrubensubmod29
-		liege = e_numenor		
+		liege = e_numenor
 	}
 }
 
@@ -1623,7 +1623,7 @@ d_ondosto = {
 		holder = lineofondosto13
 	}
 	5558.1.1 = {
-		holder = lineofondosto14 
+		holder = lineofondosto14
 	}
 	5715.1.1 = {
 		holder = lineofondosto15
@@ -2126,7 +2126,7 @@ d_hyarnudore = {
 		holder = lineborodirsubmod28
 		liege = e_numenor
 	}
-}	
+}
 
 d_zimrayan = {
 	3760.1.1 = {
@@ -2146,7 +2146,7 @@ d_zimrayan = {
 		holder = linegimilson3
 	}
 	4130.1.1 = {
-		holder = 0 
+		holder = 0
 	}
 	4330.1.1 = {
 		holder = linejewellord6
@@ -2973,7 +2973,7 @@ c_ondosto = {
 		holder = lineofondosto13
 	}
 	5558.1.1 = {
-		holder = lineofondosto14 
+		holder = lineofondosto14
 	}
 	5715.1.1 = {
 		holder = lineofondosto15
@@ -3937,7 +3937,7 @@ c_arabeleth = {
 		holder = lineofmornionath17
 		change_development_level = 13
 		government = feudal_government
-		
+
 	}
 	4099.1.1 = {
 		holder = lineofazruhil1
@@ -4111,84 +4111,84 @@ c_hyarnumen = {
 }
 
 c_romenna = {
-	624.1.1 = {	
+	624.1.1 = {
 		holder = lineofelros1 # Elros Minyatur
 		government = feudal_government
 		change_development_level = 28
-	}	
-	1034.1.1 = {	
-		holder = lineofelros2 # Vardamir 
-	}	
-	1063.1.1 = {	
-		holder = lineofelros3 # Amandil 
-	}	
-	1195.1.1 = {	
-		holder = lineofelros4 # Elendil 
-	}	
-	1343.1.1 = {	
-		holder = lineofelros5 # Meneldur 
-	}	
-	1534.1.1 = {	
-		holder = lineofelros6 # Aldarion 
+	}
+	1034.1.1 = {
+		holder = lineofelros2 # Vardamir
+	}
+	1063.1.1 = {
+		holder = lineofelros3 # Amandil
+	}
+	1195.1.1 = {
+		holder = lineofelros4 # Elendil
+	}
+	1343.1.1 = {
+		holder = lineofelros5 # Meneldur
+	}
+	1534.1.1 = {
+		holder = lineofelros6 # Aldarion
 		succession_laws = { equal_law } # Aldarion amends the law of succession
-	}	
-	1690.1.1 = {	
-		holder = lineofelros7 # Ancalimë 
-	}	
-	1877.1.1 = {	
-		holder = lineofelros8 # Anárion 
-	}	
-	1996.1.1 = {	
-		holder = lineofelros9 # Súrion 
-	}	
-	2166.1.1 = {	
-		holder = lineofelros10 # Telperiën 
-	}	
-	2323.1.1 = {	
-		holder = lineofelros12 # Minastir 
-	}	
-	2465.1.1 = {	
-		holder = lineofelros13 # Ciryatan 
-	}	
-	2627.1.1 = {	
-		holder = lineofelros14 # Atanamir 
-	}	
-	2813.1.1 = {	
-		holder = lineofelros15 # Ancalimon 
-	}	
-	2978.1.1 = {	
-		holder = lineofelros16 # Telemmaitë 
-	}	
-	3118.1.1 = {	
-		holder = lineofelros17 # Vanimeldë 
-	}	
-	3229.1.1 = {	
-		holder = lineofelros18 # Alcarin 
-	}	
-	3329.1.1 = {	
-		holder = lineofelros19 # Calmacil 
-	}	
-	3417.1.1 = {	
-		holder = lineofelros20 # Ardamin 
-	}	
-	3491.1.1 = {	
-		holder = lineofelros21 # Adûnakhôr 
-	}	
-	3554.1.1 = {	
-		holder = lineofelros22 # Zimrathôn 
-	}	
-	3625.1.1 = {	
-		holder = lineofelros23 # Sakalthôr 
-	}	
-	3694.1.1 = {	
-		holder = lineofelros24 # Gimilzôr 
-	}	
-	3769.1.1 = {	
-		holder = lineofelros25 # Palantir 
-	}	
-	3847.1.1 = {	
-		holder = lineofelros28 # Pharazôn 
-	}	
+	}
+	1690.1.1 = {
+		holder = lineofelros7 # Ancalimë
+	}
+	1877.1.1 = {
+		holder = lineofelros8 # Anárion
+	}
+	1996.1.1 = {
+		holder = lineofelros9 # Súrion
+	}
+	2166.1.1 = {
+		holder = lineofelros10 # Telperiën
+	}
+	2323.1.1 = {
+		holder = lineofelros12 # Minastir
+	}
+	2465.1.1 = {
+		holder = lineofelros13 # Ciryatan
+	}
+	2627.1.1 = {
+		holder = lineofelros14 # Atanamir
+	}
+	2813.1.1 = {
+		holder = lineofelros15 # Ancalimon
+	}
+	2978.1.1 = {
+		holder = lineofelros16 # Telemmaitë
+	}
+	3118.1.1 = {
+		holder = lineofelros17 # Vanimeldë
+	}
+	3229.1.1 = {
+		holder = lineofelros18 # Alcarin
+	}
+	3329.1.1 = {
+		holder = lineofelros19 # Calmacil
+	}
+	3417.1.1 = {
+		holder = lineofelros20 # Ardamin
+	}
+	3491.1.1 = {
+		holder = lineofelros21 # Adûnakhôr
+	}
+	3554.1.1 = {
+		holder = lineofelros22 # Zimrathôn
+	}
+	3625.1.1 = {
+		holder = lineofelros23 # Sakalthôr
+	}
+	3694.1.1 = {
+		holder = lineofelros24 # Gimilzôr
+	}
+	3769.1.1 = {
+		holder = lineofelros25 # Palantir
+	}
+	3847.1.1 = {
+		holder = lineofelros28 # Pharazôn
+	}
 	3911.1.1 = {
 		holder = k_wastelands_holder
 		change_development_level = -100
@@ -4256,7 +4256,7 @@ c_romenna = {
 	6306.1.1 = {
 		holder = lineofelros107 # Balkumagân III He tries to revert Númenor back to darkness, fails, dies in battle
 	}
-	6403.1.1 = { 
+	6403.1.1 = {
 		holder = lineofelros108 # Ancalimon II
 	}
 	6480.1.1 = {
@@ -4286,84 +4286,84 @@ c_romenna = {
 }
 
 c_uinen = {
-	624.1.1 = {	
+	624.1.1 = {
 		holder = lineofelros1 # Elros Minyatur
 		government = feudal_government
 		change_development_level = 13
-	}	
-	1034.1.1 = {	
-		holder = lineofelros2 # Vardamir 
-	}	
-	1063.1.1 = {	
-		holder = lineofelros3 # Amandil 
-	}	
-	1195.1.1 = {	
-		holder = lineofelros4 # Elendil 
-	}	
-	1343.1.1 = {	
-		holder = lineofelros5 # Meneldur 
-	}	
-	1534.1.1 = {	
-		holder = lineofelros6 # Aldarion 
+	}
+	1034.1.1 = {
+		holder = lineofelros2 # Vardamir
+	}
+	1063.1.1 = {
+		holder = lineofelros3 # Amandil
+	}
+	1195.1.1 = {
+		holder = lineofelros4 # Elendil
+	}
+	1343.1.1 = {
+		holder = lineofelros5 # Meneldur
+	}
+	1534.1.1 = {
+		holder = lineofelros6 # Aldarion
 		succession_laws = { equal_law } # Aldarion amends the law of succession
-	}	
-	1690.1.1 = {	
-		holder = lineofelros7 # Ancalimë 
-	}	
-	1877.1.1 = {	
-		holder = lineofelros8 # Anárion 
-	}	
-	1996.1.1 = {	
-		holder = lineofelros9 # Súrion 
-	}	
-	2166.1.1 = {	
-		holder = lineofelros10 # Telperiën 
-	}	
-	2323.1.1 = {	
-		holder = lineofelros12 # Minastir 
-	}	
-	2465.1.1 = {	
-		holder = lineofelros13 # Ciryatan 
-	}	
-	2627.1.1 = {	
-		holder = lineofelros14 # Atanamir 
-	}	
-	2813.1.1 = {	
-		holder = lineofelros15 # Ancalimon 
-	}	
-	2978.1.1 = {	
-		holder = lineofelros16 # Telemmaitë 
-	}	
-	3118.1.1 = {	
-		holder = lineofelros17 # Vanimeldë 
-	}	
-	3229.1.1 = {	
-		holder = lineofelros18 # Alcarin 
-	}	
-	3329.1.1 = {	
-		holder = lineofelros19 # Calmacil 
-	}	
-	3417.1.1 = {	
-		holder = lineofelros20 # Ardamin 
-	}	
-	3491.1.1 = {	
-		holder = lineofelros21 # Adûnakhôr 
-	}	
-	3554.1.1 = {	
-		holder = lineofelros22 # Zimrathôn 
-	}	
-	3625.1.1 = {	
-		holder = lineofelros23 # Sakalthôr 
-	}	
-	3694.1.1 = {	
-		holder = lineofelros24 # Gimilzôr 
-	}	
-	3769.1.1 = {	
-		holder = lineofelros25 # Palantir 
-	}	
-	3847.1.1 = {	
-		holder = lineofelros28 # Pharazôn 
-	}	
+	}
+	1690.1.1 = {
+		holder = lineofelros7 # Ancalimë
+	}
+	1877.1.1 = {
+		holder = lineofelros8 # Anárion
+	}
+	1996.1.1 = {
+		holder = lineofelros9 # Súrion
+	}
+	2166.1.1 = {
+		holder = lineofelros10 # Telperiën
+	}
+	2323.1.1 = {
+		holder = lineofelros12 # Minastir
+	}
+	2465.1.1 = {
+		holder = lineofelros13 # Ciryatan
+	}
+	2627.1.1 = {
+		holder = lineofelros14 # Atanamir
+	}
+	2813.1.1 = {
+		holder = lineofelros15 # Ancalimon
+	}
+	2978.1.1 = {
+		holder = lineofelros16 # Telemmaitë
+	}
+	3118.1.1 = {
+		holder = lineofelros17 # Vanimeldë
+	}
+	3229.1.1 = {
+		holder = lineofelros18 # Alcarin
+	}
+	3329.1.1 = {
+		holder = lineofelros19 # Calmacil
+	}
+	3417.1.1 = {
+		holder = lineofelros20 # Ardamin
+	}
+	3491.1.1 = {
+		holder = lineofelros21 # Adûnakhôr
+	}
+	3554.1.1 = {
+		holder = lineofelros22 # Zimrathôn
+	}
+	3625.1.1 = {
+		holder = lineofelros23 # Sakalthôr
+	}
+	3694.1.1 = {
+		holder = lineofelros24 # Gimilzôr
+	}
+	3769.1.1 = {
+		holder = lineofelros25 # Palantir
+	}
+	3847.1.1 = {
+		holder = lineofelros28 # Pharazôn
+	}
 	3911.1.1 = {
 		holder = k_wastelands_holder
 		change_development_level = -100
@@ -4431,7 +4431,7 @@ c_uinen = {
 	6306.1.1 = {
 		holder = lineofelros107 # Balkumagân III He tries to revert Númenor back to darkness, fails, dies in battle
 	}
-	6403.1.1 = { 
+	6403.1.1 = {
 		holder = lineofelros108 # Ancalimon II
 	}
 	6480.1.1 = {
@@ -4558,7 +4558,7 @@ c_vinyon = {
 	}
 	4138.1.1 = {
 		holder = lineofciryandur19
-		change_development_level = 13	
+		change_development_level = 13
 	}
 	4353.1.1 = {
 		holder = lineofciryandur20
@@ -4806,7 +4806,7 @@ c_forduinem = {
 		government = feudal_government
 	}
 	2477.5.12 = {
-		holder = ruxoalendil2 
+		holder = ruxoalendil2
 	}
 	2525.4.2 = {
 		holder = ruxoalendil3
@@ -4903,7 +4903,7 @@ c_belizerbeth = {
 		change_development_level = 11
 	}
 	2477.5.12 = {
-		holder = ruxoalendil2 
+		holder = ruxoalendil2
 	}
 	2525.4.2 = {
 		holder = ruxoalendil3
@@ -5105,7 +5105,7 @@ c_belzag = {
 		holder = lineofondosto13
 	}
 	5558.1.1 = {
-		holder = lineofondosto14 
+		holder = lineofondosto14
 	}
 	5715.1.1 = {
 		holder = lineofondosto15
@@ -5191,7 +5191,7 @@ c_herundal = {
 		holder = lineofondosto13
 	}
 	5558.1.1 = {
-		holder = lineofondosto14 
+		holder = lineofondosto14
 	}
 	5715.1.1 = {
 		holder = lineofondosto15
@@ -5478,61 +5478,61 @@ c_athrangrost = {
 }
 
 c_oromet = {
-	1290.1.1 = {	
+	1290.1.1 = {
 		holder = lineofelatan2 # Valandil
 		liege = e_numenor
 		government = feudal_government
 		change_development_level = 18
-	}	
-	1588.1.1 = {	
+	}
+	1588.1.1 = {
 		holder = lineofelatan3 # Anardur
 	}
-	1768.1.1 = {	
+	1768.1.1 = {
 		holder = lineofelatan4 # Astandil
 	}
-	1914.1.1 = {	
+	1914.1.1 = {
 		holder = lineofelatan5 # Lauremacil
 	}
-	2069.1.1 = {	
+	2069.1.1 = {
 		holder = lineofelatan6 # Elecar
 	}
-	2270.1.1 = {	
+	2270.1.1 = {
 		holder = lineofelatan7 # Isildur
 	}
-	2409.1.1 = {	
+	2409.1.1 = {
 		holder = lineofelatan8 # Anárion
 	}
-	2576.1.1 = {	
+	2576.1.1 = {
 		holder = lineofelatan9 # Elendur
 	}
-	2741.1.1 = {	
+	2741.1.1 = {
 		holder = lineofelatan10 # Vëandur
 	}
-	2910.1.1 = {	
+	2910.1.1 = {
 		holder = lineofelatan11 # Mírendil
 	}
-	3084.1.1 = {	
+	3084.1.1 = {
 		holder = lineofelatan12 # Nárendur
 	}
-	3232.1.1 = {	
+	3232.1.1 = {
 		holder = lineofelatan13 # Elentur
 	}
-	3360.1.1 = {	
+	3360.1.1 = {
 		holder = lineofelatan14 # Olórendil
 	}
-	3473.1.1 = {	
+	3473.1.1 = {
 		holder = lineofelatan15 # Incandur
 	}
-	3527.1.1 = {	
+	3527.1.1 = {
 		holder = lineofelatan16 # Eärendur
 	}
-	3592.1.1 = {	
+	3592.1.1 = {
 		holder = lineofelatan17 # Silmardil
 	}
-	3632.1.1 = {	
+	3632.1.1 = {
 		holder = lineofelatan18 # Númendil
 	}
-	3657.1.1 = {	
+	3657.1.1 = {
 		holder = lineofelatan19 # Amandil
 	}
 	3911.1.1 = {
@@ -5942,62 +5942,62 @@ c_hisindor = {
 }
 
 c_nisinna = {
-	1150.1.1 = {	
+	1150.1.1 = {
 		holder = lineveantur1 # Vëandur
 		liege = e_numenor
 	}
-	1399.1.1 = {	
+	1399.1.1 = {
 		holder = lineveantur3 # Vinyaher
 	}
-	1560.1.1 = {	
+	1560.1.1 = {
 		holder = lineveantur4 # Vorondil
 	}
-	1696.1.1 = {	
+	1696.1.1 = {
 		holder = lineveantur5 # Voronwe
 	}
-	1831.1.1 = {	
+	1831.1.1 = {
 		holder = lineveantur6 # Turin
 	}
-	1989.1.1 = {	
+	1989.1.1 = {
 		holder = lineveantur7 # Eruaryon
 	}
-	2184.1.1 = {	
+	2184.1.1 = {
 		holder = lineveantur8 # Elendur
 	}
-	2331.1.1 = {	
+	2331.1.1 = {
 		holder = lineveantur9 # Ciryatur
 	}
-	2473.1.1 = {	
+	2473.1.1 = {
 		holder = lineveantur10 # Calimehtar
 	}
-	2634.1.1 = {	
+	2634.1.1 = {
 		holder = lineveantur11 # Cirdan
 	}
-	2764.1.1 = {	
+	2764.1.1 = {
 		holder = lineveantur12 # Castamir
 	}
-	2908.1.1 = {	
+	2908.1.1 = {
 		holder = lineveantur13 # Belehir
 	}
-	3053.1.1 = {	
+	3053.1.1 = {
 		holder = lineveantur14 # Arciryas
 	}
-	3273.1.1 = {	
+	3273.1.1 = {
 		holder = lineveantur15 # Vorommaite
 	}
-	3437.1.1 = {	
+	3437.1.1 = {
 		holder = lineveantur16 # Sulicar
 	}
-	3542.1.1 = {	
+	3542.1.1 = {
 		holder = lineveantur17 # Vinyarion
 	}
-	3680.1.1 = {	
+	3680.1.1 = {
 		holder = lineveantur18 # Tarciryan
 	}
-	3752.1.1 = {	
+	3752.1.1 = {
 		holder = predolamroth1 # Arassuil
 	}
-	3839.1.1 = {	
+	3839.1.1 = {
 		holder = lineofciryamir12
 	}
 	3911.1.1 = {
@@ -6063,7 +6063,7 @@ c_nisinna = {
 	}
 		6781.1.1 = {
 		holder = lineofciryamirbranch19
-	}		
+	}
 	6799.1.1 = {
 		holder = dolamrothsubmod8 # Haldrahir
 	}
@@ -6634,7 +6634,7 @@ c_zorakhator = {
         holder = lineofrotthor2a28 # Niluzir
     }
 	6760.1.1 = {
-        holder = lineofrotthor2a29 # Pharazzi_i_ri_i_ 
+        holder = lineofrotthor2a29 # Pharazzi_i_ri_i_
 		liege = e_numenor # Politics!
     }
 	6888.1.1 = {
@@ -7349,83 +7349,83 @@ c_noirinan = {
 }
 
 c_meneltarma = {
-	624.1.1 = {	
+	624.1.1 = {
 		holder = lineofelros1 # Elros Minyatur
 		government = feudal_government
 		change_development_level = 8
-	}	
-	1034.1.1 = {	
-		holder = lineofelros2 # Vardamir 
-	}	
-	1063.1.1 = {	
-		holder = lineofelros3 # Amandil 
-	}	
-	1195.1.1 = {	
-		holder = lineofelros4 # Elendil 
-	}	
-	1343.1.1 = {	
-		holder = lineofelros5 # Meneldur 
-	}	
-	1534.1.1 = {	
-		holder = lineofelros6 # Aldarion 
+	}
+	1034.1.1 = {
+		holder = lineofelros2 # Vardamir
+	}
+	1063.1.1 = {
+		holder = lineofelros3 # Amandil
+	}
+	1195.1.1 = {
+		holder = lineofelros4 # Elendil
+	}
+	1343.1.1 = {
+		holder = lineofelros5 # Meneldur
+	}
+	1534.1.1 = {
+		holder = lineofelros6 # Aldarion
 		succession_laws = { equal_law } # Aldarion amends the law of succession
-	}	
-	1690.1.1 = {	
-		holder = lineofelros7 # Ancalimë 
-	}	
-	1877.1.1 = {	
-		holder = lineofelros8 # Anárion 
-	}	
-	1996.1.1 = {	
-		holder = lineofelros9 # Súrion 
-	}	
-	2166.1.1 = {	
-		holder = lineofelros10 # Telperiën 
-	}	
-	2323.1.1 = {	
-		holder = lineofelros12 # Minastir 
-	}	
-	2465.1.1 = {	
-		holder = lineofelros13 # Ciryatan 
-	}	
-	2627.1.1 = {	
-		holder = lineofelros14 # Atanamir 
-	}	
-	2813.1.1 = {	
-		holder = lineofelros15 # Ancalimon 
-	}	
-	2978.1.1 = {	
-		holder = lineofelros16 # Telemmaitë 
-	}	
-	3118.1.1 = {	
-		holder = lineofelros17 # Vanimeldë 
-	}	
-	3229.1.1 = {	
-		holder = lineofelros18 # Alcarin 
-	}	
-	3329.1.1 = {	
-		holder = lineofelros19 # Calmacil 
-	}	
-	3417.1.1 = {	
-		holder = lineofelros20 # Ardamin 
-	}	
-	3491.1.1 = {	
-		holder = lineofelros21 # Adûnakhôr 
-	}	
-	3554.1.1 = {	
-		holder = lineofelros22 # Zimrathôn 
-	}	
-	3625.1.1 = {	
-		holder = lineofelros23 # Sakalthôr 
-	}	
-	3694.1.1 = {	
-		holder = lineofelros24 # Gimilzôr 
-	}	
-	3769.1.1 = {	
-		holder = lineofelros25 # Palantir 
-	}	
-	3847.1.1 = {	
-		holder = lineofelros28 # Pharazôn 
+	}
+	1690.1.1 = {
+		holder = lineofelros7 # Ancalimë
+	}
+	1877.1.1 = {
+		holder = lineofelros8 # Anárion
+	}
+	1996.1.1 = {
+		holder = lineofelros9 # Súrion
+	}
+	2166.1.1 = {
+		holder = lineofelros10 # Telperiën
+	}
+	2323.1.1 = {
+		holder = lineofelros12 # Minastir
+	}
+	2465.1.1 = {
+		holder = lineofelros13 # Ciryatan
+	}
+	2627.1.1 = {
+		holder = lineofelros14 # Atanamir
+	}
+	2813.1.1 = {
+		holder = lineofelros15 # Ancalimon
+	}
+	2978.1.1 = {
+		holder = lineofelros16 # Telemmaitë
+	}
+	3118.1.1 = {
+		holder = lineofelros17 # Vanimeldë
+	}
+	3229.1.1 = {
+		holder = lineofelros18 # Alcarin
+	}
+	3329.1.1 = {
+		holder = lineofelros19 # Calmacil
+	}
+	3417.1.1 = {
+		holder = lineofelros20 # Ardamin
+	}
+	3491.1.1 = {
+		holder = lineofelros21 # Adûnakhôr
+	}
+	3554.1.1 = {
+		holder = lineofelros22 # Zimrathôn
+	}
+	3625.1.1 = {
+		holder = lineofelros23 # Sakalthôr
+	}
+	3694.1.1 = {
+		holder = lineofelros24 # Gimilzôr
+	}
+	3769.1.1 = {
+		holder = lineofelros25 # Palantir
+	}
+	3847.1.1 = {
+		holder = lineofelros28 # Pharazôn
 	}
 	3911.1.1 = {
 		holder = k_wastelands_holder
@@ -7494,7 +7494,7 @@ c_meneltarma = {
 	6306.1.1 = {
 		holder = lineofelros107 # Balkumagân III He tries to revert Númenor back to darkness, fails, dies in battle
 	}
-	6403.1.1 = { 
+	6403.1.1 = {
 		holder = lineofelros108 # Ancalimon II
 	}
 	6480.1.1 = {
@@ -7544,12 +7544,12 @@ c_forpende = {
 		government = feudal_government
 	}
 	3973.1.1 = {
-		holder = lineofondostofounder 
+		holder = lineofondostofounder
 		liege = e_numenor
 		change_development_level = 11
 	}
 	4139.1.1 = {
-		holder = lineofondosto2 
+		holder = lineofondosto2
 	}
 	4213.1.1 = {
 		holder = lineofondosto3
@@ -7585,7 +7585,7 @@ c_forpende = {
 		holder = lineofondosto13
 	}
 	5558.1.1 = {
-		holder = lineofondosto14 
+		holder = lineofondosto14
 	}
 	5715.1.1 = {
 		holder = lineofondosto15
@@ -7631,10 +7631,10 @@ c_ingamar = {
 		government = feudal_government
 	}
 	3973.1.1 = {
-		holder = lineofondostofounder 
+		holder = lineofondostofounder
 	}
 	4139.1.1 = {
-		holder = lineofondosto2 
+		holder = lineofondosto2
 	}
 	4213.1.1 = {
 		holder = lineofondosto3
@@ -7670,7 +7670,7 @@ c_ingamar = {
 		holder = lineofondosto13
 	}
 	5558.1.1 = {
-		holder = lineofondosto14 
+		holder = lineofondosto14
 	}
 	5715.1.1 = {
 		holder = lineofondosto15
@@ -7723,16 +7723,16 @@ e_anadunemelkor = {
 		holder = linegimilson3
 	}
 	4130.1.1 = {
-		holder = 0 # Goodbye Melkor simps - Tar-Hallatan 
+		holder = 0 # Goodbye Melkor simps - Tar-Hallatan
 	}
 }
 
 e_faithful = {
 	3912.1.1 = {
-		holder = lineofelros26 
+		holder = lineofelros26
 	}
 	4002.1.1 = {
-		holder = lineofelros88 
+		holder = lineofelros88
 	}
 	4003.1.1 = {
 		holder = 0
