@@ -22,6 +22,7 @@
 	discover_innovation = innovation_numenorean_heritage
 	discover_innovation = innovation_numenorean_law
 	discover_innovation = innovation_numenorean_warriors
+	discover_innovation = innovation_pharmacopoeia
 }
 6075.1.1 = { # Early Third Age
 	join_era = culture_era_high_medieval
@@ -44,6 +45,7 @@
 	discover_innovation = innovation_numenorean_architecture_01
 	discover_innovation = innovation_numenorean_architecture_02
 	discover_innovation = innovation_numenorean_architecture_03
+	discover_innovation = innovation_bulkheads
 }
 6776.1.1 = { # Middle Third Age
 	# join_era = culture_era_late_medieval
