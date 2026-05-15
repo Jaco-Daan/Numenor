@@ -404,7 +404,7 @@ window = {
 							blockoverride "text_below_percentage" {
 								text_label_center = {
 									text = "SITUATION_NUMENOR_CONVINCED_PERCENTAGE_COUNCIL_OF_THE_SCEPTRE"
-									position = { 0 45 }
+									position = { -100 45 }
 									default_format = "#color_gray"
 								}
 							}
