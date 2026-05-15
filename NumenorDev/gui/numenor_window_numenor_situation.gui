@@ -393,7 +393,7 @@ window = {
 							max = 100
 						}
 
-						numenor_counci_percentage = {
+						numenor_council_percentage = {
 							parentanchor = center
 							blockoverride "text" {
 								raw_text = "#color_gray [EmptyScope.ScriptValue('council_of_numenor_approval_percentage')]%#!"
@@ -830,7 +830,7 @@ types NumenorTypes
 		}
 	}
 
-	type numenor_counci_percentage = widget {
+	type numenor_council_percentage = widget {
 		size = { 60 40 }
 
 		background = {
