@@ -88,7 +88,7 @@
 
 					all = {
 						character_modifier = {
-							diplomatic_range_mult = -100
+							diplomatic_range_mult = -0.75
 						}
 					}
 				}
