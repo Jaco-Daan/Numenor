@@ -605,7 +605,7 @@ types NumenorTypes
 			default_format = "#high"
 			parentanchor = bottom|hcenter
 			position = { 0 15 }
-			default_format = "#glow_color:{0.1,0.1,0.4,1.0}"
+			default_format = "#glow_color:{0.1,0.4,0.1,1.0}"
 			visible = "[GreaterThanOrEqualTo_int32(Character.GetOpinionOf( GetTitleByKey('e_numenor').GetHolder ), '(int32)100')]"
 		}
 		portrait_head = {
