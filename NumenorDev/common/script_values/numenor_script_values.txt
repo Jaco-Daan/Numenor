@@ -1,36 +1,33 @@
 ﻿council_of_numenor_total_approval = {
 	value = 0
 
-	every_in_global_list = {
-		variable = council_of_numenor
-		if = {
-			limit = {
-				opinion = {
-					target = title:e_numenor.holder
-					value > 75
-				}
-				save_temporary_scope_value_as = {
-					name = opinion_of_numenor_ruler
-					value = 1
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				save_temporary_scope_value_as = {
-					name = opinion_of_numenor_ruler
-					value = 0
+	situation:numenor_situation ?= {
+		every_participant_group = {
+			limit = { participant_group_type = numenor_council_of_the_sceptre }
+			if = {
+				limit = {
+					OR = {
+						opinion = {
+							target = title:e_numenor.holder
+							value > 75
+						}
+						has_variable = council_member_bribed
+					}
+					save_temporary_scope_value_as = {
+						name = opinion_of_numenor_ruler
+						value = 1
+					}
 				}
 			}
-		}
-		add = { value = scope:opinion_of_numenor_ruler }
-	}
-
-	every_in_global_list = {
-		variable = council_of_numenor
-		if = {
-			limit = { has_variable = council_member_bribed }
-			add = 1
+			else_if = {
+				limit = {
+					save_temporary_scope_value_as = {
+						name = opinion_of_numenor_ruler
+						value = 0
+					}
+				}
+			}
+			add = { value = scope:opinion_of_numenor_ruler }
 		}
 	}
 }
@@ -54,17 +51,19 @@ council_of_numenor_total_approval_gui = {
 total_council_members_on_numenor_council = {
 	value = 0
 
-	every_in_global_list = {
-		variable = council_of_numenor
-		if = {
-			limit = {
-				save_temporary_scope_value_as = {
-					name = opinion_of_numenor_ruler
-					value = 1
+	situation:numenor_situation ?= {
+		every_participant_group = {
+			limit = { participant_group_type = numenor_council_of_the_sceptre }
+			if = {
+				limit = {
+					save_temporary_scope_value_as = {
+						name = opinion_of_numenor_ruler
+						value = 1
+					}
 				}
 			}
+			add = { value = scope:opinion_of_numenor_ruler }
 		}
-		add = { value = scope:opinion_of_numenor_ruler }
 	}
 }
 
@@ -251,4 +250,8 @@ numenor_explore_history_cost = {
 			desc = explore_history_cost_discount_wonder_sorontil_02
 		}
 	}
+}
+
+75_percentage_mult = {
+	value = this	multiply = 0.75 floor = yes
 }
