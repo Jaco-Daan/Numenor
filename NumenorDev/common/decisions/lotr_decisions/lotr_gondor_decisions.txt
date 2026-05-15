@@ -3793,7 +3793,6 @@ decision_restore_gondor_province = {
 			has_title = title:e_gondor
 			has_title = title:e_castamir
 			has_title = title:h_numenor_in_exile
-			has_primary_title = title:e_numenor #Numenor Submod
 			AND = {
 				has_title = title:h_reunited_kingdom
 				is_target_in_global_variable_list = {
