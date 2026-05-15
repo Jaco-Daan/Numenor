@@ -615,7 +615,7 @@ lineofelros108 = { # Tar-Ancalimon 'The Great', defeated his brother in the civi
 lineofelros109 = { # Tar-Veantur, founder of the Adunaben faith
 	name = "V_e_eantur"
 	dynasty = dynasty_elros
-	religion = faith_numenorean
+	religion = faith_adunaic
 	culture = adunaic
 
 	father = lineofelros108

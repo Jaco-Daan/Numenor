@@ -1008,12 +1008,15 @@ numenor.3310 = {
 		
 		custom_tooltip = {
 			text = bribe_council_member_interaction_tt
-			hidden_effect = {
-				every_in_global_list = {
-					variable = council_of_numenor
-					add_opinion = {
-						modifier = bribed_council_member
-						target = scope:actor
+			
+			situation:numenor_situation ?= {
+				every_participant_group = {
+					limit = { participant_group_type = numenor_council_of_the_sceptre }
+					every_situation_group_participant = {
+						add_opinion = {
+							modifier = bribed_council_member
+							target = scope:actor
+						}
 					}
 				}
 			}
