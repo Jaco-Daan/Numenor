@@ -691,24 +691,20 @@ special_genes = {
 				male = { 
 					2 = male_clothes_numenor_war_01
 					2 = male_clothes_numenor_war_02
+					1 = male_clothes_secular_numenor_war_religious_phazan_01
+					1 = male_clothes_secular_numenor_war_religious_phazan_02
 					1 = male_clothes_secular_numenor_war_religious_melkor_01
 					1 = male_clothes_secular_numenor_war_religious_melkor_02
-					1 = male_clothes_secular_numenor_war_religous_phazan_01
-					1 = male_clothes_secular_numenor_war_religous_phazan_02
-					1 = male_clothes_secular_numenor_war_religous_melkor_01
-					1 = male_clothes_secular_numenor_war_religous_melkor_02
 
 				}
 
 				female = { #Numenor Submod
 					2 = female_clothes_numenor_war_01
 					2 = female_clothes_numenor_war_02
+					1 = female_clothes_secular_numenor_war_religious_phazan_01
+					1 = female_clothes_secular_numenor_war_religious_phazan_02
 					1 = female_clothes_secular_numenor_war_religious_melkor_01
 					1 = female_clothes_secular_numenor_war_religious_melkor_02
-					1 = female_clothes_secular_numenor_war_religous_phazan_01
-					1 = female_clothes_secular_numenor_war_religous_phazan_02
-					1 = female_clothes_secular_numenor_war_religous_melkor_01
-					1 = female_clothes_secular_numenor_war_religous_melkor_02
 				}
 				boy = male
 				girl = female

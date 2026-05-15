@@ -32254,8 +32254,6 @@ sakalgovernor41 = {
 		death = { death_reason = death_ill }
 	}
 }
-sakalgovernor40 = {
-	name = Bozidar
 
 ##########################
 #### Lords of Barazon ####
