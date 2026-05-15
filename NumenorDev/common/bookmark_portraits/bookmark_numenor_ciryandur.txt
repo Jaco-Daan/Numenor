@@ -1,8 +1,8 @@
-# Auto generated file, do not edit manually. Created using console command dump_bookmark_portrait_for
+# Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:dolamrothsubmod9
 bookmark_numenor_ciryandur={
 	type=male
-	id=43217
+	id=57601
 	random_seed=1948367813
 	age=0.556486
 	genes={ 		hair_color={ 39 253 39 253 }
@@ -97,8 +97,8 @@ bookmark_numenor_ciryandur={
  		expression_other={ "cheek_wrinkles_both_01" 118 "cheek_wrinkles_left_01" 82 }
  		complexion={ "complexion_14" 233 "complexion_14" 233 }
  		gene_height={ "normal_height" 144 "normal_height" 144 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 108 "body_fat_head_fat_full" 100 }
- 		gene_bs_body_shape={ "body_shape_apple_half" 63 "body_shape_apple_half" 51 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 98 "body_fat_head_fat_full" 100 }
+ 		gene_bs_body_shape={ "body_shape_apple_half" 62 "body_shape_apple_half" 51 }
  		gene_bs_bust={ "bust_clothes" 38 "bust_default" 48 }
  		gene_age={ "old_beauty_3" 255 "old_beauty_3" 255 }
  		gene_eyebrows_shape={ "avg_spacing_avg_thickness" 158 "avg_spacing_avg_thickness" 158 }
@@ -143,13 +143,16 @@ bookmark_numenor_ciryandur={
  		beards={ "all_beards" 0 "no_beard" 0 }
  		cloaks={ "no_cloak" 40 "no_cloak" 0 }
  		hairstyles={ "all_hairstyles" 5 "no_hairstyles" 0 }
- 		legwear={ "numenorean_common_legwear" 215 "all_legwear" 0 }
+ 		legwear={ "numenorean_common_legwear" 166 "" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
  		gene_bs_cloak_offset={ "cloak_offset" 255 "" 0 }
+ 		gene_bs_cloak_offset2={ "cloak_offset2" 255 "cloak_offset2" 0 }
+ 		gene_bs_cloak_offset3={ "cloak_offset3" 255 "cloak_offset3" 0 }
  		gene_bs_long_beard={ "long_beard" 255 "" 0 }
- 		clothes={ "numenorean_high_clothes" 231 "" 0 }
- 		headgear={ "numenorean_high_headgear" 100 "no_headgear" 0 }
+ 		clothes={ "numenorean_high_clothes" 226 "" 0 }
+ 		headgear={ "numenorean_high_headgear" 61 "no_headgear" 0 }
+ 		clothes_hoods={ "hoods" 15 "no_clothes_hood" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
 	entity={ 2268070609 2268070609 }
@@ -158,23 +161,15 @@ bookmark_numenor_ciryandur={
 			invert=no
 		}
  {
-			hash=681013727
-			invert=no
-		}
- {
-			hash=1921638387
-			invert=no
-		}
- {
 			hash=2670398845
 			invert=no
 		}
  {
-			hash=1563190100
+			hash=681013727
 			invert=no
 		}
  {
-			hash=1485265044
+			hash=1563190100
 			invert=no
 		}
  {
