@@ -41,12 +41,12 @@
  hold_memorial_at_meneltarma_decision_confirm: "Rest in peace, children of Númenor."
  hold_memorial_at_meneltarma_decision.tt: "Holds a memorial at the Meneltarma"
  
- decision_deal_with_aa: "End the Mulkhêrhili Threat"
- decision_deal_with_aa_title: "The Extermination of Mulkhêrhili Lies"
+ decision_deal_with_aa: "End the Pharazônioniath Threat"
+ decision_deal_with_aa_title: "Exterminate the Pharazônioniath Lies"
  decision_deal_with_aa_tooltip: "Exterminate these pretenders to Anadûnê"
  decision_address_aa_tooltip: "Exterminate these pretenders to Anadûnê"
- decision_deal_with_aa_desc: "A few days ago our scouts reported pirate ships near our coasts and after a short struggle, we managed to capture one that has dared to go so close to our coast, they claim to be from an island realm called Ar-Adûnâim and to be worshippers of Mulkhêr. We can not allow these Mulkhêrhili to tarnish the reputation of the Adûnai. The Council shall be informed and a decision shall be made to deal this mockery of Anadûnê." 
- decision_deal_with_aa_confirm: "We shall deal with the Mulkhêrhili."
+ decision_deal_with_aa_desc: "A few days ago our scouts reported pirate ships near our coasts and after a short struggle, we managed to capture one that has dared to go so close to our coast. They claim to be from an island realm called Ar-Adûnâim, where they worship Ar-Pharazôn. We can not allow for these insane cultists to tarnish the reputation of the Adûnai. The Council shall be informed, so that a quick decision can be made on how to deal with this mockery of Anadûnê."
+ decision_deal_with_aa_confirm: "We shall deal with the Pharazônioniath."
  
 #  decision_destroy_mordor: "Destroy Mordor"
 #  decision_destroy_mordor_tooltip: "Begin a great battle to destroy Sauron and Mordor once and for all"
