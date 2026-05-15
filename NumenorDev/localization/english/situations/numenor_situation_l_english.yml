@@ -19,8 +19,11 @@
  
  # Participants
  numenor_situation_participant_group_numenor_ruler: "Ruler of Numenor"
+ numenor_situation_participant_group_numenor_ruler_desc: "$numenor_situation_participant_group_numenor_ruler$"
  numenor_situation_participant_group_numenor_vassals: "Vassals of Numenor"
+ numenor_situation_participant_group_numenor_vassals_desc: "$numenor_situation_participant_group_numenor_vassals$"
  numenor_situation_participant_group_numenor_council_of_the_sceptre: "Council of the Sceptre"
+ numenor_situation_participant_group_numenor_council_of_the_sceptre_desc: "$numenor_situation_participant_group_numenor_council_of_the_sceptre$"
  
  # GUI
  SITUATION_NUMENOR_HEADER: "Numenor Isolation"
