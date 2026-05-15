@@ -175,7 +175,7 @@ adunaic_ethnicity = {
         50 = { name = neck_length_pos    range = { 0.5 0.6 }    }
     }
     gene_neck_width = {
-        40 = { name = neck_width_neg    range = { 0.3 0.4 }    }
+        40 = { name = neck_width_neg    range = { 0.25 0.35 }    }
     }
 	
 	#EARS
@@ -203,8 +203,10 @@ adunaic_ethnicity = {
 	
 	#FACIAL STRUCTURE
 	face_detail_cheek_def = {
-        40 = {  name = cheek_def_01             range = { 0.2 0.75 }     }
-        20 = {  name = cheek_def_02             range = { 0.2 0.75 }     }
+        4 = {  name = cheek_def_01             range = { 0.0 0.5 }     }
+        2 = {  name = cheek_def_01             range = { 0.5 0.7 }     }
+        2 = {  name = cheek_def_02             range = { 0.0 0.5 }     }
+        2 = {  name = cheek_def_02             range = { 0.5 0.7 }     }
     }
 	face_detail_cheek_fat = {
         10 = {  name = cheek_fat_01_pos             range = { 0.0 0.3 }     }
@@ -289,8 +291,8 @@ adunaic_ethnicity = {
         5 = { name = forehead_brow_width_neg    range = { 0.4 0.5 }    }
     }
 	gene_forehead_brow_height = {
-        50 = { name = forehead_brow_height_neg    range = { 0.4 0.5 }    }
-        50 = { name = forehead_brow_height_pos    range = { 0.5 0.55 }    }
+        2 = { name = forehead_brow_height_neg    range = { 0.3 0.4 }    }
+        1 = { name = forehead_brow_height_pos    range = { 0.5 0.55 }    }
     }	
 	gene_forehead_height = {
         1 = { name = forehead_height_neg    range = { 0.4 0.5 }    }
@@ -360,9 +362,9 @@ adunaic_ethnicity = {
 		45 = { name = eye_corner_depth_pos    range = { 0.0 0.4 }    }
 	}
 	gene_eye_depth = {
-        5 = { name = eye_depth_neg    range = { 0.3 0.4 }    }
-		5 = { name = eye_depth_neg    range = { 0.4 0.5 }    }
-        1 = { name = eye_depth_pos    range = { 0.5 0.55 }    }
+        3 = { name = eye_depth_neg    range = { 0.3 0.4 }    }
+		3 = { name = eye_depth_neg    range = { 0.4 0.5 }    }
+        2 = { name = eye_depth_pos    range = { 0.5 0.55 }    }
         1 = { name = eye_depth_pos    range = { 0.55 0.65 }    }
     }
 	gene_eye_distance = {
@@ -383,7 +385,7 @@ adunaic_ethnicity = {
         10 = { name = eye_height_pos    range = { 0.55 0.75 }    }
     }
 	gene_bs_eye_size = {
-        1 = { name = eye_size_neg    range = { 0.1 0.5 }    }
+        1 = { name = eye_size_neg    range = { 0.1 0.3 }    }
 	}
 	face_detail_eye_socket = {
         5 = {  name = eye_socket_03             range = { 0.0 0.4 }     }
@@ -440,8 +442,8 @@ adunaic_ethnicity = {
         5 = { name = nose_height_pos    range = { @blend3min @blend3max }    }
     }
     gene_bs_nose_length = {
-        20 = { name = nose_length_neg    range = { 0.0 0.1 }    }
-        50 = { name = nose_length_pos    range = { 0.0 0.25 }    }
+        2 = { name = nose_length_neg    range = { 0.0 0.1 }    }
+        5 = { name = nose_length_pos    range = { 0.0 0.25 }    }
     }
 	gene_bs_nose_profile = {
         5 = { name = nose_profile_neg    range = { 0.45 0.6  }    }
@@ -526,10 +528,8 @@ adunaic_ethnicity = {
         40 = { name = mouth_corner_depth_pos    range = { 0.5 0.90  }    }
     }
 	gene_mouth_corner_height = {
-        5 = { name = mouth_corner_height_neg    range = { 0.35 0.45 }    }
-        40 = { name = mouth_corner_height_neg    range = { 0.45 0.5  }    }
-        40 = { name = mouth_corner_height_pos    range = { 0.5 0.55  }    }
-        5 = { name = mouth_corner_height_pos    range = { 0.55 0.65 }    }
+        1 = { name = mouth_corner_height_neg    range = { 0.35 0.45 }    }
+        8 = { name = mouth_corner_height_neg    range = { 0.45 0.5  }    }
     }
 	gene_mouth_forward = {
         5 = { name = mouth_forward_neg    range = { 0.4 0.45 }    }
@@ -604,27 +604,14 @@ adunaic_ethnicity = {
 
     hair_color = {
 		# Blonde
-		60 = { 0.15 0.15 0.5 0.65 }
+		50 = { 0.1 0.0 0.5 0.65 }
 		# # Brown
 		10 = { 0.35 0.7 0.9 1.0 }
 		# # Red
-		5 = { 0.85 0.0 1.0 0.5 }
+		1 = { 0.85 0.1 1.0 0.5 }
 		# # Black
-		25 = { 0.0 0.95 0.5 1.0 }
+		39 = { 0.0 0.95 0.5 1.0 }
 	}
-    gene_bs_body_shape = {
-        10 = { name = body_shape_average     range = { 0.1 0.5 }      }
-        1 = { name = body_shape_apple_half     range = { 0.1 0.5 }      }
-        1 = { name = body_shape_apple_full     range = { 0.1 0.5 }      }
-        10 = { name = body_shape_hourglass_half     range = { 0.1 0.5 }      }
-        1 = { name = body_shape_hourglass_full     range = { 0.1 0.5 }      }
-        1 = { name = body_shape_pear_half     range = { 0.1 0.5 }      }
-        1 = { name = body_shape_pear_full     range = { 0.1 0.5 }      }
-        10 = { name = body_shape_rectangle_half     range = { 0.1 0.5 }      }
-        1 = { name = body_shape_rectangle_full     range = { 0.1 0.5 }      }
-        80 = { name = body_shape_triangle_half     range = { 0.1 0.5 }      }
-        1 = { name = body_shape_triangle_full     range = { 0.1 0.5 }      }
-    }
 	complexion = {
        1 = {  name = complexion_8             range = { 0.3 1.0 }     }
        1 = {  name = complexion_9             range = { 0.3 1.0 }     }
@@ -661,7 +648,9 @@ adunaic_ethnicity = {
         5 = {  name = forehead_wrinkles_03             range = { 0.2 0.4 }     }
     }
 	expression_other = {
-        30 = {  name = cheek_wrinkles_both_01             range = { 0.0 0.5 }     }
+        6 = {  name = cheek_wrinkles_both_01             range = { 0.0 0.3 }     }
+        2 = {  name = cheek_wrinkles_both_01             range = { 0.3 0.5 }     }
+        1 = {  name = cheek_wrinkles_both_01             range = { 0.5 0.7 }     }
     }
 	gene_hair_type = {
         50 = {  name = hair_straight             range = { 0.00 1.00 }     }
@@ -759,9 +748,8 @@ adunaic_ethnicity = {
     }
 
     face_detail_eye_upper_lid_def = {
-        1 = { name = upper_lid_def range = { 0 1 } }
-        5 = { name = upper_lid_def_2 range = { 0.5 1 } }
-        5 = { name = upper_lid_def_2 range = { 1 1 } }
+        5 = { name = upper_lid_def_2 range = { 0 0.5 } }
+        2 = { name = upper_lid_def_2 range = { 0.5 1 } }
     }
 }
 
@@ -858,9 +846,9 @@ adunaic_ethnicity_1 = {
         1 = { name = jaw_forward_pos    range = { 0.5 0.55  }    }
     }
 	gene_jaw_height = {
-        1 = { name = jaw_height_neg    range = { 0.4 0.475 }    }
-        4 = { name = jaw_height_neg    range = { 0.475 0.5  }    }
-        1 = { name = jaw_height_pos    range = { 0.5 0.55  }    }
+        2 = { name = jaw_height_neg    range = { 0.35 0.4 }    }
+        6 = { name = jaw_height_neg    range = { 0.4 0.475 }    }
+        2 = { name = jaw_height_neg    range = { 0.475 0.5  }    }
     }
 	gene_jaw_width = {
         40 = { name = jaw_width_neg    range = { 0.45 0.5  }    }
@@ -1103,9 +1091,9 @@ adunaic_ethnicity_2 = {
 	
 	#FACIAL STRUCTURE
 	face_detail_cheek_def = {
-        1 = {  name = cheek_def_01             range = { 0.3 0.9 }     }
+        1 = {  name = cheek_def_01             range = { 0.3 0.6 }     }
         2 = {  name = cheek_def_01             range = { 0.6 0.9 }     }
-        2 = {  name = cheek_def_02             range = { 0.3 0.9 }     }
+        2 = {  name = cheek_def_02             range = { 0.3 0.6 }     }
         4 = {  name = cheek_def_02             range = { 0.6 0.9 }     }
     }
 	face_detail_cheek_fat = {
@@ -1443,7 +1431,7 @@ adunaic_ethnicity_3 = {
         1 = { name = forehead_brow_width_neg    range = { 0.4 0.5 }    }
     }
 	gene_forehead_brow_height = {
-        2 = { name = forehead_brow_height_neg    range = { 0.4 0.5 }    }
+        2 = { name = forehead_brow_height_neg    range = { 0.3 0.4 }    }
         1 = { name = forehead_brow_height_pos    range = { 0.5 0.55 }    }
     }	
 	gene_forehead_height = {
@@ -1643,12 +1631,6 @@ adunaic_ethnicity_3 = {
     }
 	gene_mouth_corner_depth = {
         1 = { name = mouth_corner_depth_neg    range = { 0.1 0.15  }    }
-    }
-	gene_mouth_corner_height = {
-        1 = { name = mouth_corner_height_neg    range = { 0.4 0.475 }    }
-        10 = { name = mouth_corner_height_neg    range = { 0.475 0.5  }    }
-        10 = { name = mouth_corner_height_pos    range = { 0.5 0.525  }    }
-        1 = { name = mouth_corner_height_pos    range = { 0.525 0.6 }    }
     }
 	gene_mouth_forward = {
         1 = { name = mouth_forward_neg    range = { 0.45 0.475 }    }
@@ -1880,9 +1862,9 @@ adunaic_ethnicity_4 = {
         1 = { name = forehead_brow_width_neg    range = { 0.0 0.4 }    }
     }
 	gene_forehead_brow_height = {
-        5 = { name = forehead_brow_height_neg    range = { 0.4 0.5 }    }
-        3 = { name = forehead_brow_height_pos    range = { 0.5 0.55 }    }
-    }
+        2 = { name = forehead_brow_height_neg    range = { 0.3 0.4 }    }
+        1 = { name = forehead_brow_height_pos    range = { 0.5 0.55 }    }
+    }	
 	
 	gene_jaw_angle = {
         1 = { name = jaw_angle_neg    range = { 0.35 0.475 }    }
@@ -1931,9 +1913,6 @@ adunaic_ethnicity_4 = {
         10 = { name = eye_height_neg    range = { 0.4 0.5 }    }
         1 = { name = eye_height_pos    range = { 0.5 0.55 }    }
     }
-	gene_bs_eye_size = {
-        1 = { name = eye_size_neg    range = { 0.1 0.5 }    }
-	}
 	
 	gene_bs_eye_upper_lid_size = {
         1 = { name = eye_upper_lid_size_pos    range = { 0.2 0.3 }    }
@@ -1951,10 +1930,6 @@ adunaic_ethnicity_4 = {
         10 = { name = nose_height_neg    range = { @blend1min @blend1max }    }
         2 = { name = nose_height_pos    range = { @blend1min @blend1max }    }
         1 = { name = nose_height_pos    range = { @blend2min @blend2max }    }
-    }
-    gene_bs_nose_length = {
-        2 = { name = nose_length_neg    range = { 0.0 0.1 }    }
-        5 = { name = nose_length_pos    range = { 0.0 0.25 }    }
     }
 
 	gene_bs_nose_ridge_angle = {
@@ -2024,12 +1999,6 @@ adunaic_ethnicity_4 = {
 	gene_mouth_corner_depth = {
         40 = { name = mouth_corner_depth_neg    range = { 0.10 0.5  }    }
         40 = { name = mouth_corner_depth_pos    range = { 0.5 0.90  }    }
-    }
-	gene_mouth_corner_height = {
-        5 = { name = mouth_corner_height_neg    range = { 0.35 0.45 }    }
-        40 = { name = mouth_corner_height_neg    range = { 0.45 0.5  }    }
-        40 = { name = mouth_corner_height_pos    range = { 0.5 0.55  }    }
-        5 = { name = mouth_corner_height_pos    range = { 0.55 0.65 }    }
     }
 	gene_mouth_forward = {
         5 = { name = mouth_forward_neg    range = { 0.4 0.45 }    }
@@ -2101,29 +2070,6 @@ adunaic_ethnicity_4 = {
 
     # OTHER
 
-    hair_color = {
-		# Blonde
-		5 = { 0.15 0.15 0.5 0.65 }
-		# # Brown
-		10 = { 0.35 0.7 0.9 1.0 }
-		# # Red
-		5 = { 0.85 0.0 1.0 0.5 }
-		# # Black
-		80 = { 0.0 0.95 0.5 1.0 }
-	}
-    gene_bs_body_shape = {
-        10 = { name = body_shape_average     range = { 0.1 0.5 }      }
-        1 = { name = body_shape_apple_half     range = { 0.1 0.5 }      }
-        1 = { name = body_shape_apple_full     range = { 0.1 0.5 }      }
-        10 = { name = body_shape_hourglass_half     range = { 0.1 0.5 }      }
-        1 = { name = body_shape_hourglass_full     range = { 0.1 0.5 }      }
-        1 = { name = body_shape_pear_half     range = { 0.1 0.5 }      }
-        1 = { name = body_shape_pear_full     range = { 0.1 0.5 }      }
-        10 = { name = body_shape_rectangle_half     range = { 0.1 0.5 }      }
-        1 = { name = body_shape_rectangle_full     range = { 0.1 0.5 }      }
-        80 = { name = body_shape_triangle_half     range = { 0.1 0.5 }      }
-        1 = { name = body_shape_triangle_full     range = { 0.1 0.5 }      }
-    }
 	complexion = {
        1 = {  name = complexion_8             range = { 0.3 1.0 }     }
        1 = {  name = complexion_9             range = { 0.3 1.0 }     }
@@ -2157,9 +2103,7 @@ adunaic_ethnicity_4 = {
         5 = {  name = forehead_wrinkles_02             range = { 0.2 0.4}     }
         5 = {  name = forehead_wrinkles_03             range = { 0.2 0.4 }     }
     }
-	expression_other = {
-        30 = {  name = cheek_wrinkles_both_01             range = { 0.0 0.5 }     }
-    }
+
 	gene_hair_type = {
         50 = {  name = hair_straight             range = { 0.00 1.00 }     }
         35 = {  name = hair_wavy             range = { 0.00 1.00 }     }
