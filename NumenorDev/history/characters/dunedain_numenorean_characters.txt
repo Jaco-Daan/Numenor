@@ -3626,6 +3626,7 @@ saphanirofamrun = { # Saphanir, Lover of Adûnahil, Mother of the Ard the Silent
 		death = { death_reason = death_natural_causes }
 	}
 }
+
 ruxoalendil3 = { # Adûnazil brother of Adûnahil, his murderer
 	name = Adu_u_nazil
 	dynasty = dynasty_minorforostar	
