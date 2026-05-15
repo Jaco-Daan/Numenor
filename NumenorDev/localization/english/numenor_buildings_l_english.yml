@@ -84,4 +84,4 @@
   building_wonder_erendis_01_desc: "The White House of Erendis was built for Erendis by Tar-Meneldur as a gift for the betrothal to his son, Aldarion. The White House was located in the region of Emerië, known for its rolling hills and green plains. Tar-Ancalimë spent most of her childhood in The White House of Erendis, before moving to Armenelos. The House survived the Akallabêth as it was in the hills of Mittalmar but it was abandoned until the reign of Ar-Inziladûn, who gave it to his sister, Princess Zimraphel. After her death the House was not abandoned and instead given to the King of Númenor to be used as a summer residence."
  
   numenor_realm_size_limit_01: "Your realm size must be over 100"
-  numenor_realm_size_limit_02: "Your realm size must be over 300"
+  numenor_realm_size_limit_02: "Your realm size must be over 300, and the holder of [GetTitleByKey('c_minas_tirith').GetName] is you or your ally"
