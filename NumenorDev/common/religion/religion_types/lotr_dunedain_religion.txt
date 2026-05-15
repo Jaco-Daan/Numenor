@@ -8,7 +8,7 @@
 dunedain_religion = {
 	family = rf_eruhini
 	graphical_faith = catholic_gfx
-	
+
 	doctrine_background_icon = core_tenet_banner_dunedain.dds
 	doctrine = freepeoples_hostility_doctrine
 
@@ -361,7 +361,7 @@ dunedain_religion = {
 		faith_edain_ulmo = {
 			color = { 40 40 180 }
 			icon = edain_ulmo
-			
+
 			holy_order_names = {
 				{ name = "holy_order_blades_of_the_covenant" coat_of_arms = "ho_blades_of_the_covenant" }
 				{ name = "holy_order_sentinels_of_the_deep" coat_of_arms = "ho_sentinels_of_the_deep"}

@@ -1385,6 +1385,12 @@ material_woods_oiolaire = {
 	}
 }
 
+material_woods_lebethron = {
+	regions = {
+		middleearth_west_gondor_easternfiefdoms
+	}
+}
+
 material_cloth_no_silk = {
 	regions = {
 		middleearth_west_enedhwaith
@@ -1552,7 +1558,7 @@ graphical_western = {
 		middleearth_uttersouth_mumakan
 		middleearth_uttersouth_shayn
 		middleearth_uttersouth_usakan
-		middleearth_numenor # Numenor Submod
+		middleearth_numenor #Numenor Submod
 	}
 }
 

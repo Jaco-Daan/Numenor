@@ -344,6 +344,23 @@ innovation_dune_sea_warfare = {
 	#custom = unlock_maa_giant_scorpions
 }
 
+innovation_qarsa_warfare = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @special_maa_01
+
+	potential = {
+		AND = {
+			OR = {
+				this = culture:qarsag
+				any_parent_culture_or_above = { this = culture:qarsag }
+			}
+		}
+	}
+
+	custom = unlock_maa_qarsag_outriders
+}
+
 ### Daen Coentis
 innovation_daen_warfare = {
 	group = culture_group_regional
@@ -841,16 +858,21 @@ innovation_talon_knights = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
+
+	potential = {
+		this = culture:belfalathrim
+	}
 	
-	potential = { #Unlocked by decision
+	can_progress = { #Unlocked by decision
 		custom_description = {
 			text = "innovation_unlocked_by_decision_trigger"
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
-				target = flag:decision_dol_amroth_swan_guard
+				target = flag:decision_dol_amroth_swan_guard 
 			}
 		}
 	}
+	
 	custom = unlock_talon_knights
 	flag = global_maa
 }
@@ -860,12 +882,16 @@ innovation_nimrodel_rangers = {
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 	
-	potential = { #Unlocked by decision
+	potential = {
+		this = culture:belfalathrim
+	}
+	
+	can_progress = { #Unlocked by decision
 		custom_description = {
 			text = "innovation_unlocked_by_decision_trigger"
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
-				target = flag:decision_dol_amroth_swan_guard
+				target = flag:decision_dol_amroth_swan_guard 
 			}
 		}
 	}

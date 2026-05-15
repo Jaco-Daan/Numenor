@@ -790,12 +790,12 @@ add_blood_of_numenor_effect = {
 					culture ?= {
 						OR = {
 							this = culture:anbalukkhori
-							#this = culture:anarikean
+							this = culture:anarikean
 							this = culture:tanturaki
 							this = culture:old_umbarean
 							this = culture:black_numenorean
 							any_parent_culture_or_above = { this = culture:anbalukkhori }
-							#any_parent_culture_or_above = { this = culture:anarikean }
+							any_parent_culture_or_above = { this = culture:anarikean }
 							any_parent_culture_or_above = { this = culture:tanturaki}
 							any_parent_culture_or_above = { this = culture:old_umbarean }
 						}
@@ -923,9 +923,9 @@ add_blood_of_numenor_effect = {
 					culture ?= {
 						OR = {
 							this = culture:old_umbarean
-							#this = culture:anarikean
+							this = culture:anarikean
 							this = culture:tanturaki
-							#any_parent_culture_or_above = { this = culture:anarikean }
+							any_parent_culture_or_above = { this = culture:anarikean }
 							any_parent_culture_or_above = { this = culture:tanturaki}
 							AND = {
 								any_parent_culture_or_above = { this = culture:old_umbarean }
@@ -1081,9 +1081,9 @@ add_blood_of_numenor_effect = {
 					current_year < 5667
 					culture ?= {
 						OR = {
-							#this = culture:anarikean
+							this = culture:anarikean
 							this = culture:tanturaki
-							#any_parent_culture_or_above = { this = culture:anarikean }
+							any_parent_culture_or_above = { this = culture:anarikean }
 							any_parent_culture_or_above = { this = culture:tanturaki}
 						}
 					}
@@ -1205,9 +1205,9 @@ add_blood_of_numenor_effect = {
 					current_year < 5977
 					culture ?= {
 						OR = {
-							#this = culture:anarikean
+							this = culture:anarikean
 							this = culture:tanturaki
-							#any_parent_culture_or_above = { this = culture:anarikean }
+							any_parent_culture_or_above = { this = culture:anarikean }
 							any_parent_culture_or_above = { this = culture:tanturaki}
 						}
 					}
@@ -1258,9 +1258,9 @@ add_blood_of_numenor_effect = {
 					current_year > 5977
 					culture ?= {
 						OR = {
-							#this = culture:anarikean
+							this = culture:anarikean
 							this = culture:tanturaki
-							#any_parent_culture_or_above = { this = culture:anarikean }
+							any_parent_culture_or_above = { this = culture:anarikean }
 							any_parent_culture_or_above = { this = culture:tanturaki}
 							AND = {
 								any_parent_culture_or_above = { this = culture:old_umbarean }

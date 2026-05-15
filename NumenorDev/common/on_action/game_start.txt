@@ -7653,20 +7653,3 @@ on_game_start_after_lobby = {
 		coronation_events.0302 # ACH crown giveaway
 	}
 }
-
-#$CHARACTER$.house = {
-#			save_scope_as = character_house
-#
-#			add_unity_value = {
-#				value = {
-#					value = $VALUE$
-#					if = { # House heads have a larger impact on unity
-#						limit = { house_head = $CHARACTER$ }
-#						multiply = unity_house_head_multiplier_value
-#					}
-#				}
-#				character = $CHARACTER$
-#				desc = $DESC$
-#			}
-#		}
-

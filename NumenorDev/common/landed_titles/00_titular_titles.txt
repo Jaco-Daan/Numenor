@@ -2002,6 +2002,8 @@ h_amav_host = {
 	}
 }
 
+### Shayn ###
+
 d_ambason = {
 	color = { 254 226 17 }
 	capital = c_ambason
@@ -2020,6 +2022,24 @@ k_ambason = {
 	ignore_titularity_for_title_weighting = yes
 	de_jure_drift_disabled = no
 	no_automatic_claims = no
+}
+
+d_sanctum_of_the_maimaki = {
+	color = { 107 88 65 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+
+	capital = c_eluakrifar
+
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	no_automatic_claims = yes
+	always_follows_primary_heir = no
+	destroy_if_invalid_heir = yes
+	ignore_titularity_for_title_weighting = yes
 }
 
 #### Admin Gondor Titles ####
@@ -3006,7 +3026,7 @@ d_nf_anafritahan = {
 	ai_primary_priority = { add = @never_primary_score }	
 }
 
-d_nf_arshishan = {
+d_nf_arshirshan = {
 	color = { 38 27 60}
 	capital = c_gashtaham
 
@@ -3623,6 +3643,20 @@ d_nf_ferozgarhan = {
 d_nf_gorazehan = {
 	color = { 38 27 60}
 	capital = c_shamisar # Only during WotR, need to set up capital to move around
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }	
+}
+d_nf_gortanahan = {
+	color = { 38 27 60}
+	capital = c_ankruz
 
 	definite_form = yes
 	landless = yes

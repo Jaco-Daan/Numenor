@@ -41,7 +41,7 @@ innovation_numenorean_heritage = {
 	potential = {
 		OR = {
 			#Numenorean and descendant cultures
-			has_cultural_pillar = heritage_adunaic # Numenor Sub-mod
+			has_cultural_pillar = heritage_adunaic #Numenor Submod
 			has_cultural_pillar = heritage_dunedain
 			this = culture:black_numenorean
 			this = culture:old_umbarean
@@ -121,7 +121,7 @@ innovation_numenorean_architecture_01 = {
 
 	potential = {
 		OR = {
-			has_cultural_pillar = heritage_adunaic # Numenor Sub-mod
+			has_cultural_pillar = heritage_adunaic  #Numenor Submod
 			this = culture:umbarean
 			this = culture:isengard_dunlending
 			has_cultural_pillar = heritage_northern_adunaic
@@ -146,7 +146,7 @@ innovation_numenorean_architecture_02 = {
 
 	potential = {
 		OR = {
-			has_cultural_pillar = heritage_adunaic # Numenor Sub-mod
+			has_cultural_pillar = heritage_adunaic  #Numenor Submod
 			this = culture:black_numenorean
 			this = culture:umbarean
 			this = culture:old_umbarean
@@ -167,8 +167,11 @@ innovation_numenorean_architecture_03 = {
 
 	potential = {
 		OR = {
-			has_cultural_pillar = heritage_adunaic # Numenor Sub-mod
+			has_cultural_pillar = heritage_adunaic  #Numenor Submod
 			this = culture:numenorean
+			culture_head ?= {
+				has_title = title:h_numenor_in_exile
+			}
 		}
 	}
 
