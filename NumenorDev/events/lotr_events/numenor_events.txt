@@ -615,10 +615,10 @@ numenor.3000 = {
 			trigger_event = numenor.3001
 		}
 
-		add_to_global_variable_list = { # Bellakar hats numenor
-			name = korlea_vassalization
-			target = flag:option_a
-		}
+		# add_to_global_variable_list = { # Bellakar hats numenor
+		# 	name = korlea_vassalization
+		# 	target = flag:option_a
+		# }
 		add_to_global_variable_list = { # Decision dissapears
 			name = unavailable_unique_decisions
 			target = flag:decision_numenor_annex_korlea

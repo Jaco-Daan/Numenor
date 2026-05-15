@@ -605,10 +605,10 @@ decision_expedition_anarike = {
 		has_primary_title = title:e_numenor
 		always = no
 		is_landed = yes
-		is_target_in_global_variable_list = {
-			name = unavailable_unique_decisions
-			target = flag:decision_reclaim_thani_hazad_numenor
-		}
+		# is_target_in_global_variable_list = {
+		# 	name = unavailable_unique_decisions
+		# 	target = flag:decision_reclaim_thani_hazad_numenor
+		# }
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -816,10 +816,10 @@ decision_numenor_annex_korlea = {
 				name = unavailable_unique_decisions
 				target = flag:decision_numenor_annex_korlea
 			}
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:decision_reclaim_bellakar_numenor
-			}
+			# is_target_in_global_variable_list = {
+			# 	name = unavailable_unique_decisions
+			# 	target = flag:decision_reclaim_bellakar_numenor
+			# }
 		}
 	}
 
@@ -1082,10 +1082,10 @@ decision_numenor_league_of_pelargir = {
 			}
 		}
 
-		is_target_in_global_variable_list = { # Gondor has been re-integrated
-			name = unavailable_unique_decisions
-			target = flag:decision_reclaim_gondor_numenor
-		}
+		# is_target_in_global_variable_list = { # Gondor has been re-integrated
+		# 	name = unavailable_unique_decisions
+		# 	target = flag:decision_reclaim_gondor_numenor
+		# }
 		NOR = { # Prevents decision from showing up if league has already been formed
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions

@@ -2,8 +2,8 @@
 ##################### SITUATION ######################
 ######################################################
 window = {
-	name = "lotr_window_kin_strife_situation"
-	widgetid = "lotr_window_kin_strife_situation"
+	name = "numenor_window_numenor_situation"
+	widgetid = "numenor_window_numenor_situation"
 	datacontext = "[SituationWindow.GetSituation]"
 	datacontext = "[GetVariableSystem]"
 	datacontext = "[GetPlayer]"
