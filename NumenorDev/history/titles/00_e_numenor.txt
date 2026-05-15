@@ -3,6 +3,7 @@
 h_numenor = {
 	2465.1.1 = { # The Numenoreans begin to exert dominion over the shores of Middle-earth
 		holder = lineofelros13 # Ciryatan
+		government = feudal_government
 	}
 	2627.1.1 = {
 		holder = lineofelros14 # Atanamir
@@ -302,6 +303,7 @@ e_numenor = {
 	}
 	6982.1.1 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
+		government = feudal_government
 	}
 	7110.6.14 = {
 		holder = lineofelros115 # Falassion
