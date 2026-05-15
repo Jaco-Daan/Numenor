@@ -121,39 +121,6 @@ create_artifact_numenorean_figurine_effect = {
 	}
 }
 
-create_artifact_numenorean_shield_effect = {
-	# Get the character the artifact is being made for.
-	$OWNER$ = { save_scope_as = owner }
-	# Not really used, but if we don't set the scopes we get errors in the feature selection
-	set_artifact_rarity_illustrious = yes
-
-	# Create the artifact
-	create_artifact = {
-		name = numenorean_shield_name
-		description = numenorean_shield_description
-		type = wall_small
-		visuals = numenorean_shield
-		visuals_source = title:e_numenor
-		template = general_unique_template
-		wealth = scope:wealth
-		quality = scope:quality
-		modifier = numenorean_shield_modifier
-		save_scope_as = newly_created_artifact
-		decaying = yes
-	}
-
-	scope:newly_created_artifact ?= {
-		set_variable = { name = historical_unique_artifact value = yes }
-		set_variable = numenorean_shield 
-		save_scope_as = epic
-
-		add_artifact_title_history = {
-		target = title:e_numenor
-		date = 3912.5.3
-		}
-	}
-}
-
 create_artifact_numenorean_helm_effect = {
 	# Get the character the artifact is being made for.
 	$OWNER$ = { save_scope_as = owner }
@@ -259,7 +226,7 @@ create_artifact_palantir_romenna_effect = {
 		visuals = palantir_romenna
 		wealth = scope:wealth
 		quality = scope:quality
-#		template = palantir_template
+		# template = palantir_template
 		history = {
 			type = created
 			date = 2.2.1

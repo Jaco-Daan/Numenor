@@ -1,5 +1,5 @@
-﻿namespace = autoerrorfixer_variable
-autoerrorfixer_variable.numenor = {
+﻿namespace = autoerrorfixer_variable_numenor
+autoerrorfixer_variable_numenor.1 = {
 	hidden = yes
 	orphan = yes
 	immediate = {

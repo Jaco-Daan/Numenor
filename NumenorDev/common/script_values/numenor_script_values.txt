@@ -109,3 +109,11 @@ bribe_council_member_cost = {
 		}
 	}
 }
+
+council_of_numenor_approval_percentage = {
+	value = 0
+	add = council_of_numenor_total_approval
+	divide = 8
+	multiply = 100
+	floor = yes
+}

@@ -100,6 +100,13 @@
  decision_expedition_anarike_confirm: "Placeholder"
  decision_expedition_anarike: "Placeholder"
 
+ decision_end_numenor_isolation: "End [GetSituation('numenor_situation').GetName]"
+ decision_end_numenor_isolation_desc: "#DEBUG End [GetSituation('numenor_situation').GetName]#!"
+ decision_end_numenor_isolation_confirm: "End [GetSituation('numenor_situation').GetName]"
+ decision_end_numenor_isolation_tooltip: "End [GetSituation('numenor_situation').GetName]"
+ decision_end_numenor_isolation.tt: "Ends the [GetSituation('numenor_situation').GetName]"
+ decision_end_numenor_isolation.valid.tt: "All members of the council of the sceptre are convinced"
+
  decision_restore_numenor_province_title: ""
  decision_restore_numenor_province_desc: ""
  decision_restore_numenor_province.tt.empty_desc: ""

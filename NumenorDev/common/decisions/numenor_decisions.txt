@@ -1162,6 +1162,7 @@ decision_numenor_disband_council_of_sceptre = {
 
 	# IS_SHOWN
 	is_shown = {
+		always = no
 		is_ruler = yes
 		is_landed = yes
 		has_title = title:e_numenor

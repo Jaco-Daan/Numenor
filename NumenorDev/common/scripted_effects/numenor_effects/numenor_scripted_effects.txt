@@ -32,23 +32,3 @@
 		target = title:d_formenore.holder 
 	}
 }
-
-increase_variable = {
-    if = { limit = { NOT = { has_variable = $NAME$ } }
-        set_variable = { name = $NAME$ value = 0 }
-    }
-    change_variable = {
-        name = $NAME$
-        add = $AMOUNT$
-    }
-}
-
-decrease_variable = {
-    if = { limit = { NOT = { has_variable = $NAME$ } }
-        set_variable = { name = $NAME$ value = 0 }
-    }
-    change_variable = {
-        name = $NAME$
-        subtract = $AMOUNT$
-    }
-}

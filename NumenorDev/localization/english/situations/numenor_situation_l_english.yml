@@ -1,0 +1,30 @@
+﻿l_english:
+ # Basics
+ situation_numenor_situation: "Numenor Isolated"
+ situation_type_numenor_situation: "Numenor Isolated"
+ situation_type_numenor_situation_desc: "#DEBUG TEMP#!"
+ situation_numenor_situation_desc: "$situation_type_numenor_situation_desc$"
+
+ # Sub-regions
+ numenor_situation_sub_region_numenor: "Numenor"
+ numenor_situation_sub_region_numenor_desc: "#DEBUG TEMP#!"
+ 
+ # Phases
+ numenor_situation_isolation: "$SITUATION_NUMENOR_HEADER$"
+ numenor_situation_numenor_situation_isolation_situation_phase: "Isolation Phase"
+
+ # Phase Effects 
+ numenor_situation_isolation_effects: "Effects on Numenor"
+ numenor_situation_isolation_effects_concept: "[character|E]"
+ 
+ # Participants
+ numenor_situation_participant_group_numenor_ruler: "Ruler of Numenor"
+ numenor_situation_participant_group_numenor_vassals: "Vassals of Numenor"
+ numenor_situation_participant_group_numenor_council_of_the_sceptre: "Council of the Sceptre"
+ 
+ # GUI
+ SITUATION_NUMENOR_HEADER: "Numenor Isolation"
+ NUMENOR_CONVINCED_NOBLES_SCORE: "Amount of nobles convinced on the council of the sceptre"
+ SITUATION_NUMENOR_COUNCIL_OF_THE_SCEPTRE: "Council of the Sceptre"
+ SITUATION_NUMENOR_CONVINCED_PERCENTAGE_COUNCIL_OF_THE_SCEPTRE: "Convinced Council of the Sceptre Members"
+ NUMENOR_SITUATION_AVAILABLE_DECISIONS_HEADER: "Available Decisions"

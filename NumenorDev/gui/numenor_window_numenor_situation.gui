@@ -17,10 +17,6 @@ window = {
 	state = {
 		name = on_create
 		trigger_on_create = yes
-		on_start = "[GetVariableSystem.Set( 'phase_description', 'kin_strife_default_description'  )]"
-		on_start = "[GetVariableSystem.Set( 'potential_phases', 'true'  )]"
-		on_start = "[GetVariableSystem.Clear( 'situation_endings' )]"
-		on_start = "[GetVariableSystem.Clear( 'kin_strife_catalyst_window' )]"
 	}
 
 	state = {
@@ -28,15 +24,6 @@ window = {
 		using = Animation_FadeIn_Quick
 		using = Sound_WindowShow_Standard
 		using = Window_Position_MainTab
-		on_start = "[SetMapMode( 'kin_strife' )]"
-		on_start = "[GetScriptedGui('kin_strife_map').Execute(GuiScope.End)]"
-		
-		on_start = "[GetVariableSystem.Set( 'kin_strife_catalyst_window', 'false' )]"
-		on_start = "[GetVariableSystem.Set( 'current_kin_strife_phase', SituationWindow.GetSelectedSubRegion.GetCurrentPhase.GetType.GetKey)]"
-		on_start = "[GetVariableSystem.Set( 'loyalist_leader_pose', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_build_up' ), 'chancellor', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_civil_war' ), 'aggressive_axe', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_exile' ), 'sword_coup_degrace', 'chancellor'))) )]"
-		on_start = "[GetVariableSystem.Set( 'purist_leader_pose', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_build_up' ), 'disapproval', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_civil_war' ), 'aggressive_sword', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_exile' ), 'rage', 'chancellor'))) )]"
-		on_start = "[GetVariableSystem.Set( 'purist_leader_camera', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_build_up' ), 'camera_body', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_civil_war' ), 'camera_body_left', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_exile' ), 'camera_body_left', 'camera_body'))) )]"
-		
 	}
 
 	state = {
@@ -44,10 +31,6 @@ window = {
 		using = Animation_FadeOut_Quick
 		using = Sound_WindowHide_Standard
 		using = Window_Position_MainTab_Hide
-		on_start = "[SetMapMode( 'realms' )]"
-		on_start = "[GetVariableSystem.Clear( 'current_kin_strife_phase' )]"
-		on_start = "[GetVariableSystem.Clear( 'loyalist_leader_pose' )]"
-		
 	}
 
 	margin_widget = {
@@ -78,7 +61,7 @@ window = {
 
 							blockoverride "header_text"
 							{
-								text = "SITUATION_KIN_STRIFE_HEADER"
+								text = "SITUATION_NUMENOR_HEADER"
 							}
 
 							blockoverride "button_back"
@@ -89,36 +72,6 @@ window = {
 							blockoverride "button_close"
 							{
 								onclick = "[SituationWindow.Close]"
-							}
-						}
-						
-						widget = {
-							size = { 1 1 }
-							allow_outside = yes
-							visible = "[InDebugMode]"
-							button_round  = {
-								size = { 40 40 }
-								position = { -220 -25 }
-								onclick = "[ExecuteConsoleCommand('effect lotr_kin_strife_set_build_up_phase_effect = yes')]"
-								raw_text = "#DEBUG BuildUp#!"
-								raw_tooltip = "#DEBUG Set kin-strife to build up phase#!"
-								using = ResetVariableSystem
-							}
-							button_round  = {
-								size = { 40 40 }
-								position = { -160 -25 }
-								onclick = "[ExecuteConsoleCommand('effect lotr_kin_strife_set_civil_war_phase_effect = yes')]"
-								raw_text = "#DEBUG CivilWar#!"
-								raw_tooltip = "#DEBUG Set kin-strife to civil war phase#!"
-								using = ResetVariableSystem
-							}
-							button_round  = {
-								size = { 40 40 }
-								position = { -110 -25 }
-								onclick = "[ExecuteConsoleCommand('effect lotr_kin_strife_set_exile_phase_effect = yes')]"
-								raw_text = "#DEBUG Exile#!"
-								raw_tooltip = "#DEBUG Set kin-strife to exile phase#!"
-								using = ResetVariableSystem
 							}
 						}
 					}
@@ -134,88 +87,13 @@ window = {
 						size = { 560 88 }
 					}
 
-					# Leaders
+					# Numenor Leader
 					widget = {
 						size = { 560 225 }
 
-						## Purist Pattern
 						background = {
-							texture = "gfx/interface/colors/white.dds"
-							color = { 0.38 0.15 0.15 1 }
-							margin = { 0 12 }
-
-							alpha = 0.3
-
-							modify_texture = {
-								texture = "gfx/interface/component_overlay/overlay_texture.dds"
-
-								texture_density = 2
-								spriteType = Corneredtiled
-
-								alpha = 0.7
-							}
-
-							modify_texture = {
-								texture = "gfx/interface/component_overlay/seamless_noise.dds"
-
-								texture_density = 2
-								spriteType = Corneredtiled
-
-								alpha = 0.7
-							}
-
-							modify_texture = {
-								texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
-								blend_mode = alphaMultiply
-							}
-
-							using = Mask_Rough_Edges
-						}
-
-						## Loyalist Pattern
-						background = {
-							texture = "gfx/interface/colors/white.dds"
-							color = { 0.1 0.16 0.25 1 }
-							alpha = 0.3
-							margin = { 0 12 }
-
-							modify_texture = {
-								texture = "gfx/interface/component_overlay/overlay_texture.dds"
-
-								texture_density = 2
-								spriteType = Corneredtiled
-
-								alpha = 0.7
-							}
-
-							modify_texture = {
-								texture = "gfx/interface/component_overlay/seamless_noise.dds"
-
-								texture_density = 2
-								spriteType = Corneredtiled
-
-								alpha = 0.7
-							}
-
-							modify_texture = {
-								texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
-								blend_mode = alphaMultiply
-								mirror = horizontal
-							}
-
-							modify_texture = {
-								texture = "gfx/interface/component_masks/mask_scratches.dds"
-								blend_mode = alphaMultiply
-								alpha = 0.5
-							}
-
-							using = Mask_Rough_Edges
-						}
-
-						background = {
-							texture = "gfx/interface/icons/situations/kin_strife/situation_window_background.dds"
-							margin = { 0 12 }
-
+							texture = "[SituationWindow.GetSituation.GetType.GetIllustration]"
+							margin = { 0 12 }	
 							modify_texture = {
 								texture = "gfx/interface/component_masks/mask_vignette.dds"
 								blend_mode = alphaMultiply
@@ -227,49 +105,33 @@ window = {
 
 						group_banner = {
 							parentanchor = left
-							position = { 4 -10 }
+							position = { 0 -15 }
 
 							blockoverride "group_text" {
-								text = "SITUATION_KIN_STRIFE_LOYALIST"
+								text = "numenor_situation_participant_group_numenor_ruler"
 							}
 							blockoverride "group_icon" {
-								texture = "gfx/interface/icons/situations/kin_strife/loyalist_icon.dds"
+								texture = "gfx/interface/icons/situation_types/numenor_situation.dds"
 							}
 							blockoverride "group_banner_texture" {
-								texture = "gfx/interface/window_kin_strife/window_kin_strife_loyalist.dds"
+								texture = "gfx/interface/window_theme_administration/admin_theme_coa_holder.dds"
 								color = { 0.4 0.5 0.6 1}
 							}
 						}
 
-						group_banner = { #Purist Banner
-							parentanchor = right
-							position = { -4 -10 }
-
-							blockoverride "group_text" {
-								text = "SITUATION_KIN_STRIFE_PURIST"
-							}
-							blockoverride "group_icon" {
-								texture = "gfx/interface/icons/situations/kin_strife/purist_icon.dds"
-							}
-							blockoverride "group_banner_texture" {
-								texture = "gfx/interface/window_kin_strife/window_kin_strife_purist.dds"
-								color = { 0.65 0.55 0.4 1}
-							}
-						}
-
-						widget = { #Loyalist Leader
-							size = { 50% 100% }
+						widget = { #Numenor Ruler
+							size = { 100% 100% }
 							datamodel = "[SituationParticipantGroup.GetCharacters]"
-							datacontext = "[GetSituation('kin_strife').GetTopParticipantGroupByKey('loyalist_leader')]"
+							datacontext = "[GetSituation('numenor_situation').GetTopParticipantGroupByKey('numenor_ruler')]"
 
 							item = {
 								widget = {
-									size = { 100% 100% }
+									size = { 60% 100% }
 
 									portrait_button = {
 										size = { 180 280 }
 										parentanchor = center
-										position = { 40 0 }
+										# position = { 40 0 }
 										using = portrait_base
 
 										blockoverride "portrait_transformation"
@@ -278,7 +140,7 @@ window = {
 											portrait_offset = { 0 0 }
 										}
 
-										portrait_texture = "[Character.GetAnimatedPortrait( 'environment_body', 'camera_body', GetVariableSystem.Get( 'loyalist_leader_pose' ), PdxGetWidgetScreenSize( PdxGuiWidget.Self ) )]"
+										portrait_texture = "[Character.GetAnimatedPortrait( 'environment_body', 'camera_body', 'chancellor', PdxGetWidgetScreenSize( PdxGuiWidget.Self ) )]"
 										background_texture = "gfx/portraits/portrait_transparent.dds"
 										effectname = "NoHighlight"
 										texture = "gfx/portraits/portrait_transparent.dds"
@@ -296,52 +158,6 @@ window = {
 											spacing = 12
 
 											expand = {}
-
-											widget = {
-												allow_outside = yes
-												size = { 50 0 }
-
-												widget = {
-													size = { 50 70 }
-													position = { 0 -46 }
-													allow_outside = yes
-
-													vbox = {
-														spacing = 8
-														layoutpolicy_vertical = expanding
-														portrait_opinion = {
-															blockoverride "opinion_bg_alpha" {
-																alpha = 0.6
-															}
-														}
-
-														button_round = {
-															visible = "[Not( ObjectsEqual( Character.Self, GetPlayer.Self ) )]"
-															onclick = "[ToggleFilteredCharacterInteractionMenu(Character.Self, 'kin_strife')]"
-															tooltip = "SITUATION_KIN_STRIFE_INTERACTION_BUTTON"
-
-															button_icon = {
-																alwaystransparent = yes
-																parentanchor = center
-																size = { 30 30 }
-																texture = "gfx/interface/icons/flat_icons/character_interactions.dds"
-															}
-
-															text_single = {
-																position = { 0 -8 }
-																parentanchor = top|hcenter
-																text = "[GetNumberOfValidInteractionsWithFilter(Character.Self, 'kin_strife')]"
-																default_format = "#glow_color:{0.1,0.1,0.1,1.0}"
-
-																background = {
-																	margin = { 6 0 }
-																	using = Background_Area_Dark
-																}
-															}
-														}
-													}
-												}
-											}
 
 											widget = {
 												allow_outside = yes
@@ -371,123 +187,6 @@ window = {
 							}
 						}
 
-						widget = { #Purist Leader
-							size = { 50% 100% }
-							datamodel = "[SituationParticipantGroup.GetCharacters]"
-							datacontext = "[GetSituation('kin_strife').GetTopParticipantGroupByKey('purist_leader')]"
-							parentanchor = right
-							position = { 0 0 }
-
-							item = {
-
-								widget = {
-									size = { 100% 100% }
-
-									portrait_button = {
-										size = { 180 280 }
-										parentanchor = center
-										position = { -40 0 }
-										using = portrait_base
-
-										blockoverride "portrait_transformation"
-										{
-											portrait_scale = {  1.0 1.0 }
-											portrait_offset = { 0 0 }
-										}
-
-										portrait_texture = "[Character.GetAnimatedPortrait( 'environment_body', GetVariableSystem.Get( 'purist_leader_camera' ), GetVariableSystem.Get( 'purist_leader_pose' ), PdxGetWidgetScreenSize( PdxGuiWidget.Self ) )]"
-										background_texture = "gfx/portraits/portrait_transparent.dds"
-										effectname = "NoHighlight"
-										texture = "gfx/portraits/portrait_transparent.dds"
-										mask = "gfx/portraits/portrait_mask_body.dds"
-									}
-
-									widget = {
-										size = { 100% 50 }
-										parentanchor = bottom|hcenter
-
-										allow_outside = yes
-
-										hbox = {
-											layoutpolicy_horizontal = expanding
-											spacing = 12
-
-											expand = {}
-
-											text_single = {
-												text = "[Character.GetTitledFirstNameOnlyNotMe]"
-												default_format = "#glow_color:{0.4,0.1,0.1,1.0}"
-												align = nobaseline
-
-												background = {
-													margin = { 12 4 }
-													using = Mask_Rough_Edges
-													using = Background_Area_Dark
-												}
-											}
-
-
-											widget = {
-												allow_outside = yes
-												size = { 34 20 }
-
-												coa_realm_tiny_crown = {
-													position = { 0 -24 }
-													visible = "[Character.HasLandedTitles]"
-												}
-											}
-
-											widget = {
-												allow_outside = yes
-												size = { 50 0 }
-
-												widget = {
-													size = { 50 70 }
-													position = { 0 -46 }
-													allow_outside = yes
-
-													vbox = {
-														spacing = 8
-														layoutpolicy_vertical = expanding
-														portrait_opinion = {
-															blockoverride "opinion_bg_alpha" {
-																alpha = 0.6
-															}
-														}
-
-														button_round = {
-															visible = "[Not( ObjectsEqual( Character.Self, GetPlayer.Self ) )]"
-															onclick = "[ToggleFilteredCharacterInteractionMenu(Character.Self, 'kin_strife')]"
-															tooltip = "SITUATION_KIN_STRIFE_INTERACTION_BUTTON"
-
-															button_icon = {
-																alwaystransparent = yes
-																parentanchor = center
-																size = { 30 30 }
-																texture = "gfx/interface/icons/flat_icons/character_interactions.dds"
-															}
-
-															text_single = {
-																position = { 0 -8 }
-																parentanchor = top|hcenter
-																text = "[GetNumberOfValidInteractionsWithFilter(Character.Self, 'kin_strife')]"
-																default_format = "#glow_color:{0.1,0.1,0.1,1.0}"
-
-																background = {
-																	margin = { 6 0 }
-																	using = Background_Area_Dark
-																}
-															}
-														}
-													}
-												}
-											}
-											expand = {}
-										}
-									}
-								}
-							}
-						}
 					}
 
 					widget = {
@@ -659,7 +358,7 @@ window = {
 
 													datamodel = "[SituationSubRegion.GetCurrentPhase.GetType.GetModifierNamedSets]"
 													item = {
-														button_phase_kin_strife_named_set_item = {}
+														button_phase_numenor_named_set_item = {}
 													}
 												}
 											}
@@ -678,100 +377,34 @@ window = {
 						layoutpolicy_horizontal = expanding
 						size = { 515 40 }
 
-						progressbar_standard = { #Neutral
+						progressbar_standard = {
 							parentanchor = center
 							position = { 0 2 }
 							size = { 80% 26 }
 
 							blockoverride "progress_textures"
 							{
-								progresstexture = "gfx/interface/progressbars/progress_gray.dds"
+								progresstexture = "gfx/interface/progressbars/progress_blue.dds"
 								noprogresstexture = "gfx/interface/progressbars/progress_gray.dds"
 							}
 
-							value = "[EmptyScope.ScriptValue('lotr_kin_strife_total_loyalist_members')]"
-							max = "[EmptyScope.ScriptValue('lotr_kin_strife_total_participants')]"
+							value = "[EmptyScope.ScriptValue('council_of_numenor_approval_percentage')]"
+							min = 0
+							max = 100
 						}
 
-						progressbar_standard = { #Purist
+						numenor_counci_percentage = {
 							parentanchor = center
-							position = { 0 2 }
-							size = { 80% 26 }
-							mirror = horizontal
-
-							blockoverride "progress_textures"
-							{
-								progresstexture = "gfx/interface/progressbars/progress_red.dds"
-								noprogresstexture = "gfx/interface/progressbars/blank.dds"
-							}
-
-							value = "[EmptyScope.ScriptValue('lotr_kin_strife_total_loyalist_members')]"
-							max = "[EmptyScope.ScriptValue('lotr_kin_strife_total_participants')]"
-						}
-
-						progressbar_standard = { #Loyalst
-							parentanchor = center
-							position = { 0 2 }
-							size = { 80% 26 }
-
-							blockoverride "progress_textures"
-							{
-								progresstexture = "gfx/interface/progressbars/progress_standard.dds"
-								noprogresstexture = "gfx/interface/progressbars/blank.dds"
-							}
-
-							value = "[EmptyScope.ScriptValue('lotr_kin_strife_total_loyalist_members')]"
-							max = "[EmptyScope.ScriptValue('lotr_kin_strife_total_participants')]"
-						}
-						
-						kin_strife_group_percentages = { #Loyalist
 							blockoverride "text" {
-								raw_text = "#E [EmptyScope.ScriptValue('lotr_kin_strife_loyalist_score')]%#!"
+								raw_text = "#color_gray [EmptyScope.ScriptValue('council_of_numenor_approval_percentage')]%#!"
 							}
 							blockoverride "tooltip" {
-								tooltip = KIN_STRIFE_LOYALIST_SCORE
+								tooltip = NUMENOR_CONVINCED_NOBLES_SCORE
 							}
 							blockoverride "text_below_percentage" {
 								text_label_center = {
-									text = "kin_strife_participant_group_loyalist_group"
-									parentanchor = bottom
-									position = { 15 25 }
-									default_format = "#E"
-								}
-							}
-						}
-
-						kin_strife_group_percentages = { #Purist
-							parentanchor = right
-							blockoverride "text" {
-								raw_text = "#color_red [EmptyScope.ScriptValue('lotr_kin_strife_purist_score')]%#!"
-							}
-							blockoverride "tooltip" {
-								tooltip = KIN_STRIFE_PURIST_SCORE
-							}
-							blockoverride "text_below_percentage" {
-								text_label_center = {
-									text = "kin_strife_participant_group_purist_group"
-									parentanchor = bottom
-									position = { -35 25 }
-									default_format = "#color_red"
-								}
-							}
-						}
-
-						kin_strife_group_percentages = { #Neutral
-							parentanchor = center
-							blockoverride "text" {
-								raw_text = "#color_gray [EmptyScope.ScriptValue('lotr_kin_strife_neutral_score')]%#!"
-							}
-							blockoverride "tooltip" {
-								tooltip = KIN_STRIFE_NEUTRAL_SCORE
-							}
-							blockoverride "text_below_percentage" {
-								text_label_center = {
-									text = "kin_strife_participant_group_neutral_group"
-									parentanchor = bottom
-									position = { -15 25 }
+									text = "SITUATION_NUMENOR_CONVINCED_PERCENTAGE_COUNCIL_OF_THE_SCEPTRE"
+									position = { 0 45 }
 									default_format = "#color_gray"
 								}
 							}
@@ -864,7 +497,7 @@ window = {
 					}
 				}
 
-				hbox = {
+				hbox = { #Seperation Text
 					layoutpolicy_horizontal = expanding
 					margin = { 12 8 }
 
@@ -876,20 +509,14 @@ window = {
 						size = { 12 1 }
 					}
 
-					button_primary = {
-						margin = { 12 4 }
-						text = "KIN_STRIFE_SEE_ENDINGS_BUTTON"
-						onclick = "[GetVariableSystem.Set( 'situation_endings', 'true' )]"
-						onclick = "[GetVariableSystem.Clear( 'potential_phases' )]"
-						visible = "[GetVariableSystem.Exists( 'potential_phases' )]"
-					}
-
-					button_primary = {
-						margin = { 12 4 }
-						text = "KIN_STRIFE_SEE_PHASES_BUTTON"
-						onclick = "[GetVariableSystem.Set( 'potential_phases', 'true' )]"
-						onclick = "[GetVariableSystem.Clear( 'situation_endings' )]"
-						visible = "[GetVariableSystem.Exists( 'situation_endings' )]"
+					text_single = { 
+						text = SITUATION_NUMENOR_COUNCIL_OF_THE_SCEPTRE
+						default_format = "#bold"
+						background = {
+							margin = { 8 6 }
+							using = Mask_Rough_Edges
+							using = Background_Area
+						}
 					}
 
 					spacer = {
@@ -902,270 +529,51 @@ window = {
 				}
 
 				scrollbox = {
-					size = { 560 400 }
+					size = { 560 340 }
 
 					blockoverride "scrollbox_margins" {}
 					blockoverride "scrollbox_content"
 					{
-						vbox = {
-							layoutpolicy_vertical = expanding
-							layoutpolicy_horizontal = expanding
-							visible = "[Not(GetVariableSystem.Exists( 'situation_endings' ))]"
-
-							widget = {
-								size = { 540 240 }
-
-								background = { #Build Up Background
-									texture = "gfx/interface/illustrations/holding_types/castle_numenorean.dds"
-									visible = "[GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_build_up' )]"
-									using = Mask_Rough_Edges
-
-									modify_texture = {
-										texture = "gfx/interface/component_masks/mask_clouds.dds"
-										blend_mode = alphamultiply
-										spriteType = corneredTiled
-										alpha = 0.5
-									}
-								}
-
-								background = { #Civil War Background
-									texture = "gfx/interface/illustrations/event_scenes/battlefield_dunedain.dds"
-									using = Mask_Rough_Edges
-									visible = "[GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_civil_war' )]"
-								}
-
-								background = { #Exile Background
-									texture = "gfx/interface/illustrations/event_scenes/docks_dunedain.dds"
-									using = Mask_Rough_Edges
-									visible = "[GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_exile' )]"
-
-									modify_texture = {
-										texture = "gfx/interface/component_masks/mask_clouds.dds"
-										blend_mode = alphamultiply
-										spriteType = corneredTiled
-										alpha = 0.3
-									}
-
-									modify_texture = {
-										texture = "gfx/interface/component_masks/mask_clouds.dds"
-										blend_mode = alphamultiply
-										spriteType = corneredTiled
-										alpha = 0.2
-									}
-
-									modify_texture = {
-										texture = "gfx/interface/component_masks/mask_clouds.dds"
-										blend_mode = alphamultiply
-										spriteType = corneredTiled
-										alpha = 0.1
-									}
-								}
-
-								kin_strife_build_up_phase_effect = {} #Build Up Phase FX Effects
-
-								kin_strife_civil_war_phase_effects = {} #Civil War Phase FX Effects
-
-								kin_strife_exile_phase_effect = {}  #Exile Phase FX Effects
-
-								widget = {
-									datamodel = "[SituationPhase.GetFuturePhases]"
-									parentanchor = center
-									position = { -180 -10 }
-									item = {
-										widget = {
-											size = { 140 30 }
-											visible = "[FutureSituationPhase.HasPointsTakeoverType]"
-
-											progressbar_standard = {
-												parentanchor = center
-												size = { 140 30 }
-												value = "[FutureSituationPhase.GetRelativeProgressPercent]"
-												progresstexture = "gfx/interface/progressbars/progress_grandeur_increase.dds"
-											}
-
-											text_single = {
-												parentanchor = center
-												position = { 0 0 }
-												text = "SITUATION_PHASE_POINT_TAKEOVER_VALUE"
-											}
-										}
-									}
-								}
-
-								widget = {
-									datamodel = "[SituationPhase.GetFuturePhases]"
-									parentanchor = center
-									position = { 40 -10 }
-									item = {
-										widget = {
-											size = { 140 30 }
-											visible = "[FutureSituationPhase.HasPointsTakeoverType]"
-
-											progressbar_standard = {
-												parentanchor = center
-												size = { 140 30 }
-												value = "[FutureSituationPhase.GetRelativeProgressPercent]"
-												progresstexture = "gfx/interface/progressbars/progress_grandeur_increase.dds"
-											}
-
-											text_single = {
-												parentanchor = center
-												position = { 0 0 }
-												text = "SITUATION_PHASE_POINT_TAKEOVER_VALUE"
-											}
-										}
-									}
-								}
-
-								button_normal = {
-									size = { 100 100 }
-									texture = "gfx/interface/window_struggle/current_phase_point_based_phase.dds"
-									parentanchor = center
-									position = { -215 0 }
-									icon = {
-										size = { 75 75 }
-										parentanchor = center
-										position = { 0 5 }
-										texture = "gfx/interface/icons/situations/kin_strife/kin_strife_phase_build_up.dds"
-									}
-									tooltip = "KIN_STRIFE_CATALUST_BUTTON_TT"
-									onclick = "[GetVariableSystem.Set( 'phase_description', 'kin_strife_build_up_description' )]"
-									onclick = "[GetVariableSystem.Set( 'kin_strife_catalyst_window', Select_CString(GetVariableSystem.HasValue( 'kin_strife_catalyst_window', 'false' ), 'true', 'false') )]"
-									onrightclick = "[GetVariableSystem.Clear( 'phase_description')]"
-									down = "[GetVariableSystem.HasValue( 'phase_description', 'kin_strife_build_up_description' )]"
-									state = {
-										name = _mouse_hierarchy_enter
-										start_sound = { soundeffect = "event:/SFX/Events/Backgrounds/feasthall" }
-									}
-								}
-								button_normal = {
-									size = { 100 100 }
-									texture = "gfx/interface/window_struggle/current_phase_ending_phase.dds"
-									parentanchor = center
-									icon = {
-										size = { 90 90 }
-										parentanchor = center
-										position = { 0 10 }
-										texture = "gfx/interface/icons/situations/kin_strife/kin_strife_phase_civil_war.dds"
-									}
-									tooltip = "KIN_STRIFE_CATALUST_BUTTON_TT"
-									kin_strife_banner_fire_effect = {}
-									onclick = "[GetVariableSystem.Set( 'phase_description', 'kin_strife_civil_war_description' )]"
-									onclick = "[GetVariableSystem.Set( 'kin_strife_catalyst_window', Select_CString(GetVariableSystem.HasValue( 'kin_strife_catalyst_window', 'false' ), 'true', 'false') )]"
-									onrightclick = "[GetVariableSystem.Clear( 'phase_description')]"
-									down = "[GetVariableSystem.Exists( 'phase_description' )]"
-									state = {
-										name = _mouse_hierarchy_enter
-										start_sound = { soundeffect = "event:/SFX/UI/Siege/sfx_ui_siege_vfx_fire_03" }
-										start_sound = { soundeffect = "event:/SFX/Events/Backgrounds/burning_building" }
-									}
-
-									state = {
-										name = _mouse_hierarchy_leave
-										using = Sound_Kill_Siege_SFX
-									}
-								}
-								button_normal = {
-									size = { 100 100 }
-									texture = "gfx/interface/window_struggle/current_phase_point_based_phase.dds"
-									parentanchor = right
-									position = { -10 70 }
-									icon = {
-										size = { 85 85 }
-										parentanchor = center
-										position = { 0 3 }
-										texture = "gfx/interface/icons/situations/kin_strife/kin_strife_phase_exile.dds"
-									}
-									tooltip = "KIN_STRIFE_CATALUST_BUTTON_TT"
-									onclick = "[GetVariableSystem.Set( 'phase_description', 'kin_strife_exile_description' )]"
-									onclick = "[GetVariableSystem.Set( 'kin_strife_catalyst_window', Select_CString(GetVariableSystem.HasValue( 'kin_strife_catalyst_window', 'false' ), 'true', 'false') )]"
-									onrightclick = "[GetVariableSystem.Clear( 'phase_description')]"
-									down = "[GetVariableSystem.HasValue( 'phase_description', 'kin_strife_exile_description' )]"
-									state = {
-										name = _mouse_hierarchy_enter
-										start_sound = { soundeffect = "event:/SFX/Events/Backgrounds/docks_day" }
-									}
-								}
-
-								text_multi = {
-									text = "[Localize(GetVariableSystem.Get( 'phase_description' ))]"
-									parentanchor = center
-									position = { 0 80 }
-									max_width = 500
-									min_width = 500
-									autoresize = yes
-									using = Font_Type_Flavor
-									align = center|nobaseline
-									fontsize = 18
-									
-									background = {
-										margin = { 10 8 }
-										using = Background_Area_ExtraDark
-										using = Mask_Rough_Edges
-									}
-								}
-							}
-
-							vbox = { # Decisions
-								layoutpolicy_horizontal = expanding
-								layoutpolicy_vertical = expanding
-
-								name = "kin_strife_decisions_area"
-								widgetid = "kin_strife_groups_tab_contents"
-								datacontext = "[SituationWindow.GetSelectedOrLeadingFuturePhaseType]"
-
-								text_label_center = {
-									layoutpolicy_horizontal = expanding
-									using = Background_Area_Dark
-									text = "KIN_STRIFE_AVAILABLE_DECISIONS_HEADER"
-									using = Font_Size_Medium
-								}
-
-								### Kin Strife Decisions
-								vbox_kin_strife_decisions = {}
-							}
-						}
-					}
-
-					hbox = {
-						visible = "[GetVariableSystem.Exists( 'situation_endings' )]"
-						margin = { 12 12 }
-
-						vbox = {
-							spacing = 10
-							kin_strife_decision_button = {
-								blockoverride "DecisionContext" {
-									datacontext = "[GetDecisionWithKey('lotr_kin_strife_reconciliation')]"
-								}
-							}
-
-							kin_strife_decision_button = {
-								blockoverride "DecisionContext" {
-									datacontext = "[GetDecisionWithKey('lotr_kin_strife_absolute_victory')]"
-								}
-							}
-						}
-
-						vbox = {
-							spacing = 10
-							kin_strife_decision_button = {
-								blockoverride "DecisionContext" {
-									datacontext = "[GetDecisionWithKey('lotr_kin_strife_reintegration')]"
-								}
-							}
-							kin_strife_decision_button = {
-								blockoverride "DecisionContext" {
-									datacontext = "[GetDecisionWithKey('lotr_kin_strife_secession')]"
+						fixedgridbox = {
+							allow_outside = yes
+							addcolumn = 130
+							addrow = 160
+							maxverticalslots = 2
+							datamodel_wrap = 2
+							datamodel = "[SituationParticipantGroup.GetCharacters]"
+							datacontext = "[GetSituation('numenor_situation').GetTopParticipantGroupByKey('numenor_council_of_the_sceptre')]"
+							item = { 
+								numenor_council_of_the_sceptre_member = {
+									datacontext = "[Scope.Char]"
 								}
 							}
 						}
 					}
 				}
+							
+				vbox = { # Decisions
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+
+					name = "numenor_decisions_area"
+					widgetid = "numenor_groups_tab_contents"
+					datacontext = "[SituationWindow.GetSelectedOrLeadingFuturePhaseType]"
+
+					text_label_center = {
+						layoutpolicy_horizontal = expanding
+						using = Background_Area_Dark
+						text = "NUMENOR_SITUATION_AVAILABLE_DECISIONS_HEADER"
+						using = Font_Size_Medium
+					}
+
+					### Numenor Decisions
+					vbox_numenor_situation_decisions = {}
+				}
 			}
 		}
 	}
 
-	window_kin_strife_participant_groups = {
+	window_numenor_participant_groups = {
 		datacontext = "[SituationWindow.AccessParticipantCharacterList]"
 		datacontext = "[SituationParticipantCharacterList.AccessCharacterList]"
 		visible = "[SituationParticipantCharacterList.IsVisible]"
@@ -1176,214 +584,25 @@ window = {
 			text = "[SituationWindow.GetParticipationWindowHeader]"
 		}
 	}
-
-	kin_strife_catalysts_window = {}
 }
 
-template ResetVariableSystem
+types NumenorTypes
 {
-	onclick = "[GetVariableSystem.Set( 'current_kin_strife_phase', SituationWindow.GetSelectedSubRegion.GetCurrentPhase.GetType.GetKey)]"
-	onclick = "[GetVariableSystem.Set( 'loyalist_leader_pose', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_build_up' ), 'chancellor', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_civil_war' ), 'aggressive_axe', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_exile' ), 'sword_coup_degrace', 'chancellor'))) )]"
-	onclick = "[GetVariableSystem.Set( 'purist_leader_pose', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_build_up' ), 'disapproval', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_civil_war' ), 'aggressive_sword', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_exile' ), 'rage', 'chancellor'))) )]"
-	onclick = "[GetVariableSystem.Set( 'purist_leader_camera', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_build_up' ), 'camera_body', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_civil_war' ), 'camera_body_left', Select_CString(GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_exile' ), 'camera_body_left', 'camera_body'))) )]"
-}
-
-types KinStrifeTypes
-{
-	type kin_strife_civil_war_phase_effects = widget { #Civil War Phase FX Effects
-		size = { 1 1 }
-		visible = "[GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_civil_war' )]"
-
-		icon = {
-			size = { 350 270 }
-			position = { 0 -25 }
-			texture = "gfx/interface/window_war/blood_2.dds"
-
-			modify_texture = {
-				texture = "gfx/interface/component_masks/mask_clouds.dds"
-				blend_mode = alphamultiply
-				spriteType = corneredTiled
-				alpha = 0.2
-			}
-			modify_texture = {
-				texture = "gfx/interface/component_masks/mask_scratches.dds"
-				blend_mode = alphamultiply
-				mirror = vertical
-				alpha = 1
-			}
-			modify_texture = {
-				texture = "gfx/interface/component_masks/mask_fade_corner.dds"
-				blend_mode = alphamultiply
-			}
+	type numenor_council_of_the_sceptre_member = widget {
+		size = { 140 140 }
+		text_single = {
+			text = "[Character.GetFirstNameNoTooltip]"
+			fontsize = 18
+			default_format = "#high"
+			parentanchor = bottom|hcenter
+			position = { 0 15 }
 		}
-		icon = {
-			size = { 350 270 }
-			position = { 210 -25 }
-			texture = "gfx/interface/window_war/blood.dds"
-			using = Mask_Rough_Edges
-			modify_texture = {
-				texture = "gfx/interface/component_masks/mask_clouds.dds"
-				blend_mode = alphamultiply
-				spriteType = corneredTiled
-				alpha = 0.2
-			}
-			modify_texture = {
-				texture = "gfx/interface/component_masks/mask_scratches.dds"
-				blend_mode = alphamultiply
-				mirror = vertical
-				alpha = 1
-			}
-			modify_texture = {
-				name = "mask"
-				texture = "gfx/interface/component_masks/mask_fade_horizontal_middle_thick.dds"
-				spriteType = Corneredstretched
-				spriteborder = { 30 0 }
-				blend_mode = alphamultiply
-			}
-			modify_texture = {
-				texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
-				blend_mode = alphamultiply
-				mirror = vertical
-			}
-		}
-		icon = {
-			size = { 350 270 }
-			position = { 210 -10 }
-			texture = "gfx/interface/window_war/blood_2.dds"
-			using = Mask_Rough_Edges
-			mirror = vertical
-			modify_texture = {
-				texture = "gfx/interface/component_masks/mask_clouds.dds"
-				blend_mode = alphamultiply
-				spriteType = corneredTiled
-				alpha = 0.2
-			}
-			modify_texture = {
-				texture = "gfx/interface/component_masks/mask_scratches.dds"
-				blend_mode = alphamultiply
-				mirror = vertical
-				alpha = 1
-			}
-			modify_texture = {
-				texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
-				blend_mode = alphamultiply
-				mirror = vertical
-			}
-		}
-		icon = {
-			size = { 350 270 }
-			position = { 0 -10 }
-			texture = "gfx/interface/window_war/blood_2.dds"
-			using = Mask_Rough_Edges
-			mirror = vertical
-			modify_texture = {
-				texture = "gfx/interface/component_masks/mask_clouds.dds"
-				blend_mode = alphamultiply
-				spriteType = corneredTiled
-				alpha = 0.2
-			}
-			modify_texture = {
-				texture = "gfx/interface/component_masks/mask_scratches.dds"
-				blend_mode = alphamultiply
-				mirror = vertical
-				alpha = 1
-			}
-			modify_texture = {
-				texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
-				blend_mode = alphamultiply
-				mirror = vertical
-			}
-		}
-		icon = {
-			size = { 540 420 }
-			position = { 0 -185 }
-			texture = "gfx/interface/window_event/mask_event_image.dds"
-			shaderfile = "gfx/FX/lotr_event_shaders.shader"
-			effectname = "Sparks"
+		portrait_head = {
+			parentanchor = center
 		}
 	}
 
-	type kin_strife_build_up_phase_effect = widget { #Build Up Phase FX Effects
-		size = { 1 1 }
-		visible = "[GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_build_up' )]"
-		icon =	{
-			size = { 540 420 }
-			position = { 0 -185 }
-			texture = "gfx/interface/window_vfx/rain.dds"
-			gfxtype = icongfx
-			effectname = "RainStorm"
-			shaderfile = "gfx/FX/pdxgui_event_vfx.shader"
-			mipmaplodbias = -1
-		}
-	}
-	
-	type kin_strife_exile_phase_effect = widget { #Exile Phase FX Effects
-		size = { 1 1 }
-		visible = "[GetVariableSystem.HasValue( 'current_kin_strife_phase', 'kin_strife_exile' )]"
-		icon =	{
-			size = { 540 420 }
-			position = { 0 -185 }
-			texture = "gfx/interface/component_masks/mask_clouds_solid.dds"
-			gfxtype = icongfx
-			effectname = "Fog"
-			shaderfile = "gfx/FX/pdxgui_event_vfx.shader"
-			mipmaplodbias = -1
-		}
-	}
-	type kin_strife_banner_fire_effect = widget {
-		size = { 100% 100% }
-
-		icon = {
-			size = { 100% 100% }
-			texture = "gfx/interface/window_struggle/next_phase_ending_fire_01.dds"
-			alpha = 0.2
-
-			state = {
-				trigger_on_create = yes
-				name = a
-				next = b
-
-				using = Animation_Curve_Default
-				duration = 1
-				alpha = 0.2
-			}
-
-			state = {
-				name = b
-				next = a
-
-				using = Animation_Curve_Default
-				duration = 1
-				alpha = 0
-			}
-		}
-
-		icon = {
-			size = { 100% 100% }
-			texture = "gfx/interface/window_struggle/next_phase_ending_fire_02.dds"
-			alpha = 0
-
-			state = {
-				trigger_on_create = yes
-				name = a
-				next = b
-
-				using = Animation_Curve_Default
-				duration = 1
-				alpha = 0
-			}
-
-			state = {
-				name = b
-				next = a
-
-				using = Animation_Curve_Default
-				duration = 1
-				alpha = 0.2
-			}
-		}
-	}
-	type button_phase_kin_strife_named_set_item = button {
+	type button_phase_numenor_named_set_item = button {
 		datacontext = "[GetPlayer]"
 
 		icon = {
@@ -1407,29 +626,8 @@ types KinStrifeTypes
 		}
 	}
 
-	type button_kin_strife_decision = button_decision_entry {
-		visible = "[Decision.IsShownForPlayer]"
-		layoutpolicy_horizontal = expanding
-		onclick = "[OpenGameViewData( 'decision_detail', Decision.Self ) ]"
-		using = tooltip_ws
-	}
-
-	type button_kin_strife_interaction = button_standard {
-		#visible = "[Character.IsPlayerInteractionShown( 'gg_compromise_interaction' )]"
-		layoutpolicy_horizontal = expanding
-		minimumsize = { 0 33 }
-
-		# enabled = "[Character.IsPlayerInteractionValid( 'gg_compromise_interaction' )]"
-		# onclick = "[Character.OpenPlayerInteraction( 'gg_compromise_interaction' )]"
-
-		# tooltip = "[Character.GetPlayerInteractionTooltip( 'gg_compromise_interaction' )]"
-		# tooltip_when_disabled = "[Character.GetPlayerInteractionValidBlockers( 'gg_compromise_interaction' )]"
-
-		# text = "gg_compromise_interaction"
-	}
-
-	type window_kin_strife_participant_groups = window  {
-		name = "window_kin_strife_participant_groups"
+	type window_numenor_participant_groups = window  {
+		name = "window_numenor_participant_groups"
 		widgetanchor = right
 		position = { 30 100 }
 		size = { 740 82% }
@@ -1602,196 +800,8 @@ types KinStrifeTypes
 		}
 	}
 
-	type widget_purist_leader = widget {
-		size = { 220 225 }
-		datacontext = "[GetSituation('kin_strife').GetTopParticipantGroupByKey('purist_leader')]"
-
-		widget = {
-			size = { 200 50 }
-			parentanchor = bottom|hcenter
-			allow_outside = yes
-
-			hbox = {
-				layoutpolicy_horizontal = expanding
-				spacing = 12
-
-				widget = {
-					allow_outside = yes
-					size = { 50 0 }
-
-					widget = {
-						size = { 50 70 }
-						position = { 0 -46 }
-						allow_outside = yes
-
-						vbox = {
-							spacing = 8
-							layoutpolicy_vertical = expanding
-							portrait_opinion = {
-								blockoverride "opinion_bg_alpha" {
-									alpha = 0.6
-								}
-							}
-
-							button_round = {
-								visible = "[Not( ObjectsEqual( Character.Self, GetPlayer.Self ) )]"
-								onclick = "[ToggleFilteredCharacterInteractionMenu(Character.Self, 'kin_strife')]"
-								tooltip = "SITUATION_KIN_STRIFE_INTERACTION_BUTTON"
-
-								button_icon = {
-									alwaystransparent = yes
-									parentanchor = center
-									size = { 30 30 }
-									texture = "gfx/interface/icons/flat_icons/character_interactions.dds"
-								}
-
-								text_single = {
-									position = { 0 -8 }
-									parentanchor = top|hcenter
-									text = "[GetNumberOfValidInteractionsWithFilter(Character.Self, 'kin_strife')]"
-									default_format = "#glow_color:{0.1,0.1,0.1,1.0}"
-
-									background = {
-										margin = { 6 0 }
-										using = Background_Area_Dark
-									}
-								}
-							}
-						}
-					}
-				}
-
-				hbox = {
-					layoutpolicy_horizontal = expanding
-					spacing = 22
-					widget = {
-						allow_outside = yes
-						size = { 20 20 }
-
-						coa_realm_tiny_crown = {
-							position = { 0 -24 }
-							visible = "[Character.HasLandedTitles]"
-						}
-					}
-
-					text_single = {
-						text = "[Character.GetShortUIName]"
-						default_format = "#glow_color:{0.1,0.1,0.1,1.0}"
-						align = nobaseline
-
-						background = {
-							margin = { 12 4 }
-							using = Mask_Rough_Edges
-							using = Background_Area_Dark
-						}
-					}
-					expand = {}
-				}
-			}
-		}
-	}
-
-	type widget_loyalist_leader = widget {
-		size = { 220 225 }
-		datacontext = "[GetSituation('kin_strife').GetTopParticipantGroupByKey('loyalist_leader')]"
-
-		portrait_button = {
-			size = { 180 225 }
-			position = { -10 20 }
-
-			using = portrait_base
-
-			portrait_texture = "[Character.GetAnimatedPortrait( 'environment_hud', 'camera_torso_right', 'war_over_win', PdxGetWidgetScreenSize( PdxGuiWidget.Self ) )]"
-			background_texture = "gfx/portraits/portrait_transparent.dds"
-			effectname = "NoHighlight"
-			texture = "gfx/portraits/portrait_transparent.dds"
-			mask = "gfx/portraits/portrait_mask_body.dds"
-		}
-
-		widget = {
-			size = { 200 50 }
-			parentanchor = bottom|hcenter
-			allow_outside = yes
-
-			hbox = {
-				layoutpolicy_horizontal = expanding
-				spacing = 12
-
-				expand = {}
-
-				text_single = {
-					text = "[Character.GetShortUIName]"
-					default_format = "#glow_color:{0.1,0.1,0.1,1.0}"
-					align = nobaseline
-
-					background = {
-						margin = { 12 4 }
-						using = Mask_Rough_Edges
-						using = Background_Area_Dark
-					}
-				}
-
-				widget = {
-					allow_outside = yes
-					size = { 20 20 }
-
-					coa_realm_tiny_crown = {
-						position = { 0 -24 }
-						visible = "[Character.HasLandedTitles]"
-					}
-				}
-
-				widget = {
-					allow_outside = yes
-					size = { 50 0 }
-
-					widget = {
-						size = { 50 70 }
-						position = { 0 -46 }
-						allow_outside = yes
-
-						vbox = {
-							spacing = 8
-							layoutpolicy_vertical = expanding
-							portrait_opinion = {
-								blockoverride "opinion_bg_alpha" {
-									alpha = 0.6
-								}
-							}
-
-							button_round = {
-								visible = "[Not( ObjectsEqual( Character.Self, GetPlayer.Self ) )]"
-								onclick = "[ToggleFilteredCharacterInteractionMenu(Character.Self, 'kin_strife')]"
-								tooltip = "SITUATION_KIN_STRIFE_INTERACTION_BUTTON"
-
-								button_icon = {
-									alwaystransparent = yes
-									parentanchor = center
-									size = { 30 30 }
-									texture = "gfx/interface/icons/flat_icons/character_interactions.dds"
-								}
-
-								text_single = {
-									position = { 0 -8 }
-									parentanchor = top|hcenter
-									text = "[GetNumberOfValidInteractionsWithFilter(Character.Self, 'kin_strife')]"
-									default_format = "#glow_color:{0.1,0.1,0.1,1.0}"
-
-									background = {
-										margin = { 6 0 }
-										using = Background_Area_Dark
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
 	type group_banner = widget {
-		size = { 108 124 }
+		size = { 130 146 }
 
 		icon = {
 			size = { 100% 100% }
@@ -1802,11 +812,14 @@ types KinStrifeTypes
 		vbox = {
 			margin_top = 8
 
-			text_single = {
+			text_multi = {
 				block "group_text" {}
 				using = Font_Type_Flavor
 				using = Font_Size_Medium
-				max_width = 72
+				max_width = 120
+				default_format = "#high"
+				autoresize = yes
+				align = center
 			}
 
 			icon = {
@@ -1817,7 +830,7 @@ types KinStrifeTypes
 		}
 	}
 
-	type kin_strife_group_percentages = widget {
+	type numenor_counci_percentage = widget {
 		size = { 60 40 }
 
 		background = {
@@ -1840,7 +853,7 @@ types KinStrifeTypes
 		}
 
 		block "tooltip" {
-			tooltip = KIN_STRIFE_LOYALIST_SCORE
+			tooltip = NUMENOR_CONVINCED_NOBLES_SCORE
 		}
 		using = tooltip_ne
 
@@ -1853,110 +866,8 @@ types KinStrifeTypes
 		}
 	}
 
-	type kin_strife_decision_button = button_standard_clean {
-		size = { 250 180 }
-
-		block "DecisionContext" {
-			datacontext = "[GetDecisionWithKey('lotr_kin_strife_reconciliation')]"
-		}
-
-		enabled = "[Decision.IsPossibleForPlayer]"
-
-		onclick = "[OpenGameViewData( 'decision_detail', Decision.Self)]"
-
-		tooltipwidget = {
-			decision_tooltip = {}
-		}
-
-		vbox = {
-			layoutpolicy_horizontal = expanding
-			layoutpolicy_vertical = expanding
-
-			background = {
-				name = "decision_background"
-				texture = "[Decision.GetPicture( GetPlayer.Self )]"
-				using = Mask_Rough_Edges
-				fittype = centercrop
-				alpha = "[Select_float(Decision.IsPossibleForPlayer, '(float)1', '(float)0.4')]"
-
-				margin = { -1 -1 }
-
-				modify_texture = {
-					texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
-					blend_mode = alphamultiply
-					translate_uv = { 0 -0.1 }
-				}
-			}
-
-			hbox = {
-				visible = "[Not(Decision.IsPossibleForPlayer)]"
-				layoutpolicy_horizontal = expanding
-
-				margin = { 0 5 }
-
-				warning_icon = {
-					size = { 30 30 }
-					name = "not_possible"
-				}
-
-				background = {
-					using = Background_Area_Dark
-				}
-			}
-
-			expand = {}
-
-			hbox = {
-				layoutpolicy_horizontal = growing
-
-				background =  {
-					using = Background_Area_Dark
-
-					modify_texture = {
-						texture = "gfx/interface/component_masks/mask_fade_vertical.dds"
-						blend_mode = alphamultiply
-						mirror = vertical
-					}
-				}
-
-				background = {
-					texture ="gfx/interface/skinned/mask_pattern.dds"
-					texture_density = 3
-					spriteType = Corneredtiled
-					color = { 0.6 0.7 0.65 0.2 }
-					alpha = 0.7
-
-					modify_texture = {
-						texture = "gfx/interface/component_masks/mask_fade_vertical_up.dds"
-						blend_mode = alphamultiply
-					}
-				}
-
-				text_single = {
-					visible = "[Decision.IsPossibleForPlayer]"
-					text = "[Decision.GetTitleForPlayer]"
-					max_width = 170
-					margin = { 0 15 }
-					fontsize = 18
-					default_format = "#clickable"
-					align = center
-				}
-
-				text_single = {
-					visible = "[Not(Decision.IsPossibleForPlayer)]"
-					text = "[Decision.GetTitleForPlayer]"
-					max_width = 170
-					margin = { 0 15 }
-					fontsize = 18
-					default_format = "#low"
-					align = center
-				}
-			}
-		}
-	}
-
-	type vbox_kin_strife_decisions = vbox {
-		name = "kin_strife_decisions"
+	type vbox_numenor_situation_decisions = vbox {
+		name = "numenor_situation_decisions"
 		layoutpolicy_horizontal = expanding
 
 		background = {
@@ -1972,205 +883,11 @@ types KinStrifeTypes
 			margin_right = 5
 
 			button_decision_entry = {
-				datacontext = "[GetDecisionWithKey('lotr_kin_strife_support_leader_of_situation_as_dynasty')]"
+				datacontext = "[GetDecisionWithKey('decision_end_numenor_isolation')]"
 				visible = "[Decision.IsShownForPlayer]"
 				layoutpolicy_horizontal = expanding
 				onclick = "[OpenGameViewData( 'decision_detail', Decision.Self ) ]"
 				using = tooltip_ws
-			}
-
-			button_decision_entry = {
-				datacontext = "[GetDecisionWithKey('lotr_kin_strife_support_different_faction')]"
-				visible = "[Decision.IsShownForPlayer]"
-				layoutpolicy_horizontal = expanding
-				onclick = "[OpenGameViewData( 'decision_detail', Decision.Self ) ]"
-				using = tooltip_ws
-			}
-		}
-	}
-
-	type kin_strife_catalysts_window = window {
-		name = "kin_strife_catalysts_window"
-		widgetanchor = right
-		position = { 30 100 }
-		size = { 740 81% }
-
-		layer = middle
-		movable = yes
-
-		using = Window_Background
-		using = Window_Decoration_Spike
-		using = Window_Size_CharacterList
-
-		state = {
-			name = _show
-			using = Animation_FadeIn_Quick
-		}
-
-		state = {
-			name = _hide
-			using = Animation_FadeOut_Quick
-		}
-
-		datacontext = "[SituationWindow.GetSituation]"
-		datacontext = "[GetVariableSystem]"
-		datacontext = "[GetPlayer]"
-
-		visible = "[GetVariableSystem.HasValue( 'kin_strife_catalyst_window', 'true' )]"
-
-		vbox = {
-			using = Window_Margins
-
-			header_pattern = {
-				layoutpolicy_horizontal = expanding
-
-				blockoverride "button_close"
-				{
-					onclick = "[GetVariableSystem.Clear( 'kin_strife_catalyst_window' )]"
-				}
-
-				blockoverride "header_text" {
-					text = "SITUATION_KIN_STRIFE_CATALYST_HEADER"
-				}
-			}
-
-			scrollbox = {
-				layoutpolicy_vertical = expanding
-				layoutpolicy_horizontal = expanding
-
-				blockoverride "scrollbox_background" {}
-				blockoverride "scrollbox_background_fade" {}
-				blockoverride "scrollbox_margins" {}
-
-				blockoverride "scrollbox_content"
-				{
-					vbox = {
-						name = "catalyst_entries"
-						block "catalyst_data" {
-							datamodel = "[SituationWindow.GetCatalystsForSelectedPhase]"
-
-							datacontext = "[SituationWindow.GetSelectedSubRegion.GetCurrentPhase]"
-							datacontext = "[SituationWindow.GetSelectedOrLeadingFuturePhaseType]"
-						}
-
-						layoutpolicy_vertical = expanding
-						layoutpolicy_horizontal = expanding
-
-						maximumsize = { 1000 50 }
-
-						item = {
-							hbox = {
-								layoutpolicy_vertical = expanding
-								layoutpolicy_horizontal = expanding
-
-								hbox = {
-									layoutpolicy_vertical = expanding
-									min_width = 80
-
-									background = {
-										using = Background_Area_Dark
-										using = Color_Green
-										alpha = 0.1
-										margin_left = 4
-										margin_right = 6
-
-									}
-
-									background = {
-										using = Background_Frame
-										using = Color_Green
-										alpha = 0.3
-										margin_left = 4
-										margin_right = 6
-
-									}
-
-									hbox = {
-										layoutpolicy_horizontal = expanding
-										block "catalyst_header" {
-											icon = {
-												size = { 25 25 }
-												texture = "[SituationWindow.GetSelectedOrLeadingFuturePhaseType.GetIcon]"
-											}
-										}
-										text_single = {
-											block "phase_is_positive" {
-												visible = yes
-											}
-
-											text = "[SituationCatalystEntry.GetPoints|+=]"
-											align = nobaseline
-										}
-										text_single = {
-											block "phase_is_negative" {
-												visible = no
-											}
-
-											text = "[SituationCatalystEntry.GetPoints|-=]"
-											align = nobaseline
-										}
-									}
-								}
-
-								text_multi = {
-									layoutpolicy_horizontal = expanding
-									layoutpolicy_vertical = expanding
-									text = "[SituationCatalystEntry.GetCatalystDescription]"
-									autoresize = no
-									align = left|nobaseline
-									max_width = 500
-									margin = { 10 5 }
-								}
-
-								expand = {}
-
-								background = {
-									using = Background_Area_Dark
-								}
-
-								hbox = {
-									layoutpolicy_vertical = expanding
-									min_width = 70
-
-									background = {
-										visible = "[GreaterThan_int32( SituationPhase.GetNumCompletionsOfCatalystForPhase( SituationPhaseType.Self, SituationCatalystEntry.GetCatalyst ), '(int32)0' )]"
-										using = Background_Frame
-										color = { 0.4 0.603 0.298 1 }
-										alpha = 0.6
-									}
-
-									background = {
-										visible = "[GreaterThan_int32( SituationPhase.GetNumCompletionsOfCatalystForPhase( SituationPhaseType.Self, SituationCatalystEntry.GetCatalyst ), '(int32)0' )]"
-										using = Background_Area
-										color = { 0.4 0.603 0.298 1 }
-										alpha = 0.1
-									}
-
-									background = {
-										visible = "[EqualTo_int32( SituationPhase.GetNumCompletionsOfCatalystForPhase( SituationPhaseType.Self, SituationCatalystEntry.GetCatalyst ), '(int32)0' )]"
-										using = Background_Frame
-										using = Color_Grey
-										alpha = 0.4
-									}
-
-									background = {
-										visible = "[EqualTo_int32( SituationPhase.GetNumCompletionsOfCatalystForPhase( SituationPhaseType.Self, SituationCatalystEntry.GetCatalyst ), '(int32)0' )]"
-										using = Background_Area
-										using = Color_Grey
-										alpha = 0.1
-									}
-
-									text_single = {
-										min_width = 70
-
-										align = nobaseline|center
-										raw_text = "[Select_CString( GreaterThan_int32( SituationPhase.GetNumCompletionsOfCatalystForPhase( SituationPhaseType.Self, SituationCatalystEntry.GetCatalyst ), '(int32)0' ), '#COLOR_GREEN ', '#COLOR_GRAY ')]x[SituationPhase.GetNumCompletionsOfCatalystForPhase(SituationPhaseType.Self, SituationCatalystEntry.GetCatalyst)]#!"
-									}
-								}
-							}
-						}
-					}
-				}
 			}
 		}
 	}

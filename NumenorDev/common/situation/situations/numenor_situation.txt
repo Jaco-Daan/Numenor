@@ -4,7 +4,7 @@
 	map_mode = participant_groups
 	is_unique = yes # Only exists once
 	migration = no
-	illustration = "gfx/interface/illustrations/event_story/elven_hope_situation.dds"
+	illustration = "gfx/interface/illustrations/situation_backgrounds/numenor_situation_background.dds"
 	situation_group_type = major
 	
 	### Regions ###
@@ -19,7 +19,7 @@
 	### Participants ###
 	participant_groups = {
 		numenor_ruler = {
-			icon = "gfx/interface/icons/situations/elven_hope/elven_rulers_capital.dds"
+			icon = "gfx/interface/icons/situations/numenor/numenor_ruler.dds"
 			require_capital_in_sub_region = yes
 			is_character_valid = {
 				has_title = title:e_numenor
@@ -30,8 +30,29 @@
 			map_color = { 255 127 80 }
 		}
 		
+		numenor_council_of_the_sceptre = {
+			icon = "gfx/interface/icons/situations/numenor/numenor_council_of_the_sceptre.dds"
+			require_capital_in_sub_region = yes
+			is_character_valid = {
+				OR = {
+					has_title = title:d_andunie
+					has_title = title:d_nisimaldar
+					has_title = title:d_nunduine
+					has_title = title:d_ciryanore
+					has_title = title:d_nindamos
+					has_title = title:d_hyarnudore
+					has_title = title:d_sorontil
+					has_title = title:d_formenore
+				}
+			}
+
+			on_join = { }
+
+			map_color = { 255 127 80 }
+		}
+
 		numenor_vassals = {
-			icon = "gfx/interface/icons/situations/elven_hope/elven_rulers_partial.dds"
+			icon = "gfx/interface/icons/situations/numenor/numenor_vassals.dds"
 			require_capital_in_sub_region = yes
 			is_character_valid = {
 				NOT = { has_title = title:e_numenor }
@@ -51,12 +72,12 @@
 	}
 	
 	### Phases ###
-	start_phase = situation_elven_waning
+	start_phase = numenor_situation_isolation
 	
     phases = {
 		
 		numenor_situation_isolation = {
-			icon = "gfx/interface/icons/situations/elven_hope/elven_phase_fading.dds"
+			icon = "gfx/interface/icons/situations/numenor/numenor_situation_isolation.dds"
 
 			on_start = {
 			}
@@ -66,7 +87,9 @@
 					icon = "gfx/interface/icons/situations/situation_modifier_subject.dds"
 
 					all = {
-						diplomatic_range_mult = -1.25
+						character_modifier = {
+							diplomatic_range_mult = -100
+						}
 					}
 				}
 			}
