@@ -110,3 +110,47 @@ show_numenorean_minhiriath_trigger = {
 numenor_in_isolation_phase = {
 	situation:numenor_situation = { situation_current_phase = numenor_isolated }
 }
+
+numenor_can_declare_war = {
+	trigger_if = {
+		limit = {
+			scope:actor = title:e_numenor.holder
+			NOT = {
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions
+					target = flag:disband_numenor_council
+				}
+			}
+		}
+		trigger_if = {
+			limit = {
+				any_in_global_list = {
+					variable = council_of_numenor
+					count > 6
+				}
+			}
+			council_of_numenor_total_approval > 3 # 7/8
+		}
+		trigger_else_if = {
+			limit = {
+				any_in_global_list = {
+					variable = council_of_numenor
+					count > 4
+				}
+			}
+			council_of_numenor_total_approval > 2 # 5/6
+		}
+		trigger_else_if = {
+			limit = {
+				any_in_global_list = {
+					variable = council_of_numenor
+					count > 2
+				}
+			}
+			council_of_numenor_total_approval > 1 # 3/4
+		}
+		trigger_else = {
+			council_of_numenor_total_approval > 0 # 1/2
+		}
+	}
+}

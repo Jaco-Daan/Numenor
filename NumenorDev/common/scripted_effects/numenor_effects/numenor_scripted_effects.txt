@@ -7,12 +7,12 @@
 
 numenor_elros_history_changes_effect = {
 	character:lineofelros7 = { set_mother = character:mablung11 }
-	character:lineofelros71 = { set_house = house:dynasty_agathor }
+	character:lineofelros71 = { set_house = dynasty:dynasty_agathor }
 	character:lineofelros72 = {
-		set_house = house:dynasty_agathor
+		set_house = dynasty:dynasty_agathor
 		set_father = character:lineofagathor_ns6
 	}
-	character:lineofelros73 = { set_house = house:dynasty_agathor }
+	character:lineofelros73 = { set_house = dynasty:dynasty_agathor }
 }
 
 numenor_vardur_history_changes_effect = {
@@ -21,7 +21,7 @@ numenor_vardur_history_changes_effect = {
 
 numenor_elatan_history_changes_effect = {
 	character:lineofelatan21 = {
-		set_house = house:dynasty_elros
+		set_house = dynasty:dynasty_elros
 		set_father = character:lineofelros83
 	}
 }
