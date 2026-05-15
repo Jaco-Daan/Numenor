@@ -12733,6 +12733,43 @@ lineborodiriath96 = {
         death = { death_reason = death_natural_causes }
     }
 }
+lineborodiriath96brother = { # One of the three protagonists of the Bellakar Expedition
+    name = Nimruzi_i_r
+
+    dynasty_house = house_borodiriathcadet
+    religion = faith_conservative_eruism
+    culture = bellakarani
+
+    father = lineborodiriath94
+    mother = lineborodiriath95
+
+    sexuality = heterosexual
+
+    trait = shy
+    trait = compassionate
+    trait = honest
+    trait = twin
+	trait = intellect_good_1
+
+    diplomacy = 6
+    martial = 5
+    stewardship = 7
+    intrigue = 4
+    learning = 7
+    prowess = 4
+
+    trait = education_learning_4
+    trait = lifestyle_archivist
+
+	trait = blood_of_numenor_4
+    5345.6.6 = {
+        birth = yes
+    }
+	
+    5519.7.2 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
 lineborodiriath97 = {
     name = Narkuzi_i_r
 
