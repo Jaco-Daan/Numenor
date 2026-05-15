@@ -1196,20 +1196,6 @@ k_sacred_isles = {
 	}
 }
 
-k_holzoreth = {
-	color = { 53 62 189 }
-	landless = no # should be destroyed if the holder is rendered landless
-	destroy_if_invalid_heir = yes
-	de_jure_drift_disabled = no
-	always_follows_primary_heir = yes
-	ignore_titularity_for_title_weighting = yes
-	capital = c_holzoreth
-	cultural_names = {
-		name_list_seven_lands = cn_hammerdal
-		name_list_southern_apysaic = cn_hammerdal
-	}
-}
-
 ### Tedjin ###
 
 e_tedjin = {
