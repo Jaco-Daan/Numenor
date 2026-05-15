@@ -1,38 +1,4 @@
-﻿set_up_council_of_sceptre = {
-	add_to_global_variable_list = {
-		name = council_of_numenor
-		target = title:d_andunie.holder 
-	}
-	add_to_global_variable_list = {
-		name = council_of_numenor
-		target = title:d_nisimaldar.holder
-	}
-	add_to_global_variable_list = {
-		name = council_of_numenor
-		target = title:d_nunduine.holder 
-	}
-	add_to_global_variable_list = {
-		name = council_of_numenor
-		target = title:d_ciryanore.holder 
-	}
-	add_to_global_variable_list = {
-		name = council_of_numenor
-		target = title:d_nindamos.holder 
-	}
-	add_to_global_variable_list = {
-		name = council_of_numenor
-		target = title:d_hyarnudore.holder 
-	}
-	add_to_global_variable_list = {
-		name = council_of_numenor
-		target = title:d_sorontil.holder 
-	}
-	add_to_global_variable_list = {
-		name = council_of_numenor
-		target = title:d_formenore.holder 
-	}
-}
-numenor_history_changes = {
+﻿numenor_history_changes = {
 	numenor_elros_history_changes_effect = yes
 	numenor_vardur_history_changes_effect = yes
 	numenor_elatan_history_changes_effect = yes
