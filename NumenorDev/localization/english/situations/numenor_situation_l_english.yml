@@ -14,6 +14,7 @@
  numenor_situation_numenor_situation_isolation_situation_phase: "Isolation Phase"
 
  # Phase Effects 
+ numenor_situation_isolation_desc: "For countless years since the Downfall, the Isle of Númenor has remained secluded in the Great Sea, shrouded in mist and self-imposed isolation. It has been sundered from Middle-earth. Some view this as the rightful state, others strive against it."
  numenor_situation_isolation_effects: "Effects on Númenor"
  numenor_situation_isolation_effects_concept: "[character|E]"
  
