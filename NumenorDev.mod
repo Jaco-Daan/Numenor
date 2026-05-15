@@ -9,5 +9,5 @@ dependencies={
 }
 name="Númenor Developer"
 picture="thumbnail.png"
-supported_version="1.10.2"
+supported_version="1.19.*"
 remote_file_id="2902243711"
