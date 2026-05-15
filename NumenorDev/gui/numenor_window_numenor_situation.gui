@@ -590,12 +590,23 @@ types NumenorTypes
 {
 	type numenor_council_of_the_sceptre_member = widget {
 		size = { 140 140 }
-		text_single = {
+		text_single = { #Not high opinion
 			text = "[Character.GetFirstNameNoTooltip]"
 			fontsize = 18
 			default_format = "#high"
 			parentanchor = bottom|hcenter
 			position = { 0 15 }
+			default_format = "#glow_color:{0.4,0.1,0.1,1.0}"
+			visible = "[LessThan_int32(Character.GetOpinionOf( GetTitleByKey('e_numenor').GetHolder ), '(int32)100')]"
+		}
+		text_single = { #High opinion
+			text = "[Character.GetFirstNameNoTooltip]"
+			fontsize = 18
+			default_format = "#high"
+			parentanchor = bottom|hcenter
+			position = { 0 15 }
+			default_format = "#glow_color:{0.1,0.1,0.4,1.0}"
+			visible = "[GreaterThanOrEqualTo_int32(Character.GetOpinionOf( GetTitleByKey('e_numenor').GetHolder ), '(int32)100')]"
 		}
 		portrait_head = {
 			parentanchor = center
