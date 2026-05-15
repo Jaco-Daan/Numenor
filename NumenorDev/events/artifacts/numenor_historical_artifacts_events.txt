@@ -16,7 +16,6 @@ numenor_historical_artifacts.0001 = {
 			}
 			title:e_numenor.holder  = { # King of Numenor receives Dramborleg
 				create_artifact_dramborleg_effect = { OWNER = this }
-				create_artifact_scroll_of_kings_effect = { OWNER = this }
 			}
 		}
 		

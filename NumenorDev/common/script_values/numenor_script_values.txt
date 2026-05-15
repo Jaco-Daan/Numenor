@@ -117,3 +117,138 @@ council_of_numenor_approval_percentage = {
 	multiply = 100
 	floor = yes
 }
+
+numenor_explore_history_province_score = {
+	value = 0
+	
+	if = {
+		limit = { has_building_or_higher = wonder_armenelos_01 } # Armenelos
+		add = 150
+	}
+	if = { #Numenor Sub-mod
+		limit = { has_building_or_higher = wonder_andunie_01 } # Andunie
+		add = 100
+	}
+	if = { #Numenor Sub-mod
+		limit = { has_building_or_higher = wonder_eldalonde_01 } # Eldalonde
+		add = 100
+	}
+	if = { #Numenor Sub-mod
+		limit = { has_building = wonder_calmindon_01 } # Calmindon
+		add = 100
+	}
+	if = { #Numenor Sub-mod
+		limit = { has_building = wonder_sorontil_02 } # Sorontil
+		add = 100
+	}
+	if = { #Numenor Sub-mod
+		limit = { has_building = wonder_sorontil_01 } # Sorontil
+		add = 25
+	}
+}
+
+numenor_explore_history_cost = {
+	value = 0
+
+	if = { #Armenelos
+		limit = {
+			scope:province ?= {
+				has_building_or_higher = wonder_armenelos_01
+			}
+		}
+		add = {
+			value = 0
+			add = {
+				value = explore_history_activity_base_cost
+				add = {
+					value = explore_history_activity_base_cost
+					multiply = activity_cost_scale_by_era
+					subtract = explore_history_activity_base_cost
+				}
+			}
+			multiply = explore_history_activity_cost_discount_max_value
+			desc = explore_history_cost_discount_wonder_armenelos
+		}
+	}
+	if = {
+		limit = { 
+			scope:province ?= {
+				has_building_or_higher = wonder_andunie_01
+			}
+		}
+		add = {
+			value = 0
+			add = {
+				value = explore_history_activity_base_cost
+				add = {
+					value = explore_history_activity_base_cost
+					multiply = activity_cost_scale_by_era
+					subtract = explore_history_activity_base_cost
+				}
+			}
+			multiply = explore_history_activity_cost_discount_medium_value
+			desc = explore_history_cost_discount_wonder_andunie
+		}
+	}
+	if = { #Numenor Sub-mod
+		limit = { # Eldalonde
+			scope:province ?= {
+				has_building_or_higher = wonder_eldalonde_01
+			}
+		}
+		add = {
+			value = 0
+			add = {
+				value = explore_history_activity_base_cost
+				add = {
+					value = explore_history_activity_base_cost
+					multiply = activity_cost_scale_by_era
+					subtract = explore_history_activity_base_cost
+				}
+			}
+			multiply = explore_history_activity_cost_discount_medium_value
+			desc = explore_history_cost_discount_wonder_eldalonde
+		}
+	}
+	
+	if = { #Numenor Sub-mod
+		limit = { # Calmindon
+			scope:province ?= {
+				has_building = wonder_calmindon_01
+			}
+		}
+		add = {
+			value = 0
+			add = {
+				value = explore_history_activity_base_cost
+				add = {
+					value = explore_history_activity_base_cost
+					multiply = activity_cost_scale_by_era
+					subtract = explore_history_activity_base_cost
+				}
+			}
+			multiply = explore_history_activity_cost_discount_medium_value
+			desc = explore_history_cost_discount_wonder_calmindon
+		}
+	}
+	if = { #Sorontil
+		limit = {
+			scope:province ?= {
+				has_building = wonder_sorontil_02
+			}
+		}
+		add = {
+			value = 0
+			add = {
+				value = explore_history_activity_base_cost
+				add = {
+					value = explore_history_activity_base_cost
+					multiply = activity_cost_scale_by_era
+					subtract = explore_history_activity_base_cost
+				}
+			}
+			multiply = explore_history_activity_cost_discount_medium_value
+			desc = explore_history_cost_discount_wonder_sorontil_02
+		}
+	}
+}

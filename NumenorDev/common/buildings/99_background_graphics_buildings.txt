@@ -55,7 +55,6 @@ walls_00 = {
 			has_building = "wonder_cirith_ungol_original"
 			has_building_or_higher = "wonder_umbar_01"
 			has_building_or_higher = "wonder_fornost_01"
-			has_building_or_higher = "wonder_fornost_original_01"
 			OR = {
 				has_building = "wonder_framsburg_01"
 				has_building = "wonder_framsburg_03"
@@ -181,7 +180,6 @@ walls_01_tribal = {
 			has_building = "wonder_cirith_ungol_original"
 			has_building_or_higher = "wonder_umbar_01"
 			has_building_or_higher = "wonder_fornost_01"
-			has_building_or_higher = "wonder_fornost_original_01"
 			barony = title:b_gundabad
 			barony = title:b_elostirion
 			barony = title:b_harostirion
@@ -205,7 +203,7 @@ walls_01_tribal = {
 		}
 		# Nomads use custom walls
 		scope:holder = { NOT = { government_has_flag = government_is_nomadic } }
-		NOT = { scope:holder = { government_has_flag = government_is_wastelands } } #LotR
+		scope:holder = { is_wastelands = no } #LotR
 	}
 }
 
@@ -423,70 +421,6 @@ walls_01 = {
 			}
 			
 
-	}
-	asset = {
-		type = entity
-		names = { "western_walls_01_a_entity" "western_walls_01_b_entity" }
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx steppe_building_gfx norse_building_gfx iberian_building_gfx }
-		graphical_regions = { graphical_western graphical_mediterranean graphical_steppe }
-	}
-	asset = {
-		type = entity
-		names = { "mena_walls_01_a_entity" "mena_walls_01_b_entity" }
-		graphical_cultures = { western_building_gfx mediterranean_building_gfx indian_building_gfx mena_building_gfx steppe_building_gfx norse_building_gfx iberian_building_gfx }
-		graphical_regions = { graphical_mena graphical_india }
-	}
-	# TGP Southeast Asia
-	asset = {
-		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
-		graphical_cultures = { southeast_asian_building_gfx }
-		graphical_regions = { graphical_east_asia graphical_india }
-		names = {
-			"tgp_building_se_asia_wall_01_mesh"
-		}
-	}
-	# TGP China
-	asset = {
-		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
-		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_east_asia graphical_steppe }
-		names = {
-			"tgp_building_chinese_wall_01_mesh"
-		}
-	}
-	# TGP Japan
-	asset = {
-		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
-		graphical_cultures = { japanese_building_gfx }
-		graphical_regions = { graphical_east_asia graphical_steppe }
-		names = {
-			"tgp_building_japanese_wall_01_mesh"
-		}
-	}
-	asset = {
-		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
-		graphical_cultures = { steppe_building_gfx }
-		governments = { steppe_admin_government celestial_government meritocratic_government }
-		graphical_regions = { graphical_east_asia graphical_steppe }
-		names = {
-			"tgp_building_chinese_wall_01_mesh"
-		}
-	}
-	asset = {
-		type = pdxmesh
-		requires_dlc_flag = khans_of_the_steppe
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_steppe }
-		governments = { nomad_government }
-		names = {
-			"mpo_mongol_wall_01_mesh"
-		}
-	}
-
 	is_enabled = {
 		OR = {
 			# These buildings will trigger the visual "upgrade" to this wall asset
@@ -547,7 +481,6 @@ walls_01 = {
 			has_building_or_higher = "wonder_west_samarth_01"
 			has_building_or_higher = "wonder_umbar_01"
 			has_building_or_higher = "wonder_fornost_01"
-			has_building_or_higher = "wonder_fornost_original_01"
 			OR = {
 				has_building = "wonder_framsburg_01"
 				has_building = "wonder_framsburg_03"
@@ -651,46 +584,6 @@ walls_02 = {
 		graphical_cultures = { byzantine_building_gfx } #LotR
 		names = {
 			"ep3_byzantine_walls_02_mesh"
-		}
-	}
-	# TGP Southeast Asia
-	asset = {
-		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
-		graphical_cultures = { southeast_asian_building_gfx }
-		graphical_regions = { graphical_east_asia graphical_india }
-		names = {
-			"tgp_building_se_asia_wall_02_mesh"
-		}
-	}
-	# TGP China
-	asset = {
-		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
-		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_east_asia graphical_steppe }
-		names = {
-			"tgp_building_chinese_wall_02_mesh"
-		}
-	}
-	# TGP Japan
-	asset = {
-		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
-		graphical_cultures = { japanese_building_gfx }
-		graphical_regions = { graphical_east_asia graphical_steppe }
-		names = {
-			"tgp_building_japanese_wall_02_mesh"
-		}
-	}
-	asset = {
-		type = pdxmesh
-		requires_dlc_flag = all_under_heaven
-		governments = { steppe_admin_government celestial_government meritocratic_government }
-		graphical_cultures = { steppe_building_gfx }
-		graphical_regions = { graphical_east_asia graphical_steppe }
-		names = {
-			"tgp_building_chinese_wall_02_mesh"
 		}
 	}
 
@@ -934,7 +827,6 @@ walls_02 = {
 			has_building = "wonder_cirith_ungol_original"
 			has_building_or_higher = "wonder_umbar_01"
 			has_building_or_higher = "wonder_fornost_01"
-			has_building_or_higher = "wonder_fornost_original_01"
 			OR = {
 				has_building = "wonder_framsburg_01"
 				has_building = "wonder_framsburg_03"
@@ -959,7 +851,6 @@ walls_02 = {
 			has_building_or_higher = "wonder_sorontil_01" #Numenor Submod
 			has_building_or_higher = "wonder_romenna_01" #Numenor Submod
 			has_building_or_higher = "wonder_armenelos_01" #Numenor Submod
-			
 		}
 		NOT = { scope:holder = { government_has_flag = government_is_wastelands } } #LotR
 	}
@@ -1607,7 +1498,6 @@ walls_04 = {
 			#LOTR
 			has_building_or_higher = "wonder_umbar_01"
 			has_building_or_higher = "wonder_fornost_01"
-			has_building_or_higher = "wonder_fornost_original_01"
 			has_building_or_higher = "wonder_ramlond"
 			has_building_or_higher = "wonder_mirlond"
 			has_building_or_higher = "wonder_nilulonde_01"
@@ -1645,7 +1535,6 @@ walls_04 = {
 			has_building = "wonder_cirith_ungol_original"
 			has_building_or_higher = "wonder_umbar_01"
 			has_building_or_higher = "wonder_fornost_01"
-			has_building_or_higher = "wonder_fornost_original_01"
 			OR = {
 				has_building = "wonder_framsburg_01"
 				has_building = "wonder_framsburg_03"

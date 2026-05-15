@@ -1229,7 +1229,7 @@ decision_restore_numenor_province = {
 	sort_order = 90
 	title = decision_restore_gondor_province.numenorean #Works for this decision
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_minas_tirith_02.dds"
+		reference = "gfx/interface/illustrations/situation_backgrounds/numenor_situation_background.dds"
 	}
 
 	decision_group_type = realms_in_exile_major
