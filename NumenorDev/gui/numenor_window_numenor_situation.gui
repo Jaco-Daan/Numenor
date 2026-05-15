@@ -593,7 +593,6 @@ types NumenorTypes
 		text_single = { #Not high opinion
 			text = "[Character.GetFirstNameNoTooltip]"
 			fontsize = 18
-			default_format = "#high"
 			parentanchor = bottom|hcenter
 			position = { 0 15 }
 			default_format = "#glow_color:{0.4,0.1,0.1,1.0}"
@@ -602,7 +601,6 @@ types NumenorTypes
 		text_single = { #High opinion
 			text = "[Character.GetFirstNameNoTooltip]"
 			fontsize = 18
-			default_format = "#high"
 			parentanchor = bottom|hcenter
 			position = { 0 15 }
 			default_format = "#glow_color:{0.1,0.4,0.1,1.0}"
