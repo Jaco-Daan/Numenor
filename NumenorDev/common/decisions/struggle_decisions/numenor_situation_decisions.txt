@@ -20,9 +20,9 @@
 		}
 	}
 	
-	selection_tooltip = decision_expedition_anarike_tooltip
-	desc = decision_expedition_anarike_desc
-	confirm_text = decision_expedition_anarike_confirm
+	selection_tooltip = decision_end_numenor_isolation_tooltip
+	desc = decision_end_numenor_isolation_desc
+	confirm_text = decision_end_numenor_isolation_confirm
 	
 	is_shown = {
 		has_title = title:e_numenor
