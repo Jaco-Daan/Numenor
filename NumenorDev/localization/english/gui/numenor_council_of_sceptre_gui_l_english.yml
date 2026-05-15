@@ -1,7 +1,0 @@
-﻿l_english:
-
-  NUMENOR_COUNCIL_OF_SCEPTRE_HUD_TT: "Council of the Sceptre"
-  NUMENOR_COUNCIL_OF_SCEPTRE_HEADER: "Council of the Sceptre"
-  NUMENOR_COUNCIL_APPROVAL_HEADER: "Overall council approval:"
-  
-  NUMENOR_COUNCIL_APPROVAL_NUM: "\n\n#P [EmptyScope.ScriptValue('council_of_numenor_total_approval_gui')|0]/[EmptyScope.ScriptValue('total_council_members_on_numenor_council')]#!"

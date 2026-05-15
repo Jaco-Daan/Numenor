@@ -120,3 +120,18 @@ numenor_borodiriath_history_changes_effect = {
 	character:lineborodiriath112 = { set_house = house:dynasty_bordirurecadet }
 	character:lineborodiriath113 = { set_house = house:dynasty_bordirurecadet }
 }
+
+define_numenor_resources = { # Setup resources on Numenor
+	title:b_sorontil.title_province = {
+		add_province_modifier = mining_mithril_province_modifier
+	}
+	title:b_imrarat.title_province = {
+		add_province_modifier = mining_silver_province_modifier
+	}
+	title:b_azrayat.title_province = {
+		add_province_modifier = mining_iron_province_modifier
+	}
+	title:b_anariova.title_province = {
+		add_province_modifier = mining_sapphire_province_modifier
+	}
+}

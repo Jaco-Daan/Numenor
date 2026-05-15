@@ -7,7 +7,6 @@ decision_gondor_regnal_names = {
 	}
 
 	decision_group_type = realms_in_exile_minor
-
 	ai_check_interval_by_tier = {
 		barony = 0
 		county = 0
@@ -194,7 +193,6 @@ decision_claim_gondor_kingship = { # Allows native Gondorians to restore the Kin
 
 	selection_tooltip = decision_claim_gondor_kingship_tooltip
 	confirm_text = decision_claim_gondor_kingship_confirm
-
 	ai_check_interval_by_tier = {
 		barony = 0
 		county = 0
@@ -597,7 +595,6 @@ decision_league_of_pelargir = {
 	}
 
 	decision_group_type = realms_in_exile_major
-
 	ai_check_interval_by_tier = {
 		barony = 0
 		county = 0
@@ -712,7 +709,6 @@ decision_colonial_belfalas = {
 	}
 
 	decision_group_type = realms_in_exile_major
-
 	ai_check_interval_by_tier = {
 		barony = 0
 		county = 0
@@ -779,7 +775,6 @@ decision_colonial_umbar = {
 	}
 
 	decision_group_type = realms_in_exile_major
-
 	ai_check_interval_by_tier = {
 		barony = 0
 		county = 0
@@ -852,7 +847,6 @@ decision_colonial_harnen = {
 	}
 
 	decision_group_type = realms_in_exile_major
-
 	ai_check_interval_by_tier = {
 		barony = 0
 		county = 0
@@ -1622,7 +1616,6 @@ decision_calenardhon_claim = {
 			}
 		}
 	}
-
 	is_valid = {
 		is_independent_ruler = yes
 		completely_controls_region = custom_gondorian_anorien
@@ -2959,36 +2952,38 @@ decision_numenor_in_exile = {
 	desc = decision_numenor_in_exile_desc
 	confirm_text = decision_numenor_in_exile_confirm
 	is_shown = {
-		NOT = { has_title = title:e_numenor } #Numenor Submod
 		lotr_has_numenorean_culture_trigger = yes # Only a Numenorean culture can claim the mantle of successor to Numenor!
 		highest_held_title_tier >= tier_empire # Only an imperial rank can hope to claim the mantle of successor to Numenor!
-		OR = { # Compromise solution
-			# Either own half of the entire region of NIE
-			any_county_in_region = {
-				region = special_nie
-				OR = {
-					holder = { is_vassal_or_below_of = root }
-					holder = root
+		AND = {
+			NOT = { has_title = title:e_numenor } #Numenor Submod
+			OR = { # Compromise solution
+				# Either own half of the entire region of NIE
+				any_county_in_region = {
+					region = special_nie
+					OR = {
+						holder = { is_vassal_or_below_of = root }
+						holder = root
+					}
+					percent >= 0.5
 				}
-				percent >= 0.5
-			}
-			# Or control six of these key locations
-			calc_true_if = { # Important colonial cities
-				amount >= 6
-				completely_controls = title:c_tharbad
-				completely_controls = title:c_lond_galen
-				completely_controls = title:c_dol_amroth
-				completely_controls = title:c_osgiliath
-				completely_controls = title:c_pelargir
-				completely_controls = title:c_umbar
-				completely_controls = title:c_nykkea
-				completely_controls = title:c_hazaj_tollin
-				completely_controls = title:c_nilulonde
-				completely_controls = title:c_korlea
-				completely_controls = title:c_tariketh_an_kharat
-				completely_controls = title:c_inzilloni
-				completely_controls = title:c_uruloni
-				completely_controls = title:c_mispir
+				# Or control six of these key locations
+				calc_true_if = { # Important colonial cities
+					amount >= 6
+					completely_controls = title:c_tharbad
+					completely_controls = title:c_lond_galen
+					completely_controls = title:c_dol_amroth
+					completely_controls = title:c_osgiliath
+					completely_controls = title:c_pelargir
+					completely_controls = title:c_umbar
+					completely_controls = title:c_nykkea
+					completely_controls = title:c_hazaj_tollin
+					completely_controls = title:c_nilulonde
+					completely_controls = title:c_korlea
+					completely_controls = title:c_tariketh_an_kharat
+					completely_controls = title:c_inzilloni
+					completely_controls = title:c_uruloni
+					completely_controls = title:c_mispir
+				}
 			}
 			# Or hold Pharazain or the RK
 			OR = {
@@ -2996,7 +2991,6 @@ decision_numenor_in_exile = {
 				has_title = title:h_pharazain
 			}
 		}
-
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -3734,7 +3728,6 @@ decision_new_capital = {
 	ai_potential = {
 		always = no
 	}
-
 	ai_check_interval_by_tier = {
 		barony = 0
 		county = 0
@@ -4432,6 +4425,7 @@ decision_recreate_watch_on_mordor = {
 			has_primary_title = title:h_reunited_kingdom
 			has_primary_title = title:e_bellakar
 			has_primary_title = title:e_castamir
+			has_primary_title = title:e_numenor #Numenor Sub-mod
 			AND = {
 				is_elf = yes
 				highest_held_title_tier >= tier_kingdom
@@ -4671,6 +4665,29 @@ decision_restore_defeated_gondor = {
 				custom_tooltip = {
 					text = destroy_mordor_decision_current_military_strength_dwarven_tt
 					root.script_current_military_strength >= title:e_mordor.holder.a_third_of_current_military_strength
+				}
+			}
+		}
+		trigger_if = {
+			limit = { is_ai = yes }
+			trigger_if = {
+				limit = { is_elf = yes }
+				custom_tooltip = {
+					text = destroy_mordor_decision_current_military_strength_elven_tt
+					root.script_current_military_strength >= title:e_mordor.holder.lotr_twenty_five_percent_of_current_military_strength
+				}
+			} 
+			trigger_else_if = {
+				limit = { is_dwarf = yes }
+				custom_tooltip = {
+					text = destroy_mordor_decision_current_military_strength_dwarven_tt
+					root.script_current_military_strength >= title:e_mordor.holder.a_third_of_current_military_strength
+				}
+			} 
+			trigger_else = {
+				custom_tooltip = {
+					text = destroy_mordor_decision_current_military_strength_default_tt
+					root.script_current_military_strength >= title:e_mordor.holder.fifty_percent_of_current_military_strength
 				}
 			}
 		}
@@ -4993,7 +5010,6 @@ decision_invite_northron_settlers = {
 		empire = 60
 		hegemony = 60
 	}
-
 	cooldown = {
 		years = lotr_northron_settlers_cooldown
 	}

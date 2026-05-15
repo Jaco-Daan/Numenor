@@ -5350,12 +5350,16 @@ ruxoalendil27 = {
 
 	7030.1.1 = { # Numenor Autonomy setup.
         effect = {
-			vassal_contract_set_obligation_level = {
-				type = feudal_government_taxes
-				level = 1
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_taxes 
+				level = 4
+			}
+			vassal_contract_set_obligation_level = { 
+				type = feudal_government_levies 
+				level = 0
 			}
 			vassal_contract_set_obligation_level = {
-				type = feudal_government_levies
+				type = special_contract
 				level = 1
 			}
         }

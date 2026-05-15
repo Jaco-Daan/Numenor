@@ -106,3 +106,7 @@ show_numenorean_minhiriath_trigger = {
 	}
 	NOT = { title:k_cardolan.empire = title:e_numenor }
 }
+
+numenor_in_isolation_phase = {
+	situation:numenor_situation = { situation_current_phase = numenor_isolated }
+}

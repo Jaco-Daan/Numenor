@@ -13419,7 +13419,7 @@ character_view_bg = {
 	##########################################
 	# Mediterranean, regular
 	texture = {
-		reference = "character_view/mediterranean.dds"
+		reference = "character_view/throneroom_mediterranean.dds"
 
 		trigger = {
 			trigger_if = {

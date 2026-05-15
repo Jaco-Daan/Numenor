@@ -483,7 +483,6 @@ on_game_start = {
 		}
 
 
-
 		# To prevent the Season Changes event from triggering on game start
 		situation:the_great_steppe ?= {
 			every_participant_group = {

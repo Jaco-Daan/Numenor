@@ -1,0 +1,35 @@
+﻿namespace = numenor_situation
+
+numenor_situation.0001 = {
+	title = numenor_situation.0001.t
+	desc = numenor_situation.0001.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = armenelos
+	}
+	right_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	
+	option = {
+		name = numenor_situation.0001.a
+	}
+}
+
+numenor_situation.0100 = {
+	title = numenor_situation.0100.t
+	desc = numenor_situation.0100.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = armenelos
+	}
+	right_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	
+	option = {
+		name = numenor_situation.0100.a
+	}
+}

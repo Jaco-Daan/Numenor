@@ -162,9 +162,7 @@
 			NOT = { has_strong_hook = scope:actor }
 			trigger_if = {
 				limit = { is_imprisoned = yes }
-				NOT = {
-					imprisoner = scope:actor
-				}
+				imprisoner != scope:actor
 			}
 			custom_tooltip = { #LotR vassals can't attack protectorates/guaranted tributaries
 	 			text = IS_GUARANTEED_BY_ATTACKERS_TOP_LIEGE_TRIGGER_CB
@@ -181,6 +179,9 @@
 					liege ?= {
 						has_realm_law_flag = vassal_all_wars_banned_permanent
 						this != scope:actor
+					}
+					NOT = {
+						culture = { has_cultural_parameter = internal_wars_always_allowed } #LOTR
 					}
 				}
 				custom_tooltip = {
