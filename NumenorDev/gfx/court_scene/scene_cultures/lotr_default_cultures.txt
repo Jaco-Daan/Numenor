@@ -1,0 +1,290 @@
+﻿dunedain = { # Gondorian
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_dunedain_court_illustration_trigger = yes
+	}
+}
+
+dunedain_steward = { # House of Steward
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_dunedain_steward_court_illustration_trigger = yes
+	}
+}
+
+dunedain_2 = { # Arnorian
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_dunedain_2_court_illustration_trigger = yes
+	}
+}
+
+dunedain_3 = { # Dunedain Umbar
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_ep3_dlc_trigger = yes
+		OR = { #Numenor Sub-mod
+			culture = culture:numenorean
+			culture = culture:adunaic
+			this = { any_parent_culture_or_above = { this = culture:adunaic } }
+			has_dunedain_3_court_illustration_trigger = yes
+		}
+	}
+}
+
+hadorim = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_hadorim_court_illustration_trigger = yes
+	}
+}
+
+middlemen = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_middlemen_court_illustration_trigger = yes
+	}
+}
+
+reach_1 = { # Dorwinion courtroom, courtesy of Mohsen & White Wolf of the Whills from AGOT
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		culture = {
+			has_cultural_tradition = tradition_dorwinion_vineyards
+		}
+	}
+}
+
+dwarven = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_dwarven_court_illustration_trigger = yes
+	}
+}
+
+noldor = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		NOR = {
+			culture = culture:galadhrim
+  			culture = { any_parent_culture_or_above = { this = culture:galadhrim } }
+  			culture = culture:lasgalendrim
+  			culture = { any_parent_culture_or_above = { this = culture:lasgalendrim } }
+			has_moriquendi_court_illustration_trigger = yes
+		}
+		has_noldor_court_illustration_trigger = yes
+	}
+}
+
+moriquendi = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		OR = {
+			culture = culture:galadhrim
+  			culture = { any_parent_culture_or_above = { this = culture:galadhrim } }
+  			culture = culture:lasgalendrim
+  			culture = { any_parent_culture_or_above = { this = culture:lasgalendrim } }
+			has_moriquendi_court_illustration_trigger = yes
+		}
+		
+	}
+}
+
+sauron = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_sauron_court_illustration_trigger = yes
+	}
+}
+
+nazgul = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_nazgul_court_illustration_trigger = yes
+	}
+}
+
+saruman = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_saruman_court_illustration_trigger = yes
+		has_saruman_many_colours_court_illustration_trigger = no
+	}
+}
+
+saruman_many_colours = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_saruman_many_colours_court_illustration_trigger = yes
+	}
+}
+
+mordorrim = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_mordorrim_court_illustration_trigger = yes
+	}
+}
+
+orc = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_orc_court_illustration_trigger = yes
+	}
+}
+
+eastern_dwarf_1 = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_eastern_dwarf_1_court_illustration_trigger = yes
+	}
+}
+
+eastern_dwarf_2 = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_eastern_dwarf_2_court_illustration_trigger = yes
+	}
+}
+
+eastern_dwarf_3 = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_eastern_dwarf_3_court_illustration_trigger = yes
+	}
+}
+
+eastern_dwarf_4 = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_eastern_dwarf_4_court_illustration_trigger = yes
+	}
+}
+
+eastern_dwarf_5 = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_eastern_dwarf_5_court_illustration_trigger = yes
+	}
+}
+
+eastern_dwarf_6 = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_eastern_dwarf_6_court_illustration_trigger = yes
+	}
+}
+
+eastern_dwarf_7 = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_eastern_dwarf_7_court_illustration_trigger = yes
+	}
+}
+
+pentos_court = { # Thani-Hazad courtroom, courtesy of White Wolf of the Whills from AGOT
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_ep3_dlc_trigger = yes
+		OR = {
+			culture = culture:anarikean
+			culture = { any_parent_culture_or_above = { this = culture:anarikean } }
+			AND = {
+				has_adunai_court_illustration_trigger = yes
+				OR = {
+					culture = culture:kharadunaim
+					culture = { any_parent_culture_or_above = { this = culture:kharadunaim } }
+					culture = culture:south_adunai_colonial
+					culture = culture:east_adunai_colonial
+				}
+			}
+		}
+	}
+}
+
+lys_court = { # Bellakar courtroom, courtesy of White Wolf of the Whills from AGOT
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_ep3_dlc_trigger = yes
+		OR = {
+			culture = culture:bellanarud
+  			culture = { any_parent_culture_or_above = { this = culture:bellanarud } }
+			culture = culture:bellakarani
+  			culture = { any_parent_culture_or_above = { this = culture:bellakarani } }
+			culture = culture:bellakaze
+  			culture = { any_parent_culture_or_above = { this = culture:bellakaze } }
+			culture = culture:felayan
+  			culture = { any_parent_culture_or_above = { this = culture:felayan } }
+			culture = culture:mardrukan
+  			culture = { any_parent_culture_or_above = { this = culture:mardrukan } }
+		}
+		has_adunai_court_illustration_trigger = yes
+	}
+}
+
+myr_court = { # Tanturaki courtroom, courtesy of White Wolf of the Whills from AGOT
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_ep3_dlc_trigger = yes
+		OR = {
+			culture = culture:tanturaki
+			culture = { any_parent_culture_or_above = { this = culture:tanturaki } }
+		}
+		has_adunai_court_illustration_trigger = yes
+	}
+}
+
+tyrosh_court = { # Umbar courtroom, courtesy of White Wolf of the Whills from AGOT
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_ep3_dlc_trigger = yes
+		OR = {
+			culture = culture:umbarean
+  			culture = { any_parent_culture_or_above = { this = culture:umbarean } }
+			culture = culture:old_umbarean
+  			culture = { any_parent_culture_or_above = { this = culture:old_umbarean } }
+			culture = culture:black_numenorean
+		}
+		has_adunai_court_illustration_trigger = yes
+	}
+}
+
+braavos_court = { # Anbalukkhori courtroom, courtesy of White Wolf of the Whills from AGOT
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		has_ep3_dlc_trigger = yes
+		OR = {
+			culture = culture:anbalukkhori
+			culture = { any_parent_culture_or_above = { this = culture:anbalukkhori } }
+		}
+		has_adunai_court_illustration_trigger = yes
+	}
+}
