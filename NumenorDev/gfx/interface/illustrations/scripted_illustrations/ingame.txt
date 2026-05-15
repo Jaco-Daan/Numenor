@@ -5716,6 +5716,7 @@ character_view_bg = {
 					geographical_region = middleearth_rhun #LotR #world_middle_east_persia
 				}
 			}
+			NOT = { is_elf = yes }
 			NOR = {
 				exists = liege
 				exists = host
@@ -7091,6 +7092,52 @@ character_view_bg = {
 		}
 	}
 
+	# Minas Tirith
+
+	texture = {
+		reference = "character_view/throneroom_minas_tirith.dds"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = capital_county
+					capital_county = title:c_minas_tirith
+					has_title = title:c_minas_tirith
+				}
+				AND = {
+					exists = host
+					host = {
+						exists = capital_county
+						capital_county = title:c_minas_tirith
+						has_title = title:c_minas_tirith
+					}
+				}
+			}
+		}
+	}
+	
+	environment = {
+		reference = "environment_minas_tirith"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = capital_county
+					capital_county = title:c_minas_tirith
+					has_title = title:c_minas_tirith
+				}
+				AND = {
+					exists = host
+					host = {
+						exists = capital_county
+						capital_county = title:c_minas_tirith
+						has_title = title:c_minas_tirith
+					}
+				}
+			}
+		}
+	}
+
 	# Pelargir
 
 	texture = {
@@ -7554,11 +7601,8 @@ character_view_bg = {
 						culture = { has_cultural_pillar = heritage_dunedain }
 						culture = { has_cultural_pillar = heritage_northern_adunaic }
 					}
-					NOR = {
-						OR = {
-							has_culture = culture:dunedain_ranger
-							has_culture = culture:uialedain
-						}
+					NOT = {
+						has_culture = culture:dunedain_ranger
 					}
 				}
 				AND = {
@@ -7575,9 +7619,8 @@ character_view_bg = {
 								culture = { has_cultural_pillar = heritage_dunedain }
 								culture = { has_cultural_pillar = heritage_northern_adunaic }
 							}
-							NOR = {
+							NOT = {
 								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialedain
 							}
 						}
 					}
@@ -7602,11 +7645,8 @@ character_view_bg = {
 						culture = { has_cultural_pillar = heritage_dunedain }
 						culture = { has_cultural_pillar = heritage_northern_adunaic }
 					}
-					NOR = {
-						OR = {
-							has_culture = culture:dunedain_ranger
-							has_culture = culture:uialedain
-						}
+					NOT = {
+						has_culture = culture:dunedain_ranger
 					}
 				}
 				AND = {
@@ -7623,9 +7663,8 @@ character_view_bg = {
 								culture = { has_cultural_pillar = heritage_dunedain }
 								culture = { has_cultural_pillar = heritage_northern_adunaic }
 							}
-							NOR = {
+							NOT = {
 								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialedain
 							}
 						}
 					}
@@ -7651,11 +7690,8 @@ character_view_bg = {
 						culture = { has_cultural_pillar = heritage_dunedain }
 						culture = { has_cultural_pillar = heritage_northern_adunaic }
 					}
-					NOR = {
-						OR = {
-							has_culture = culture:dunedain_ranger
-							has_culture = culture:uialedain
-						}
+					NOT = {
+						has_culture = culture:dunedain_ranger
 					}
 				}
 				AND = {
@@ -7672,9 +7708,8 @@ character_view_bg = {
 								culture = { has_cultural_pillar = heritage_dunedain }
 								culture = { has_cultural_pillar = heritage_northern_adunaic }
 							}
-							NOR = {
+							NOT = {
 								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialedain
 							}
 						}
 					}
@@ -7699,11 +7734,8 @@ character_view_bg = {
 						culture = { has_cultural_pillar = heritage_dunedain }
 						culture = { has_cultural_pillar = heritage_northern_adunaic }
 					}
-					NOR = {
-						OR = {
-							has_culture = culture:dunedain_ranger
-							has_culture = culture:uialedain
-						}
+					NOT = {
+						has_culture = culture:dunedain_ranger
 					}
 				}
 				AND = {
@@ -7720,9 +7752,8 @@ character_view_bg = {
 								culture = { has_cultural_pillar = heritage_dunedain }
 								culture = { has_cultural_pillar = heritage_northern_adunaic }
 							}
-							NOR = {
+							NOT = {
 								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialedain
 							}
 						}
 					}
@@ -7748,11 +7779,8 @@ character_view_bg = {
 						culture = { has_cultural_pillar = heritage_dunedain }
 						culture = { has_cultural_pillar = heritage_northern_adunaic }
 					}
-					NOR = {
-						OR = {
-							has_culture = culture:dunedain_ranger
-							has_culture = culture:uialedain
-						}
+					NOT = {
+						has_culture = culture:dunedain_ranger
 					}
 				}
 				AND = {
@@ -7769,9 +7797,8 @@ character_view_bg = {
 								culture = { has_cultural_pillar = heritage_dunedain }
 								culture = { has_cultural_pillar = heritage_northern_adunaic }
 							}
-							NOR = {
+							NOT = {
 								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialedain
 							}
 						}
 					}
@@ -7796,11 +7823,8 @@ character_view_bg = {
 						culture = { has_cultural_pillar = heritage_dunedain }
 						culture = { has_cultural_pillar = heritage_northern_adunaic }
 					}
-					NOR = {
-						OR = {
-							has_culture = culture:dunedain_ranger
-							has_culture = culture:uialedain
-						}
+					NOT = {
+						has_culture = culture:dunedain_ranger
 					}
 				}
 				AND = {
@@ -7817,9 +7841,8 @@ character_view_bg = {
 								culture = { has_cultural_pillar = heritage_dunedain }
 								culture = { has_cultural_pillar = heritage_northern_adunaic }
 							}
-							NOR = {
+							NOT = {
 								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialedain
 							}
 						}
 					}
@@ -7840,10 +7863,7 @@ character_view_bg = {
 					capital_province = {
 						geographical_region = middleearth_west_arnor
 					}
-					OR = {
-						has_culture = culture:dunedain_ranger
-						has_culture = culture:uialedain
-					}
+					has_culture = culture:dunedain_ranger
 				}
 				AND = {
 					exists = primary_spouse
@@ -7853,10 +7873,7 @@ character_view_bg = {
 							capital_province = {
 								geographical_region = middleearth_west_arnor
 							}
-							OR = {
-								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialedain
-							}
+							has_culture = culture:dunedain_ranger
 						}
 					}
 				}
@@ -7868,10 +7885,7 @@ character_view_bg = {
 							capital_province = {
 								geographical_region = middleearth_west_arnor
 							}
-							OR = {
-								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialedain
-							}
+							has_culture = culture:dunedain_ranger
 						}
 					}
 				}
@@ -7883,10 +7897,7 @@ character_view_bg = {
 							capital_province = {
 								geographical_region = middleearth_west_arnor
 							}
-							OR = {
-								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialedain
-							}
+							has_culture = culture:dunedain_ranger
 						}
 					}
 				}
@@ -7904,10 +7915,7 @@ character_view_bg = {
 					capital_province = {
 						geographical_region = middleearth_west_arnor
 					}
-					OR = {
-						has_culture = culture:dunedain_ranger
-						has_culture = culture:uialedain
-					}
+					has_culture = culture:dunedain_ranger
 				}
 				AND = {
 					exists = primary_spouse
@@ -7917,10 +7925,7 @@ character_view_bg = {
 							capital_province = {
 								geographical_region = middleearth_west_arnor
 							}
-							OR = {
-								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialedain
-							}
+							has_culture = culture:dunedain_ranger
 						}
 					}
 				}
@@ -7932,10 +7937,7 @@ character_view_bg = {
 							capital_province = {
 								geographical_region = middleearth_west_arnor
 							}
-							OR = {
-								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialedain
-							}
+							has_culture = culture:dunedain_ranger
 						}
 					}
 				}
@@ -7947,10 +7949,7 @@ character_view_bg = {
 							capital_province = {
 								geographical_region = middleearth_west_arnor
 							}
-							OR = {
-								has_culture = culture:dunedain_ranger
-								has_culture = culture:uialedain
-							}
+							has_culture = culture:dunedain_ranger
 						}
 					}
 				}
@@ -8207,6 +8206,275 @@ character_view_bg = {
 							culture = { has_cultural_pillar = heritage_northern_adunaic }
 						}
 						has_dunedain_court_illustration_trigger = yes
+					}
+				}
+			}
+		}
+	}
+
+	texture = {
+	 	reference = "event_scenes/ep3_byzantine_throne_room.dds"
+	 	trigger = {
+	 		OR = {
+	 			primary_title = title:e_bellakar
+	 			AND = {
+	 				primary_spouse.primary_title = title:e_bellakar
+	 				is_landed = no
+	 			}
+				AND = {
+					exists = host
+					host = {
+						primary_title = title:e_bellakar
+					}
+				}
+	 		}
+	 	}
+	}
+
+	environment = { #LotR
+	 	reference = "environment_ep3_byzantine_throne_room"
+	 	trigger = {
+	 		OR = {
+	 			primary_title = title:e_bellakar
+	 			AND = {
+	 				primary_spouse.primary_title = title:e_bellakar
+	 				is_landed = no
+	 			}
+				AND = {
+					exists = host
+					host = {
+						primary_title = title:e_bellakar
+					}
+				}
+	 		}
+	 	}
+	}
+
+	# Harshandatt High
+	texture = {
+		reference = "character_view/throneroom_harshandatt_high_ai.dds"
+
+		trigger = {
+			OR = {
+				AND = {
+				 	exists = primary_title
+					primary_title.tier > tier_duchy
+					culture = { has_cultural_pillar = heritage_harshandatt }
+				}
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = primary_title
+						primary_title.tier > tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = primary_title
+						primary_title.tier > tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+				AND = {
+					exists = host
+					host = {
+						exists = primary_title
+						primary_title.tier > tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+			}
+		}
+	}
+	
+	environment = {
+		reference = "environment_cw_fp2_iberian_throneroom_main"
+
+		trigger = {
+			OR = {
+				AND = {
+				 	exists = primary_title
+					primary_title.tier > tier_duchy
+					culture = { has_cultural_pillar = heritage_harshandatt }
+				}
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = primary_title
+						primary_title.tier > tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = primary_title
+						primary_title.tier > tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+				AND = {
+					exists = host
+					host = {
+						exists = primary_title
+						primary_title.tier > tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+			}
+		}
+	}
+
+	# Harshandatt Mid
+	texture = {
+		reference = "character_view/throneroom_harshandatt_mid_ai.dds"
+
+		trigger = {
+			OR = {
+				AND = {
+				 	exists = primary_title
+					primary_title.tier = tier_duchy
+					culture = { has_cultural_pillar = heritage_harshandatt }
+				}
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = primary_title
+						primary_title.tier = tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = primary_title
+						primary_title.tier = tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+				AND = {
+					exists = host
+					host = {
+						exists = primary_title
+						primary_title.tier = tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+			}
+		}
+	}
+	
+	environment = {
+		reference = "environment_cw_fp2_iberian_throneroom_main"
+
+		trigger = {
+			OR = {
+				AND = {
+				 	exists = primary_title
+					primary_title.tier = tier_duchy
+					culture = { has_cultural_pillar = heritage_harshandatt }
+				}
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = primary_title
+						primary_title.tier = tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = primary_title
+						primary_title.tier = tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+				AND = {
+					exists = host
+					host = {
+						exists = primary_title
+						primary_title.tier = tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+			}
+		}
+	}
+
+	# Harshandatt Low
+	texture = {
+		reference = "character_view/throneroom_harshandatt_low_ai.dds"
+
+		trigger = {
+			OR = {
+				AND = {
+				 	exists = primary_title
+					primary_title.tier < tier_duchy
+					culture = { has_cultural_pillar = heritage_harshandatt }
+				}
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = primary_title
+						primary_title.tier < tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = primary_title
+						primary_title.tier < tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+				AND = {
+					exists = host
+					host = {
+						exists = primary_title
+						primary_title.tier < tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+			}
+		}
+	}
+	
+	environment = {
+		reference = "environment_cw_fp2_iberian_throneroom_main"
+
+		trigger = {
+			OR = {
+				AND = {
+				 	exists = primary_title
+					primary_title.tier < tier_duchy
+					culture = { has_cultural_pillar = heritage_harshandatt }
+				}
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = primary_title
+						primary_title.tier < tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						exists = primary_title
+						primary_title.tier < tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
+					}
+				}
+				AND = {
+					exists = host
+					host = {
+						exists = primary_title
+						primary_title.tier < tier_duchy
+						culture = { has_cultural_pillar = heritage_harshandatt }
 					}
 				}
 			}
@@ -13337,7 +13605,7 @@ character_view_bg = {
 
 		trigger = {
 			exists = primary_title
-			primary_title.tier >= tier_kingdom
+			#primary_title.tier >= tier_kingdom
 			capital_province = {
 				# geographical_region = custom_greater_ray
 				OR = {
@@ -13347,7 +13615,7 @@ character_view_bg = {
 				}
 			}
 			NOT = { is_elf = yes }
-			# primary_title.tier >= tier_empire #LotR
+			primary_title.tier >= tier_empire 
 			# has_graphical_india_region_trigger = yes
 		}
 	}
@@ -13357,7 +13625,7 @@ character_view_bg = {
 
 		trigger = {
 			exists = primary_title
-			primary_title.tier >= tier_kingdom
+			#primary_title.tier >= tier_kingdom
 			capital_province = {
 				# geographical_region = custom_greater_ray
 				OR = {
@@ -13367,7 +13635,7 @@ character_view_bg = {
 				}
 			}
 			NOT = { is_elf = yes }
-			# primary_title.tier >= tier_empire #LotR
+			primary_title.tier >= tier_empire
 			# has_graphical_india_region_trigger = yes
 		}
 	}
@@ -13381,7 +13649,7 @@ character_view_bg = {
 					exists = primary_spouse
 					primary_spouse = {
 						exists = primary_title
-						primary_title.tier >= tier_kingdom
+						#primary_title.tier >= tier_kingdom
 						capital_province = {
 							# geographical_region = custom_greater_ray
 							OR = {
@@ -13391,7 +13659,7 @@ character_view_bg = {
 							}
 						}
 						NOT = { is_elf = yes }
-						# primary_title.tier >= tier_empire #LotR
+						primary_title.tier >= tier_empire 
 						# has_graphical_india_region_trigger = yes
 					}
 				}
@@ -13409,7 +13677,7 @@ character_view_bg = {
 							}
 						}
 						NOT = { is_elf = yes }
-						# primary_title.tier >= tier_empire #LotR
+						primary_title.tier >= tier_empire
 						# has_graphical_india_region_trigger = yes
 					}
 				}
@@ -13417,7 +13685,7 @@ character_view_bg = {
 					liege.diarch ?= this
 					liege ?= {
 						exists = primary_title
-						primary_title.tier >= tier_kingdom
+						#primary_title.tier >= tier_kingdom
 						capital_province = {
 							# geographical_region = custom_greater_ray
 							OR = {
@@ -13427,7 +13695,7 @@ character_view_bg = {
 							}
 						}
 						NOT = { is_elf = yes }
-						# primary_title.tier >= tier_empire #LotR
+						primary_title.tier >= tier_empire
 						# has_graphical_india_region_trigger = yes
 					}
 				}
@@ -13586,6 +13854,15 @@ character_view_bg = {
 				}
 			}
 			is_character_window_main_character = no
+		}
+	}
+	
+	# Eastern, regular
+	texture = {
+		reference = "event_scenes/bp1_courtyard_mena.dds"
+
+		trigger = {
+			has_graphical_mena_region_trigger = yes
 		}
 	}
 
@@ -14869,15 +15146,6 @@ character_private = {
 	}
 
 	##########################################
-
-	# Eastern, regular
-	texture = {
-		reference = "event_scenes/bp1_courtyard_mena.dds"
-
-		trigger = {
-			has_graphical_mena_region_trigger = yes
-		}
-	}
 
 	##########################################
 
