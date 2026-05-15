@@ -35,7 +35,7 @@ lineofelros1 = { # Elros, First King of Numenor
 	culture = numenorean
 	dna = elros_dna_1
 
-	father = lineoffingolfin8 # Eärendil #Numenor Submod	
+	father = lineoffingolfin8 # Eärendil	
 	mother = lineofelwe6 # Elwing
 
 	diplomacy = 13
@@ -305,7 +305,7 @@ lineofelros7 = {
 	female = yes				
 
 	father = lineofelros6
-	mother = mablung11 #Numenor Submod
+	mother = lineofbeleth3
 
 	trait = born_on_numenor
 	 				
@@ -2002,7 +2002,6 @@ lineofelros71 = {
 	name = Orchaldor 				
 	religion = faith_numenorean				
 	culture = numenorean				
-	dynasty = dynasty_agathor #Numenor Submod			
 
 	father = lineofelros72				
 
@@ -2026,9 +2025,6 @@ lineofelros72 = { # Hatholdir, descendant of the House of Hador
 	name = Hatholdir 				
 	religion = faith_numenorean				
 	culture = numenorean				
-	dynasty = dynasty_agathor #Numenor Submod
-
-	father = lineofagathor_ns6 #Numenor Submod	
 
 	 				
 	trait = education_learning_4				
@@ -2044,7 +2040,7 @@ lineofelros72 = { # Hatholdir, descendant of the House of Hador
 }
 lineofelros73 = {
 	name = Soronto 				
-	dynasty = dynasty_agathor #Numenor Submod
+	dynasty = dynasty_elros				
 	religion = faith_numenorean				
 	culture = numenorean				
 
@@ -2227,7 +2223,7 @@ lineofelros77 = { # Vardur's second son - survived the assault on Umbar, but is 
 }
 lineofvardur3 = { # Daughter of Vardur - survived the assault on Umbar, but is taken back by Ancalimon to Numenor
 	name = Alimiriel
-	dynasty_house = dynasty_vardurionath #Numenor Submod
+	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = numenorean
 	female = yes
@@ -2858,14 +2854,14 @@ lineofelatan20 = { # Lindórië, mother of Inzilbeth the wife of Ar-Gimilzôr
 }
 lineofelatan21 = {
 	name = Inzilbe_e_th 				
-	dynasty = dynasty_elros #Numenor Submod
+	dynasty_house = house_andunie				
 	religion = faith_numenorean				
 	culture = numenorean				
 
 	female = yes				
 
-	mother = lineofelatan20
-	father = lineofelros83 #Numenor Submod
+	mother = lineofelatan20	
+	# father = Some descendant of Gimilzagar			
 
 	trait = intellect_good_2
 	trait = education_intrigue_4
@@ -10333,12 +10329,12 @@ lineborodiriath27b = {
 lineborodiriath28 = {
     name = U_U_re_e_zagar
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty = dynasty_borodiriath
     religion = faith_numenorean
     culture = bellakarani
 
-    father = lineborodiriath26 #Numenor Submod
-    mother = lineborodiriath27 #Numenor Submod
+    father = lineborodiriath26b
+    mother = lineborodiriath27b
 
     sexuality = heterosexual
 
@@ -10410,7 +10406,7 @@ lineborodiriath29 = {
 lineborodiriath30 = {
     name = Zimre_e_bal
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty = dynasty_borodiriath
     religion = faith_old_bellakarean
     culture = bellakarani
 
@@ -10453,12 +10449,10 @@ lineborodiriath31 = {
     name = Mu_u_raphe_e_l
     female = yes
 
-    religion = faith_numenorean
+    religion = faith_kings_men_numenorean
     culture = numenorean
 
     sexuality = heterosexual
-
-    
 
     trait = brave
     trait = just
@@ -10473,10 +10467,15 @@ lineborodiriath31 = {
 
     trait = education_stewardship_3
 
-
 	trait = blood_of_numenor_8
+	trait = born_on_numenor
+
     3721.7.3 = {
         birth = yes
+    }
+
+	3912.1.1 = {
+        culture = bellakarani
     }
 
     3972.9.13 = {
@@ -10487,7 +10486,7 @@ lineborodiriath31 = {
 lineborodiriath32 = {
     name = Sakaltho_o_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty = dynasty_borodiriath
     religion = faith_old_bellakarean
     culture = bellakarani
 
@@ -10564,7 +10563,7 @@ lineborodiriath33 = {
 lineborodiriath34 = {
     name = Adu_u_naphazo_o_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty = dynasty_borodiriath
     religion = faith_old_bellakarean
     culture = bellakarani
 
@@ -10641,7 +10640,7 @@ lineborodiriath35 = {
 lineborodiriath36 = {
     name = Urduba_a_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty = dynasty_borodiriath
     religion = faith_old_bellakarean
     culture = bellakarani
 
@@ -10718,7 +10717,7 @@ lineborodiriath37 = {
 lineborodiriath38 = {
     name = Bo_o_ratho_o_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty = dynasty_borodiriath
     religion = faith_old_bellakarean
     culture = bellakarani
 
@@ -10795,7 +10794,7 @@ lineborodiriath39 = {
 lineborodiriath40 = {
     name = Agandu_u_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty = dynasty_borodiriath
     religion = faith_old_bellakarean
     culture = bellakarani
 
@@ -10872,7 +10871,7 @@ lineborodiriath41 = {
 lineborodiriath42 = {
     name = Aba_a_zagar
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty = dynasty_borodiriath
     religion = faith_old_bellakarean
     culture = bellakarani
 
@@ -10949,7 +10948,7 @@ lineborodiriath43 = {
 lineborodiriath44 = {
     name = Balkumaga_a_n
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -10980,7 +10979,7 @@ lineborodiriath44 = {
     }
 
     4302.1.8 = {
-        add_spouse = lineborodiriath45
+        add_spouse = lineofeirienion70
     }
 
     4461.5.21 = {
@@ -11026,7 +11025,7 @@ lineborodiriath45 = {
 lineborodiriath46 = {
     name = E_E_ruzagar
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -11103,7 +11102,7 @@ lineborodiriath47 = {
 lineborodiriath48 = {
     name = Imrazo_o_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -11180,7 +11179,7 @@ lineborodiriath49 = {
 lineborodiriath50 = {
     name = Kathuphazga_a_n
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -11257,7 +11256,7 @@ lineborodiriath51 = {
 lineborodiriath52 = {
     name = Gimilzagar
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -11334,7 +11333,7 @@ lineborodiriath53 = {
 lineborodiriath54 = {
     name = Arzagar
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -11411,7 +11410,7 @@ lineborodiriath55 = {
 lineborodiriath56 = {
     name = Abatta_a_rik
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -11489,7 +11488,7 @@ lineborodiriath58 = {
     name = Bala_a_kho_o_ri_i_
     female = yes
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -11528,7 +11527,7 @@ lineborodiriath59 = {
     name = Bawabe_e_th
     female = yes
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -11567,7 +11566,7 @@ lineborodiriath60 = {
     name = Bana_a_the_e_
     female = yes
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -11605,7 +11604,7 @@ lineborodiriath60 = {
 lineborodiriath61 = {
     name = Aphanuzi_i_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -11682,7 +11681,7 @@ lineborodiriath62 = {
 lineborodiriath63 = {
     name = Gimilkha_a_d
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -11759,7 +11758,7 @@ lineborodiriath64 = {
 lineborodiriath65 = {
     name = Gimilzo_o_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -11835,7 +11834,7 @@ lineborodiriath66 = {
 lineborodiriath67 = {
     name = Gimilkha_a_d
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -11910,7 +11909,7 @@ lineborodiriath68 = {
 lineborodiriath69 = {
     name = Pharazo_o_n
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -11985,7 +11984,7 @@ lineborodiriath70 = {
 lineborodiriath71 = {
     name = Nimruzi_i_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12060,7 +12059,7 @@ lineborodiriath72 = {
 lineborodiriath73 = {
     name = Aphanuzi_i_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12135,7 +12134,7 @@ lineborodiriath74 = {
 lineborodiriath75 = {
     name = Sapazi_i_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12210,7 +12209,7 @@ lineborodiriath76 = {
 lineborodiriath77 = {
     name = Adu_u_nazi_i_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12291,7 +12290,7 @@ lineborodiriath78 = {
 lineborodiriath79 = {
     name = Aba_a_ragar
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12365,7 +12364,7 @@ lineborodiriath80 = {
 lineborodiriath81 = {
     name = Arnakho_o_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12402,7 +12401,7 @@ lineborodiriath81 = {
 lineborodiriath82 = {
     name = Balkazi_i_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12475,7 +12474,7 @@ lineborodiriath83 = {
 lineborodiriath84 = {
     name = Karbazi_i_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12513,7 +12512,7 @@ lineborodiriath85 = {
     name = Zo_o_rnihil
 	female = yes
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12550,7 +12549,7 @@ lineborodiriath85 = {
 lineborodiriath86 = {
     name = Isilitho_o_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12623,7 +12622,7 @@ lineborodiriath87 = {
 lineborodiriath88 = {
     name = Imrakho_o_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12663,7 +12662,7 @@ lineborodiriath88 = {
 lineborodiriath89 = {
     name = Imrazo_o_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12672,11 +12671,7 @@ lineborodiriath89 = {
 
     sexuality = heterosexual
 
-    
-
-    trait = arrogant
-    trait = callous
-    trait = fickle
+    trait = bossy
 
     diplomacy = 5
     martial = 6
@@ -12685,11 +12680,17 @@ lineborodiriath89 = {
     learning = 5
     prowess = 7
 
-
+	trait = education_stewardship_2
 	trait = blood_of_numenor_4
+
     5378.10.13 = {
         birth = yes
     }
+	5394.10.13 = {
+		trait = arrogant
+    	trait = callous
+    	trait = fickle
+	}
 	5431.9.5 = {
         add_spouse = lineborodiriath101
     }
@@ -12701,7 +12702,7 @@ lineborodiriath89 = {
 lineborodiriath90 = {
     name = Inziladu_u_n
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12775,7 +12776,7 @@ lineborodiriath92 = {
     name = U_U_ri_i_phe_e_l
 	female = yes
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12814,7 +12815,7 @@ lineborodiriath93 = {
     name = U_U_ri_i_phe_e_ri_i_
 	female = yes
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12852,7 +12853,7 @@ lineborodiriath93 = {
 lineborodiriath94 = {
     name = Marme_e_do_o_n
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12925,7 +12926,7 @@ lineborodiriath95 = {
 lineborodiriath96 = {
     name = Minulzi_i_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -12962,7 +12963,7 @@ lineborodiriath96 = {
 lineborodiriath97 = {
     name = Narkuzi_i_r
 
-    dynasty_house = dynasty_bordirurecadet
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -13032,7 +13033,7 @@ lineborodiriathbellanarudlover = {
 lineborodiriath98 = {
     name = Pharazo_o_n
 
-    dynasty_house = dynasty_bordirurecadet #Numenor Submod
+    dynasty_house = house_borodiriathcadet
     religion = faith_ladnoca
     culture = bellakaze
 
@@ -13071,7 +13072,7 @@ lineborodiriath98 = {
 lineborodiriath99 = {
     name = Be_e_lzagar
 
-    dynasty_house = dynasty_bordirurecadet #Numenor Submod
+    dynasty_house = house_borodiriathcadet
     religion = faith_ladnoca
     culture = bellakaze
 
@@ -13111,7 +13112,7 @@ lineborodiriath100 = {
     name = Mo_o_rbe_e_
 	female = yes
 
-    dynasty_house = dynasty_bordirurecadet #Numenor Submod
+    dynasty_house = house_borodiriathcadet
     religion = faith_ladnoca
     culture = bellakaze
 
@@ -13184,7 +13185,7 @@ lineborodiriath101 = {
 lineborodiriath102 = {
     name = Akho_o_rahil
 
-    dynasty_house = dynasty_bordirurecadet #Numenor Submod
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -13258,7 +13259,7 @@ lineborodiriath103 = {
 lineborodiriath104 = {
     name = Bawabatho_o_r
 
-    dynasty_house = dynasty_bordirurecadet #Numenor Submod
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -13332,7 +13333,7 @@ lineborodiriath105 = {
 lineborodiriath106 = {
     name = Be_e_lzagar
 
-    dynasty_house = dynasty_bordirurecadet #Numenor Submod
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -13406,7 +13407,7 @@ lineborodiriath107 = {
 lineborodiriath108 = {
     name = Balkazi_i_r
 
-    dynasty_house = dynasty_bordirurecadet #Numenor Submod
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -13480,7 +13481,7 @@ lineborodiriath109 = {
 lineborodiriath110 = {
     name = Gimilzagar
 
-    dynasty_house = dynasty_bordirurecadet #Numenor Submod
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -13517,7 +13518,7 @@ lineborodiriath110 = {
 lineborodiriath111 = {
     name = Gimilkha_a_d
 
-    dynasty_house = dynasty_bordirurecadet #Numenor Submod
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -13554,7 +13555,7 @@ lineborodiriath112 = {
     name = Gimilkhali_i_
 	female = yes
 
-    dynasty_house = dynasty_bordirurecadet #Numenor Submod
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
@@ -13590,7 +13591,7 @@ lineborodiriath112 = {
 lineborodiriath113 = {
     name = Azrutho_o_r
 
-    dynasty_house = dynasty_bordirurecadet #Numenor Submod
+    dynasty_house = house_borodiriathcadet
     religion = faith_conservative_eruism
     culture = bellakarani
 
