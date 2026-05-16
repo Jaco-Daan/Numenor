@@ -191,7 +191,7 @@ numenor_eonwe_invasion_start_invasion_war = {
 }
 
 numenor_pharazon_landing_effect = {
-	title:c_nindamos = { save_scope_as = landing_county }
+	title:c_sorontil = { save_scope_as = landing_county }
 }
 
 numenor_pharazon_invasion_start_invasion_war = {
