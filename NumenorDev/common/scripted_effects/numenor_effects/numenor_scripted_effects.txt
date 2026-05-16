@@ -370,3 +370,7 @@ numenor_spawn_flood_in_county_effect = {
 		log_natural_disaster = "started"
 	}
 }
+
+numenor_define_natural_disaster_regions = {
+	add_to_global_variable_list = { name = flood_region_list target = geographical_region:numenor_river_region }
+}

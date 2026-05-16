@@ -3,6 +3,7 @@
 		numenor_historical_artifacts.0001
 	}
 	effect = {
+		numenor_define_natural_disaster_regions = yes
 		numenor_history_changes = yes
         every_living_character = {
 			limit = {
