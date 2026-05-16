@@ -753,14 +753,12 @@ numenor.3101 = { # Earthquake/Flood
 	theme = stewardship_duty_focus
     content_source = realms_dlc
 	override_background = {
-		reference = "gfx/interface/illustrations/situation_backgrounds/numenor_situation_background.dds"
+		reference = black_ship
 	}
 	right_portrait = { 
 		character = scope:numenor_ruler
 		animation = war_defender
 	}
-	
-	override_sound = { reference = "file:/music/lotr_cues/LOTR_crusadestart.mp3" }
 
 	override_effect_2d = {
 		reference = fog
@@ -1286,8 +1284,6 @@ numenor.9502 = {
 	desc = LOREM_IPSUM_DESCRIPTION
 	theme = stewardship_duty_focus
 	left_portrait = root
-
-	# override_sound = { reference = "file:/music/lotr_cues/LOTR_crusadestart.mp3" }
 	option = {
 		name = LOREM_IPSUM_TITLE
 		play_music_cue = 1_glamdring
