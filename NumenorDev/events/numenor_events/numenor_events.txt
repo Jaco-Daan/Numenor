@@ -714,20 +714,31 @@ numenor.3100 = { # Start journey to Valinor
 	}
 }
 
-numenor.3101 = { # Drown
+numenor.3101 = { # Earthquake/Flood
 	title = numenor.3101.t
 	desc = numenor.3101.desc
 	theme = stewardship_duty_focus
 	override_background = {
-		reference = ulmo
+		reference = "gfx/interface/illustrations/situation_backgrounds/numenor_situation_background.dds"
 	}
 	right_portrait = { 
 		character = scope:numenor_ruler
-		animation = beg
+		animation = war_defender
+	}
+
+	override_effect_2d = {
+		reference = fog
 	}
 
 	immediate = {
 		title:e_numenor.holder = { save_scope_as = numenor_ruler }
+	}
+
+	widgets = {
+		widget = {
+			gui = "lotr_shader_event_sparks"
+			container = "lotr_shader_event_foreground"
+		}
 	}
 
 	option = { #Valinor decides to invade you!
@@ -783,6 +794,17 @@ numenor.3103 = { #Spawn valinor invasion on numenor
 	theme = stewardship_duty_focus
 	override_background = {
 		reference = ulmo
+	}
+
+	widgets = {
+		widget = {
+			gui = "lotr_shader_event_sparks"
+			container = "lotr_shader_event_foreground"
+		}
+		widget = {
+			gui = "lotr_shader_event_fire"
+			container = "lotr_shader_event_background"
+		}
 	}
 
 	option = { #Valinor decides to invade you!
