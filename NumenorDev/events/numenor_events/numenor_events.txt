@@ -765,7 +765,7 @@ numenor.3101 = { # Earthquake/Flood
 	}
 
 	immediate = {
-		title:e_numenor.holder = { save_scope_as = numenor_ruler }
+		title:e_numenor.holder = { save_scope_as = largest_realm_ruler }
 		play_music_cue = mx_cue_negative
 	}
 
@@ -791,33 +791,7 @@ numenor.3101 = { # Earthquake/Flood
 			}
 		}
 		else = {
-			sunset_invasion_general_effect = {
-				GEOGRAPHICAL_REGION = numenor_special_eonwe_invasion_region
-				GRAB_LANDING_COUNTY_EFFECT = numenor_invasion_grab_landing_county
-				REVIVE_DEAD_CHARACTER_EFFECT = "#" #Do nothing
-				INVASION_LANDING_EFFECT = numenor_eonwe_invasion_landing_effect
-				START_INVASION_WAR_EFFECT = numenor_eonwe_invasion_start_invasion_war
-			}
-
-			clear_saved_scope = invader_char
-
-			sunset_invasion_general_effect = {
-				GEOGRAPHICAL_REGION = numenor_special_pharazon_invasion_region
-				GRAB_LANDING_COUNTY_EFFECT = numenor_pharazon_landing_effect
-				REVIVE_DEAD_CHARACTER_EFFECT = pharazon_invasion_revive_pharazon
-				INVASION_LANDING_EFFECT = pharazon_invasion_landing_effect
-				START_INVASION_WAR_EFFECT = numenor_pharazon_invasion_start_invasion_war
-			}
-
-			clear_saved_scope = invader_char
-
-			sunset_invasion_general_effect = {
-				GEOGRAPHICAL_REGION = numenor_special_amav_invasion_region
-				GRAB_LANDING_COUNTY_EFFECT = numenor_amav_landing_effect
-				REVIVE_DEAD_CHARACTER_EFFECT = amav_invasion_revive_amav
-				INVASION_LANDING_EFFECT = amav_invasion_landing_effect
-				START_INVASION_WAR_EFFECT = numenor_amav_invasion_start_invasion_war
-			}
+			trigger_event = numenor.3104
 		}
 
 		numenor_spawn_earthquake_in_region_effect = {
@@ -834,6 +808,7 @@ numenor.3101 = { # Earthquake/Flood
 		}
 	}
 }
+
 
 numenor.3102 = { # Return in shame to Numenor
 	title = numenor.3102.t
@@ -910,6 +885,36 @@ numenor.3103 = { #Spawn valinor invasion on numenor
 			REVIVE_DEAD_CHARACTER_EFFECT = "#" #Do nothing
 			INVASION_LANDING_EFFECT = numenor_invasion_landing_effect
 			START_INVASION_WAR_EFFECT = numenor_invasion_start_invasion_war
+		}
+	}
+}
+
+numenor.3104 = {
+	hidden = yes
+	immediate = {
+		character:lineofeonwe = { save_scope_as = invader_char }
+		sunset_invasion_general_effect = {
+			GEOGRAPHICAL_REGION = numenor_special_eonwe_invasion_region
+			GRAB_LANDING_COUNTY_EFFECT = numenor_invasion_grab_landing_county
+			REVIVE_DEAD_CHARACTER_EFFECT = "#" #Do nothing
+			INVASION_LANDING_EFFECT = numenor_eonwe_invasion_landing_effect
+			START_INVASION_WAR_EFFECT = numenor_eonwe_invasion_start_invasion_war
+		}
+
+		sunset_invasion_general_effect = {
+			GEOGRAPHICAL_REGION = numenor_special_pharazon_invasion_region
+			GRAB_LANDING_COUNTY_EFFECT = numenor_pharazon_landing_effect
+			REVIVE_DEAD_CHARACTER_EFFECT = pharazon_invasion_revive_pharazon
+			INVASION_LANDING_EFFECT = pharazon_invasion_landing_effect
+			START_INVASION_WAR_EFFECT = numenor_pharazon_invasion_start_invasion_war
+		}
+
+		sunset_invasion_general_effect = {
+			GEOGRAPHICAL_REGION = numenor_special_amav_invasion_region
+			GRAB_LANDING_COUNTY_EFFECT = numenor_amav_landing_effect
+			REVIVE_DEAD_CHARACTER_EFFECT = amav_invasion_revive_amav
+			INVASION_LANDING_EFFECT = amav_invasion_landing_effect
+			START_INVASION_WAR_EFFECT = numenor_amav_invasion_start_invasion_war
 		}
 	}
 }
