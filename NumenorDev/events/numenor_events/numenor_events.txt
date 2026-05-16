@@ -823,8 +823,14 @@ numenor.3101 = { # Earthquake/Flood
 		numenor_spawn_earthquake_in_region_effect = {
 			REGION = middleearth_numenor
 		}
-		spawn_flood_in_region_effect = {
-			REGION = numenor_river_region
+		title:e_numenor = {
+			random_de_jure_county = {
+				limit = {
+					title_province = { geographical_region = global_flood_region }
+					NOT = { any_county_situation = { situation_type = natural_disaster_flood } }
+				}
+				spawn_flood_in_county_effect = { COUNTY = this }
+			}
 		}
 	}
 }
