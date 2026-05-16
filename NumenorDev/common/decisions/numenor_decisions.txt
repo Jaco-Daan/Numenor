@@ -941,21 +941,21 @@ decision_numenor_invade_valinor = {
 	
 	# EFFECT
 	effect = {
-		if = {
-			limit = {
-				NOT = { exists = global_var:numenor_invade_valinor }
-			}
-			set_global_variable = {
-				name = numenor_invade_valinor
-				value = 1
-			}
-		}
-		else = {
-			change_global_variable = {
-				name = numenor_invade_valinor
-				add = 1
-			}
-		}
+		# if = {
+		# 	limit = {
+		# 		NOT = { exists = global_var:numenor_invade_valinor }
+		# 	}
+		# 	set_global_variable = {
+		# 		name = numenor_invade_valinor
+		# 		value = 1
+		# 	}
+		# }
+		# else = {
+		# 	change_global_variable = {
+		# 		name = numenor_invade_valinor
+		# 		add = 1
+		# 	}
+		# }
 		custom_tooltip = decision_numenor_invade_valinor_effect
 		trigger_event = {
 			id = numenor.3100
