@@ -801,6 +801,8 @@ numenor.3101 = { # Earthquake/Flood
 				START_INVASION_WAR_EFFECT = numenor_eonwe_invasion_start_invasion_war
 			}
 
+			clear_saved_scope = invader_char
+
 			sunset_invasion_general_effect = {
 				GEOGRAPHICAL_REGION = numenor_special_pharazon_invasion_region
 				GRAB_LANDING_COUNTY_EFFECT = numenor_pharazon_landing_effect
@@ -808,6 +810,8 @@ numenor.3101 = { # Earthquake/Flood
 				INVASION_LANDING_EFFECT = pharazon_invasion_landing_effect
 				START_INVASION_WAR_EFFECT = numenor_pharazon_invasion_start_invasion_war
 			}
+
+			clear_saved_scope = invader_char
 
 			sunset_invasion_general_effect = {
 				GEOGRAPHICAL_REGION = numenor_special_amav_invasion_region

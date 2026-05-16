@@ -139,7 +139,7 @@ numenor_invasion_start_invasion_war = {
 	scope:invader_char = {
 		start_war = {
 			cb = lotr_valinor_invasion_cb
-			target = scope:largest_realm_ruler
+			target = scope:numenor_ruler
 		}
 
 		sunset_invasion_add_subjects_as_attackers_and_defenders_effect = { GEOGRAPHICAL_REGION = middleearth_numenor }
@@ -181,7 +181,7 @@ numenor_eonwe_invasion_start_invasion_war = {
 	scope:invader_char = {
 		start_war = {
 			cb = lotr_valinor_invasion_cb
-			target = scope:largest_realm_ruler
+			target = scope:numenor_ruler
 		}
 
 		sunset_invasion_add_subjects_as_attackers_and_defenders_effect = { GEOGRAPHICAL_REGION = numenor_special_eonwe_invasion_region }
@@ -198,9 +198,9 @@ numenor_pharazon_invasion_start_invasion_war = {
 	scope:invader_char = {
 		start_war = {
 			cb = lotr_pharazon_invasion_cb
-			target = scope:largest_realm_ruler
+			target = scope:numenor_ruler
 		}
-		sunset_invasion_add_subjects_as_attackers_and_defenders_effect = { GEOGRAPHICAL_REGION = middleearth_numenor }
+		sunset_invasion_add_subjects_as_attackers_and_defenders_effect = { GEOGRAPHICAL_REGION = numenor_special_pharazon_invasion_region }
 
 		create_story = story_conqueror
 
@@ -235,7 +235,7 @@ numenor_amav_invasion_start_invasion_war = {
 	scope:invader_char = {
 		start_war = {
 			cb = lotr_amav_invasion_cb
-			target = scope:largest_realm_ruler
+			target = scope:numenor_ruler
 		}
 		sunset_invasion_add_subjects_as_attackers_and_defenders_effect = { GEOGRAPHICAL_REGION = numenor_special_amav_invasion_region }
 
