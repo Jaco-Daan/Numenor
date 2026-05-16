@@ -783,7 +783,10 @@ numenor.3101 = { # Earthquake/Flood
 		custom_tooltip = numenor.3101.a.tt
 
 		if = {
-			limit = { NOT = { global_var:numenor_invade_valinor ?= 9 } }
+			limit = {
+				title:k_wastelands.holder = { has_variable = numenor_invade_valinor }
+				title:k_wastelands.holder.var:numenor_invade_valinor < 9
+			}
 			trigger_event = {
 				id = numenor.3103
 				years = 5
