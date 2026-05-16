@@ -902,35 +902,35 @@ decision_numenor_invade_valinor = {
 				desc = decision_numenor_invade_valinor_1
 			}
 			triggered_desc = {
-				trigger = { var:numenor_invade_valinor ?= 2 }
+				trigger = { title:k_wastelands.holder.var:numenor_invade_valinor ?= 2 }
 				desc = decision_numenor_invade_valinor_2
 			}
 			triggered_desc = {
-				trigger = { var:numenor_invade_valinor ?= 3 }
+				trigger = { title:k_wastelands.holder.var:numenor_invade_valinor ?= 3 }
 				desc = decision_numenor_invade_valinor_3
 			}
 			triggered_desc = {
-				trigger = { var:numenor_invade_valinor ?= 4 }
+				trigger = { title:k_wastelands.holder.var:numenor_invade_valinor ?= 4 }
 				desc = decision_numenor_invade_valinor_4
 			}
 			triggered_desc = {
-				trigger = { var:numenor_invade_valinor ?= 5 }
+				trigger = { title:k_wastelands.holder.var:numenor_invade_valinor ?= 5 }
 				desc = decision_numenor_invade_valinor_5
 			}
 			triggered_desc = {
-				trigger = { var:numenor_invade_valinor ?= 6 }
+				trigger = { title:k_wastelands.holder.var:numenor_invade_valinor ?= 6 }
 				desc = decision_numenor_invade_valinor_6
 			}
 			triggered_desc = {
-				trigger = { var:numenor_invade_valinor ?= 7 }
+				trigger = { title:k_wastelands.holder.var:numenor_invade_valinor ?= 7 }
 				desc = decision_numenor_invade_valinor_7
 			}
 			triggered_desc = {
-				trigger = { var:numenor_invade_valinor ?= 8 }
+				trigger = { title:k_wastelands.holder.var:numenor_invade_valinor ?= 8 }
 				desc = decision_numenor_invade_valinor_8
 			}
 			triggered_desc = {
-				trigger = { var:numenor_invade_valinor ?= 9 }
+				trigger = { title:k_wastelands.holder.var:numenor_invade_valinor ?= 9 }
 				desc = decision_numenor_invade_valinor_9
 			}
 			desc = decision_numenor_invade_valinor_1
