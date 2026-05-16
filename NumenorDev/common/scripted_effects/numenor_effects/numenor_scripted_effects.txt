@@ -101,3 +101,7 @@ define_numenor_resources = { # Setup resources on Numenor
 		add_province_modifier = mining_sapphire_province_modifier
 	}
 }
+
+numenor_invasion_grab_landing_county = {
+	title:c_eldalonde = { save_scope_as = landing_county }
+}

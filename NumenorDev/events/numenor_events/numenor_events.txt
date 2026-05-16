@@ -730,23 +730,21 @@ numenor.3101 = { # Drown
 		title:e_numenor.holder = { save_scope_as = numenor_ruler }
 	}
 
-	option = { # Accept vassalage offer
+	option = { #Valinor decides to invade you!
 		name = numenor.3101.a
 		custom_tooltip = numenor.3101.a.tt
 
-		death = { death_reason = death_drowned }
-
-		scope:numenor_ruler.primary_heir ?= {
-			add_prestige = -5000
-			add_piety = -5000
-
-			add_prestige_level = -2
-			add_piety_level = -2
+		spawn_flood_in_region_effect = {
+			REGION = middleearth_numenor
 		}
 
-		add_to_global_variable_list = { # Decision dissapears
-			name = unavailable_unique_decisions
-			target = flag:decision_numenor_invade_valinor
+		spawn_earthquake_in_region_effect = {
+			REGION = middleearth_numenor
+		}
+
+		trigger_event = {
+			id = numenor.3103
+			years = 5
 		}
 	}
 }
@@ -775,6 +773,31 @@ numenor.3102 = { # Return in shame to Numenor
 		add_piety = -2000
 
 		add_prestige_level = -1
+	}
+}
+
+
+numenor.3103 = { #Spawn valinor invasion on numenor
+	title = numenor.3103.t
+	desc = numenor.3103.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = ulmo
+	}
+
+	option = { #Valinor decides to invade you!
+		name = numenor.3103.a
+		custom_tooltip = numenor.3103.a.tt
+		save_scope_as = largest_realm_ruler
+		character:lineofeonwe = { save_scope_as = invader_char }
+
+		sunset_invasion_general_effect = {
+			GEOGRAPHICAL_REGION = middleearth_numenor
+			GRAB_LANDING_COUNTY_EFFECT = numenor_invasion_grab_landing_county
+			REVIVE_DEAD_CHARACTER_EFFECT = "#" #Do nothing
+			INVASION_LANDING_EFFECT = valinor_invasion_landing_effect
+			START_INVASION_WAR_EFFECT = valinor_invasion_start_invasion_war
+		}
 	}
 }
 

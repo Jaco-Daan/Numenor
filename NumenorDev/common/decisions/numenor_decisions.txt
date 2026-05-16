@@ -910,7 +910,6 @@ decision_numenor_invade_valinor = {
 	# IS_SHOWN
 	is_shown = {
 		primary_title = title:e_numenor
-		faith = faith:melkorite
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -921,6 +920,7 @@ decision_numenor_invade_valinor = {
 
 	# IS_VALID
 	is_valid = {
+		faith = faith:melkorite
 		numenor_in_isolation_phase = no
 		is_independent_ruler = yes
 		OR = {
