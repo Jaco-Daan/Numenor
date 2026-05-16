@@ -4596,7 +4596,10 @@ decision_restore_defeated_gondor = {
 	# IS_SHOWN
 	is_shown = {
 		#current_year >= 4035 # Is only shown if bookmark is after the two kingdoms split
-
+		trigger_if = { #Numenor Submod
+			limit = { top_liege = title:e_numenor.holder }
+			numenor_in_isolation_phase = no
+		}
 		exists = title:e_mordor.holder
 		custom_tooltip = decision_restore_defeated_gondor_tt1
 		faith_is_good = yes
