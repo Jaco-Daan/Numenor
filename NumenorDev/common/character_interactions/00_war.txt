@@ -108,10 +108,13 @@
 					government_allows = administrative
 				}
 			}
-			custom_tooltip = { # Numenor Submod
-                text = numenor_council_approval_trigger
-                numenor_can_declare_war = yes
-            }
+			trigger_if = {
+				limit = { exists = situation:numenor_situation }
+				custom_tooltip = { # Numenor Submod
+					text = numenor_council_approval_trigger
+					numenor_can_declare_war = yes
+				}
+			}
 		}
 		scope:recipient = {
 			custom_tooltip = {

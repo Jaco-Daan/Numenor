@@ -118,14 +118,11 @@ numenor_can_declare_war = {
 	trigger_if = {
 		limit = {
 			scope:actor = title:e_numenor.holder
-			OR = {
-				NOT = {
-					is_target_in_global_variable_list = {
-						name = unavailable_unique_decisions
-						target = flag:disband_numenor_council
-					}
+			NOT = {
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions
+					target = flag:disband_numenor_council
 				}
-				NOT = { exists = situation:numenor_situation }
 			}
 		}
 		council_of_numenor_total_approval > total_council_members_on_numenor_council.75_percentage_mult

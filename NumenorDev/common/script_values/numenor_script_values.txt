@@ -15,7 +15,7 @@
 							has_variable = council_member_bribed
 						}
 						save_temporary_scope_value_as = {
-							name = opinion_of_numenor_ruler
+							name = counter
 							value = 1
 						}
 					}
@@ -23,12 +23,12 @@
 				else_if = {
 					limit = {
 						save_temporary_scope_value_as = {
-							name = opinion_of_numenor_ruler
+							name = counter
 							value = 0
 						}
 					}
 				}
-				add = { value = scope:opinion_of_numenor_ruler }
+				add = { value = scope:counter }
 			}
 		}
 	}
@@ -56,17 +56,7 @@ total_council_members_on_numenor_council = {
 	situation:numenor_situation ?= {
 		every_participant_group = {
 			limit = { participant_group_type = numenor_council_of_the_sceptre }
-			every_situation_group_participant = {
-				if = {
-					limit = {
-						save_temporary_scope_value_as = {
-							name = opinion_of_numenor_ruler
-							value = 1
-						}
-					}
-				}
-				add = { value = scope:opinion_of_numenor_ruler }
-			}
+			every_situation_group_participant = { add = 1 }
 		}
 	}
 }
