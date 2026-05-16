@@ -823,9 +823,8 @@ numenor.3101 = { # Earthquake/Flood
 		numenor_spawn_earthquake_in_region_effect = {
 			REGION = middleearth_numenor
 		}
-		trigger_event = {
-			id = numenor.3104
-			days = 1
+		spawn_flood_in_region_effect = {
+			REGION = numenor_river_region
 		}
 	}
 }
@@ -905,32 +904,6 @@ numenor.3103 = { #Spawn valinor invasion on numenor
 			REVIVE_DEAD_CHARACTER_EFFECT = "#" #Do nothing
 			INVASION_LANDING_EFFECT = numenor_invasion_landing_effect
 			START_INVASION_WAR_EFFECT = numenor_invasion_start_invasion_war
-		}
-	}
-}
-
-numenor.3104 = {
-	hidden = yes
-
-	immediate = {
-		spawn_flood_in_region_effect = {
-			REGION = middleearth_numenor
-		}
-
-		spawn_flood_in_region_effect = {
-			REGION = middleearth_numenor
-		}
-
-		spawn_flood_in_region_effect = {
-			REGION = middleearth_numenor
-		}
-
-		spawn_flood_in_region_effect = {
-			REGION = middleearth_numenor
-		}
-
-		spawn_flood_in_region_effect = {
-			REGION = middleearth_numenor
 		}
 	}
 }

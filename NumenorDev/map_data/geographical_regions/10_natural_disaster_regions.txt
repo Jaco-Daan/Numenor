@@ -155,7 +155,7 @@ numenor_river_region = {
 		d_anduine d_arialome d_erest d_nisimaldar
 		d_erelonde d_zimrayan d_hyarnudore
 		d_sorontil d_ondosto d_elenore d_khorandor
-		d_arandor d_formenore d_aruwanai
+		d_arandor d_formenore d_aruwanai d_ciryanore
 		d_nindamos d_sirinore d_andunie d_hyarnore
 	}
 }
