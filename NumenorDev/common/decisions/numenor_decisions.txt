@@ -928,8 +928,7 @@ decision_numenor_invade_valinor = {
 			has_trait = possessed_1
 		}
 		has_trait = zealous
-		has_trait = ambitious	
-		faith = faith:melkorite
+		has_trait = ambitious
 		has_primary_title = title:e_numenor
 	}
 	is_valid_showing_failures_only = {
