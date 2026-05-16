@@ -796,6 +796,10 @@ numenor.3103 = { #Spawn valinor invasion on numenor
 		reference = ulmo
 	}
 
+	override_effect_2d = {
+		reference = flies
+	}
+
 	widgets = {
 		widget = {
 			gui = "lotr_shader_event_sparks"
