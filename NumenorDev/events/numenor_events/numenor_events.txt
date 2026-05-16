@@ -757,7 +757,7 @@ numenor.3101 = { # Earthquake/Flood
 
 	immediate = {
 		title:e_numenor.holder = { save_scope_as = numenor_ruler }
-		play_music_cue = 1_glamdring
+		play_music_cue = mx_cue_negative
 	}
 
 	widgets = {
@@ -823,12 +823,24 @@ numenor.3103 = { #Spawn valinor invasion on numenor
 	override_background = {
 		reference = ulmo
 	}
+	right_portrait = { 
+		character = scope:largest_realm_ruler
+		animation = war_defender
+	}
+	left_portrait = { 
+		character = scope:invader_char
+		animation = war_attacker
+	}
 
 	override_effect_2d = {
 		reference = flies
 	}
 	override_sound = { reference = "event:/SFX/Events/Themes/sfx_event_theme_type_duty" }
-
+	immediate = {
+		play_music_cue = 1_glamdring
+		save_scope_as = largest_realm_ruler
+		character:lineofeonwe = { save_scope_as = invader_char }
+	}
 	widgets = {
 		widget = {
 			gui = "lotr_shader_event_sparks"
@@ -843,8 +855,6 @@ numenor.3103 = { #Spawn valinor invasion on numenor
 	option = { #Valinor decides to invade you!
 		name = numenor.3103.a
 		custom_tooltip = numenor.3103.a.tt
-		save_scope_as = largest_realm_ruler
-		character:lineofeonwe = { save_scope_as = invader_char }
 
 		sunset_invasion_general_effect = {
 			GEOGRAPHICAL_REGION = middleearth_numenor
