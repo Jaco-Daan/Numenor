@@ -941,12 +941,6 @@ decision_numenor_invade_valinor = {
 	
 	# EFFECT
 	effect = {
-		title:k_wastelands.holder = {
-			increase_variable = {
-				NAME = numenor_invade_valinor
-				AMOUNT = 1
-			}
-		}
 		custom_tooltip = decision_numenor_invade_valinor_effect
 		trigger_event = {
 			id = numenor.3100

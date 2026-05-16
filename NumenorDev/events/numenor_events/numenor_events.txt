@@ -707,6 +707,17 @@ numenor.3100 = { # Start journey to Valinor
 		animation = marshal
 	}
 
+	immediate = {
+		hidden_effect = {
+			title:k_wastelands.holder = {
+				increase_variable = {
+					NAME = numenor_invade_valinor
+					AMOUNT = 1
+				}
+			}
+		}
+	}
+
 	option = { # We must find Valinor!!!
 		name = numenor.3100.a
 		custom_tooltip = numenor.3100.a.tt
