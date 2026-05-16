@@ -757,7 +757,7 @@ numenor.3101 = { # Earthquake/Flood
 
 	immediate = {
 		title:e_numenor.holder = { save_scope_as = numenor_ruler }
-		# play_music_cue = mx_cue_combat_3
+		play_music_cue = 1_glamdring
 	}
 
 	widgets = {
@@ -1209,6 +1209,6 @@ numenor.9502 = {
 	# override_sound = { reference = "file:/music/lotr_cues/LOTR_crusadestart.mp3" }
 	option = {
 		name = LOREM_IPSUM_TITLE
-		play_music_cue = mx_cue_combat_3
+		play_music_cue = 1_glamdring
 	}
 }
