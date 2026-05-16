@@ -102,14 +102,169 @@ define_numenor_resources = { # Setup resources on Numenor
 	}
 }
 
+### Sunset Invasions ###
+
 numenor_invasion_grab_landing_county = {
 	title:c_eldalonde = { save_scope_as = landing_county }
 }
 
-#####################################################################
-# EFFECTS
-#####################################################################
+numenor_invasion_landing_effect = {
+	sunset_invasion_general_landing_effect = {
+		GOVERNMENT = feudal_government
+		TITLE_TO_SPAWN_WITH = title:h_eonwe_host
+		LANDING_COUNTY_FAITH = faith:faith_eldar
+		LANDING_COUNTY_CULTURE = culture:noldor
+		PROVINCE_MODIFIER = landing_of_valinor_host_modifier
+	}
 
+	valinor_invasion_host_effect = yes
+
+	every_county_in_region = {
+		region = middleearth_numenor
+		limit = {
+			holder = {
+				is_independent_ruler = yes
+				faith_is_good = yes
+				is_orc = no
+				is_nazgul = no
+				is_sauron = no
+				highest_held_title_tier < tier_hegemony
+			}
+		}
+		holder = { trigger_event = { id = elven.2100 days = 1 } }
+	}
+}
+
+numenor_invasion_start_invasion_war = {
+	scope:invader_char = {
+		start_war = {
+			cb = lotr_valinor_invasion_cb
+			target = scope:largest_realm_ruler
+		}
+
+		sunset_invasion_add_subjects_as_attackers_and_defenders_effect = { GEOGRAPHICAL_REGION = middleearth_numenor }
+
+		create_story = story_conqueror
+	}
+}
+
+### Even more special sunset invasion effects ###
+
+numenor_eonwe_invasion_landing_effect = {
+	sunset_invasion_general_landing_effect = {
+		GOVERNMENT = feudal_government
+		TITLE_TO_SPAWN_WITH = title:h_eonwe_host
+		LANDING_COUNTY_FAITH = faith:faith_eldar
+		LANDING_COUNTY_CULTURE = culture:noldor
+		PROVINCE_MODIFIER = landing_of_valinor_host_modifier
+	}
+
+	valinor_invasion_host_effect = yes
+
+	every_county_in_region = {
+		region = numenor_special_eonwe_invasion_region
+		limit = {
+			holder = {
+				is_independent_ruler = yes
+				faith_is_good = yes
+				is_orc = no
+				is_nazgul = no
+				is_sauron = no
+				highest_held_title_tier < tier_hegemony
+			}
+		}
+		holder = { trigger_event = { id = elven.2100 days = 1 } }
+	}
+}
+
+numenor_eonwe_invasion_start_invasion_war = {
+	scope:invader_char = {
+		start_war = {
+			cb = lotr_valinor_invasion_cb
+			target = scope:largest_realm_ruler
+		}
+
+		sunset_invasion_add_subjects_as_attackers_and_defenders_effect = { GEOGRAPHICAL_REGION = numenor_special_eonwe_invasion_region }
+
+		create_story = story_conqueror
+	}
+}
+
+numenor_pharazon_landing_effect = {
+	title:c_nindamos = { save_scope_as = landing_county }
+}
+
+numenor_pharazon_invasion_start_invasion_war = {
+	scope:invader_char = {
+		start_war = {
+			cb = lotr_pharazon_invasion_cb
+			target = scope:largest_realm_ruler
+		}
+		sunset_invasion_add_subjects_as_attackers_and_defenders_effect = { GEOGRAPHICAL_REGION = middleearth_numenor }
+
+		create_story = story_conqueror
+
+		create_character = {
+			template = lotr_sunset_invasion_commander_template
+			dynasty = none
+			employer = scope:invader_char
+		}
+		create_character = {
+			template = lotr_sunset_invasion_commander_template
+			dynasty = none
+			employer = scope:invader_char
+		}
+		create_character = {
+			template = lotr_sunset_invasion_commander_template
+			dynasty = none
+			employer = scope:invader_char
+		}
+		create_character = {
+			template = lotr_sunset_invasion_commander_template
+			dynasty = none
+			employer = scope:invader_char
+		}
+	}
+}
+
+numenor_amav_landing_effect = {
+	title:c_opele_ancalimonva = { save_scope_as = landing_county }
+}
+
+numenor_amav_invasion_start_invasion_war = {
+	scope:invader_char = {
+		start_war = {
+			cb = lotr_amav_invasion_cb
+			target = scope:largest_realm_ruler
+		}
+		sunset_invasion_add_subjects_as_attackers_and_defenders_effect = { GEOGRAPHICAL_REGION = numenor_special_amav_invasion_region }
+
+		create_story = story_conqueror
+
+		create_character = {
+			template = lotr_sunset_invasion_commander_template
+			dynasty = none
+			employer = scope:invader_char
+		}
+		create_character = {
+			template = lotr_sunset_invasion_commander_template
+			dynasty = none
+			employer = scope:invader_char
+		}
+		create_character = {
+			template = lotr_sunset_invasion_commander_template
+			dynasty = none
+			employer = scope:invader_char
+		}
+		create_character = {
+			template = lotr_sunset_invasion_commander_template
+			dynasty = none
+			employer = scope:invader_char
+		}
+	}
+}
+
+### Natural Disasters ###
 numenor_spawn_earthquake_in_region_effect = {
 	random_county_in_region = {
 		region = $REGION$

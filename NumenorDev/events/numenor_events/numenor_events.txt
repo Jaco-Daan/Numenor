@@ -771,17 +771,61 @@ numenor.3101 = { # Earthquake/Flood
 		name = numenor.3101.a
 		custom_tooltip = numenor.3101.a.tt
 
-		numenor_spawn_flood_in_region_effect = {
+		if = {
+			limit = { NOT = { global_var:numenor_invade_valinor ?= 9 } }
+			trigger_event = {
+				id = numenor.3103
+				years = 5
+			}
+		}
+		else = {
+			sunset_invasion_general_effect = {
+				GEOGRAPHICAL_REGION = numenor_special_eonwe_invasion_region
+				GRAB_LANDING_COUNTY_EFFECT = numenor_invasion_grab_landing_county
+				REVIVE_DEAD_CHARACTER_EFFECT = "#" #Do nothing
+				INVASION_LANDING_EFFECT = numenor_eonwe_invasion_landing_effect
+				START_INVASION_WAR_EFFECT = numenor_eonwe_invasion_start_invasion_war
+			}
+
+			sunset_invasion_general_effect = {
+				GEOGRAPHICAL_REGION = numenor_special_pharazon_invasion_region
+				GRAB_LANDING_COUNTY_EFFECT = numenor_pharazon_landing_effect
+				REVIVE_DEAD_CHARACTER_EFFECT = pharazon_invasion_revive_pharazon
+				INVASION_LANDING_EFFECT = pharazon_invasion_landing_effect
+				START_INVASION_WAR_EFFECT = numenor_pharazon_invasion_start_invasion_war
+			}
+
+			sunset_invasion_general_effect = {
+				GEOGRAPHICAL_REGION = numenor_special_amav_invasion_region
+				GRAB_LANDING_COUNTY_EFFECT = numenor_amav_landing_effect
+				REVIVE_DEAD_CHARACTER_EFFECT = amav_invasion_revive_amav
+				INVASION_LANDING_EFFECT = amav_invasion_landing_effect
+				START_INVASION_WAR_EFFECT = numenor_amav_invasion_start_invasion_war
+			}
+		}
+
+		spawn_flood_in_region_effect = {
+			REGION = middleearth_numenor
+		}
+
+		spawn_flood_in_region_effect = {
+			REGION = middleearth_numenor
+		}
+
+		spawn_flood_in_region_effect = {
+			REGION = middleearth_numenor
+		}
+
+		spawn_flood_in_region_effect = {
+			REGION = middleearth_numenor
+		}
+
+		spawn_flood_in_region_effect = {
 			REGION = middleearth_numenor
 		}
 
 		numenor_spawn_earthquake_in_region_effect = {
 			REGION = middleearth_numenor
-		}
-
-		trigger_event = {
-			id = numenor.3103
-			years = 5
 		}
 	}
 }
@@ -860,8 +904,8 @@ numenor.3103 = { #Spawn valinor invasion on numenor
 			GEOGRAPHICAL_REGION = middleearth_numenor
 			GRAB_LANDING_COUNTY_EFFECT = numenor_invasion_grab_landing_county
 			REVIVE_DEAD_CHARACTER_EFFECT = "#" #Do nothing
-			INVASION_LANDING_EFFECT = valinor_invasion_landing_effect
-			START_INVASION_WAR_EFFECT = valinor_invasion_start_invasion_war
+			INVASION_LANDING_EFFECT = numenor_invasion_landing_effect
+			START_INVASION_WAR_EFFECT = numenor_invasion_start_invasion_war
 		}
 	}
 }

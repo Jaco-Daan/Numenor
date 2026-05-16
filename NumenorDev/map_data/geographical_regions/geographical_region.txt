@@ -4038,3 +4038,24 @@ numenorean_province_minhiriath = {
 		d_minhiriath d_dol_caladir d_girithlin d_ethir_gwathlo d_nen_gwathlo
 	}
 }
+
+numenor_special_eonwe_invasion_region = {
+	duchies = {
+		d_anduine d_arialome d_erest d_nisimaldar d_nunduine
+		d_emerie d_erelonde d_zimrayan d_hyarnudore
+	}
+}
+
+numenor_special_pharazon_invasion_region = {
+	duchies = {
+		d_sorontil d_ondosto d_forpende d_elenore
+		d_khorandor d_ciryanore
+	}
+}
+
+numenor_special_amav_invasion_region = {
+	duchies = {
+		d_meneltarma d_arandor d_formenore d_aruwanai
+		d_nindamos d_sirinore d_andunie d_hyarnore
+	}
+}
