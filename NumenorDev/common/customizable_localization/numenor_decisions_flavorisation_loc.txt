@@ -1,4 +1,5 @@
 ﻿numenor_invade_loc = {
+    type = character
     text = {
         trigger = { NOT = { has_variable = numenor_invade_valinor } }
         localization_key = decision_numenor_invade_valinor_1

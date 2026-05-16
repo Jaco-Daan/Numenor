@@ -65,7 +65,7 @@
  decision_palantir_romenna_confirm: "We shall know the secrets of our enemies."
  decision_palantir_romenna_title: "The Palantír of Rómenna"
  
- decision_numenor_invade_valinor: "The [GetTitleByKey('k_wastelands').GetHolder.Custom('numenor_invade_loc')] Great Armament"
+ decision_numenor_invade_valinor: "The [GetTitleByKey('k_wastelands').GetHolder.Char.Custom('numenor_invade_loc')] Great Armament"
  decision_numenor_invade_valinor_1: "Second"
  decision_numenor_invade_valinor_2: "Third"
  decision_numenor_invade_valinor_3: "Fourth"
