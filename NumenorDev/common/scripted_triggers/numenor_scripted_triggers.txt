@@ -108,7 +108,7 @@ show_numenorean_minhiriath_trigger = {
 }
 
 numenor_in_isolation_phase = {
-	situation:numenor_situation = { situation_current_phase = numenor_situation_isolation }
+	situation:numenor_situation ?= { situation_current_phase = numenor_situation_isolation }
 }
 
 numenor_can_declare_war = {
