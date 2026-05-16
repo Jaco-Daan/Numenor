@@ -1206,8 +1206,9 @@ numenor.9502 = {
 	theme = stewardship_duty_focus
 	left_portrait = root
 
-	override_sound = { reference = "file:/music/lotr_cues/LOTR_crusadestart.mp3" }
+	# override_sound = { reference = "file:/music/lotr_cues/LOTR_crusadestart.mp3" }
 	option = {
 		name = LOREM_IPSUM_TITLE
+		play_music_cue = mx_cue_combat_3
 	}
 }
