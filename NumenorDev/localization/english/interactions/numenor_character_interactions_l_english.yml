@@ -4,3 +4,7 @@
   bribe_council_member_interaction_desc: "Spend gold to bribe a council member to support your war."
   bribe_council_member_interaction_notification: "Bribed a council member."
   bribe_council_member_interaction_tt: "Every council member loses #N 30#! opinion of [actor.GetName].\n"
+
+  progress_valinor_invasion_counter: "Increase Valinorian Counter"
+  progress_valinor_invasion_counter_desc: "Increase Valinorian Counter"
+  progress_valinor_invasion_counter_tt: "Current Counter: [GetTitleByKey('k_wastelands').GetHolder.MakeScope.Var('numenor_invade_valinor')|0]\n#weak Can't go higher than 9#!"

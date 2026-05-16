@@ -111,3 +111,37 @@
 	
 	ai_will_do = { base = 100 }
 }
+
+progress_valinor_invasion_counter = {
+	category = interaction_debug_realms
+	use_diplomatic_range = no
+	common_interaction = no
+	ignores_pending_interaction_block = yes
+	icon = realms_debug
+	desc = progress_valinor_invasion_counter_desc
+
+	is_shown = {
+		debug_only = yes
+		scope:recipient = scope:actor
+	}
+	on_accept = {
+		custom_tooltip = {
+			text = progress_valinor_invasion_counter_tt
+			if = {
+				limit = {
+					trigger_if = {
+						limit = { title:k_wastelands.holder = { has_variable = numenor_invade_valinor } }
+						title:k_wastelands.holder.var:numenor_invade_valinor < 9
+					}
+				}
+				title:k_wastelands.holder = {
+					increase_variable = {
+						NAME = numenor_invade_valinor
+						AMOUNT = 1
+					}
+				}
+			}
+		}
+	}
+	auto_accept = yes
+}
