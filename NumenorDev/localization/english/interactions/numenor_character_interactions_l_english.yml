@@ -8,3 +8,5 @@
   progress_valinor_invasion_counter: "Increase Valinorian Counter"
   progress_valinor_invasion_counter_desc: "Increase Valinorian Counter"
   progress_valinor_invasion_counter_tt: "Current Counter: [GetTitleByKey('k_wastelands').GetHolder.MakeScope.Var('numenor_invade_valinor').GetValue|0]\n#weak Can't go higher than 9#!"
+
+  numenor_river_region: "Númenor"
