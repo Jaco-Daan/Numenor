@@ -4,35 +4,35 @@
  #### Numenorean Reclamation ####
  ###############################
  
- decision_reclaim_umbar_numenor: "Reclaim the Haven of Umbar"
- decision_recover_umbar_numenor_title: "The Reclamation of Umbar"
- decision_reclaim_umbar_numenor_tooltip: "Reclaim the Great Haven of Umbar."
- decision_reclaim_umbar_numenor_desc: "Umbar was founded by Tar-Ancalimon and thereafter ruled by the line of Elros through the line of Vardur. Following the Akallabêth, Umbar broke off from Númenor and became a Realm-In-Exile, but soon, that shall end. We will liberate Umbar!"
- decision_reclaim_umbar_numenor_confirm: "Our haven shall be restored!"
- 
+ decision_reclaim_umbar_numenor: "Restore the Haven of Umbar" #AI PLACEHOLDER
+ decision_recover_umbar_numenor_title: "The Restoration of Umbar" #AI PLACEHOLDER
+ decision_reclaim_umbar_numenor_tooltip: "Restore the Great Haven of Umbar to the friendship of Númenor."
+ decision_reclaim_umbar_numenor_desc: "Umbar was founded by Tar-Ancalimon and long governed by the line of Elros through the House of Vardur. After the [akallabeth|E], the haven endured as a Realm-in-Exile, separated from Númenor by grief, distance, and the breaking of the world. Yet the legacy of Westernesse still survives upon its shores. We shall restore Umbar and renew the ancient bond between the haven and the Sceptre." #AI PLACEHOLDER
+ decision_reclaim_umbar_numenor_confirm: "The haven shall endure once more!" #AI PLACEHOLDER
+
  decision_reclaim_bellakar_numenor: "The Land of the Sun"
- decision_recover_bellakar_numenor_title: "The Reintegration of Pharazâin"
- decision_reclaim_bellakar_numenor_tooltip: "Reintegrate the old colony of Pharazâin"
- decision_reclaim_bellakar_numenor_desc: "Pharazâin, now known as Bellakar, was once the mightiest of the Adûnai colonies in the Bay of Tûlwang, founded during the reign of Tar-Súrion, Pharazâin was ruled fairly and justly by the Bâitha’n-Kadîr until the Haradrim House of Tumakveh made it their own puppet. We shall liberate the Adûnai of Pharazâin and restore the Bâitha’n-Kadîr to its former glory."
- decision_reclaim_bellakar_numenor_confirm: "Bellakar no more. Long live Pharazâin!"
- 
+ decision_recover_bellakar_numenor_title: "The Restoration of Pharazâin" #AI PLACEHOLDER
+ decision_reclaim_bellakar_numenor_tooltip: "Restore ties with the ancient realm of Pharazâin." #AI PLACEHOLDER
+ decision_reclaim_bellakar_numenor_desc: "Pharazâin, now called Bellakar, was once the greatest of the Adûnai realms in the Bay of Tûlwang, founded during the reign of Tar-Súrion. In ages past it flourished beneath the stewardship of the [baitha|E], becoming a center of trade, learning, and Númenórean tradition. Though centuries of division and foreign influence have dimmed much of its former splendor, the legacy of Anadûnê yet remains there. We shall aid the Adûnai of Pharazâin and restore it to prominence once more." #AI PLACEHOLDER
+ decision_reclaim_bellakar_numenor_confirm: "May Pharazâin rise anew!" #AI PLACEHOLDER
+
  decision_reclaim_thani_hazad_numenor: "Reunite the Seven Lands"
  decision_recover_thani_hazad_numenor_title: "The Reunification of the Seven Lands"
- decision_reclaim_thani_hazad_numenor_tooltip: "Reunify the Seven Lands once more"
- decision_reclaim_thani_hazad_numenor_desc: "Thâni-Hazâd was discovered by Tar-Anárion and made into seven great Adûnai colonies, but over time these colonies fell to corruption and petty infighting. We shall bring the Seven Lands back into our fold, and restore them to their former glory!"
- decision_reclaim_thani_hazad_numenor_confirm: "The Jewels of the South shall be ours once more."
- 
- decision_reclaim_gondor_numenor: "Reclaim Gondor"
- decision_reclaim_gondor_numenor_title: "The Purification of Gondor"
- decision_reclaim_gondor_numenor_tooltip: "Reclaim the lands of the former League of Pelargir."
- decision_reclaim_gondor_numenor_desc: "Gondor was once a mighty Adûnai colony, ruled by the League of Pelargir it stood firm against the raids from Mordor, however, ever since Castamir I died it has fallen into barbarian depravity. Now, we move to reclaim Gondor and save them from themselves."
- decision_reclaim_gondor_numenor_confirm: "We shall strike Pelargir first!"
- 
- decision_reclaim_harnen_numenor: "Restore Our Control of The Harnen"
+ decision_reclaim_thani_hazad_numenor_tooltip: "Renew the bonds between Númenor and the Seven Lands." #AI PLACEHOLDER
+ decision_reclaim_thani_hazad_numenor_desc: "Thâni-Hazâd was first settled in the days of Tar-Anárion, when seven great Adûnai havens were raised upon its shores. Yet over the long centuries, the colonies drifted apart through rivalry, ambition, and forgetfulness. We shall reunite the Seven Lands beneath a common purpose once more, restoring cooperation and prosperity where division has long prevailed." #AI PLACEHOLDER
+ decision_reclaim_thani_hazad_numenor_confirm: "The Seven Lands shall stand united once more."
+
+ decision_reclaim_gondor_numenor: "Restoration of Gondor" #AI PLACEHOLDER
+ decision_reclaim_gondor_numenor_title: "The Restoration of Gondor" #AI PLACEHOLDER
+ decision_reclaim_gondor_numenor_tooltip: "Restore Númenórean influence within the former League of Pelargir."
+ decision_reclaim_gondor_numenor_desc: "Gondor was once among the greatest realms founded by the heirs of Númenor in Middle-earth. Under the League of Pelargir its ports prospered and its people stood firm against the darkness of Mordor. Yet centuries of strife, dynastic conflict, and decline have left Gondor fractured and diminished from its former strength. We shall restore ties with the descendants of Westernesse and aid Gondor in reclaiming the stability and wisdom it once possessed." #AI PLACEHOLDER
+ decision_reclaim_gondor_numenor_confirm: "Pelargir shall hear our call." #AI PLACEHOLDER
+
+ decision_reclaim_harnen_numenor: "Restore the Harnen" #AI PLACEHOLDER
  decision_reclaim_harnen_numenor_title: "The Restoration of the Harnen"
- decision_reclaim_harnen_numenor_tooltip: "Restore Númenorean control over the Harnen"
- decision_reclaim_harnen_numenor_desc: "The Harnen was discovered and named by Tar-Aldarion. During its time as a colony it prospered, with cities being built and commerce flourishing, the Harnen became a crucial economic arterery for Númenor. Now, we shall wrestle control of the Harnen from the barbaric Haradrim."
- decision_reclaim_harnen_numenor_confirm: "The Riches of The Harnen Shall go to Armenelos"
+ decision_reclaim_harnen_numenor_tooltip: "Restore Númenórean stewardship over the Harnen." #AI PLACEHOLDER
+ decision_reclaim_harnen_numenor_desc: "The Harnen was charted and named in the days of Tar-Aldarion. In ages past the river prospered beneath Númenórean stewardship, with thriving ports, flourishing commerce, and strong ties between the peoples of its shores. Over time those old bonds faded, and the region fell into disorder and division. We shall restore stability to the Harnen and renew the prosperity that once flowed along its waters." #AI PLACEHOLDER
+ decision_reclaim_harnen_numenor_confirm: "The Harnen shall flourish once again." #AI PLACEHOLDER
  
  hold_memorial_at_meneltarma_decision: "Hold a Memorial at the Meneltarma"
  hold_memorial_at_meneltarma_decision_title: "The Memorial to the Victims of Darkness"
@@ -55,7 +55,7 @@
 #  destroy_mordor_decision: "Launches a final war to destroy Mordor, and Sauron, once and for all"
  
  decision_numenor_annex_korlea: "An Offer to Korlea"
- decision_numenor_annex_korlea_desc: "Korlea, once the mightiest of the Bellakarani cities, now a half-sunken port which the Haradric Tumakveh take for granted, it was the Adûnai who built Korlea, and it is the Adûnai who still rule it, for we have received reports that the Lord of the region is of pure Adûnaic descent. We will make him an offer to secede from Bellakar and join Númenor, in exchange, we shall send resources and manpower to rebuild Korlea and make it the headquarters of the Bâitha’n-Kadîr and a restored Pharazâin once again."
+ decision_numenor_annex_korlea_desc: "Korlea, once the mightiest harbor of Bellakar, now stands diminished — a half-sunken port whose ancient grandeur has slowly faded with the passing of centuries. Yet it was the Adûnai who first raised the city’s walls and harbors, and the legacy of Westernesse still endures there, for reports speak of a lord who has faithfully preserved the traditions and lineage of the Adûnaim.\n\nWe shall extend to him an offer: that Korlea withdraw from Bellakar and once more stand beside Númenor. In return, we shall send wealth, craftsmen, and manpower to restore the city, raising it anew as the seat of the [baitha|E] and the center of a renewed Pharazâin presence in Middle-earth.\n\nShould Korlea accept, the ancient harbor may again become a beacon of Adûnaic learning, trade, and remembrance, rather than a fading relic of forgotten glory." #AI PLACEHOLDER
  decision_numenor_annex_korlea_confirm: "We shall make them an offer they cannot refuse."
  decision_numenor_annex_korlea_tooltip: "Sends an offer of vassalization to Korlea"
  

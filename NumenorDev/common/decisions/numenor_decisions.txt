@@ -1298,7 +1298,7 @@ decision_restore_numenor_province = {
 		item = {	# Fallback - Displayed if no others available
 			value = reintegrate_province_fallback
 			localization = decision_restore_gondor_province.tt.fallback
-			icon = "gfx/interface/icons/message_feed/conciliation.dds"
+			icon = "gfx/interface/icons/theme_administration_types/conciliation.dds"
 			is_shown = { always = no }
 			is_valid = { always = no }
 			ai_chance = {
@@ -1310,7 +1310,7 @@ decision_restore_numenor_province = {
 			value = reclaim_numenor_umbar
 			current_description = decision_restore_numenor_province.tt.empty_desc
 			localization = decision_restore_numenor_province.tt.umbar
-			icon = "gfx/interface/icons/message_feed/compass_light.dds"
+			icon = "gfx/interface/icons/theme_administration_types/icon_game_concept_naval_administration.dds"
 			is_shown = { show_numenorean_umbar_trigger = yes }
 			is_valid = { completely_controls_numenorean_province_umbar = yes prestige_level >= high_prestige_level }
 			ai_chance = { value = 100 }
@@ -1319,7 +1319,7 @@ decision_restore_numenor_province = {
 			value = reclaim_numenor_bellakar
 			current_description = decision_restore_numenor_province.tt.empty_desc
 			localization = decision_restore_numenor_province.tt.bellakar
-			icon = "gfx/interface/icons/message_feed/conciliation.dds"
+			icon = "gfx/interface/icons/theme_administration_types/icon_game_concept_civilian_administration.dds"
 			is_shown = { show_numenorean_bellakar_trigger = yes }
 			is_valid = { completely_controls_numenorean_province_bellakar = yes prestige_level >= high_prestige_level }
 			ai_chance = { value = 100 }
@@ -1328,7 +1328,7 @@ decision_restore_numenor_province = {
 			value = reclaim_numenor_thani_hazad
 			current_description = decision_restore_numenor_province.tt.empty_desc
 			localization = decision_restore_numenor_province.tt.thani_hazad
-			icon = "gfx/interface/icons/message_feed/steward_job.dds"
+			icon = "gfx/interface/icons/theme_administration_types/icon_game_concept_balanced_administration.dds"
 			is_shown = { show_numenorean_thani_hazad_trigger = yes }
 			is_valid = { completely_controls_numenorean_province_thani_hazad = yes prestige_level >= high_prestige_level }
 			ai_chance = { value = 100 }
@@ -1337,7 +1337,7 @@ decision_restore_numenor_province = {
 			value = reclaim_numenor_gondor
 			current_description = decision_restore_numenor_province.tt.empty_desc
 			localization = decision_restore_numenor_province.tt.gondor
-			icon = "gfx/interface/icons/message_feed/gondorian_clansmen.dds"
+			icon = "gfx/interface/icons/theme_administration_types/icon_game_concept_imperial_administration.dds"
 			is_shown = { show_numenorean_gondor_trigger = yes }
 			is_valid = { completely_controls_numenorean_province_gondor = yes prestige_level >= high_prestige_level }
 			ai_chance = { value = 100 }
@@ -1346,7 +1346,7 @@ decision_restore_numenor_province = {
 			value = reclaim_numenor_harnen
 			current_description = decision_restore_numenor_province.tt.empty_desc
 			localization = decision_restore_numenor_province.tt.harnen
-			icon = "gfx/interface/icons/message_feed/generic_neutral_effect.dds"
+			icon = "gfx/interface/icons/theme_administration_types/icon_game_concept_military_administration.dds"
 			is_shown = { show_numenorean_harnen_trigger = yes }
 			is_valid = { completely_controls_numenorean_province_harnen = yes prestige_level >= high_prestige_level }
 			ai_chance = { value = 100 }
@@ -1355,7 +1355,7 @@ decision_restore_numenor_province = {
 			value = reclaim_numenor_minhiriath
 			current_description = decision_restore_numenor_province.tt.empty_desc
 			localization = decision_restore_numenor_province.tt.minhiriath
-			icon = "gfx/interface/icons/message_feed/generic_neutral_effect.dds"
+			icon = "gfx/interface/icons/character_interactions/mpo_retrieve_land_from_herder_interaction.dds"
 			is_shown = { show_numenorean_minhiriath_trigger = yes }
 			is_valid = { completely_controls_numenorean_province_minhiriath = yes prestige_level >= high_prestige_level }
 			ai_chance = { value = 100 }
