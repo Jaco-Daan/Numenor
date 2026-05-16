@@ -14,6 +14,7 @@ numenor.0003 = { # Introduction to Ar-Balkazir.
 	title = numenor.0003.t
 	desc = numenor.0003.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	override_background = {
 		reference = armenelos
 	}
@@ -32,6 +33,7 @@ numenor.0200 = { # Introduction to Lord Ciryandur.
 	title = numenor.0200.t
 	desc = numenor.0200.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	override_background = {
 		reference  = docks_dunedain
 	}
@@ -53,6 +55,7 @@ numenor.0230 = { # Introduction to Lord Eldarion.
 	title = numenor.0230.t
 	desc = numenor.0230.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	override_background = {
 		reference  = docks_dunedain
 	}
@@ -83,6 +86,7 @@ numenor.0240 = { # Introduction to Lord Zorzagar.
 	title = numenor.0240.t
 	desc = numenor.0240.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	override_background = {
 		reference  = docks_adunai
 	}
@@ -119,6 +123,7 @@ numenor.0250 = { # Introduction to Lord Nilûbên.
 	title = numenor.0250.t
 	desc = numenor.0250.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	override_background = {
 		reference  = dimril_dale
 	}
@@ -140,6 +145,7 @@ numenor.0260 = { # Introduction to Lord Gimilzagar
 	title = numenor.0260.t
 	desc = numenor.0260.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	override_background = {
 		reference = last_bridge
 	}
@@ -171,6 +177,7 @@ numenor.0001 = { #do what with aa
 	title = numenor.0001.t
 	desc = numenor.0001.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	left_portrait = {
 		character = title:e_numenor.holder
 		animation = personality_bold
@@ -216,6 +223,7 @@ numenor.0002 = { #what will aa do
 	title = numenor.0002.t
 	desc = numenor.0002.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	left_portrait = {
 		character = title:e_numenor.holder
 		animation = personality_bold
@@ -269,6 +277,7 @@ numenor.0010 = { #Meneltarma
 	title = numenor.0010.t
 	desc = numenor.0010.desc
 	theme = learning_theology_focus
+    content_source = realms_dlc
 	left_portrait = {
 		character = ROOT
 		animation = personality_content
@@ -296,6 +305,7 @@ numenor.1000 = {
 	title = numenor.1000.t
 	desc = numenor.1000.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -309,6 +319,7 @@ numenor.1001 = {
 	title = numenor.1001.t
 	desc = numenor.1001.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -322,6 +333,7 @@ numenor.1002 = {
 	title = numenor.1002.t
 	desc = numenor.1002.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -335,6 +347,7 @@ numenor.1003 = {
 	title = numenor.1003.t
 	desc = numenor.1003.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -348,6 +361,7 @@ numenor.1004 = {
 	title = numenor.1004.t
 	desc = numenor.1004.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -361,6 +375,7 @@ numenor.1005 = {
 	title = numenor.1005.t
 	desc = numenor.1005.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -374,6 +389,7 @@ numenor.1006 = {
 	title = numenor.1006.t
 	desc = numenor.1006.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -387,6 +403,7 @@ numenor.1007 = {
 	title = numenor.1007.t
 	desc = numenor.1007.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	left_portrait = {
 		character = root
 		animation = personality_bold
@@ -413,6 +430,7 @@ numenor.1009 = {
 	title = numenor.1009.t
 	desc = numenor.1009.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 
 	left_portrait = {
 		character = root
@@ -428,6 +446,7 @@ numenor.2001 = {
 	title = numenor.2001.t
 	desc = numenor.2001.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	left_portrait = {
 		character = scope:expedition_sender
 		animation = personality_bold
@@ -447,6 +466,7 @@ numenor.2002 = { #Pirates!
 	title = numenor.2002.t
 	desc = numenor.2002.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	left_portrait = {
 		character = scope:expedition_sender
 		animation = personality_bold
@@ -562,6 +582,7 @@ numenor.3000 = {
 	title = numenor.3000.t
 	desc = numenor.3000.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	override_background = {
 		reference = docks_adunai
 	}
@@ -677,6 +698,7 @@ numenor.3100 = { # Start journey to Valinor
 	title = numenor.3100.t
 	desc = numenor.3100.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	override_background = {
 		reference = docks_adunai
 	}
@@ -718,6 +740,7 @@ numenor.3101 = { # Earthquake/Flood
 	title = numenor.3101.t
 	desc = numenor.3101.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	override_background = {
 		reference = "gfx/interface/illustrations/situation_backgrounds/numenor_situation_background.dds"
 	}
@@ -725,6 +748,8 @@ numenor.3101 = { # Earthquake/Flood
 		character = scope:numenor_ruler
 		animation = war_defender
 	}
+	
+	override_sound = { reference = "file:/music/lotr_cues/LOTR_crusadestart.mp3" }
 
 	override_effect_2d = {
 		reference = fog
@@ -732,6 +757,7 @@ numenor.3101 = { # Earthquake/Flood
 
 	immediate = {
 		title:e_numenor.holder = { save_scope_as = numenor_ruler }
+		# play_music_cue = mx_cue_combat_3
 	}
 
 	widgets = {
@@ -764,6 +790,7 @@ numenor.3102 = { # Return in shame to Numenor
 	title = numenor.3102.t
 	desc = numenor.3102.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	override_background = {
 		reference =  docks_adunai
 	}
@@ -792,6 +819,7 @@ numenor.3103 = { #Spawn valinor invasion on numenor
 	title = numenor.3103.t
 	desc = numenor.3103.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 	override_background = {
 		reference = ulmo
 	}
@@ -799,6 +827,7 @@ numenor.3103 = { #Spawn valinor invasion on numenor
 	override_effect_2d = {
 		reference = flies
 	}
+	override_sound = { reference = "event:/SFX/Events/Themes/sfx_event_theme_type_duty" }
 
 	widgets = {
 		widget = {
@@ -843,6 +872,7 @@ numenor.3201 = { # Numenor gets an event to send message to Ray to offer client 
 	title = numenor.3201.t
 	desc = numenor.3201.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 
 	override_background = {
 		reference =  armenelos
@@ -873,6 +903,7 @@ numenor.3202 = { # Ray gets a message from Numenor to become their tributary
 	title = numenor.3202.t
 	desc = numenor.3202.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 
 	override_background = {
 		reference =  armenelos
@@ -949,6 +980,7 @@ numenor.3300 = {
 	title = numenor.3300.title
 	desc = numenor.3300.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 
 	override_background = {
 		reference =  armenelos
@@ -1039,6 +1071,7 @@ numenor.3310 = {
 	title = numenor.3310.title
 	desc = numenor.3310.desc
 	theme = stewardship_duty_focus
+    content_source = realms_dlc
 
 	override_background = {
 		reference = armenelos
@@ -1162,5 +1195,19 @@ numenor.9501 = { # Little event that makes it so Er-Murazor doesn't have a claim
 
 	immediate = {
 		remove_claim = title:e_numenor
+	}
+}
+
+numenor.9502 = {
+	orphan = yes
+    content_source = realms_dlc
+	title = LOREM_IPSUM_TITLE
+	desc = LOREM_IPSUM_DESCRIPTION
+	theme = stewardship_duty_focus
+	left_portrait = root
+
+	override_sound = { reference = "file:/music/lotr_cues/LOTR_crusadestart.mp3" }
+	option = {
+		name = LOREM_IPSUM_TITLE
 	}
 }
