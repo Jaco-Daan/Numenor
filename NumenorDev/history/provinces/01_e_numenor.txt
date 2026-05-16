@@ -50,7 +50,7 @@
 	6776.1.1 = {
 		buildings = {
 			castle_04
-			curtain_walls_06
+			hill_forts_06
 		}
 	}
 }
@@ -313,7 +313,7 @@
 	6776.1.1 = {
 		buildings = {
 			castle_02
-			curtain_walls_04
+			hill_forts_04
 			pastures_04
 		}
 	}
@@ -720,7 +720,7 @@
 	6776.1.1 = {
 		buildings = {
 			castle_02
-			curtain_walls_04
+			ramparts_04
 			hospices_04
 		}
 	}
@@ -1076,7 +1076,7 @@
 		buildings = {
 			castle_02
 			curtain_walls_04
-			logging_camps_04
+			pastures_04
 		}
 	}
 }
@@ -1226,7 +1226,7 @@
 	6776.1.1 = {
 		buildings = {
 			castle_02
-			hill_forts_04
+			curtain_walls_04
 			common_tradeport_04
 		}
 	}
@@ -1521,8 +1521,8 @@
 	6776.1.1 = {
 		buildings = {
 			castle_02
-			curtain_walls_04
-			cereal_fields_04
+			ramparts_04
+			hunting_grounds_04
 		}
 	}
     6800.1.1 = {
@@ -2081,7 +2081,7 @@
 	6776.1.1 = {
 		buildings = {
 			castle_03
-			curtain_walls_06
+			hill_forts_06
 			common_tradeport_06
 		}
 		duchy_capital_building = blacksmiths_02
@@ -2161,7 +2161,7 @@
 	6776.1.1 = {
 		buildings = {
 			castle_04
-			farm_estates_06
+			pastures_06
 			barracks_04
 		}
 		special_building_slot = wonder_ondosto_01
