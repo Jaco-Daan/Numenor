@@ -895,6 +895,47 @@ decision_numenor_annex_korlea = {
 decision_numenor_invade_valinor = {
 	decision_group_type = Numenor_major
 	# TEXT
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { title:k_wastelands.holder = { has_variable = numenor_invade_valinor } } }
+				desc = decision_numenor_invade_valinor_1
+			}
+			triggered_desc = {
+				trigger = { var:numenor_invade_valinor ?= 2 }
+				desc = decision_numenor_invade_valinor_2
+			}
+			triggered_desc = {
+				trigger = { var:numenor_invade_valinor ?= 3 }
+				desc = decision_numenor_invade_valinor_3
+			}
+			triggered_desc = {
+				trigger = { var:numenor_invade_valinor ?= 4 }
+				desc = decision_numenor_invade_valinor_4
+			}
+			triggered_desc = {
+				trigger = { var:numenor_invade_valinor ?= 5 }
+				desc = decision_numenor_invade_valinor_5
+			}
+			triggered_desc = {
+				trigger = { var:numenor_invade_valinor ?= 6 }
+				desc = decision_numenor_invade_valinor_6
+			}
+			triggered_desc = {
+				trigger = { var:numenor_invade_valinor ?= 7 }
+				desc = decision_numenor_invade_valinor_7
+			}
+			triggered_desc = {
+				trigger = { var:numenor_invade_valinor ?= 8 }
+				desc = decision_numenor_invade_valinor_8
+			}
+			triggered_desc = {
+				trigger = { var:numenor_invade_valinor ?= 9 }
+				desc = decision_numenor_invade_valinor_9
+			}
+			desc = decision_numenor_invade_valinor_1
+		}
+	}
 	title = decision_numenor_invade_valinor
 	picture = { reference = "gfx/interface/illustrations/decisions/armament.dds" }
 	selection_tooltip = decision_numenor_invade_valinor_tooltip
