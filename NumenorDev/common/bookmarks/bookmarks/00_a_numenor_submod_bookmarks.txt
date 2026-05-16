@@ -2,11 +2,11 @@
 	start_date = 7033.1.1
 	is_playable = yes
 	group = bm_group_3000TA
-	
+
 	weight = {
 		value = 1000
 	}
-	
+
 	# Ar- Balkazîr, King of Númenor
 	character = {
 		name = "bookmark_numenor_balkazir"
@@ -23,7 +23,7 @@
 		position = { 1100 190 }
 		animation = personality_honorable
 	}
-	
+
 	# Ciryandur, Lord of Nísimaldar
 	character = {
 		name = "bookmark_numenor_ciryandur"
@@ -40,7 +40,7 @@
 		position = { 300 520 }
 		animation = personality_greedy
 	}
-	
+
 	# Eldarion, Lord of Andúnie
 	character = {
 		name = "bookmark_numenor_eldarion"
@@ -57,7 +57,7 @@
 		position = { 250 280 }
 		animation = personality_bold
 	}
-	
+
 	# Zorzagar, Lord of Hyarnore
 	character = {
 		name = "bookmark_numenor_zorzagar"
@@ -74,7 +74,7 @@
 		position = { 1180 800 }
 		animation = personality_content
 	}
-	
+
 	# Niluben, Lord of Ciryanore
     character = {
         name = "bookmark_numenor_niluben"
@@ -91,7 +91,7 @@
         position = { 1180 480 }
         animation = personality_rational
 	}
-	
+
 	# Gimilzagar, Lord of the Nunduine
 	character = {
 		name = "bookmark_numenor_gimilzagar"
@@ -104,7 +104,7 @@
 		religion = faith_adunaic
 		culture = adunaic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = lineofciryamir31
+		history_id = lineofciryamir30
 		position = { 660 780 }
 		animation = personality_dishonorable
 	}

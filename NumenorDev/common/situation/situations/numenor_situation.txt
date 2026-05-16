@@ -6,7 +6,7 @@
 	migration = no
 	illustration = "gfx/interface/illustrations/situation_backgrounds/numenor_situation_background.dds"
 	situation_group_type = major
-	
+
 	### Regions ###
 	sub_regions = {
 		numenor = {
@@ -15,7 +15,7 @@
 			geographical_regions = { middleearth_numenor }
 		}
 	}
-	
+
 	### Participants ###
 	participant_groups = {
 		numenor_ruler = {
@@ -29,7 +29,7 @@
 
 			map_color = { 255 127 80 }
 		}
-		
+
 		numenor_council_of_the_sceptre = {
 			icon = "gfx/interface/icons/situations/numenor/numenor_council_of_the_sceptre.dds"
 			require_capital_in_sub_region = yes
@@ -67,15 +67,15 @@
 	### On Actions ###
 	on_monthly = {
 	}
-	
+
 	on_yearly = {
 	}
-	
+
 	### Phases ###
 	start_phase = numenor_situation_isolation
-	
+
     phases = {
-		
+
 		numenor_situation_isolation = {
 			icon = "gfx/interface/icons/situations/numenor/numenor_situation_isolation.dds"
 
@@ -83,12 +83,16 @@
 			}
 
 			modifier_sets = {
-				numenor_situation_isolation_effects = { 
+				numenor_situation_isolation_effects = {
 					icon = "gfx/interface/icons/situations/situation_modifier_subject.dds"
 
 					all = {
 						character_modifier = {
 							diplomatic_range_mult = -0.75
+							men_at_arms_recruitment_cost = 0.5
+							men_at_arms_limit = -6
+							men_at_arms_cap = -3
+							county_opinion_add = 50
 						}
 					}
 				}

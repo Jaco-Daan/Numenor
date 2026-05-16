@@ -8,16 +8,16 @@
  # Sub-regions
  numenor_situation_sub_region_numenor: "Númenor"
  numenor_situation_sub_region_numenor_desc: "For countless years since the Downfall, the Isle of Númenor has remained secluded in the Great Sea, shrouded in mist and self-imposed isolation. It has been sundered from Middle-earth. Some view this as the rightful state, others strive against it."
- 
+
  # Phases
  numenor_situation_isolation: "$SITUATION_NUMENOR_HEADER$"
  numenor_situation_numenor_situation_isolation_situation_phase: "Isolation Phase"
 
- # Phase Effects 
+ # Phase Effects
  numenor_situation_isolation_desc: "For countless years since the Downfall, the Isle of Númenor has remained secluded in the Great Sea, shrouded in mist and self-imposed isolation. It has been sundered from Middle-earth. Some view this as the rightful state, others strive against it."
  numenor_situation_isolation_effects: "Effects on Númenor"
  numenor_situation_isolation_effects_concept: "[character|E]"
- 
+
  # Participants
  numenor_situation_participant_group_numenor_ruler: "Ruler of Númenor"
  numenor_situation_participant_group_numenor_ruler_desc: "$numenor_situation_participant_group_numenor_ruler$"
@@ -25,7 +25,8 @@
  numenor_situation_participant_group_numenor_vassals_desc: "$numenor_situation_participant_group_numenor_vassals$"
  numenor_situation_participant_group_numenor_council_of_the_sceptre: "Council of the Sceptre"
  numenor_situation_participant_group_numenor_council_of_the_sceptre_desc: "$numenor_situation_participant_group_numenor_council_of_the_sceptre$"
- 
+ numenor_situation_all: "Isolation"
+
  # GUI
  SITUATION_NUMENOR_HEADER: "Númenor Isolation"
  NUMENOR_CONVINCED_NOBLES_SCORE: "Amount of nobles convinced on the council of the sceptre"

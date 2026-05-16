@@ -5,15 +5,15 @@
 		0 = learning
 		1 = western
 		2 = adunaim3support.dds
-		4 = adunaim4.dds
+		4 = adunaim5.dds
 	}
-	
+
 		is_shown = {
 		or = {
 			has_cultural_pillar = heritage_adunaic
 		}
 	}
-	
+
 	can_pick = {
 		NOT = { has_cultural_tradition = tradition_staunch_traditionalists }
 		trigger_if = { #LotR
@@ -27,10 +27,10 @@
         }
 	}
 
-	parameters = { 
-		values_numenorean_blood = yes 
+	parameters = {
+		values_numenorean_blood = yes
 		courtiers_less_likely_to_leave_same_culture_court = yes
-		
+
 		# tradition_staunch_traditionalists like parameters
 		expensive_convert_to_local_culture = yes
 		harder_to_hybridize = yes

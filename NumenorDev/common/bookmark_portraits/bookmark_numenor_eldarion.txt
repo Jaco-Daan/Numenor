@@ -2,9 +2,9 @@
 # History database id:lineofelatan43
 bookmark_numenor_eldarion={
 	type=male
-	id=59190
+	id=58962
 	random_seed=4262575248
-	age=0.510270
+	age=0.506117
 	genes={ 		hair_color={ 9 249 9 249 }
  		skin_color={ 61 87 61 87 }
  		eye_color={ 154 64 154 64 }
@@ -97,7 +97,7 @@ bookmark_numenor_eldarion={
  		expression_other={ "cheek_wrinkles_both_01" 157 "cheek_wrinkles_both_01" 157 }
  		complexion={ "complexion_22" 97 "complexion_22" 97 }
  		gene_height={ "normal_height" 187 "normal_height" 187 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 133 "body_fat_head_fat_full" 144 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 151 "body_fat_head_fat_full" 144 }
  		gene_bs_body_shape={ "body_shape_hourglass_half" 22 "body_shape_hourglass_half" 7 }
  		gene_bs_bust={ "bust_clothes" 66 "bust_default" 83 }
  		gene_age={ "old_beauty_4" 233 "old_beauty_4" 233 }

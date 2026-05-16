@@ -2,9 +2,9 @@
 # History database id:lineofciryandur34
 bookmark_numenor_niluben={
 	type=male
-	id=67718
+	id=67492
 	random_seed=3102439394
-	age=0.322973
+	age=0.321809
 	genes={ 		hair_color={ 109 221 109 221 }
  		skin_color={ 72 54 72 54 }
  		eye_color={ 177 57 177 57 }
@@ -97,7 +97,7 @@ bookmark_numenor_niluben={
  		expression_other={ "cheek_wrinkles_both_01" 192 "cheek_wrinkles_both_01" 192 }
  		complexion={ "complexion_9" 106 "complexion_9" 106 }
  		gene_height={ "normal_height" 163 "normal_height" 163 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 117 "body_fat_head_fat_medium" 116 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 113 "body_fat_head_fat_medium" 116 }
  		gene_bs_body_shape={ "body_shape_triangle_half" 83 "body_shape_triangle_half" 71 }
  		gene_bs_bust={ "bust_clothes" 138 "bust_shape_2_half" 173 }
  		gene_age={ "old_beauty_2" 203 "old_beauty_2" 203 }
