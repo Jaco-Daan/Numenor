@@ -909,31 +909,29 @@ decision_numenor_invade_valinor = {
 
 	# IS_SHOWN
 	is_shown = {
-		primary_title = title:e_numenor
 		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:decision_numenor_invade_valinor
 			}
 		}
+		is_independent_ruler = yes
 	}
 
 	# IS_VALID
 	is_valid = {
+		has_primary_title = title:e_numenor
 		faith = faith:melkorite
-		numenor_in_isolation_phase = no
-		is_independent_ruler = yes
+		
 		OR = {
 			has_trait = lunatic_1
 			has_trait = possessed_1
 		}
 		has_trait = zealous
 		has_trait = ambitious
-		has_primary_title = title:e_numenor
 	}
 	is_valid_showing_failures_only = {
 		is_imprisoned = no
-		is_available_adult = yes
 		is_at_war = no
 	}
 
