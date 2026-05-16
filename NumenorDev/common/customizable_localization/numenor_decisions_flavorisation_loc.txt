@@ -1,38 +1,38 @@
 ﻿numenor_invade_loc = {
     text = {
-        trigger = { NOT = { exists = global_var:numenor_invade_valinor } }
+        trigger = { NOT = { has_variable = numenor_invade_valinor } }
         localization_key = decision_numenor_invade_valinor_1
     }
     text = {
-        trigger = { global_var:numenor_invade_valinor ?= 2 }
+        trigger = { var:numenor_invade_valinor ?= 2 }
         localization_key = decision_numenor_invade_valinor_2
     }
     text = {
-        trigger = { global_var:numenor_invade_valinor ?= 3 }
+        trigger = { var:numenor_invade_valinor ?= 3 }
         localization_key = decision_numenor_invade_valinor_3
     }
     text = {
-        trigger = { global_var:numenor_invade_valinor ?= 4 }
+        trigger = { var:numenor_invade_valinor ?= 4 }
         localization_key = decision_numenor_invade_valinor_4
     }
     text = {
-        trigger = { global_var:numenor_invade_valinor ?= 5 }
+        trigger = { var:numenor_invade_valinor ?= 5 }
         localization_key = decision_numenor_invade_valinor_5
     }
     text = {
-        trigger = { global_var:numenor_invade_valinor ?= 6 }
+        trigger = { var:numenor_invade_valinor ?= 6 }
         localization_key = decision_numenor_invade_valinor_6
     }
     text = {
-        trigger = { global_var:numenor_invade_valinor ?= 7 }
+        trigger = { var:numenor_invade_valinor ?= 7 }
         localization_key = decision_numenor_invade_valinor_7
     }
     text = {
-        trigger = { global_var:numenor_invade_valinor ?= 8 }
+        trigger = { var:numenor_invade_valinor ?= 8 }
         localization_key = decision_numenor_invade_valinor_8
     }
     text = {
-        trigger = { global_var:numenor_invade_valinor ?= 9 }
+        trigger = { var:numenor_invade_valinor ?= 9 }
         localization_key = decision_numenor_invade_valinor_9
     }
     text = {
