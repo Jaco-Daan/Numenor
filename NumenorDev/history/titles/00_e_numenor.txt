@@ -208,9 +208,15 @@ e_numenor = {
 		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle-earth
 	}
 	6841.1.1 = {
+		holder = lineofelros112daughter
+	}
+	6933.8.26 = {
 		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
+		holder = lineofelros113son
+	}
+	7032.9.21 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 		government = feudal_government
 	}
@@ -237,9 +243,15 @@ d_adunai = {
 		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle-earth
 	}
 	6841.1.1 = {
+		holder = lineofelros112daughter
+	}
+	6933.8.26 = {
 		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
+		holder = lineofelros113son
+	}
+	7032.9.21 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
 	7110.6.14 = {
@@ -412,9 +424,15 @@ c_armenelos = {
 		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle Earth
 	}
 	6841.1.1 = {
+		holder = lineofelros112daughter
+	}
+	6933.8.26 = {
 		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
+		holder = lineofelros113son
+	}
+	7032.9.21 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
 	7110.6.14 = {
@@ -1084,9 +1102,15 @@ d_arandor = {
 		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle Earth
 	}
 	6841.1.1 = {
+		holder = lineofelros112daughter
+	}
+	6933.8.26 = {
 		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
+		holder = lineofelros113son
+	}
+	7032.9.21 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
 	7110.6.14 = {
@@ -4183,9 +4207,15 @@ c_romenna = {
 		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle Earth
 	}
 	6841.1.1 = {
+		holder = lineofelros112daughter
+	}
+	6933.8.26 = {
 		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
+		holder = lineofelros113son
+	}
+	7032.9.21 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
 	7110.6.14 = {
@@ -4358,9 +4388,15 @@ c_uinen = {
 		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle Earth
 	}
 	6841.1.1 = {
+		holder = lineofelros112daughter
+	}
+	6933.8.26 = {
 		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
+		holder = lineofelros113son
+	}
+	7032.9.21 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
 	7110.6.14 = {
@@ -7421,9 +7457,15 @@ c_meneltarma = {
 		holder = lineofelros112 # Airendur, First Monarch since Ar Pharazôn to make contact with Middle Earth
 	}
 	6841.1.1 = {
+		holder = lineofelros112daughter
+	}
+	6933.8.26 = {
 		holder = lineofelros113 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
+		holder = lineofelros113son
+	}
+	7032.9.21 = {
 		holder = lineofelros114 # Balkazîr, current king of Númenor
 	}
 	7110.6.14 = {

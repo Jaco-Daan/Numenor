@@ -241,7 +241,7 @@ lineofelros91 = {
 	}
 }
 lineofelros92 = {
-	name = Miriel
+	name = M_iriel
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
@@ -676,6 +676,11 @@ lineofelros111 = {
 	6562.1.1 = {
 		birth = yes
 	}
+
+	6620.1.1 = {
+		add_spouse = lineofaru14sister
+	}
+
 	6786.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -689,6 +694,7 @@ lineofelros112 = {
 	sexuality = heterosexual
 
 	father = lineofelros111
+	mother = lineofaru14sister
 
 	trait = blood_of_numenor_7
 	trait = trusting
@@ -715,6 +721,11 @@ lineofelros112 = {
 		effect = { make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:faith_numenorean } }
 		name = Airendur # Adopts the name Airendur during his time in Andustar
 	}
+
+	6710.6.1 = {
+		add_spouse = lineoftelemnacil57sister
+	}
+
 	6776.1.1 = {
         effect = { add_realm_law = crown_authority_3 }
     }
@@ -725,6 +736,52 @@ lineofelros112 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
+lineofelros112daughter = {
+	name = Eleniel # TEMP
+	female = yes
+
+	dynasty = dynasty_elros
+	religion = faith_adunaic
+	culture = adunaic
+	sexuality = heterosexual
+
+	father = lineofelros112
+	mother = lineoftelemnacil57sister
+
+	trait = blood_of_numenor_7
+
+	trait = stubborn
+	trait = brave
+	trait = cynical
+
+	trait = beauty_good_3
+
+	trait = education_intrigue_3
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 5
+	intrigue = 9
+	learning = 6
+	prowess = 8
+
+	disallow_random_traits = yes
+
+	6713.6.21 = {
+		birth = yes
+	}
+
+	6763.7.1 = {
+		add_matrilineal_spouse = lineofciryamir29brother
+		set_relation_soulmate = character:lineofciryamir29brother
+	}
+
+	6933.8.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
 lineofelros113 = {
 	name = Inziladu_u_n
 	dna = inziladun_elerossioni_dna
@@ -732,9 +789,8 @@ lineofelros113 = {
 	religion = faith_adunaic
 	culture = adunaic
 
-
-
-	father = lineofelros112
+	father = lineofciryamir29brother
+	mother = lineofelros112daughter
 
 	trait = blood_of_numenor_7
 	trait = cynical
@@ -750,19 +806,58 @@ lineofelros113 = {
 	learning = 5
 	prowess = 9
 
-	6765.1.1 = {
+	6765.12.1 = {
 		birth = yes
 	}
 	6780.1.1 = {
 		set_relation_crush = character:lineofbarimanurid4a4a22a1
 	}
-	6880.1.1 = { # ALRAIN NOTE, ADD FILLER KING
+	6820.7.6 = { # ALRAIN NOTE, ADD FILLER KING
 		add_spouse = lineofbarimanurid4a4a22a1
 	}
 	6982.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
+lineofelros113son = {
+	name = Azrukho_o_r # TEMP
+
+	dynasty = dynasty_elros
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofelros113
+	mother = lineofbarimanurid4a4a22a1
+
+	trait = blood_of_numenor_7
+
+	trait = diligent
+	trait = temperate
+	trait = forgiving
+
+	trait = education_stewardship_4
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 10
+	intrigue = 7
+	learning = 5
+	prowess = 9
+
+	6823.2.1 = {
+		birth = yes
+	}
+
+	6883.6.1 = {
+		add_spouse = linesirinore25sister
+	}
+
+	7032.9.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
 lineofelros114 = {
 	name = Balkazi_i_r
 	dynasty = dynasty_elros
@@ -772,10 +867,8 @@ lineofelros114 = {
 	#dna = balkazir_dna
 	dna = balkazir_elerossioni_dna_wotr_1
 
-
-
-	father = lineofelros113
-	mother = lineofbarimanurid4a4a22a1
+	father = lineofelros113son
+	mother = linesirinore25sister
 
 	trait = blood_of_numenor_7
 	trait = just
@@ -1016,10 +1109,8 @@ lineofelros117 = {
 	religion = faith_adunaic
 	culture = adunaic
 
-
-
-	father = lineofelros113
-	mother = lineofbarimanurid4a4a22a1
+	father = lineofelros113son
+	mother = linesirinore25sister
 
 	trait = blood_of_numenor_7
 	trait = brave
@@ -1079,7 +1170,8 @@ lineofelros118 = {
 	6943.2.27 = {
 		birth = yes
 	}
-	7010.1.1 = {
+
+	7033.1.1 = {
 		employer = lineofelros114
 	}
 }
@@ -1091,7 +1183,8 @@ lineofelros119 = {
 
 	female = yes
 
-	father = lineofelros112
+	father = lineofciryamir29brother
+	mother = lineofelros112daughter
 
 	trait = blood_of_numenor_7
 	trait = beauty_good_2
@@ -1124,6 +1217,7 @@ lineofelros111a1 = {
 	sexuality = homosexual
 
 	father = lineofelros111
+	mother = lineofaru14sister
 
 	trait = blood_of_numenor_7
 	trait = lazy
@@ -1149,6 +1243,10 @@ lineofelros111a1 = {
 	6702.8.14 = {
 		add_spouse = linejewellord19a1
 		set_relation_friend = character:linejewellord19a1
+	}
+
+	6787.1.1 = {
+		employer = lineofelros112
 	}
 	6849.12.16 = {
 		death = { death_reason = death_natural_causes }
@@ -6520,6 +6618,34 @@ lineofciryamir29 = {
 	}
 }
 
+lineofciryamir29brother = {
+	name = "Nimrube_e_n"
+	dynasty = dynasty_ciryamir
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofciryamir28
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = diligent
+	trait = shy
+
+	trait = education_learning_4
+
+	trait = blood_of_numenor_7
+
+	6712.5.1 = {
+		birth = yes
+	}
+
+
+	6931.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
 lineofciryamir30 = {
 	name = "Gimilzagar"
 	dna = gimilzagar_ciryatirioni_wotr_dna
@@ -8849,6 +8975,45 @@ lineoftelemnacil57 = {
     }
 }
 
+lineoftelemnacil57sister = {
+    name = Millote
+	female = yes
+
+    dynasty = dynasty_telemnacil
+    religion = faith_adunaic
+    culture = adunaic
+
+    father = lineoftelemnacil55
+    mother = lineoftelemnacil56
+
+    trait = blood_of_numenor_7
+
+    trait = patient
+    trait = content
+    trait = temperate
+
+    diplomacy = 2
+    martial = 4
+    stewardship = 3
+    intrigue = 4
+    learning = 3
+    prowess = 8
+
+    trait = education_learning_3
+
+    6630.11.11 = {
+        birth = yes
+    }
+
+	6710.6.1 = {
+		effect = { make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:faith_numenorean } }
+	}
+
+    6843.11.14 = {
+        death = { death_reason = death_natural_causes }
+    }
+}
+
 lineoftelemnacil58 = {
     name = Moriel
     female = yes
@@ -10206,6 +10371,33 @@ lineofaru14 = {
         }
     }
 	6886.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofaru14sister = {
+	name = Naru_u_phe_e_l
+	female = yes
+
+	dynasty = dynasty_aruthan
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofaru13
+
+	trait = diligent
+	trait = stubborn
+	trait = patient
+
+	trait = education_stewardship_3
+
+	trait = blood_of_numenor_7
+
+	6563.5.17 = {
+		birth = yes
+	}
+
+	6786.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -13019,6 +13211,32 @@ linesirinore25 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
+linesirinore25sister = {
+	name = Avale_e_th
+	female = yes
+	dynasty = dynasty_sirinore
+	religion = faith_adunaic
+	culture = adunaic
+
+	trait = blood_of_numenor_7
+
+	father = linesirinore24
+
+	trait = brave
+	trait = zealous
+	trait = shy
+
+	trait = education_martial_4
+
+	6820.1.1 = {
+		birth = yes
+	}
+	7040.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
 linesirinore26 = {
 	name = Cemendur
 	dynasty = dynasty_sirinore
@@ -14262,8 +14480,8 @@ lineofelros120 = {
 	religion = faith_adunaic
 	culture = adunaic
 
-	father = lineofelros113
-	mother = lineofbarimanurid4a4a22a1
+	father = lineofelros113son
+	mother = linesirinore25sister
 
 	trait = blood_of_numenor_7
 	trait = beauty_good_2
