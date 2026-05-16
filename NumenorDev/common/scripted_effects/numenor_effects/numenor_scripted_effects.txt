@@ -105,3 +105,113 @@ define_numenor_resources = { # Setup resources on Numenor
 numenor_invasion_grab_landing_county = {
 	title:c_eldalonde = { save_scope_as = landing_county }
 }
+
+#####################################################################
+# EFFECTS
+#####################################################################
+
+numenor_spawn_earthquake_in_region_effect = {
+	random_county_in_region = {
+		region = $REGION$
+		numenor_spawn_earthquake_in_county_effect = {
+			COUNTY = this
+			REGION = $REGION$
+		}
+	}
+}
+
+numenor_spawn_earthquake_in_county_effect = {
+	$COUNTY$ = { save_scope_as = epicenter_county }
+
+	# Track globally for exclusivity and distribution
+	start_situation = {
+		type = natural_disaster_earthquake
+		save_scope_as = situation
+	}
+
+	scope:situation ?= {
+		set_situation_center_province = scope:epicenter_county.title_province
+		add_to_global_variable_list = {
+			name = ongoing_earthquakes
+			target = this
+		}
+		set_variable = {
+			name = fatalities
+			value = 0
+		}
+
+		set_variable = {
+			name = severity
+			value = 3
+		}
+
+		set_variable = {
+			name = epicenter_county
+			value = scope:epicenter_county
+		}
+
+		situation_sub_region:disaster_area = { add_dejure_title_to_sub_region = scope:epicenter_county }
+		# Add neighbours to sub_region
+		every_county_in_region = {
+			region = $REGION$
+			save_temporary_scope_as = neighbouring_county
+			scope:situation.situation_sub_region:disaster_area = { add_dejure_title_to_sub_region = scope:neighbouring_county }
+		}
+	}
+}
+
+numenor_spawn_flood_in_region_effect = {
+	$REGION$ = { save_scope_as = river_region }
+
+	random_county_in_region = {
+		region = $REGION$
+		limit = { is_coastal_county = yes }
+		spawn_flood_in_county_effect = {
+			COUNTY = this
+			REGION = $REGION$
+		}
+	}
+}
+
+numenor_spawn_flood_in_county_effect = {
+	$COUNTY$ = { save_scope_as = flood_county }
+
+	start_situation = {
+		type = natural_disaster_flood
+		save_scope_as = situation
+	}
+
+	# Track globally for exclusivity and distribution
+	scope:situation ?= {
+		set_situation_center_province = scope:flood_county.title_province
+		add_to_global_variable_list = {
+			name = ongoing_floods
+			target = this
+		}
+
+		# Save region for exclusivity checks and Situation naming
+		set_variable = {
+			name = river_region
+			value = scope:river_region
+		}
+		
+		set_variable = {
+			name = fatalities
+			value = 0
+		}
+
+		set_variable = {
+			name = severity
+			value = 3
+		}
+
+		random_situation_sub_region = { add_geographical_region = scope:river_region }
+		every_county_in_region = {
+			region = $REGION$
+			limit = { is_coastal_county = yes }
+			save_temporary_scope_as = neighbouring_county
+			scope:situation = { random_situation_sub_region = { add_dejure_title_to_sub_region = scope:neighbouring_county } }
+		}
+		log_natural_disaster = "started"
+	}
+}

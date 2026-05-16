@@ -734,11 +734,11 @@ numenor.3101 = { # Drown
 		name = numenor.3101.a
 		custom_tooltip = numenor.3101.a.tt
 
-		spawn_flood_in_region_effect = {
+		numenor_spawn_flood_in_region_effect = {
 			REGION = middleearth_numenor
 		}
 
-		spawn_earthquake_in_region_effect = {
+		numenor_spawn_earthquake_in_region_effect = {
 			REGION = middleearth_numenor
 		}
 
