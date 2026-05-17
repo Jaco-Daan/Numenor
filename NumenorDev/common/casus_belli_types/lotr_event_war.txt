@@ -7937,7 +7937,6 @@ lotr_valinor_invasion_cb = {
 	}
 
 	on_defeat = {
-		scope:defender = { scope:defender = { trigger_event = { id = numenor.3105 days = 1 } } }
 		# Legitimacy
 		add_legitimacy_attacker_defeat_effect = yes
 
@@ -8004,6 +8003,7 @@ lotr_valinor_invasion_cb = {
 		laamp_as_mercenary_payout_tooltip_effect = yes
 
 		sunset_invasion_defender_loses_initial_invasion_war_effect = yes
+		scope:defender = { play_music_cue = 2_sneesh trigger_event = { id = numenor.3105 days = 1 } }
 	}
 }
 
@@ -8200,7 +8200,6 @@ lotr_pharazon_invasion_cb = {
 	}
 
 	on_defeat = {
-		scope:defender = { scope:defender = { trigger_event = { id = numenor.3105 days = 1 } } }
 		# Legitimacy
 		add_legitimacy_attacker_defeat_effect = yes
 
@@ -8247,6 +8246,7 @@ lotr_pharazon_invasion_cb = {
 
 		sunset_invasion_defender_loses_initial_invasion_war_effect = yes
 		scope:attacker = { silent_disappearance_effect = yes }
+		scope:defender = { play_music_cue = 2_sneesh trigger_event = { id = numenor.3105 days = 1 } }
 	}
 }
 
@@ -8444,7 +8444,6 @@ lotr_amav_invasion_cb = {
 	}
 
 	on_defeat = {
-		scope:defender = { trigger_event = { id = numenor.3105 days = 1 } }
 		# Legitimacy
 		add_legitimacy_attacker_defeat_effect = yes
 
@@ -8491,6 +8490,8 @@ lotr_amav_invasion_cb = {
 
 		sunset_invasion_defender_loses_initial_invasion_war_effect = yes
 		scope:attacker = { silent_disappearance_effect = yes }
+		
+		scope:defender = { play_music_cue = 2_sneesh trigger_event = { id = numenor.3105 days = 1 } }
 	}
 }
 
