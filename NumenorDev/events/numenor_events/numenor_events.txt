@@ -966,6 +966,16 @@ numenor.3104 = {
 				modifier = event_negotiated_alliance_opinion
 			}
 		}
+
+		title:e_numenor = {
+			every_de_jure_county = {
+				limit = { holder.top_liege = title:e_numenor.holder }
+				raze_county = {
+					holding_type = castle_holding
+					purge_secondary_holdings = yes
+				}
+			}
+		}
 	}
 }
 
