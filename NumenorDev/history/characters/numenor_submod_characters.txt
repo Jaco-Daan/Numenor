@@ -169,6 +169,7 @@ lineofelros88 = { # Tar-Cemendur, also known as Ar-Dairaben
 }
 lineofelros89 = {
 	name = "Hallatan"
+	dna = hallatan_nucuptar_elerossioni_dna
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic # Alrain note: for NOW, change back when we give him a wife. This is for ethnicity
@@ -823,6 +824,7 @@ lineofelros113 = {
 
 lineofelros113son = {
 	name = Aglarzi_i_r # TEMP
+	dna = aglarzir_elerossioni_dna
 
 	dynasty = dynasty_elros
 	religion = faith_adunaic
@@ -13215,6 +13217,7 @@ linesirinore25 = {
 
 linesirinore25sister = {
 	name = Avale_e_th
+	dna = avaleth_carnistirion_dna
 	female = yes
 	dynasty = dynasty_sirinore
 	religion = faith_adunaic

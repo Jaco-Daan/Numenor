@@ -45,15 +45,9 @@ adunaic_ethnicity = {
     #BODY
 	
     gene_bs_body_type = {
-        5 = { name = body_fat_head_fat_low   range = { 0.4 0.45 }      }
         25 = { name = body_fat_head_fat_low   range = { 0.45 0.55 }   traits = { beauty_1 beauty_2 beauty_3 }   }
-        5 = { name = body_fat_head_fat_low   range = { 0.55 0.6 }      }
-        5 = { name = body_fat_head_fat_medium   range = { 0.4 0.45 }      }
         25 = { name = body_fat_head_fat_medium   range = { 0.45 0.55 }      }
-        5 = { name = body_fat_head_fat_medium   range = { 0.55 0.6 }      }
-        5 = { name = body_fat_head_fat_full   range = { 0.4 0.45 }      }
         25 = { name = body_fat_head_fat_full   range = {0.45 0.55 }      }
-        5 = { name = body_fat_head_fat_full   range = { 0.55 0.6 }      }
 
 	}
 	gene_bs_body_shape = {
@@ -152,6 +146,7 @@ adunaic_ethnicity = {
     #HEAD AND NECK
 	
 	gene_head_height = {
+        3 = { name = head_height_neg    range = { 0.4 0.45 }    }
         2 = { name = head_height_neg    range = { 0.45 0.5 }    }
         1 = { name = head_height_pos    range = { 0.5 0.55 }    }
     }
@@ -379,17 +374,21 @@ adunaic_ethnicity = {
         40 = { name = eye_fold_shape_pos    range = { 0 0.2 }    }
 	}
 	gene_eye_height = {
-        10 = { name = eye_height_neg    range = { 0.25 0.45 }    }
-        40 = { name = eye_height_neg    range = { 0.45 0.5 }    }
-        40 = { name = eye_height_pos    range = { 0.5 0.55 }    }
-        10 = { name = eye_height_pos    range = { 0.55 0.75 }    }
+        1 = { name = eye_height_neg    range = { 0.35 0.45 }    }
+        4 = { name = eye_height_neg    range = { 0.45 0.5 }    }
+        4 = { name = eye_height_pos    range = { 0.5 0.55 }    }
+        1 = { name = eye_height_pos    range = { 0.55 0.65 }    }
     }
 	gene_bs_eye_size = {
-        1 = { name = eye_size_neg    range = { 0.1 0.3 }    }
+        1 = { name = eye_size_neg    range = { 0.1 0.2 }    }
 	}
 	face_detail_eye_socket = {
-        5 = {  name = eye_socket_03             range = { 0.0 0.4 }     }
-        15 = {  name = eye_socket_02             range = { 0.0 0.4 }     }
+        5 = {  name = eye_socket_01             range = { 0.35 0.65 }     }
+        10 = {  name = eye_socket_03             range = { 0.35 0.65 }     }
+        15 = {  name = eye_socket_02             range = { 0.35 0.65 }     }
+        1 = {  name = eye_socket_01             range = { 0.5 1 }     }
+        2 = {  name = eye_socket_03             range = { 0.5 1 }     }
+        3 = {  name = eye_socket_02             range = { 0.5 1 }     }
     }
 	gene_bs_eye_upper_lid_size = {
         20 = { name = eye_upper_lid_size_pos    range = { 0.0 0.5 }    }
@@ -423,10 +422,15 @@ adunaic_ethnicity = {
         1 = {  name = nasolabial_03             range = { 0.0 0.25 }     }
 		1 = {  name = nasolabial_04             range = { 0.0 0.25 }     }
 
-        2 = {  name = nasolabial_01             range = { 0.5 0.75 }     }
-        2 = {  name = nasolabial_02             range = { 0.5 0.75 }     }
-        2 = {  name = nasolabial_03             range = { 0.5 0.75 }     }
-		2 = {  name = nasolabial_04             range = { 0.5 0.75 }     }
+        3 = {  name = nasolabial_01             range = { 0.5 0.75 }     }
+        3 = {  name = nasolabial_02             range = { 0.5 0.75 }     }
+        3 = {  name = nasolabial_03             range = { 0.5 0.75 }     }
+		3 = {  name = nasolabial_04             range = { 0.5 0.75 }     }
+
+        1 = {  name = nasolabial_01             range = { 0.75 1.0 }     }
+        1 = {  name = nasolabial_02             range = { 0.75 1.0 }     }
+        1 = {  name = nasolabial_03             range = { 0.75 1.0 }     }
+		1 = {  name = nasolabial_04             range = { 0.75 1.0 }     }
     }
     gene_bs_nose_forward = {
         2 = { name = nose_forward_neg    range = { 0.0 0.15 }    }
@@ -625,31 +629,61 @@ adunaic_ethnicity = {
        1 = {  name = complexion_17             range = { 0.3 1.0 }     }
 	}	
 	gene_body_hair = {
-        1 = {  name = body_hair_sparse             range = { 0.00 0.2 }     }
-        1 = {  name = body_hair_sparse_low_stubble             range = { 0.00 0.2 }     }
-        1 = {  name = body_hair_sparse_lower_stubble             range = { 0.00 0.2 }     }
+        1 = {  name = body_hair_sparse             range = { 0.00 0.5 }     }
+        2 = {  name = body_hair_sparse_low_stubble             range = { 0.00 0.5 }     }
+        3 = {  name = body_hair_sparse_lower_stubble             range = { 0.00 0.5 }     }
     }
 	expression_brow_wrinkles = {
-        50 = {  name = brow_wrinkles_01             range = { 0.0 0.5 }     }
-        50 = {  name = brow_wrinkles_02             range = { 0.0 0.5 }     }
-        50 = {  name = brow_wrinkles_03             range = { 0.0 0.5}     }
-        50 = {  name = brow_wrinkles_04             range = { 0.0 0.5 }     }
+        1 = {  name = brow_wrinkles_01             range = { 0.0 0.5 }     }
+        1 = {  name = brow_wrinkles_02             range = { 0.0 0.5 }     }
+        1 = {  name = brow_wrinkles_03             range = { 0.0 0.5}     }
+        1 = {  name = brow_wrinkles_04             range = { 0.0 0.5 }     }
+
+        3 = {  name = brow_wrinkles_01             range = { 0.5 0.75 }     }
+        3 = {  name = brow_wrinkles_02             range = { 0.5 0.75 }     }
+        3 = {  name = brow_wrinkles_03             range = { 0.5 0.75}     }
+        3 = {  name = brow_wrinkles_04             range = { 0.5 0.75 }     }
+
+        1 = {  name = brow_wrinkles_01             range = { 0.75 1 }     }
+        1 = {  name = brow_wrinkles_02             range = { 0.75 1 }     }
+        1 = {  name = brow_wrinkles_03             range = { 0.75 1}     }
+        1 = {  name = brow_wrinkles_04             range = { 0.75 1 }     }
     }
 	expression_eye_wrinkles = {
-        5 = {  name = eye_wrinkles_01             range = { 0.2 0.5 }     }
-        5 = {  name = eye_wrinkles_01             range = { 0.2 0.5 }     }
-        5 = {  name = eye_wrinkles_02             range = { 0.2 0.5 }     }
-        5 = {  name = eye_wrinkles_03             range = { 0.2 0.5 }     }
+        1 = {  name = eye_wrinkles_01             range = { 0.0 0.5 }     }
+        1 = {  name = eye_wrinkles_02             range = { 0.0 0.5 }     }
+        1 = {  name = eye_wrinkles_03             range = { 0.0 0.5}     }
+        1 = {  name = eye_wrinkles_04             range = { 0.0 0.5 }     }
+
+        3 = {  name = eye_wrinkles_01             range = { 0.5 0.75 }     }
+        3 = {  name = eye_wrinkles_02             range = { 0.5 0.75 }     }
+        3 = {  name = eye_wrinkles_03             range = { 0.5 0.75}     }
+        3 = {  name = eye_wrinkles_04             range = { 0.5 0.75 }     }
+
+        1 = {  name = eye_wrinkles_01             range = { 0.75 1 }     }
+        1 = {  name = eye_wrinkles_02             range = { 0.75 1 }     }
+        1 = {  name = eye_wrinkles_03             range = { 0.75 1}     }
+        1 = {  name = eye_wrinkles_04             range = { 0.75 1 }     }
     }
 	expression_forehead_wrinkles = {
-        5 = {  name = forehead_wrinkles_01             range = { 0.2 0.4 }     }
-        5 = {  name = forehead_wrinkles_01             range = { 0.2 0.4 }     }
-        5 = {  name = forehead_wrinkles_02             range = { 0.2 0.4}     }
-        5 = {  name = forehead_wrinkles_03             range = { 0.2 0.4 }     }
+        1 = {  name = forehead_wrinkles_01             range = { 0.0 0.5 }     }
+        1 = {  name = forehead_wrinkles_02             range = { 0.0 0.5 }     }
+        1 = {  name = forehead_wrinkles_03             range = { 0.0 0.5}     }
+        1 = {  name = forehead_wrinkles_04             range = { 0.0 0.5 }     }
+
+        3 = {  name = forehead_wrinkles_01             range = { 0.5 0.75 }     }
+        3 = {  name = forehead_wrinkles_02             range = { 0.5 0.75 }     }
+        3 = {  name = forehead_wrinkles_03             range = { 0.5 0.75}     }
+        3 = {  name = forehead_wrinkles_04             range = { 0.5 0.75 }     }
+
+        1 = {  name = forehead_wrinkles_01             range = { 0.75 1 }     }
+        1 = {  name = forehead_wrinkles_02             range = { 0.75 1 }     }
+        1 = {  name = forehead_wrinkles_03             range = { 0.75 1}     }
+        1 = {  name = forehead_wrinkles_04             range = { 0.75 1 }     }
     }
 	expression_other = {
         6 = {  name = cheek_wrinkles_both_01             range = { 0.0 0.3 }     }
-        2 = {  name = cheek_wrinkles_both_01             range = { 0.3 0.5 }     }
+        3 = {  name = cheek_wrinkles_both_01             range = { 0.3 0.5 }     }
         1 = {  name = cheek_wrinkles_both_01             range = { 0.5 0.7 }     }
     }
 	gene_hair_type = {
@@ -870,15 +904,10 @@ adunaic_ethnicity_1 = {
     }
 
 	gene_eye_height = {
-        10 = { name = eye_height_neg    range = { 0.25 0.45 }    }
+        10 = { name = eye_height_neg    range = { 0.35 0.45 }    }
         40 = { name = eye_height_neg    range = { 0.45 0.5 }    }
         10 = { name = eye_height_pos    range = { 0.5 0.55 }    }
-        10 = { name = eye_height_pos    range = { 0.55 0.75 }    }
-    }
-	
-	face_detail_eye_socket = {
-        5 = {  name = eye_socket_03             range = { 0.0 0.4 }     }
-        15 = {  name = eye_socket_02             range = { 0.0 0.4 }     }
+        10 = { name = eye_height_pos    range = { 0.55 0.65 }    }
     }
 
     # NOSE
@@ -1072,12 +1101,6 @@ adunaic_ethnicity_2 = {
     using = "numenorean"
 
     #HEAD AND NECK
-	
-	gene_head_height = {
-        2 = { name = head_height_neg    range = { 0.4 0.45 }    }
-        5 = { name = head_height_pos    range = { 0.45 0.5 }    }
-        2 = { name = head_height_pos    range = { 0.5 0.55 }    }
-    }
 
 	gene_head_top_height = {
         5 = { name = head_top_height_neg    range = { 0.35 0.45  }    }
@@ -1204,11 +1227,6 @@ adunaic_ethnicity_2 = {
         1 = { name = eye_height_neg    range = { 0.45 0.5 }    }
         1 = { name = eye_height_pos    range = { 0.5 0.6 }    }
     }
-
-	face_detail_eye_socket = {
-        5 = {  name = eye_socket_03             range = { 0.0 0.4 }     }
-        15 = {  name = eye_socket_02             range = { 0.0 0.4 }     }
-    }
 	
 	face_detail_eye_lower_lid_def = {
         50 = {  name = eye_lower_lid_def             range = { 0.5 1.0 }     }
@@ -1329,9 +1347,6 @@ adunaic_ethnicity_3 = {
 
     #HEAD AND NECK
 	
-	gene_head_height = {
-        1 = { name = head_height_pos    range = { 0.5 0.55 }    }
-    }
 	gene_head_profile = {
         1 = { name = head_profile_neg    range = { 0.45 0.50 }    }
     }
@@ -1515,11 +1530,6 @@ adunaic_ethnicity_3 = {
         10 = { name = eye_height_pos    range = { 0.5 0.525 }    }
         1 = { name = eye_height_pos    range = { 0.525 0.6 }    }
     }
-
-	face_detail_eye_socket = {
-        5 = {  name = eye_socket_03             range = { 0.0 0.4 }     }
-        15 = {  name = eye_socket_02             range = { 0.0 0.4 }     }
-    }
 	gene_bs_eye_upper_lid_size = {
         20 = { name = eye_upper_lid_size_pos    range = { 0.0 0.5 }    }
     }
@@ -1530,12 +1540,6 @@ adunaic_ethnicity_3 = {
 
     # NOSE
 
-    face_detail_nasolabial = {
-        1 = {  name = nasolabial_01             range = { 0.0 0.25 }     }
-        1 = {  name = nasolabial_02             range = { 0.0 0.25 }     }
-        1 = {  name = nasolabial_03             range = { 0.0 0.25 }     }
-		1 = {  name = nasolabial_04             range = { 0.0 0.25 }     }
-    }
     gene_bs_nose_forward = {
         1 = { name = nose_forward_neg    range = { 0.0 0.15 }    }
         5 = { name = nose_forward_pos    range = { 0.0 0.15 }    }
@@ -1766,10 +1770,6 @@ adunaic_ethnicity_4 = {
 
     #HEAD AND NECK
 	
-	gene_head_height = {
-        1 = { name = head_height_neg    range = { 0.45 0.5 }    }
-        2 = { name = head_height_pos    range = { 0.5 0.55 }    }
-    }
 	gene_head_profile = {
         1 = { name = head_profile_neg    range = { 0.45 0.5 }    }
         1 = { name = head_profile_pos    range = { 0.5 0.55 }    }
@@ -1909,7 +1909,7 @@ adunaic_ethnicity_4 = {
     }
 
 	gene_eye_height = {
-        1 = { name = eye_height_neg    range = { 0.25 0.45 }    }
+        1 = { name = eye_height_neg    range = { 0.35 0.45 }    }
         10 = { name = eye_height_neg    range = { 0.4 0.5 }    }
         1 = { name = eye_height_pos    range = { 0.5 0.55 }    }
     }
@@ -2081,28 +2081,7 @@ adunaic_ethnicity_4 = {
        1 = {  name = complexion_15             range = { 0.3 1.0 }     }
        1 = {  name = complexion_16             range = { 0.3 1.0 }     }
        1 = {  name = complexion_17             range = { 0.3 1.0 }     }
-	}	
-	gene_body_hair = {
-        1 = {  name = body_hair_sparse             range = { 0.00 0.00 }     }
-    }
-	expression_brow_wrinkles = {
-        50 = {  name = brow_wrinkles_01             range = { 0.0 0.5 }     }
-        50 = {  name = brow_wrinkles_02             range = { 0.0 0.5 }     }
-        50 = {  name = brow_wrinkles_03             range = { 0.0 0.5}     }
-        50 = {  name = brow_wrinkles_04             range = { 0.0 0.5 }     }
-    }
-	expression_eye_wrinkles = {
-        5 = {  name = eye_wrinkles_01             range = { 0.2 0.5 }     }
-        5 = {  name = eye_wrinkles_01             range = { 0.2 0.5 }     }
-        5 = {  name = eye_wrinkles_02             range = { 0.2 0.5 }     }
-        5 = {  name = eye_wrinkles_03             range = { 0.2 0.5 }     }
-    }
-	expression_forehead_wrinkles = {
-        5 = {  name = forehead_wrinkles_01             range = { 0.2 0.4 }     }
-        5 = {  name = forehead_wrinkles_01             range = { 0.2 0.4 }     }
-        5 = {  name = forehead_wrinkles_02             range = { 0.2 0.4}     }
-        5 = {  name = forehead_wrinkles_03             range = { 0.2 0.4 }     }
-    }
+	}
 
 	gene_hair_type = {
         50 = {  name = hair_straight             range = { 0.00 1.00 }     }
