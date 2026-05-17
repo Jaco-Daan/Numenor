@@ -1029,7 +1029,7 @@ numenor.3105 = {
 	}
 	right_portrait = { 
 		character = root
-		animation = war_defender
+		animation = beg
 	}
 
 	override_effect_2d = {
