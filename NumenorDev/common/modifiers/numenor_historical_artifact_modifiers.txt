@@ -19,3 +19,12 @@ cursed_land_of_numenor_modifier = {
     tax_mult = -0.5
     levy_size = -0.5
 }
+
+more_blessed_land_of_numenor_modifier = {
+    icon = health_positive
+	epidemic_resistance = 200
+	development_growth_factor = 5
+    county_opinion_add = 500
+    tax_mult = 5
+    levy_size = 5
+}

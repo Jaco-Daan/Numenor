@@ -432,3 +432,11 @@ numenor_yassify_effect = {
 		}
 	}
 }
+
+numenor_invader_buff_numenor_effects = {
+	if = {
+		limit = { has_county_modifier = cursed_land_of_numenor_modifier }
+		remove_county_modifier = cursed_land_of_numenor_modifier
+		add = more_blessed_land_of_numenor_modifier
+	}
+}

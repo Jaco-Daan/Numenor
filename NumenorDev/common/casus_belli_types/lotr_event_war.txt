@@ -7768,6 +7768,7 @@ lotr_valinor_invasion_cb = {
 					holder = { is_wastelands = no }
 					is_wastelands = no
 				}
+				numenor_invader_buff_numenor_effects = yes
 				add_to_list = initial_invasion_titles
 			}
 		}
@@ -8110,6 +8111,7 @@ lotr_pharazon_invasion_cb = {
 					holder = { is_wastelands = no }
 					is_wastelands = no
 				}
+				numenor_invader_buff_numenor_effects = yes
 				add_to_list = initial_invasion_titles
 			}
 		}
@@ -8353,6 +8355,7 @@ lotr_amav_invasion_cb = {
 					holder = { is_wastelands = no }
 					is_wastelands = no
 				}
+				numenor_invader_buff_numenor_effects = yes
 				add_to_list = initial_invasion_titles
 			}
 		}
