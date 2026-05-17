@@ -8,7 +8,7 @@
 #White House of Erendis
 wonder_erendis_01 = {
 	type_icon = "icon_building_dormitory.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 2000
 	can_construct = {
@@ -16,7 +16,7 @@ wonder_erendis_01 = {
 		scope:holder = {
 			culture = {
 				has_innovation = innovation_hoardings
-				any_parent_culture_or_above = { this = culture:numenorean } 
+				any_parent_culture_or_above = { this = culture:numenorean }
 			}
 		}
 	}
@@ -33,8 +33,8 @@ wonder_erendis_01 = {
 		scope:holder = {
 			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
 		}
-	}	
-	
+	}
+
 	ai_value = {
 		base = 100
 	}
@@ -44,7 +44,7 @@ wonder_erendis_01 = {
 #Eldalonde
 wonder_eldalonde_01 = { #Numenorean Port of Eldalonde
 	type_icon = "icon_wonder_dolamroth.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
 	can_construct = {
@@ -76,7 +76,7 @@ wonder_eldalonde_01 = { #Numenorean Port of Eldalonde
 
 wonder_eldalonde_02 = { #Eldalonde after the Akallabeth
 	type_icon = "icon_wonder_dolamroth.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
 	can_construct = {
@@ -104,7 +104,7 @@ wonder_eldalonde_02 = { #Eldalonde after the Akallabeth
 		scope:holder = {
 			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
 		}
-	}	
+	}
 	ai_value = {
 		base = 100
 	}
@@ -114,7 +114,7 @@ wonder_eldalonde_02 = { #Eldalonde after the Akallabeth
 }
 wonder_eldalonde_03 = {
 	type_icon = "icon_wonder_dolamroth.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 2000
 	can_construct = {
@@ -122,16 +122,16 @@ wonder_eldalonde_03 = {
 		scope:holder = {
 			culture = {
 				has_innovation = innovation_hoardings
-				any_parent_culture_or_above = { this = culture:numenorean } 
+				any_parent_culture_or_above = { this = culture:numenorean }
 			}
 			faith_is_evil = no
 			in_diplomatic_range = title:e_gondor.holder
-		}	
+		}
 		custom_tooltip = {
 			text = numenor_realm_size_limit_01
 			scope:holder.realm_size > 100
 		}
-		
+
 	}
 	province_modifier = {
 		fort_level = good_building_fort_level_tier_3
@@ -150,10 +150,10 @@ wonder_eldalonde_03 = {
 	is_enabled = {
 		scope:holder = {
 			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			faith_is_evil = no
 		}
-		faith_is_evil = no
 	}
-	
+
 	ai_value = {
 		base = 100
 	}
@@ -164,7 +164,7 @@ wonder_eldalonde_03 = {
 #Andunie
 wonder_andunie_01 = { #Andunie, haven of the faithful
 	type_icon = "icon_wonder_beacon_of_soronomar.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
 	can_construct = {
@@ -176,7 +176,7 @@ wonder_andunie_01 = { #Andunie, haven of the faithful
 			}
 		}
 	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
+		fort_level = 6
 		supply_limit_mult = 0.2
 	}
 	is_enabled = {
@@ -194,7 +194,7 @@ wonder_andunie_01 = { #Andunie, haven of the faithful
 
 wonder_andunie_02 = { #Andunie after the Akallabeth
 	type_icon = "icon_wonder_beacon_of_soronomar.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
 	can_construct = {
@@ -206,7 +206,7 @@ wonder_andunie_02 = { #Andunie after the Akallabeth
 			}
 		}
 	province_modifier = {
-		fort_level = good_building_fort_level_tier_2
+		fort_level = 12
 		supply_limit_mult = 0.5
 		tax_mult = 0.3
 	}
@@ -224,7 +224,7 @@ wonder_andunie_02 = { #Andunie after the Akallabeth
 		scope:holder = {
 			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
 		}
-	}	
+	}
 	ai_value = {
 		base = 100
 	}
@@ -235,7 +235,7 @@ wonder_andunie_02 = { #Andunie after the Akallabeth
 
 wonder_andunie_03 = {
 	type_icon = "icon_wonder_beacon_of_soronomar.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 2000
 	can_construct = {
@@ -248,7 +248,7 @@ wonder_andunie_03 = {
 			}
 		}
 	province_modifier = {
-		fort_level = good_building_fort_level_tier_3
+		fort_level = 16
 		supply_limit_mult = 1
 		tax_mult = 0.4
 	}
@@ -267,8 +267,8 @@ wonder_andunie_03 = {
 		scope:holder = {
 			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
 		}
-	}	
-	
+	}
+
 	ai_value = {
 		base = 100
 	}
@@ -279,7 +279,7 @@ wonder_andunie_03 = {
 #Meneltarma
 wonder_meneltarma_01 = { #Meneltarma, Holy mountain of Eru
 	type_icon = "icon_wonder_tharagrondost.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
 	can_construct = {
@@ -318,7 +318,7 @@ wonder_meneltarma_01 = { #Meneltarma, Holy mountain of Eru
 
 wonder_meneltarma_02 = { #Meneltarma as a place to worship the Fallen
 	type_icon = "icon_wonder_tharagrondost.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 2000
 	can_construct = {
@@ -346,8 +346,8 @@ wonder_meneltarma_02 = { #Meneltarma as a place to worship the Fallen
 		scope:holder = {
 			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
 		}
-	}	
-	
+	}
+
 	ai_value = {
 		base = 100
 	}
@@ -357,7 +357,7 @@ wonder_meneltarma_02 = { #Meneltarma as a place to worship the Fallen
 
 wonder_ondosto_01 = { #No more quarrying, sad
 	type_icon = "icon_building_marble_quarry.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
 	can_construct = {
@@ -376,7 +376,8 @@ wonder_ondosto_01 = { #No more quarrying, sad
 		development_growth_factor = 0.05
 	}
 	character_modifier = {
-		build_gold_cost = -0.05
+		build_speed = -0.05
+		holding_build_speed = -0.05
 	}
 	is_enabled = {
 		scope:holder = {
@@ -393,7 +394,7 @@ wonder_ondosto_01 = { #No more quarrying, sad
 
 wonder_ondosto_02 = { #New quarries, nice
 	type_icon = "icon_building_marble_quarry.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 2000
 	can_construct = {
@@ -413,14 +414,15 @@ wonder_ondosto_02 = { #New quarries, nice
 		development_growth_factor = 0.4
 	}
 	character_modifier = {
-		build_gold_cost = -0.25
+		build_speed = -0.25
+		holding_build_speed = -0.25
 	}
 	is_enabled = {
 		scope:holder = {
 			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
 		}
-	}	
-	
+	}
+
 	ai_value = {
 		base = 100
 	}
@@ -430,7 +432,7 @@ wonder_ondosto_02 = { #New quarries, nice
 
 wonder_nindamos_01 = { #fish
 	type_icon = "icon_building_generic_02.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
 	can_construct = {
@@ -461,7 +463,7 @@ wonder_nindamos_01 = { #fish
 
 wonder_nindamos_02 = { #Fish and people
 	type_icon = "icon_building_generic_02.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 2000
 	can_construct = {
@@ -489,8 +491,8 @@ wonder_nindamos_02 = { #Fish and people
 		scope:holder = {
 			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
 		}
-	}	
-	
+	}
+
 	ai_value = {
 		base = 100
 	}
@@ -500,7 +502,7 @@ wonder_nindamos_02 = { #Fish and people
 
 wonder_oromet_01 = { #Tower destroyed during the Akallabeth
 	type_icon = "icon_wonder_numenorean_tower.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
 	can_construct = {
@@ -530,7 +532,7 @@ wonder_oromet_01 = { #Tower destroyed during the Akallabeth
 
 wonder_oromet_02 = { #Tower restored
 	type_icon = "icon_wonder_numenorean_tower.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 500
 	can_construct = {
@@ -556,8 +558,8 @@ wonder_oromet_02 = { #Tower restored
 		scope:holder = {
 			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
 		}
-	}	
-	
+	}
+
 	ai_value = {
 		base = 100
 	}
@@ -567,7 +569,7 @@ wonder_oromet_02 = { #Tower restored
 
 wonder_calmindon_01 = { #Tower of Calmindon
 	type_icon = "icon_wonder_imrazor_hallow.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 2000
 	can_construct = {
@@ -596,8 +598,8 @@ wonder_calmindon_01 = { #Tower of Calmindon
 		scope:holder = {
 			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
 		}
-	}	
-	
+	}
+
 	ai_value = {
 		base = 100
 	}
@@ -607,7 +609,7 @@ wonder_calmindon_01 = { #Tower of Calmindon
 
 wonder_sorontil_01 = { #Tower destroyed during the Akallabeth
 	type_icon = "icon_wonder_umbar_citadel.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
 	can_construct = {
@@ -641,7 +643,7 @@ wonder_sorontil_01 = { #Tower destroyed during the Akallabeth
 
 wonder_sorontil_02 = { #Tower restored
 	type_icon = "icon_wonder_umbar_citadel.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 500
 	can_construct = {
@@ -668,8 +670,8 @@ wonder_sorontil_02 = { #Tower restored
 		scope:holder = {
 			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
 		}
-	}	
-	
+	}
+
 	ai_value = {
 		base = 100
 	}
@@ -679,7 +681,7 @@ wonder_sorontil_02 = { #Tower restored
 
 wonder_romenna_01 = { #Romenna, gratest haven of Númenor
 	type_icon = "icon_building_observatory.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
 	can_construct = {
@@ -691,7 +693,7 @@ wonder_romenna_01 = { #Romenna, gratest haven of Númenor
 			}
 		}
 	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
+		fort_level = 12
 		supply_limit_mult = 0.2
 		tax_mult = 0.1
 	}
@@ -710,7 +712,7 @@ wonder_romenna_01 = { #Romenna, gratest haven of Númenor
 
 wonder_romenna_02 = { #Haven being restored
 	type_icon = "icon_building_observatory.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
 	can_construct = {
@@ -722,7 +724,7 @@ wonder_romenna_02 = { #Haven being restored
 			}
 		}
 	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
+		fort_level = 12
 		supply_limit_mult = 1
 		tax_mult = 0.3
 	}
@@ -739,7 +741,7 @@ wonder_romenna_02 = { #Haven being restored
 		scope:holder = {
 			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
 		}
-	}	
+	}
 	ai_value = {
 		base = 100
 	}
@@ -750,7 +752,7 @@ wonder_romenna_02 = { #Haven being restored
 
 wonder_romenna_03 = { # Haven restored
 	type_icon = "icon_building_observatory.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 2000
 	can_construct = {
@@ -767,9 +769,11 @@ wonder_romenna_03 = { # Haven restored
 			}
 		}
 	province_modifier = {
-		fort_level = good_building_fort_level_tier_1
+		fort_level = 24
 		supply_limit_mult = 2
-		tax_mult = 0.4
+	}
+	county_modifier = {
+		tax_mult = 0.5
 	}
 	effect_desc = {
 		desc = sailing_activity_cost_discount_minor_desc
@@ -787,8 +791,8 @@ wonder_romenna_03 = { # Haven restored
 		scope:holder = {
 			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
 		}
-	}	
-	
+	}
+
 	ai_value = {
 		base = 100
 	}
@@ -811,7 +815,7 @@ wonder_armenelos_01 = { # Armenelos
 	}
 	province_modifier = {
 #		defender_advantage = good_building_fort_level_tier_8 # Matt note: cannot be used in province/county modifier.
-		fort_level = 9
+		fort_level = 12
 		supply_limit_mult = 1
 	}
 	is_enabled = {
@@ -830,54 +834,13 @@ wonder_armenelos_01 = { # Armenelos
 
 wonder_armenelos_02 = { #Temple of the Fallen
 	type_icon = "icon_wonder_osgiliath.dds"
-	
+
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 03 }
 		culture = {
 			has_innovation = innovation_hoardings
-		}
-	}
-	province_modifier = {
-#		defender_advantage = good_building_fort_level_tier_8 # Matt note: cannot be used in province/county modifier.
-		fort_level = 10
-		supply_limit_mult = 3
-		stationed_maa_damage_mult = 0.1
-		stationed_maa_toughness_mult = 0.1
-	}
-	effect_desc = {
-		desc = explore_history_cost_discount_max_desc
-	}
-	character_modifier = {
-		knight_limit = 3
-	}	
-	is_enabled = {
-		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
-		}
-	}	
-	ai_value = {
-		base = 100
-	}
-	next_building = wonder_armenelos_03
-	flag = travel_point_of_interest_diplomatic
-	type = special
-}
-
-wonder_armenelos_03 = { #Palace of the King
-	type_icon = "icon_wonder_osgiliath.dds"
-	
-	construction_time = very_slow_construction_time
-	cost_gold = 1200
-	can_construct = {
-		building_requirement_castle_city_church = { LEVEL = 03 }
-		culture = {
-			has_innovation = innovation_hoardings
-		}
-		custom_tooltip = {
-			text = numenor_realm_size_limit_01
-			scope:holder.realm_size > 100
 		}
 	}
 	province_modifier = {
@@ -891,7 +854,51 @@ wonder_armenelos_03 = { #Palace of the King
 		desc = explore_history_cost_discount_max_desc
 	}
 	character_modifier = {
-		knight_limit = 5
+		knight_limit = 3
+	}
+	is_enabled = {
+		scope:holder = {
+			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+		}
+	}
+	ai_value = {
+		base = 100
+	}
+	next_building = wonder_armenelos_03
+	flag = travel_point_of_interest_diplomatic
+	type = special
+}
+
+wonder_armenelos_03 = { #Palace of the King
+	type_icon = "icon_wonder_osgiliath.dds"
+
+	construction_time = very_slow_construction_time
+	cost_gold = 2400
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+		custom_tooltip = {
+			text = numenor_realm_size_limit_01
+			scope:holder.realm_size > 100
+		}
+	}
+	province_modifier = {
+#		defender_advantage = good_building_fort_level_tier_8 # Matt note: cannot be used in province/county modifier.
+		fort_level = 24
+		supply_limit_mult = 3
+		stationed_maa_damage_mult = 0.5
+		stationed_maa_toughness_mult = 0.5
+	}
+	county_modifier = {
+		tax_mult = 0.25
+	}
+	effect_desc = {
+		desc = explore_history_cost_discount_max_desc
+	}
+	character_modifier = {
+		knight_limit = 6
 		health = 0.5
 	}
 	is_enabled = {
@@ -908,10 +915,10 @@ wonder_armenelos_03 = { #Palace of the King
 }
 
 wonder_armenelos_04 = { #Armenelos: Flowering of Nimloth
-	type_icon = "icon_wonder_osgiliath.dds"	
-	
+	type_icon = "icon_wonder_osgiliath.dds"
+
 	construction_time = very_slow_construction_time
-	cost_gold = 1500
+	cost_gold = 6700
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 03 }
 		culture = {
@@ -927,25 +934,30 @@ wonder_armenelos_04 = { #Armenelos: Flowering of Nimloth
 				}
 			}
 		}
+		scope:holder = { faith_is_evil = no }
 	}
 	province_modifier = {
 #		defender_advantage = good_building_fort_level_tier_8 # Matt note: cannot be used in province/county modifier.
-		fort_level = 15
+		fort_level = 36
 		supply_limit_mult = 3
-		stationed_maa_damage_mult = 0.5
-		stationed_maa_toughness_mult = 0.5
+	}
+	county_modifier = {
+		tax_mult = 0.5
 	}
 	effect_desc = {
 		desc = explore_history_cost_discount_max_desc
 	}
 	character_modifier = {
-		knight_limit = 5
+		knight_limit = 9
 		vassal_opinion = 10
-		health = 0.5
+		health = 1
+		army_damage_mult = 0.5
+		army_toughness_mult = 0.5
 	}
 	is_enabled = {
 		scope:holder = {
 			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			faith_is_evil = no
 		}
 	}
 	ai_value = {
