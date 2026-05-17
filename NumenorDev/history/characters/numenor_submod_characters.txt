@@ -171,7 +171,7 @@ lineofelros89 = {
 	name = "Hallatan"
 	dynasty = dynasty_elros
 	religion = faith_numenorean
-	culture = numenorean
+	culture = adunaic # Alrain note: for NOW, change back when we give him a wife. This is for ethnicity
 
 	father = lineofelros88
 	mother = lineofelros26
@@ -186,6 +186,7 @@ lineofelros89 = {
 
 	3900.1.1 = {
 		birth = yes
+		culture = numenorean
 	}
 	4002.1.1 = {
 		culture = adunaic
@@ -821,7 +822,7 @@ lineofelros113 = {
 }
 
 lineofelros113son = {
-	name = Azrukho_o_r # TEMP
+	name = Aglarzi_i_r # TEMP
 
 	dynasty = dynasty_elros
 	religion = faith_adunaic
