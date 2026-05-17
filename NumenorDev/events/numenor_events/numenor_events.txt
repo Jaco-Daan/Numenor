@@ -916,6 +916,50 @@ numenor.3104 = {
 			INVASION_LANDING_EFFECT = amav_invasion_landing_effect
 			START_INVASION_WAR_EFFECT = numenor_amav_invasion_start_invasion_war
 		}
+
+		title:c_opele_ancalimonva.holder = {
+			create_alliance = title:c_eldalonde.holder
+			create_alliance = title:c_sorontil.holder
+		}
+		title:c_eldalonde.holder = {
+			create_alliance = title:c_opele_ancalimonva.holder
+			create_alliance = title:c_sorontil.holder
+		}
+		title:c_sorontil.holder = {
+			create_alliance = title:c_eldalonde.holder
+			create_alliance = title:c_opele_ancalimonva.holder
+		}
+
+		title:c_eldalonde.holder = {
+			add_opinion = {
+				target = title:c_sorontil.holder
+				modifier = event_negotiated_alliance_opinion
+			}
+			add_opinion = {
+				target = title:c_opele_ancalimonva.holder
+				modifier = event_negotiated_alliance_opinion
+			}
+		}
+		title:c_opele_ancalimonva.holder = {
+			add_opinion = {
+				target = title:c_eldalonde.holder
+				modifier = event_negotiated_alliance_opinion
+			}
+			add_opinion = {
+				target = title:c_sorontil.holder
+				modifier = event_negotiated_alliance_opinion
+			}
+		}
+		title:c_sorontil.holder = {
+			add_opinion = {
+				target = title:c_eldalonde.holder
+				modifier = event_negotiated_alliance_opinion
+			}
+			add_opinion = {
+				target = title:c_opele_ancalimonva.holder
+				modifier = event_negotiated_alliance_opinion
+			}
+		}
 	}
 }
 
