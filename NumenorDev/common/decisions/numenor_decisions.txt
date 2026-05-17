@@ -724,6 +724,7 @@ hold_memorial_at_meneltarma_decision = {
 				OR = {
 					has_doctrine = tenet_memory_of_akallabeth
 					has_doctrine = tenet_adunaic_birthright
+					has_doctrine = tenet_adunaic_mandate
 				}
 			}
 			has_title = title:c_meneltarma
@@ -736,10 +737,6 @@ hold_memorial_at_meneltarma_decision = {
 			NOT = { situation:numenor_situation ?= { situation_current_phase = numenor_situation_isolation } }
 		}
 		NOT = { has_character_flag = flag_meneltarma }
-	}
-
-	cost = {
-		gold = 500
 	}
 
 	is_valid_showing_failures_only = {
@@ -758,7 +755,6 @@ hold_memorial_at_meneltarma_decision = {
 			flag = flag_meneltarma
 			days = 1825
 		}
-		add_prestige = 500
 	}
 
 	ai_check_interval = 60

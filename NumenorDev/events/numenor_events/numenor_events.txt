@@ -287,8 +287,8 @@ numenor.0010 = { #Meneltarma
 	}
 	option = {
 		name = numenor.0010.a
-		add_prestige = 25
-		add_piety = 25
+		add_prestige = 500
+		add_piety = 500
 		# add_character_modifier = {
 		# 	modifier = blessed_by_meneltarma_modifier
 		# 	years = 5
