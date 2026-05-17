@@ -9,6 +9,12 @@
 	group = group_numenor_submod_music
 }
 
+2_sneesh = {
+	music = "file:/music/numenor_submod_music/sneesh....mp3"
+	name = "2_sneesh"
+	group = group_numenor_submod_music
+}
+
 # Group settings
 
 group_numenor_submod_music = {

@@ -7936,6 +7936,7 @@ lotr_valinor_invasion_cb = {
 	}
 
 	on_defeat = {
+		scope:defender = { play_music_cue = 2_sneesh }
 		# Legitimacy
 		add_legitimacy_attacker_defeat_effect = yes
 
@@ -8197,6 +8198,7 @@ lotr_pharazon_invasion_cb = {
 	}
 
 	on_defeat = {
+		scope:defender = { play_music_cue = 2_sneesh }
 		# Legitimacy
 		add_legitimacy_attacker_defeat_effect = yes
 
@@ -8439,6 +8441,7 @@ lotr_amav_invasion_cb = {
 	}
 
 	on_defeat = {
+		scope:defender = { play_music_cue = 2_sneesh }
 		# Legitimacy
 		add_legitimacy_attacker_defeat_effect = yes
 
