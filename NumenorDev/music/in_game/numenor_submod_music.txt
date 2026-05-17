@@ -1,0 +1,11 @@
+﻿# # New in Realms 2.1
+# # Base = music for realm building. Added to mood tracks.
+# # Calm/mood = background music.
+# # Action = dramatic, tied to an event.
+
+snauron_snake_me_to_snarad_snur = {
+	music = "file:/music/NumenorSubmodMusic/snauron_snake_me_too_snarad_snur.mp3"
+	mood = yes
+	name = "snauron_snake_me_to_snarad_snur_name"
+	is_valid = { always = no }
+}
