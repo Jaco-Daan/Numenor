@@ -7750,7 +7750,7 @@ lotr_valinor_invasion_cb = {
 	}
 
 	on_victory = {
-		scope:attacker = { set_variable = lock_initial_invasion_cb }
+		scope:attacker = { set_variable = lock_initial_invasion_cb remove_trait = cannot_marry }
 		if = { #Numenor Submod
 			limit = {
 				title:k_wastelands.holder = { has_variable = numenor_invade_valinor }
@@ -8091,7 +8091,7 @@ lotr_pharazon_invasion_cb = {
 	}
 
 	on_victory = {
-		scope:attacker = { set_variable = lock_initial_invasion_cb }
+		scope:attacker = { set_variable = lock_initial_invasion_cb remove_trait = cannot_marry }
 		if = { #Numenor Submod
 			limit = {
 				title:k_wastelands.holder = { has_variable = numenor_invade_valinor }
@@ -8333,7 +8333,7 @@ lotr_amav_invasion_cb = {
 	}
 
 	on_victory = {
-		scope:attacker = { set_variable = lock_initial_invasion_cb }
+		scope:attacker = { set_variable = lock_initial_invasion_cb remove_trait = cannot_marry }
 		if = { #Numenor Submod
 			limit = {
 				title:k_wastelands.holder = { has_variable = numenor_invade_valinor }
