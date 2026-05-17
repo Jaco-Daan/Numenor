@@ -752,6 +752,12 @@ numenor.3100 = { # Start journey to Valinor
 					}
 				}
 			}
+			else = {
+				trigger_event = {
+					id = numenor.3101
+					days = { 5 10 }
+				}
+			}
 		}
 
 		ai_chance = {
