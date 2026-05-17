@@ -948,7 +948,6 @@ decision_numenor_invade_valinor = {
 			desc = decision_numenor_invade_valinor_1
 		}
 	}
-	title = decision_numenor_invade_valinor
 	picture = { reference = "gfx/interface/illustrations/decisions/armament.dds" }
 	selection_tooltip = decision_numenor_invade_valinor_tooltip
 	desc = decision_numenor_invade_valinor_desc

@@ -152,7 +152,7 @@ acaadoky_river_region = {
 
 numenor_river_region = {
 	duchies = {
-		d_anduine d_arialome d_erest d_nisimaldar
+		d_arialome d_erest d_nisimaldar
 		d_erelonde d_zimrayan d_hyarnudore
 		d_sorontil d_ondosto d_elenore d_khorandor
 		d_arandor d_formenore d_aruwanai d_ciryanore

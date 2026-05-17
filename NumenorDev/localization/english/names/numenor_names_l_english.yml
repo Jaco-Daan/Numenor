@@ -8,7 +8,23 @@ Baian: "Baian"
 ### PORT OVER (PORTED TO NEITHER) ###
 Aglarzi_i_r: "Aglarzîr" # Adunaic Male - Glory-friend
 A_A_ru_u_phin: "Ârûphin" # Adûnâic Female - Royal-hair, see Q. Artafindë
+Avalo_o_hil: "Avalôhil" # Adunaic Male - Valar-heir
 Herundur: "Herundur" # Quenya Male - Lord-servant
 Isilion: "Isilion" # Quenya Male - Moon-son
 Phaza_a_ttho_o_r: "Phazatthôr" # Adûnâic Male - Prince-son
-Telemmacil: "Telemmacil" # Quenya Male - Silver-sword
+Telemmacil: "Telemmacil" # Quenya Male - Silver-sword\
+
+# Mixed Sindarin-Adunaic
+Arattho_o_r: "Aratthôr" # MSA - King-son
+Avale_e_nil: "Avalênil" # MSA - Valie-friend
+Adartho_o_r: "Adarthôr" # MSA - Father-son
+Adarphe_e_l: "Adarphêl" # MSA - Father-daughter
+Azarnil: "Azarnil" # MSA - Star-friend (sort of)
+Balakion: "Balakion" # MSA - Ship-son
+Balakiel: "Balakiel" # MSA - Ship-daughter
+Karbuhir: "Karbuhir" # MSA - Horse-lord
+Rokkho_o_r: "Rokkhôr" # MSA - Horse-lord
+Karbuhiri_i_: "Karbuhirî" # MSA - Horse-lady
+Rokkho_o_re_e_: "Rokkhôrê" # MSA - Horse-lady
+Minalchen: "Minalchen" # MSA - Heaven-eye
+Menelkhe_e_n: "Mênêlkhên" # MSA - Heaven-eye
