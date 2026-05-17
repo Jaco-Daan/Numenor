@@ -982,6 +982,7 @@ numenor.3104 = {
 				target = title:c_sorontil.holder
 				modifier = event_negotiated_alliance_opinion
 			}
+			add_trait = immortal
 		}
 		title:c_sorontil.holder = {
 			add_opinion = {
@@ -992,6 +993,7 @@ numenor.3104 = {
 				target = title:c_opele_ancalimonva.holder
 				modifier = event_negotiated_alliance_opinion
 			}
+			add_trait = immortal
 		}
 
 		title:e_numenor = {
@@ -1002,7 +1004,7 @@ numenor.3104 = {
 				limit = { holder.top_liege = title:e_numenor.holder }
 				add_county_modifier = {
 					modifier = cursed_land_of_numenor_modifier
-					years = 25
+					years = 50
 				}
 				raze_county = {
 					holding_type = castle_holding
