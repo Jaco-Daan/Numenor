@@ -920,14 +920,17 @@ numenor.3104 = {
 		title:c_opele_ancalimonva.holder = {
 			create_alliance = title:c_eldalonde.holder
 			create_alliance = title:c_sorontil.holder
+			add_trait = cannot_marry
 		}
 		title:c_eldalonde.holder = {
 			create_alliance = title:c_opele_ancalimonva.holder
 			create_alliance = title:c_sorontil.holder
+			add_trait = cannot_marry
 		}
 		title:c_sorontil.holder = {
 			create_alliance = title:c_eldalonde.holder
 			create_alliance = title:c_opele_ancalimonva.holder
+			add_trait = cannot_marry
 		}
 
 		title:c_eldalonde.holder = {
