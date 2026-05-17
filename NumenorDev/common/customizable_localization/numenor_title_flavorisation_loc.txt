@@ -121,7 +121,7 @@ emperor_feudal_male_numenorean = {
     }
     text = {
         fallback = yes
-        localization_key = high_king_dunedain_numenor_in_exile
+        localization_key = emperor_feudal_numenorean_tar
     }
 }
 
@@ -139,7 +139,7 @@ emperor_feudal_female_numenorean = {
     }
     text = {
         fallback = yes
-        localization_key = high_king_dunedain_numenor_in_exile_female
+        localization_key = emperor_feudal_numenorean_tar
     }
 }
 

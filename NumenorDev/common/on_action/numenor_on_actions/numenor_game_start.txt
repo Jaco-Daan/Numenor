@@ -9,6 +9,9 @@
 			limit = {
 				culture = culture:adunaic
 				location ?= { geographical_region = middleearth_numenor }
+				NOT = {
+					exists = dynasty
+				}
 			}
 			# Removes all lower than 6 7
 			remove_trait = blood_of_numenor_1
@@ -18,6 +21,7 @@
 			remove_trait = blood_of_numenor_5
 
 			add_trait = blood_of_numenor_7
+			numenor_yassify_effect = yes
 		}
 		numenor_fire_intro_events = yes
 		
