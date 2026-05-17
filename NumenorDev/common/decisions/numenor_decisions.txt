@@ -968,6 +968,10 @@ decision_numenor_invade_valinor = {
 			}
 		}
 		is_independent_ruler = yes
+		trigger_if = {
+			limit = { title:k_wastelands.holder = { has_variable = numenor_invade_valinor } }
+			title:k_wastelands.holder.var:numenor_invade_valinor < 9
+		}
 	}
 
 	# IS_VALID
