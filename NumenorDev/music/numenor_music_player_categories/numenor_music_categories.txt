@@ -5,6 +5,6 @@ category = {
 	id = "numenor_submod_music"
 	name = "numenor_submod_music_list"
 	tracks = {
-		"snauron_snake_me_to_snarad_snur"
+		"1_snauron_snake_me_to_snarad_snur"
 	}
 }

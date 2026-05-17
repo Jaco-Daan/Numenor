@@ -3,9 +3,18 @@
 # # Calm/mood = background music.
 # # Action = dramatic, tied to an event.
 
-snauron_snake_me_to_snarad_snur = {
-	music = "file:/music/NumenorSubmodMusic/snauron_snake_me_too_snarad_snur.mp3"
-	mood = yes
-	name = "snauron_snake_me_to_snarad_snur_name"
-	is_valid = { always = yes }
+1_snauron_snake_me_to_snarad_snur = {
+	music = "file:/music/numenor_submod_music/snauron_snake_me_too_snarad_snur.mp3"
+	name = "1_snauron_snake_me_to_snarad_snur"
+	group = group_numenor_submod_music
+}
+
+# Group settings
+
+group_numenor_submod_music = {
+ 	subsequent_playback_chance = { 0.65 0.35 0.1 }
+ 	mood = no
+ 	trigger_prio_override = no
+	can_be_interrupted = yes
+	pause_factor = 15
 }
