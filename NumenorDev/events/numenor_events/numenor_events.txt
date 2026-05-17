@@ -793,7 +793,7 @@ numenor.3101 = { # Earthquake/Flood
 
 	immediate = {
 		title:e_numenor.holder = { save_scope_as = largest_realm_ruler }
-		play_music_cue = mx_cue_negative
+		# play_music_cue = mx_cue_negative
 	}
 
 	widgets = {
@@ -816,22 +816,21 @@ numenor.3101 = { # Earthquake/Flood
 				id = numenor.3103
 				years = 5
 			}
+			numenor_spawn_earthquake_in_region_effect = {
+				REGION = middleearth_numenor
+			}
+			title:e_numenor = {
+				random_de_jure_county = {
+					limit = {
+						title_province = { geographical_region = global_flood_region }
+						NOT = { any_county_situation = { situation_type = natural_disaster_flood } }
+					}
+					spawn_flood_in_county_effect = { COUNTY = this }
+				}
+			}
 		}
 		else = {
 			trigger_event = numenor.3104
-		}
-
-		numenor_spawn_earthquake_in_region_effect = {
-			REGION = middleearth_numenor
-		}
-		title:e_numenor = {
-			random_de_jure_county = {
-				limit = {
-					title_province = { geographical_region = global_flood_region }
-					NOT = { any_county_situation = { situation_type = natural_disaster_flood } }
-				}
-				spawn_flood_in_county_effect = { COUNTY = this }
-			}
 		}
 	}
 }
@@ -886,7 +885,7 @@ numenor.3103 = { #Spawn valinor invasion on numenor
 	}
 	override_sound = { reference = "event:/SFX/Events/Themes/sfx_event_theme_type_duty" }
 	immediate = {
-		play_music_cue = 1_glamdring
+		# play_music_cue = 1_glamdring
 		save_scope_as = largest_realm_ruler
 		character:lineofeonwe = { save_scope_as = invader_char }
 	}
@@ -1016,7 +1015,7 @@ numenor.3104 = {
 
 numenor.3105 = {
 	hidden = yes
-	immediate = { play_music_cue = 2_sneesh }
+	immediate = { play_music_cue = 2_sneesh play_sound_effect = "file:/music/numenor_submod_music/sneesh.mp3" }
 }
 
 numenor.3200 = {
