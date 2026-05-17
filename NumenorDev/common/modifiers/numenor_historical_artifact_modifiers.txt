@@ -10,3 +10,11 @@ blessed_land_of_numenor_modifier = {
     icon = health_positive
 	epidemic_resistance = 100
 }
+
+cursed_land_of_numenor_modifier = {
+    icon = health_positive
+	epidemic_resistance = -100
+	development_growth_factor = -0.5
+    county_opinion_add = -200
+    tax_mult = -0.25
+}

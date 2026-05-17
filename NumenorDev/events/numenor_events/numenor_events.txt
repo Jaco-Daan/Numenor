@@ -721,10 +721,25 @@ numenor.3100 = { # Start journey to Valinor
 	option = { # We must find Valinor!!!
 		name = numenor.3100.a
 		custom_tooltip = numenor.3100.a.tt
+		#
+		if = {
+			limit = {
+				title:k_wastelands.holder = { has_variable = numenor_invade_valinor }
+				title:k_wastelands.holder.var:numenor_invade_valinor > 3
+			}
+			random_list = {
+				5 = {
+					title:c_twilight_isles = {
 
-		trigger_event = {
-			id = numenor.3101
-			days = { 5 10 }
+					}
+				}
+				100 = {
+					trigger_event = {
+						id = numenor.3101
+						days = { 5 10 }
+					}
+				}
+			}
 		}
 
 		ai_chance = {
@@ -969,7 +984,14 @@ numenor.3104 = {
 
 		title:e_numenor = {
 			every_de_jure_county = {
+				remove_county_modifier = blessed_land_of_numenor_modifier
+			}
+			every_de_jure_county = {
 				limit = { holder.top_liege = title:e_numenor.holder }
+				add_county_modifier = {
+					modifier = cursed_land_of_numenor_modifier
+					years = 25
+				}
 				raze_county = {
 					holding_type = castle_holding
 					purge_secondary_holdings = yes

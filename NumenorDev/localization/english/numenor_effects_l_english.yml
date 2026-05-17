@@ -14,3 +14,5 @@
  #Modifier 
  blessed_land_of_numenor_modifier: "Blessed Land of Númenor"
  blessed_land_of_numenor_modifier_desc: "The very land and substance of [numenor|E] is blessed with health and fertility, and disease is almost unknown upon the island."
+ cursed_land_of_numenor_modifier: "Cursed Land of Númenor"
+ cursed_land_of_numenor_modifier_desc: "The very land and substance of [numenor|E] is cursed with death and hangry peasants, and disease is always known upon the island."
