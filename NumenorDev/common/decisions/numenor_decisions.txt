@@ -1433,18 +1433,7 @@ decision_restore_numenor_province = {
 		else_if = {		# Umbar
 			limit = { scope:reclaim_numenor_umbar = yes }
 			save_scope_as = new_ruler
-			title:k_umbar = {
-				set_de_jure_liege_title = root.primary_title
-			}
-			title:k_mardruak = {
-				set_de_jure_liege_title = root.primary_title
-			}
-			title:k_umbar = {
-				change_development_level = 3
-			}
-			title:k_mardruak = {
-				change_development_level = 3
-			}
+			title:e_umbar = { set_de_jure_liege_title = title:h_numenor }
 
 			add_to_global_variable_list = {
 				name = unavailable_unique_decisions
@@ -1473,15 +1462,7 @@ decision_restore_numenor_province = {
 		else_if = {		# Bellakar
 			limit = { scope:reclaim_numenor_bellakar = yes }
 			root = { save_scope_as = new_ruler }
-			title:k_bellazen = {
-				set_de_jure_liege_title = root.primary_title
-			}
-			title:k_nilulonde = {
-				set_de_jure_liege_title = root.primary_title
-			}
-			title:k_felaya = {
-				set_de_jure_liege_title = root.primary_title
-			}
+			title:e_bellakar = { set_de_jure_liege_title = title:h_numenor }
 			title:k_felaya = {
 				change_development_level = 1
 			}
@@ -1523,27 +1504,7 @@ decision_restore_numenor_province = {
 		else_if = {		# Thani-Hazad
 			limit = { scope:reclaim_numenor_thani_hazad = yes }
 			root = { save_scope_as = new_ruler }
-			title:k_an_balkumagan = {
-				set_de_jure_liege_title = root.primary_title
-			}
-			title:k_tulwang = {
-				set_de_jure_liege_title = root.primary_title
-			}
-			title:k_zimrathani = {
-				set_de_jure_liege_title = root.primary_title
-			}
-			title:k_drel = {
-				set_de_jure_liege_title = root.primary_title
-			}
-			title:k_pel = {
-				set_de_jure_liege_title = root.primary_title
-			}
-			title:k_gimilthani = {
-				set_de_jure_liege_title = root.primary_title
-			}
-			title:k_kharadune = {
-				set_de_jure_liege_title = root.primary_title
-			}
+			title:e_thani_hazad = { set_de_jure_liege_title = title:h_numenor }
 			title:k_an_balkumagan = {
 				change_development_level = 3
 			}
@@ -1621,56 +1582,30 @@ decision_restore_numenor_province = {
 		else_if = {		# Gondor
 			limit = { scope:reclaim_numenor_gondor = yes }
 			root = { save_scope_as = new_ruler }
-			title:k_belfalas = {
-				set_de_jure_liege_title = root.primary_title
-			}
+			title:c_minas_tirith.empire = { set_de_jure_liege_title = title:h_numenor }
 			title:k_belfalas = {
 				change_development_level = 1
-			}
-			title:k_anfalas = {
-				set_de_jure_liege_title = root.primary_title
 			}
 			title:k_anfalas = {
 				change_development_level = 1
 			}
 			title:k_anorien = {
-				set_de_jure_liege_title = root.primary_title
-			}
-			title:k_anorien = {
 				change_development_level = 1
-			}
-			title:k_ithilien = {
-				set_de_jure_liege_title = root.primary_title
 			}
 			title:k_ithilien = {
 				change_development_level = 1
 			}
 			title:k_lamedon = {
-				set_de_jure_liege_title = root.primary_title
-			}
-			title:k_lamedon = {
 				change_development_level = 1
-			}
-			title:k_pinnath_gelin = {
-				set_de_jure_liege_title = root.primary_title
 			}
 			title:k_pinnath_gelin = {
 				change_development_level = 1
 			}
 			title:k_lebennin = {
-				set_de_jure_liege_title = root.primary_title
-			}
-			title:k_lebennin = {
 				change_development_level = 1
 			}
 			title:k_isengard = {
-				set_de_jure_liege_title = root.primary_title
-			}
-			title:k_isengard = {
 				change_development_level = 1
-			}
-			title:k_andrast = {
-				set_de_jure_liege_title = root.primary_title
 			}
 			title:k_andrast = {
 				change_development_level = 1
@@ -1703,6 +1638,8 @@ decision_restore_numenor_province = {
 		else_if = {		# Harnen
 			limit = { scope:reclaim_numenor_harnen = yes }
 			root = { save_scope_as = new_ruler }
+			title:k_harondor.empire = { set_de_jure_liege_title = title:h_numenor }
+			
 			title:d_rhuntir = {
 				set_de_jure_liege_title = title:k_harondor
 			}
@@ -1731,7 +1668,7 @@ decision_restore_numenor_province = {
 				change_development_level = 1
 			}
 			title:k_mirlond = {
-				set_de_jure_liege_title = root.primary_title
+				set_de_jure_liege_title = title:e_umbar
 			}
 			title:k_mirlond = {
 				change_development_level = 1
@@ -1773,11 +1710,9 @@ decision_restore_numenor_province = {
 			limit = { scope:reclaim_numenor_minhiriath = yes }
 			root = { save_scope_as = new_ruler }
 			
+			title:k_cardolan.empire = { set_de_jure_liege_title = title:h_numenor }
 			title:d_nen_gwathlo = {
 				set_de_jure_liege_title = title:k_cardolan
-			}
-			title:k_cardolan = {
-				set_de_jure_liege_title = title:e_numenor
 			}
 			title:d_nen_gwathlo = {
 				change_development_level = 1

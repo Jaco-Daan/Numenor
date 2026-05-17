@@ -28,7 +28,7 @@ show_numenorean_umbar_trigger = {
 			target = flag:reclaim_numenorean_umbar_decision
 		}
 	}
-	NOT = { title:k_umbar.empire = title:e_numenor }
+	NOT = { title:e_umbar.hegemony = title:h_numenor }
 }
 
 ### Bellakar ###
@@ -43,7 +43,7 @@ show_numenorean_bellakar_trigger = {
 			target = flag:reclaim_numenorean_bellakar_decision
 		}
 	}
-	NOT = { title:k_bellazen.empire = title:e_numenor }
+	NOT = { title:e_bellakar.hegemony = title:h_numenor }
 }
 
 ### Thani-Hazad ###
@@ -58,7 +58,7 @@ show_numenorean_thani_hazad_trigger = {
 			target = flag:reclaim_numenorean_thani_hazad_decision
 		}
 	}
-	NOT = { title:k_gimilthani.empire = title:e_numenor }
+	NOT = { title:e_thani_hazad.hegemony = title:h_numenor }
 	
 }
 
@@ -74,7 +74,7 @@ show_numenorean_gondor_trigger = {
 			target = flag:reclaim_numenorean_gondor_decision
 		}
 	}
-	NOT = { title:k_anorien.empire = title:e_numenor }
+	NOT = { title:c_minas_tirith.hegemony = title:h_numenor }
 }
 
 ### Harnen ###
@@ -89,7 +89,7 @@ show_numenorean_harnen_trigger = {
 			target = flag:reclaim_numenorean_harnen_decision
 		}
 	}
-	NOT = { title:k_harondor.empire = title:e_numenor }
+	NOT = { title:k_harondor.hegemony = title:h_numenor }
 }
 
 ### Minhiriath ###
@@ -104,7 +104,7 @@ show_numenorean_minhiriath_trigger = {
 			target = flag:reclaim_numenorean_minhiriath_decision
 		}
 	}
-	NOT = { title:k_cardolan.empire = title:e_numenor }
+	NOT = { title:e_arnor.hegemony = title:h_numenor }
 }
 
 numenor_in_isolation_phase = {
