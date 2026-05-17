@@ -921,16 +921,19 @@ numenor.3104 = {
 			create_alliance = title:c_eldalonde.holder
 			create_alliance = title:c_sorontil.holder
 			add_trait = cannot_marry
+			add_character_flag = numenor_submod_protected_from_harm
 		}
 		title:c_eldalonde.holder = {
 			create_alliance = title:c_opele_ancalimonva.holder
 			create_alliance = title:c_sorontil.holder
 			add_trait = cannot_marry
+			add_character_flag = numenor_submod_protected_from_harm
 		}
 		title:c_sorontil.holder = {
 			create_alliance = title:c_eldalonde.holder
 			create_alliance = title:c_opele_ancalimonva.holder
 			add_trait = cannot_marry
+			add_character_flag = numenor_submod_protected_from_harm
 		}
 
 		title:c_eldalonde.holder = {
