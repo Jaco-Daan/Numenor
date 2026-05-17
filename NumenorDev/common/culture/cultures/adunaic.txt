@@ -4,7 +4,7 @@
 	created = 4002.1.1
 	parents = { numenorean }
 	
-	history_loc_override = numenor_submod_loc
+	history_loc_override = numenor_submod_loc #Numenor Submod
 	
 	ethos = ethos_communal
 	heritage = heritage_adunaic
