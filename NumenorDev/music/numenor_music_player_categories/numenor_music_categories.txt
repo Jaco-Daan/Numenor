@@ -5,15 +5,6 @@ category = {
 	id = "numenor_submod_music"
 	name = "numenor_submod_music_list"
 	tracks = {
-		"2_the_shire"
-		"3_bag_end"
-		"6_farewell_dear_bilbo"
-		"10_the_passing_of_the_elves"
-		"12_a_shortcut_to_mushrooms"
-		"19_rivendell"
-		"20_the_sword_that_was_broken"
-		"26_moria"
-		"29_khazad_dum"
-		"34_the_departure_of_boromir"
+		"snauron_snake_me_to_snarad_snur"
 	}
 }
