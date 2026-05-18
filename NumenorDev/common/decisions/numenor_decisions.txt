@@ -1293,8 +1293,11 @@ decision_restore_numenor_province = {
 	
 	is_shown = {
 		is_landed = yes
-		highest_held_title_tier = tier_empire
-		has_title = title:e_numenor #Numenor Sub-mod
+		primary_title.tier > tier_kingdom
+		OR = {
+			has_title = title:e_numenor
+			has_title = title:h_numenor
+		}
 		OR = { # Ensures at least one option is still available
 			show_numenorean_umbar_trigger = yes
 			show_numenorean_bellakar_trigger = yes
