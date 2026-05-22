@@ -11933,7 +11933,7 @@ lineofazrubensubmod28a2 = {
 		birth = yes
 	}
 
-	7010.1.1 = {
+	7032.9.21 = {
 		employer = lineofelros114
 	}
 
