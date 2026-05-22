@@ -9443,6 +9443,7 @@ angle_rhudaur_invasion_war = {
 				id = rhudaur.2502
 				days = 5
 			}
+			trigger_event = rhudaur.2504 #Hwaldar decimates the remainig Dúnedain loyalist Hillmen
         }
 
 		scope:attacker = { show_pow_release_message_effect = yes }

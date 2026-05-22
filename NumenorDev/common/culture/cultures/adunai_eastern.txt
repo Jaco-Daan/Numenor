@@ -24,7 +24,7 @@
 	name_list = name_list_south_adunaic
 	
 	coa_gfx = { southern_numenorean_coa_gfx }
-	building_gfx = { numenorean_building_gfx }
+	building_gfx = { numenorean_building_gfx mediterranean_building_gfx }
 	clothing_gfx = { numenorean_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 	house_coa_frame = house_frame_04

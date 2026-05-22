@@ -6094,7 +6094,7 @@ lineofciryamirbranch22 = {
 		birth = yes
 	}
 	7030.1.1 = {
-		death = { death_reason = death_perished_at_sea }
+		death = { death_reason = death_drowned }
 	}
 }
 lineofciryamirbranch23 = {
@@ -13438,7 +13438,7 @@ linegimilson2 = {
 		birth = yes
 	}
 	4092.1.1 = {
-		death = { death_reason = death_perished_at_sea }
+		death = { death_reason = death_drowned }
 	}
 }
 
