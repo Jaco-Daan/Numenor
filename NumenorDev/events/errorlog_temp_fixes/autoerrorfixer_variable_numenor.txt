@@ -6,5 +6,6 @@ autoerrorfixer_variable_numenor.1 = {
 		fix_variable_error = {ERROR = scroll_of_kings}
 		fix_variable_error = {ERROR = korlea_vassalization}
 		fix_variable_error = {ERROR = overlord_protector}
+		fix_variable_error = {ERROR = numenor_submod_protected_from_harm}
 	}
 }
