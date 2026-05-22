@@ -18,8 +18,13 @@
 	6776.1.1 = {
 		buildings = {
 			castle_04
-			citadel_08
+			smiths_08
 			garrison_tower_04
+		}
+		if = {
+			province:6151 = {
+				add_great_building = lotr_great_citadel_03
+			}
 		}
 		special_building_slot = wonder_armenelos_01
 		special_building = wonder_armenelos_02
@@ -556,6 +561,11 @@
 			castle_04
 			citadel_08
 			common_tradeport_07
+		}
+		if = {
+			province:6200 = {
+				add_great_building = lotr_great_citadel_03
+			}
 		}
 		special_building_slot = wonder_andunie_01
 		special_building = wonder_andunie_02

@@ -100,6 +100,9 @@ define_numenor_resources = { # Setup resources on Numenor
 	title:b_anariova.title_province = {
 		add_province_modifier = mining_sapphire_province_modifier
 	}
+	province:6151 = {
+		add_great_building = lotr_great_citadel_03
+	}
 }
 
 ### Sunset Invasions ###
