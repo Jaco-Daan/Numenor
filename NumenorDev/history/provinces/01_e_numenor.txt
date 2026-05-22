@@ -18,8 +18,11 @@
 	6776.1.1 = {
 		buildings = {
 			castle_04
-			citadel_08
-			garrison_tower_04
+			windmills_08
+			smiths_08
+		}
+		effect = {
+			add_great_building = lotr_great_citadel_03
 		}
 		special_building_slot = wonder_armenelos_01
 		special_building = wonder_armenelos_02
@@ -104,8 +107,11 @@
 	6776.1.1 = {
 		buildings = {
 			castle_04
-			citadel_06
+			farm_estates_08
 			common_tradeport_08
+		}
+		effect = {
+			add_great_building = lotr_great_citadel_03
 		}
 		special_building_slot = wonder_romenna_01
 		special_building = wonder_romenna_02
@@ -554,8 +560,11 @@
 	6776.1.1 = {
 		buildings = {
 			castle_04
-			citadel_08
+			farm_estates_06
 			common_tradeport_07
+		}
+		effect = {
+			add_great_building = lotr_great_citadel_03
 		}
 		special_building_slot = wonder_andunie_01
 		special_building = wonder_andunie_02
@@ -606,8 +615,11 @@
 	6776.1.1 = {
 		buildings {
 			castle_02
-			citadel_04
+			hill_farms_04
 			common_tradeport_04
+		}
+		effect = {
+			add_great_building = lotr_great_citadel_01
 		}
 	}
 	special_building_slot = wonder_oromet_01
@@ -683,8 +695,11 @@
 	6776.1.1 = {
 		buildings = {
 			castle_03
-			citadel_06
+			hunting_grounds_06
 			common_tradeport_08
+		}
+		effect = {
+			add_great_building = lotr_great_citadel_03
 		}
 		special_building_slot = wonder_eldalonde_01
 		special_building = wonder_eldalonde_02
@@ -1458,7 +1473,10 @@
 		buildings = {
 			castle_03
 			common_tradeport_06
-			citadel_04
+			cereal_fields_06
+		}
+		effect = {
+			add_great_building = lotr_great_citadel_03
 		}
 		special_building_slot = wonder_nindamos_01
 		special_building = wonder_nindamos_01
@@ -2264,8 +2282,11 @@
 	6776.1.1 = {
 		buildings = {
 			castle_03
-			citadel_04
+			quarries_06
 			mithril_mines_06
+		}
+		effect = {
+			add_great_building = lotr_great_citadel_02
 		}
 		special_building_slot = wonder_sorontil_01
 		special_building = wonder_sorontil_01
