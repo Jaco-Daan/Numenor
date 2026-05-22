@@ -204,7 +204,7 @@ middleearth_west_isengard = {
 middleearth_west_rohan = {
 	duchies = {
 		# k_rohan
-		d_thefolde d_westfold d_westemnet d_eastfold d_thewold d_eastemnet
+		d_thefolde d_westfold d_westemnet d_eastfold d_thewold d_eastemnet d_emyn_muil
 	}
 }
 middleearth_west_rhovanion_lothlorien = {
