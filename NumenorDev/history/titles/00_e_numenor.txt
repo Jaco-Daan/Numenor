@@ -4950,7 +4950,11 @@ c_kharutarik = {
 	3911.1.1 = {
 		holder = linesorontiljewel2
 	}
-	3939.1.1 = {
+	3939.1.1 = { # Passes to the son (mostly in name)
+		holder = linesorontiljewel2d1
+		liege = d_sorontil
+	}
+	3940.1.1 = {
 		holder = ruxoalendil11 # Made lord of all Forostar
 		liege = e_numenor
 	}

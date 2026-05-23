@@ -36,5 +36,6 @@
 			start_phase = numenor_situation_isolation
 		}
 		define_numenor_resources = yes
+		numenor_laamp_setup_effect = yes
     }
 }

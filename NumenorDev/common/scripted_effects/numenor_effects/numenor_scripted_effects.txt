@@ -440,3 +440,18 @@ numenor_invader_buff_numenor_effects = {
 		add_county_modifier = more_blessed_land_of_numenor_modifier
 	}
 }
+
+numenor_laamp_setup_effect = {
+	# Set up camp members and types for LAAMPs
+	## Rione Azariben - 1000TA
+	character:linesorontiljewel3a1 ?= {
+		if = {
+			limit = {
+				is_alive = yes
+				has_dlc_feature = roads_to_power
+			}
+			add_realm_law_skip_effects = camp_purpose_brigands
+			domicile ?= { change_provisions = minor_provisions_gain }
+		}
+	}
+}

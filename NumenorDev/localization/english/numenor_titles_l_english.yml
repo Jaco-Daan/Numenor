@@ -277,3 +277,7 @@
  b_ingamar: "Ingamar"
  b_artosto: "Artosto"
  b_falassosto: "Falassosto"
+
+## LAAMP TITLES
+ d_laamp_the_girls: "Girls"
+ d_laamp_the_girls_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
