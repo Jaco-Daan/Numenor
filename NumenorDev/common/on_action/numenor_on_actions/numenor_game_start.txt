@@ -1,4 +1,6 @@
-﻿numenor_on_game_start = {
+﻿on_game_start = { on_actions = { numenor_on_game_start } }
+
+numenor_on_game_start = {
     events = {
 		numenor_historical_artifacts.0001
 	}

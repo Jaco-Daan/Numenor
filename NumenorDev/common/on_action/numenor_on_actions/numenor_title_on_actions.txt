@@ -1,4 +1,6 @@
-﻿numenor_on_title_gain = {
+﻿on_title_gain = { on_actions = { numenor_on_title_gain } }
+
+numenor_on_title_gain = {
 	effect = {
 		if = {
 			limit = {

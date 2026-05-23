@@ -9,7 +9,7 @@
 	group = group_numenor_submod_music
 	is_prioritized_mood = yes
 	can_be_interrupted = no
-	is_valid = { always = yes }
+	#is_valid = { always = yes }
 }
 
 2_sneesh = {
@@ -18,7 +18,7 @@
 	group = group_numenor_submod_music
 	is_prioritized_mood = yes
 	can_be_interrupted = no
-	is_valid = { always = yes }
+	#is_valid = { always = yes }
 }
 
 # Group settings
