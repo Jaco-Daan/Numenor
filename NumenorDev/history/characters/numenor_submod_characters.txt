@@ -142,6 +142,7 @@ lineofelros87 = {
 }
 lineofelros88 = { # Tar-Cemendur, also known as Ar-Dairaben
 	name = "Cemendur"
+	dna = cemendur_elerossioni_dna
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -169,10 +170,8 @@ lineofelros88 = { # Tar-Cemendur, also known as Ar-Dairaben
 }
 lineofelros89 = {
 	name = "Hallatan"
-	dna = hallatan_nucuptar_elerossioni_dna
 	dynasty = dynasty_elros
 	religion = faith_numenorean
-	culture = adunaic # Alrain note: for NOW, change back when we give him a wife. This is for ethnicity
 
 	father = lineofelros88
 	mother = lineofelros26
@@ -647,7 +646,7 @@ lineofelros109 = { # Tar-Veantur, founder of the Adunaben faith
 	}
 }
 lineofelros110 = {
-	name = "E_E_ruzagar"
+	name = "Avalo_o_zagar"
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
@@ -1705,7 +1704,7 @@ dolamrothsubmod12 = {
 }
 #HOUSE OF ELATAN#
 lineofelatan22 = {
-	name = "Anarion"
+	name = An_arion
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = numenorean
@@ -10631,7 +10630,7 @@ lineelebastard8 = {
 	}
 }
 lineelebastard9 = {
-	name = E_E_ruzagar
+	name = Avalo_o_zagar
 	dynasty = dynasty_elenore
 	religion = faith_numenorean
 	culture = adunaic
@@ -11550,7 +11549,7 @@ lineofazrubensubmod15 = {
 	}
 }
 lineofazrubensubmod16 = {
-	name = E_E_ruzagar
+	name = Avalo_o_zagar
 	dynasty = dynasty_azulhin
 	religion = faith_dairaben
 	culture = adunaic
@@ -11786,8 +11785,8 @@ lineofazrubensubmod28 = {
 	}
 }
 lineofazrubensubmod29 = {
-	name = E_E_ruzagar
-	dna = eruzagar_azulhin_wotr_dna
+	name = Avalo_o_zagar
+	dna = avalozagar_azulhin_wotr_dna
 	dynasty = dynasty_azulhin
 	religion = faith_adunaic
 	culture = adunaic
@@ -13377,6 +13376,7 @@ linejewellord1 = {
 
 linejewellord2 = { # Named after his supposed Grandfather, contender for the Númenor throne during the civil war, King of Númenor
 	name = Gimilkha_a_d
+	dna = gimilkhad_zadan_gimilkhad_dna
 	dynasty_house = dynasty_gimilkhadson
 	religion = melkorite
 	culture = numenorean
@@ -13492,7 +13492,7 @@ linegimilson4 = {
 
 linejewellord3 = {
 	name = Adu_u_ninzil
-	dynasty_house = dynasty_jeweldaughter
+	dynasty = dynasty_jewellord
 	religion = faith_kings_men_numenorean
 	culture = numenorean
 	female = yes
@@ -13504,6 +13504,9 @@ linejewellord3 = {
 
 	3822.1.1 = {
 		birth = yes
+	}
+	3950.1.1 = {
+		dynasty_house = dynasty_jeweldaughter
 	}
 	4048.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -14772,7 +14775,7 @@ lineofkhorandor2 = {
 	}
 }
 lineofkhorandor3 = {
-	name = E_E_ruzagar
+	name = Mo_o_ruzagar
 	dynasty = dynasty_khorandor
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -15319,6 +15322,10 @@ lineofrotthor2a7 = {
 		name = Zabatha_a_n
 		religion = faith_dairaben
 		culture = adunaic
+	}
+
+	3912.1.1 = {
+		employer = lineofmornionath16
 	}
 
     4111.6.11 = {
@@ -16684,6 +16691,10 @@ lineofbarimanurid4a3 = {
 		culture = adunaic
 	}
 
+	3912.1.1 = {
+		employer = linejewellord2
+	}
+
     3922.12.10 = {
         death = {
             death_reason = death_natural_causes
@@ -16704,6 +16715,10 @@ lineofbarimanurid4a4 = {
     3821.3.11 = {
         birth = yes
     }
+
+	3912.1.1 = {
+		employer = linejewellord2
+	}
 
     4041.9.18 = {
         death = {
@@ -16726,6 +16741,10 @@ lineofbarimanurid4a5 = {
         birth = yes
     }
 
+	3912.1.1 = {
+		employer = linejewellord2
+	}
+
     3954.1.1 = {
 		death = { death_reason = death_battle }
 	}
@@ -16744,6 +16763,10 @@ lineofbarimanurid4a4a1 = {
     3900.4.18 = {
         birth = yes
     }
+
+	3912.1.1 = {
+		employer = linejewellord2
+	}
 
     3954.1.1 = {
 		name = Gimlibe_e_l
