@@ -5,8 +5,8 @@
  adunaic_prefix: "Adûnâ"
  adunaic_desc: "#size:15    The $adunaic$ are the Edain that inhabit the isle of Anadûnê. They have become a hardy folk - surviving the [akallabeth|E], as well as the Civil Wars, has made them so. The $adunaic$ are descendants of the [numenoreans|E] that did not get caught up in the petty struggles of the [kingsmen|E] and the [faithful|E] - they are a people of survivors and compromisers. Culturally they are most similar to the [numenoreans|E] of old, being of great passion and mood - noble and honorable at one moment, and fickle and capricious at the next. Though their ambition has never rested, it has been tempered somewhat with the Akallabêth.\n\nLike their longfathers of old, the $adunaic$ are proud mariners, with the waters around the Isle and the [belegaer_sea|E] being a second home to many of their most respected nobles and sailors. Unlike their longfathers, however, the [elvish|E] tongues have been near-forgotten due to the malicious neglect of the King's Men and the exodus of the Faithful. Still, the wisest and highest-born of the $adunaic_collective_noun$ take their names with what little of the Elven tongues are left to them.#"
 
- heritage_adunaic_name: "Adûnaic"
- heritage_adunaic_collective_noun: "Adûnai"
+ heritage_unified_adunaic_name: "Adûnaic"
+ heritage_unified_adunaic_collective_noun: "Adûnai"
 
  adunaic_ethnicity: "Adûnâi"
  adunaic_ethnicity_1: "Adûnâi: Round Faced" # Round Faced

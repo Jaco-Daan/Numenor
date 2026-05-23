@@ -746,7 +746,7 @@ innovation_numenorean_warriors = {
 		AND = {
 			OR = {
 				has_cultural_pillar = heritage_dunedain
-				has_cultural_pillar = heritage_adunaic #Numenor Sub-mod
+				has_cultural_pillar = heritage_unified_adunaic #Numenor Sub-mod
 			}
 			OR = {
 				this = culture:numenorean

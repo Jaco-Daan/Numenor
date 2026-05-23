@@ -7,7 +7,7 @@
 	history_loc_override = numenor_submod_loc #Numenor Submod
 	
 	ethos = ethos_communal
-	heritage = heritage_adunaic
+	heritage = heritage_unified_adunaic
 	language = language_adunaic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain

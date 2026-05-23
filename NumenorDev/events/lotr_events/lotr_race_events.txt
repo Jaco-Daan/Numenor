@@ -20,7 +20,7 @@ race.0001 = {
 
 	immediate = {
 		if = { #Numenor Sub-mod
-			limit = { culture = culture:adunaic }
+			limit = { culture = { has_cultural_pillar = heritage_unified_adunaic } }
 			add_trait = blood_of_numenor_7
 		}
 		if = {
