@@ -21,7 +21,6 @@
 			remove_trait = blood_of_numenor_5
 
 			add_trait = blood_of_numenor_7
-			numenor_yassify_effect = yes
 		}
 		numenor_fire_intro_events = yes
 		
