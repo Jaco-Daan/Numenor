@@ -212,12 +212,10 @@ pentos_court = { # Thani-Hazad courtroom, courtesy of White Wolf of the Whills f
 		has_ep3_dlc_trigger = yes
 		OR = {
 			culture = culture:anarikean
-			culture = { any_parent_culture_or_above = { this = culture:anarikean } }
 			AND = {
 				has_adunai_court_illustration_trigger = yes
 				OR = {
 					culture = culture:kharadunaim
-					culture = { any_parent_culture_or_above = { this = culture:kharadunaim } }
 					culture = culture:south_adunai_colonial
 					culture = culture:east_adunai_colonial
 				}
@@ -252,10 +250,7 @@ myr_court = { # Tanturaki courtroom, courtesy of White Wolf of the Whills from A
 		NOT = { government_has_flag = government_is_nomadic }
 		exists = capital_county
 		has_ep3_dlc_trigger = yes
-		OR = {
-			culture = culture:tanturaki
-			culture = { any_parent_culture_or_above = { this = culture:tanturaki } }
-		}
+		culture = culture:tanturaki
 		has_adunai_court_illustration_trigger = yes
 	}
 }
@@ -267,9 +262,7 @@ tyrosh_court = { # Umbar courtroom, courtesy of White Wolf of the Whills from AG
 		has_ep3_dlc_trigger = yes
 		OR = {
 			culture = culture:umbarean
-  			culture = { any_parent_culture_or_above = { this = culture:umbarean } }
 			culture = culture:old_umbarean
-  			culture = { any_parent_culture_or_above = { this = culture:old_umbarean } }
 			culture = culture:black_numenorean
 		}
 		has_adunai_court_illustration_trigger = yes
