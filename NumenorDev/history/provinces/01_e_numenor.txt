@@ -8,10 +8,17 @@
 	culture = numenorean
 	religion = melkorite
 	holding = castle_holding
-	4002.1.1 = {
+	3911.1.1 = {
+		special_building_slot = wonder_armenelos_01
+		special_building = wonder_armenelos_01
+	}
+	3948.2.5 = {
         culture = adunaic
 		religion = faith_numenorean
     }
+	4450.1.1 = {
+		special_building = wonder_armenelos_02
+	}
     6405.1.1 = {
         religion = faith_adunaic
     }
@@ -24,8 +31,6 @@
 		effect = {
 			add_great_building = lotr_great_citadel_03
 		}
-		special_building_slot = wonder_armenelos_01
-		special_building = wonder_armenelos_02
 		duchy_capital_building = military_academy_02
 	}
 }
@@ -66,7 +71,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = church_holding
         culture = adunaic
 		religion = faith_numenorean
@@ -96,7 +101,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
         culture = adunaic
 		religion = faith_dairaben
@@ -145,7 +150,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = church_holding
         culture = adunaic
 		religion = faith_numenorean
@@ -174,7 +179,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
         culture = adunaic
 		religion = faith_numenorean
@@ -211,7 +216,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_numenorean
@@ -242,7 +247,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
         culture = adunaic
 		religion = faith_numenorean
@@ -275,7 +280,7 @@
 	culture = numenorean
 	religion = faith_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
         culture = adunaic
 		religion = faith_numenorean
     }
@@ -309,7 +314,7 @@
 	culture = numenorean
 	religion = faith_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
         culture = adunaic
 		religion = faith_numenorean
     }
@@ -344,7 +349,7 @@
 	culture = numenorean
 	religion = faith_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
         culture = adunaic
 		religion = faith_numenorean
     }
@@ -376,7 +381,7 @@
 	culture = numenorean
 	religion = faith_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
         culture = adunaic
 		religion = faith_numenorean
     }
@@ -416,7 +421,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
         culture = adunaic
 		religion = faith_numenorean
@@ -449,7 +454,7 @@
 	culture = numenorean
 	religion = faith_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
         culture = adunaic
 		religion = faith_dairaben
     }
@@ -477,7 +482,7 @@
 	culture = numenorean
 	religion = faith_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
         culture = adunaic
 		religion = faith_dairaben
     }
@@ -510,7 +515,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
         culture = adunaic
 		religion = faith_dairaben
@@ -552,7 +557,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
         culture = adunaic
 		religion = faith_numenorean
@@ -573,7 +578,7 @@
 }
 6211 = {	#Almaida (b_inzil)
 	holding = city_holding
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 	}
 	6776.1.1 = {
@@ -607,7 +612,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_numenorean
@@ -649,7 +654,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_numenorean
@@ -687,7 +692,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
         culture = adunaic
 		religion = faith_numenorean
@@ -724,7 +729,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
         culture = adunaic
 		religion = faith_numenorean
@@ -755,7 +760,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_numenorean
@@ -796,7 +801,7 @@
 	culture = numenorean
 	religion = faith_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 		religion = faith_numenorean
 	}
@@ -829,7 +834,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_numenorean
@@ -860,7 +865,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_numenorean
@@ -895,7 +900,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_numenorean
@@ -928,7 +933,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_numenorean
@@ -959,7 +964,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 		religion = faith_dairaben
 	}
@@ -1005,7 +1010,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_dairaben
@@ -1045,7 +1050,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
         culture = adunaic
 		religion = faith_dairaben
@@ -1082,7 +1087,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
         culture = adunaic
 		religion = faith_numenorean
@@ -1117,7 +1122,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_numenorean
@@ -1167,7 +1172,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_dairaben
@@ -1209,7 +1214,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_numenorean
@@ -1234,7 +1239,7 @@
 	culture = numenorean
 	religion = faith_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 		religion = faith_numenorean
 	}
@@ -1256,7 +1261,7 @@
 	culture = numenorean
 	religion = faith_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 		religion = faith_numenorean
 	}
@@ -1424,7 +1429,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_dairaben
@@ -1462,7 +1467,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
         culture = adunaic
 		religion = faith_numenorean
     }
@@ -1487,7 +1492,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = church_holding
-	4002.1.1 = {
+	3948.2.5 = {
         culture = adunaic
 		religion = faith_numenorean
     }
@@ -1505,7 +1510,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = city_holding
-	4002.1.1 = {
+	3948.2.5 = {
         culture = adunaic
 		religion = faith_numenorean
     }
@@ -1531,7 +1536,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
         culture = adunaic
 		religion = faith_dairaben
@@ -1551,7 +1556,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = city_holding
-	4002.1.1 = {
+	3948.2.5 = {
         culture = adunaic
 		religion = faith_numenorean
     }
@@ -1569,7 +1574,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = none
-	4002.1.1 = {
+	3948.2.5 = {
         culture = adunaic
 		religion = faith_numenorean
 		holding = none
@@ -1591,7 +1596,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_dairaben
@@ -1629,7 +1634,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_dairaben
@@ -1661,7 +1666,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_dairaben
@@ -1691,7 +1696,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 		religion = faith_dairaben
 	}
@@ -1741,7 +1746,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_dairaben
@@ -1781,7 +1786,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_dairaben
@@ -1899,7 +1904,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_numenorean
@@ -1941,7 +1946,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 		religion = faith_dairaben
 	}
@@ -1980,7 +1985,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_numenorean
@@ -2007,7 +2012,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 		religion = faith_dairaben
 	}
@@ -2048,7 +2053,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 		religion = faith_dairaben
 	}
@@ -2088,7 +2093,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_dairaben
@@ -2135,7 +2140,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_dairaben
@@ -2172,7 +2177,7 @@
 	culture = numenorean
 	religion = faith_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 		religion = faith_dairaben
 	}
@@ -2212,7 +2217,7 @@
 	culture = numenorean
 	religion = faith_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 		religion = faith_numenorean
 	}
@@ -2242,7 +2247,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_numenorean
@@ -2275,7 +2280,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 		religion = faith_numenorean
 	}
@@ -2321,7 +2326,7 @@
 	culture = numenorean
 	religion = faith_kings_men_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 		religion = faith_numenorean
 	}
@@ -2366,7 +2371,7 @@
 		religion = faith_wastelands_pagan
 		holding = none
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		holding = castle_holding
 		culture = adunaic
 		religion = faith_numenorean
@@ -2392,7 +2397,7 @@
 	culture = numenorean
 	religion = faith_numenorean
 	holding = castle_holding
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 	}
 	6776.1.1 = {

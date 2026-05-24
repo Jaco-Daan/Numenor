@@ -9,57 +9,66 @@
 ################################
 
 lineofelros88 = { # Tar-Cemendur, also known as Ar-Dairaben
-	name = Da_a_irabe_e_n
-	dna = cemendur_elerossioni_dna
+	name = Da_a_irabe_e_n # Twenty-seventh Ruler of Numenor
+
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
 	culture = numenorean
+	dna = cemendur_elerossioni_dna
 
 	father = lineofelros87
 
-	trait = blood_of_numenor_7
-	trait = lifestyle_blademaster
-	trait = education_diplomacy_3
 	trait = brave
-	trait = strong
 	trait = wrathful
 	trait = cynical
 	trait = just
 
-	3889.1.1 = {
+	trait = education_diplomacy_3
+	trait = strong
+	trait = lifestyle_blademaster
+	trait = blood_of_numenor_7
+
+	3789.1.1 = {
 		birth = yes
 	}
-	3902.1.1 = {
+
+	3911.1.1 = { # Converted after witnessing the might of Eru in the Akallabeth
 		name = Cemendur
 		religion = faith_numenorean
 	}
-	4123.1.1 = {
-		death = {death_reason = death_natural_causes }
+
+	4018.2.24 = {
+		death = { death_reason = death_natural_causes }
 	}
 }
+
 lineofelros89 = {
-	name = "Hallatan"
+	name = "Hallatan" # Twenty-eighth Ruler of Numenor
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
+	culture = numenorean
 
 	father = lineofelros88
 	mother = lineofelros26
 
-	trait = blood_of_numenor_9
-	trait = strong
 	trait = brave
-	trait = physique_good_2
-	trait = education_martial_3
 	trait = patient
 	trait = ambitious
 
-	3900.1.1 = {
+	trait = education_martial_3
+	trait = physique_good_2
+	trait = strong
+	trait = blood_of_numenor_9 # maybe blood_of_numenor_8 instead?
+
+	3912.10.5 = {
 		birth = yes
-		culture = numenorean
 	}
-	4002.1.1 = {
+
+	3948.2.5 = {
 		culture = adunaic
 	}
+
 	4130.1.1 = {
 		give_nickname = nick_nucuptar_tar_hallatan
 		effect = {
@@ -68,251 +77,327 @@ lineofelros89 = {
             }
         }
 	}
-	4149.1.1 = {
+
+	4149.7.2 = {
 		death = { death_reason = death_duel }
 	}
 }
+
 lineofelros90 = { # Tar-Aldarion II, 'The Hand of Eru' The Faithful King who began the reconstruction of Númenor post-Civil War
-	name = "Aldarion"
+	name = "Aldarion" # Twenty-ninth Ruler of Numenor
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelros89
 
-	trait = blood_of_numenor_8
-	trait = education_stewardship_2
 	trait = diligent
 	trait = wrathful
 	trait = zealous
 
-	3963.1.1 = {
+	trait = education_stewardship_2
+	trait = blood_of_numenor_8
+
+	3975.9.14 = {
 		birth = yes
 	}
-	4202.1.1 = {
+
+	4224.11.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
 lineofelros91 = {
-	name = Meneldur
+	name = Meneldur # Thirtieth Ruler of Numenor
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelros90
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_8
 
-	4102.1.1 = {
+	4052.1.6 = {
 		birth = yes
 	}
-	4338.1.1 = {
+
+	4299.4.26 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
 lineofelros92 = {
-	name = M_iriel
+	name = M_iriel # Thirty-first Ruler of Numenor
+	female = yes
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 
-	female = yes
-
 	father = lineofelros91
 
-	trait = blood_of_numenor_7
 	trait = just
 	trait = diligent
 	trait = arrogant
 
-	4223.1.1 = {
+	trait = blood_of_numenor_8
+
+	4143.2.5 = {
 		birth = yes
 	}
-	4360.1.19 = {
+
+	4360.1.19 = { # Will need examining later
 		add_matrilineal_spouse = lineofondosto4a1
 	}
-	4449.1.1 = {
+
+	4389.9.20 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
 lineofelros93 = { # Tar-Ciryatan II, began the restoration of Armenelos, and moved the capital there
-	name = Ciryatan
+	name = Ciryatan # Thirty-second Ruler of Numenor
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 
-	mother = lineofelros92
 	father = lineofondosto4a1
+	mother = lineofelros92
 
-	trait = blood_of_numenor_7
 	trait = diligent
 	trait = brave
 	trait = impatient
+
 	trait = education_stewardship_4
 	trait = strong
+	trait = blood_of_numenor_8
 
-	4372.1.1 = {
+	4262.10.5 = {
 		birth = yes
 	}
-	4601.1.1 = {
+
+	4510.7.3 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
 lineofelros94 = {
-	name = Anducal
+	name = Anducal # Thirty-third Ruler of Numenor
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelros93
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_8
 
-	4423.1.1 = {
+	4363.5.17 = {
 		birth = yes
 	}
-	4652.1.1 = {
+
+	4608.6.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
 lineofelros95 = {
-	name = E_a_arendur
+	name = E_a_arendur # Thirty-fourth Ruler of Numenor
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
-
-
 
 	father = lineofelros94
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_8
 
-	4587.1.1 = {
+	4487.3.27 = {
 		birth = yes
 	}
-	4815.1.1 = {
+
+	4731.1.5 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
 lineofelros96 = {
-	name = "Calantir"
+	name = "Calantir" # Thirty-fifth Ruler of Numenor
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
-
-
 
 	father = lineofelros95
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_8
 
-	4780.1.1 = {
+	4580.2.17 = {
 		birth = yes
 	}
-	5004.1.1 = {
+
+	4820.12.17 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-lineofelros97 = {
-	name = Cemendur
+
+lineofelros96son = {
+	name = "Aldarion" # Thirty-sixth Ruler of Numenor
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
-
-
 
 	father = lineofelros96
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_8
 
-	4856.1.1 = {
+	4692.10.12 = {
 		birth = yes
 	}
-	5083.1.1 = {
+
+	4934.8.5 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-lineofelros98 = {
-	name = "Ardamin"
+
+lineofelros97 = {
+	name = Cemendur # Thirty-seventh Ruler of Numenor
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 
+	father = lineofelros96son
 
+	trait = blood_of_numenor_8
 
-	father = lineofelros97
-
-	trait = blood_of_numenor_7
-
-	4943.1.1 = {
+	4796.4.26 = {
 		birth = yes
 	}
-	5177.1.1 = {
+
+	5034.11.28 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
+lineofelros98 = {
+	name = "Ardamin" # Thirty-eighth Ruler of Numenor
+
+	dynasty = dynasty_elros
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofelros97
+
+	trait = blood_of_numenor_8
+
+	4913.10.29 = {
+		birth = yes
+	}
+
+	5148.5.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
 lineofelros99 = {
-	name = "Minastir"
+	name = "Minastir" # Thirty-ninth Ruler of Numenor
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelros98
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_8
 
-	5100.1.1 = {
+	5020.11.3 = {
 		birth = yes
 	}
-	5327.1.1 = {
+
+	5257.7.15 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-lineofelros100 = { # Tar-Falassion, The Shore King, spent most of his reign in debauchary
-	name = Falassion
+
+lineofelros99daughter = {
+	name = "Eleniel" # Fortieth Ruler of Numenor
+	female = yes
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelros99
 
-	trait = blood_of_numenor_7
-	trait = lustful
-	trait = strong
-	trait = adulterer
-	trait = lifestyle_mariner
-	trait = rakish
-	trait = athletic
+	trait = blood_of_numenor_8
 
-	5234.1.1 = {
+	5118.4.18 = {
 		birth = yes
 	}
-	5457.1.1 = {
+
+	5349.8.29 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
+lineofelros100 = { # Tar-Falassion, The Shore King, spent most of his reign in debauchary
+	name = Falassion # Forty-first Ruler of Numenor
+
+	dynasty = dynasty_elros
+	religion = faith_numenorean
+	culture = adunaic
+
+	mother = lineofelros99daughter
+
+	trait = lustful
+
+	trait = strong
+	trait = adulterer
+	trait = rakish
+	trait = athletic
+	trait = lifestyle_mariner
+	trait = blood_of_numenor_8
+
+	5234.11.15 = {
+		birth = yes
+	}
+
+	5465.4.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
 lineofelros101 = { # Tar-Telemnar, legitimised some of his Father's bastards, even landed the eldest
-	name = "Telemnar"
+	name = "Telemnar" # Forty-second Ruler of Numenor
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelros100
 
-	trait = blood_of_numenor_7
-	trait = scholar
 	trait = trusting
 	trait = compassionate
-	trait = shrewd
-	trait = beauty_good_2
 
-	5321.1.1 = {
+	trait = beauty_good_2
+	trait = shrewd
+	trait = scholar
+	trait = blood_of_numenor_7
+
+	5321.2.9 = {
 		birth = yes
 	}
-	5547.1.1 = {
+
+	5546.6.12 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
 lineofelros102 = { # Tar-Calion, the Sun King, known for his ability to fight and eagerness to do so
 	name = "Calion"
 	dna = calion_uriyaru_elerossioni_dna
@@ -1336,245 +1421,6 @@ lineofelros111a1a2b1 = {
 	}
 }
 
-## House Veantur, Submod ##
-
-dolamrothsubmod1 = {
-	name = "Alphros"
-	dynasty = dynasty_dol_amroth
-	religion = faith_edain
-	culture = belfalathrim
-
-	father = dolamroth1
-
-	trait = blood_of_numenor_3
-
-	6042.1.1 = {
-		birth = yes
-	}
-	6196.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-dolamrothsubmod2 = {
-	name = "Borondir"
-	dynasty = dynasty_dol_amroth
-	religion = faith_edain
-	culture = belfalathrim
-
-	father = dolamrothsubmod1
-
-	trait = blood_of_numenor_3
-
-	6121.1.1 = {
-		birth = yes
-	}
-	6270.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-dolamrothsubmod3 = {
-	name = "Halbarad"
-	dynasty = dynasty_dol_amroth
-	religion = faith_edain
-	culture = belfalathrim
-
-	father = dolamrothsubmod2
-
-	trait = blood_of_numenor_3
-
-	6219.1.1 = {
-		birth = yes
-	}
-	6370.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-dolamrothsubmod4 = {
-	name = "Cunendur"
-	dynasty = dynasty_dol_amroth
-	religion = faith_edain
-	culture = belfalathrim
-
-	father = dolamrothsubmod3
-
-	trait = blood_of_numenor_3
-
-	6314.1.1 = {
-		birth = yes
-	}
-	6471.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-dolamrothsubmod5 = {
-	name = "Arveldir"
-	dynasty = dynasty_dol_amroth
-	religion = faith_edain
-	culture = belfalathrim
-
-	father = dolamrothsubmod4
-
-	trait = blood_of_numenor_3
-
-	6423.1.1 = {
-		birth = yes
-	}
-	6582.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-dolamrothsubmod6 = {
-	name = "Eldacar"
-	dynasty = dynasty_dol_amroth
-	religion = faith_edain
-	culture = belfalathrim
-
-	father = dolamrothsubmod5
-
-	trait = blood_of_numenor_3
-
-	6514.1.1 = {
-		birth = yes
-	}
-	6670.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-dolamrothsubmod7 = {
-	name = "Ausir"
-	dynasty = dynasty_dol_amroth
-	religion = faith_edain
-	culture = belfalathrim
-
-	father = dolamrothsubmod6
-
-	trait = blood_of_numenor_3
-
-	6616.1.1 = {
-		birth = yes
-	}
-	6774.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-dolamrothsubmod8 = {
-	name = "Gaerdon"
-	dynasty = dynasty_dol_amroth
-	religion = faith_adunaic
-	culture = adunaic
-
-	father = dolamrothsubmod7
-
-	trait = blood_of_numenor_3
-
-	6754.1.1 = {
-		birth = yes
-	}
-	6799.1.1 = {
-		add_spouse = lineofelros119
-	}
-	6913.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-dolamrothsubmod9 = {
-	name = "Ciryandur"
-	dynasty = dynasty_dol_amroth
-	religion = faith_adunaic
-	culture = adunaic
-	#dna = ciryandur_dna
-	dna = ciryandur_veanturioni_dna_wotr_1
-
-	father = dolamrothsubmod8
-	mother = lineofelros119
-
-	trait = blood_of_numenor_7
-	trait = ambitious
-	trait = fickle
-	trait = lazy
-	trait = education_diplomacy_3
-
-	diplomacy = 7
-	martial = 3
-	stewardship = 5
-	intrigue = 3
-	learning = 2
-	prowess = 4
-
-	6882.1.1 = {
-		birth = yes
-		effect = {
-            learn_language = language_sindarin
-            learn_language = language_quenya
-        }
-	}
-	6943.2.11 = {
-		add_spouse = ruxoalendil26a1
-	}
-	7030.1.1 = { # Numenor Autonomy setup.
-        effect = {
-			vassal_contract_set_obligation_level = {
-				type = feudal_government_taxes
-				level = 1
-			}
-			vassal_contract_set_obligation_level = {
-				type = feudal_government_levies
-				level = 1
-			}
-        }
-    }
-}
-dolamrothsubmod10 = {
-	name = Alquatan
-	dynasty = dynasty_dol_amroth
-	religion = faith_adunaic
-	culture = adunaic
-
-	father = dolamrothsubmod9
-	mother = ruxoalendil26a1
-
-	trait = blood_of_numenor_7
-
-	6946.1.1 = {
-		birth = yes
-		effect = {
-            learn_language = language_sindarin
-        }
-	}
-}
-dolamrothsubmod11 = {
-	name = Nortar
-	dynasty = dynasty_dol_amroth
-	religion = faith_adunaic
-	culture = adunaic
-
-	father = dolamrothsubmod9
-	mother = ruxoalendil26a1
-
-	trait = blood_of_numenor_7
-
-	6952.1.1 = {
-		birth = yes
-		effect = {
-            learn_language = language_sindarin
-            learn_language = language_quenya
-        }
-	}
-}
-dolamrothsubmod12 = {
-	name = Alphor
-	dynasty = dynasty_dol_amroth
-	religion = faith_adunaic
-	culture = adunaic
-
-	father = dolamrothsubmod10
-
-	trait = blood_of_numenor_7
-
-	7000.1.1 = {
-		birth = yes
-	}
-}
 #HOUSE OF ELATAN#
 lineofelatan22 = {
 	name = An_arion
@@ -2192,6 +2038,246 @@ lineofelatan45 = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
+	}
+}
+
+## House Veantur, Submod ##
+
+dolamrothsubmod1 = {
+	name = "Alphros"
+	dynasty = dynasty_dol_amroth
+	religion = faith_edain
+	culture = belfalathrim
+
+	father = dolamroth1
+
+	trait = blood_of_numenor_3
+
+	6042.1.1 = {
+		birth = yes
+	}
+	6196.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+dolamrothsubmod2 = {
+	name = "Borondir"
+	dynasty = dynasty_dol_amroth
+	religion = faith_edain
+	culture = belfalathrim
+
+	father = dolamrothsubmod1
+
+	trait = blood_of_numenor_3
+
+	6121.1.1 = {
+		birth = yes
+	}
+	6270.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+dolamrothsubmod3 = {
+	name = "Halbarad"
+	dynasty = dynasty_dol_amroth
+	religion = faith_edain
+	culture = belfalathrim
+
+	father = dolamrothsubmod2
+
+	trait = blood_of_numenor_3
+
+	6219.1.1 = {
+		birth = yes
+	}
+	6370.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+dolamrothsubmod4 = {
+	name = "Cunendur"
+	dynasty = dynasty_dol_amroth
+	religion = faith_edain
+	culture = belfalathrim
+
+	father = dolamrothsubmod3
+
+	trait = blood_of_numenor_3
+
+	6314.1.1 = {
+		birth = yes
+	}
+	6471.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+dolamrothsubmod5 = {
+	name = "Arveldir"
+	dynasty = dynasty_dol_amroth
+	religion = faith_edain
+	culture = belfalathrim
+
+	father = dolamrothsubmod4
+
+	trait = blood_of_numenor_3
+
+	6423.1.1 = {
+		birth = yes
+	}
+	6582.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+dolamrothsubmod6 = {
+	name = "Eldacar"
+	dynasty = dynasty_dol_amroth
+	religion = faith_edain
+	culture = belfalathrim
+
+	father = dolamrothsubmod5
+
+	trait = blood_of_numenor_3
+
+	6514.1.1 = {
+		birth = yes
+	}
+	6670.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+dolamrothsubmod7 = {
+	name = "Ausir"
+	dynasty = dynasty_dol_amroth
+	religion = faith_edain
+	culture = belfalathrim
+
+	father = dolamrothsubmod6
+
+	trait = blood_of_numenor_3
+
+	6616.1.1 = {
+		birth = yes
+	}
+	6774.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+dolamrothsubmod8 = {
+	name = "Gaerdon"
+	dynasty = dynasty_dol_amroth
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = dolamrothsubmod7
+
+	trait = blood_of_numenor_3
+
+	6754.1.1 = {
+		birth = yes
+	}
+	6799.1.1 = {
+		add_spouse = lineofelros119
+	}
+	6913.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+dolamrothsubmod9 = {
+	name = "Ciryandur"
+	dynasty = dynasty_dol_amroth
+	religion = faith_adunaic
+	culture = adunaic
+	#dna = ciryandur_dna
+	dna = ciryandur_veanturioni_dna_wotr_1
+
+	father = dolamrothsubmod8
+	mother = lineofelros119
+
+	trait = blood_of_numenor_7
+	trait = ambitious
+	trait = fickle
+	trait = lazy
+	trait = education_diplomacy_3
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 5
+	intrigue = 3
+	learning = 2
+	prowess = 4
+
+	6882.1.1 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+	6943.2.11 = {
+		add_spouse = ruxoalendil26a1
+	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = {
+				type = feudal_government_taxes
+				level = 1
+			}
+			vassal_contract_set_obligation_level = {
+				type = feudal_government_levies
+				level = 1
+			}
+        }
+    }
+}
+dolamrothsubmod10 = {
+	name = Alquatan
+	dynasty = dynasty_dol_amroth
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = dolamrothsubmod9
+	mother = ruxoalendil26a1
+
+	trait = blood_of_numenor_7
+
+	6946.1.1 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+        }
+	}
+}
+dolamrothsubmod11 = {
+	name = Nortar
+	dynasty = dynasty_dol_amroth
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = dolamrothsubmod9
+	mother = ruxoalendil26a1
+
+	trait = blood_of_numenor_7
+
+	6952.1.1 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+}
+dolamrothsubmod12 = {
+	name = Alphor
+	dynasty = dynasty_dol_amroth
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = dolamrothsubmod10
+
+	trait = blood_of_numenor_7
+
+	7000.1.1 = {
+		birth = yes
 	}
 }
 
@@ -4269,7 +4355,7 @@ mablung25 = {
 	3745.1.1 = {
 		birth = yes
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 	}
 	4031.1.1 = {
@@ -4290,7 +4376,7 @@ mablung26 = {
 	3875.1.1 = {
 		birth = yes
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 	}
 	4159.1.1 = {
@@ -5603,7 +5689,7 @@ lineofciryamirbranch1 = {
 	3806.1.1 = {
 		birth = yes
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 	}
 	4032.1.1 = {
@@ -9603,8 +9689,8 @@ lineofagathor_ns17 = {
 	3912.5.2 = {
 		religion = faith_dairaben
 	}
-	4002.1.1 = {
-		culture = numenorean
+	3948.2.5 = {
+		culture = adunaic
 	}
 	4005.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -10411,24 +10497,28 @@ lineofaru19 = {
 ###Elenore Bastards###
 lineelebastard1 = {
 	name = Zo_o_rzagar
+
 	dynasty = dynasty_elenore
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelros100
 
-	trait = blood_of_numenor_7
-	trait = bastard_founder
-	trait = strong
 	trait = brave
 
-	5327.1.1 = {
+	trait = strong
+	trait = bastard_founder
+	trait = blood_of_numenor_7
+
+	5327.10.28 = {
 		birth = yes
 	}
-	5553.1.1 = {
+
+	5548.5.18 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
 lineelebastard2 = {
 	name = Zimrazu_u_l
 	dynasty = dynasty_elenore
@@ -11980,7 +12070,7 @@ lineborodirsubmod7 = {
 	3893.1.1 = {
 		birth = yes
 	}
-	4002.1.1 = {
+	3948.2.5 = {
 		culture = adunaic
 	}
 	4240.1.1 = {
@@ -13878,71 +13968,52 @@ linejewellord19a1 = {
 
 ### Lords of Ondosto ###
 lineofondosto1 = {
-	name = Lind_ori_e_e # Named after Miriel's great grandmother
+	name = Lind_ori_e_e # Named after Miriel's great-grandmother
 	female = yes
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
-	culture = numenorean
+	culture = adunaic
 
-	father = lineofelros88
-	mother = lineofelros26
+	father = lineofelros89
 
-	trait = blood_of_numenor_9
-	trait = beauty_good_3
 	trait = honest
 	trait = just
 
-	3909.1.1 = {
+	trait = beauty_good_3
+	trait = blood_of_numenor_8
+
+	3980.12.25 = {
 		birth = yes
 	}
-	4002.1.1 = {
-		culture = adunaic
-	}
+
 	4155.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-lineofondostofounder = {
-	name = Saptha_a_nzi_i_r
-	dynasty = dynasty_ondosto
-	religion = faith_numenorean
-	culture = adunaic
 
-	trait = blood_of_numenor_7
-	trait = loyal
-	trait = brave
-
-	3903.1.1 = {
-		birth = yes
-	}
-	3973.1.1 = {
-		add_spouse = lineofondosto1
-	}
-	4139.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
 lineofondosto2 = {
 	name = Nimrukha_a_z
+
 	dynasty = dynasty_ondosto
 	religion = faith_numenorean
 	culture = adunaic
-
-	father = lineofondostofounder
-	mother = lineofondosto1
 
 	trait = blood_of_numenor_8
 
 	3974.1.1 = {
 		birth = yes
 	}
+
 	4110.1.14 = {
-		add_spouse = lineofciryandur17a2
+		add_spouse = lineofondosto1
 	}
+
 	4213.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+
 lineofondosto3 = {
 	name = Azu_u_lphazga_a_n
 	dynasty = dynasty_ondosto
@@ -17892,7 +17963,7 @@ linesorontiljewel3a1 = {
 	trait = education_intrigue_3 # Self-taught
 
 	diplomacy = 10
-	
+
 	trait = bastard
 
 	3890.1.1 = {
@@ -18505,13 +18576,13 @@ linesorontiljewel3a1com3 = { # Slave from An-Balkumagan
 	trait = just
 	trait = humble
 	trait = loyal
-	
+
 	trait = education_martial_3
 
 	prowess = 10
 
 	trait = blood_of_numenor_1 # From some "crossbreeding" no doubt
-	
+
 	3860.12.14 = {
 		birth = yes
 	}
