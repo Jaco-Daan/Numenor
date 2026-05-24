@@ -987,6 +987,11 @@ decision_numenor_invade_valinor = {
 			has_primary_title = title:e_numenor
 			has_primary_title = title:h_numenor
 		}
+		OR = { 
+			faith.religion = religion:adunai_religion
+			faith.religion = religion:sauronic_religion
+			faith.religion = religion:melkoric_religion
+		}
 		#NOT = {
 		#	is_target_in_global_variable_list = {
 		#		name = unavailable_unique_decisions
