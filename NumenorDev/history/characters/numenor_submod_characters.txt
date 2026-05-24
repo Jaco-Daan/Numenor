@@ -588,6 +588,10 @@ lineofelros109 = { # Tar-Veantur, founder of the Adunaben faith
 
 	6361.1.1 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+			learn_language = language_quenya
+        }
 	}
 	6480.1.1 = {
 		religion = faith_adunaic
@@ -634,6 +638,10 @@ lineofelros111 = {
 
 	6562.1.1 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+			learn_language = language_quenya
+        }
 	}
 
 	6620.1.1 = {
@@ -675,6 +683,10 @@ lineofelros112 = {
 
 	6621.1.1 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+			learn_language = language_quenya
+        }
 	}
 	6652.1.1 = {
 		effect = { make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:faith_numenorean } }
@@ -729,6 +741,10 @@ lineofelros112daughter = {
 
 	6713.6.21 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+			learn_language = language_quenya
+        }
 	}
 
 	6763.7.1 = {
@@ -767,6 +783,10 @@ lineofelros113 = {
 
 	6765.12.1 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+			learn_language = language_quenya
+        }
 	}
 	6780.1.1 = {
 		set_relation_crush = character:lineofbarimanurid4a4a22a1
@@ -807,6 +827,10 @@ lineofelros113son = {
 
 	6823.2.1 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+			learn_language = language_quenya
+        }
 	}
 
 	6883.6.1 = {
@@ -1162,6 +1186,10 @@ lineofelros119 = {
 
 	6769.1.1 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+			learn_language = language_quenya
+        }
 	}
 	6998.1.1 = {
 		death = { death_reason = death_natural_causes }
