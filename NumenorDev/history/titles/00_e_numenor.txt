@@ -3813,6 +3813,12 @@ c_hyarmentie = {
 	6987.9.18 = {
         holder = lineofbarimanurid4a4a24 # _Uruvahen
     }
+	7063.4.11 = {
+        holder = lineofbarimanurid4a4a25 # Ulmondil
+    }
+	7130.2.11 = {
+        holder = lineofbarimanurid4a4a25a1 # Elendur
+    }
 }
 
 c_tauredor = {
@@ -6596,6 +6602,9 @@ c_zorakhator = {
     }
 	7019.1.1 = {
         holder = lineofrotthor2a32 # Rassaro_o_th
+    }
+	7126.12.20 = {
+        holder = lineofrotthor2a32a1 # Ro_o_tthil
     }
 }
 

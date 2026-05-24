@@ -260,6 +260,9 @@ lineofelros92 = {
 	4223.1.1 = {
 		birth = yes
 	}
+	4360.1.19 = {
+		add_matrilineal_spouse = lineofondosto4a1
+	}
 	4449.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -271,6 +274,7 @@ lineofelros93 = { # Tar-Ciryatan II, began the restoration of Armenelos, and mov
 	culture = adunaic
 
 	mother = lineofelros92
+	father = lineofondosto4a1
 
 	trait = blood_of_numenor_7
 	trait = diligent
@@ -2929,7 +2933,7 @@ lineofvardur9 = {
 	}
 }
 lineofvardur10 = {
-	name = "Karbazi_i_r"
+	name = Karbazi_i_r
 	dynasty_house = dynasty_vardurionath
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -2941,17 +2945,22 @@ lineofvardur10 = {
 	3858.1.1 = {
 		birth = yes
 	}
+	3990.1.14 = {
+		add_spouse = linesorontiljewel3a1com1
+		set_relation_lover = character:linesorontiljewel3a1com1
+	}
 	4089.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 lineofvardur11 = {
-	name = "Azarkarbu_u_"
+	name = Zimrakarba_a_n
 	dynasty_house = dynasty_vardurionath
 	religion = faith_kings_men_numenorean
 	culture = adunaic
 
 	father = lineofvardur10
+	mother = linesorontiljewel3a1com1
 
 	trait = blood_of_numenor_7
 
@@ -3506,6 +3515,47 @@ lineofciryandur18 = { # Rewarded with Ciryalonde for helping Cemendur
 		birth = yes
 	}
 	4138.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofciryandur17a1 = {
+	name = R_amantar
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean
+	culture = numenorean
+
+	father = lineofciryandur17
+
+	trait = blood_of_numenor_7
+	trait = gallivanter
+
+	3900.1.1 = {
+		birth = yes
+	}
+	3975.6.14 = {
+		add_spouse = linesorontiljewel3a1
+		set_relation_lover = character:linesorontiljewel3a1
+	}
+	4130.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofciryandur17a2 = { # Find husband
+	name = Hr_aval_ot_e_e
+	female = yes
+	dynasty = dynasty_ciryandur
+	religion = faith_numenorean
+	culture = numenorean
+
+	father = lineofciryandur17a1
+	mother = linesorontiljewel3a1
+
+	trait = blood_of_numenor_7
+
+	3980.6.19 = {
+		birth = yes
+	}
+	4203.12.6 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -14018,6 +14068,9 @@ lineofondosto2 = {
 	3974.1.1 = {
 		birth = yes
 	}
+	4110.1.14 = {
+		add_spouse = lineofciryandur17a2
+	}
 	4213.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -14031,6 +14084,7 @@ lineofondosto3 = {
 
 
 	father = lineofondosto2
+	mother = lineofciryandur17a2
 
 	trait = blood_of_numenor_7
 
@@ -14052,11 +14106,32 @@ lineofondosto4 = {
 	father = lineofondosto3
 
 	trait = blood_of_numenor_7
+	trait = twin
 
 	4234.1.1 = {
 		birth = yes
 	}
 	4460.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofondosto4a1 = {
+	name = Ba_a_rru_u_kho_o_n
+	dynasty = dynasty_ondosto
+	religion = faith_numenorean
+	culture = adunaic
+
+
+
+	father = lineofondosto3
+
+	trait = blood_of_numenor_7
+	trait = twin
+
+	4234.1.1 = {
+		birth = yes
+	}
+	4455.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -17960,7 +18035,7 @@ linesorontiljewel3a1 = {
 	}
 	3910.1.1 = { # Mom sacrificed in the temple in Numenor, she slashes his eye and runs away
         set_relation_rival = character:linesorontiljewel3
-    }
+	}
 	4049.1.1 = {
 		death = { death_reason = death_stress }
 	}
