@@ -13226,7 +13226,7 @@ character_view_bg = {
 	# NUMENOREAN LOW
 
 	texture = {
-		reference = "character_view/throneroom_mediterranean.dds"
+		reference = "character_view/adunailow.dds"
 
 		trigger = {
 			OR = {
@@ -13268,7 +13268,7 @@ character_view_bg = {
 	}
 
 	environment = {
-		reference = "environment_cw_mediterranean_main"
+		reference = "environment_gondor_mid"
 
 		trigger = {
 			OR = {
@@ -13385,7 +13385,7 @@ character_view_bg = {
 
 	# ADUNAIC LOW
 	texture = {
-		reference = "character_view/throneroom_mediterranean.dds"
+		reference = "character_view/adunailow.dds"
 
 		trigger = {
 			OR = {
@@ -13423,7 +13423,7 @@ character_view_bg = {
 	}
 	
 	environment = {
-		reference = "environment_cw_mediterranean_main"
+		reference = "environment_gondor_mid"
 
 		trigger = {
 			OR = {
