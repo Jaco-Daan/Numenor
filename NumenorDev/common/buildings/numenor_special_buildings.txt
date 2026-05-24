@@ -125,7 +125,7 @@ wonder_eldalonde_03 = {
 				any_parent_culture_or_above = { this = culture:numenorean }
 			}
 			faith_is_evil = no
-			in_diplomatic_range = title:e_gondor.holder
+			in_diplomatic_range = title:c_minas_tirith.empire.holder
 		}
 		custom_tooltip = {
 			text = numenor_realm_size_limit_01
