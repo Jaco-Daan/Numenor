@@ -37,6 +37,10 @@ lineofelros88 = { # Tar-Cemendur, also known as Ar-Dairaben
 		religion = faith_numenorean
 	}
 
+	3948.2.5 = {
+		culture = adunaic
+	}
+
 	4018.2.24 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -103,6 +107,10 @@ lineofelros90 = { # Tar-Aldarion II, 'The Hand of Eru' The Faithful King who beg
 		birth = yes
 	}
 
+	4040.3.25 = {
+		add_spouse = lineofciryandur17a2
+	}
+
 	4224.11.1 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -116,6 +124,7 @@ lineofelros91 = {
 	culture = adunaic
 
 	father = lineofelros90
+	mother = lineofciryandur17a2
 
 	trait = blood_of_numenor_8
 
@@ -14015,7 +14024,7 @@ lineofondosto1 = {
 		birth = yes
 	}
 
-	4155.1.1 = {
+	4228.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -14027,7 +14036,7 @@ lineofondosto2 = {
 	religion = faith_numenorean
 	culture = adunaic
 
-	trait = blood_of_numenor_8
+	trait = blood_of_numenor_7
 
 	3974.1.1 = {
 		birth = yes
@@ -14037,7 +14046,7 @@ lineofondosto2 = {
 		add_spouse = lineofondosto1
 	}
 
-	4213.1.1 = {
+	4203.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -14051,9 +14060,9 @@ lineofondosto3 = {
 
 
 	father = lineofondosto2
-	mother = lineofciryandur17a2
+	mother = lineofondosto1
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_8
 
 	4113.1.1 = {
 		birth = yes
