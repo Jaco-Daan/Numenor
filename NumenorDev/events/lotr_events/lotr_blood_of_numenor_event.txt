@@ -2945,9 +2945,6 @@ numenoreanblood.0001 = {
 				remove_trait = blood_of_numenor_5
 				remove_trait = blood_of_numenor_6
 				remove_trait = blood_of_numenor_7
-				remove_trait = blood_of_numenor_8
-				remove_trait = blood_of_numenor_9
-				remove_trait = blood_of_numenor_10
 			}
 			scope:child ?= { add_trait = blood_of_numenor_7 }
 		}
