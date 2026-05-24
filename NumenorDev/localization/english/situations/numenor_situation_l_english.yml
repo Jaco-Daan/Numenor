@@ -33,3 +33,8 @@
  SITUATION_NUMENOR_COUNCIL_OF_THE_SCEPTRE: "Council of the Sceptre"
  SITUATION_NUMENOR_CONVINCED_PERCENTAGE_COUNCIL_OF_THE_SCEPTRE: "Convinced Council of the Sceptre Members"
  NUMENOR_SITUATION_AVAILABLE_DECISIONS_HEADER: "Available Decisions"
+
+ DISPLAY_CURRENT_NUMENOR_HOPE_VALUE: "$elven_hope_situation_sub_region_numenor$ (#high [Situation.GetSubRegionByKey( 'numenor' ).MakeScope.Var('numenor_hope_value').GetValue]#! [hope|E])" 
+ elven_hope_situation_sub_region_numenor: "Númenor"
+ elven_hope_situation_sub_region_numenor_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$"
+ 
