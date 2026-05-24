@@ -97,7 +97,7 @@
 		}
 		numenor = { #Numenor Submod
 			icon = gfx/interface/icons/situation_types/numenor_situation.dds
-			map_color = { 100 50 170 }
+			map_color = { 69 67 42 }
 			geographical_regions = { middleearth_numenor }
 		}
 	}
