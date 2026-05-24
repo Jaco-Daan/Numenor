@@ -1,47 +1,47 @@
 ﻿l_english:
  ### Númenor Submod ###
- Arkia: "Arkia"
- Baian: "Baian"
+Arkia: "Arkia"
+Baian: "Baian"
 
 ### PORT OVER (PORTED TO MASTER NOT STEAM) ###
 
- ### PORT OVER (PORTED TO NEITHER) ###
-#  Abattho_o_r: "Abatthôr" # Adunaic Male - World (draft, archaic) -son
-#  Adu_u_nabe_e_n: "Adûnabên" # Adunaic Male - West-servant
-#  Aglarzi_i_r: "Aglarzîr" # Adunaic Male - Glory-friend
-#  A_A_ru_u_phin: "Ârûphin" # Adûnâic Female - Royal-hair, see Q. Artafindë
-#  Avalo_o_hil: "Avalôhil" # Adunaic Male - Valar-heir
-#  Avalo_o_zagar: "Avalôzagar" # Adunaic Male - Valar-sword
+### PORT OVER (PORTED TO NEITHER) ###
+Abattho_o_r: "Abatthôr" # Adunaic Male - World (draft, archaic) -son
+Adu_u_nabe_e_n: "Adûnabên" # Adunaic Male - West-servant
+Aglarzi_i_r: "Aglarzîr" # Adunaic Male - Glory-friend
+A_A_ru_u_phin: "Ârûphin" # Adûnâic Female - Royal-hair, see Q. Artafindë
+Avalo_o_hil: "Avalôhil" # Adunaic Male - Valar-heir
+Avalo_o_zagar: "Avalôzagar" # Adunaic Male - Valar-sword
 Ba_a_rru_u_kho_o_n: "Bârrûkhôn" # Adunaic Male - Lord-shout
-#  Be_e_nkali_i_: "Bênkalî" # Adunaic Female - Servant-woman
-#  Herundur: "Herundur" # Quenya Male - Lord-servant
+Be_e_nkali_i_: "Bênkalî" # Adunaic Female - Servant-woman
+Herundur: "Herundur" # Quenya Male - Lord-servant
 Hr_aval_ot_e_e: "Hrávalótë" # Adunaic Female - Wildflower
-#  Isilion: "Isilion" # Quenya Male - Moon-son
-#  Kho_o_rbe_e_n: "Khôrbên" # Adunaic Male - Lord-servant
-#  Mo_o_ruzagar: "Môruzagar" # Adunaic Male - Dark-sword
-#  Narmet: "Narmet" # Harshandatti Female
-#  Niti_i_rpa_a_n: "Nitîrpân" # Adunaic Male - Kindler-hand
-#  Oemo_o_r: "Oemôr" # New Apysaic Male
-#  Phaza_a_ttho_o_r: "Phazâtthôr" # Adûnâic Male - Prince-son
+Isilion: "Isilion" # Quenya Male - Moon-son
+Kho_o_rbe_e_n: "Khôrbên" # Adunaic Male - Lord-servant
+Mo_o_ruzagar: "Môruzagar" # Adunaic Male - Dark-sword
+Narmet: "Narmet" # Harshandatti Female
+Niti_i_rpa_a_n: "Nitîrpân" # Adunaic Male - Kindler-hand
+Oemo_o_r: "Oemôr" # New Apysaic Male
+Phaza_a_ttho_o_r: "Phazatthôr" # Adûnâic Male - Prince-son
 R_amantar: "Rámantar" # Quenya Male - Ship-lord
-#  Sarniel: "Sarniel" # Sindarin Female - Pebble-daughter
-#  Telemmacil: "Telemmacil" # Quenya Male - Silver-sword
-#  U_U_rinzil: "Ûrinzil" # Adunaic Neut - Sun-flower 
-#  U_U_rizimir: "Ûrizimir" # Adunaic Male - Sun-stone
-#  Uruda_a_ru_u_n: "Urudarûn" # Adunaic Male - Mountain-king
+Sarniel: "Sarniel" # Sindarin Female - Pebble-daughter
+Telemmacil: "Telemmacil" # Quenya Male - Silver-sword
+U_U_rinzil: "Ûrinzil" # Adunaic Neut - Sun-flower
+U_U_rizimir: "Ûrizimir" # Adunaic Male - Sun-stone
+Uruda_a_ru_u_n: "Urudarûn" # Adunaic Male - Mountain-king
 Zimrakarba_a_n: "Zimrakarbân" # Adunaic Male - Jewel-horse
 
- # Mixed Sindarin-Adunaic
-#  Arattho_o_r: "Aratthôr" # MSA - King-son
-#  Avale_e_nil: "Avalênil" # MSA - Valie-friend
-#  Adartho_o_r: "Adarthôr" # MSA - Father-son
-#  Adarphe_e_l: "Adarphêl" # MSA - Father-daughter
-#  Azarnil: "Azarnil" # MSA - Star-friend (sort of)
-#  Balakion: "Balakion" # MSA - Ship-son
-#  Balakiel: "Balakiel" # MSA - Ship-daughter
-#  Karbuhir: "Karbuhir" # MSA - Horse-lord
-#  Rokkho_o_r: "Rôkkhôr" # MSA - Horse-lord
-#  Karbuhiri_i_: "Karbuhirî" # MSA - Horse-lady
-#  Rokkho_o_re_e_: "Rôkkhôrê" # MSA - Horse-lady 
-#  Minalchen: "Minalchen" # MSA - Heaven-eye
-#  Menelkhe_e_n: "Mênêlkhên" # MSA - Heaven-eye
+# Mixed Sindarin-Adunaic
+Arattho_o_r: "Aratthôr" # MSA - King-son
+Avale_e_nil: "Avalênil" # MSA - Valie-friend
+Adartho_o_r: "Adarthôr" # MSA - Father-son
+Adarphe_e_l: "Adarphêl" # MSA - Father-daughter
+Azarnil: "Azarnil" # MSA - Star-friend (sort of)
+Balakion: "Balakion" # MSA - Ship-son
+Balakiel: "Balakiel" # MSA - Ship-daughter
+Karbuhir: "Karbuhir" # MSA - Horse-lord
+Rokkho_o_r: "Rôkkhôr" # MSA - Horse-lord
+Karbuhiri_i_: "Karbuhirî" # MSA - Horse-lady
+Rokkho_o_re_e_: "Rôkkhôrê" # MSA - Horse-lady
+Minalchen: "Minalchen" # MSA - Heaven-eye
+Menelkhe_e_n: "Mênêlkhên" # MSA - Heaven-eye
