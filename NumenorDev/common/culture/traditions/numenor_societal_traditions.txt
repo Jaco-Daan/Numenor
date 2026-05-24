@@ -8,10 +8,8 @@
 		4 = adunaim5.dds
 	}
 
-		is_shown = {
-		OR = {
-			has_cultural_pillar = heritage_unified_adunaic
-		}
+	is_shown = {
+		has_cultural_pillar = heritage_unified_adunaic
 	}
 
 	can_pick = {
