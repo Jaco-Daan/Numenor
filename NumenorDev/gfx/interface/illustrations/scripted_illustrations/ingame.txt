@@ -15321,7 +15321,7 @@ character_private = {
 			OR = {
 				AND = {
 				 	exists = primary_title
-					NOT = { highest_held_title_tier <= tier_duchy }
+					 NOT = { highest_held_title_tier <= tier_duchy }
 					has_faith = faith:melkorite
 					has_culture = culture:black_numenorean
 				}
