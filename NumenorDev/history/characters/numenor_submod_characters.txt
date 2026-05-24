@@ -1,7 +1,7 @@
 ﻿
 ### Númenor Submod Extension ###
 lineofelros81 = {
-	name = "Azgarzi_i_r"
+	name = Zimrazagar
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -20,7 +20,7 @@ lineofelros81 = {
 	}
 }
 lineofelros82 = {
-	name = "Aphanuzi_i_r"
+	name = Niti_i_rpa_a_n
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -39,7 +39,7 @@ lineofelros82 = {
 	}
 }
 lineofelros83 = {
-	name = "Azulzi_i_r"
+	name = U_U_rizimir
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -62,7 +62,7 @@ lineofelros83 = {
 	}
 }
 lineofelros84 = {
-	name = "Gimlibe_e_n"
+	name = U_U_rinzil
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -81,7 +81,7 @@ lineofelros84 = {
 	}
 }
 lineofelros85 = {
-	name = "Nilu_u_be_e_n"
+	name = Uruda_a_ru_u_n
 	dynasty = dynasty_elros
 	religion = melkorite
 	culture = numenorean
@@ -100,7 +100,7 @@ lineofelros85 = {
 	}
 }
 lineofelros86 = {
-	name = "Minluzi_i_r"
+	name = A_A_ru_u_tho_o_r
 	dynasty = dynasty_elros
 	religion = melkorite
 	culture = numenorean
@@ -124,7 +124,7 @@ lineofelros86 = {
 	}
 }
 lineofelros87 = {
-	name = "Imratho_o_r"
+	name = Abattho_o_r
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -141,7 +141,7 @@ lineofelros87 = {
 	}
 }
 lineofelros88 = { # Tar-Cemendur, also known as Ar-Dairaben
-	name = "Cemendur"
+	name = Da_a_irabe_e_n
 	dna = cemendur_elerossioni_dna
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
@@ -162,6 +162,7 @@ lineofelros88 = { # Tar-Cemendur, also known as Ar-Dairaben
 		birth = yes
 	}
 	3902.1.1 = {
+		name = Cemendur
 		religion = faith_numenorean
 	}
 	4123.1.1 = {
