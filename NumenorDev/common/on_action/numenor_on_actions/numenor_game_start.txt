@@ -1,4 +1,6 @@
-﻿numenor_on_game_start = {
+﻿on_game_start = { on_actions = { numenor_on_game_start } }
+
+numenor_on_game_start = {
     events = {
 		numenor_historical_artifacts.0001
 	}
@@ -21,7 +23,6 @@
 			remove_trait = blood_of_numenor_5
 
 			add_trait = blood_of_numenor_7
-			numenor_yassify_effect = yes
 		}
 		numenor_fire_intro_events = yes
 		
@@ -36,5 +37,6 @@
 			start_phase = numenor_situation_isolation
 		}
 		define_numenor_resources = yes
+		numenor_laamp_setup_effect = yes
     }
 }

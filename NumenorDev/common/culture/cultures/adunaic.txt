@@ -7,7 +7,7 @@
 	history_loc_override = numenor_submod_loc #Numenor Submod
 	
 	ethos = ethos_communal
-	heritage = heritage_adunaic
+	heritage = heritage_unified_adunaic
 	language = language_adunaic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
@@ -23,7 +23,7 @@
 	name_list = name_list_adunaic_numenor
 	
 	coa_gfx = { numenorean_coa_gfx dunedain_group_coa_gfx }
-	building_gfx = { numenorean_building_gfx }
+	building_gfx = { numenor_building_gfx numenorean_building_gfx mediterranean_building_gfx }
 	clothing_gfx = { adunai_clothing_gfx numenorean_clothing_gfx }
 	unit_gfx = { dunedain_unit_gfx  }
 	house_coa_frame = house_frame_04

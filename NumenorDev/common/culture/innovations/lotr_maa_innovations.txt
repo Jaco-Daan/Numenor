@@ -55,6 +55,30 @@ innovation_dunlending_warriors = {
 	custom = unlock_dunlending_axe_hunters
 }
 
+innovation_armored_dunmen_warfare = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @special_maa_02
+
+	potential = {
+		OR = {
+			has_cultural_pillar = heritage_daen_lintis
+		}
+	}
+
+	can_progress = { #Unlocked by decision
+		custom_description = {
+			text = "innovation_unlocked_by_decision_trigger"
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_eira_dwarven_armor 
+			}
+		}
+	}
+
+	custom = unlock_dunmen_heavy_infantry
+}
+
 ### Hillmen ###
 innovation_hillmen_warfare = {
 	group = culture_group_regional
@@ -722,7 +746,7 @@ innovation_numenorean_warriors = {
 		AND = {
 			OR = {
 				has_cultural_pillar = heritage_dunedain
-				has_cultural_pillar = heritage_adunaic #Numenor Sub-mod
+				has_cultural_pillar = heritage_unified_adunaic #Numenor Sub-mod
 			}
 			OR = {
 				this = culture:numenorean

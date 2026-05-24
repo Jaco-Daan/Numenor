@@ -7,18 +7,18 @@
 	music = "file:/music/numenor_submod_music/snauron_snake_me_too_snarad_snur.mp3"
 	name = "1_snauron_snake_me_to_snarad_snur"
 	group = group_numenor_submod_music
-	prioritized_mood = yes
+	is_prioritized_mood = yes
 	can_be_interrupted = no
-	is_valid = { always = yes }
+	#is_valid = { always = yes }
 }
 
 2_sneesh = {
 	music = "file:/music/numenor_submod_music/sneesh.mp3"
 	name = "2_sneesh"
 	group = group_numenor_submod_music
-	prioritized_mood = yes
+	is_prioritized_mood = yes
 	can_be_interrupted = no
-	is_valid = { always = yes }
+	#is_valid = { always = yes }
 }
 
 # Group settings

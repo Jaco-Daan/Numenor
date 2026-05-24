@@ -912,6 +912,7 @@ lineofelros25 = {
 lineofelros26 = {
 	name = M_iriel 				
 	dynasty = dynasty_elros				
+	dna = miriel_elerossioni_dna # Numenor Submod (temp)
 	religion = faith_numenorean				
 	culture = numenorean				
 

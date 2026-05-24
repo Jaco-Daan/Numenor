@@ -1,7 +1,7 @@
 ﻿
 ### Númenor Submod Extension ###
 lineofelros81 = {
-	name = "Azgarzi_i_r"
+	name = Zimrazagar
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -20,7 +20,7 @@ lineofelros81 = {
 	}
 }
 lineofelros82 = {
-	name = "Aphanuzi_i_r"
+	name = Niti_i_rpa_a_n
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -39,7 +39,7 @@ lineofelros82 = {
 	}
 }
 lineofelros83 = {
-	name = "Azulzi_i_r"
+	name = U_U_rizimir
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -62,7 +62,7 @@ lineofelros83 = {
 	}
 }
 lineofelros84 = {
-	name = "Gimlibe_e_n"
+	name = U_U_rinzil
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -81,7 +81,7 @@ lineofelros84 = {
 	}
 }
 lineofelros85 = {
-	name = "Nilu_u_be_e_n"
+	name = Uruda_a_ru_u_n
 	dynasty = dynasty_elros
 	religion = melkorite
 	culture = numenorean
@@ -100,7 +100,7 @@ lineofelros85 = {
 	}
 }
 lineofelros86 = {
-	name = "Minluzi_i_r"
+	name = A_A_ru_u_tho_o_r
 	dynasty = dynasty_elros
 	religion = melkorite
 	culture = numenorean
@@ -124,7 +124,7 @@ lineofelros86 = {
 	}
 }
 lineofelros87 = {
-	name = "Imratho_o_r"
+	name = Abattho_o_r
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -141,7 +141,8 @@ lineofelros87 = {
 	}
 }
 lineofelros88 = { # Tar-Cemendur, also known as Ar-Dairaben
-	name = "Cemendur"
+	name = Da_a_irabe_e_n
+	dna = cemendur_elerossioni_dna
 	dynasty = dynasty_elros
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -161,6 +162,7 @@ lineofelros88 = { # Tar-Cemendur, also known as Ar-Dairaben
 		birth = yes
 	}
 	3902.1.1 = {
+		name = Cemendur
 		religion = faith_numenorean
 	}
 	4123.1.1 = {
@@ -169,10 +171,8 @@ lineofelros88 = { # Tar-Cemendur, also known as Ar-Dairaben
 }
 lineofelros89 = {
 	name = "Hallatan"
-	dna = hallatan_nucuptar_elerossioni_dna
 	dynasty = dynasty_elros
 	religion = faith_numenorean
-	culture = adunaic # Alrain note: for NOW, change back when we give him a wife. This is for ethnicity
 
 	father = lineofelros88
 	mother = lineofelros26
@@ -647,7 +647,7 @@ lineofelros109 = { # Tar-Veantur, founder of the Adunaben faith
 	}
 }
 lineofelros110 = {
-	name = "E_E_ruzagar"
+	name = "Avalo_o_zagar"
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
@@ -1705,7 +1705,7 @@ dolamrothsubmod12 = {
 }
 #HOUSE OF ELATAN#
 lineofelatan22 = {
-	name = "Anarion"
+	name = An_arion
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = numenorean
@@ -6094,7 +6094,7 @@ lineofciryamirbranch22 = {
 		birth = yes
 	}
 	7030.1.1 = {
-		death = { death_reason = death_perished_at_sea }
+		death = { death_reason = death_drowned }
 	}
 }
 lineofciryamirbranch23 = {
@@ -10631,7 +10631,7 @@ lineelebastard8 = {
 	}
 }
 lineelebastard9 = {
-	name = E_E_ruzagar
+	name = Avalo_o_zagar
 	dynasty = dynasty_elenore
 	religion = faith_numenorean
 	culture = adunaic
@@ -11550,7 +11550,7 @@ lineofazrubensubmod15 = {
 	}
 }
 lineofazrubensubmod16 = {
-	name = E_E_ruzagar
+	name = Avalo_o_zagar
 	dynasty = dynasty_azulhin
 	religion = faith_dairaben
 	culture = adunaic
@@ -11786,8 +11786,8 @@ lineofazrubensubmod28 = {
 	}
 }
 lineofazrubensubmod29 = {
-	name = E_E_ruzagar
-	dna = eruzagar_azulhin_wotr_dna
+	name = Avalo_o_zagar
+	dna = avalozagar_azulhin_wotr_dna
 	dynasty = dynasty_azulhin
 	religion = faith_adunaic
 	culture = adunaic
@@ -11933,7 +11933,7 @@ lineofazrubensubmod28a2 = {
 		birth = yes
 	}
 
-	7010.1.1 = {
+	7032.9.21 = {
 		employer = lineofelros114
 	}
 
@@ -13377,6 +13377,7 @@ linejewellord1 = {
 
 linejewellord2 = { # Named after his supposed Grandfather, contender for the Númenor throne during the civil war, King of Númenor
 	name = Gimilkha_a_d
+	dna = gimilkhad_zadan_gimilkhad_dna
 	dynasty_house = dynasty_gimilkhadson
 	religion = melkorite
 	culture = numenorean
@@ -13438,7 +13439,7 @@ linegimilson2 = {
 		birth = yes
 	}
 	4092.1.1 = {
-		death = { death_reason = death_perished_at_sea }
+		death = { death_reason = death_drowned }
 	}
 }
 
@@ -13492,7 +13493,7 @@ linegimilson4 = {
 
 linejewellord3 = {
 	name = Adu_u_ninzil
-	dynasty_house = dynasty_jeweldaughter
+	dynasty = dynasty_jewellord
 	religion = faith_kings_men_numenorean
 	culture = numenorean
 	female = yes
@@ -13504,6 +13505,9 @@ linejewellord3 = {
 
 	3822.1.1 = {
 		birth = yes
+	}
+	3950.1.1 = {
+		dynasty_house = dynasty_jeweldaughter
 	}
 	4048.1.1 = {
 		death = { death_reason = death_natural_causes }
@@ -14772,7 +14776,7 @@ lineofkhorandor2 = {
 	}
 }
 lineofkhorandor3 = {
-	name = E_E_ruzagar
+	name = Mo_o_ruzagar
 	dynasty = dynasty_khorandor
 	religion = faith_kings_men_numenorean
 	culture = numenorean
@@ -15319,6 +15323,10 @@ lineofrotthor2a7 = {
 		name = Zabatha_a_n
 		religion = faith_dairaben
 		culture = adunaic
+	}
+
+	3912.1.1 = {
+		employer = lineofmornionath16
 	}
 
     4111.6.11 = {
@@ -16684,6 +16692,10 @@ lineofbarimanurid4a3 = {
 		culture = adunaic
 	}
 
+	3912.1.1 = {
+		employer = linejewellord2
+	}
+
     3922.12.10 = {
         death = {
             death_reason = death_natural_causes
@@ -16704,6 +16716,10 @@ lineofbarimanurid4a4 = {
     3821.3.11 = {
         birth = yes
     }
+
+	3912.1.1 = {
+		employer = linejewellord2
+	}
 
     4041.9.18 = {
         death = {
@@ -16726,6 +16742,10 @@ lineofbarimanurid4a5 = {
         birth = yes
     }
 
+	3912.1.1 = {
+		employer = linejewellord2
+	}
+
     3954.1.1 = {
 		death = { death_reason = death_battle }
 	}
@@ -16744,6 +16764,10 @@ lineofbarimanurid4a4a1 = {
     3900.4.18 = {
         birth = yes
     }
+
+	3912.1.1 = {
+		employer = linejewellord2
+	}
 
     3954.1.1 = {
 		name = Gimlibe_e_l
@@ -17648,6 +17672,7 @@ linebalkuloni2 = {
 
 linesorontiljewel1 = {
 	name = Gimlibe_e_n
+	dna = linesorontiljewel1
 	dynasty = dynasty_sorontiljewellord
 	culture = numenorean
 	religion = melkorite
@@ -17662,21 +17687,47 @@ linesorontiljewel1 = {
 	3702.1.1 = {
 		birth = yes
 	}
+	3790.4.11 = {
+		add_spouse = linesorontiljewel1wife
+	}
+	3911.1.1 = {
+		death = { death_reason = death_valinor_crushed }
+	}
+}
+linesorontiljewel1wife = {
+	name = Khibilahil
+	dna = linesorontiljewel1wife
+	female = yes
+	culture = numenorean
+	religion = melkorite
+
+	trait = blood_of_numenor_6
+
+	trait = scholar
+	trait = ambitious
+	trait = shrewd
+	trait = eccentric
+
+	3724.1.1 = {
+		birth = yes
+	}
 	3911.1.1 = {
 		death = { death_reason = death_valinor_crushed }
 	}
 }
 linesorontiljewel2 = {
-	name = Bo_o_ratho_o_r
+	name = Gimilkho_o_r
 	dynasty	= dynasty_sorontiljewellord
 	culture = numenorean
 	religion = melkorite
 
 	father = linesorontiljewel1
+	mother = linesorontiljewel1wife
 
 	trait = blood_of_numenor_7
 	trait = paranoid
 	trait = cynical
+	trait = ambitious
 	trait = physique_bad_1
 	trait = schemer
 
@@ -17687,21 +17738,157 @@ linesorontiljewel2 = {
 		death = { death_reason = death_execution killer = ruxoalendil11 }
 	}
 }
+linesorontiljewel2conc1 = { # A slave imported from Umbar
+	name = Kife_e_l
+	female = yes
+
+	culture = sakalai
+	religion = faith_legends_of_harwan
+
+	3842.6.14 = {
+		birth = yes
+	}
+	3903.1.1 = { # Sacrificed in the temple in Numenor
+        death = { death_reason = death_sacrificed_to_gods killer = linesorontiljewel2 }
+    }
+}
+linesorontiljewel2a1 = {
+	name = Kho_o_rbe_e_n
+	dynasty	= dynasty_sorontiljewellord
+	culture = numenorean
+	religion = faith_legends_of_harwan
+
+	father = linesorontiljewel2
+	mother = linesorontiljewel2conc1
+
+	trait = blood_of_numenor_5
+	trait = bastard
+
+	3869.12.18 = {
+		birth = yes
+		trait = beardless_eunuch # Done by father
+	}
+	3903.1.1 = { # Sacrificed in the temple in Numenor
+        death = { death_reason = death_sacrificed_to_gods killer = linesorontiljewel2 }
+    }
+}
+linesorontiljewel2b1 = {
+	name = Be_e_nkali_i_
+	female = yes
+	dynasty	= dynasty_sorontiljewellord
+	culture = numenorean
+	religion = faith_legends_of_harwan
+
+	father = linesorontiljewel2
+	mother = linesorontiljewel2conc1
+
+	trait = blood_of_numenor_6
+	trait = bastard
+
+	3872.3.14 = {
+		birth = yes
+	}
+	3903.1.1 = { # Sacrificed in the temple in Numenor
+		trait = maimed
+        death = { death_reason = death_sacrificed_to_gods killer = linesorontiljewel2 }
+    }
+}
+linesorontiljewel2conc2 = { # A faithful captured in a covered-up raid
+	name = Melleth
+	dna = linesorontiljewel2conc2
+	female = yes
+
+	culture = numenorean
+	religion = faith_numenorean
+
+	trait = blood_of_numenor_7
+	trait = depressed_1
+
+	3800.9.20 = {
+		birth = yes
+	}
+	3906.1.1 = { # Sacrificed in the temple in Numenor
+        death = { death_reason = death_sacrificed_to_gods killer = linesorontiljewel2 }
+    }
+}
+linesorontiljewel2c1 = {
+	name = Adu_u_nabe_e_l
+	female = yes
+
+	dynasty	= dynasty_sorontiljewellord
+	culture = numenorean
+	religion = faith_numenorean
+
+	father = linesorontiljewel2
+	mother = linesorontiljewel2conc2
+
+	trait = blood_of_numenor_6
+	trait = bastard
+
+	3870.5.11 = {
+		birth = yes
+	}
+	3906.1.1 = { # Sacrificed in the temple in Numenor
+        death = { death_reason = death_sacrificed_to_gods killer = linesorontiljewel2 }
+    }
+}
+linesorontiljewel2d1 = {
+	name = Adu_u_nabe_e_n
+
+	dynasty	= dynasty_sorontiljewellord
+	culture = numenorean
+	religion = melkorite
+
+	father = linesorontiljewel2
+	mother = linesorontiljewel2conc2
+
+	trait = blood_of_numenor_6
+	trait = legitimized_bastard
+
+	trait = education_martial_3
+	trait = education_martial_prowess_3
+
+	3875.10.1 = {
+		birth = yes
+		effect = { make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:faith_numenorean } }
+	}
+	3906.1.1 = { # Killed his mom and sister
+        set_relation_grudge = character:linesorontiljewel2
+    }
+	3939.1.1 = { # After the Ruxoalendil come, he is avenged, but he is wounded in the fighting. He dies soon after. Sucks to suck!
+		trait = wounded_3
+		religion = faith_numenorean
+	}
+	3940.1.1 = {
+		death = { death_reason = death_wounded_3 }
+	}
+}
+
 linesorontiljewel3 = {
-	name = Imrazo_o_r
+	name = Pharzube_e_n
+	dna = linesorontiljewel3
 	dynasty	= dynasty_sorontiljewellord
 	culture = numenorean
 	religion = melkorite
 
 	father = linesorontiljewel1
+	mother = linesorontiljewel1wife
 
 	trait = blood_of_numenor_7
+	trait = gluttonous
+	trait = wrathful
+	trait = brave
+
+	trait = one_eyed
 
 	3803.1.1 = {
 		birth = yes
 	}
+	3912.1.1 = {
+		employer = linesorontiljewel2
+	}
 	3991.1.1 = {
-		death = { death_reason = death_battle }
+		death = { death_reason = death_battle killer = linesorontiljewel3a1 }
 	}
 }
 linesorontiljewel4 = {
@@ -17718,11 +17905,64 @@ linesorontiljewel4 = {
 	3878.1.1 = {
 		birth = yes
 	}
+	3912.1.1 = {
+		employer = linesorontiljewel2
+	}
 	3991.1.1 = {
 		religion = faith_dairaben
 	}
 	4098.1.1 = {
 		death = { death_reason = death_natural_causes }
+	}
+}
+linesorontiljewel3conc1 = { # A slave imported from Eriador, probably through a Mulkherhili raid or collaborators
+	name = Roth
+	dna = linesorontiljewel3conc1
+	female = yes
+
+	culture = eriadorim
+	religion = faith_numenorean
+
+	3862.6.14 = {
+		birth = yes
+	}
+	3910.1.1 = { # Sacrificed in the temple in Numenor
+        death = { death_reason = death_sacrificed_to_gods killer = linesorontiljewel3 }
+    }
+}
+linesorontiljewel3a1 = {
+	name = Rione
+	dna = linesorontiljewel3a1
+	female = yes
+
+	dynasty	= dynasty_sorontiljewellord
+	culture = eriadorim
+	religion = faith_numenorean
+
+	father = linesorontiljewel3
+	mother = linesorontiljewel3conc1
+
+	trait = blood_of_numenor_6
+	trait = vengeful
+	trait = ambitious
+	trait = deceitful
+	trait = education_intrigue_3 # Self-taught
+
+	diplomacy = 10
+	
+	trait = bastard
+
+	3890.1.1 = {
+		birth = yes
+		effect = {
+			learn_language = language_adunaic
+		}
+	}
+	3910.1.1 = { # Mom sacrificed in the temple in Numenor, she slashes his eye and runs away
+        set_relation_rival = character:linesorontiljewel3
+    }
+	4049.1.1 = {
+		death = { death_reason = death_stress }
 	}
 }
 
@@ -18241,5 +18481,109 @@ arkiavanity = {
 
 	1.1.1 = {
 		birth = yes
+	}
+}
+
+# OTHER
+# linesorontiljewel3a1 comrades
+
+linesorontiljewel3a1com1 = { # A faithful lady of good breeding but of a family of no renown, she eventually ends up married to the knight of her dreams. Sansa!
+	name = Sarniel
+	dna = linesorontiljewel3a1com1
+	female = yes
+	religion = faith_numenorean
+	culture = numenorean
+
+	trait = blood_of_numenor_6
+
+	trait = gregarious
+	trait = craven
+	trait = diligent
+
+	trait = education_diplomacy_3
+
+	3888.12.14 = {
+		birth = yes
+	}
+
+	3910.4.11 = {
+		set_relation_friend = character:linesorontiljewel3a1
+		set_relation_friend = character:linesorontiljewel3a1com2
+		employer = linesorontiljewel3a1
+		effect = {
+			learn_language = language_eriadoric
+		}
+	}
+
+	4090.1.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linesorontiljewel3a1com2 = { # A captured Mejhanian from Harshandatt, likely by one of the merchants coming to and from Anarike, or even a member of the Eastern Fleet.
+	name = Narmet
+	dna = linesorontiljewel3a1com2
+	female = yes
+	religion = faith_uzdava # she's from Adesh
+	culture = mejhanian
+
+	trait = brave
+	trait = gregarious
+	trait = diligent
+
+	trait = education_stewardship_2
+
+	3886.12.14 = {
+		birth = yes
+	}
+
+	3911.1.1 = { # Saved from drowning
+		set_relation_friend = character:linesorontiljewel3a1
+		set_relation_friend = character:linesorontiljewel3a1com1
+		employer = linesorontiljewel3a1
+		effect = {
+			learn_language = language_eriadoric
+		}
+	}
+
+	3945.6.20 = { # She lives to see Rione's revenge
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linesorontiljewel3a1com3 = { # Slave from An-Balkumagan
+	name = Oemo_o_r
+	dna = linesorontiljewel3a1com3
+
+	religion = faith_tulwang
+	culture = tandi
+
+	trait = wrathful
+	trait = just
+	trait = humble
+	trait = loyal
+	
+	trait = education_martial_3
+
+	prowess = 10
+
+	trait = blood_of_numenor_1 # From some "crossbreeding" no doubt
+	
+	3860.12.14 = {
+		birth = yes
+	}
+
+	3911.1.1 = { # Saved from drowning
+		set_relation_friend = character:linesorontiljewel3a1
+		set_relation_friend = character:linesorontiljewel3a1com1
+		set_relation_friend = character:linesorontiljewel3a1com2
+		employer = linesorontiljewel3a1
+		effect = {
+			learn_language = language_eriadoric
+		}
+	}
+
+	3940.6.20 = { # He lives to see the Ruxoalendil take over Forostar
+		death = { death_reason = death_natural_causes }
 	}
 }

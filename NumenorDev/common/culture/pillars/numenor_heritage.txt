@@ -1,5 +1,5 @@
 ﻿### Numenor Submod Code ###
-heritage_adunaic = {
+heritage_unified_adunaic = {
 	type = Heritage
 	parameters = {
 		heritage_group_numenorean = yes
@@ -14,7 +14,7 @@ heritage_adunaic = {
 	}
 	is_shown = {
 		heritage_is_shown_trigger = {
-			HERITAGE = heritage_adunaic
+			HERITAGE = heritage_unified_adunaic
 		}
 	}
 	audio_parameter = european

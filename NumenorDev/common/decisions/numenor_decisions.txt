@@ -957,12 +957,12 @@ decision_numenor_invade_valinor = {
 	# IS_SHOWN
 	is_shown = {
 		has_primary_title = title:e_numenor
-		NOT = {
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:decision_numenor_invade_valinor
-			}
-		}
+		#NOT = {
+		#	is_target_in_global_variable_list = {
+		#		name = unavailable_unique_decisions
+		#		target = flag:decision_numenor_invade_valinor
+		#	}
+		#}
 		is_independent_ruler = yes
 		trigger_if = {
 			limit = { title:k_wastelands.holder = { has_variable = numenor_invade_valinor } }
