@@ -17,7 +17,10 @@
 # 	confirm_text = decision_reclaim_umbar_numenor_confirm
 	
 # 	is_shown = {
-# 		has_primary_title = title:e_numenor
+#		OR = {
+#			has_primary_title = title:e_numenor
+#			has_primary_title = title:h_numenor
+#		}
 # 		is_landed = yes
 # 		NOT = {
 # 			is_target_in_global_variable_list = {
@@ -114,7 +117,10 @@
 # 	confirm_text = decision_reclaim_bellakar_numenor_confirm
 	
 # 	is_shown = {
-# 		has_primary_title = title:e_numenor
+#		OR = {
+#			has_primary_title = title:e_numenor
+#			has_primary_title = title:h_numenor
+#		}
 # 		is_landed = yes
 # 		NOT = {
 # 			is_target_in_global_variable_list = {
@@ -221,7 +227,10 @@
 # 	confirm_text = decision_reclaim_thani_hazad_numenor_confirm
 	
 # 	is_shown = {
-# 		has_primary_title = title:e_numenor
+#		OR = {
+#			has_primary_title = title:e_numenor
+#			has_primary_title = title:h_numenor
+#		}
 # 		is_landed = yes
 # 		NOT = {
 # 			is_target_in_global_variable_list = {
@@ -341,7 +350,10 @@
 # 	confirm_text = decision_reclaim_gondor_numenor_confirm
 	
 # 	is_shown = {
-# 		has_primary_title = title:e_numenor
+#		OR = {
+#			has_primary_title = title:e_numenor
+#			has_primary_title = title:h_numenor
+#		}
 # 		is_landed = yes
 # 		NOT = {
 # 			is_target_in_global_variable_list = {
@@ -475,7 +487,10 @@
 # 	confirm_text = decision_reclaim_harnen_numenor_confirm
 	
 # 	is_shown = {
-# 		has_primary_title = title:e_numenor
+#		OR = {
+#			has_primary_title = title:e_numenor
+#			has_primary_title = title:h_numenor
+#		}
 # 		is_landed = yes
 # 		NOT = {
 # 			is_target_in_global_variable_list = {
@@ -602,9 +617,12 @@ decision_expedition_anarike = {
 	confirm_text = decision_expedition_anarike_confirm
 	
 	is_shown = {
-		has_primary_title = title:e_numenor
 		always = no
 		is_landed = yes
+		OR = {
+			has_primary_title = title:e_numenor
+			has_primary_title = title:h_numenor
+		}
 		# is_target_in_global_variable_list = {
 		# 	name = unavailable_unique_decisions
 		# 	target = flag:decision_reclaim_thani_hazad_numenor
@@ -670,7 +688,10 @@ decision_deal_with_aa = {
 	confirm_text = decision_deal_with_aa_confirm
 	
 	is_shown = {
-		has_primary_title = title:e_numenor
+		OR = {
+			has_primary_title = title:e_numenor
+			has_primary_title = title:h_numenor
+		}
 		is_landed = yes
 		exists = title:e_adunaim
 		NOT = {
@@ -817,7 +838,10 @@ decision_numenor_annex_korlea = {
 				title:k_bellazen.holder.primary_title = title:k_bellazen
 			}
 		}
-		primary_title = title:e_numenor
+		OR = {
+			has_primary_title = title:e_numenor
+			has_primary_title = title:h_numenor
+		}
 		title:e_numenor.holder = { in_diplomatic_range = title:d_korlea.holder }
 		NOR = {
 			is_target_in_global_variable_list = {
@@ -839,7 +863,10 @@ decision_numenor_annex_korlea = {
 		}
 		completely_controls = title:d_narik_zadan
 		completely_controls = title:d_hazaj_tollin
-		has_primary_title = title:e_numenor
+		OR = {
+			has_primary_title = title:e_numenor
+			has_primary_title = title:h_numenor
+		}
 	}
 	is_valid_showing_failures_only = {
 		is_imprisoned = no
@@ -956,7 +983,10 @@ decision_numenor_invade_valinor = {
 
 	# IS_SHOWN
 	is_shown = {
-		has_primary_title = title:e_numenor
+		OR = {
+			has_primary_title = title:e_numenor
+			has_primary_title = title:h_numenor
+		}
 		#NOT = {
 		#	is_target_in_global_variable_list = {
 		#		name = unavailable_unique_decisions
@@ -1028,7 +1058,10 @@ demand_ray_tributary = {
 
 	# IS_SHOWN
 	is_shown = {
-		primary_title = title:e_numenor
+		OR = {
+			has_primary_title = title:e_numenor
+			has_primary_title = title:h_numenor
+		}
 		exists = title:k_ray.holder
 		
 		NOT = {
@@ -1045,7 +1078,10 @@ demand_ray_tributary = {
 			limit = { exists = situation:numenor_situation }
 			NOT = { situation:numenor_situation ?= { situation_current_phase = numenor_situation_isolation } }
 		}
-		has_primary_title = title:e_numenor
+		OR = {
+			has_primary_title = title:e_numenor
+			has_primary_title = title:h_numenor
+		}
 		completely_controls = title:k_nilulonde
 		completely_controls = title:k_bellazen
 		completely_controls = title:k_an_balkumagan
@@ -1108,7 +1144,10 @@ decision_numenor_league_of_pelargir = {
 	is_shown = {
 		is_ruler = yes
 		is_landed = yes
-		has_title = title:e_numenor
+		OR = {
+			has_title = title:e_numenor
+			has_title = title:h_numenor
+		}
 
 		OR = { # Numenor or vassal should have county in Numenor
 			any_held_title = {
@@ -1225,7 +1264,10 @@ decision_numenor_disband_council_of_sceptre = {
 	is_shown = {
 		is_ruler = yes
 		is_landed = yes
-		has_title = title:e_numenor
+		OR = {
+			has_primary_title = title:e_numenor
+			has_primary_title = title:h_numenor
+		}
 
 		NOT = {
 			is_target_in_global_variable_list = { # Gondor has been re-integrated
@@ -1802,7 +1844,10 @@ decision_restore_numenor_province = {
 # 	confirm_text = decision_reclaim_minhiriath_numenor_confirm
 	
 # 	is_shown = {
-# 		has_primary_title = title:e_numenor
+# 		OR = {
+#			has_primary_title = title:e_numenor
+#			has_primary_title = title:h_numenor
+#		}
 # 		is_landed = yes
 # 		NOT = {
 # 			is_target_in_global_variable_list = {
