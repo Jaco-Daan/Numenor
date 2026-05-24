@@ -108,12 +108,12 @@
  decision_expedition_anarike_confirm: "Placeholder"
  decision_expedition_anarike: "Placeholder"
 
- decision_end_numenor_isolation: "End Númenor Isolated"
- decision_end_numenor_isolation_desc: "Since the days of judgement, we have sworn never again to repeat the sins of our forefathers. It was, we said, the sailing to Middle-earth that was the beginning of our ruin, of our pride and greed grown beyond salvation. Thus by royal edict it was decreed that none could sail so far they could not see the isle, on pain on death.\n\nYet increasingly a movement has begun to grow that our sin was not in the going but the staying - when we no longer went to Middle-earth as visitors, teachers, and friends, but as settlers and lords. Did Numenor not do great good in the days before then? Spreading knowledge, teaching others, fighting Sauron? So too do some argue that the ban should be repealed, that we go out into the world once more to do good - for is that not better a penance than self-flagellation, the world deprived of all the good we might do?"
- decision_end_numenor_isolation_confirm: "$decision_end_numenor_isolation$"
+ decision_end_numenor_isolation: "End the Isolation of Númenor"
+ decision_end_numenor_isolation_desc: "Since the days of judgement, we have sworn never again to repeat the sins of our forefathers. It was, we said, the sailing to [middleearth|E] that was the beginning of our ruin, of our pride and greed grown beyond salvation. Thus by royal edict it was decreed that none could sail so far they could not see the isle, on pain on death.\n\nYet increasingly a movement has begun to grow that our sin was not in the going but the staying - when we no longer went to Middle-earth as visitors, teachers, and friends, but as settlers and lords. Did [numenor|E] not do great good in the days before then? Spreading knowledge, teaching others, fighting [sauroncharacter|E]? So too do some argue that the ban should be repealed, that we go out into the world once more to do good - for is that not better a penance than self-flagellation, the world deprived of all the good we might do?"
+ decision_end_numenor_isolation_confirm: "We shall return to Middle-earth!"
  decision_end_numenor_isolation_tooltip: "$decision_end_numenor_isolation$"
- decision_end_numenor_isolation.tt: "Ends the Númenor Isolated"
- decision_end_numenor_isolation.valid.tt: "All members of the council of the sceptre are convinced"
+ decision_end_numenor_isolation.tt: "Númenor loses the $situation_numenor_situation$ [situation|E]"
+ decision_end_numenor_isolation.valid.tt: "All members of the Council of the Sceptre are convinced"
 
  decision_restore_numenor_province_title: ""
  decision_restore_numenor_province_desc: "Over the centuries, the [realms_in_exile|E] have declined and lost many of their former territories. If we were to reclaim them, we could once again solidify our rule and integrate these regions into our [de_jure|E]. Perhaps we could even consolidate some new regions, which we previously only ruled in name alone."
