@@ -76,9 +76,7 @@ noldor = {
 		exists = capital_county
 		NOR = {
 			culture = culture:galadhrim
-  			culture = { any_parent_culture_or_above = { this = culture:galadhrim } }
   			culture = culture:lasgalendrim
-  			culture = { any_parent_culture_or_above = { this = culture:lasgalendrim } }
 			has_moriquendi_court_illustration_trigger = yes
 		}
 		has_noldor_court_illustration_trigger = yes
@@ -91,12 +89,23 @@ moriquendi = {
 		exists = capital_county
 		OR = {
 			culture = culture:galadhrim
-  			culture = { any_parent_culture_or_above = { this = culture:galadhrim } }
   			culture = culture:lasgalendrim
-  			culture = { any_parent_culture_or_above = { this = culture:lasgalendrim } }
 			has_moriquendi_court_illustration_trigger = yes
 		}
-		
+		has_lothlorien_court_illustration_trigger = no
+	}
+}
+
+lothlorien = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		OR = {
+			culture = culture:galadhrim
+  			culture = culture:lasgalendrim
+			has_moriquendi_court_illustration_trigger = yes
+		}	
+		has_lothlorien_court_illustration_trigger = yes
 	}
 }
 
@@ -212,12 +221,10 @@ pentos_court = { # Thani-Hazad courtroom, courtesy of White Wolf of the Whills f
 		has_ep3_dlc_trigger = yes
 		OR = {
 			culture = culture:anarikean
-			culture = { any_parent_culture_or_above = { this = culture:anarikean } }
 			AND = {
 				has_adunai_court_illustration_trigger = yes
 				OR = {
 					culture = culture:kharadunaim
-					culture = { any_parent_culture_or_above = { this = culture:kharadunaim } }
 					culture = culture:south_adunai_colonial
 					culture = culture:east_adunai_colonial
 				}
@@ -233,15 +240,10 @@ lys_court = { # Bellakar courtroom, courtesy of White Wolf of the Whills from AG
 		has_ep3_dlc_trigger = yes
 		OR = {
 			culture = culture:bellanarud
-  			culture = { any_parent_culture_or_above = { this = culture:bellanarud } }
 			culture = culture:bellakarani
-  			culture = { any_parent_culture_or_above = { this = culture:bellakarani } }
 			culture = culture:bellakaze
-  			culture = { any_parent_culture_or_above = { this = culture:bellakaze } }
 			culture = culture:felayan
-  			culture = { any_parent_culture_or_above = { this = culture:felayan } }
 			culture = culture:mardrukan
-  			culture = { any_parent_culture_or_above = { this = culture:mardrukan } }
 		}
 		has_adunai_court_illustration_trigger = yes
 	}
@@ -252,10 +254,7 @@ myr_court = { # Tanturaki courtroom, courtesy of White Wolf of the Whills from A
 		NOT = { government_has_flag = government_is_nomadic }
 		exists = capital_county
 		has_ep3_dlc_trigger = yes
-		OR = {
-			culture = culture:tanturaki
-			culture = { any_parent_culture_or_above = { this = culture:tanturaki } }
-		}
+		culture = culture:tanturaki
 		has_adunai_court_illustration_trigger = yes
 	}
 }
@@ -267,9 +266,7 @@ tyrosh_court = { # Umbar courtroom, courtesy of White Wolf of the Whills from AG
 		has_ep3_dlc_trigger = yes
 		OR = {
 			culture = culture:umbarean
-  			culture = { any_parent_culture_or_above = { this = culture:umbarean } }
 			culture = culture:old_umbarean
-  			culture = { any_parent_culture_or_above = { this = culture:old_umbarean } }
 			culture = culture:black_numenorean
 		}
 		has_adunai_court_illustration_trigger = yes
@@ -281,10 +278,7 @@ braavos_court = { # Anbalukkhori courtroom, courtesy of White Wolf of the Whills
 		NOT = { government_has_flag = government_is_nomadic }
 		exists = capital_county
 		has_ep3_dlc_trigger = yes
-		OR = {
-			culture = culture:anbalukkhori
-			culture = { any_parent_culture_or_above = { this = culture:anbalukkhori } }
-		}
+		culture = culture:anbalukkhori
 		has_adunai_court_illustration_trigger = yes
 	}
 }
