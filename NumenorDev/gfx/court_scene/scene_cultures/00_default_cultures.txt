@@ -1,9 +1,9 @@
 ﻿byzantine = {
 	trigger = {
-		NOT = {
-			government_has_flag = government_is_nomadic
-		}
-		has_ep3_dlc_trigger = yes
+		# NOT = { #LotR
+		# 	government_has_flag = government_is_nomadic
+		# }
+		# has_ep3_dlc_trigger = yes #LotR
 		# OR = { #LotR
 		# 	capital_county ?= title:c_byzantion
 		# 	primary_title ?= title:e_byzantium
@@ -25,28 +25,29 @@
 		# 	}
 		# 	NOT = { primary_title ?= title:h_china }
 		# }
-		NOR = { #LotR
-			culture = culture:kharadunaim
-			culture = { any_parent_culture_or_above = { this = culture:kharadunaim } }
-			culture = culture:bellanarud
-  			culture = { any_parent_culture_or_above = { this = culture:bellanarud } }
-			culture = culture:bellakarani
-  			culture = { any_parent_culture_or_above = { this = culture:bellakarani } }
-			culture = culture:bellakaze
-  			culture = { any_parent_culture_or_above = { this = culture:bellakaze } }
-			culture = culture:felayan
-  			culture = { any_parent_culture_or_above = { this = culture:felayan } }
-			culture = culture:mardrukan
-  			culture = { any_parent_culture_or_above = { this = culture:mardrukan } }
-			culture = culture:tanturaki
-  			culture = { any_parent_culture_or_above = { this = culture:tanturaki } }
-			culture = culture:umbarean
-  			culture = { any_parent_culture_or_above = { this = culture:umbarean } }
-			culture = culture:anbalukkhori
-  			culture = { any_parent_culture_or_above = { this = culture:anbalukkhori } }
-			culture = culture:black_numenorean
-		}
-		has_adunai_court_illustration_trigger = yes #LotR
+		# NOR = { #LotR
+		# 	culture = culture:kharadunaim
+		# 	culture = { any_parent_culture_or_above = { this = culture:kharadunaim } }
+		# 	culture = culture:bellanarud
+		# 	culture = { any_parent_culture_or_above = { this = culture:bellanarud } }
+		# 	culture = culture:bellakarani
+		# 	culture = { any_parent_culture_or_above = { this = culture:bellakarani } }
+		# 	culture = culture:bellakaze
+		# 	culture = { any_parent_culture_or_above = { this = culture:bellakaze } }
+		# 	culture = culture:felayan
+		# 	culture = { any_parent_culture_or_above = { this = culture:felayan } }
+		# 	culture = culture:mardrukan
+		# 	culture = { any_parent_culture_or_above = { this = culture:mardrukan } }
+		# 	culture = culture:tanturaki
+		# 	culture = { any_parent_culture_or_above = { this = culture:tanturaki } }
+		# 	culture = culture:umbarean
+		# 	culture = { any_parent_culture_or_above = { this = culture:umbarean } }
+		# 	culture = culture:anbalukkhori
+		# 	culture = { any_parent_culture_or_above = { this = culture:anbalukkhori } }
+		# 	culture = culture:black_numenorean
+		# }
+		# has_adunai_court_illustration_trigger = yes #LotR
+		always = no #LotR
 	}
 }
 
@@ -64,8 +65,12 @@ mediterranean = {
 				}
 				title_province = { steppe_building_gfx_use_mediterranean_trigger = yes }
 			}
-			NOT = { #LotR
+			NOR = { #LotR
 				culture = { has_cultural_tradition = tradition_dorwinion_vineyards }
+				culture = { has_cultural_pillar = heritage_dunedain }
+				culture = { has_cultural_pillar = heritage_northern_adunaic }
+				culture = { has_cultural_pillar = heritage_southern_adunaic }
+				culture = { has_cultural_pillar = heritage_eastern_adunaic }
 			}
 			NOR = { #Numenor Sub-mod
 				culture = culture:numenorean
@@ -187,11 +192,13 @@ mena = {
 									this = { any_parent_culture_or_above = { this = culture:anarikean } }
 									this = culture:south_adunai_colonial
 									this = culture:east_adunai_colonial
+									this = culture:umbarean
+									this = culture:old_umbarean
 									this = culture:black_numenorean
 								}
 							}
-							this = culture:sagath
-							this = { any_parent_culture_or_above = { this = culture:sagath } }
+							this = culture:gargath
+							this = { any_parent_culture_or_above = { this = culture:gargath } }
 							this = culture:logath
 							this = { any_parent_culture_or_above = { this = culture:logath } }
 						}
@@ -199,11 +206,33 @@ mena = {
 					AND = {
 						culture = {
 							has_graphical_steppe_culture_group_trigger = yes
+							NOR = { #LotR
+								AND = {
+									has_ep3_dlc_trigger = yes
+									OR = {
+										this = culture:tanturaki
+										this = { any_parent_culture_or_above = { this = culture:tanturaki } }
+										this = culture:kharadunaim
+										this = { any_parent_culture_or_above = { this = culture:kharadunaim } }
+										this = culture:anarikean
+										this = { any_parent_culture_or_above = { this = culture:anarikean } }
+										this = culture:south_adunai_colonial
+										this = culture:east_adunai_colonial
+										this = culture:umbarean
+										this = culture:old_umbarean
+										this = culture:black_numenorean
+									}
+								}
+								this = culture:gargath
+								this = { any_parent_culture_or_above = { this = culture:gargath } }
+								this = culture:logath
+								this = { any_parent_culture_or_above = { this = culture:logath } }
+							}
 						}
 						title_province = {
 							steppe_building_gfx_use_mediterranean_trigger = no
 							steppe_building_gfx_use_indian_trigger = no
-							steppe_building_gfx_use_western_trigger = no
+							#steppe_building_gfx_use_western_trigger = no #LotR
 							steppe_building_gfx_use_east_asian_trigger = no
 							steppe_building_gfx_use_japanese_trigger = no
 							steppe_building_gfx_use_southeast_asian_trigger = no
@@ -233,11 +262,13 @@ mena = {
 									this = { any_parent_culture_or_above = { this = culture:anarikean } }
 									this = culture:south_adunai_colonial
 									this = culture:east_adunai_colonial
+									this = culture:umbarean
+									this = culture:old_umbarean
 									this = culture:black_numenorean
 								}
 							}
-							this = culture:sagath
-							this = { any_parent_culture_or_above = { this = culture:sagath } }
+							this = culture:gargath
+							this = { any_parent_culture_or_above = { this = culture:gargath } }
 							this = culture:logath
 							this = { any_parent_culture_or_above = { this = culture:logath } }
 						}
@@ -245,7 +276,7 @@ mena = {
 					title_province = {
 						steppe_building_gfx_use_mediterranean_trigger = no
 						steppe_building_gfx_use_indian_trigger = no
-						steppe_building_gfx_use_western_trigger = no
+						#steppe_building_gfx_use_western_trigger = no #LotR
 						steppe_building_gfx_use_east_asian_trigger = no
 						steppe_building_gfx_use_japanese_trigger = no
 						steppe_building_gfx_use_southeast_asian_trigger = no
@@ -279,11 +310,13 @@ mena = {
 								this = { any_parent_culture_or_above = { this = culture:anarikean } }
 								this = culture:south_adunai_colonial
 								this = culture:east_adunai_colonial
+								this = culture:umbarean
+								this = culture:old_umbarean
 								this = culture:black_numenorean
 							}
 						}
-						this = culture:sagath
-						this = { any_parent_culture_or_above = { this = culture:sagath } }
+						this = culture:gargath
+						this = { any_parent_culture_or_above = { this = culture:gargath } }
 						this = culture:logath
 						this = { any_parent_culture_or_above = { this = culture:logath } }
 					}
@@ -342,8 +375,17 @@ western = {
 			OR = {
 				culture = { has_graphical_western_culture_group_trigger = yes }
 				culture = { has_graphical_norse_culture_group_trigger = yes }
-				title_province = { steppe_building_gfx_use_western_trigger = yes }
+				#title_province = { steppe_building_gfx_use_western_trigger = yes } #LotR
 			}
+			NOR = { #LotR
+				culture = {
+					this = culture:gargath
+					this = { any_parent_culture_or_above = { this = culture:gargath } }
+					this = culture:logath
+					this = { any_parent_culture_or_above = { this = culture:logath } }
+				}
+			}	
+			NOT = { culture = { has_cultural_tradition = tradition_the_people_of_the_plains_old } } #LotR
 		}
 		# trigger_if = { #LotR
 		# 	limit = {
