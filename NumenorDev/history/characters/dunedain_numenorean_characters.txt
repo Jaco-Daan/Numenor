@@ -1081,7 +1081,7 @@ lineofelros29 = { # Silmariën, wife of Elatan
 	}
 
 	1524.1.1 = {
-		death = { death_reason = death_natural_causes }
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
@@ -2656,7 +2656,7 @@ lineofelatan1 = {
 	}
 
 	1523.1.1 = {
-		death = { death_reason = death_natural_causes }
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
@@ -2678,7 +2678,7 @@ lineofelatan2 = {
 	}
 
 	1624.1.1 = {
-		death = { death_reason = death_natural_causes }
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
@@ -2699,7 +2699,7 @@ lineofelatan3 = {
 	}
 
 	1771.1.1 = {
-		death = { death_reason = death_natural_causes }
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
@@ -2720,7 +2720,7 @@ lineofelatan4 = {
 	}
 
 	1913.1.1 = {
-		death = { death_reason = death_natural_causes }
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
@@ -2741,7 +2741,7 @@ lineofelatan5 = {
 	}
 
 	2071.1.1 = {
-		death = { death_reason = death_natural_causes }
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
@@ -2762,7 +2762,7 @@ lineofelatan6 = {
 	}
 
 	2275.1.1 = {
-		death = { death_reason = death_natural_causes }
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
@@ -2783,7 +2783,7 @@ lineofelatan7 = {
 	}
 
 	2413.1.1 = {
-		death = { death_reason = death_natural_causes }
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
@@ -2804,7 +2804,7 @@ lineofelatan8 = {
 	}
 
 	2673.1.1 = {
-		death = { death_reason = death_natural_causes }
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
