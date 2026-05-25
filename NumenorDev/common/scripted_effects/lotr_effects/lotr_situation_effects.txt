@@ -339,7 +339,6 @@ remove_excess_hope_effect = {
 	}
 }
 
-
 remove_excess_hope_sub_region_effect = {
 	if = {
 		limit = {
@@ -2500,7 +2499,7 @@ set_historical_hope_effect = { # Fired on game start
 		}
 		situation_sub_region:numenor = { # Numenor Submod
 			set_variable = {
-				name = mordor_hope_value
+				name = numenor_hope_value
 				value = 100
 			}
 		}
