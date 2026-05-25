@@ -88,6 +88,11 @@
 		special_building_slot = wonder_calmindon_01
 		special_building = wonder_calmindon_01
 	}
+	6976.1.1 = {
+		effect = {
+			add_great_building = lotr_great_fleet_01
+		}
+	}
 }
 
 ## Romenna ##
@@ -116,10 +121,16 @@
 			common_tradeport_08
 		}
 		effect = {
-			add_great_building = lotr_great_citadel_03
+			add_great_building = lotr_great_fleet_02
 		}
 		special_building_slot = wonder_romenna_01
 		special_building = wonder_romenna_02
+	}
+	6976.1.1 = {
+		effect = {
+			remove_building = lotr_great_fleet_02
+			add_great_building = lotr_great_fleet_03
+		}
 	}
 }
 6136 = {	#Hallas (b_hallas)
