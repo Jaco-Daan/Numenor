@@ -1163,7 +1163,7 @@ add_elven_hope_global_effect = {
 	situation:elven_hope_situation = { # Numenor Submod
 		every_situation_sub_region = {
 			limit = { has_variable = numenor_hope_value }
-			save_scope_as = mordor_situation
+			save_scope_as = numenor_situation
 		}
 	}
 	
