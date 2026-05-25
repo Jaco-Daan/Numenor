@@ -4605,6 +4605,7 @@ c_elorna = {
 	4002.1.1 = {
 		holder = lineofkhorandor3
 		government = feudal_government
+		change_development_level = 16
 	}
 	4138.1.1 = {
 		holder = lineofkhorandor4
