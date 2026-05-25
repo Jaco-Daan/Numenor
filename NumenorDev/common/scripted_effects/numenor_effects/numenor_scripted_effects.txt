@@ -6,21 +6,21 @@
 }
 
 numenor_elros_history_changes_effect = {
-	character:lineofelros7 = { set_mother = character:mablung11 }
-	character:lineofelros71 = { set_house = character:lineofagathor_ns1.house }
-	character:lineofelros72 = {
+	character:lineofelros7 ?= { set_mother = character:mablung11 }
+	character:lineofelros71 ?= { set_house = character:lineofagathor_ns1.house }
+	character:lineofelros72 ?= {
 		set_house = character:lineofagathor_ns1.house
 		set_father = character:lineofagathor_ns6
 	}
-	character:lineofelros73 = { set_house = character:lineofagathor_ns1.house }
+	character:lineofelros73 ?= { set_house = character:lineofagathor_ns1.house }
 }
 
 numenor_vardur_history_changes_effect = {
-	character:lineofvardur3 = { set_house = house:dynasty_vardurionath }
+	character:lineofvardur3 ?= { set_house = house:dynasty_vardurionath }
 }
 
 numenor_elatan_history_changes_effect = {
-	character:lineofelatan21 = {
+	character:lineofelatan21 ?= {
 		set_house = character:lineofelros83.house
 		set_father = character:lineofelros83
 	}
@@ -28,76 +28,76 @@ numenor_elatan_history_changes_effect = {
 
 numenor_borodiriath_history_changes_effect = {
 
-	character:lineborodiriath28 = {
+	character:lineborodiriath28 ?= {
 		set_father = character:lineborodiriath26
 		set_mother = character:lineborodiriath27
 	}
 
-	character:lineborodiriath28 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath30 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath32 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath34 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath36 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath38 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath40 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath42 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath44 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath46 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath48 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath50 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath52 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath54 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath56 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath58 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath59 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath60 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath61 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath63 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath65 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath67 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath69 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath71 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath73 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath75 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath77 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath79 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath81 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath82 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath84 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath85 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath86 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath88 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath89 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath90 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath92 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath93 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath94 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath96 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath97 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath98 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath99 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath100 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath102 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath104 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath106 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath108 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath110 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath111 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath112 = { set_house = house:dynasty_bordirurecadet }
-	character:lineborodiriath113 = { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath28 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath30 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath32 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath34 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath36 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath38 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath40 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath42 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath44 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath46 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath48 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath50 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath52 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath54 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath56 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath58 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath59 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath60 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath61 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath63 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath65 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath67 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath69 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath71 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath73 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath75 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath77 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath79 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath81 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath82 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath84 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath85 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath86 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath88 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath89 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath90 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath92 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath93 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath94 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath96 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath97 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath98 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath99 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath100 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath102 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath104 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath106 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath108 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath110 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath111 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath112 ?= { set_house = house:dynasty_bordirurecadet }
+	character:lineborodiriath113 ?= { set_house = house:dynasty_bordirurecadet }
 }
 
 define_numenor_resources = { # Setup resources on Numenor
-	title:b_sorontil.title_province = {
+	title:b_sorontil.title_province ?= {
 		add_province_modifier = mining_mithril_province_modifier
 	}
-	title:b_imrarat.title_province = {
+	title:b_imrarat.title_province ?= {
 		add_province_modifier = mining_silver_province_modifier
 	}
-	title:b_azrayat.title_province = {
+	title:b_azrayat.title_province ?= {
 		add_province_modifier = mining_iron_province_modifier
 	}
-	title:b_anariova.title_province = {
+	title:b_anariova.title_province ?= {
 		add_province_modifier = mining_sapphire_province_modifier
 	}
 }

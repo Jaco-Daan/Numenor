@@ -2,7 +2,7 @@
 
 numenor_fire_intro_events = {
 	#effect to remove claim from khorahil
-	character:nazgul5 = {
+	character:nazgul5 ?= {
 		if = {
 			limit = {
 				is_alive = yes
@@ -15,7 +15,7 @@ numenor_fire_intro_events = {
 	}
 
 	#effect to remove claim from witch king
-	character:nazgul1 = {
+	character:nazgul1 ?= {
 		if = {
 			limit = {
 				is_alive = yes
@@ -28,7 +28,7 @@ numenor_fire_intro_events = {
 	}
 
 	#Ar-Balkazir's Introduction Event
-	character:lineofelros114 = {
+	character:lineofelros114 ?= {
 		if = {
 			limit = {
 				is_alive = yes
@@ -41,7 +41,7 @@ numenor_fire_intro_events = {
 	}
 	
 	#Ciryandur's Introduction Event
-	character:dolamrothsubmod9 = {
+	character:dolamrothsubmod9 ?= {
 		if = {
 			limit = {
 				is_alive = yes
@@ -54,7 +54,7 @@ numenor_fire_intro_events = {
 	}
 	
 	#Eldarion's Introduction Event
-	character:lineofelatan43 = {
+	character:lineofelatan43 ?= {
 		if = {
 			limit = {
 				is_alive = yes
@@ -67,7 +67,7 @@ numenor_fire_intro_events = {
 	}
 	
 	#Zorzagar's Introduction Event
-	character:lineofvardur26 = {
+	character:lineofvardur26 ?= {
 		if = {
 			limit = {
 				is_alive = yes
@@ -80,7 +80,7 @@ numenor_fire_intro_events = {
 	}
 	
 	#Niluben's Introduction Event
-	character:lineofciryandur34 = {
+	character:lineofciryandur34 ?= {
 		if = {
 			limit = {
 				is_alive = yes
@@ -93,7 +93,7 @@ numenor_fire_intro_events = {
 	}
 
 	#Gimilzagar's introduction event
-	character:lineofciryamir30 = {
+	character:lineofciryamir30 ?= {
 		if = {
 			limit = {
 				is_alive = yes
