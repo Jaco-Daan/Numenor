@@ -2936,3 +2936,61 @@ d_adunai = {
 	}
 
 }
+
+c_uinen ={
+	pattern="pattern_solid.dds"
+	color1=evil_grey_2
+	color2=offwhite
+	color3=evil_grey_3
+	colored_emblem={
+		color1=white
+		color2=rgb { 0 18 35 }
+		texture="cc_d_ninabe_e_a.dds"
+		instance={
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=offwhite
+		color2=rgb { 0 18 35 }
+		color3=evil_metallic_grey_1
+		texture="ce_edain_frame_two_color_tulip.dds"
+		instance={
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=offwhite
+		color2=frost_blue
+		color3=white
+		texture="ce_dol_amroth_07.dds"
+		instance={
+			scale={ 0.500000 0.500000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=black
+		color3=black
+		texture="andunie_tower_01.dds"
+		instance={
+			position={ 0.250000 0.500000 }
+			scale={ 0.250000 0.250000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.750000 0.500000 }
+			scale={ 0.250000 0.250000 }
+			depth=2.010000
+		}
+
+	}
+
+}
