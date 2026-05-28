@@ -6945,8 +6945,10 @@ restore_gondor_cb = { # Liberation of Gondor cb
 	attacker_ticking_warscore = 0.15
 	attacker_wargoal_percentage = 0.5
 	defender_wargoal_percentage = 0.5
-	attacker_score_from_battles_scale = 80
-	defender_score_from_battles_scale = 50
+	attacker_score_from_battles_scale = 25
+	defender_score_from_battles_scale = 25
+    attacker_score_from_occupation_scale = 33
+    defender_score_from_occupation_scale = 33
 	landless_attacker_needs_armies = yes
 	full_occupation_by_attacker_gives_victory = yes
 

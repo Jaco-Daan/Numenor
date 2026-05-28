@@ -145,9 +145,6 @@
 						has_realm_law_flag = vassal_all_wars_banned_permanent
 						this != scope:actor
 					}
-					NOT = {
-						culture = { has_cultural_parameter = internal_wars_always_allowed } #LOTR
-					}
 				}
 				custom_tooltip = {
 					text = admin_all_vassal_wars_banned

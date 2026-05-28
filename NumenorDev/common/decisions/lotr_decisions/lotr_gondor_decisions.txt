@@ -186,7 +186,7 @@ decision_claim_gondor_kingship = { # Allows native Gondorians to restore the Kin
 				}
 				desc = decision_claim_gondor_kingship_stewards_desc
 			}
-		desc = decision_claim_gondor_kingship_desc
+			desc = decision_claim_gondor_kingship_desc
 		}
 	}
 

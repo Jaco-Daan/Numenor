@@ -466,6 +466,14 @@ is_maiar_culture = {
 	}
 }
 
+is_good_maiar = {
+	culture ?= { has_cultural_parameter = is_ainur_heritage }
+}
+
+is_good_maiar_culture = {
+	this = { has_cultural_parameter = is_ainur_heritage }
+}
+
 is_valinor_maiar_character = {
 	NAND = { 
 		this = character:lineofsaruman

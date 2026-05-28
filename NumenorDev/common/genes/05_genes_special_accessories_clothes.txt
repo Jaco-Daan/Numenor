@@ -688,7 +688,7 @@ special_genes = {
 			numenorean_war_clothes = {#byzantine proxy #Numenor Submod
 				index = 32
 
-				male = { 
+				male = { #Numenor Submod
 					2 = male_clothes_numenor_war_01
 					2 = male_clothes_numenor_war_02
 					1 = male_clothes_secular_numenor_war_religious_phazan_01

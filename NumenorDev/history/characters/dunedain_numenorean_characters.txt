@@ -908,7 +908,7 @@ lineofelros25 = {
 	culture = numenorean
 
 	father = lineofelros24
-	mother = lineofelatan21
+	mother = lineofelros83a1
 
 	trait = compassionate
 	trait = generous
@@ -991,7 +991,7 @@ lineofelros27 = {
 	culture = numenorean
 
 	father = lineofelros24
-	mother = lineofelatan21
+	mother = lineofelros83a1
 
 	trait = callous
 	trait = ambitious
@@ -2568,6 +2568,36 @@ lineofelros84 = {
 	}
 }
 
+lineofelros83a1 = {
+	name = Inzilbe_e_th
+	female = yes
+
+	dynasty = dynasty_elros
+	religion = faith_numenorean
+	culture = numenorean
+
+	father = lineofelros83
+	mother = lineofelatan20
+
+	trait = humble
+	trait = patient
+	trait = just
+
+	trait = education_intrigue_4
+	trait = intellect_good_2
+	trait = lifestyle_mariner
+	trait = born_on_numenor
+	trait = blood_of_numenor_9
+
+	3530.1.1 = {
+		birth = yes
+	}
+
+	3782.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
 lineofelros85 = {
 	name = Uruda_a_ru_u_n
 
@@ -3114,39 +3144,6 @@ lineofelatan20 = { # Lindórië, mother of Inzilbeth the wife of Ar-Gimilzôr
 	3681.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
-}
-
-lineofelatan21 = {
-	name = Inzilbe_e_th 				
-	dynasty_house = house_andunie				
-	religion = faith_numenorean				
-	culture = numenorean				
-
-	female = yes			
-
-	father = lineofelros83
-	mother = lineofelatan20
-
-	trait = humble
-	trait = patient
-	trait = just
-
-	trait = education_intrigue_4
-	trait = intellect_good_2
-	trait = lifestyle_mariner
-	trait = born_on_numenor
-	trait = blood_of_numenor_9
-
-	3560.1.1 = {				
-		birth = yes	
-		
-	}				
-	3612.1.1 = {				
-		add_spouse = lineofelros24 # Gimilzôr			
-	}				
-	3798.1.1 = {				
-		death = { death_reason = death_natural_causes } 			
-	}	
 }
 
 ############################

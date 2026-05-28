@@ -6682,7 +6682,7 @@ sailing.3304 = {
 	}
 	right_portrait = {
 		character = scope:mutiny_leader
-		animation = callous
+		animation = personality_callous
 	}
 
 	immediate = {
@@ -18421,7 +18421,7 @@ sailing.5207 = { # Border of the Woodland realm - Raft-elves
 		}
 	}
 	trigger = { title:k_lasgalen.holder = { is_elf = yes } }
-	on_trigger_fail = { trigger_event = { id = sailing.9001 days = 15 } }
+	on_trigger_fail = { trigger_event = { id = sailing.9001 days = 15 } } # Aerien note: make an event for this edge case
 	immediate = {
 		hidden_effect = {
 			create_character = {

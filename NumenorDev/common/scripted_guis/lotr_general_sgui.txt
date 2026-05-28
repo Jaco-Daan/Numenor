@@ -85,7 +85,7 @@ set_title_as_selected = {
 
 	effect = {
 		if = {
-			limit = { 
+			limit = {
 				NOT = {
 					any_in_global_list = {
 						variable = selected_titles_wastelands
@@ -101,9 +101,9 @@ set_title_as_selected = {
 			if = {
 				limit = { root.tier = tier_empire }
 				every_in_de_jure_hierarchy = {
-					limit = { 
+					limit = {
 						OR = {
-							tier = tier_kingdom 
+							tier = tier_kingdom
 							tier = tier_duchy
 						}
 					}
@@ -177,9 +177,9 @@ set_title_as_selected = {
 			if = {
 				limit = { root.tier = tier_empire }
 				every_in_de_jure_hierarchy = {
-					limit = { 
+					limit = {
 						OR = {
-							tier = tier_kingdom 
+							tier = tier_kingdom
 							tier = tier_duchy
 						}
 					}
@@ -273,13 +273,13 @@ set_empire_to_wastelands = {
 				limit = { scope:selected_empire.tier = tier_empire }
 				every_de_jure_county = {
 					duchy.kingdom = {
-						remove_list_variable = { 
-							name = de_jure_kingdoms 
-							target = this 
+						remove_list_variable = {
+							name = de_jure_kingdoms
+							target = this
 						}
 					}
 				}
-	
+
 				remove_list_global_variable = {
 					name = all_empires_in_game
 					target = scope:selected_empire
@@ -289,7 +289,7 @@ set_empire_to_wastelands = {
 				limit = { scope:selected_empire.tier = tier_kingdom }
 				empire = {
 					remove_list_variable = {
-						name = de_jure_kingdoms 
+						name = de_jure_kingdoms
 						target = scope:selected_empire
 					}
 				}
@@ -391,9 +391,9 @@ canon_regions = {
 				if = {
 					limit = { this.tier = tier_empire }
 					every_in_de_jure_hierarchy = {
-						limit = { 
+						limit = {
 							OR = {
-								tier = tier_kingdom 
+								tier = tier_kingdom
 								tier = tier_duchy
 							}
 						}
@@ -415,7 +415,7 @@ clear_selected_titles = {
 			limit = {
 				has_global_variable_list = selected_titles_wastelands
 			}
-			
+
 			global_variable_list_size = {
 				name = selected_titles_wastelands
 				value > 0
@@ -439,7 +439,8 @@ set_wastelands_to_colonisable = {
 		if = {
 			limit = { exists = global_var:wastelands_colonisable }
 			remove_global_variable = wastelands_colonisable
-		} else = {
+		}
+		else = {
 			set_global_variable = wastelands_colonisable
 		}
 	}
@@ -548,7 +549,7 @@ lotr_cannot_play_as_wilderness_or_valinor_adventurer = {
 				text = "GAME_OVER_CANNOT_PLAY_VALINOR"
 				scope:selected_ruler = {
 					any_held_title = {
-						NOR = { 
+						NOR = {
 							empire = title:e_valinor
 							this = title:k_alqualonde
 							this = title:k_tirion
@@ -582,7 +583,7 @@ can_become_primary_dwarven_titular = {
 	scope = title
 	is_shown = {
 		trigger_if = {
-			limit = { 
+			limit = {
 				holder ?= { has_dwarven_dynasty_title = yes }
 			}
 			is_dwarven_dynasty_title = yes
@@ -622,7 +623,7 @@ lotr_select_faith_patron = {
 			flag:ji_indur = { add_character_modifier = ji_indur_patron_god }
 			flag:ascuru_hudari = { add_character_modifier = ascuru_hudari_patron_god }
 		}
-		set_variable = { 
+		set_variable = {
 			name = selected_patron_god
 			years = 5
 		}
@@ -677,14 +678,14 @@ is_dwarf_father = {
 ##################
 
 is_landed_elf_gui = {
-	is_valid = { 
+	is_valid = {
 		is_elf = yes
 		is_ruler = yes
 	}
 }
 
 is_landed_elf_hope_icon_gui = {
-	is_valid = { 
+	is_valid = {
 		is_elf = yes
 		is_ruler = yes
 		NOT = {
@@ -694,7 +695,7 @@ is_landed_elf_hope_icon_gui = {
 				}
 				government_has_flag = government_is_holy_order
 			}
-			
+
 		}
 	}
 }
@@ -726,7 +727,7 @@ set_sub_region_focus = {
 			if = {
 				limit = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = lorien_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = root }
 						}
@@ -740,7 +741,7 @@ set_sub_region_focus = {
 			else_if = {
 				limit = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = lindon_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = root }
 						}
@@ -754,7 +755,7 @@ set_sub_region_focus = {
 			else_if = {
 				limit = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = kinnlai_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = root }
 						}
@@ -768,7 +769,7 @@ set_sub_region_focus = {
 			else_if = {
 				limit = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = greenwood_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = root }
 						}
@@ -782,7 +783,7 @@ set_sub_region_focus = {
 			else_if = {
 				limit = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = ormal_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = root }
 						}
@@ -796,7 +797,7 @@ set_sub_region_focus = {
 			else_if = {
 				limit = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = drel_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = root }
 						}
@@ -810,7 +811,7 @@ set_sub_region_focus = {
 			else_if = {
 				limit = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = sumarieth_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = root }
 						}
@@ -824,7 +825,7 @@ set_sub_region_focus = {
 			else_if = {
 				limit = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = haradwaith_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = root }
 						}
@@ -838,7 +839,7 @@ set_sub_region_focus = {
 			else_if = {
 				limit = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = nelornieth_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = root }
 						}
@@ -852,7 +853,7 @@ set_sub_region_focus = {
 			else_if = {
 				limit = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = rhovanion_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = root }
 						}
@@ -866,7 +867,7 @@ set_sub_region_focus = {
 			else_if = {
 				limit = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = mumakan_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = root }
 						}
@@ -880,7 +881,7 @@ set_sub_region_focus = {
 			else_if = {
 				limit = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = eriador_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = root }
 						}
@@ -894,7 +895,7 @@ set_sub_region_focus = {
 			else_if = {
 				limit = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = gondor_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = root }
 						}
@@ -908,7 +909,7 @@ set_sub_region_focus = {
 			else_if = {
 				limit = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = mordor_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = root }
 						}
@@ -952,7 +953,7 @@ set_sub_region_focus_external = {
 			limit = {
 				scope:character_scope = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = lorien_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = scope:character_scope }
 						}
@@ -968,7 +969,7 @@ set_sub_region_focus_external = {
 			limit = {
 				scope:character_scope = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = lindon_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = scope:character_scope }
 						}
@@ -984,7 +985,7 @@ set_sub_region_focus_external = {
 			limit = {
 				scope:character_scope = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = kinnlai_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = scope:character_scope }
 						}
@@ -1000,7 +1001,7 @@ set_sub_region_focus_external = {
 			limit = {
 				scope:character_scope = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = greenwood_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = scope:character_scope }
 						}
@@ -1016,7 +1017,7 @@ set_sub_region_focus_external = {
 			limit = {
 				scope:character_scope = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = ormal_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = scope:character_scope }
 						}
@@ -1032,7 +1033,7 @@ set_sub_region_focus_external = {
 			limit = {
 				scope:character_scope = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = drel_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = scope:character_scope }
 						}
@@ -1048,7 +1049,7 @@ set_sub_region_focus_external = {
 			limit = {
 				scope:character_scope = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = sumarieth_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = scope:character_scope }
 						}
@@ -1064,7 +1065,7 @@ set_sub_region_focus_external = {
 			limit = {
 				scope:character_scope = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = haradwaith_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = scope:character_scope }
 						}
@@ -1080,7 +1081,7 @@ set_sub_region_focus_external = {
 			limit = {
 				scope:character_scope = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = nelornieth_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = scope:character_scope }
 						}
@@ -1096,7 +1097,7 @@ set_sub_region_focus_external = {
 			limit = {
 				scope:character_scope = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = rhovanion_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = scope:character_scope }
 						}
@@ -1112,7 +1113,7 @@ set_sub_region_focus_external = {
 			limit = {
 				scope:character_scope = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = mumakan_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = scope:character_scope }
 						}
@@ -1128,7 +1129,7 @@ set_sub_region_focus_external = {
 			limit = {
 				scope:character_scope = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = eriador_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = scope:character_scope }
 						}
@@ -1144,7 +1145,7 @@ set_sub_region_focus_external = {
 			limit = {
 				scope:character_scope = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = gondor_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = scope:character_scope }
 						}
@@ -1160,7 +1161,7 @@ set_sub_region_focus_external = {
 			limit = {
 				scope:character_scope = {
 					any_character_situation = {
-						any_situation_sub_region = { 
+						any_situation_sub_region = {
 							has_variable = mordor_hope_value
 							any_situation_sub_region_participant_group = { participant_group_has_character = scope:character_scope }
 						}
@@ -1211,16 +1212,16 @@ lotr_debug_elven_hope_gain = {
 		if = {
 			limit = { is_elf = yes }
 			add_elven_hope_debug = yes
-		} 
+		}
 	}
 }
 
 lotr_debug_elven_hope_loss = {
-	effect = { 
+	effect = {
 		if = {
 			limit = { is_elf = yes }
 			subtract_elven_hope_debug = yes
-		} 
+		}
 	}
 }
 
@@ -1300,7 +1301,7 @@ lotr_elf_has_both_negotiate_alliances_perks = {
 			has_perk = home_advantage_perk
 			has_perk = defensive_negotiations_perk
 		}
-		trigger_else = { 
+		trigger_else = {
 			always = no
 		}
 	}
