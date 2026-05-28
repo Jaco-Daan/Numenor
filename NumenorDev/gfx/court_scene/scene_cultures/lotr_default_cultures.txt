@@ -76,9 +76,7 @@ noldor = {
 		exists = capital_county
 		NOR = {
 			culture = culture:galadhrim
-  			culture = { any_parent_culture_or_above = { this = culture:galadhrim } }
   			culture = culture:lasgalendrim
-  			culture = { any_parent_culture_or_above = { this = culture:lasgalendrim } }
 			has_moriquendi_court_illustration_trigger = yes
 		}
 		has_noldor_court_illustration_trigger = yes
@@ -91,12 +89,23 @@ moriquendi = {
 		exists = capital_county
 		OR = {
 			culture = culture:galadhrim
-  			culture = { any_parent_culture_or_above = { this = culture:galadhrim } }
   			culture = culture:lasgalendrim
-  			culture = { any_parent_culture_or_above = { this = culture:lasgalendrim } }
 			has_moriquendi_court_illustration_trigger = yes
 		}
-		
+		has_lothlorien_court_illustration_trigger = no
+	}
+}
+
+lothlorien = {
+	trigger = {
+		NOT = { government_has_flag = government_is_nomadic }
+		exists = capital_county
+		OR = {
+			culture = culture:galadhrim
+  			culture = culture:lasgalendrim
+			has_moriquendi_court_illustration_trigger = yes
+		}	
+		has_lothlorien_court_illustration_trigger = yes
 	}
 }
 
@@ -231,15 +240,10 @@ lys_court = { # Bellakar courtroom, courtesy of White Wolf of the Whills from AG
 		has_ep3_dlc_trigger = yes
 		OR = {
 			culture = culture:bellanarud
-  			culture = { any_parent_culture_or_above = { this = culture:bellanarud } }
 			culture = culture:bellakarani
-  			culture = { any_parent_culture_or_above = { this = culture:bellakarani } }
 			culture = culture:bellakaze
-  			culture = { any_parent_culture_or_above = { this = culture:bellakaze } }
 			culture = culture:felayan
-  			culture = { any_parent_culture_or_above = { this = culture:felayan } }
 			culture = culture:mardrukan
-  			culture = { any_parent_culture_or_above = { this = culture:mardrukan } }
 		}
 		has_adunai_court_illustration_trigger = yes
 	}
@@ -274,10 +278,7 @@ braavos_court = { # Anbalukkhori courtroom, courtesy of White Wolf of the Whills
 		NOT = { government_has_flag = government_is_nomadic }
 		exists = capital_county
 		has_ep3_dlc_trigger = yes
-		OR = {
-			culture = culture:anbalukkhori
-			culture = { any_parent_culture_or_above = { this = culture:anbalukkhori } }
-		}
+		culture = culture:anbalukkhori
 		has_adunai_court_illustration_trigger = yes
 	}
 }
