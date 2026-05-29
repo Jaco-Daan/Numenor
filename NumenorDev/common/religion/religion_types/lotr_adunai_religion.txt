@@ -312,6 +312,7 @@ adunai_religion = {
 			doctrine = doctrine_kinslaying_close_kin_crime
 			doctrine = doctrine_witchcraft_shunned
 			doctrine = doctrine_gender_male_dominated
+			doctrine = doctrine_monotheist
 		
 			localization = {
 				GoodGodNames = { eru_adunaic manwe_adunaic varda_adunaic vana_adunaic irmo_adunaic aule_adunaic este_adunaic ulmo_adunaic tulkas_adunaic nessa_adunaic orome_adunaic yavanna_adunaic }
