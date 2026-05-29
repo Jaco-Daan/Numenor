@@ -9,7 +9,7 @@ numenor_historical_artifacts.0001 = {
 	hidden = yes
 
 	immediate = {
-		## Númenor Submod ##
+		## Numenor Submod ##
 		if = {
 			limit = {
 				current_date >= 542.9.10

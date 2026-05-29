@@ -21218,7 +21218,7 @@ lineofbardirath61 = {
 ############################
 ### line of Telemniriath ###
 ############################
-#Sub lords of Sulaj Dar (and refuge for the faithful)
+#Sub lords of Sulaj Dar (and Refuge for the Faithful)
 
 lineoftelemniriath1 = {
     name = Telemnir

@@ -1,9 +1,9 @@
 ﻿l_english:
 
- ###############################
+ ################################
  #### Numenorean Reclamation ####
- ###############################
- 
+ ################################
+
  decision_reclaim_umbar_numenor: "Restore the Haven of Umbar" #AI PLACEHOLDER
  decision_recover_umbar_numenor_title: "The Restoration of Umbar" #AI PLACEHOLDER
  decision_reclaim_umbar_numenor_tooltip: "Restore the Great Haven of Umbar to the friendship of Númenor."
@@ -33,38 +33,38 @@
  decision_reclaim_harnen_numenor_tooltip: "Restore Númenórean stewardship over the Harnen." #AI PLACEHOLDER
  decision_reclaim_harnen_numenor_desc: "The Harnen was charted and named in the days of Tar-Aldarion. In ages past the river prospered beneath Númenórean stewardship, with thriving ports, flourishing commerce, and strong ties between the peoples of its shores. Over time those old bonds faded, and the region fell into disorder and division. We shall restore stability to the Harnen and renew the prosperity that once flowed along its waters." #AI PLACEHOLDER
  decision_reclaim_harnen_numenor_confirm: "The Harnen shall flourish once again." #AI PLACEHOLDER
- 
+
  hold_memorial_at_meneltarma_decision: "Hold a Memorial at the Meneltarma"
  hold_memorial_at_meneltarma_decision_title: "The Memorial to the Victims of Darkness"
  hold_memorial_at_meneltarma_decision_tooltip: "Hold a memorial at the Meneltarma"
  hold_memorial_at_meneltarma_decision_desc: "Every half a decade a memorial is held at the Meneltarma, our holiest ground, to remember the victims of the Mulkhêrhili lies which caused the Akallabêth, the Mulkhêrhili unwillingness to compromise which caused the First Númenorean Civil War and the Mulkhêrhili will to survive which caused the Second Númenorean Civil War. Each of those conflicts have been caused by the forces of darkness and while we have won, all have come at a cost, our people have suffered greatly and for them we hold this memorial."
  hold_memorial_at_meneltarma_decision_confirm: "Rest in peace, children of Númenor."
  hold_memorial_at_meneltarma_decision.tt: "Holds a memorial at the Meneltarma"
- 
+
  decision_deal_with_aa: "End the Pharazônioniath Threat"
  decision_deal_with_aa_title: "Exterminate the Pharazônioniath Lies"
  decision_deal_with_aa_tooltip: "Exterminate these pretenders to Anadûnê"
  decision_address_aa_tooltip: "Exterminate these pretenders to Anadûnê"
  decision_deal_with_aa_desc: "A few days ago our scouts reported pirate ships near our coasts and after a short struggle, we managed to capture one that has dared to go so close to our coast. They claim to be from an island realm called Ar-Adûnâim, where they worship Ar-Pharazôn. We can not allow for these insane cultists to tarnish the reputation of the Adûnai. The Council shall be informed, so that a quick decision can be made on how to deal with this mockery of Anadûnê."
  decision_deal_with_aa_confirm: "We shall deal with the Pharazônioniath."
- 
+
 #  decision_destroy_mordor: "Destroy Mordor"
 #  decision_destroy_mordor_tooltip: "Begin a great battle to destroy Sauron and Mordor once and for all"
 #  decision_destroy_mordor_desc: "Too long have we been on the defensive, barely managing to hold onto its lands while Mordor grew in strength. No longer! Let us end this, once and for all."
 #  decision_destroy_mordor_confirm: "It is time to end this."
 #  destroy_mordor_decision: "Launches a final war to destroy Mordor, and Sauron, once and for all"
- 
+
  decision_numenor_annex_korlea: "An Offer to Korlea"
  decision_numenor_annex_korlea_desc: "Korlea, once the mightiest harbor of Bellakar, now stands diminished — a half-sunken port whose ancient grandeur has slowly faded with the passing of centuries. Yet it was the Adûnai who first raised the city’s walls and harbors, and the legacy of Westernesse still endures there, for reports speak of a lord who has faithfully preserved the traditions and lineage of the Adûnaim.\n\nWe shall extend to him an offer: that Korlea withdraw from Bellakar and once more stand beside Númenor. In return, we shall send wealth, craftsmen, and manpower to restore the city, raising it anew as the seat of the [baitha|E] and the center of a renewed Pharazâin presence in Middle-earth.\n\nShould Korlea accept, the ancient harbor may again become a beacon of Adûnaic learning, trade, and remembrance, rather than a fading relic of forgotten glory." #AI PLACEHOLDER
  decision_numenor_annex_korlea_confirm: "We shall make them an offer they cannot refuse."
  decision_numenor_annex_korlea_tooltip: "Sends an offer of vassalization to Korlea"
- 
+
  decision_palantir_romenna: "The Palantír of Rómenna"
  decision_palantir_romenna_tooltip: "Use the ancient Palantír of Rómenna"
  decision_palantir_romenna_desc: "While for long we have wondered what this spherical object is, but now that our new scholars, brought by Ciryandur of Nísimaldar have identified it as a Palantír, one of the seeing stones, we have been struggling to utilize it. I have been informed that only a person of great will and wisdom may dare to use one, shall the mighty Ar- of Númenor dare use the Palantír?"
  decision_palantir_romenna_confirm: "We shall know the secrets of our enemies."
  decision_palantir_romenna_title: "The Palantír of Rómenna"
- 
+
  decision_numenor_invade_valinor_1: "The Second Great Armament"
  decision_numenor_invade_valinor_2: "The Third Great Armament"
  decision_numenor_invade_valinor_3: "The Fourth Great Armament"
@@ -78,30 +78,30 @@
  decision_numenor_invade_valinor_confirm: "Immortality awaits us!"
  decision_numenor_invade_valinor_tooltip: "We shall avenge the Akallabêth"
  decision_numenor_invade_valinor_effect: "Surely it will work this time?"
- 
+
  demand_ray_tributary: "An Ultimatum to the Dâr"
  demand_ray_tributary_desc: "In the days of Númenor’s greatest strength, the Bôzisha-Mîraz swore fealty to the Sceptre, not as subjects of a colony, but as allies and protectors beneath the authority of the High King of the Adûnaim, whom they named their Kralyi — their word for King. Through friendship with Westernesse, the Dâr prospered greatly, trading freely with the Númenórean havens and merchants of the Bay of Tûlwang.\n\nYet those days passed into memory. When tidings of the [akallabeth|E] reached their shores and Númenor vanished beneath the sea, the seven regents of the Dâr cast aside their fealty, believing the age of the Adûnaim at an end. In the centuries since, the bonds between our peoples have withered, and the prosperity once shared between us has faded.\n\nNow, however, the heirs of Anadûnê endure still. We shall offer the Dâr an opportunity to renew the friendship and alliance that once bound our realms together, and perhaps restore a measure of the greatness both our peoples knew in ages past." #AI PLACEHOLDER
  demand_ray_tributary_confirm: "I shall reclaim the mantle of Kralyi."
  demand_ray_tributary_tooltip: "Sends an ultimatum to Rây"
  demand_ray_tributary_tooltip_bellakar: "You have re-integrated [bellakar|E]"
  demand_ray_tributary_tooltip_thanihazad: "You have re-integrated [thanihazad|E]"
- 
+
  decision_numenor_league_of_pelargir: "The Status of Pelargir"
  decision_numenor_league_of_pelargir_desc: "Once the mouth of the Anduin was ruled from Pelargir, our most noble and proud colony in the area, located strategically between Umbar and Vinyalondë, from it our Empire profited greatly, thanks to the efforts of the Colonial Government established; The League of Pelargir. Now that we have reconquered Gondor, the nobles of Pelargir have brought a petition to Armenelos - to restore the League of Pelargir and the more autonomous old colonial system that once existed in Gondor in exchange for greater taxes and aid in spreading our faith in Gondor."
  decision_numenor_league_of_pelargir_confirm: "A decision shall be made."
  decision_numenor_league_of_pelargir_tooltip: "We shall decide the future of Pelargir"
  numenor_league_of_pelargir_decision: "The nobles of Pelargir will curry favour with Armenelos by adopting our faith"
- 
+
  decision_numenor_disband_council_of_sceptre: "Disband the Council of the Sceptre"
  decision_numenor_disband_council_of_sceptre_desc: "The Council of the Sceptre was founded by Elros to aid his reign by gathering the most noble and wise of the Adûnai to advise him. At first, the Council was advisory, a ceremonial yet prestigious part of the ruling of Númenor, however, with the rise of the King's Men, the Council began to gain more power, as more and more the Kings clung to their lives even after their vigour of mind had left them, their power often passed to the members of the Council and they would gain more power following the Akallabêth, the Council took advantage of the political crisis to support Prince Dâirabên's claim to the throne, and ever since they have held the final say on Númenor's foreign policy, but no more."
  decision_numenor_disband_council_of_sceptre_confirm: "I shall restore the Council to its ceremonial position"
  decision_numenor_disband_council_of_sceptre_tooltip: "You gain the power to dictate Númenor's foreign policy"
 
  decision_reclaim_minhiriath_numenor: "Reclaim the Oldest Colony"
- decision_reclaim_minhiriath_numenor_desc: "The first colonies of the great Númenórean Empire were in Eriador. Vinyalondë was founded by Aldarion in S.A. 1800 as our first haven in Middle Earth. Our colonies in Eriador proved to be useful during the invasion of Zigûr the Tyrant, where he was humiliated by our grand army. During the Akallabêth we lost contact with our glorious colony, and since recovering conctact, we have found that the Adûnai of Minhiriath have suffered much, reduced to petty rabbles, we will not allow this to continue. We will reclaim our dominion over Eriador."
+ decision_reclaim_minhiriath_numenor_desc: "The first colonies of the great Númenórean Empire were in Eriador. Vinyalondë was founded by Aldarion in S.A. 1800 as our first haven in Middle-earth. Our colonies in Eriador proved to be useful during the invasion of Zigûr the Tyrant, where he was humiliated by our grand army. During the Akallabêth we lost contact with our glorious colony, and since recovering conctact, we have found that the Adûnai of Minhiriath have suffered much, reduced to petty rabbles, we will not allow this to continue. We will reclaim our dominion over Eriador."
  decision_reclaim_minhiriath_numenor_confirm: "Minhiriath and Vinyalondë will be reclaimed! "
  decision_reclaim_minhiriath_numenor_tooltip: "Reclaim the ancient Númenórean colonies in Eriador"
- 
+
  decision_expedition_anarike_title: "Placeholder"
  decision_expedition_anarike_tooltip: "Placeholder"
  decision_expedition_anarike_desc: "Placeholder"
