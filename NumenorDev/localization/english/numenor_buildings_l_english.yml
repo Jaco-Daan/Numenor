@@ -9,7 +9,7 @@
   building_wonder_meneltarma_01: "The Pillar of Heaven"
   building_wonder_meneltarma_01_desc: "The [meneltarma|E] is the highest point in all of [numenor|E]. It is beleived that [aman|E] can be seen from its heights. The early Kings of Númenor had roads built up the slopes so the three festivals of [Concept('eruiluvatar','Êru')|E] could be attended by the people. Later Kings would neglect it, however, and during the reign of [pharazon|E] access was forbidden on pain of death.\n\nDuring the [akallabeth|E], Tar-Míriel ran up the hill, seeking to beg Êru to spare Númenor its fate. The slick rain nearly caused her to fall to her death, but through providence she made it to the top and prayed to Êru, who had mercy on her and her people."
   building_wonder_meneltarma_02: "The Pillar of the Fallen"
-  building_wonder_meneltarma_02_desc: "After the [akallabeth|E], Tar-Míriel would begin restoration work on the [meneltarma|E], determined to see proper reverence paid to [Concept('eruiluvatar','Êru')|E] there again.\n\nIn time, it would become not just a site of worship, but of rememberance to never fall under the Shadow again."
+  building_wonder_meneltarma_02_desc: "After the [akallabeth|E], Tar-Míriel would restore the [meneltarma|E], determined to see proper reverence paid to [Concept('eruiluvatar','Êru')|E] there again.\n\nIn time, the restored Meneltarma would become not just a site of worship, but of rememberance to the victims of the Shadow, so that they would remember to never fall under it again."
 
   building_type_wonder_armenelos_01: "Armenelos: City of Kings"
   building_type_wonder_armenelos_01_desc: "[armenelos|E], also known as Arminalêth, is the Capital of [numenor|E], fairest city in the West, rivalling even Tirion. Armenelos' fortunes declined during the reign of Ar-Pharazôn who turned the city into a foggy nightmare of evil, Nimloth the Fair itself was burnt by the tyrant and the innocent people were sacrificed at the Altar of [mulkhercharacter|E], the last straw was the [akallabeth|E], which left the city in ruins for centuries, during which the capital of Númenor was Ondosto."
@@ -38,6 +38,11 @@
   building_type_wonder_calmindon_01_desc: "Calmindon was a tower raised in Tol Uinen by Tar-Aldarion so it could shine a light across the Bay of Rómenna, while it collapsed during the [akallabeth|E] it was rebuilt during the reign of Tar-Aldarion II."
   building_wonder_calmindon_01: "Calmindon"
   building_wonder_calmindon_01_desc: "Calmindon was a tower raised in Tol Uinen by Aldarion when he was the prince. Calmindon was built for the Guild of Venturers so it could shine a light across the Bay of Rómenna, while it collapsed during the [akallabeth|E] it was restored by Tar-Aldarion II due to the admiration he held for his namesake. Calmindon still serves as one of the biggest lighthouses in Arda, being used to ensure fishermen and merchants do not stray off their path and find safe haven in Rómenna."
+
+  building_type_wonder_erendis_01: "White House of Erendis"
+  building_type_wonder_erendis_01_desc: "The White House of Erendis was built for Erendis by Tar-Meneldur as a gift for her betrothal to his son, Aldarion."
+  building_wonder_erendis_01: "White House of Erendis"
+  building_wonder_erendis_01_desc: "The White House of Erendis was built for Erendis by Tar-Meneldur as a gift for her betrothal to his son, Aldarion. It was located in the region of Emerië, known for its rolling hills and green plains. Tar-Ancalimë spent most of her childhood there among only women and sheep, before moving to Armenelos. The House survived the Akallabêth as it was in the hills of Mittalmar, but it was left abandoned until [ageTA|E] 126, when it was restored by Tar-Aldarion II. It has since served as a secondary residence for the royal family, held in trust by the Bar Beregar."
 
  #Not Yet Evaluated
 
@@ -86,8 +91,3 @@
   building_wonder_eldalonde_02_desc: "Although Eldalondë has seen better days, ever since the line of Vëantur has been restored in Nísimaldar the city has seen a boom in population and riches, taking advantage of the fertile Nunduinë valley which has made it the breadbasket of Númenor the city has been rebuilt with care. The Eldar may no longer visit this fair city but their wisdom and knowledge survives, when people enter Nísimaldar they believe they have entered one of the Elven realms."
   building_wonder_eldalonde_03: "Mallorn-groves of Eldalondë"
   building_wonder_eldalonde_03_desc: "Now that we have regained contact with Middle-earth we have sent an expedition to Lórien, where saplings of the Mallorn Trees have been obtained after a deal and have now been sent to Eldalondë, where they will be planted. Once more Nísimaldar shall be the fairest county in the Westerlands."
-
-  building_type_wonder_erendis_01: "White House of Erendis"
-  building_type_wonder_erendis_01_desc: "The White House of Erendis, wife of Tar-Aldarion"
-  building_wonder_erendis_01: "White House of Erendis"
-  building_wonder_erendis_01_desc: "The White House of Erendis was built for Erendis by Tar-Meneldur as a gift for the betrothal to his son, Aldarion. The White House was located in the region of Emerië, known for its rolling hills and green plains. Tar-Ancalimë spent most of her childhood in The White House of Erendis, before moving to Armenelos. The House survived the Akallabêth as it was in the hills of Mittalmar but it was abandoned until the reign of Ar-Inziladûn, who gave it to his sister, Princess Zimraphel. After her death the House was not abandoned and instead given to the King of Númenor to be used as a summer residence."

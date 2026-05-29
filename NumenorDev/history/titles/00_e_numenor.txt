@@ -3582,6 +3582,9 @@ c_nindamos = {
 }
 
 c_erendis = {
+	1462.5.1 = {
+		holder = mablung11 # Erendis
+	}
 	624.1.1 = {
 		holder = mablung5
 	}
