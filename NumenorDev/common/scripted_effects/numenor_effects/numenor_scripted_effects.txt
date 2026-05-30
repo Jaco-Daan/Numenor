@@ -20,7 +20,7 @@ numenor_vardur_history_changes_effect = {
 }
 
 numenor_elatan_history_changes_effect = {
-	character:lineofelatan21 ?= {
+	character:lineofelros83a1 ?= {
 		set_house = character:lineofelros83.house
 		set_father = character:lineofelros83
 	}

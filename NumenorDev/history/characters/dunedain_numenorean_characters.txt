@@ -892,7 +892,7 @@ lineofelros24 = {
 	}
 
 	3612.1.1 = {
-		add_spouse = lineofelatan21 # Inzilbêth
+		add_spouse = lineofelros83a1 # Inzilbêth
 	}
 
 	3769.1.1 = {

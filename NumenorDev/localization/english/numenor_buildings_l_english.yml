@@ -16,11 +16,11 @@
   building_wonder_armenelos_01: "The Ruins of Armenelos"
   building_wonder_armenelos_01_desc: "[armenelos|E] is at the lowest it has been, a crumbling ghost town which nobody dares to enter. We must rebuild this once-fair city in order to fortify our control of [numenor|E], for it is the rightful capital of the fairest of isles."
   building_wonder_armenelos_02: "Armenelos Rebuilt"
-  building_wonder_armenelos_02_desc: "[armenelos|E] has been rebuilt, restored to its standing before the [GetFaithByKey('melkorite').GetNameNoTooltip] corruption, it still does not measure up to its past golden ages, funded by the empire the fair isle maintained upon the Great Lands."
+  building_wonder_armenelos_02_desc: "[armenelos|E] has been rebuilt, restored to its standing before the Mulkhêrhili corruption, it still does not measure up to its past golden ages, funded by the empire the fair isle maintained upon the Great Lands."
   building_wonder_armenelos_03: "Armenelos the Golden"
   building_wonder_armenelos_03_desc: "[armenelos|E] has been rebuilt to its former splendour, traders from all of [numenor|E] and the Great Lands stay at the markests, which are filled with a diverse range of aromas and goods, spices from the Harnen, jewels from [thanihazad|E], fish from Nindamos, the list goes ever on. No longer shall we need to look at our mighty city with sorrow, we can now stand proud and look at Armenelos the Golden reborn."
   building_wonder_armenelos_04: "Nimloth the Reborn"
-  building_wonder_armenelos_04_desc: "Though the tyrannical [GetFaithByKey('melkorite').GetNameNoTooltip] cut down and burnt Nimloth the Fair during the reign of Ar-Pharazôn, we have learnt that Isildur of Andúnië saved a sapling which he planted in [gondor|E]. Their tree has also been dead for years, but we have found a new sapling in the slopes of Mindolluin, which has been brought back to Armenelos and planted in the King's Court. Now that Nimloth is reborn, the line of Kings shall last until the end of the world."
+  building_wonder_armenelos_04_desc: "Though the tyrannical Mulkhêrhili cut down and burnt Nimloth the Fair during the reign of Ar-Pharazôn, we have learnt that Isildur of Andúnië saved a sapling which he planted in [gondor|E]. Their tree has also been dead for years, but we have found a new sapling in the slopes of Mindolluin, which has been brought back to Armenelos and planted in the King's Court. Now that Nimloth is reborn, the line of Kings shall last until the end of the world."
 
   numenor_realm_size_limit_01: "Your realm size must be over 100"
   numenor_realm_size_limit_02: "Your realm size must be over 300, and the holder of [GetTitleByKey('c_minas_tirith').GetName] is you or your ally"
