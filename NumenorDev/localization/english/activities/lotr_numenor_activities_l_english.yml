@@ -17,6 +17,9 @@
  explore_history_cost_discount_wonder_armenelos: "Location has $building_wonder_armenelos_01$#!"
  explore_history_cost_discount_wonder_andunie: "Location has $building_wonder_andunie_03$#!"
  explore_history_cost_discount_wonder_eldalonde: "Location has $building_wonder_eldalonde_03$#!"
- explore_history_cost_discount_wonder_calmindon: "Location has $building_wonder_calmindon_01$#!"
- explore_history_cost_discount_wonder_sorontil: "Location has $building_wonder_sorontil_01$#!"
+ explore_history_cost_discount_wonder_calmindon_01: "Location has $building_wonder_calmindon_01$#!"
+ explore_history_cost_discount_wonder_calmindon_03: "Location has $building_wonder_calmindon_03$#!"
+ explore_history_cost_discount_wonder_sorontil_01: "Location has $building_wonder_sorontil_01$#!"
+ explore_history_cost_discount_wonder_sorontil_02: "Location has $building_wonder_sorontil_02$#!"
+ explore_history_cost_discount_wonder_sorontil_03: "Location has $building_wonder_sorontil_03$#!"
  

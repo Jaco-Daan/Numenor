@@ -70,11 +70,16 @@ wonder_meneltarma_02 = { #Meneltarma - abandoned
 		}
 	}
 	province_modifier = {
-		#building_slot_add = -10
-		#build_gold_cost = 50 #No building on the Meneltarma, sorry
+		building_slot_add = -10
+		build_gold_cost = 50 #No building on the Meneltarma, sorry
+	}
+	county_modifier = {
+		monthly_county_control_growth_add = 1
 	}
 	character_modifier = {
-		monthly_piety = 0.5
+		monthly_piety = 1.0
+		same_faith_opinion = 10
+		monthly_dynasty_prestige_mult = 0.25
 	}
 
 	is_enabled = {
@@ -177,7 +182,7 @@ wonder_armenelos_01 = { #Armenelos: The Golden
 	character_modifier = {
 		knight_limit = 10
 		vassal_opinion = 10
-		health = 1
+		health = 0.5
 		army_damage_mult = 0.5
 		army_toughness_mult = 0.5
 	}
@@ -370,7 +375,7 @@ wonder_armenelos_05 = { #Armenelos: Flowering of Nimloth
 	character_modifier = {
 		knight_limit = 9
 		vassal_opinion = 10
-		health = 1
+		health = 0.25
 		army_damage_mult = 0.5
 		army_toughness_mult = 0.5
 	}
@@ -724,10 +729,7 @@ wonder_calmindon_03 = { #Tower of Calmindon
 		supply_limit_mult = 1
 		tax_mult = 0.4
 	}
-	effect_desc = {
-		desc = explore_history_cost_discount_max_desc
-		desc = sailing_activity_cost_discount_minor_desc
-	}
+
 	character_modifier = {
 		vassal_opinion = 5
 		same_faith_opinion = 5
