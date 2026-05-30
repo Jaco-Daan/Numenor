@@ -34,7 +34,12 @@ wonder_meneltarma_01 = { #Meneltarma, Holy mountain of Eru
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 	ai_value = {
@@ -53,12 +58,17 @@ wonder_meneltarma_02 = { #Meneltarma as a place to worship the Fallen
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 03 }
 		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = {
+				has_innovation = innovation_hoardings
+			}
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
 			}
 		}
+	}
 	province_modifier = {
 		building_slot_add = -10
 		build_gold_cost = 50 #No building on the Meneltarma, sorry
@@ -73,7 +83,12 @@ wonder_meneltarma_02 = { #Meneltarma as a place to worship the Fallen
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 
@@ -104,7 +119,12 @@ wonder_armenelos_01 = { # Armenelos
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 	type = special
@@ -142,7 +162,12 @@ wonder_armenelos_02 = { #Temple of the Fallen
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 	ai_value = {
@@ -187,7 +212,12 @@ wonder_armenelos_03 = { #Palace of the King
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 	ai_value = {
@@ -240,7 +270,12 @@ wonder_armenelos_04 = { #Armenelos: Flowering of Nimloth
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 			faith_is_evil = no
 		}
 	}
@@ -272,7 +307,12 @@ wonder_romenna_01 = { #Romenna, gratest haven of Númenor
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 	ai_value = {
@@ -312,7 +352,12 @@ wonder_romenna_02 = { #Haven being restored
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 	ai_value = {
@@ -335,12 +380,17 @@ wonder_romenna_03 = { # Haven restored
 			scope:holder.realm_size > 100
 		}
 		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = {
+				has_innovation = innovation_hoardings
+			}
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
 			}
 		}
+	}
 	province_modifier = {
 		fort_level = 24
 		supply_limit_mult = 2
@@ -362,7 +412,12 @@ wonder_romenna_03 = { # Haven restored
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 
@@ -382,12 +437,17 @@ wonder_calmindon_01 = { #Tower of Calmindon
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 01 }
 		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = {
+				has_innovation = innovation_hoardings
+			}
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
 			}
 		}
+	}
 	province_modifier = {
 		supply_limit_mult = 1
 		tax_mult = 0.4
@@ -403,7 +463,12 @@ wonder_calmindon_01 = { #Tower of Calmindon
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 
@@ -425,7 +490,12 @@ wonder_erendis_01 = {
 		scope:holder = {
 			culture = {
 				has_innovation = innovation_hoardings
-				any_parent_culture_or_above = { this = culture:numenorean }
+			}
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
 			}
 		}
 	}
@@ -440,7 +510,12 @@ wonder_erendis_01 = {
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 
@@ -472,7 +547,12 @@ wonder_eldalonde_01 = { #Numenorean Port of Eldalonde
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 	ai_value = {
@@ -511,7 +591,12 @@ wonder_eldalonde_02 = { #Eldalonde after the Akallabeth
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 	ai_value = {
@@ -531,7 +616,12 @@ wonder_eldalonde_03 = {
 		scope:holder = {
 			culture = {
 				has_innovation = innovation_hoardings
-				any_parent_culture_or_above = { this = culture:numenorean }
+			}
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
 			}
 			faith_is_evil = no
 			in_diplomatic_range = title:c_minas_tirith.empire.holder
@@ -558,7 +648,12 @@ wonder_eldalonde_03 = {
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 			faith_is_evil = no
 		}
 	}
@@ -590,7 +685,12 @@ wonder_andunie_01 = { #Andunie, haven of the Faithful
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 	ai_value = {
@@ -631,7 +731,12 @@ wonder_andunie_02 = { #Andunie after the Akallabeth
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 	ai_value = {
@@ -650,12 +755,17 @@ wonder_andunie_03 = {
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 03 }
 		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = {
+				has_innovation = innovation_hoardings
+			}
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
 			}
 		}
+	}
 	province_modifier = {
 		fort_level = 16
 		supply_limit_mult = 1
@@ -674,7 +784,12 @@ wonder_andunie_03 = {
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 
@@ -713,7 +828,12 @@ wonder_ondosto_01 = { #No more quarrying, sad
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 	ai_value = {
@@ -732,12 +852,17 @@ wonder_ondosto_02 = { #New quarries, nice
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 03 }
 		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-				}
-				culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = {
+				has_innovation = innovation_hoardings
+			}
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
 			}
 		}
+	}
 	province_modifier = {
 		supply_limit_mult = 0.6
 		tax_mult = 0.2
@@ -751,7 +876,12 @@ wonder_ondosto_02 = { #New quarries, nice
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 
@@ -782,7 +912,12 @@ wonder_nindamos_01 = { #fish
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 	ai_value = {
@@ -801,11 +936,16 @@ wonder_nindamos_02 = { #Fish and people
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 03 }
 		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = {
+				has_innovation = innovation_hoardings
 			}
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
+		}
 		custom_tooltip = {
 			text = numenor_realm_size_limit_01
 			scope:holder.realm_size > 100
@@ -821,7 +961,12 @@ wonder_nindamos_02 = { #Fish and people
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 
@@ -851,7 +996,12 @@ wonder_oromet_01 = { #Tower destroyed during the Akallabeth
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 	ai_value = {
@@ -870,12 +1020,17 @@ wonder_oromet_02 = { #Tower restored
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 02 }
 		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = {
+				has_innovation = innovation_hoardings
+			}
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
 			}
 		}
+	}
 	province_modifier = {
 		fort_level = good_building_fort_level_tier_1
 	}
@@ -888,7 +1043,12 @@ wonder_oromet_02 = { #Tower restored
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 
@@ -924,7 +1084,12 @@ wonder_sorontil_01 = { #Tower destroyed during the Akallabeth
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 	ai_value = {
@@ -943,12 +1108,17 @@ wonder_sorontil_02 = { #Tower restored
 	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 02 }
 		scope:holder = {
-				culture = {
-					has_innovation = innovation_hoardings
-					}
-				culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = {
+				has_innovation = innovation_hoardings
+			}
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
 			}
 		}
+	}
 	province_modifier = {
 		fort_level = good_building_fort_level_tier_3
 	}
@@ -962,7 +1132,12 @@ wonder_sorontil_02 = { #Tower restored
 	}
 	is_enabled = {
 		scope:holder = {
-			culture = { any_parent_culture_or_above = { this = culture:numenorean } }
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
 		}
 	}
 

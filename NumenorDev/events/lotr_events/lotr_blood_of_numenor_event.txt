@@ -2951,7 +2951,10 @@ numenoreanblood.0001 = {
 		else_if = {
 			limit = {
 				scope:mother.location ?= { geographical_region = middleearth_numenor }
-				culture ?= { any_parent_culture_or_above = { this = culture:numenorean } }
+				OR = { 
+					culture ?= { any_parent_culture_or_above = { this = culture:numenorean } }
+					culture ?= culture:numenorean
+				}
 			}
 			scope:child ?= {
 				remove_trait = blood_of_numenor_1

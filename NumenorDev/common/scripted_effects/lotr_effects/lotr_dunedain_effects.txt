@@ -633,7 +633,10 @@ add_blood_of_numenor_effect = {
 		limit = {
 			AND = {
 				culture ?= {
-					any_parent_culture_or_above = { this = culture:numenorean }
+					OR = {
+						this = culture:numenorean
+						any_parent_culture_or_above = { this = culture:numenorean }
+					}
 				}
 				location ?= { geographical_region = middleearth_numenor }
 			}
