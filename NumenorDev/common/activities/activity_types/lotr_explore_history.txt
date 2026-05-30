@@ -483,14 +483,14 @@ activity_explore_history = {
 		triggered_desc = { #Numenor Sub-mod
 			trigger = { 
 				# Calmindon
-				has_building = wonder_calmindon_01
+				has_building_or_higher = wonder_calmindon_01
 			}
 			desc = activity_explore_history_province_desc_wonder_calmindon
 		}
 		triggered_desc = { #Numenor Sub-mod
 			trigger = { 
 				# Sorontil
-				has_building = wonder_sorontil_02
+				has_building_or_higher = wonder_sorontil_03
 			}
 			desc = activity_explore_history_province_desc_wonder_sorontil_02
 		}
@@ -581,7 +581,7 @@ activity_explore_history = {
 		triggered_desc = { #Numenor Sub-mod
 			trigger = { 
 				# Sorontil
-				has_building = wonder_sorontil_01
+				has_building_or_higher = wonder_sorontil_01
 			}
 			desc = activity_explore_history_province_desc_wonder_sorontil_01
 		}

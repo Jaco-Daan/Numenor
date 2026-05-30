@@ -127,15 +127,15 @@ numenor_explore_history_province_score = {
 		add = 100
 	}
 	if = { #Numenor Sub-mod
-		limit = { has_building = wonder_calmindon_01 } # Calmindon
+		limit = { has_building_or_higher = wonder_calmindon_01 } # Calmindon
 		add = 100
 	}
 	if = { #Numenor Sub-mod
-		limit = { has_building = wonder_sorontil_02 } # Sorontil
+		limit = { has_building_or_higher = wonder_sorontil_03 } # Sorontil
 		add = 100
 	}
 	if = { #Numenor Sub-mod
-		limit = { has_building = wonder_sorontil_01 } # Sorontil
+		limit = { has_building_or_higher = wonder_sorontil_01 } # Sorontil
 		add = 25
 	}
 }
@@ -227,7 +227,7 @@ numenor_explore_history_cost = {
 	if = { #Sorontil
 		limit = {
 			scope:province ?= {
-				has_building = wonder_sorontil_02
+				has_building = wonder_sorontil_03
 			}
 		}
 		add = {

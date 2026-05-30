@@ -10,14 +10,14 @@
 	holding = castle_holding
 	3911.1.1 = {
 		special_building_slot = wonder_armenelos_01
-		special_building = wonder_armenelos_01
+		special_building = wonder_armenelos_02
 	}
 	3948.2.5 = {
         culture = adunaic
 		religion = faith_numenorean
     }
 	4450.1.1 = {
-		special_building = wonder_armenelos_02
+		special_building = wonder_armenelos_03
 	}
     6405.1.1 = {
         religion = faith_adunaic
@@ -86,7 +86,7 @@
 			scriptorium_06
 		}
 		special_building_slot = wonder_calmindon_01
-		special_building = wonder_calmindon_01
+		special_building = wonder_calmindon_03
 	}
 	6976.1.1 = {
 		effect = {
@@ -124,7 +124,7 @@
 			add_great_building = lotr_great_fleet_02
 		}
 		special_building_slot = wonder_romenna_01
-		special_building = wonder_romenna_02
+		special_building = wonder_romenna_03
 	}
 	6976.1.1 = {
 		effect = {
@@ -155,7 +155,7 @@
 	religion = faith_kings_men_numenorean
 	holding = church_holding
 	special_building_slot = wonder_meneltarma_01
-	special_building = wonder_meneltarma_02
+	special_building = wonder_meneltarma_03
 	3911.1.1 = {
 		culture = wastelands
 		religion = faith_wastelands_pagan
@@ -302,7 +302,7 @@
 			pastures_06
 		}
 		special_building_slot = wonder_erendis_01
-		special_building = wonder_erendis_01
+		special_building = wonder_erendis_03
 		duchy_capital_building = leisure_palace_02
 	}
 }
@@ -583,7 +583,7 @@
 			add_great_building = lotr_great_citadel_03
 		}
 		special_building_slot = wonder_andunie_01
-		special_building = wonder_andunie_02
+		special_building = wonder_andunie_03
 		duchy_capital_building = leisure_palace_02
 	}
 }
@@ -639,7 +639,7 @@
 		}
 	}
 	special_building_slot = wonder_oromet_01
-	special_building = wonder_oromet_01
+	special_building = wonder_oromet_03
 }
 6179 = {	#Tarmatir (b_tarmatir)
 	holding = none
@@ -718,7 +718,7 @@
 			add_great_building = lotr_great_citadel_03
 		}
 		special_building_slot = wonder_eldalonde_01
-		special_building = wonder_eldalonde_02
+		special_building = wonder_eldalonde_03
 		duchy_capital_building = royal_forest_02
 	}
 }
@@ -1495,7 +1495,7 @@
 			add_great_building = lotr_great_citadel_03
 		}
 		special_building_slot = wonder_nindamos_01
-		special_building = wonder_nindamos_01
+		special_building = wonder_nindamos_03
 		duchy_capital_building = archery_ranges_02
 	}
 }
@@ -2199,7 +2199,7 @@
 			barracks_04
 		}
 		special_building_slot = wonder_ondosto_01
-		special_building = wonder_ondosto_01
+		special_building = wonder_ondosto_03
 		duchy_capital_building = tax_assessor_02
 	}
 }
@@ -2305,7 +2305,7 @@
 			add_great_building = lotr_great_citadel_02
 		}
 		special_building_slot = wonder_sorontil_01
-		special_building = wonder_sorontil_01
+		special_building = wonder_sorontil_03
 		duchy_capital_building = blacksmiths_02
 	}
 }
