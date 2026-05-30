@@ -1,5 +1,5 @@
 ﻿paper_map_style_western = {
-	texture = "flatmap_numenor.dds"
+	texture = "flatmap.dds"
 	# default = yes
 	priority = 1
 }
