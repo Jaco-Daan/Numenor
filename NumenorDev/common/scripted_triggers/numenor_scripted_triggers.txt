@@ -3,18 +3,33 @@
 }
 
 is_special_building_in_numenor = {
-	has_building_or_higher = "wonder_erendis_01"
-	has_building_or_higher = "wonder_eldalonde_01"
-	has_building_or_higher = "wonder_andunie_01"
-	has_building_or_higher = "wonder_meneltarma_01"
-	has_building_or_higher = "wonder_ondosto_01"
-	has_building_or_higher = "wonder_nindamos_01"
-	has_building_or_higher = "wonder_oromet_01"
-	has_building_or_higher = "wonder_calmindon_01"
-	has_building_or_higher = "wonder_sorontil_01"
-	has_building_or_higher = "wonder_romenna_01"
-	has_building_or_higher = "wonder_armenelos_01"
+	OR = {
+		has_building_or_higher = "wonder_erendis_01"
+		has_building_or_higher = "wonder_eldalonde_01"
+		has_building_or_higher = "wonder_andunie_01"
+		has_building_or_higher = "wonder_meneltarma_01"
+		has_building_or_higher = "wonder_ondosto_01"
+		has_building_or_higher = "wonder_nindamos_01"
+		has_building_or_higher = "wonder_oromet_01"
+		has_building_or_higher = "wonder_calmindon_01"
+		has_building_or_higher = "wonder_sorontil_01"
+		has_building_or_higher = "wonder_romenna_01"
+		has_building_or_higher = "wonder_armenelos_01"
+	}
 }
+
+### Explore History ###
+
+unique_numenor_archives_trigger = {
+	OR = {
+		has_building_or_higher = wonder_armenelos_01 # Armenelos: City of Kings
+		has_building_or_higher = wonder_andunie_01 # Andunie: Capital of Andustar
+		has_building_or_higher = wonder_eldalonde_01 # Eldalonde: Capital of Nísimaldar
+		has_building_or_higher = wonder_calmindon_01 # Calmindon
+		has_building_or_higher = wonder_sorontil_03 # The Tower of Tar-Meneldur
+	}
+}
+
 
 ### Umbar ###
 completely_controls_numenorean_province_umbar = {

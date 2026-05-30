@@ -25,7 +25,10 @@
 	confirm_text = decision_end_numenor_isolation_confirm
 	
 	is_shown = {
-		has_title = title:e_numenor
+		OR = {
+			has_title = title:e_numenor
+			has_title = title:h_numenor
+		}
         exists = situation:numenor_situation
 	}
 	is_valid = {

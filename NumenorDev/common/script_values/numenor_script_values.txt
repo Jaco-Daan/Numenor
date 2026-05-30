@@ -131,7 +131,7 @@ numenor_explore_history_province_score = {
 		add = 100
 	}
 	if = { #Numenor Sub-mod
-		limit = { has_building_or_higher = wonder_sorontil_03 } # Sorontil
+		limit = { has_building_or_higher = wonder_sorontil_02 } # Sorontil
 		add = 100
 	}
 	if = { #Numenor Sub-mod
@@ -207,7 +207,7 @@ numenor_explore_history_cost = {
 	if = { #Numenor Sub-mod
 		limit = { # Calmindon
 			scope:province ?= {
-				has_building = wonder_calmindon_01
+				has_building_or_higher = wonder_calmindon_01
 			}
 		}
 		add = {
@@ -224,10 +224,33 @@ numenor_explore_history_cost = {
 			desc = explore_history_cost_discount_wonder_calmindon
 		}
 	}
-	if = { #Sorontil
-		limit = {
+	if = { #Numenor Sub-mod
+		limit = { #Sorontil
 			scope:province ?= {
-				has_building = wonder_sorontil_03
+				has_building = wonder_sorontil_01
+			}
+		}
+		add = {
+			value = 0
+			add = {
+				value = explore_history_activity_base_cost
+				add = {
+					value = explore_history_activity_base_cost
+					multiply = activity_cost_scale_by_era
+					subtract = explore_history_activity_base_cost
+				}
+			}
+			multiply = explore_history_activity_cost_discount_min_value
+			desc = explore_history_cost_discount_wonder_sorontil_01
+		}
+	}
+	if = { #Numenor Sub-mod
+		limit = { #Sorontil
+			scope:province ?= {
+				OR = {
+					has_building = wonder_sorontil_02
+					has_building = wonder_sorontil_03
+				}
 			}
 		}
 		add = {
@@ -241,7 +264,7 @@ numenor_explore_history_cost = {
 				}
 			}
 			multiply = explore_history_activity_cost_discount_medium_value
-			desc = explore_history_cost_discount_wonder_sorontil_03
+			desc = explore_history_cost_discount_wonder_sorontil_01
 		}
 	}
 }
