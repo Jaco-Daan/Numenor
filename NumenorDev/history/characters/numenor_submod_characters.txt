@@ -26,6 +26,7 @@ lineofelros88 = { # Tar-Cemendur, also known as Ar-Dairaben
 	trait = education_diplomacy_3
 	trait = strong
 	trait = lifestyle_blademaster
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3789.1.1 = {
