@@ -241,7 +241,7 @@ numenor_explore_history_cost = {
 				}
 			}
 			multiply = explore_history_activity_cost_discount_medium_value
-			desc = explore_history_cost_discount_wonder_sorontil_02
+			desc = explore_history_cost_discount_wonder_sorontil_03
 		}
 	}
 }
