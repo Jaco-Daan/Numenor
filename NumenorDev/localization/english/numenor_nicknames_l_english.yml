@@ -36,6 +36,6 @@
   nick_zayanmagani_tar_tindomiel: "Zâyanmagânî"
   nick_zayanmagani_tar_tindomiel_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] named [Glossary('Zâyanmagânî','zayanmagani_gloss')] for [CharYourHerHis(CHARACTER)] rule and [CharYourHerHis(CHARACTER)] building of the realm to greater heights than the kings before [CharYouHerHim(CHARACTER)]. But in doing so, [CharYouSheHe(CHARACTER)] neglected [CharYourHerHis(CHARACTER)] own children, leading to a calamitious civil war."
   nick_the_great_tar_ancalimon: "the Great"
-  nick_the_great_tar_ancalimon_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] defeated [CharYourHerHis(CHARACTER)] brother, [GetScriptedCharacterByHistoryID( 'lineofelros107' ).GetFirstName], restoring faith and honor to the line of [GetScriptedCharacterByHistoryID( 'lineofelros1' ).GetFirstName]."
+  nick_the_great_tar_ancalimon_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] defeated [CharYourHerHis(CHARACTER)] brother, [GetScriptedCharacterByHistoryID( 'lineofelros111' ).GetFirstName], restoring faith and honor to the line of [GetScriptedCharacterByHistoryID( 'lineofelros1' ).GetFirstName]."
   nick_the_pragmatic_tar_veantur: "the Pragmatic"
   nick_the_pragmatic_tar_veantur_desc: "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] gregarious nature and canny mind [CharWereWas(CHARACTER)] enough to bridge the gap between the [kingsmen|E] and the [faithful|E], uniting all but the most zealous into a new faith: the [Glossary('Adûnabên','adunaben_gloss')]."

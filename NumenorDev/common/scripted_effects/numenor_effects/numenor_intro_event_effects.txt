@@ -28,7 +28,7 @@ numenor_fire_intro_events = {
 	}
 
 	#Ar-Balkazir's Introduction Event
-	character:lineofelros114 ?= {
+	character:lineofelros128 ?= {
 		if = {
 			limit = {
 				is_alive = yes

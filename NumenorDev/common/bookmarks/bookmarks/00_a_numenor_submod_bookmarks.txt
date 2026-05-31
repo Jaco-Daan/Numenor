@@ -19,7 +19,7 @@
 		religion = faith_adunaic
 		culture = adunaic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = lineofelros114
+		history_id = lineofelros128
 		position = { 1100 190 }
 		animation = personality_honorable
 	}

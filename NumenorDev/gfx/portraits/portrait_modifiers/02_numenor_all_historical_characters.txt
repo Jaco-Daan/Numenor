@@ -24,8 +24,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofelros112
-				this = character:lineofelros112
+				exists = character:lineofelros116
+				this = character:lineofelros116
 			}
 		}
 	}
@@ -50,8 +50,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofelros114
-				this = character:lineofelros114
+				exists = character:lineofelros128
+				this = character:lineofelros128
 			}
 		}
 	}
@@ -76,8 +76,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofelros115
-				this = character:lineofelros115
+				exists = character:lineofelros131
+				this = character:lineofelros131
 			}
 		}
 	}
@@ -102,8 +102,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofelros116
-				this = character:lineofelros116
+				exists = character:lineofelros134
+				this = character:lineofelros134
 			}
 		}
 	}
@@ -128,8 +128,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofelros114a1
-				this = character:lineofelros114a1
+				exists = character:lineofelros132
+				this = character:lineofelros132
 			}
 		}
 	}
