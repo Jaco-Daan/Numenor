@@ -524,14 +524,14 @@ activity_explore_history = {
 		}
 		triggered_desc = { #Numenor Sub-mod
 			trigger = { 
-				# Sorontil
+				# Oromet
 				has_building = wonder_oromet_01
 			}
 			desc = activity_explore_history_province_desc_wonder_oromet_01
 		}
 		triggered_desc = { #Numenor Sub-mod
 			trigger = { 
-				# Sorontil
+				# Oromet
 				has_building = wonder_oromet_03
 			}
 			desc = activity_explore_history_province_desc_wonder_oromet_03
