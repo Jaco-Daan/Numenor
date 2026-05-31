@@ -124,7 +124,7 @@
 			add_great_building = lotr_great_fleet_02
 		}
 		special_building_slot = wonder_romenna_01
-		special_building = wonder_romenna_03
+		special_building = wonder_romenna_04
 	}
 	6976.1.1 = {
 		effect = {

@@ -522,6 +522,20 @@ activity_explore_history = {
 			}
 			desc = activity_explore_history_province_desc_wonder_sorontil_03
 		}
+		triggered_desc = { #Numenor Sub-mod
+			trigger = { 
+				# Sorontil
+				has_building = wonder_oromet_01
+			}
+			desc = activity_explore_history_province_desc_wonder_oromet_01
+		}
+		triggered_desc = { #Numenor Sub-mod
+			trigger = { 
+				# Sorontil
+				has_building = wonder_oromet_03
+			}
+			desc = activity_explore_history_province_desc_wonder_oromet_03
+		}
 		triggered_desc = {
 			trigger = { 
 				OR = {
@@ -936,6 +950,8 @@ activity_explore_history = {
 		# 	limit = { has_building_or_higher = citadel_01 }
 		# 	add = 25
 		# }
+		
+		add = numenor_explore_history_province_score #Numenor Submod
 	}
 	
 	cooldown = { years = standard_explore_history_cooldown_time } #10 years

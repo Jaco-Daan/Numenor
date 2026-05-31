@@ -1,7 +1,7 @@
 ﻿numenor_history_changes = {
 	numenor_elros_history_changes_effect = yes
 	numenor_vardur_history_changes_effect = yes
-	numenor_elatan_history_changes_effect = yes
+	#numenor_elatan_history_changes_effect = yes
 	numenor_borodiriath_history_changes_effect = yes
 }
 

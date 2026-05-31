@@ -223,6 +223,9 @@ wonder_armenelos_02 = { # Armenelos - abandoned
 		fort_level = 12
 		supply_limit_mult = 1
 	}
+	effect_desc = {
+		desc = explore_history_cost_discount_max_desc
+	}
 
 	is_enabled = {
 		scope:holder = {
@@ -431,7 +434,7 @@ wonder_romenna_01 = { # Romenna, greatest haven of Númenor
 		tax_mult = 1.0
 	}
 	effect_desc = {
-		desc = sailing_activity_cost_discount_minor_desc
+		desc = sailing_activity_cost_discount_major_desc
 	}
 	county_modifier = {
 		development_growth_factor = 0.5
@@ -468,6 +471,52 @@ wonder_romenna_02 = { #Romenna - abandoned
 	construction_time = very_slow_construction_time
 	cost_gold = 2000
 	can_construct = {
+		OR = { 
+			building_requirement_castle_city_church = { LEVEL = 02 }
+			building_requirement_elven = yes
+		}
+		scope:holder = {
+			culture = {
+				has_innovation = innovation_hoardings
+			}
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
+		}
+	}
+	province_modifier = {
+		fort_level = 4
+		supply_limit_mult = 0.1
+	}
+
+	is_enabled = {
+		scope:holder = {
+			culture = { 
+				OR = { 
+					any_parent_culture_or_above = { this = culture:numenorean }
+					this = culture:numenorean
+				} 
+			}
+		}
+	}
+
+	ai_value = {
+		base = 100
+	}
+	next_building = wonder_romenna_03
+	flag = travel_point_of_interest_economic
+	type = special
+}
+
+wonder_romenna_03 = { #Romenna - resettled
+	type_icon = "icon_building_observatory.dds"
+
+	construction_time = very_slow_construction_time
+	cost_gold = 2000
+	can_construct = {
 		building_requirement_castle_city_church = { LEVEL = 02 }
 		scope:holder = {
 			culture = {
@@ -495,12 +544,12 @@ wonder_romenna_02 = { #Romenna - abandoned
 	ai_value = {
 		base = 100
 	}
-	next_building = wonder_romenna_03
+	next_building = wonder_romenna_04
 	flag = travel_point_of_interest_economic
 	type = special
 }
 
-wonder_romenna_03 = { #Haven being restored
+wonder_romenna_04 = { #Haven being restored
 	type_icon = "icon_building_observatory.dds"
 
 	construction_time = very_slow_construction_time
@@ -542,12 +591,12 @@ wonder_romenna_03 = { #Haven being restored
 	ai_value = {
 		base = 100
 	}
-	next_building = wonder_romenna_04
+	next_building = wonder_romenna_05
 	flag = travel_point_of_interest_economic
 	type = special
 }
 
-wonder_romenna_04 = { # Haven restored
+wonder_romenna_05 = { # Haven restored
 	type_icon = "icon_building_observatory.dds"
 
 	construction_time = very_slow_construction_time
@@ -578,7 +627,7 @@ wonder_romenna_04 = { # Haven restored
 		tax_mult = 0.5
 	}
 	effect_desc = {
-		desc = sailing_activity_cost_discount_minor_desc
+		desc = sailing_activity_cost_discount_major_desc
 	}
 	county_modifier = {
 		development_growth_factor = 0.3
@@ -632,7 +681,7 @@ wonder_calmindon_01 = { #Tower of Calmindon - Pre-Akallabeth
 		tax_mult = 0.6
 	}
 	effect_desc = {
-		desc = explore_history_cost_discount_max_desc
+		desc = explore_history_cost_discount_medium_desc
 		desc = sailing_activity_cost_discount_minor_desc
 	}
 	character_modifier = {
@@ -682,10 +731,6 @@ wonder_calmindon_02 = { #Tower of Calmindon - abandoned
 	province_modifier = {
 		supply_limit_mult = 0.2
 	}
-	effect_desc = {
-		desc = explore_history_cost_discount_max_desc
-		desc = sailing_activity_cost_discount_minor_desc
-	}
 
 	is_enabled = {
 		scope:holder = {
@@ -729,7 +774,10 @@ wonder_calmindon_03 = { #Tower of Calmindon
 		supply_limit_mult = 1
 		tax_mult = 0.4
 	}
-
+	effect_desc = {
+		desc = explore_history_cost_discount_medium_desc
+		desc = sailing_activity_cost_discount_minor_desc
+	}
 	character_modifier = {
 		vassal_opinion = 5
 		same_faith_opinion = 5
@@ -919,7 +967,7 @@ wonder_andunie_01 = { #Andunie, haven of the Faithful
 	}
 	effect_desc = {
 		desc = explore_history_cost_discount_max_desc
-		desc = sailing_activity_cost_discount_minor_desc
+		desc = sailing_activity_cost_discount_medium_desc
 	}
 	county_modifier = {
 		development_growth_factor = 0.6
@@ -965,6 +1013,11 @@ wonder_andunie_02 = { #Andunie - abandoned
 		fort_level = 6
 		supply_limit_mult = 0.2
 	}
+	
+	effect_desc = {
+		desc = explore_history_cost_discount_max_desc
+		desc = sailing_activity_cost_discount_medium_desc
+	}
 
 	is_enabled = {
 		scope:holder = {
@@ -1004,7 +1057,7 @@ wonder_andunie_03 = { #Andunie after the Akallabeth
 		tax_mult = 0.3
 	}
 	effect_desc = {
-		desc = explore_history_cost_discount_medium_desc
+		desc = explore_history_cost_discount_max_desc
 		desc = sailing_activity_cost_discount_medium_desc
 	}
 	county_modifier = {
@@ -1059,7 +1112,7 @@ wonder_andunie_04 = {
 	}
 	effect_desc = {
 		desc = explore_history_cost_discount_max_desc
-		desc = sailing_activity_cost_discount_minor_desc
+		desc = sailing_activity_cost_discount_medium_desc
 	}
 	county_modifier = {
 		development_growth_factor = 0.3

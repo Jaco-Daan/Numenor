@@ -127,16 +127,32 @@ numenor_explore_history_province_score = {
 		add = 100
 	}
 	if = { #Numenor Sub-mod
+		limit = { has_building_or_higher = wonder_calmindon_03 } # Calmindon
+		add = 60
+	}
+	if = { #Numenor Sub-mod
 		limit = { has_building_or_higher = wonder_calmindon_01 } # Calmindon
-		add = 100
+		add = 60
 	}
 	if = { #Numenor Sub-mod
 		limit = { has_building_or_higher = wonder_sorontil_03 } # Sorontil
-		add = 100
+		add = 60
+	}
+	if = { #Numenor Sub-mod
+		limit = { has_building_or_higher = wonder_sorontil_02 } # Sorontil
+		add = 25
 	}
 	if = { #Numenor Sub-mod
 		limit = { has_building_or_higher = wonder_sorontil_01 } # Sorontil
-		add = 25
+		add = 60
+	}
+	if = { #Numenor Sub-mod
+		limit = { has_building_or_higher = wonder_oromet_01 } # Oromet
+		add = 60
+	}
+	if = { #Numenor Sub-mod
+		limit = { has_building_or_higher = wonder_oromet_03 } # Oromet
+		add = 60
 	}
 }
 
@@ -179,14 +195,35 @@ numenor_explore_history_cost = {
 					subtract = explore_history_activity_base_cost
 				}
 			}
-			multiply = explore_history_activity_cost_discount_medium_value
+			multiply = explore_history_activity_cost_discount_max_value
 			desc = explore_history_cost_discount_wonder_andunie
 		}
 	}
 	if = { #Numenor Sub-mod
 		limit = { # Eldalonde
 			scope:province ?= {
-				has_building_or_higher = wonder_eldalonde_01
+				has_building = wonder_eldalonde_01
+			}
+		}
+		add = {
+			value = 0
+			add = {
+				value = explore_history_activity_base_cost
+				add = {
+					value = explore_history_activity_base_cost
+					multiply = activity_cost_scale_by_era
+					subtract = explore_history_activity_base_cost
+				}
+			}
+			multiply = explore_history_activity_cost_discount_max_value
+			desc = explore_history_cost_discount_wonder_eldalonde
+		}
+	}
+	
+	if = { #Numenor Sub-mod
+		limit = { # Eldalonde
+			scope:province ?= {
+				has_building = wonder_eldalonde_03
 			}
 		}
 		add = {
@@ -200,6 +237,27 @@ numenor_explore_history_cost = {
 				}
 			}
 			multiply = explore_history_activity_cost_discount_medium_value
+			desc = explore_history_cost_discount_wonder_eldalonde
+		}
+	}
+	
+	if = { #Numenor Sub-mod
+		limit = { # Eldalonde
+			scope:province ?= {
+				has_building = wonder_eldalonde_03
+			}
+		}
+		add = {
+			value = 0
+			add = {
+				value = explore_history_activity_base_cost
+				add = {
+					value = explore_history_activity_base_cost
+					multiply = activity_cost_scale_by_era
+					subtract = explore_history_activity_base_cost
+				}
+			}
+			multiply = explore_history_activity_cost_discount_max_value
 			desc = explore_history_cost_discount_wonder_eldalonde
 		}
 	}
@@ -261,7 +319,7 @@ numenor_explore_history_cost = {
 				}
 			}
 			multiply = explore_history_activity_cost_discount_medium_value
-			desc = explore_history_cost_discount_wonder_sorontil_01
+			desc = explore_history_cost_discount_wonder_sorontil
 		}
 	}
 	if = { #Numenor Sub-mod
@@ -281,7 +339,7 @@ numenor_explore_history_cost = {
 				}
 			}
 			multiply = explore_history_activity_cost_discount_min_value
-			desc = explore_history_cost_discount_wonder_sorontil_02
+			desc = explore_history_cost_discount_wonder_sorontil
 		}
 	}
 	if = { #Numenor Sub-mod
@@ -301,7 +359,115 @@ numenor_explore_history_cost = {
 				}
 			}
 			multiply = explore_history_activity_cost_discount_medium_value
-			desc = explore_history_cost_discount_wonder_sorontil_03
+			desc = explore_history_cost_discount_wonder_sorontil
+		}
+	}
+	if = { #Numenor Sub-mod
+		limit = { # Oromet
+			scope:province ?= {
+				has_building = wonder_oromet_01
+			}
+		}
+		add = {
+			value = 0
+			add = {
+				value = explore_history_activity_base_cost
+				add = {
+					value = explore_history_activity_base_cost
+					multiply = activity_cost_scale_by_era
+					subtract = explore_history_activity_base_cost
+				}
+			}
+			multiply = explore_history_activity_cost_discount_medium_value
+			desc = explore_history_cost_discount_wonder_oromet_01
+		}
+	}
+	if = { #Numenor Sub-mod
+		limit = { # Oromet
+			scope:province ?= {
+				has_building = wonder_oromet_03
+			}
+		}
+		add = {
+			value = 0
+			add = {
+				value = explore_history_activity_base_cost
+				add = {
+					value = explore_history_activity_base_cost
+					multiply = activity_cost_scale_by_era
+					subtract = explore_history_activity_base_cost
+				}
+			}
+			multiply = explore_history_activity_cost_discount_medium_value
+			desc = explore_history_cost_discount_wonder_oromet_03
+		}
+	}
+}
+
+numenor_sailing_score = { 
+	value = 0
+	
+	if = {
+		limit = { has_building = wonder_romenna_01 } # Romenna
+		add = 10
+	}
+	if = {
+		limit = { has_building = wonder_romenna_04 } # Romenna
+		add = 10
+	}
+	if = {
+		limit = { has_building = wonder_romenna_05 } # Romenna
+		add = 10
+	}
+	if = {
+		limit = { has_building = wonder_calmindon_01 } # Calmindon
+		add = 5
+	}
+	if = {
+		limit = { has_building = wonder_calmindon_03 } # Calmindon
+		add = 5
+	}
+	if = {
+		limit = { has_building_or_higher = wonder_andunie_01 } # Andunie
+		add = 10
+	}
+}
+
+numenor_sailing_cost = { 
+	value = 0
+	if = {
+		limit = {
+			scope:province ?= {
+				has_building_or_higher = common_tradeport_01
+				NOT = { has_building_or_higher = common_tradeport_03 }
+			}
+		}
+		multiply = {
+			value = 0.9
+			desc = activity_sailing_province_desc_common_tradeport_minor
+		}
+	}
+	if = {
+		limit = {
+			scope:province ?= {
+				has_building_or_higher = common_tradeport_03
+				NOT = { has_building_or_higher = common_tradeport_06 }
+			}
+		}
+		multiply = {
+			value = 0.8
+			desc = activity_sailing_province_desc_common_tradeport_medium
+		}
+	}
+	if = {
+		limit = {
+			scope:province ?= {
+				has_building_or_higher = common_tradeport_06
+			}
+		}
+		multiply = {
+			value = 0.6
+			desc = activity_sailing_province_desc_common_tradeport_major
 		}
 	}
 }
