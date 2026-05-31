@@ -1468,6 +1468,7 @@ lineofelatan22 = {
 
 	father = lineofelatan16
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	3587.1.1 = {
@@ -1490,6 +1491,7 @@ lineofelatan23 = {
 
 	father = lineofelatan22
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_9
 
 	3754.1.1 = {
@@ -1512,6 +1514,7 @@ lineofelatan24 = {
 
 	father = lineofelatan23
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_8
 
 	3877.1.1 = {
@@ -2328,7 +2331,8 @@ lineofmornionath13 = {
 
     father = lineofmornionath5
 
-    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = blood_of_numenor_7
 
     3200.1.1 = {
         birth = yes
@@ -2345,7 +2349,8 @@ lineofmornionath14 = {
 
     father = lineofmornionath13
 
-    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = blood_of_numenor_7
 
     3398.1.1 = {
         birth = yes
@@ -2362,7 +2367,8 @@ lineofmornionath15 = {
 
     father = lineofmornionath14
 
-    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = blood_of_numenor_7
 
     3592.1.1 = {
         birth = yes
@@ -2379,7 +2385,8 @@ lineofmornionath16 = {
 
     father = lineofmornionath15
 
-    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = blood_of_numenor_7
 
     3786.1.1 = {
         birth = yes
@@ -4007,7 +4014,7 @@ mablung5 = {
 
 	father = mablung4
 
-	trait = blood_of_numenor_10
+	trait = born_on_numenor
 
 	572.1.1 = {
 		birth = yes
@@ -4025,6 +4032,7 @@ mablung6 = {
 
 	father = mablung5
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	642.1.1 = {
@@ -4043,6 +4051,7 @@ mablung7 = {
 
 	father = mablung6
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	753.1.1 = {
@@ -4061,6 +4070,7 @@ mablung8 = {
 
 	father = mablung7
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	892.1.1 = {
@@ -4079,6 +4089,7 @@ mablung9 = {
 
 	father = mablung8
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	1003.1.1 = {
@@ -4094,6 +4105,7 @@ beregarwife = {
 	culture = numenorean
 	female = yes
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	1118.1.1 = {
@@ -4111,6 +4123,7 @@ mablung10 = {
 
 	father = mablung9
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	1123.1.1 = {
@@ -4181,6 +4194,7 @@ mablung12 = {
 
 	father = mablung10
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	1268.1.1 = {
@@ -4199,6 +4213,7 @@ mablung13 = {
 
 	father = mablung12
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	1495.1.1 = {
@@ -4217,6 +4232,7 @@ mablung14 = {
 
 	father = mablung13
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	1719.1.1 = {
@@ -4235,6 +4251,7 @@ mablung15 = {
 
 	father = mablung14
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	1928.1.1 = {
@@ -4253,6 +4270,7 @@ mablung16 = {
 
 	father = mablung15
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	2162.1.1 = {
@@ -4271,6 +4289,7 @@ mablung17 = {
 
 	father = mablung16
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	2421.1.1 = {
@@ -4289,6 +4308,7 @@ mablung18 = {
 
 	father = mablung17
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	2631.1.1 = {
@@ -4307,6 +4327,7 @@ mablung19 = {
 
 	father = mablung18
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	2852.1.1 = {
@@ -4325,6 +4346,7 @@ mablung20 = {
 
 	father = mablung19
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	3018.1.1 = {
@@ -4343,6 +4365,7 @@ mablung21 = {
 
 	father = mablung20
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	3261.1.1 = {
@@ -4361,6 +4384,7 @@ mablung22 = {
 
 	father = mablung21
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	3442.1.1 = {
@@ -4379,6 +4403,7 @@ mablung23 = {
 
 	father = mablung22
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	3527.1.1 = {
@@ -4397,6 +4422,7 @@ mablung24 = {
 
 	father = mablung23
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	3672.1.1 = {
@@ -4415,6 +4441,7 @@ mablung25 = {
 
 	father = mablung24
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	3745.1.1 = {
@@ -4436,6 +4463,7 @@ mablung26 = {
 
 	father = mablung25
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	3875.1.1 = {
@@ -4930,6 +4958,7 @@ ruxoalendil5 = {
 
 	mother = ruxoalendil4
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_9
 
 	2702.1.1 = {
@@ -4948,6 +4977,7 @@ ruxoalendil6 = {
 
 	father = ruxoalendil5
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_8
 
 	2913.1.1 = {
@@ -4965,6 +4995,7 @@ ruxoalendil7 = {
 
 	father = ruxoalendil6
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3120.1.1 = {
@@ -4982,6 +5013,7 @@ ruxoalendil8 = {
 
 	father = ruxoalendil7
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3322.1.1 = {
@@ -4999,6 +5031,7 @@ ruxoalendil9 = {
 
 	father = ruxoalendil8
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3506.1.1 = {
@@ -5016,6 +5049,7 @@ ruxoalendil10 = {
 
 	father = ruxoalendil9
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3711.1.1 = {
@@ -5033,6 +5067,7 @@ ruxoalendil11 = {
 
 	father = ruxoalendil10
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3892.1.1 = {
@@ -5660,6 +5695,7 @@ lineofciryamir8 = {
 
 	father = lineofciryamir7
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_8
 
 	2999.1.1 = {
@@ -5678,6 +5714,7 @@ lineofciryamir9 = {
 
 	father = lineofciryamir8
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3201.1.1 = {
@@ -5696,6 +5733,7 @@ lineofciryamir10 = {
 
 	father = lineofciryamir9
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3396.1.1 = {
@@ -5714,6 +5752,7 @@ lineofciryamir11 = {
 
 	father = lineofciryamir10
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3594.1.1 = {
@@ -5732,6 +5771,7 @@ lineofciryamir12 = {
 
 	father = lineofciryamir11
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3800.1.1 = {
@@ -5747,6 +5787,7 @@ lineofciryamirbranch1 = {
 	religion = faith_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	father = lineofciryamir11
@@ -9544,6 +9585,7 @@ lineofagathor_ns6 = {
 	religion = faith_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	father = lineofagathor_ns5
@@ -9562,6 +9604,7 @@ lineofagathor_ns7 = {
 	religion = faith_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	father = lineofelros73
@@ -9580,6 +9623,7 @@ lineofagathor_ns8 = {
 	religion = faith_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	father = lineofagathor_ns7
@@ -9598,6 +9642,7 @@ lineofagathor_ns9 = {
 	religion = faith_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	father = lineofagathor_ns8
@@ -9616,6 +9661,7 @@ lineofagathor_ns10 = {
 	religion = faith_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	father = lineofagathor_ns9
@@ -9634,6 +9680,7 @@ lineofagathor_ns11 = {
 	religion = faith_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	father = lineofagathor_ns10
@@ -9654,6 +9701,7 @@ lineofagathor_ns12 = {
 
 	trait = blood_of_numenor_10
 
+	trait = born_on_numenor
 	father = lineofagathor_ns11
 
 	2862.1.1 = {
@@ -9670,6 +9718,7 @@ lineofagathor_ns13 = {
 	religion = faith_kings_men_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	father = lineofagathor_ns12
@@ -9688,6 +9737,7 @@ lineofagathor_ns14 = {
 	religion = faith_kings_men_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	father = lineofagathor_ns13
@@ -9706,6 +9756,7 @@ lineofagathor_ns15 = {
 	religion = faith_kings_men_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	father = lineofagathor_ns14
@@ -9724,6 +9775,7 @@ lineofagathor_ns16 = {
 	religion = melkorite
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 	trait = vengeful
 	trait = sadistic
@@ -9744,6 +9796,7 @@ lineofagathor_ns17 = {
 	religion = faith_kings_men_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
 	father = lineofagathor_ns15
@@ -12858,6 +12911,7 @@ linesirinore1 = {
 	religion = faith_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3034.1.1 = {
@@ -12873,6 +12927,7 @@ linesirinore2 = {
 	religion = faith_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	father = linesirinore1
@@ -12890,6 +12945,7 @@ linesirinore3 = {
 	religion = faith_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	father = linesirinore2
@@ -12907,6 +12963,7 @@ linesirinore4 = {
 	religion = faith_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	father = linesirinore3
@@ -12924,6 +12981,7 @@ linesirinore5 = {
 	religion = faith_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	father = linesirinore4
@@ -12941,6 +12999,7 @@ linesirinore6 = {
 	religion = faith_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	father = linesirinore5
@@ -12958,6 +13017,7 @@ linesirinore7 = {
 	religion = faith_numenorean
 	culture = adunaic
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	father = linesirinore6
@@ -13411,6 +13471,7 @@ gimilkhadbastard = {
 
 	trait = disputed_heritage
 	trait = beauty_good_2
+	trait = born_on_numenor
 	trait = blood_of_numenor_6
 	trait = impatient
 	trait = sadistic
@@ -13429,6 +13490,7 @@ linejewellord1 = {
 	religion = faith_kings_men_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_6
 	trait = greedy
 	trait = arrogant
@@ -13458,6 +13520,7 @@ linejewellord2 = { # Named after his supposed Grandfather, contender for the Nú
 	father = linejewellord1
 	mother = gimilkhadbastard
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_6
 	trait = sadistic
 	trait = greedy
@@ -13479,6 +13542,7 @@ linegimilson1 = {
 
 	father = linejewellord2
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_6
 	trait = strong
 	trait = wrathful
@@ -13574,6 +13638,7 @@ linejewellord3 = {
 	father = linejewellord1
 
 	trait = bastard
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3822.1.1 = {
@@ -14815,6 +14880,7 @@ lineofkhorandor1 = {
 	religion = faith_kings_men_numenorean
 	culture = numenorean
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 	trait = wrathful
 	trait = sadistic
@@ -14842,6 +14908,7 @@ lineofkhorandor2 = {
 
 	father = lineofkhorandor1
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 	trait = sadistic
 	trait = schemer
@@ -14862,6 +14929,7 @@ lineofkhorandor3 = {
 
 	father = lineofkhorandor2
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 	trait = fickle
 	trait = honest
@@ -15280,8 +15348,8 @@ lineofrotthor2a2 = { # ...but these tales pass into the annals of Númenor the A
     father = lineofrotthor2a1
     mother = lineofrotthor2a1wife
 
-    trait = blood_of_numenor_10
-
+    trait = born_on_numenor
+	trait = blood_of_numenor_10
 
     3371.4.19 = {
         birth = yes
@@ -15302,8 +15370,8 @@ lineofrotthor2a3 = {
 
     father = lineofrotthor2a2
 
-    trait = blood_of_numenor_9
-
+    trait = born_on_numenor
+	trait = blood_of_numenor_9
 
     3451.9.11 = {
         birth = yes
@@ -15325,7 +15393,8 @@ lineofrotthor2a4 = {
 
     father = lineofrotthor2a3
 
-    trait = blood_of_numenor_9
+    trait = born_on_numenor
+	trait = blood_of_numenor_9
 
 
     3567.12.11 = {
@@ -15347,7 +15416,8 @@ lineofrotthor2a5 = {
 
     mother = lineofrotthor2a4
 
-    trait = blood_of_numenor_8
+    trait = born_on_numenor
+	trait = blood_of_numenor_8
 
 
     3678.9.14 = {
@@ -15369,7 +15439,8 @@ lineofrotthor2a6 = {
 
     father = lineofrotthor2a5
 
-    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = blood_of_numenor_7
 
 
     3780.6.14 = {
@@ -15391,7 +15462,8 @@ lineofrotthor2a7 = {
 
     father = lineofrotthor2a6
 
-    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = blood_of_numenor_7
 
 
     3891.5.17 = {
@@ -16760,7 +16832,7 @@ lineofbarimanurid4a3 = {
     religion = faith_kings_men_numenorean
     culture = anbalukkhori
 
-    trait = blood_of_numenor_7
+	trait = blood_of_numenor_7
 
     3700.4.19 = {
         birth = yes
@@ -16790,7 +16862,8 @@ lineofbarimanurid4a4 = {
     religion = faith_dairaben
     culture = adunaic
 
-    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = blood_of_numenor_7
 
     3821.3.11 = {
         birth = yes
@@ -16815,7 +16888,8 @@ lineofbarimanurid4a5 = {
     religion = melkorite
     culture = adunaic
 
-    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = blood_of_numenor_7
 
     3900.4.18 = {
         birth = yes
@@ -16838,7 +16912,8 @@ lineofbarimanurid4a4a1 = {
     religion = melkorite
     culture = adunaic
 
-    trait = blood_of_numenor_7
+    trait = born_on_numenor
+	trait = blood_of_numenor_7
 
     3900.4.18 = {
         birth = yes
@@ -17715,6 +17790,7 @@ linebalkuloni1 = {
 	culture = numenorean
 	religion = melkorite
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 	trait = lifestyle_mariner
 	trait = wrathful
@@ -17735,6 +17811,7 @@ linebalkuloni2 = {
 	culture = numenorean
 	religion = melkorite
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	father = linebalkuloni1
@@ -17756,6 +17833,7 @@ linesorontiljewel1 = {
 	culture = numenorean
 	religion = melkorite
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	trait = scholar
@@ -17780,6 +17858,7 @@ linesorontiljewel1wife = {
 	culture = numenorean
 	religion = melkorite
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_6
 
 	trait = scholar
@@ -17803,6 +17882,7 @@ linesorontiljewel2 = {
 	father = linesorontiljewel1
 	mother = linesorontiljewel1wife
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 	trait = paranoid
 	trait = cynical
@@ -17840,6 +17920,7 @@ linesorontiljewel2a1 = {
 	father = linesorontiljewel2
 	mother = linesorontiljewel2conc1
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_5
 	trait = bastard
 
@@ -17861,6 +17942,7 @@ linesorontiljewel2b1 = {
 	father = linesorontiljewel2
 	mother = linesorontiljewel2conc1
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_6
 	trait = bastard
 
@@ -17877,7 +17959,7 @@ linesorontiljewel2conc2 = { # A faithful captured in a covered-up raid
 	dna = linesorontiljewel2conc2
 	female = yes
 
-	culture = numenorean
+	culture = dunedain
 	religion = faith_numenorean
 
 	trait = blood_of_numenor_7
@@ -17901,6 +17983,7 @@ linesorontiljewel2c1 = {
 	father = linesorontiljewel2
 	mother = linesorontiljewel2conc2
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_6
 	trait = bastard
 
@@ -17921,6 +18004,7 @@ linesorontiljewel2d1 = {
 	father = linesorontiljewel2
 	mother = linesorontiljewel2conc2
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_6
 	trait = legitimized_bastard
 
@@ -17953,6 +18037,7 @@ linesorontiljewel3 = {
 	father = linesorontiljewel1
 	mother = linesorontiljewel1wife
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 	trait = gluttonous
 	trait = wrathful
@@ -17979,6 +18064,7 @@ linesorontiljewel4 = {
 
 	father = linesorontiljewel3
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3878.1.1 = {
@@ -18021,6 +18107,7 @@ linesorontiljewel3a1 = {
 	father = linesorontiljewel3
 	mother = linesorontiljewel3conc1
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_6
 	trait = vengeful
 	trait = ambitious
@@ -18052,6 +18139,7 @@ linesirinorejewel1 = {
 	culture = numenorean
 	religion = melkorite
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 	trait = paranoid
 	trait = sadistic
@@ -18080,6 +18168,7 @@ linesirinorejewel2 = {
 
 	father = linesirinorejewel1
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3781.1.1 = {
@@ -18097,6 +18186,7 @@ linesirinorejewel3 = {
 
 	father = linesirinorejewel1
 
+	trait = born_on_numenor
 	trait = blood_of_numenor_7
 
 	3789.1.1 = {
