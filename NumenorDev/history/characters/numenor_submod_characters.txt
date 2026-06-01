@@ -414,7 +414,7 @@ lineofelros104 = { # Tar-Telemnar, legitimised some of his Father's bastards, ev
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelros104
+	father = lineofelros103
 
 	trait = trusting
 	trait = compassionate
@@ -440,7 +440,7 @@ lineofelros105 = { # Tar-Calion, the Sun King, known for his ability to fight an
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelros103
+	father = lineofelros104
 
 	trait = blood_of_numenor_7
 	trait = arrogant
@@ -490,7 +490,7 @@ lineofelros107 = {
 
 	trait = blood_of_numenor_7
 
-	5784.1.1 = {
+	5744.1.1 = {
 		birth = yes
 	}
 	6002.1.1 = {
@@ -501,24 +501,27 @@ lineofelros107 = {
 lineofelros108 = {
 	name = "Lindiss_e_e"
 	female = yes
+
 	dynasty = dynasty_elros
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelros107
 
-	trait = blood_of_numenor_7
 	trait = content
 	trait = humble
-	trait = beauty_good_2
 	trait = stubborn
-	trait = disinherited # Rejected the throne to marry her lover, Atanamir of Andunie
 
-	5886.1.1 = {
+	trait = beauty_good_2
+	trait = disinherited # Rejected the throne to marry her lover, Atanamir of Andunie
+	trait = blood_of_numenor_7
+
+	5816.1.1 = {
 		birth = yes
 	}
-	6120.1.1 = {
-		death = { death_reason = death_natural_causes }
+
+	6021.1.1 = { # Wished to be with her love faster
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
@@ -537,7 +540,7 @@ lineofelros109 = { # Tar-Amandil, a peaceful King who reigned over a period of p
 	trait = education_learning_4
 	trait = scholar
 
-	5974.1.1 = {
+	5844.1.1 = {
 		birth = yes
 		give_nickname = nick_andoralcar_tar_amandil
 		effect = {
@@ -1551,6 +1554,7 @@ lineofelros136 = {
 #HOUSE OF ELATAN#
 lineofelatan22 = {
 	name = An_arion
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = numenorean
@@ -1560,20 +1564,22 @@ lineofelatan22 = {
 	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
-	3587.1.1 = {
+	3415.7.18 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	3818.1.1 = {
+
+	3714.3.4 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 
 lineofelatan23 = {
 	name = "Ancalimon"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = numenorean
@@ -1581,22 +1587,24 @@ lineofelatan23 = {
 	father = lineofelatan22
 
 	trait = born_on_numenor
-	trait = blood_of_numenor_9
+	trait = blood_of_numenor_10
 
-	3754.1.1 = {
+	3553.3.20 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	3905.1.1 = {
-		death = { death_reason = death_execution }
+
+	3847.4.21 = {
+		death = { death_reason = death_natural_causes }
 	}
 }
 
-lineofelatan24 = {
-	name = "Manwendil"
+lineofelatan23son = {
+	name = "Hathor"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = numenorean
@@ -1604,289 +1612,504 @@ lineofelatan24 = {
 	father = lineofelatan23
 
 	trait = born_on_numenor
-	trait = blood_of_numenor_8
+	trait = blood_of_numenor_10
 
-	3877.1.1 = {
+	3672.1.9 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	4077.1.1 = {
+
+	3905.11.15 = {
+		death = { death_reason = death_execution }
+	}
+}
+
+lineofelatan24 = {
+	name = "Manwendil"
+
+	dynasty_house = house_andunie
+	religion = faith_numenorean
+	culture = numenorean
+
+	father = lineofelatan23son
+
+	trait = brave
+	trait = impatient
+	trait = diligent
+
+	trait = education_martial_4
+	trait = reckless
+	trait = born_on_numenor
+	trait = blood_of_numenor_10
+
+	3826.8.20 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+
+	4077.8.13 = {
 		death = { death_reason = death_battle } # Died helping Tar-Hallatan restore Númenor
 	}
 }
 
 lineofelatan25 = { # Lordship of Andunie restored and given to Calimehtar once Númenor is unified
 	name = "Calimehtar"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelatan24
 
-	trait = blood_of_numenor_7
+	trait = compassionate
+	trait = humble
+	trait = zealous
 
-	3921.1.1 = {
+	trait = education_learning_4
+	trait = blood_of_numenor_10
+
+	3921.11.14 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	4152.1.1 = {
-		death = { death_reason = death_natural_causes }
+
+	4201.11.12 = {
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
 lineofelatan26 = {
 	name = "Elumir"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelatan25
 
-	trait = blood_of_numenor_7
+	trait = patient
+	trait = shy
+	trait = forgiving
 
-	4089.1.1 = {
+	trait = education_diplomacy_4
+	trait = blood_of_numenor_10
+
+	4059.2.23 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	4318.1.1 = {
-		death = { death_reason = death_natural_causes }
+
+	4335.11.14 = {
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
 lineofelatan27 = {
 	name = "Minalcar"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelatan26
 
-	trait = blood_of_numenor_7
+	trait = honest
+	trait = just
+	trait = stubborn
 
-	4239.1.1 = {
+	trait = education_martial_3
+	trait = forest_fighter
+	trait = lifestyle_hunter
+	trait = blood_of_numenor_10
+
+	4171.3.2 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	4468.1.1 = {
-		death = { death_reason = death_natural_causes }
+
+	4442.5.2 = {
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
 lineofelatan28 = {
 	name = "Nolondil"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelatan27
 
-	trait = blood_of_numenor_7
+	trait = generous
+	trait = calm
+	trait = eccentric
 
-	4386.1.1 = {
+	trait = education_stewardship_4
+	trait = blood_of_numenor_9
+
+	4286.7.24 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	4615.1.1 = {
-		death = { death_reason = death_natural_causes }
+
+	4554.5.11 = {
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
 lineofelatan29 = {
 	name = "Vardamir"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelatan28
 
-	trait = blood_of_numenor_7
+	trait = just
+	trait = fickle
+	trait = shy
 
-	4562.1.1 = {
+	trait = education_learning_3
+	trait = blood_of_numenor_9
+
+	4412.5.18 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	4786.1.1 = {
-		death = { death_reason = death_natural_causes }
+
+	4676.3.7 = {
+		death = { death_reason = death_laid_down_life }
 	}
 }
 
-lineofelatan30 = {
-	name = "Earendur"
+lineofelatan29son = {
+	name = "Cerindor"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelatan29
 
-	trait = blood_of_numenor_7
+	trait = arrogant
+	trait = temperate
+	trait = gregarious
 
-	4706.1.1 = {
+	trait = education_diplomacy_3
+	trait = blood_of_numenor_9
+
+	4531.2.5 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	4933.1.1 = {
+
+	4793.9.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofelatan30 = {
+	name = "Earendur"
+
+	dynasty_house = house_andunie
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofelatan29son
+
+	trait = blood_of_numenor_9
+
+	4648.6.14 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+
+	4907.1.30 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 
 lineofelatan31 = {
 	name = "Malantur"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelatan30
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_9
 
-	4893.1.1 = {
+	4758.7.21 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	5117.1.1 = {
+
+	5012.5.31 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 
-lineofelatan32 = {
-	name = "Axantur"
+lineofelatan31son = {
+	name = "Thorongil"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelatan31
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_9
 
-	5092.1.1 = {
+	4871.9.14 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	5321.1.1 = {
+
+	5122.5.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofelatan31grandson = {
+	name = "Galion"
+
+	dynasty_house = house_andunie
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofelatan31son
+
+	trait = just
+	trait = forgiving
+	trait = chaste
+
+	trait = education_learning_4
+	trait = blood_of_numenor_9
+
+	4982.12.26 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+
+	5237.9.4 = {
+		death = { death_reason = death_laid_down_life }
+	}
+}
+
+lineofelatan32 = {
+	name = "Axantur"
+
+	dynasty_house = house_andunie
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofelatan31grandson
+
+	trait = blood_of_numenor_8
+
+	5092.5.4 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+
+	5340.7.13 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 
 lineofelatan33 = {
 	name = "Castamir"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelatan32
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_8
 
-	5294.1.1 = {
+	5204.1.16 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	5521.1.1 = {
+
+	5448.7.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 
-lineofelatan34 = {
-	name = "Herucar"
+lineofelatan33son = {
+	name = "Caranthir"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelatan33
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_8
 
-	5501.1.1 = {
+	5360.11.28 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	5730.1.1 = {
+
+	5601.1.16 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofelatan33grandson = {
+	name = "Edhelion"
+
+	dynasty_house = house_andunie
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofelatan33son
+
+	trait = blood_of_numenor_8
+
+	5469.2.11 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+
+	5707.4.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofelatan34 = {
+	name = "Herucar"
+
+	dynasty_house = house_andunie
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofelatan33grandson
+
+	trait = blood_of_numenor_8
+
+	5565.6.22 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+
+	5798.6.22 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 
 lineofelatan35 = {
 	name = "Nolondur"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelatan34
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_8
 
-	5694.1.1 = {
+	5674.7.26 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	5926.1.1 = {
+
+	5907.3.28 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 
 lineofelatan36 = {
 	name = "Atanamir"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
 	father = lineofelatan35
 
-	trait = blood_of_numenor_7
+	trait = blood_of_numenor_8
 
-	5889.1.1 = {
+	5789.6.22 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	5940.1.1 = {
+
+	5880.9.30 = {
 		add_spouse = lineofelros108
 	}
-	6117.1.1 = {
+
+	6020.10.27 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 
-lineofelatan37 = {
-	name = "Angatan"
+lineofelatan36son = {
+	name = "Eremir"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
@@ -1896,20 +2119,70 @@ lineofelatan37 = {
 
 	trait = blood_of_numenor_7
 
-	6082.1.1 = {
+	5886.2.21 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	6311.1.1 = {
+
+	6115.5.9 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 
-lineofelatan38 = {
-	name = "Elatan"
+lineofelatan36grandson = {
+	name = "Gwaedor"
+
+	dynasty_house = house_andunie
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofelatan36son
+
+	trait = blood_of_numenor_7
+
+	5969.10.4 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+
+	6197.5.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofelatan37 = {
+	name = "Angatan"
+
+	dynasty_house = house_andunie
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofelatan36grandson
+
+	trait = blood_of_numenor_7
+
+	6057.4.15 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+
+	6283.9.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofelatan37son = {
+	name = "Carthaen"
+
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
@@ -1918,20 +2191,70 @@ lineofelatan38 = {
 
 	trait = blood_of_numenor_7
 
-	6298.1.1 = {
+	6155.6.9 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	6526.1.1 = {
+
+	6380.12.29 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofelatan37grandson = {
+	name = "Malvegil"
+
+	dynasty_house = house_andunie
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofelatan37son
+
+	trait = blood_of_numenor_7
+
+	6238.4.2 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+
+	6462.9.5 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofelatan38 = {
+	name = "Elatan"
+
+	dynasty_house = house_andunie
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofelatan37grandson
+
+	trait = blood_of_numenor_7
+
+	6315.8.10 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+
+	6539.1.4 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 
 lineofelatan39 = {
 	name = "Valandil"
+
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
@@ -1940,20 +2263,22 @@ lineofelatan39 = {
 
 	trait = blood_of_numenor_7
 
-	6389.1.1 = {
+	6382.2.7 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	6402.1.1 = {
+
+	6402.4.29 = {
 		death = { death_reason = death_battle }
 	}
 }
 
 lineofelatan40 = {
 	name = "Isilmo"
+
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
@@ -1962,20 +2287,22 @@ lineofelatan40 = {
 
 	trait = blood_of_numenor_7
 
-	6398.1.1 = {
+	6398.8.17 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
-	6630.1.1 = {
+
+	6628.12.28 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 
-lineofelatan41 = {
-	name = "Ingoldur"
+lineofelatan40son = {
+	name = "Amdir"
+	
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
@@ -1984,13 +2311,38 @@ lineofelatan41 = {
 
 	trait = blood_of_numenor_7
 
-	6598.1.1 = {
+	6486.12.21 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
+
+	6713.7.24 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofelatan41 = {
+	name = "Ingoldur"
+
+	dynasty_house = house_andunie
+	culture = adunaic
+	religion = faith_numenorean
+
+	father = lineofelatan40son
+
+	trait = blood_of_numenor_7
+
+	6588.5.30 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+
 	6776.1.1 = { # Numenor Autonomy setup.
         effect = {
 			vassal_contract_set_obligation_level = {
@@ -2011,13 +2363,15 @@ lineofelatan41 = {
 			}
         }
     }
-	6855.1.1 = {
+
+	6818.3.12 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 
-lineofelatan42 = {
-	name = "Marmacil"
+lineofelatan41son = {
+	name = "Dior"
+	
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
@@ -2026,39 +2380,61 @@ lineofelatan42 = {
 
 	trait = blood_of_numenor_7
 
-	6796.1.1 = {
+	6689.9.5 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
 	}
+
+	6911.10.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofelatan42 = {
+	name = "Marmacil"
+
+	dynasty_house = house_andunie
+	culture = adunaic
+	religion = faith_numenorean
+
+	father = lineofelatan41son
+
+	trait = blood_of_numenor_7
+
+	6786.8.21 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+
 	6890.1.14 = {
 		add_spouse = lineofrotthor2a29b1a1
 	}
-	7022.1.1 = {
+
+	7011.11.21 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
 
 lineofelatan43 = {
 	name = "Eldarion"
+
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
-	#dna = eldarion_dna
 	dna = eldarion_valandilioni_wotr_dna_1
 
 	father = lineofelatan42
 	mother = lineofrotthor2a29b1a1
 
-	trait = blood_of_numenor_7
 	trait = just
 	trait = diligent
 	trait = zealous
-	trait = lifestyle_mariner
-	trait = shrewd
-	trait = education_learning_4
 
 	diplomacy = 6
 	martial = 5
@@ -2067,7 +2443,12 @@ lineofelatan43 = {
 	learning = 9
 	prowess = 7
 
-	6901.1.1 = {
+	trait = education_learning_4
+	trait = shrewd
+	trait = lifestyle_mariner
+	trait = blood_of_numenor_7
+
+	6891.12.14 = {
 		birth = yes
 		effect = {
 			learn_language = language_telerin
@@ -2075,10 +2456,12 @@ lineofelatan43 = {
             learn_language = language_quenya
         }
 	}
-	7000.1.1 = {
+
+	6970.3.21 = {
 		add_spouse = lineofagathor_ns38
 		set_relation_soulmate = character:lineofagathor_ns38
 	}
+
 	7030.1.1 = { # Numenor Autonomy setup.
         effect = {
             vassal_contract_set_obligation_level = {
@@ -2103,10 +2486,15 @@ lineofelatan43 = {
 			}
         }
     }
+
+	7117.1.25 = {
+		death = { death_reason = death_natural_causes }
+	}
 }
 
 lineofelatan44 = {
 	name = Parmait_e_e
+
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
@@ -2116,7 +2504,7 @@ lineofelatan44 = {
 
 	trait = blood_of_numenor_7
 
-	7001.1.1 = {
+	6981.10.7 = {
 		birth = yes
 		effect = {
 			learn_language = language_telerin
@@ -2124,11 +2512,16 @@ lineofelatan44 = {
             learn_language = language_quenya
         }
 	}
+
+	7206.6.18 = {
+		death = { death_reason = death_natural_causes }
+	}
 }
 
 lineofelatan45 = {
 	name = "Ailinel"
 	female = yes
+
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
@@ -2138,12 +2531,16 @@ lineofelatan45 = {
 
 	trait = blood_of_numenor_7
 
-	7003.1.1 = {
+	6993.11.28 = {
 		birth = yes
 		effect = {
             learn_language = language_sindarin
             learn_language = language_quenya
         }
+	}
+
+	7214.11.29 = {
+		death = { death_reason = death_natural_causes }
 	}
 }
 

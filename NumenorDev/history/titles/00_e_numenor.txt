@@ -523,56 +523,92 @@ c_andunie = {
 		change_development_level = 37
 		government = feudal_government
 	}
-	4152.1.1 = {
+	4201.11.12 = {
 		holder = lineofelatan26
 	}
-	4318.1.1 = {
+	4335.11.14 = {
 		holder = lineofelatan27
 	}
-	4468.1.1 = {
+	4442.5.2 = {
 		holder = lineofelatan28
 	}
-	4615.1.1 = {
+	4554.5.11 = {
 		holder = lineofelatan29
 	}
-	4786.1.1 = {
+	4676.3.7 = {
+		holder = lineofelatan29son
+	}
+	4793.9.26 = {
 		holder = lineofelatan30
 	}
-	4933.1.1 = {
+	4907.1.30 = {
 		holder = lineofelatan31
 	}
-	5117.1.1 = {
+	5012.5.31 = {
+		holder = lineofelatan31son
+	}
+	5122.5.2 = {
+		holder = lineofelatan31grandson
+	}
+	5237.9.4 = {
 		holder = lineofelatan32
 	}
-	5321.1.1 = {
+	5340.7.13 = {
 		holder = lineofelatan33
 	}
-	5521.1.1 = {
+	5448.7.1 = {
+		holder = lineofelatan33son
+	}
+	5601.1.16 = {
+		holder = lineofelatan33grandson
+	}
+	5707.4.21 = {
 		holder = lineofelatan34
 	}
-	5730.1.1 = {
+	5798.6.22 = {
 		holder = lineofelatan35
 	}
-	5926.1.1 = {
+	5907.3.28 = {
 		holder = lineofelatan36
 	}
-	6117.1.1 = {
+	6020.10.27 = {
+		holder = lineofelatan36son
+	}
+	6115.5.9 = {
+		holder = lineofelatan36grandson
+	}
+	6197.5.21 = {
 		holder = lineofelatan37
 	}
-	6311.1.1 = {
+	6283.9.26 = {
+		holder = lineofelatan37son
+	}
+	6380.12.29 = {
+		holder = lineofelatan37grandson
+	}
+	6462.9.5 = {
 		holder = lineofelatan38
 	}
-	6526.1.1 = {
+	6539.1.4 = {
 		holder = lineofelatan40
 	}
-	6630.1.1 = {
+	6628.12.28 = {
+		holder = lineofelatan40son
+	}
+	6713.7.24 = {
 		holder = lineofelatan41
 	}
-	6855.1.1 = {
+	6818.3.12 = {
+		holder = lineofelatan41son
+	}
+	6911.10.19 = {
 		holder = lineofelatan42
 	}
-	7022.1.1 = {
+	7011.11.21 = {
 		holder = lineofelatan43
+	}
+	7117.1.25 = {
+		holder = lineofelatan44
 	}
 }
 
@@ -770,56 +806,92 @@ d_andunie = {
 	4100.1.1 = {
 		holder = lineofelatan25
 	}
-	4152.1.1 = {
+	4201.11.12 = {
 		holder = lineofelatan26
 	}
-	4318.1.1 = {
+	4335.11.14 = {
 		holder = lineofelatan27
 	}
-	4468.1.1 = {
+	4442.5.2 = {
 		holder = lineofelatan28
 	}
-	4615.1.1 = {
+	4554.5.11 = {
 		holder = lineofelatan29
 	}
-	4786.1.1 = {
+	4676.3.7 = {
+		holder = lineofelatan29son
+	}
+	4793.9.26 = {
 		holder = lineofelatan30
 	}
-	4933.1.1 = {
+	4907.1.30 = {
 		holder = lineofelatan31
 	}
-	5117.1.1 = {
+	5012.5.31 = {
+		holder = lineofelatan31son
+	}
+	5122.5.2 = {
+		holder = lineofelatan31grandson
+	}
+	5237.9.4 = {
 		holder = lineofelatan32
 	}
-	5321.1.1 = {
+	5340.7.13 = {
 		holder = lineofelatan33
 	}
-	5521.1.1 = {
+	5448.7.1 = {
+		holder = lineofelatan33son
+	}
+	5601.1.16 = {
+		holder = lineofelatan33grandson
+	}
+	5707.4.21 = {
 		holder = lineofelatan34
 	}
-	5730.1.1 = {
+	5798.6.22 = {
 		holder = lineofelatan35
 	}
-	5926.1.1 = {
+	5907.3.28 = {
 		holder = lineofelatan36
 	}
-	6117.1.1 = {
+	6020.10.27 = {
+		holder = lineofelatan36son
+	}
+	6115.5.9 = {
+		holder = lineofelatan36grandson
+	}
+	6197.5.21 = {
 		holder = lineofelatan37
 	}
-	6311.1.1 = {
+	6283.9.26 = {
+		holder = lineofelatan37son
+	}
+	6380.12.29 = {
+		holder = lineofelatan37grandson
+	}
+	6462.9.5 = {
 		holder = lineofelatan38
 	}
-	6526.1.1 = {
+	6539.1.4 = {
 		holder = lineofelatan40
 	}
-	6630.1.1 = {
+	6628.12.28 = {
+		holder = lineofelatan40son
+	}
+	6713.7.24 = {
 		holder = lineofelatan41
 	}
-	6855.1.1 = {
+	6818.3.12 = {
+		holder = lineofelatan41son
+	}
+	6911.10.19 = {
 		holder = lineofelatan42
 	}
-	7022.1.1 = {
+	7011.11.21 = {
 		holder = lineofelatan43
+	}
+	7117.1.25 = {
+		holder = lineofelatan44
 	}
 }
 
@@ -5535,64 +5607,157 @@ c_oromet = {
     }
 	4100.1.1 = {
 		holder = lineofelatan25
-		government = feudal_government
 		change_development_level = 18
+		government = feudal_government
 	}
-	4152.1.1 = {
+	4201.11.12 = {
 		holder = lineofelatan26
 	}
-	4318.1.1 = {
+	4335.11.14 = {
 		holder = lineofelatan27
 	}
-	4468.1.1 = {
+	4442.5.2 = {
 		holder = lineofelatan28
 	}
-	4615.1.1 = {
+	4554.5.11 = {
 		holder = lineofelatan29
 	}
-	4786.1.1 = {
+	4676.3.7 = {
+		holder = lineofelatan29son
+	}
+	4793.9.26 = {
 		holder = lineofelatan30
 	}
-	4933.1.1 = {
+	4907.1.30 = {
 		holder = lineofelatan31
 	}
-	5117.1.1 = {
+	5012.5.31 = {
+		holder = lineofelatan31son
+	}
+	5122.5.2 = {
+		holder = lineofelatan31grandson
+	}
+	5237.9.4 = {
 		holder = lineofelatan32
 	}
-	5321.1.1 = {
+	5340.7.13 = {
 		holder = lineofelatan33
 	}
-	5521.1.1 = {
+	5448.7.1 = {
+		holder = lineofelatan33son
+	}
+	5601.1.16 = {
+		holder = lineofelatan33grandson
+	}
+	5707.4.21 = {
 		holder = lineofelatan34
 	}
-	5730.1.1 = {
+	5798.6.22 = {
 		holder = lineofelatan35
 	}
-	5926.1.1 = {
+	5907.3.28 = {
 		holder = lineofelatan36
 	}
-	6117.1.1 = {
+	6020.10.27 = {
+		holder = lineofelatan36son
+	}
+	6115.5.9 = {
+		holder = lineofelatan36grandson
+	}
+	6197.5.21 = {
 		holder = lineofelatan37
 	}
-	6311.1.1 = {
+	6283.9.26 = {
+		holder = lineofelatan37son
+	}
+	6380.12.29 = {
+		holder = lineofelatan37grandson
+	}
+	6462.9.5 = {
 		holder = lineofelatan38
 	}
-	6526.1.1 = {
+	6539.1.4 = {
 		holder = lineofelatan40
 	}
-	6630.1.1 = {
+	6628.12.28 = {
+		holder = lineofelatan40son
+	}
+	6713.7.24 = {
 		holder = lineofelatan41
 	}
-	6855.1.1 = {
+	6818.3.12 = {
+		holder = lineofelatan41son
+	}
+	6911.10.19 = {
 		holder = lineofelatan42
 	}
-	7022.1.1 = {
+	7011.11.21 = {
 		holder = lineofelatan43
+	}
+	7117.1.25 = {
+		holder = lineofelatan44
 	}
 }
 
 c_maltenost = {
-	3911.1.1 = {
+	1290.1.1 = {
+		holder = lineofelatan2 # Valandil
+		liege = e_numenor
+		government = feudal_government
+		change_development_level = 18
+	}
+	1624.1.1 = {
+		holder = lineofelatan3 # Anardur
+	}
+	1771.1.1 = {
+		holder = lineofelatan4 # Astandil
+	}
+	1913.1.1 = {
+		holder = lineofelatan5 # Lauremacil
+	}
+	2071.1.1 = {
+		holder = lineofelatan6 # Elecar
+	}
+	2275.1.1 = {
+		holder = lineofelatan7 # Isildur
+	}
+	2413.1.1 = {
+		holder = lineofelatan8 # Anárion
+	}
+	2673.1.1 = {
+		holder = lineofelatan9 # Elendur
+	}
+	2795.1.1 = {
+		holder = lineofelatan10 # Vëandur
+	}
+	2896.1.1 = {
+		holder = lineofelatan11 # Mírendil
+	}
+	3019.1.1 = {
+		holder = lineofelatan12 # Nárendur
+	}
+	3195.1.1 = {
+		holder = lineofelatan13 # Elentur
+	}
+	3313.1.1 = {
+		holder = lineofelatan14 # Olórendil
+	}
+	3424.1.1 = {
+		holder = lineofelatan15 # Incandur
+	}
+	3525.1.1 = {
+		holder = lineofelatan16 # Eärendur
+	}
+	3617.1.1 = {
+		holder = lineofelatan17 # Silmardil
+	}
+	3684.1.1 = {
+		holder = lineofelatan18 # Númendil
+	}
+	3702.1.1 = {
+		holder = lineofelatan19 # Amandil
+	}
+	3908.1.1 = { # Abandoned for Romenna when Amandil went West
         holder = k_wastelands_holder
         change_development_level = -100
         government = wastelands_government
@@ -5602,56 +5767,92 @@ c_maltenost = {
 		change_development_level = 15
 		government = feudal_government
 	}
-	4152.1.1 = {
+	4201.11.12 = {
 		holder = lineofelatan26
 	}
-	4318.1.1 = {
+	4335.11.14 = {
 		holder = lineofelatan27
 	}
-	4468.1.1 = {
+	4442.5.2 = {
 		holder = lineofelatan28
 	}
-	4615.1.1 = {
+	4554.5.11 = {
 		holder = lineofelatan29
 	}
-	4786.1.1 = {
+	4676.3.7 = {
+		holder = lineofelatan29son
+	}
+	4793.9.26 = {
 		holder = lineofelatan30
 	}
-	4933.1.1 = {
+	4907.1.30 = {
 		holder = lineofelatan31
 	}
-	5117.1.1 = {
+	5012.5.31 = {
+		holder = lineofelatan31son
+	}
+	5122.5.2 = {
+		holder = lineofelatan31grandson
+	}
+	5237.9.4 = {
 		holder = lineofelatan32
 	}
-	5321.1.1 = {
+	5340.7.13 = {
 		holder = lineofelatan33
 	}
-	5521.1.1 = {
+	5448.7.1 = {
+		holder = lineofelatan33son
+	}
+	5601.1.16 = {
+		holder = lineofelatan33grandson
+	}
+	5707.4.21 = {
 		holder = lineofelatan34
 	}
-	5730.1.1 = {
+	5798.6.22 = {
 		holder = lineofelatan35
 	}
-	5926.1.1 = {
+	5907.3.28 = {
 		holder = lineofelatan36
 	}
-	6117.1.1 = {
+	6020.10.27 = {
+		holder = lineofelatan36son
+	}
+	6115.5.9 = {
+		holder = lineofelatan36grandson
+	}
+	6197.5.21 = {
 		holder = lineofelatan37
 	}
-	6311.1.1 = {
+	6283.9.26 = {
+		holder = lineofelatan37son
+	}
+	6380.12.29 = {
+		holder = lineofelatan37grandson
+	}
+	6462.9.5 = {
 		holder = lineofelatan38
 	}
-	6526.1.1 = {
+	6539.1.4 = {
 		holder = lineofelatan40
 	}
-	6630.1.1 = {
+	6628.12.28 = {
+		holder = lineofelatan40son
+	}
+	6713.7.24 = {
 		holder = lineofelatan41
 	}
-	6855.1.1 = {
+	6818.3.12 = {
+		holder = lineofelatan41son
+	}
+	6911.10.19 = {
 		holder = lineofelatan42
 	}
-	7022.1.1 = {
+	7011.11.21 = {
 		holder = lineofelatan43
+	}
+	7117.1.25 = {
+		holder = lineofelatan44
 	}
 }
 

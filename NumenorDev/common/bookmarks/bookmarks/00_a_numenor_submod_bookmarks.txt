@@ -47,7 +47,7 @@
 		dynasty_house = house_andunie
 		dynasty_splendor_level = 10
 		type = male
-		birth = 6901.1.1
+		birth = 6891.12.14
 		title = d_andunie
 		government = feudal_government
 		religion = faith_adunaic
