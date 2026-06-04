@@ -54,7 +54,7 @@ numenor_fire_intro_events = {
 	}
 	
 	#Eldarion's Introduction Event
-	character:lineofelatan43 ?= {
+	character:lineofelatan55 ?= {
 		if = {
 			limit = {
 				is_alive = yes

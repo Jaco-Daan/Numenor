@@ -53,7 +53,7 @@
 		religion = faith_adunaic
 		culture = adunaic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = lineofelatan43
+		history_id = lineofelatan55
 		position = { 250 280 }
 		animation = personality_bold
 	}

@@ -155,8 +155,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofelatan43
-				this = character:lineofelatan43
+				exists = character:lineofelatan55
+				this = character:lineofelatan55
 			}
 		}
 	}

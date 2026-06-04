@@ -1200,7 +1200,7 @@ lineofelros127 = {
         }
 	}
 	7033.1.1 = {
-		employer = lineofelatan43
+		employer = lineofelatan55
 		name = Armanar
 		religion = faith_numenorean
 	}
@@ -1551,7 +1551,8 @@ lineofelros136 = {
 	}
 }
 
-#HOUSE OF ELATAN#
+### HOUSE OF ELATAN ###
+
 lineofelatan22 = {
 	name = An_arion
 
@@ -1602,7 +1603,7 @@ lineofelatan23 = {
 	}
 }
 
-lineofelatan23son = {
+lineofelatan24 = {
 	name = "Hathor"
 
 	dynasty_house = house_andunie
@@ -1627,14 +1628,14 @@ lineofelatan23son = {
 	}
 }
 
-lineofelatan24 = {
+lineofelatan25 = {
 	name = "Manwendil"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = numenorean
 
-	father = lineofelatan23son
+	father = lineofelatan24
 
 	trait = brave
 	trait = impatient
@@ -1658,14 +1659,14 @@ lineofelatan24 = {
 	}
 }
 
-lineofelatan25 = { # Lordship of Andunie restored and given to Calimehtar once Númenor is unified
+lineofelatan26 = { # Lordship of Andunie restored and given to Calimehtar once Númenor is unified
 	name = "Calimehtar"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan24
+	father = lineofelatan25
 
 	trait = compassionate
 	trait = humble
@@ -1687,14 +1688,14 @@ lineofelatan25 = { # Lordship of Andunie restored and given to Calimehtar once N
 	}
 }
 
-lineofelatan26 = {
+lineofelatan27 = {
 	name = "Elumir"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan25
+	father = lineofelatan26
 
 	trait = patient
 	trait = shy
@@ -1716,14 +1717,14 @@ lineofelatan26 = {
 	}
 }
 
-lineofelatan27 = {
+lineofelatan28 = {
 	name = "Minalcar"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan26
+	father = lineofelatan27
 
 	trait = honest
 	trait = just
@@ -1747,14 +1748,14 @@ lineofelatan27 = {
 	}
 }
 
-lineofelatan28 = {
+lineofelatan29 = {
 	name = "Nolondil"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan27
+	father = lineofelatan28
 
 	trait = generous
 	trait = calm
@@ -1776,14 +1777,14 @@ lineofelatan28 = {
 	}
 }
 
-lineofelatan29 = {
+lineofelatan30 = {
 	name = "Vardamir"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan28
+	father = lineofelatan29
 
 	trait = just
 	trait = fickle
@@ -1805,14 +1806,14 @@ lineofelatan29 = {
 	}
 }
 
-lineofelatan29son = {
+lineofelatan31 = {
 	name = "Cerindor"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan29
+	father = lineofelatan30
 
 	trait = arrogant
 	trait = temperate
@@ -1834,14 +1835,14 @@ lineofelatan29son = {
 	}
 }
 
-lineofelatan30 = {
+lineofelatan32 = {
 	name = "Earendur"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan29son
+	father = lineofelatan31
 
 	trait = blood_of_numenor_9
 
@@ -1858,14 +1859,14 @@ lineofelatan30 = {
 	}
 }
 
-lineofelatan31 = {
+lineofelatan33 = {
 	name = "Malantur"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan30
+	father = lineofelatan32
 
 	trait = blood_of_numenor_9
 
@@ -1882,14 +1883,14 @@ lineofelatan31 = {
 	}
 }
 
-lineofelatan31son = {
+lineofelatan34 = {
 	name = "Thorongil"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan31
+	father = lineofelatan33
 
 	trait = blood_of_numenor_9
 
@@ -1906,14 +1907,14 @@ lineofelatan31son = {
 	}
 }
 
-lineofelatan31grandson = {
+lineofelatan35 = {
 	name = "Galion"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan31son
+	father = lineofelatan34
 
 	trait = just
 	trait = forgiving
@@ -1935,14 +1936,14 @@ lineofelatan31grandson = {
 	}
 }
 
-lineofelatan32 = {
+lineofelatan36 = {
 	name = "Axantur"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan31grandson
+	father = lineofelatan35
 
 	trait = blood_of_numenor_8
 
@@ -1959,14 +1960,14 @@ lineofelatan32 = {
 	}
 }
 
-lineofelatan33 = {
+lineofelatan37 = {
 	name = "Castamir"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan32
+	father = lineofelatan36
 
 	trait = blood_of_numenor_8
 
@@ -1983,14 +1984,14 @@ lineofelatan33 = {
 	}
 }
 
-lineofelatan33son = {
+lineofelatan38 = {
 	name = "Caranthir"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan33
+	father = lineofelatan37
 
 	trait = blood_of_numenor_8
 
@@ -2007,14 +2008,14 @@ lineofelatan33son = {
 	}
 }
 
-lineofelatan33grandson = {
+lineofelatan39 = {
 	name = "Edhelion"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan33son
+	father = lineofelatan38
 
 	trait = blood_of_numenor_8
 
@@ -2031,14 +2032,14 @@ lineofelatan33grandson = {
 	}
 }
 
-lineofelatan34 = {
+lineofelatan40 = {
 	name = "Herucar"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan33grandson
+	father = lineofelatan39
 
 	trait = blood_of_numenor_8
 
@@ -2055,14 +2056,14 @@ lineofelatan34 = {
 	}
 }
 
-lineofelatan35 = {
+lineofelatan41 = {
 	name = "Nolondur"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan34
+	father = lineofelatan40
 
 	trait = blood_of_numenor_8
 
@@ -2079,14 +2080,14 @@ lineofelatan35 = {
 	}
 }
 
-lineofelatan36 = {
+lineofelatan42 = {
 	name = "Atanamir"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan35
+	father = lineofelatan41
 
 	trait = blood_of_numenor_8
 
@@ -2107,14 +2108,14 @@ lineofelatan36 = {
 	}
 }
 
-lineofelatan36son = {
+lineofelatan43 = {
 	name = "Eremir"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan36
+	father = lineofelatan42
 	mother = lineofelros108
 
 	trait = blood_of_numenor_7
@@ -2132,14 +2133,14 @@ lineofelatan36son = {
 	}
 }
 
-lineofelatan36grandson = {
+lineofelatan44 = {
 	name = "Gwaedor"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan36son
+	father = lineofelatan43
 
 	trait = blood_of_numenor_7
 
@@ -2156,14 +2157,14 @@ lineofelatan36grandson = {
 	}
 }
 
-lineofelatan37 = {
+lineofelatan45 = {
 	name = "Angatan"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan36grandson
+	father = lineofelatan44
 
 	trait = blood_of_numenor_7
 
@@ -2180,14 +2181,14 @@ lineofelatan37 = {
 	}
 }
 
-lineofelatan37son = {
+lineofelatan46 = {
 	name = "Carthaen"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan37
+	father = lineofelatan45
 
 	trait = blood_of_numenor_7
 
@@ -2204,14 +2205,14 @@ lineofelatan37son = {
 	}
 }
 
-lineofelatan37grandson = {
+lineofelatan47 = {
 	name = "Malvegil"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan37son
+	father = lineofelatan46
 
 	trait = blood_of_numenor_7
 
@@ -2228,14 +2229,14 @@ lineofelatan37grandson = {
 	}
 }
 
-lineofelatan38 = {
+lineofelatan48 = {
 	name = "Elatan"
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
 	culture = adunaic
 
-	father = lineofelatan37grandson
+	father = lineofelatan47
 
 	trait = blood_of_numenor_7
 
@@ -2252,14 +2253,14 @@ lineofelatan38 = {
 	}
 }
 
-lineofelatan39 = {
+lineofelatan49 = {
 	name = "Valandil"
 
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
 
-	father = lineofelatan38
+	father = lineofelatan48
 
 	trait = blood_of_numenor_7
 
@@ -2276,14 +2277,14 @@ lineofelatan39 = {
 	}
 }
 
-lineofelatan40 = {
+lineofelatan50 = {
 	name = "Isilmo"
 
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
 
-	father = lineofelatan38
+	father = lineofelatan48
 
 	trait = blood_of_numenor_7
 
@@ -2300,14 +2301,14 @@ lineofelatan40 = {
 	}
 }
 
-lineofelatan40son = {
+lineofelatan51 = {
 	name = "Amdir"
 	
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
 
-	father = lineofelatan40
+	father = lineofelatan50
 
 	trait = blood_of_numenor_7
 
@@ -2324,14 +2325,14 @@ lineofelatan40son = {
 	}
 }
 
-lineofelatan41 = {
+lineofelatan52 = {
 	name = "Ingoldur"
 
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
 
-	father = lineofelatan40son
+	father = lineofelatan51
 
 	trait = blood_of_numenor_7
 
@@ -2369,14 +2370,14 @@ lineofelatan41 = {
 	}
 }
 
-lineofelatan41son = {
+lineofelatan53 = {
 	name = "Dior"
 	
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
 
-	father = lineofelatan41
+	father = lineofelatan52
 
 	trait = blood_of_numenor_7
 
@@ -2393,14 +2394,14 @@ lineofelatan41son = {
 	}
 }
 
-lineofelatan42 = {
+lineofelatan54 = {
 	name = "Marmacil"
 
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
 
-	father = lineofelatan41son
+	father = lineofelatan53
 
 	trait = blood_of_numenor_7
 
@@ -2421,7 +2422,7 @@ lineofelatan42 = {
 	}
 }
 
-lineofelatan43 = {
+lineofelatan55 = {
 	name = "Eldarion"
 
 	dynasty_house = house_andunie
@@ -2429,7 +2430,7 @@ lineofelatan43 = {
 	religion = faith_numenorean
 	dna = eldarion_valandilioni_wotr_dna_1
 
-	father = lineofelatan42
+	father = lineofelatan54
 	mother = lineofrotthor2a29b1a1
 
 	trait = just
@@ -2492,14 +2493,14 @@ lineofelatan43 = {
 	}
 }
 
-lineofelatan44 = {
+lineofelatan56 = {
 	name = Parmait_e_e
 
 	dynasty_house = house_andunie
 	culture = adunaic
 	religion = faith_numenorean
 
-	father = lineofelatan43
+	father = lineofelatan55
 	mother = lineofagathor_ns38
 
 	trait = blood_of_numenor_7
@@ -2518,7 +2519,7 @@ lineofelatan44 = {
 	}
 }
 
-lineofelatan45 = {
+lineofelatan57 = {
 	name = "Ailinel"
 	female = yes
 
@@ -2526,7 +2527,7 @@ lineofelatan45 = {
 	culture = adunaic
 	religion = faith_numenorean
 
-	father = lineofelatan43
+	father = lineofelatan55
 	mother = lineofagathor_ns38
 
 	trait = blood_of_numenor_7
@@ -2544,7 +2545,572 @@ lineofelatan45 = {
 	}
 }
 
-## House Veantur, Submod ##
+### HOUSE OF VARDUR ###
+
+lineofvardur3desc = {
+	name = "Minulzu_u_r"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_kings_men_numenorean
+	culture = numenorean
+
+	mother = lineofvardur3
+
+	trait = blood_of_numenor_10
+
+	3072.1.1 = {
+		birth = yes
+	}
+	3415.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur4 = {
+	name = "Balkutho_o_r"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_kings_men_numenorean
+	culture = numenorean
+
+	father = lineofvardur3desc
+
+	trait = blood_of_numenor_10
+
+	3225.1.1 = {
+		birth = yes
+	}
+	3551.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur5 = {
+	name = "Ulba_a_r"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_kings_men_numenorean
+	culture = numenorean
+
+	father = lineofvardur4
+
+	trait = blood_of_numenor_10
+
+	3338.1.1 = {
+		birth = yes
+	}
+	3635.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur6 = {
+	name = "Zimratho_o_r"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_kings_men_numenorean
+	culture = numenorean
+
+	father = lineofvardur5
+
+	trait = blood_of_numenor_9
+
+	3452.1.1 = {
+		birth = yes
+	}
+	3715.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur7 = {
+	name = "Sakaltho_o_r"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_kings_men_numenorean
+	culture = numenorean
+
+	father = lineofvardur6
+
+	trait = blood_of_numenor_9
+
+	3570.1.1 = {
+		birth = yes
+	}
+	3814.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur8 = {
+	name = "Nimrukha_a_z"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_kings_men_numenorean
+	culture = numenorean
+
+	father = lineofvardur7
+
+	trait = blood_of_numenor_8
+
+	3688.1.1 = {
+		birth = yes
+	}
+	3890.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur9 = {
+	name = "Ni_i_lozu_u_r"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_kings_men_numenorean
+	culture = numenorean
+
+	father = lineofvardur8
+
+	trait = blood_of_numenor_7
+
+	3777.1.1 = {
+		birth = yes
+	}
+	3911.1.1 = {
+		death = { death_reason =  death_valinor_crushed } # Drowned during Akallabeth
+	}
+}
+lineofvardur10 = {
+	name = Karbazi_i_r
+	dynasty_house = dynasty_vardurionath
+	religion = faith_kings_men_numenorean
+	culture = numenorean
+
+	father = lineofvardur9
+
+	trait = blood_of_numenor_7
+
+	3858.1.1 = {
+		birth = yes
+	}
+	3990.1.14 = {
+		add_spouse = linesorontiljewel3a1com1
+		set_relation_lover = character:linesorontiljewel3a1com1
+	}
+	4089.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur11 = {
+	name = Zimrakarba_a_n
+	dynasty_house = dynasty_vardurionath
+	religion = faith_kings_men_numenorean
+	culture = adunaic
+
+	father = lineofvardur10
+	mother = linesorontiljewel3a1com1
+
+	trait = blood_of_numenor_7
+
+	3995.1.1 = {
+		birth = yes
+	}
+	4223.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur12 = {
+	name = "Sapazu_u_r"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_kings_men_numenorean
+	culture = adunaic
+
+	father = lineofvardur11
+
+	trait = blood_of_numenor_7
+
+	4194.1.1 = {
+		birth = yes
+	}
+	4422.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur13 = {
+	name = "Balaka_a_n"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_kings_men_numenorean
+	culture = adunaic
+
+	father = lineofvardur12
+
+	trait = blood_of_numenor_7
+
+	4367.1.1 = {
+		birth = yes
+	}
+	4592.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur14 = {
+	name = "Arnuzi_i_r"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_kings_men_numenorean
+	culture = adunaic
+
+	father = lineofvardur13
+
+	trait = blood_of_numenor_7
+
+	4498.1.1 = {
+		birth = yes
+	}
+	4726.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur15 = {
+	name = Imrazo_o_r
+	dynasty_house = dynasty_vardurionath
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofvardur14
+
+	trait = blood_of_numenor_7
+	trait = just
+	trait = scholar
+	trait = humble
+
+	4701.1.1 = {
+		birth = yes
+		name = Vardur
+	}
+	4927.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur16 = {
+	name = "Tamrube_e_n"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofvardur15
+
+	trait = blood_of_numenor_7
+
+	4902.1.1 = {
+		birth = yes
+	}
+	5130.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur17 = {
+	name = "Arnuzi_i_r"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofvardur16
+
+	trait = blood_of_numenor_7
+
+	5102.1.1 = {
+		birth = yes
+	}
+	5330.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur18 = {
+	name = "Imrakho_o_r"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofvardur17
+
+	trait = blood_of_numenor_7
+
+	5306.1.1 = {
+		birth = yes
+	}
+	5534.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur19 = {
+	name = "Mu_u_rakho_o_r"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofvardur18
+
+	trait = blood_of_numenor_7
+
+	5498.1.1 = {
+		birth = yes
+	}
+	5724.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur20 = {
+	name = Niluzir
+	dynasty_house = dynasty_vardurionath
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofvardur19
+
+	trait = blood_of_numenor_7
+
+	5706.1.1 = {
+		birth = yes
+	}
+	5934.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur21 = {
+	name = "Ulbuzu_u_r"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofvardur20
+
+	trait = blood_of_numenor_7
+
+	5904.1.1 = {
+		birth = yes
+	}
+	6133.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur22 = {
+	name = "Be_e_lzagar"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_numenorean
+	culture = adunaic
+
+	father = lineofvardur21
+
+	trait = blood_of_numenor_7
+
+	6098.1.1 = {
+		birth = yes
+	}
+	6325.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvardur23 = {
+	name = "Akho_o_rahil"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofvardur22
+
+	trait = blood_of_numenor_7
+
+	6297.1.1 = {
+		birth = yes
+	}
+	6526.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvardur24 = {
+	name = "Gimilzo_o_r"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofvardur23
+
+	trait = blood_of_numenor_7
+
+	6499.1.1 = {
+		birth = yes
+	}
+	6729.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvardur25 = {
+	name = "Inzilurud"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofvardur24
+
+	trait = blood_of_numenor_7
+
+	6700.1.1 = {
+		birth = yes
+	}
+	6776.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = {
+				type = feudal_government_taxes
+				level = 1
+			}
+			vassal_contract_set_obligation_level = {
+				type = feudal_government_levies
+				level = 1
+			}
+        }
+    }
+	6929.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofvardur26 = {
+	name = "Zo_o_rzagar"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_adunaic
+	culture = adunaic
+	#dna = zorzagar_dna
+	dna = zorzagar_vardurioni_wotr_dna_1
+
+	father = lineofvardur25
+
+	trait = blood_of_numenor_7
+	trait = brave
+	trait = callous
+	trait = ambitious
+	trait = strong
+	trait = education_martial_3
+	trait = education_martial_prowess_4
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 6
+	intrigue = 3
+	learning = 4
+	prowess = 9
+
+	6900.1.1 = {
+		birth = yes
+	}
+	6990.3.20 = {
+		add_spouse = lineofelros125
+	}
+	7030.1.1 = { # Numenor Autonomy setup.
+        effect = {
+			vassal_contract_set_obligation_level = {
+				type = feudal_government_taxes
+				level = 1
+			}
+			vassal_contract_set_obligation_level = {
+				type = feudal_government_levies
+				level = 1
+			}
+        }
+    }
+}
+
+lineofvardur27 = {
+	name = "Zimrupa_a_n"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofvardur26
+	mother = lineofelros125
+
+	trait = blood_of_numenor_7
+	trait = just
+	trait = lifestyle_mariner
+	trait = beauty_good_1
+
+	6968.1.1 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+}
+
+linevardur28 = {
+	name = "Arnakho_o_r"
+	dynasty_house = dynasty_vardurionath
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofvardur27
+
+	trait = blood_of_numenor_7
+
+
+	7032.1.1 = {
+		birth = yes
+	}
+}
+
+lineofvardur29 = {
+	name = "Adu_u_naphe_e_l"
+	female = yes
+	dynasty_house = dynasty_vardurionath
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofvardur26
+	mother = lineofelros125
+
+	trait = blood_of_numenor_7
+	trait = beauty_good_1
+
+	6972.1.1 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+}
+
+lineofvardur24a1 = {
+	name = Izindukho_o_r
+	dynasty_house = dynasty_vardurionath
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofvardur24
+
+	trait = blood_of_numenor_7
+	trait = education_learning_4
+
+	6702.6.19 = {
+		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+	6924.2.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofvardur24a2 = {
+	name = Quettal_ot_e_e
+	female = yes
+	dynasty_house = dynasty_vardurionath
+	religion = faith_adunaic
+	culture = adunaic
+
+	father = lineofvardur24a1
+
+	trait = blood_of_numenor_7
+
+	6787.2.14 = {
+		birth = yes
+	}
+	7013.2.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+### HOUSE OF VEANTUR ###
 
 dolamrothsubmod1 = {
 	name = "Alphros"
@@ -3270,571 +3836,6 @@ lineofazruhil15a1 = {
 	7144.6.18 = {
         death = { death_reason = death_natural_causes }
     }
-}
-
-
-##LINE OF VARDUR##
-lineofvardur3desc = {
-	name = "Minulzu_u_r"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_kings_men_numenorean
-	culture = numenorean
-
-	mother = lineofvardur3
-
-	trait = blood_of_numenor_10
-
-	3072.1.1 = {
-		birth = yes
-	}
-	3415.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur4 = {
-	name = "Balkutho_o_r"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_kings_men_numenorean
-	culture = numenorean
-
-	father = lineofvardur3desc
-
-	trait = blood_of_numenor_10
-
-	3225.1.1 = {
-		birth = yes
-	}
-	3551.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur5 = {
-	name = "Ulba_a_r"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_kings_men_numenorean
-	culture = numenorean
-
-	father = lineofvardur4
-
-	trait = blood_of_numenor_10
-
-	3338.1.1 = {
-		birth = yes
-	}
-	3635.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur6 = {
-	name = "Zimratho_o_r"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_kings_men_numenorean
-	culture = numenorean
-
-	father = lineofvardur5
-
-	trait = blood_of_numenor_9
-
-	3452.1.1 = {
-		birth = yes
-	}
-	3715.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur7 = {
-	name = "Sakaltho_o_r"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_kings_men_numenorean
-	culture = numenorean
-
-	father = lineofvardur6
-
-	trait = blood_of_numenor_9
-
-	3570.1.1 = {
-		birth = yes
-	}
-	3814.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur8 = {
-	name = "Nimrukha_a_z"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_kings_men_numenorean
-	culture = numenorean
-
-	father = lineofvardur7
-
-	trait = blood_of_numenor_8
-
-	3688.1.1 = {
-		birth = yes
-	}
-	3890.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur9 = {
-	name = "Ni_i_lozu_u_r"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_kings_men_numenorean
-	culture = numenorean
-
-	father = lineofvardur8
-
-	trait = blood_of_numenor_7
-
-	3777.1.1 = {
-		birth = yes
-	}
-	3911.1.1 = {
-		death = { death_reason =  death_valinor_crushed } # Drowned during Akallabeth
-	}
-}
-lineofvardur10 = {
-	name = Karbazi_i_r
-	dynasty_house = dynasty_vardurionath
-	religion = faith_kings_men_numenorean
-	culture = numenorean
-
-	father = lineofvardur9
-
-	trait = blood_of_numenor_7
-
-	3858.1.1 = {
-		birth = yes
-	}
-	3990.1.14 = {
-		add_spouse = linesorontiljewel3a1com1
-		set_relation_lover = character:linesorontiljewel3a1com1
-	}
-	4089.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur11 = {
-	name = Zimrakarba_a_n
-	dynasty_house = dynasty_vardurionath
-	religion = faith_kings_men_numenorean
-	culture = adunaic
-
-	father = lineofvardur10
-	mother = linesorontiljewel3a1com1
-
-	trait = blood_of_numenor_7
-
-	3995.1.1 = {
-		birth = yes
-	}
-	4223.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur12 = {
-	name = "Sapazu_u_r"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_kings_men_numenorean
-	culture = adunaic
-
-	father = lineofvardur11
-
-	trait = blood_of_numenor_7
-
-	4194.1.1 = {
-		birth = yes
-	}
-	4422.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur13 = {
-	name = "Balaka_a_n"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_kings_men_numenorean
-	culture = adunaic
-
-	father = lineofvardur12
-
-	trait = blood_of_numenor_7
-
-	4367.1.1 = {
-		birth = yes
-	}
-	4592.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur14 = {
-	name = "Arnuzi_i_r"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_kings_men_numenorean
-	culture = adunaic
-
-	father = lineofvardur13
-
-	trait = blood_of_numenor_7
-
-	4498.1.1 = {
-		birth = yes
-	}
-	4726.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur15 = {
-	name = Imrazo_o_r
-	dynasty_house = dynasty_vardurionath
-	religion = faith_numenorean
-	culture = adunaic
-
-	father = lineofvardur14
-
-	trait = blood_of_numenor_7
-	trait = just
-	trait = scholar
-	trait = humble
-
-	4701.1.1 = {
-		birth = yes
-		name = Vardur
-	}
-	4927.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur16 = {
-	name = "Tamrube_e_n"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_numenorean
-	culture = adunaic
-
-	father = lineofvardur15
-
-	trait = blood_of_numenor_7
-
-	4902.1.1 = {
-		birth = yes
-	}
-	5130.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur17 = {
-	name = "Arnuzi_i_r"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_numenorean
-	culture = adunaic
-
-	father = lineofvardur16
-
-	trait = blood_of_numenor_7
-
-	5102.1.1 = {
-		birth = yes
-	}
-	5330.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur18 = {
-	name = "Imrakho_o_r"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_numenorean
-	culture = adunaic
-
-	father = lineofvardur17
-
-	trait = blood_of_numenor_7
-
-	5306.1.1 = {
-		birth = yes
-	}
-	5534.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur19 = {
-	name = "Mu_u_rakho_o_r"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_numenorean
-	culture = adunaic
-
-	father = lineofvardur18
-
-	trait = blood_of_numenor_7
-
-	5498.1.1 = {
-		birth = yes
-	}
-	5724.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur20 = {
-	name = Niluzir
-	dynasty_house = dynasty_vardurionath
-	religion = faith_numenorean
-	culture = adunaic
-
-	father = lineofvardur19
-
-	trait = blood_of_numenor_7
-
-	5706.1.1 = {
-		birth = yes
-	}
-	5934.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur21 = {
-	name = "Ulbuzu_u_r"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_numenorean
-	culture = adunaic
-
-	father = lineofvardur20
-
-	trait = blood_of_numenor_7
-
-	5904.1.1 = {
-		birth = yes
-	}
-	6133.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur22 = {
-	name = "Be_e_lzagar"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_numenorean
-	culture = adunaic
-
-	father = lineofvardur21
-
-	trait = blood_of_numenor_7
-
-	6098.1.1 = {
-		birth = yes
-	}
-	6325.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofvardur23 = {
-	name = "Akho_o_rahil"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_adunaic
-	culture = adunaic
-
-	father = lineofvardur22
-
-	trait = blood_of_numenor_7
-
-	6297.1.1 = {
-		birth = yes
-	}
-	6526.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofvardur24 = {
-	name = "Gimilzo_o_r"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_adunaic
-	culture = adunaic
-
-	father = lineofvardur23
-
-	trait = blood_of_numenor_7
-
-	6499.1.1 = {
-		birth = yes
-	}
-	6729.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofvardur25 = {
-	name = "Inzilurud"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_adunaic
-	culture = adunaic
-
-	father = lineofvardur24
-
-	trait = blood_of_numenor_7
-
-	6700.1.1 = {
-		birth = yes
-	}
-	6776.1.1 = { # Numenor Autonomy setup.
-        effect = {
-			vassal_contract_set_obligation_level = {
-				type = feudal_government_taxes
-				level = 1
-			}
-			vassal_contract_set_obligation_level = {
-				type = feudal_government_levies
-				level = 1
-			}
-        }
-    }
-	6929.1.1 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-
-lineofvardur26 = {
-	name = "Zo_o_rzagar"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_adunaic
-	culture = adunaic
-	#dna = zorzagar_dna
-	dna = zorzagar_vardurioni_wotr_dna_1
-
-	father = lineofvardur25
-
-	trait = blood_of_numenor_7
-	trait = brave
-	trait = callous
-	trait = ambitious
-	trait = strong
-	trait = education_martial_3
-	trait = education_martial_prowess_4
-
-	diplomacy = 4
-	martial = 6
-	stewardship = 6
-	intrigue = 3
-	learning = 4
-	prowess = 9
-
-	6900.1.1 = {
-		birth = yes
-	}
-	6990.3.20 = {
-		add_spouse = lineofelros125
-	}
-	7030.1.1 = { # Numenor Autonomy setup.
-        effect = {
-			vassal_contract_set_obligation_level = {
-				type = feudal_government_taxes
-				level = 1
-			}
-			vassal_contract_set_obligation_level = {
-				type = feudal_government_levies
-				level = 1
-			}
-        }
-    }
-}
-
-lineofvardur27 = {
-	name = "Zimrupa_a_n"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_adunaic
-	culture = adunaic
-
-	father = lineofvardur26
-	mother = lineofelros125
-
-	trait = blood_of_numenor_7
-	trait = just
-	trait = lifestyle_mariner
-	trait = beauty_good_1
-
-	6968.1.1 = {
-		birth = yes
-		effect = {
-            learn_language = language_sindarin
-            learn_language = language_quenya
-        }
-	}
-}
-
-linevardur28 = {
-	name = "Arnakho_o_r"
-	dynasty_house = dynasty_vardurionath
-	religion = faith_adunaic
-	culture = adunaic
-
-	father = lineofvardur27
-
-	trait = blood_of_numenor_7
-
-
-	7032.1.1 = {
-		birth = yes
-	}
-}
-
-lineofvardur29 = {
-	name = "Adu_u_naphe_e_l"
-	female = yes
-	dynasty_house = dynasty_vardurionath
-	religion = faith_adunaic
-	culture = adunaic
-
-	father = lineofvardur26
-	mother = lineofelros125
-
-	trait = blood_of_numenor_7
-	trait = beauty_good_1
-
-	6972.1.1 = {
-		birth = yes
-		effect = {
-            learn_language = language_sindarin
-            learn_language = language_quenya
-        }
-	}
-}
-
-lineofvardur24a1 = {
-	name = Izindukho_o_r
-	dynasty_house = dynasty_vardurionath
-	religion = faith_adunaic
-	culture = adunaic
-
-	father = lineofvardur24
-
-	trait = blood_of_numenor_7
-	trait = education_learning_4
-
-	6702.6.19 = {
-		birth = yes
-		effect = {
-            learn_language = language_sindarin
-            learn_language = language_quenya
-        }
-	}
-	6924.2.18 = {
-		death = { death_reason = death_natural_causes }
-	}
-}
-lineofvardur24a2 = {
-	name = Quettal_ot_e_e
-	female = yes
-	dynasty_house = dynasty_vardurionath
-	religion = faith_adunaic
-	culture = adunaic
-
-	father = lineofvardur24a1
-
-	trait = blood_of_numenor_7
-
-	6787.2.14 = {
-		birth = yes
-	}
-	7013.2.18 = {
-		death = { death_reason = death_natural_causes }
-	}
 }
 
 ###LINE OF CIRYANDUR OF HAZAJ TOLLIN###
