@@ -1213,43 +1213,93 @@ d_arandor = {
 
 d_hyarnore = {
 	4802.1.1 = {
-		holder = lineofvardur15
+		holder = lineofvardur23
+		liege = e_numenor
 		government = feudal_government
 	}
-	4927.1.1 = {
-		holder = lineofvardur16
-	}
-	5130.1.1 = {
-		holder = lineofvardur17
-	}
-	5330.1.1 = {
-		holder = lineofvardur18
-		liege = e_numenor
-	}
-	5534.1.1 = {
-		holder = lineofvardur19
-	}
-	5724.1.1 = {
-		holder = lineofvardur20
-	}
-	5934.1.1 = {
-		holder = lineofvardur21
-	}
-	6133.1.1 = {
-		holder = lineofvardur22
-	}
-	6325.1.1 = {
-		holder = lineofvardur23
-	}
-	6526.1.1 = {
+	4919.11.2 = {
 		holder = lineofvardur24
 	}
-	6729.1.1 = {
+	5005.1.9 = {
 		holder = lineofvardur25
 	}
-	6929.1.1 = {
+	5077.11.4 = {
 		holder = lineofvardur26
-		liege = e_numenor
+	}
+	5202.10.26 = {
+		holder = lineofvardur27
+	}
+	5272.6.11 = {
+		holder = lineofvardur28
+	}
+	5335.11.23 = {
+		holder = lineofvardur29
+	}
+	5381.12.25 = {
+		holder = lineofvardur30
+	}
+	5522.11.30 = {
+		holder = lineofvardur31
+	}
+	5602.5.7 = {
+		holder = lineofvardur32
+	}
+	5679.7.25 = {
+		holder = lineofvardur33
+	}
+	5753.4.22 = {
+		holder = lineofvardur34
+	}
+	5832.1.19 = {
+		holder = lineofvardur35
+	}
+	5929.11.30 = {
+		holder = lineofvardur36
+	}
+	6003.12.8 = {
+		holder = lineofvardur37
+	}
+	6080.9.17 = {
+		holder = lineofvardur38
+	}
+	6174.8.19 = {
+		holder = lineofvardur39
+	}
+	6243.8.18 = {
+		holder = lineofvardur40
+	}
+	6315.1.30 = {
+		holder = lineofvardur41
+	}
+	6406.6.27 = {
+		holder = lineofvardur42
+	}
+	6478.1.10 = {
+		holder = lineofvardur43
+	}
+	6553.12.5 = {
+		holder = lineofvardur44
+	}
+	6637.6.24 = {
+		holder = lineofvardur45
+	}
+	6723.5.7 = {
+		holder = lineofvardur46
+	}
+	6786.11.8 = {
+		holder = lineofvardur48
+	}
+	6880.4.8 = {
+		holder = lineofvardur50
+	}
+	6958.12.21 = {
+		holder = lineofvardur52
+	}
+	7032.7.27 = {
+		holder = lineofvardur53
+	}
+	7124.12.10 = {
+		holder = lineofvardur54
 	}
 }
 
@@ -2516,43 +2566,93 @@ c_opele_ancalimonva = {
         government = wastelands_government
     }
 	4802.1.1 = {
-		holder = lineofvardur15
-		government = feudal_government
-		change_development_level = 24
-	}
-	4927.1.1 = {
-		holder = lineofvardur16
-	}
-	5130.1.1 = {
-		holder = lineofvardur17
-	}
-	5330.1.1 = {
-		holder = lineofvardur18
-		liege = e_numenor
-	}
-	5534.1.1 = {
-		holder = lineofvardur19
-	}
-	5724.1.1 = {
-		holder = lineofvardur20
-	}
-	5934.1.1 = {
-		holder = lineofvardur21
-	}
-	6133.1.1 = {
-		holder = lineofvardur22
-	}
-	6325.1.1 = {
 		holder = lineofvardur23
+		change_development_level = 24
+		government = feudal_government
 	}
-	6526.1.1 = {
+	4919.11.2 = {
 		holder = lineofvardur24
 	}
-	6729.1.1 = {
+	5005.1.9 = {
 		holder = lineofvardur25
 	}
-	6929.1.1 = {
+	5077.11.4 = {
 		holder = lineofvardur26
+	}
+	5202.10.26 = {
+		holder = lineofvardur27
+	}
+	5272.6.11 = {
+		holder = lineofvardur28
+	}
+	5335.11.23 = {
+		holder = lineofvardur29
+	}
+	5381.12.25 = {
+		holder = lineofvardur30
+	}
+	5522.11.30 = {
+		holder = lineofvardur31
+	}
+	5602.5.7 = {
+		holder = lineofvardur32
+	}
+	5679.7.25 = {
+		holder = lineofvardur33
+	}
+	5753.4.22 = {
+		holder = lineofvardur34
+	}
+	5832.1.19 = {
+		holder = lineofvardur35
+	}
+	5929.11.30 = {
+		holder = lineofvardur36
+	}
+	6003.12.8 = {
+		holder = lineofvardur37
+	}
+	6080.9.17 = {
+		holder = lineofvardur38
+	}
+	6174.8.19 = {
+		holder = lineofvardur39
+	}
+	6243.8.18 = {
+		holder = lineofvardur40
+	}
+	6315.1.30 = {
+		holder = lineofvardur41
+	}
+	6406.6.27 = {
+		holder = lineofvardur42
+	}
+	6478.1.10 = {
+		holder = lineofvardur43
+	}
+	6553.12.5 = {
+		holder = lineofvardur44
+	}
+	6637.6.24 = {
+		holder = lineofvardur45
+	}
+	6723.5.7 = {
+		holder = lineofvardur46
+	}
+	6786.11.8 = {
+		holder = lineofvardur48
+	}
+	6880.4.8 = {
+		holder = lineofvardur50
+	}
+	6958.12.21 = {
+		holder = lineofvardur52
+	}
+	7032.7.27 = {
+		holder = lineofvardur53
+	}
+	7124.12.10 = {
+		holder = lineofvardur54
 	}
 }
 
@@ -3860,37 +3960,72 @@ c_hyarmentie = {
         government = wastelands_government
     }
 	4802.1.1 = {
-		holder = lineofvardur15
-		government = feudal_government
-		change_development_level = 14
-	}
-	4927.1.1 = {
-		holder = lineofvardur16
-	}
-	5130.1.1 = {
-		holder = lineofvardur17
-	}
-	5330.1.1 = {
-		holder = lineofvardur18
-		liege = e_numenor
-	}
-	5534.1.1 = {
-		holder = lineofvardur19
-	}
-	5724.1.1 = {
-		holder = lineofvardur20
-	}
-	5934.1.1 = {
-		holder = lineofvardur21
-	}
-	6133.1.1 = {
-		holder = lineofvardur22
-	}
-	6325.1.1 = {
 		holder = lineofvardur23
+		change_development_level = 14
+		government = feudal_government
 	}
-	6526.1.1 = {
+	4919.11.2 = {
 		holder = lineofvardur24
+	}
+	5005.1.9 = {
+		holder = lineofvardur25
+	}
+	5077.11.4 = {
+		holder = lineofvardur26
+	}
+	5202.10.26 = {
+		holder = lineofvardur27
+	}
+	5272.6.11 = {
+		holder = lineofvardur28
+	}
+	5335.11.23 = {
+		holder = lineofvardur29
+	}
+	5381.12.25 = {
+		holder = lineofvardur30
+	}
+	5522.11.30 = {
+		holder = lineofvardur31
+	}
+	5602.5.7 = {
+		holder = lineofvardur32
+	}
+	5679.7.25 = {
+		holder = lineofvardur33
+	}
+	5753.4.22 = {
+		holder = lineofvardur34
+	}
+	5832.1.19 = {
+		holder = lineofvardur35
+	}
+	5929.11.30 = {
+		holder = lineofvardur36
+	}
+	6003.12.8 = {
+		holder = lineofvardur37
+	}
+	6080.9.17 = {
+		holder = lineofvardur38
+	}
+	6174.8.19 = {
+		holder = lineofvardur39
+	}
+	6243.8.18 = {
+		holder = lineofvardur40
+	}
+	6315.1.30 = {
+		holder = lineofvardur41
+	}
+	6406.6.27 = {
+		holder = lineofvardur42
+	}
+	6478.1.10 = {
+		holder = lineofvardur43
+	}
+	6553.12.5 = {
+		holder = lineofvardur44
 	}
 	6556.1.14 = { # For good service
         holder = lineofbarimanurid4a4a20 # Inzilaba_a_r
@@ -3923,43 +4058,93 @@ c_tauredor = {
         government = wastelands_government
     }
 	4802.1.1 = {
-		holder = lineofvardur15
-		government = feudal_government
-		change_development_level = 11
-	}
-	4927.1.1 = {
-		holder = lineofvardur16
-	}
-	5130.1.1 = {
-		holder = lineofvardur17
-	}
-	5330.1.1 = {
-		holder = lineofvardur18
-		liege = e_numenor
-	}
-	5534.1.1 = {
-		holder = lineofvardur19
-	}
-	5724.1.1 = {
-		holder = lineofvardur20
-	}
-	5934.1.1 = {
-		holder = lineofvardur21
-	}
-	6133.1.1 = {
-		holder = lineofvardur22
-	}
-	6325.1.1 = {
 		holder = lineofvardur23
+		change_development_level = 11
+		government = feudal_government
 	}
-	6526.1.1 = {
+	4919.11.2 = {
 		holder = lineofvardur24
 	}
-	6729.1.1 = {
+	5005.1.9 = {
 		holder = lineofvardur25
 	}
-	6929.1.1 = {
+	5077.11.4 = {
 		holder = lineofvardur26
+	}
+	5202.10.26 = {
+		holder = lineofvardur27
+	}
+	5272.6.11 = {
+		holder = lineofvardur28
+	}
+	5335.11.23 = {
+		holder = lineofvardur29
+	}
+	5381.12.25 = {
+		holder = lineofvardur30
+	}
+	5522.11.30 = {
+		holder = lineofvardur31
+	}
+	5602.5.7 = {
+		holder = lineofvardur32
+	}
+	5679.7.25 = {
+		holder = lineofvardur33
+	}
+	5753.4.22 = {
+		holder = lineofvardur34
+	}
+	5832.1.19 = {
+		holder = lineofvardur35
+	}
+	5929.11.30 = {
+		holder = lineofvardur36
+	}
+	6003.12.8 = {
+		holder = lineofvardur37
+	}
+	6080.9.17 = {
+		holder = lineofvardur38
+	}
+	6174.8.19 = {
+		holder = lineofvardur39
+	}
+	6243.8.18 = {
+		holder = lineofvardur40
+	}
+	6315.1.30 = {
+		holder = lineofvardur41
+	}
+	6406.6.27 = {
+		holder = lineofvardur42
+	}
+	6478.1.10 = {
+		holder = lineofvardur43
+	}
+	6553.12.5 = {
+		holder = lineofvardur44
+	}
+	6637.6.24 = {
+		holder = lineofvardur45
+	}
+	6723.5.7 = {
+		holder = lineofvardur46
+	}
+	6786.11.8 = {
+		holder = lineofvardur48
+	}
+	6880.4.8 = {
+		holder = lineofvardur50
+	}
+	6958.12.21 = {
+		holder = lineofvardur52
+	}
+	7032.7.27 = {
+		holder = lineofvardur53
+	}
+	7124.12.10 = {
+		holder = lineofvardur54
 	}
 }
 

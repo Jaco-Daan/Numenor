@@ -64,13 +64,13 @@
 		dynasty_house = dynasty_vardurionath
 		dynasty_splendor_level = 10
 		type = male
-		birth = 6900.1.1
+		birth = 6900.12.8
 		title = d_hyarnore
 		government = feudal_government
 		religion = faith_adunaic
 		culture = adunaic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		history_id = lineofvardur26
+		history_id = lineofvardur53
 		position = { 1180 800 }
 		animation = personality_content
 	}

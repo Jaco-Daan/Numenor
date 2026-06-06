@@ -67,7 +67,7 @@ numenor_fire_intro_events = {
 	}
 	
 	#Zorzagar's Introduction Event
-	character:lineofvardur26 ?= {
+	character:lineofvardur53 ?= {
 		if = {
 			limit = {
 				is_alive = yes

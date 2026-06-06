@@ -181,8 +181,8 @@
 			modifier = {
 				add = 999
 				exists = this
-				exists = character:lineofvardur26
-				this = character:lineofvardur26
+				exists = character:lineofvardur53
+				this = character:lineofvardur53
 			}
 		}
 	}
