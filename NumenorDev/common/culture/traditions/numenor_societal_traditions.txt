@@ -13,6 +13,7 @@
 	}
 
 	can_pick = {
+		NOT = { has_cultural_tradition = tradition_elennahin_pride }
 		NOT = { has_cultural_tradition = tradition_staunch_traditionalists }
 		trigger_if = { #LotR
             limit = {
@@ -45,5 +46,52 @@
 
 	county_modifier = {
 		monthly_county_control_growth_factor = 0.5
+	}
+}
+
+tradition_elennahin_pride = { #Elennahín traditions
+	category = societal
+
+	layers = {
+		0 = diplo
+		1 = mediterranean
+		2 = adunaim3support.dds
+		4 = adunaim5.dds
+	}
+
+	is_shown = {
+		has_cultural_pillar = heritage_unified_adunaic
+	}
+
+	can_pick = {
+		NOT = { has_cultural_tradition = tradition_adunaim_pride }
+		NOT = { has_cultural_tradition = tradition_staunch_traditionalists }
+		trigger_if = { #LotR
+            limit = {
+                scope:replacing ?= culture_tradition:tradition_variag_succession
+            }
+            custom_tooltip = {
+                text = cannot_replace_variag_succession
+                NOT = { has_cultural_tradition = tradition_variag_succession } #To prevent stacking after hybridization
+            }
+        }
+	}
+
+	parameters = {
+		dislikes_marrying_outside_of_cultural_heritage = yes
+		ai_doesnt_marry_outside_cultural_heritage = yes
+		values_numenorean_blood = yes
+		courtiers_less_likely_to_leave_same_culture_court = yes
+		expensive_convert_to_local_culture = yes
+		harder_to_hybridize = yes
+		less_likely_to_culture_convert = yes
+	}
+	
+	character_modifier = {
+		same_culture_opinion = 10
+	}
+
+	county_modifier = {
+		monthly_county_control_growth_factor = 0.1
 	}
 }

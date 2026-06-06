@@ -329,6 +329,7 @@
 
 			### Numenor Submod ###
 			culture:adunaic = { custom_tooltip = adunaic_desc }
+			culture:elennahin = { custom_tooltip = elennahin_desc }
 		}
 	}
 }

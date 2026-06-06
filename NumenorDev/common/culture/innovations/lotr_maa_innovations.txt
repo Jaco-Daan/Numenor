@@ -751,7 +751,9 @@ innovation_numenorean_warriors = {
 			OR = {
 				this = culture:numenorean
 				this = culture:adunaic #Numenor Sub-mod
+				this = culture:elennahin #Numenor Sub-mod
 				any_parent_culture_or_above = { this = culture:adunaic } #Numenor Sub-mod
+				any_parent_culture_or_above = { this = culture:elennahin } #Numenor Sub-mod
 			}
 		}
 	}
