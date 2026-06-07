@@ -1,6 +1,5 @@
 ﻿numenor_history_changes = {
 	numenor_elros_history_changes_effect = yes
-	numenor_vardur_history_changes_effect = yes
 	numenor_borodiriath_history_changes_effect = yes
 }
 
@@ -12,10 +11,6 @@ numenor_elros_history_changes_effect = {
 		set_father = character:lineofagathor_ns6
 	}
 	character:lineofelros73 ?= { set_house = character:lineofagathor_ns1.house }
-}
-
-numenor_vardur_history_changes_effect = {
-	character:lineofvardur3 ?= { set_house = house:dynasty_vardurionath }
 }
 
 numenor_borodiriath_history_changes_effect = {

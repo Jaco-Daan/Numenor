@@ -5225,17 +5225,16 @@ mablung10 = {
 
 mablung11 = { #Copied from lineofbeleth3
 	name = Erendis # Wife of Tar-Aldarion
-
 	female = yes
-	dynasty = dynasty_beleth
+
+	dynasty = dynasty_lungumarith # SUBMOD
 	religion = faith_numenorean
 	culture = numenorean
 	dna = erendis_dna
 
-	trait = education_diplomacy_2  # Not sure what to put here, open to suggestions - Trig
+	father = mablung10 # SUBMOD
 
-	father = lineofbeleth1
-	mother = lineofbeleth2
+	trait = education_diplomacy_2  # Not sure what to put here, open to suggestions - Trig
 
 	diplomacy = 4
 	martial = 1
@@ -5543,6 +5542,7 @@ mablung25 = {
 
 mablung24daughter = {
 	name = Vain_oni # TEMP NAME
+	female = yes
 
 	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
