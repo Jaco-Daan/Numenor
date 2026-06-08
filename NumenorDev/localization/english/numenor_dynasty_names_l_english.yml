@@ -1,0 +1,33 @@
+﻿l_english:
+
+### Numenor Submod Dynasties ###
+
+# Dynasties
+ dynn_agathor: "Tir Elin" # Not Eleronwë, but still related to stars
+ dynn_akhorahil: "Akhôrahilôhîn"
+ dynn_arialome: "Minulzîri"
+ dynn_arkia: "Ferrinix" # This is a vanity so it's fine but we should still fix
+ dynn_aruthan: "Avalôbênî"
+ dynn_azulhin: "Azûlhîn"
+ dynn_balkuloni: "Arnuthôrî"
+ dynn_elenore: "Zôrzagarôthôrî"
+ dynn_jewellord: "Abranâi 'nZimir"
+ dynn_khorandor: "Magânî"
+ dynn_belethmablung: "Bar Beregar" # This is Beregar and Erendis' dynasty, so I think Bar Beregar will be best
+ dynn_ondosto: "Sapthâbênî"
+ dynn_ondostobastard: "Balkuzôrî"
+ dynn_sirinore: "Carnistirion"
+ dynn_sirinorejewellord: "Dôlguzagarôhîn"
+ dynn_sorontiljewellord: "Azaribên"
+ dynn_syntar: "Bar Baian" # Better but need to fix Baian, maybe Balan
+ dynn_telemnacil: "Telemmacilion"
+
+# Houses
+ dynn_arialomedaughter: "Adûnaphazôrôhîl"
+ dynn_azruhil: "Azruhîl"
+ dynn_borodiriathtwo: "Atanaherion"
+ dynn_borodiriaththree: "Zadan an-Ûrî"
+ dynn_ciryamirtwo: "Ûrîthôrî"
+ dynn_gimilkhad: "Zadan Gimilkhâd"
+ dynn_jewellorddaughter: "Adûninzilôhîl"
+ dynn_vardurionath: "Vardurioni"

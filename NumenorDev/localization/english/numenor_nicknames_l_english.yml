@@ -28,7 +28,7 @@
 
   # Númenórean
   nick_nucuptar_tar_hallatan: "Nucuptar"
-  nick_nucuptar_tar_hallatan_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] named [Glossary('Nucuptar','nucuptar_gloss')] when [CharYouSheHe(CHARACTER)] reunited the shattered principalities on the island of [numenor|E] by way of sword."
+  nick_nucuptar_tar_hallatan_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] named [Glossary('Nucuptar','nucuptar_gloss')] because [CharYouSheHe(CHARACTER)] used his great blessing from [Concept('eruiluvatar','Êru')|E] to reunite the remaining shattered remnants of his people upon [elenna|E] by way of sword."
   nick_uriyaru_tar_calion: "Ûriyârû"
   nick_uriyaru_tar_calion_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] given the epithet [Glossary('Ûriyârû','uriyaru_gloss')] for [CharYourHerHis(CHARACTER)] bright blond hair and fiery personality. [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] also an eager and masterful swordfighter, for which [CharYouSheHe(CHARACTER)] [CharWereWas(CHARACTER)] also named [Glossary('Lintamacil','lintamacil_gloss')]."
   nick_andoralcar_tar_amandil: "Andoralcar"

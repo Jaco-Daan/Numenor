@@ -1,58 +1,49 @@
-﻿#### The Line of Elros -> Aragorn
+﻿#### Numenor Submod Houses ####
 
-#house_andunie = { # Defined in main mod
-	#name = "dynn_andunie"
-	#dynasty = dynasty_elros
-	#motto = dynn_andunie_motto
-#}
-
-dynasty_azruhil = {
-	name = "dynn_azruhil"
-	dynasty = dynasty_mornionath
-	motto = dynn_azruhil_motto
-}
-dynasty_vardurionath = {
-	name = "dynn_vardurionath"
-	dynasty = dynasty_elros
-	motto = dynn_vardurionath_motto 
-}
-
-dynasty_arialomedaughter = {
-	name = "dynn_arialomedaughter"
+house_arialomedaughter = {
+	name = dynn_arialomedaughter
 	dynasty = dynasty_arialome
 	motto = dynn_arialomedaughter_motto
 }
 
-dynasty_borodiriathtwo = {
-	name = "dynn_borodiriathtwo"
-	dynasty = dynasty_borodiriath 
-	motto = dynn_boridiriathtwo_motto
+house_azruhil = {
+	name = dynn_azruhil
+	dynasty = dynasty_mornionath
+	motto = dynn_azruhil_motto
 }
 
-dynasty_gimilkhadson = {
-	name = "dynn_gimilkhadson"
+house_borodiriathtwo = {
+	name = dynn_borodiriathtwo
+	dynasty = dynasty_borodiriath
+	motto = dynn_borodiriathtwo_motto
+}
+
+house_borodiriaththree = {
+	name = dynn_borodiriaththree
+	dynasty = dynasty_borodiriath 
+	motto = dynn_borodiriaththree_motto
+}
+
+house_ciryamirtwo = {
+	name = dynn_ciryamirtwo
+	dynasty = dynasty_ciryamir
+	motto = dynn_ciryamirtwo_motto
+}
+
+house_gimilkhad = {
+	name = dynn_gimilkhad
 	dynasty = dynasty_jewellord
 	motto = dynn_gimilkhad_motto
 }
 
-dynasty_jeweldaughter = {
-	name = "dynn_jeweldaughter"
+house_jewellorddaughter = {
+	name = dynn_jewellorddaughter
 	dynasty = dynasty_jewellord
-	motto = dynn_jeweldaughter_motto
+	motto = dynn_jewellorddaughter_motto
 }
 
-dynasty_ciryamirtwo = {
-	name = "dynn_ciryatwo"
-	dynasty = dynasty_ciryamir
-	motto = dynn_ciryatwo_motto
-}
-dynasty_bordirurecadet = {
-	name = "dynn_borodirure"
-	dynasty = dynasty_borodiriath
-	motto = dynn_borodirure_motto
-}
-dynasty_urithorcadet = {
-	name = "dynn_urithor"
-	dynasty = dynasty_ciryandur
-	motto = dynn_urithor_motto
+house_vardurionath = {
+	name = dynn_vardurionath
+	dynasty = dynasty_elros
+	motto = dynn_vardurionath_motto
 }

@@ -61,7 +61,7 @@
 	# Zorzagar, Lord of Hyarnore
 	character = {
 		name = "bookmark_numenor_zorzagar"
-		dynasty_house = dynasty_vardurionath
+		dynasty_house = house_vardurionath
 		dynasty_splendor_level = 10
 		type = male
 		birth = 6900.12.8

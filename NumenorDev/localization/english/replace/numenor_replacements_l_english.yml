@@ -1,0 +1,12 @@
+﻿l_english:
+
+#### Numenor Submod Replacements ####
+
+# Dynasty Name Replacements
+ dynn_khorahil: "an-Balkûkhôr" # Maybe an-Khôrahîl? # Remove when main mod updates
+ dynn_urithor: "Ûrîhîl" # Remove when main mod updates
+
+
+# Title Loc Replacements
+ high_king_dunedain_numenor_in_exile: "Ar" # Investigate if necessary
+ high_king_dunedain_numenor_in_exile_female: "Ar" # Investigate if necessary

@@ -132,7 +132,7 @@ dynasty_arialome = { #Minulzîri Dynasty
 
 }
 
-dynasty_arialomedaughter = { #Adûnaphazôrôhîl Dynasty
+house_arialomedaughter = { #Adûnaphazôrôhîl Dynasty
     pattern="pattern_abrakhan_02.dds"
     color1=red
     color2=white
@@ -271,7 +271,7 @@ dynasty_aruthan = { #Erubênî Dynasty
 
 }
 
-dynasty_azruhil = { #Azruhîl Dynasty
+house_azruhil = { #Azruhîl Dynasty
 	pattern="pattern_solid.dds"
 	color1=rgb { 3 3 42 }
 	color2=white
@@ -515,7 +515,7 @@ dynasty_borodiriath = { #Borodiriath Dynasty
 
 }
 
-dynasty_bordirurecadet = { #Atanaherion Dynasty
+house_borodiriathtwo = { #Atanaherion Dynasty
 	pattern="pattern_solid.dds"
 	color1=white
 	color2=white
@@ -569,7 +569,7 @@ dynasty_bordirurecadet = { #Atanaherion Dynasty
 
 }
 
-dynasty_borodiriathtwo = { #Zadan Ûrêzagar Dynasty
+house_borodiriaththree = { #Zadan Ûrêzagar Dynasty
 	pattern="pattern_shield_02.dds"
 	color1=white
 	color2=black
@@ -614,7 +614,7 @@ dynasty_ciryamir = { #Ciryatirionath Dynasty
 
 }
 
-dynasty_ciryamirtwo = { #Ûrîthôrî Dynasty
+house_ciryamirtwo = { #Ûrîthôrî Dynasty
 	pattern="pattern_solid.dds"
 	color1=black
 	color2=black
@@ -821,7 +821,7 @@ dynasty_elenore = { #Zôrzagarôthôrî Dynasty, CoA by Menelmacar of Barazinbar
 #     }
 # }
 
-dynasty_gimilkhadson = { #Zadan Gimilkhâd Dynasty
+house_gimilkhad = { #Zadan Gimilkhâd Dynasty
 	pattern="pattern_solid.dds"
 	color1=rgb { 85 13 3 }
 	color2=black
@@ -859,7 +859,7 @@ dynasty_gimilkhadson = { #Zadan Gimilkhâd Dynasty
 
 }
 
-dynasty_jeweldaughter = { #Adûnaphazôrôhîl Dynasty
+house_jewellorddaughter = { #Adûnaphazôrôhîl Dynasty
 	pattern="pattern_solid.dds"
 	color1=navy_blue
 	color2=white
@@ -996,7 +996,7 @@ dynasty_khorandor = { #Magânî Dynasty
 
 }
 
-dynasty_lungumarith = { #Bar Beregar Dynasty
+dynasty_belethmablung = { #Bar Beregar Dynasty
 	pattern="pattern_solid.dds"
 	color1=rgb { 5 65 11 }
 	color2=yellow
@@ -1324,7 +1324,7 @@ dynasty_ondostobastard = { #Balkuzôrî
 
 }
 
-dynasty_vanityarkia = { #Ferrinix Dynasty
+dynasty_arkia = { #Ferrinix Dynasty
     pattern="pattern_horizontal_split_01.dds"
     color1=white
     color2=white
@@ -1429,7 +1429,7 @@ dynasty_sirinore = { #Carnistirion Dynasty
 
 }
 
-dynasty_sirinorejewel = { #Dôlguzagôhîn Dynasty
+dynasty_sirinorejewellord = { #Dôlguzagôhîn Dynasty
 	pattern="pattern_solid.dds"
 	color1=rgb { 0 34 67 }
 	color2=dark_burgundy
@@ -1624,7 +1624,7 @@ dynasty_telemnacil = { #Telemnacilion Dynasty
 
 }
 
-dynasty_urithorcadet = { #Ûrîhîl Dynasty
+house_urithorcadet = { #Ûrîhîl Dynasty
     pattern="pattern_solid.dds"
     color1=rgb { 0 0 0 }
     color2=yellow
