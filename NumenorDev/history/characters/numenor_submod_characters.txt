@@ -824,7 +824,7 @@ lineofelros117 = {
 }
 
 lineofelros118 = {
-	name = Eleniel # TEMP NAME
+	name = Alcarill_e_e
 	female = yes
 
 	dynasty = dynasty_elros
@@ -865,6 +865,10 @@ lineofelros118 = {
 	6763.7.1 = {
 		add_matrilineal_spouse = lineofciryamir29brother
 		set_relation_soulmate = character:lineofciryamir29brother
+	}
+
+	6841.1.1 = {
+		name = Aglarrile_e_th
 	}
 
 	6933.8.26 = {
@@ -1415,7 +1419,7 @@ lineofelros132 = {
 }
 
 lineofelros133 = {
-	name = Za_a_yukho_o_r
+	name = Za_a_yakkho_o_r
 	dynasty = dynasty_elros
 	religion = faith_adunaic
 	culture = adunaic
@@ -3035,7 +3039,7 @@ lineofvardur25 = {
 }
 
 lineofvardur26 = {
-	name = Bala_a_kha_a_n # TEMP NAME
+	name = Balaka_a_n # TEMP NAME
 
 	dynasty_house = dynasty_vardurionath
 	religion = faith_numenorean
@@ -5907,7 +5911,7 @@ mablung43 = {
 }
 
 mablung44 = {
-	name = Erukho_o_r
+	name = A_A_ru_u_kho_o_r
 	dynasty = dynasty_lungumarith
 	religion = faith_numenorean
 	culture = adunaic
@@ -12239,7 +12243,7 @@ lineofarialome8 = {
 	}
 }
 lineofarialome9 = {
-	name = No_o_lo_o_ndil
+	name = Saptha_a_nzi_i_r
 	dynasty = dynasty_arialome
 	religion = faith_numenorean
 	culture = adunaic
@@ -13844,7 +13848,7 @@ lineborodirsubmod37 = {
 	}
 }
 lineborodirsubmod38 = {
-	name = Arnubalakha_a_n
+	name = Arnubalaka_a_n
 	dynasty_house = dynasty_borodiriathtwo
 	religion = faith_numenorean
 	culture = adunaic
@@ -14913,7 +14917,7 @@ linejewellord12 = {
 	}
 }
 linejewellord13 = {
-	name = No_o_lo_o_ndil
+	name = Saptha_a_nzi_i_r
 	dynasty_house = dynasty_jeweldaughter
 	religion = faith_dairaben
 	culture = adunaic

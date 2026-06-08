@@ -214,23 +214,23 @@ e_numenor = {
 		holder = lineofelros116 # Airendur, First Monarch since Ar-Pharazôn to make contact with Middle-earth
 	}
 	6841.1.1 = {
-		holder = lineofelros118
+		holder = lineofelros118 # Aglarrilêth, ruling Queen, begins restoration of the navy
 	}
 	6933.8.26 = {
 		holder = lineofelros121 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
-		holder = lineofelros124
+		holder = lineofelros124 # Aglarzîr, he solves issues within Numenor
 	}
 	7032.9.21 = {
 		holder = lineofelros128 # Balkazîr, current king of Númenor
 		government = feudal_government
 	}
 	7110.6.14 = {
-		holder = lineofelros131 # Falassion
+		holder = lineofelros131 # Sakaltho_o_r
 	}
 	7159.2.14 = {
-		holder = lineofelros134 # Elendil III
+		holder = lineofelros134 # Minalthor
 	}
 }
 
@@ -249,22 +249,22 @@ d_adunai = {
 		holder = lineofelros116 # Airendur, First Monarch since Ar-Pharazôn to make contact with Middle-earth
 	}
 	6841.1.1 = {
-		holder = lineofelros118
+		holder = lineofelros118 # Aglarrilêth, ruling Queen, begins restoration of the navy
 	}
 	6933.8.26 = {
 		holder = lineofelros121 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
-		holder = lineofelros124
+		holder = lineofelros124 # Aglarzîr, he solves issues within Numenor
 	}
 	7032.9.21 = {
 		holder = lineofelros128 # Balkazîr, current king of Númenor
 	}
 	7110.6.14 = {
-		holder = lineofelros131 # Falassion
+		holder = lineofelros131 # Sakaltho_o_r
 	}
 	7159.2.14 = {
-		holder = lineofelros134 # Elendil III
+		holder = lineofelros134 # Minalthor
 	}
 }
 
@@ -436,22 +436,22 @@ c_armenelos = {
 		holder = lineofelros116 # Airendur, First Monarch since Ar-Pharazôn to make contact with Middle-earth
 	}
 	6841.1.1 = {
-		holder = lineofelros118
+		holder = lineofelros118 # Aglarrilêth, ruling Queen, begins restoration of the navy
 	}
 	6933.8.26 = {
 		holder = lineofelros121 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
-		holder = lineofelros124
+		holder = lineofelros124 # Aglarzîr, he solves issues within Numenor
 	}
 	7032.9.21 = {
 		holder = lineofelros128 # Balkazîr, current king of Númenor
 	}
 	7110.6.14 = {
-		holder = lineofelros131 # Falassion
+		holder = lineofelros131 # Sakaltho_o_r
 	}
 	7159.2.14 = {
-		holder = lineofelros134 # Elendil III
+		holder = lineofelros134 # Minalthor
 	}
 }
 
@@ -1192,22 +1192,22 @@ d_arandor = {
 		holder = lineofelros116 # Airendur, First Monarch since Ar-Pharazôn to make contact with Middle-earth
 	}
 	6841.1.1 = {
-		holder = lineofelros118
+		holder = lineofelros118 # Aglarrilêth, ruling Queen, begins restoration of the navy
 	}
 	6933.8.26 = {
 		holder = lineofelros121 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
-		holder = lineofelros124
+		holder = lineofelros124 # Aglarzîr, he solves issues within Numenor
 	}
 	7032.9.21 = {
 		holder = lineofelros128 # Balkazîr, current king of Númenor
 	}
 	7110.6.14 = {
-		holder = lineofelros131 # Falassion
+		holder = lineofelros131 # Sakaltho_o_r
 	}
 	7159.2.14 = {
-		holder = lineofelros134 # Elendil III
+		holder = lineofelros134 # Minalthor
 	}
 }
 
@@ -4499,22 +4499,22 @@ c_romenna = {
 		holder = lineofelros116 # Airendur, First Monarch since Ar-Pharazôn to make contact with Middle-earth
 	}
 	6841.1.1 = {
-		holder = lineofelros118
+		holder = lineofelros118 # Aglarrilêth, ruling Queen, begins restoration of the navy
 	}
 	6933.8.26 = {
 		holder = lineofelros121 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
-		holder = lineofelros124
+		holder = lineofelros124 # Aglarzîr, he solves issues within Numenor
 	}
 	7032.9.21 = {
 		holder = lineofelros128 # Balkazîr, current king of Númenor
 	}
 	7110.6.14 = {
-		holder = lineofelros131 # Falassion
+		holder = lineofelros131 # Sakaltho_o_r
 	}
 	7159.2.14 = {
-		holder = lineofelros134 # Elendil III
+		holder = lineofelros134 # Minalthor
 	}
 }
 
@@ -4686,22 +4686,22 @@ c_uinen = {
 		holder = lineofelros116 # Airendur, First Monarch since Ar-Pharazôn to make contact with Middle-earth
 	}
 	6841.1.1 = {
-		holder = lineofelros118
+		holder = lineofelros118 # Aglarrilêth, ruling Queen, begins restoration of the navy
 	}
 	6933.8.26 = {
 		holder = lineofelros121 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
-		holder = lineofelros124
+		holder = lineofelros124 # Aglarzîr, he solves issues within Numenor
 	}
 	7032.9.21 = {
 		holder = lineofelros128 # Balkazîr, current king of Númenor
 	}
 	7110.6.14 = {
-		holder = lineofelros131 # Falassion
+		holder = lineofelros131 # Sakaltho_o_r
 	}
 	7159.2.14 = {
-		holder = lineofelros134 # Elendil III
+		holder = lineofelros134 # Minalthor
 	}
 }
 
@@ -7898,22 +7898,22 @@ c_meneltarma = {
 		holder = lineofelros116 # Airendur, First Monarch since Ar-Pharazôn to make contact with Middle-earth
 	}
 	6841.1.1 = {
-		holder = lineofelros118
+		holder = lineofelros118 # Aglarrilêth, ruling Queen, begins restoration of the navy
 	}
 	6933.8.26 = {
 		holder = lineofelros121 # Inziladûn, he sees the full restoration of the Numenorean navy
 	}
 	6982.1.1 = {
-		holder = lineofelros124
+		holder = lineofelros124 # Aglarzîr, he solves issues within Numenor
 	}
 	7032.9.21 = {
 		holder = lineofelros128 # Balkazîr, current king of Númenor
 	}
 	7110.6.14 = {
-		holder = lineofelros131 # Falassion
+		holder = lineofelros131 # Sakaltho_o_r
 	}
 	7159.2.14 = {
-		holder = lineofelros134 # Elendil III
+		holder = lineofelros134 # Minalthor
 	}
 }
 
