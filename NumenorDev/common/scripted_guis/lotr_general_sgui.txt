@@ -1328,3 +1328,13 @@ sgui_is_sailed_west_historical_2 = {
 		is_sailed_west_historical_2 = yes
 	}
 }
+
+is_blue_wizard_gui = {
+	is_valid = {
+		has_title = title:d_laamp_blues
+		OR = {
+			this = character:lineofpallando
+			this = character:lineofalatar
+		}
+	}
+}
