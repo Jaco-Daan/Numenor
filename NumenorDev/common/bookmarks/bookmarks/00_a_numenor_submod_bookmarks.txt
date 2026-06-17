@@ -7,19 +7,19 @@
 		value = 1000
 	}
 
-	# Ar- Balkazîr, King of Númenor
+	# Ar-Balkazîr, King of Númenor
 	character = {
 		name = "bookmark_numenor_balkazir"
 		dynasty = dynasty_elros
 		dynasty_splendor_level = 10
 		type = male
-		birth = 6897.1.1
+		birth = 6885.3.17
 		title = e_numenor
 		government = feudal_government
 		religion = faith_adunaic
 		culture = adunaic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = lineofelros128
+		history_id = lineofelros133
 		position = { 1100 190 }
 		animation = personality_honorable
 	}
