@@ -283,7 +283,7 @@ lineofelros97 = {
 }
 
 lineofelros98 = {
-	name = Aldarion # Thirty-sixth Ruler of Numenor (TEMP NAME)
+	name = Artandil
 
 	dynasty = dynasty_elros
 	religion = faith_numenorean
@@ -363,7 +363,7 @@ lineofelros101 = {
 }
 
 lineofelros102 = {
-	name = Eleniel # Fortieth Ruler of Numenor (TEMP NAME)
+	name = Alcarine_e_
 	female = yes
 
 	dynasty = dynasty_elros
@@ -490,7 +490,7 @@ lineofelros106 = {
 }
 
 lineofelros107 = {
-	name = Isil # Forty-fifth Ruler of Numenor (TEMP NAME)
+	name = Indilnar # Forty-fifth Ruler of Numenor
 
 	dynasty = dynasty_elros
 	religion = faith_numenorean
@@ -510,7 +510,7 @@ lineofelros107 = {
 }
 
 lineofelros108 = {
-	name = Solwe # Forty-sixth Ruler of Numenor (TEMP NAME)
+	name = Artaw_e_e # Forty-sixth Ruler of Numenor
 
 	dynasty = dynasty_elros
 	religion = faith_numenorean
@@ -530,7 +530,7 @@ lineofelros108 = {
 }
 
 lineofelros109 = {
-	name = Hostamir # Forty-seventh Ruler of Numenor
+	name = Axantar # Forty-seventh Ruler of Numenor
 
 	dynasty = dynasty_elros
 	religion = faith_numenorean
@@ -609,7 +609,7 @@ lineofelros111 = { # Tar-Amandil, a peaceful King who reigned over a period of p
 }
 
 lineofelros112 = {
-	name = Castariel # Forty-ninth Ruler of Numenor (TEMP NAME)
+	name = Elennamil # Forty-ninth Ruler of Numenor
 	female = yes
 
 	dynasty = dynasty_elros
@@ -630,7 +630,7 @@ lineofelros112 = {
 }
 
 lineofelros113 = {
-	name = Encaldil # Fiftieth Ruler of Numenor (TEMP NAME)
+	name = Naryon # Fiftieth Ruler of Numenor
 
 	dynasty = dynasty_elros
 	religion = faith_numenorean
@@ -745,7 +745,7 @@ lineofelros116 = { # Tar-Ancalimon 'The Great', defeated his brother in the civi
 }
 
 lineofelros117 = {
-	name = Mandosse # TEMP NAME
+	name = S_urion
 
 	dynasty = dynasty_elros
 	religion = faith_numenorean
@@ -1195,7 +1195,7 @@ lineofelros128 = {
 }
 
 lineofelros129 = {
-	name = Aglarzi_i_r # Sixtieth Ruler of Numenor (TEMP NAME)
+	name = Aglarzi_i_r
 
 	dynasty = dynasty_elros
 	religion = faith_adunaic
@@ -1760,7 +1760,7 @@ lineofelatan23 = {
 }
 
 lineofelatan24 = {
-	name = Huandil # TEMP NAME
+	name = Elentir
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
@@ -1971,7 +1971,7 @@ lineofelatan30 = {
 }
 
 lineofelatan31 = {
-	name = Camaron # TEMP NAME
+	name = Aulendil
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
@@ -2048,7 +2048,7 @@ lineofelatan33 = {
 }
 
 lineofelatan34 = {
-	name = Tarastor # TEMP NAME
+	name = Tarostar
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
@@ -2072,7 +2072,7 @@ lineofelatan34 = {
 }
 
 lineofelatan35 = {
-	name = Gildor # TEMP NAME
+	name = Niltur
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
@@ -2149,7 +2149,7 @@ lineofelatan37 = {
 }
 
 lineofelatan38 = {
-	name = Carnistir # TEMP NAME (honestly, rather like this one)
+	name = Carnistir
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
@@ -2173,7 +2173,7 @@ lineofelatan38 = {
 }
 
 lineofelatan39 = {
-	name = Enedrion # TEMP NAME
+	name = Telperinquar
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
@@ -2273,7 +2273,7 @@ lineofelatan42 = {
 }
 
 lineofelatan43 = {
-	name = Erion # TEMP NAME
+	name = Alcarin
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
@@ -2298,7 +2298,7 @@ lineofelatan43 = {
 }
 
 lineofelatan44 = {
-	name = Forvagor # TEMP NAME
+	name = Armacil
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
@@ -2346,7 +2346,7 @@ lineofelatan45 = {
 }
 
 lineofelatan46 = {
-	name = Calimendil # TEMP NAME
+	name = Anardil
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
@@ -2370,7 +2370,7 @@ lineofelatan46 = {
 }
 
 lineofelatan47 = {
-	name = Malvagor # TEMP NAME
+	name = Malmacil
 
 	dynasty_house = house_andunie
 	religion = faith_numenorean
@@ -2466,7 +2466,7 @@ lineofelatan50 = {
 }
 
 lineofelatan51 = {
-	name = Amaron # TEMP NAME
+	name = An_arw_e_e
 
 	dynasty_house = house_andunie
 	culture = adunaic
@@ -2535,7 +2535,7 @@ lineofelatan52 = {
 }
 
 lineofelatan53 = {
-	name = Dior # TEMP NAME
+	name = Dior
 
 	dynasty_house = house_andunie
 	culture = adunaic
@@ -2559,7 +2559,7 @@ lineofelatan53 = {
 }
 
 lineofelatan54 = {
-	name = Marmacil
+	name = Maltacar
 
 	dynasty_house = house_andunie
 	culture = adunaic
@@ -2587,7 +2587,7 @@ lineofelatan54 = {
 }
 
 lineofelatan55 = {
-	name = Eldarion
+	name = Eldarion # Consider changing to something nice like Valandil or Elendil or Valandur or something
 
 	dynasty_house = house_andunie
 	culture = adunaic
@@ -2712,7 +2712,7 @@ lineofelatan57 = {
 ### HOUSE OF VARDUR ###
 
 lineofvardur4 = {
-	name = Telemnar # TEMP NAME
+	name = Telpetan
 
 	dynasty_house = house_vardurionath
 	religion = faith_numenorean
@@ -2733,7 +2733,7 @@ lineofvardur4 = {
 }
 
 lineofvardur5 = {
-	name = Artan # TEMP NAME
+	name = Artandil
 
 	dynasty_house = house_vardurionath
 	religion = faith_numenorean
@@ -2961,7 +2961,7 @@ lineofvardur14 = {
 }
 
 lineofvardur15 = {
-	name = Nimrukha_a_z # TEMP NAME
+	name = Nimirkha_a_d
 
 	dynasty_house = house_vardurionath
 	religion = faith_dairaben
@@ -3001,7 +3001,7 @@ lineofvardur16 = {
 }
 
 lineofvardur17 = {
-	name = Bana_a_thin # TEMP NAME
+	name = Ba_a_naphi_i_n
 
 	dynasty_house = house_vardurionath
 	religion = faith_dairaben
@@ -3021,7 +3021,7 @@ lineofvardur17 = {
 }
 
 lineofvardur18 = {
-	name = Karbazi_i_r # TEMP NAME
+	name = Karbazi_i_r
 
 	dynasty_house = house_vardurionath
 	religion = faith_dairaben
@@ -3061,7 +3061,7 @@ lineofvardur19 = {
 }
 
 lineofvardur20 = {
-	name = Atto_o_wo_o_ # TEMP NAME
+	name = Atto_o_wo_o_
 
 	dynasty_house = house_vardurionath
 	religion = faith_dairaben
@@ -3101,7 +3101,7 @@ lineofvardur21 = {
 }
 
 lineofvardur22 = {
-	name = Ni_i_lu_u_be_e_n # TEMP NAME
+	name = Ni_i_lu_u_be_e_n
 
 	dynasty_house = house_vardurionath
 	religion = faith_dairaben
@@ -3151,7 +3151,7 @@ lineofvardur23 = {
 }
 
 lineofvardur24 = {
-	name = Urduzi_i_r # TEMP NAME
+	name = Urduzi_i_r
 
 	dynasty_house = house_vardurionath
 	religion = faith_numenorean
@@ -3191,7 +3191,7 @@ lineofvardur25 = {
 }
 
 lineofvardur26 = {
-	name = Balaka_a_n # TEMP NAME
+	name = Balakkho_o_r
 
 	dynasty_house = house_vardurionath
 	religion = faith_numenorean
@@ -3211,7 +3211,7 @@ lineofvardur26 = {
 }
 
 lineofvardur27 = {
-	name = Kalbahil # TEMP NAME
+	name = Kalbahil
 
 	dynasty_house = house_vardurionath
 	religion = faith_numenorean
@@ -3251,7 +3251,7 @@ lineofvardur28 = {
 }
 
 lineofvardur29 = {
-	name = Balkumaga_a_n # TEMP NAME
+	name = Balkutamar
 
 	dynasty_house = house_vardurionath
 	religion = faith_numenorean
@@ -3298,7 +3298,7 @@ lineofvardur30 = {
 }
 
 lineofvardur31 = {
-	name = Phaza_a_kkha_a_d # TEMP NAME
+	name = Phaza_a_kkha_a_d
 
 	dynasty_house = house_vardurionath
 	religion = faith_numenorean
@@ -3338,7 +3338,7 @@ lineofvardur32 = {
 }
 
 lineofvardur33 = {
-	name = Adu_u_nabe_e_l # TEMP NAME
+	name = Adu_u_nabe_e_l
 
 	dynasty_house = house_vardurionath
 	religion = faith_numenorean
@@ -3358,7 +3358,7 @@ lineofvardur33 = {
 }
 
 lineofvardur34 = {
-	name = Tamrube_e_n # TEMP NAME
+	name = Tamrube_e_n
 
 	dynasty_house = house_vardurionath
 	religion = faith_numenorean
@@ -3398,7 +3398,7 @@ lineofvardur35 = {
 }
 
 lineofvardur36 = {
-	name = Zimrikha_a_z # TEMP NAME
+	name = Zimrakha_a_d
 
 	dynasty_house = house_vardurionath
 	religion = faith_numenorean
@@ -3418,7 +3418,7 @@ lineofvardur36 = {
 }
 
 lineofvardur37 = {
-	name = E_E_phalube_e_n # TEMP NAME
+	name = E_E_phalube_e_n
 
 	dynasty_house = house_vardurionath
 	religion = faith_numenorean
@@ -3458,7 +3458,7 @@ lineofvardur38 = {
 }
 
 lineofvardur39 = {
-	name = Dalada_a_n # TEMP NAME
+	name = Dalada_a_n
 
 	dynasty_house = house_vardurionath
 	religion = faith_numenorean
@@ -3498,7 +3498,7 @@ lineofvardur40 = {
 }
 
 lineofvardur41 = {
-	name = Bawbutho_o_r # TEMP NAME
+	name = Bawbutho_o_r
 
 	dynasty_house = house_vardurionath
 	religion = faith_adunaic
@@ -3518,7 +3518,7 @@ lineofvardur41 = {
 }
 
 lineofvardur42 = {
-	name = Phaza_a_kkha_a_d # TEMP NAME
+	name = Phaza_a_kkha_a_d
 
 	dynasty_house = house_vardurionath
 	religion = faith_adunaic
@@ -3558,7 +3558,7 @@ lineofvardur43 = {
 }
 
 lineofvardur44 = {
-	name = I_I_bal # TEMP NAME
+	name = Zimra_a_ibal
 
 	dynasty_house = house_vardurionath
 	religion = faith_adunaic
@@ -3598,7 +3598,7 @@ lineofvardur45 = {
 }
 
 lineofvardur46 = {
-	name = Be_e_lzagar # TEMP NAME
+	name = Be_e_lzagar
 
 	dynasty_house = house_vardurionath
 	religion = faith_adunaic
@@ -3618,7 +3618,7 @@ lineofvardur46 = {
 }
 
 lineofvardur47 = {
-	name = Arphaza_a_n # TEMP NAME
+	name = Arphaza_a_n
 
 	dynasty_house = house_vardurionath
 	religion = faith_adunaic
@@ -3716,7 +3716,7 @@ lineofvardur50 = {
 }
 
 lineofvardur51 = {
-	name = Quettal_ot_e_e
+	name = Inzilbe_e_th
 	female = yes
 
 	dynasty_house = house_vardurionath
@@ -3729,6 +3729,14 @@ lineofvardur51 = {
 
 	6767.2.14 = {
 		birth = yes
+		effect = {
+            learn_language = language_sindarin
+            learn_language = language_quenya
+        }
+	}
+
+	6840.2.19 = {
+		name = Quettal_ot_e_e
 	}
 
 	6993.2.18 = {
@@ -3737,7 +3745,7 @@ lineofvardur51 = {
 }
 
 lineofvardur52 = {
-	name = Gimilzo_o_r # TEMP NAME
+	name = Gimilzo_o_r
 
 	dynasty_house = house_vardurionath
 	religion = faith_numenorean
@@ -5697,7 +5705,7 @@ mablung25 = {
 }
 
 mablung24daughter = {
-	name = Vain_oni # TEMP NAME
+	name = Beleth
 	female = yes
 
 	dynasty = dynasty_belethmablung
