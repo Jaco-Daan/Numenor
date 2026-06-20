@@ -283,7 +283,7 @@ lineofelros97 = {
 }
 
 lineofelros98 = {
-	name = Artandil
+	name = Artandil # Thirty-sixth Ruler of Numenor
 
 	dynasty = dynasty_elros
 	religion = faith_numenorean
@@ -363,7 +363,7 @@ lineofelros101 = {
 }
 
 lineofelros102 = {
-	name = Alcarine_e_
+	name = Alcarine_e_ # Fortieth Ruler of Numenor
 	female = yes
 
 	dynasty = dynasty_elros
@@ -1195,7 +1195,7 @@ lineofelros128 = {
 }
 
 lineofelros129 = {
-	name = Aglarzi_i_r
+	name = Aglarzi_i_r # Sixtieth Ruler of Numenor
 
 	dynasty = dynasty_elros
 	religion = faith_adunaic

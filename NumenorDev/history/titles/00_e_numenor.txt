@@ -160,7 +160,7 @@ e_numenor = {
 		holder = lineofelros97 # Calantir
 	}
 	4820.12.17 = {
-		holder = lineofelros98 # Aldarion III
+		holder = lineofelros98 # Artandil
 	}
 	4934.8.5 = {
 		holder = lineofelros99 # Cemendur II
@@ -172,7 +172,7 @@ e_numenor = {
 		holder = lineofelros101 # Minastir II
 	}
 	5257.7.15 = {
-		holder = lineofelros102 # Eleniel
+		holder = lineofelros102 # Alcarinë
 	}
 	5349.8.29 = {
 		holder = lineofelros103 # Falassion
@@ -187,22 +187,22 @@ e_numenor = {
 		holder = lineofelros106 # Anárion II
 	}
 	5706.4.11 = {
-		holder = lineofelros107 # Isil
+		holder = lineofelros107 # Indilnar
 	}
 	5792.2.27 = {
-		holder = lineofelros108 # Solwe
+		holder = lineofelros108 # Artawë
 	}
 	5875.9.13 = {
-		holder = lineofelros109 # Hostamir
+		holder = lineofelros109 # Axantar
 	}
 	5960.8.29 = {
 		holder = lineofelros111 # Amandil II
 	}
 	6066.6.25 = {
-		holder = lineofelros112 # Castariel
+		holder = lineofelros112 # Elennamil
 	}
 	6148.5.1 = {
-		holder = lineofelros113 # Encaldil
+		holder = lineofelros113 # Naryon
 	}
 	6228.1.10 = {
 		holder = lineofelros114 # Tindómiel
@@ -394,7 +394,7 @@ c_armenelos = {
 		holder = lineofelros97 # Calantir
 	}
 	4820.12.17 = {
-		holder = lineofelros98 # Aldarion III
+		holder = lineofelros98 # Artandil
 	}
 	4934.8.5 = {
 		holder = lineofelros99 # Cemendur II
@@ -406,7 +406,7 @@ c_armenelos = {
 		holder = lineofelros101 # Minastir II
 	}
 	5257.7.15 = {
-		holder = lineofelros102 # Eleniel
+		holder = lineofelros102 # Alcarinë
 	}
 	5349.8.29 = {
 		holder = lineofelros103 # Falassion
@@ -421,22 +421,22 @@ c_armenelos = {
 		holder = lineofelros106 # Anárion II
 	}
 	5706.4.11 = {
-		holder = lineofelros107 # Isil
+		holder = lineofelros107 # Indilnar
 	}
 	5792.2.27 = {
-		holder = lineofelros108 # Solwe
+		holder = lineofelros108 # Artawë
 	}
 	5875.9.13 = {
-		holder = lineofelros109 # Hostamir
+		holder = lineofelros109 # Axantar
 	}
 	5960.8.29 = {
 		holder = lineofelros111 # Amandil II
 	}
 	6066.6.25 = {
-		holder = lineofelros112 # Castariel
+		holder = lineofelros112 # Elennamil
 	}
 	6148.5.1 = {
-		holder = lineofelros113 # Encaldil
+		holder = lineofelros113 # Naryon
 	}
 	6228.1.10 = {
 		holder = lineofelros114 # Tindómiel
@@ -1163,7 +1163,7 @@ d_arandor = {
 		holder = lineofelros97 # Calantir
 	}
 	4820.12.17 = {
-		holder = lineofelros98 # Aldarion III
+		holder = lineofelros98 # Artandil
 	}
 	4934.8.5 = {
 		holder = lineofelros99 # Cemendur II
@@ -1175,7 +1175,7 @@ d_arandor = {
 		holder = lineofelros101 # Minastir II
 	}
 	5257.7.15 = {
-		holder = lineofelros102 # Eleniel
+		holder = lineofelros102 # Alcarinë
 	}
 	5349.8.29 = {
 		holder = lineofelros103 # Falassion
@@ -1190,22 +1190,22 @@ d_arandor = {
 		holder = lineofelros106 # Anárion II
 	}
 	5706.4.11 = {
-		holder = lineofelros107 # Isil
+		holder = lineofelros107 # Indilnar
 	}
 	5792.2.27 = {
-		holder = lineofelros108 # Solwe
+		holder = lineofelros108 # Artawë
 	}
 	5875.9.13 = {
-		holder = lineofelros109 # Hostamir
+		holder = lineofelros109 # Axantar
 	}
 	5960.8.29 = {
 		holder = lineofelros111 # Amandil II
 	}
 	6066.6.25 = {
-		holder = lineofelros112 # Castariel
+		holder = lineofelros112 # Elennamil
 	}
 	6148.5.1 = {
-		holder = lineofelros113 # Encaldil
+		holder = lineofelros113 # Naryon
 	}
 	6228.1.10 = {
 		holder = lineofelros114 # Tindómiel
@@ -4483,7 +4483,7 @@ c_romenna = {
 		holder = lineofelros97 # Calantir
 	}
 	4820.12.17 = {
-		holder = lineofelros98 # Aldarion III
+		holder = lineofelros98 # Artandil
 	}
 	4934.8.5 = {
 		holder = lineofelros99 # Cemendur II
@@ -4495,7 +4495,7 @@ c_romenna = {
 		holder = lineofelros101 # Minastir II
 	}
 	5257.7.15 = {
-		holder = lineofelros102 # Eleniel
+		holder = lineofelros102 # Alcarinë
 	}
 	5349.8.29 = {
 		holder = lineofelros103 # Falassion
@@ -4510,22 +4510,22 @@ c_romenna = {
 		holder = lineofelros106 # Anárion II
 	}
 	5706.4.11 = {
-		holder = lineofelros107 # Isil
+		holder = lineofelros107 # Indilnar
 	}
 	5792.2.27 = {
-		holder = lineofelros108 # Solwe
+		holder = lineofelros108 # Artawë
 	}
 	5875.9.13 = {
-		holder = lineofelros109 # Hostamir
+		holder = lineofelros109 # Axantar
 	}
 	5960.8.29 = {
 		holder = lineofelros111 # Amandil II
 	}
 	6066.6.25 = {
-		holder = lineofelros112 # Castariel
+		holder = lineofelros112 # Elennamil
 	}
 	6148.5.1 = {
-		holder = lineofelros113 # Encaldil
+		holder = lineofelros113 # Naryon
 	}
 	6228.1.10 = {
 		holder = lineofelros114 # Tindómiel
@@ -4683,7 +4683,7 @@ c_uinen = {
 		change_development_level = 13
 	}
 	4820.12.17 = {
-		holder = lineofelros98 # Aldarion III
+		holder = lineofelros98 # Artandil
 	}
 	4934.8.5 = {
 		holder = lineofelros99 # Cemendur II
@@ -4695,7 +4695,7 @@ c_uinen = {
 		holder = lineofelros101 # Minastir II
 	}
 	5257.7.15 = {
-		holder = lineofelros102 # Eleniel
+		holder = lineofelros102 # Alcarinë
 	}
 	5349.8.29 = {
 		holder = lineofelros103 # Falassion
@@ -4710,22 +4710,22 @@ c_uinen = {
 		holder = lineofelros106 # Anárion II
 	}
 	5706.4.11 = {
-		holder = lineofelros107 # Isil
+		holder = lineofelros107 # Indilnar
 	}
 	5792.2.27 = {
-		holder = lineofelros108 # Solwe
+		holder = lineofelros108 # Artawë
 	}
 	5875.9.13 = {
-		holder = lineofelros109 # Hostamir
+		holder = lineofelros109 # Axantar
 	}
 	5960.8.29 = {
 		holder = lineofelros111 # Amandil II
 	}
 	6066.6.25 = {
-		holder = lineofelros112 # Castariel
+		holder = lineofelros112 # Elennamil
 	}
 	6148.5.1 = {
-		holder = lineofelros113 # Encaldil
+		holder = lineofelros113 # Naryon
 	}
 	6228.1.10 = {
 		holder = lineofelros114 # Tindómiel
@@ -7908,7 +7908,7 @@ c_meneltarma = {
 		holder = lineofelros97 # Calantir
 	}
 	4820.12.17 = {
-		holder = lineofelros98 # Aldarion III
+		holder = lineofelros98 # Artandil
 	}
 	4934.8.5 = {
 		holder = lineofelros99 # Cemendur II
@@ -7920,7 +7920,7 @@ c_meneltarma = {
 		holder = lineofelros101 # Minastir II
 	}
 	5257.7.15 = {
-		holder = lineofelros102 # Eleniel
+		holder = lineofelros102 # Alcarinë
 	}
 	5349.8.29 = {
 		holder = lineofelros103 # Falassion
@@ -7935,22 +7935,22 @@ c_meneltarma = {
 		holder = lineofelros106 # Anárion II
 	}
 	5706.4.11 = {
-		holder = lineofelros107 # Isil
+		holder = lineofelros107 # Indilnar
 	}
 	5792.2.27 = {
-		holder = lineofelros108 # Solwe
+		holder = lineofelros108 # Artawë
 	}
 	5875.9.13 = {
-		holder = lineofelros109 # Hostamir
+		holder = lineofelros109 # Axantar
 	}
 	5960.8.29 = {
 		holder = lineofelros111 # Amandil II
 	}
 	6066.6.25 = {
-		holder = lineofelros112 # Castariel
+		holder = lineofelros112 # Elennamil
 	}
 	6148.5.1 = {
-		holder = lineofelros113 # Encaldil
+		holder = lineofelros113 # Naryon
 	}
 	6228.1.10 = {
 		holder = lineofelros114 # Tindómiel
