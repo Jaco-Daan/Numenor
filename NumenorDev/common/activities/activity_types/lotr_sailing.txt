@@ -1005,11 +1005,11 @@
 				scope:host = {
 					has_government = landless_adventurer_government
 					is_tributary = yes
-					}
+				}
 			}
 			custom_tooltip = {
 				text = sailing_province_requirement_landless
-				NOT = { root.county.holder = { opposite_alignment = { TARGET = scope:host } } } #LotR
+				root.county.holder = { lotr_tolerance_trigger = { CHARACTER = scope:host } } #LotR
 			}
 		}
 		trigger_else_if = {
@@ -1018,7 +1018,7 @@
 			}
 			custom_tooltip = {
 				text = sailing_province_requirement_landless
-				NOT = { root.county.holder = { opposite_alignment = { TARGET = scope:host } } } #LotR
+				root.county.holder = { lotr_tolerance_trigger = { CHARACTER = scope:host } } #LotR
 				scope:host = { in_diplomatic_range = root.county.holder }
 			}
 		}
@@ -1035,10 +1035,7 @@
 		# Culture/Faith
 		if = {
 			limit = {
-				OR = {
-					culture = { has_cultural_parameter = sailing_traits_more_common }
-					faith = { has_doctrine_parameter = sailing_traits_more_common_faith }
-				}
+				lotr_has_sailing_traits_more_common = yes
 			}
 			add = {
 				value = 20
@@ -1077,8 +1074,11 @@
 	# LOCATION
 	###################
 
-	province_filter = all
-	ai_province_filter = all
+	max_province_icons = 20
+
+	ai_province_filter = geographical_region
+	province_filter = geographical_region
+	province_filter_target = middearth_sailing
 
 	province_description = { # Done
 		desc = activity_sailing_province_desc
@@ -2367,6 +2367,12 @@
 					}
 					this.house ?= { NOT = { has_house_modifier = owns_big_ship } }
 				}
+				hidden_effect = {
+					if = {
+						limit = { house = { has_house_modifier = owns_small_ship } }
+						house = { remove_house_modifier = owns_small_ship }
+					}
+				}
 				this.house ?= { add_house_modifier = owns_big_ship }
 			}
 		}
@@ -2565,11 +2571,11 @@
 		environment = "environment_event_forest"
 		ambience = "event:/SFX/Events/Backgrounds/deciduous_forest_day"
 	}
-	
+
 	background = { #LotR forest deep
 		trigger = {
 			NOT = { scope:host.location = scope:activity.activity_location }
-			scope:host.location = { graphical_wilderness_forest_deep_trigger = yes } 
+			scope:host.location = { graphical_wilderness_forest_deep_trigger = yes }
 		}
 		texture = "gfx/interface/illustrations/event_scenes/forest_deep.dds"
 		environment = "environment_event_forest"
@@ -2579,7 +2585,7 @@
 	background = { #LotR forest_mallorn unsettled
 		trigger = {
 			NOT = { scope:host.location = scope:activity.activity_location }
-			scope:host.location = { graphical_wilderness_forest_mallorn_trigger = yes } 
+			scope:host.location = { graphical_wilderness_forest_mallorn_trigger = yes }
 			NOT = { exists = province_owner }
 		}
 		texture = "gfx/interface/illustrations/event_scenes/forest_mallorn.dds"
@@ -2589,7 +2595,7 @@
 	background = { #LotR forest_mallorn settled
 		trigger = {
 			NOT = { scope:host.location = scope:activity.activity_location }
-			scope:host.location = { graphical_wilderness_forest_mallorn_trigger = yes } 
+			scope:host.location = { graphical_wilderness_forest_mallorn_trigger = yes }
 			exists = province_owner
 		}
 		texture = "gfx/interface/illustrations/event_scenes/lorien_day.dds"
@@ -2692,7 +2698,7 @@
 			}
 		}
 		texture = "gfx/interface/illustrations/event_scenes/bp3_wetlands_winter.dds"
-		environment = "environment_bp3_wetlands_winter" 
+		environment = "environment_bp3_wetlands_winter"
 		ambience = "event:/DLC/EP2/SFX/Events/Grand_Activities/Hunts/ep2_event_grand_hunt_waterbank"
 	}
 	background = { #wetlands
@@ -2805,14 +2811,14 @@
 		environment = "environment_event_fp1_ocean"
 		ambience = "event:/DLC/FP1/SFX/Events/event_ocean_longship"
 	}
-	
+
 	background = { #LotR volcanic_plains
 		trigger = {
 			scope:host.location != scope:activity.activity_location
-			scope:host.location = { graphical_wilderness_volcanic_trigger = yes } 
+			scope:host.location = { graphical_wilderness_volcanic_trigger = yes }
 		}
 		texture = "gfx/interface/illustrations/event_scenes/volcanic_plains.dds"
-		environment = "environment_event_feast" 
+		environment = "environment_event_feast"
 		ambience = "event:/SFX/Events/Backgrounds/burning_building"
 	}
 
@@ -2845,7 +2851,7 @@
 	background = { #LotR underground
 		trigger = {
 			scope:host.location != scope:activity.activity_location
-			scope:host.location = { graphical_underground_caverns_trigger = yes } 
+			scope:host.location = { graphical_underground_caverns_trigger = yes }
 		}
 		texture = "gfx/interface/illustrations/event_scenes/halls.dds"
 		environment = "environment_event_alley"
@@ -2855,7 +2861,7 @@
 	background = { #LotR saltflats
 		trigger = {
 			scope:host.location != scope:activity.activity_location
-			scope:host.location = { graphical_wilderness_saltflats_trigger = yes } 
+			scope:host.location = { graphical_wilderness_saltflats_trigger = yes }
 		}
 		texture = "gfx/interface/illustrations/event_scenes/saltflats.dds"
 		environment = "environment_event_bp1_desert"

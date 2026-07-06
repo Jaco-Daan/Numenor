@@ -4128,6 +4128,17 @@ destroy_dol_guldur_cb = {
 			add_claim_on_loss = yes
 		}
 
+		if = {
+			limit = {
+				exists = character:lineoffeanor2
+				scope:attacker = character:lineoffeanor2
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_annihilate_dol_guldur
+			}
+		}
+
 		# go through the dejure hierarchy under target titles, transfer eligible vassals and sieze counties from ineligible ones
 		every_in_list = {
 			list = target_titles
@@ -17127,5 +17138,345 @@ seregul_invasion_cb = {
 				type = dungeon
 			}
 		}
+	}
+}
+
+khorahil_megawar_cb = {
+	group = event
+
+	combine_into_one = yes
+	should_show_war_goal_subview = yes
+	mutually_exclusive_titles = { always = yes }
+
+	allowed_for_character = {
+		always = no
+	}
+
+	target_titles = all
+	target_title_tier = all
+	target_de_jure_regions_above = yes
+	ignore_effect = change_title_holder
+
+	transfer_behavior = transfer
+
+	on_primary_attacker_death = inherit
+	on_primary_defender_death = inherit
+	transfer_behavior = transfer
+	use_de_jure_wargoal_only = yes
+	allow_hostages = no
+	white_peace_possible = no
+
+	attacker_allies_inherit = yes
+	defender_allies_inherit = yes
+
+	interface_priority = 100
+
+	attacker_wargoal_percentage = 0.6
+
+	attacker_score_from_occupation_scale = 33
+	attacker_score_from_battles_scale = 33
+	max_attacker_score_from_battles = 50
+	max_attacker_score_from_occupation = 50
+
+	war_name = "INVASION_WAR_NAME"
+	war_name_base = "INVASION_WAR_NAME_BASE"
+	cb_name = "INVASION_CB_NAME"
+
+	on_declaration = {
+		hidden_effect = {
+			scope:attacker = { 
+				set_relation_rival = scope:defender
+			}
+		}
+		on_declared_war = yes
+		scope:attacker = {
+			every_vassal = {
+				limit = {
+					highest_held_title_tier >= tier_county
+					max_military_strength > 500
+					is_landed = yes
+				}
+				trigger_event = {
+					id = sirayn.0008
+				}
+			}
+			every_tributary = {
+				limit = {
+					highest_held_title_tier >= tier_county
+					max_military_strength > 500
+					is_landed = yes
+				}
+				trigger_event = {
+					id = sirayn.0008
+				}
+			}			
+		}
+		scope:defender = {
+			every_vassal = {
+				limit = {
+					highest_held_title_tier >= tier_county
+					max_military_strength > 500
+					is_landed = yes
+				}
+				trigger_event = {
+					id = sirayn.0009
+				}
+			}
+			every_tributary = {
+				limit = {
+					highest_held_title_tier >= tier_county
+					max_military_strength > 500
+					is_landed = yes
+				}
+				trigger_event = {
+					id = sirayn.0008
+				}
+			}
+		}
+		if = {
+			limit = {
+				scope:defender = { has_title = title:e_khy }
+				exists = title:d_laamp_blues.holder
+			}
+			title:d_laamp_blues.holder = {
+				trigger_event = {
+					id = sirayn.0011
+				}				
+			}
+		}
+	}
+
+	white_peace_possible = no
+	on_white_peace_desc = {}
+
+	on_invalidated_desc = msg_invalidate_war_title
+
+	on_defeat_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:defender = { is_local_player = yes } }
+				desc = invasion_war_white_peace_desc_defender
+			}
+			desc = invasion_war_white_peace_desc
+		}
+	}
+
+	on_defeat = {
+		# Legitimacy
+		add_legitimacy_attacker_defeat_effect = yes
+
+		scope:attacker = { show_pow_release_message_effect = yes }
+
+		# Prestige loss for the attacker
+		scope:attacker = {
+			pay_short_term_gold = {
+				gold = 5
+				target = scope:defender
+				yearly_income = yes
+			}
+			add_prestige = {
+				value = massive_prestige_value
+				multiply = -1.0
+			}
+			add_prestige = -1000
+			add_prestige_level = -1
+			add_legitimacy = -100
+		}
+
+		setup_invasion_cb = {
+			titles = target_titles
+			attacker = scope:attacker
+			defender = scope:defender
+			claimant = scope:claimant
+			victory = no
+		}
+
+		# Attacker loses Prestige, all other war participants gain Prestige (Defender gains full prestige, all allies on both sides gain based on war contribution).
+		modify_all_participants_fame_values = {
+			WINNER = scope:defender
+			LOSER = scope:attacker
+			FAME_BASE = scope:cb_prestige_factor # Set by 'setup_invasion_cb'
+			IS_RELIGIOUS_WAR = no
+			WINNER_FAME_SCALE = 10
+			LOSER_FAME_SCALE = -10
+			WINNER_ALLY_FAME_SCALE = 10
+			LOSER_ALLY_FAME_SCALE = 10
+		}
+
+		add_truce_attacker_defeat_effect = yes
+
+		# Hope loss for the attacker
+		scope:attacker = {
+			if = { # Loses hope by losing a major war
+				limit = { is_elf = yes }
+				add_elven_hope_effect = { VALUE = major_elven_hope_loss HOPE_EFFECT = effect_elven_hope_major_war_lost }
+			}
+		}
+
+		scope:attacker = {
+			save_temporary_scope_as = loser
+		}
+		on_lost_aggression_war_discontent_loss = yes
+
+		# EP3: note gold gained from military assistance/join war contracts and their war contribution threshold
+		laamp_as_mercenary_payout_tooltip_effect = yes
+		
+		scope:attacker = {
+			trigger_event = sirayn.0007
+		}
+		#scope:defender = {
+			#trigger_event = sirayn.0007
+		#}
+	}
+
+	on_victory_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:defender.primary_title.tier < scope:attacker.primary_title.tier }
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = { scope:attacker = { is_local_player = yes } }
+							desc = vassalization_cb_victory_desc_attacker
+						}
+						triggered_desc = {
+							trigger = { scope:defender = { is_local_player = yes } }
+							desc = vassalization_cb_victory_desc_defender
+						}
+						desc = vassalization_cb_victory_desc
+					}
+				}
+			}
+			desc = {			
+				first_valid = {
+					triggered_desc = {
+						trigger = { scope:attacker = { is_local_player = yes } }
+						desc = tribal_subjugation_cb_victory_desc_equal_tier_attacker
+					}
+					triggered_desc = {
+						trigger = { scope:defender = { is_local_player = yes } }
+						desc = tribal_subjugation_cb_victory_desc_equal_tier_defender
+					}
+					desc = tribal_subjugation_cb_victory_desc_equal_tier
+				}
+			}
+		}
+		#triggered_desc = {
+		#	trigger = { scope:attacker = { is_local_player = yes } }
+		#	desc = subjugation_war_warning_desc
+		#}
+	}
+
+	on_victory = {
+		# Legitimacy
+		add_legitimacy_attacker_victory_effect = yes
+
+		scope:defender = {
+			every_tributary = { end_tributary = yes }
+		}
+
+		scope:attacker = { show_pow_release_message_effect = yes }
+
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		
+		if = {
+			limit = {
+				scope:defender.primary_title.tier < scope:attacker.primary_title.tier
+			}
+			scope:defender = {
+				change_liege = {
+					liege = scope:attacker
+					change = scope:change
+				}
+			}
+		}
+		else = {
+			scope:defender = {
+				every_held_title = {
+					if = {
+						limit = {
+							tier = scope:defender.primary_title.tier
+						}
+						change_title_holder = {
+							holder = scope:attacker
+							change = scope:change
+						}
+					}
+					else_if = {
+						limit = {
+							OR = {
+								NOT = { exists = scope:secondary_title }
+								tier > scope:secondary_title.tier
+							}
+						}
+						save_temporary_scope_as = secondary_title
+					}
+				}
+			}
+			
+			scope:defender = {
+				if = {
+					limit = {
+						exists = scope:secondary_title
+					}
+					every_vassal = {
+						limit = {
+							primary_title.tier >= scope:secondary_title.tier
+							NOT = {
+								primary_title.tier = tier_barony
+							}
+						}
+						change_liege = {
+							liege = scope:attacker
+							change = scope:change
+						}
+					}
+				}
+			}
+			
+			scope:defender = {
+				change_liege = {
+					liege = scope:attacker
+					change = scope:change
+				}
+			}
+		}
+		
+		resolve_title_and_vassal_change = scope:change		
+		
+		scope:attacker = {
+			add_prestige = 5000
+			every_war_ally = {
+				add_prestige = 2000
+			}
+		}
+
+		# Hope gain for the attacker
+		scope:attacker = {
+			if = { # Gains hope by winning a major war
+				limit = { is_elf = yes }
+				add_elven_hope_effect = { VALUE = major_elven_hope_gain HOPE_EFFECT = effect_elven_hope_major_war_won }
+			}
+		}
+
+		# Truce
+		add_truce_attacker_victory_effect = yes
+
+		# FP1: note the victory for future memorialisation via stele (if applicable).
+		scope:attacker = { fp1_remember_recent_conquest_victory_effect = yes }
+
+		# EP3: note gold gained from military assistance/join war contracts and their war contribution threshold
+		laamp_as_mercenary_payout_tooltip_effect = yes
+		
+		scope:attacker = {
+			trigger_event = sirayn.0006
+		}
+		#scope:defender = {
+			#trigger_event = sirayn.0006
+		#}
 	}
 }

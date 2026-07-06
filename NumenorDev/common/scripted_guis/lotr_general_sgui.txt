@@ -576,7 +576,7 @@ stop_tom_title = {
 	saved_scopes = {
 		player_scope
 	}
-	is_shown = { scope:player_scope = { is_wastelands = no } }
+	is_shown = { scope:player_scope ?= { is_wastelands = no } }
 }
 
 can_become_primary_dwarven_titular = {
@@ -1326,15 +1326,5 @@ sgui_is_sailed_west_historical_1 = {
 sgui_is_sailed_west_historical_2 = {
 	is_valid = {
 		is_sailed_west_historical_2 = yes
-	}
-}
-
-is_blue_wizard_gui = {
-	is_valid = {
-		has_title = title:d_laamp_blues
-		OR = {
-			this = character:lineofpallando
-			this = character:lineofalatar
-		}
 	}
 }

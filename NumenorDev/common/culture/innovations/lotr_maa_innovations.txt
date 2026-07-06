@@ -769,10 +769,11 @@ innovation_dunedain_warriors = {
 	icon = @special_maa_02
 
 	potential = {
-		AND = {
-			has_cultural_pillar = heritage_dunedain
+		OR = { 
+			this = culture:new_dunedain
 			this = culture:dunedain
 		}
+		
 	}
 	custom = unlock_dunedain_archers
 	custom = unlock_dunedain_knights
@@ -870,9 +871,9 @@ innovation_dunedain_ranger_warfare = {
 	icon = @special_maa_02
 
 	potential = {
-		AND = {
-			has_cultural_pillar = heritage_dunedain
+		OR = {
 			this = culture:dunedain_ranger
+			this = culture:uialedain
 		}
 	}
 	custom = unlock_dunedain_rangers

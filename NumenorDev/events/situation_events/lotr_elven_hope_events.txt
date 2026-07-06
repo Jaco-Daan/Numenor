@@ -26,7 +26,7 @@ elven_hope.0001 = { # Fullscreen event when the situation starts
 		NOT = { has_variable = elven_hope_0001_var }
 		faith_is_evil = no
 		NOT = { has_character_flag = saruman_undecided }
- 	}
+	}
 	override_background = { reference = elven_situation_fullscreen }
 	override_sound = { reference = "event:/DLC/FP2/SFX/UI/fp2_struggle_ui_intro_animate" }
 
@@ -34,10 +34,10 @@ elven_hope.0001 = { # Fullscreen event when the situation starts
 
 	widgets = {
 		widget = {
- 			gui = "event_window_widget_situation_info_elven_hope"
- 			container = "dynamic_content_widget"
- 			controller = situation_info
- 			setup_scope = { situation:elven_hope_situation = { save_scope_as = situation } }
+			gui = "event_window_widget_situation_info_elven_hope"
+			container = "dynamic_content_widget"
+			controller = situation_info
+			setup_scope = { situation:elven_hope_situation = { save_scope_as = situation } }
 		}
 	}
 	immediate = {
@@ -58,7 +58,7 @@ elven_hope.0001 = { # Fullscreen event when the situation starts
 }
 
 elven_hope.0002 = { # Apply initial hope modifiers
-	hidden = yes 
+	hidden = yes
 	immediate = {
 		if = {
 			limit = {
@@ -121,8 +121,8 @@ elven_hope.0002 = { # Apply initial hope modifiers
 
 ### Entering a new phase ###
 
-elven_hope.0008 = { # Remove all character modifiers 
-	hidden = yes 
+elven_hope.0008 = { # Remove all character modifiers
+	hidden = yes
 	immediate = {
 		remove_character_modifier = elven_hope_fading_modifier
 		remove_character_modifier = elven_hope_waning_modifier
@@ -134,7 +134,7 @@ elven_hope.0008 = { # Remove all character modifiers
 }
 
 elven_hope.0009 = { # Updating character flags
-	hidden = yes 
+	hidden = yes
 	immediate = {
 		if = {
 			limit = {
@@ -198,7 +198,7 @@ elven_hope.0009 = { # Updating character flags
 		}
 	}
 }
-	
+
 elven_hope.0010 = { # Fading phase
 	type = character_event
 	title = elven_hope.0010.t
@@ -211,10 +211,10 @@ elven_hope.0010 = { # Fading phase
 	}
 	# widgets = { # TO DO: Make phase effects show up here
 		# widget = {
- 			# gui = "event_window_widget_situation_info_elven_hope"
- 			# container = "dynamic_content_widget"
- 			# controller = situation_info
- 			# setup_scope = { situation:lotr_elven_hope_situation = { save_scope_as = situation } }
+			# gui = "event_window_widget_situation_info_elven_hope"
+			# container = "dynamic_content_widget"
+			# controller = situation_info
+			# setup_scope = { situation:lotr_elven_hope_situation = { save_scope_as = situation } }
 		# }
 	# }
 	cooldown = { days = 31 }
@@ -249,10 +249,10 @@ elven_hope.0011 = { # Waning phase
 	}
 	# widgets = { # TO DO: Make phase effects show up here
 		# widget = {
- 			# gui = "event_window_widget_situation_info_elven_hope"
- 			# container = "dynamic_content_widget"
- 			# controller = situation_info
- 			# setup_scope = { situation:lotr_elven_hope_situation = { save_scope_as = situation } }
+			# gui = "event_window_widget_situation_info_elven_hope"
+			# container = "dynamic_content_widget"
+			# controller = situation_info
+			# setup_scope = { situation:lotr_elven_hope_situation = { save_scope_as = situation } }
 		# }
 	# }
 	cooldown = { days = 31 }
@@ -286,10 +286,10 @@ elven_hope.0012 = { # Enduring phase
 	}
 	# widgets = { # TO DO: Make phase effects show up here
 		# widget = {
- 			# gui = "event_window_widget_situation_info_elven_hope"
- 			# container = "dynamic_content_widget"
- 			# controller = situation_info
- 			# setup_scope = { situation:lotr_elven_hope_situation = { save_scope_as = situation } }
+			# gui = "event_window_widget_situation_info_elven_hope"
+			# container = "dynamic_content_widget"
+			# controller = situation_info
+			# setup_scope = { situation:lotr_elven_hope_situation = { save_scope_as = situation } }
 		# }
 	# }
 	cooldown = { days = 31 }
@@ -323,10 +323,10 @@ elven_hope.0013 = { # Renewing phase
 	}
 	# widgets = { # TO DO: Make phase effects show up here
 		# widget = {
- 			# gui = "event_window_widget_situation_info_elven_hope"
- 			# container = "dynamic_content_widget"
- 			# controller = situation_info
- 			# setup_scope = { situation:lotr_elven_hope_situation = { save_scope_as = situation } }
+			# gui = "event_window_widget_situation_info_elven_hope"
+			# container = "dynamic_content_widget"
+			# controller = situation_info
+			# setup_scope = { situation:lotr_elven_hope_situation = { save_scope_as = situation } }
 		# }
 	# }
 	cooldown = { days = 31 }
@@ -360,10 +360,10 @@ elven_hope.0014 = { # Thriving phase
 	}
 	# widgets = { # TO DO: Make phase effects show up here
 		# widget = {
- 			# gui = "event_window_widget_situation_info_elven_hope"
- 			# container = "dynamic_content_widget"
- 			# controller = situation_info
- 			# setup_scope = { situation:lotr_elven_hope_situation = { save_scope_as = situation } }
+			# gui = "event_window_widget_situation_info_elven_hope"
+			# container = "dynamic_content_widget"
+			# controller = situation_info
+			# setup_scope = { situation:lotr_elven_hope_situation = { save_scope_as = situation } }
 		# }
 	# }
 	cooldown = { days = 31 }
@@ -388,19 +388,19 @@ elven_hope.0014 = { # Thriving phase
 ### Reduce Development in Low Hope ###
 
 elven_hope.0020 = { # Check phase and reduce dev at random
-	hidden = yes 
+	hidden = yes
 	trigger = { is_elf = yes } # Saruman doesn't have elven pops
 	immediate = {
-		# Make a list of all counties 
+		# Make a list of all counties
 		every_realm_county = {
 			every_county_province = {
 				add_to_list = counties_with_secondary_holdings
 			}
 		}
-		
-		# Grab the holder of the Grey Havens 
+
+		# Grab the holder of the Grey Havens
 		title:c_mithrhulond.holder = { save_scope_as = mithlondholder }
-	
+
 		# First, let's check the current situation phase and dish out random development reductions across the realm
 		if = {
 			limit = {
@@ -412,7 +412,7 @@ elven_hope.0020 = { # Check phase and reduce dev at random
 				}
 			}
 			every_realm_county = {
-				limit = { 
+				limit = {
 					title_province = { has_holding_type = elven_holding }
 					NOT = { this = root.capital_county }
 				}
@@ -428,8 +428,8 @@ elven_hope.0020 = { # Check phase and reduce dev at random
 							}
 						}
 						scope:mithlondholder = {
-							if = { 
-								limit = { is_elf = yes } 
+							if = {
+								limit = { is_elf = yes }
 								add_elven_hope_effect = { VALUE = miniscule_elven_hope_loss HOPE_EFFECT = effect_elven_hope_elves_sailed_west }
 							}
 						}
@@ -444,8 +444,8 @@ elven_hope.0020 = { # Check phase and reduce dev at random
 							}
 						}
 						scope:mithlondholder = {
-							if = { 
-								limit = { is_elf = yes } 
+							if = {
+								limit = { is_elf = yes }
 								add_elven_hope_effect = { VALUE = miniscule_elven_hope_loss HOPE_EFFECT = effect_elven_hope_elves_sailed_west }
 							}
 						}
@@ -465,7 +465,7 @@ elven_hope.0020 = { # Check phase and reduce dev at random
 				}
 			}
 			every_realm_county = {
-				limit = { 
+				limit = {
 					title_province = { has_holding_type = elven_holding }
 					NOT = { this = root.capital_county }
 					NOT = { this = title:c_mithrhulond } # Until the Last Ship sails
@@ -482,11 +482,11 @@ elven_hope.0020 = { # Check phase and reduce dev at random
 							}
 						}
 						scope:mithlondholder = {
-							if = { 
-								limit = { 
-									is_elf = yes 
+							if = {
+								limit = {
+									is_elf = yes
 									capital_province = { geographical_region = middleearth_west_beleriand }
-								} 
+								}
 								add_elven_hope_effect = { VALUE = miniscule_elven_hope_loss HOPE_EFFECT = effect_elven_hope_elves_sailed_west }
 							}
 						}
@@ -506,7 +506,7 @@ elven_hope.0020 = { # Check phase and reduce dev at random
 				}
 			}
 			every_realm_county = {
-				limit = { 
+				limit = {
 					title_province = { has_holding_type = elven_holding }
 					NOT = { this = root.capital_county }
 				}
@@ -522,8 +522,8 @@ elven_hope.0020 = { # Check phase and reduce dev at random
 							}
 						}
 						scope:mithlondholder = {
-							if = { 
-								limit = { is_elf = yes } 
+							if = {
+								limit = { is_elf = yes }
 								add_elven_hope_effect = { VALUE = miniscule_elven_hope_loss HOPE_EFFECT = effect_elven_hope_elves_sailed_west }
 							}
 						}
@@ -543,7 +543,7 @@ elven_hope.0020 = { # Check phase and reduce dev at random
 				}
 			}
 			every_realm_county = {
-				limit = { 
+				limit = {
 					title_province = { has_holding_type = elven_holding }
 					NOT = { this = root.capital_county }
 				}
@@ -559,8 +559,8 @@ elven_hope.0020 = { # Check phase and reduce dev at random
 							}
 						}
 						scope:mithlondholder = {
-							if = { 
-								limit = { is_elf = yes } 
+							if = {
+								limit = { is_elf = yes }
 								add_elven_hope_effect = { VALUE = miniscule_elven_hope_loss HOPE_EFFECT = effect_elven_hope_elves_sailed_west }
 							}
 						}
@@ -600,8 +600,8 @@ elven_hope.0020 = { # Check phase and reduce dev at random
 						}
 					}
 					scope:mithlondholder = {
-						if = { 
-							limit = { is_elf = yes } 
+						if = {
+							limit = { is_elf = yes }
 							add_elven_hope_effect = { VALUE = miniscule_elven_hope_loss HOPE_EFFECT = effect_elven_hope_elves_sailed_west }
 						}
 					}
@@ -609,7 +609,7 @@ elven_hope.0020 = { # Check phase and reduce dev at random
 			}
 		}
 		# Lastly, check if any counties have zero development and no other holdings. Chance to make it wastelands.
-		every_realm_county = { 
+		every_realm_county = {
 			limit = {
 				development_level = 0
 				title_province = { has_holding_type = elven_holding }
@@ -620,6 +620,7 @@ elven_hope.0020 = { # Check phase and reduce dev at random
 			random = {
 				chance = 15 # 20?
 				add_county_modifier = elves_are_leaving_modifier
+				holder = { save_scope_as = leaving_vassal }
 				if = {
 					limit = { this.holder = { is_ai = no } }
 					this.holder = { trigger_event = elven_hope.0021 } # Chance to convince people to stay
@@ -642,28 +643,28 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 	desc = elven_hope.0021.desc
 	theme = travel_sea
 	override_background = { reference = docks_elven }
-	
+
 	left_portrait = {
-		character = root 
+		character = root
 		animation = pondering
 	}
 	right_portrait = {
-		character = scope:leaving_elf 
+		character = scope:leaving_elf
 		animation = war_over_loss
 	}
 	immediate = {
 		random_held_county = {
 			limit = { has_county_modifier = elves_are_leaving_modifier }
-			save_scope_as = county_being_abandoned 
+			save_scope_as = county_being_abandoned
 		}
 		random_courtier = { save_scope_as = leaving_elf }
 	}
-	option = { # I have to try and convince them to stay 
-		name = elven_hope.0021.a 
+	option = { # I have to try and convince them to stay
+		name = elven_hope.0021.a
 		custom_tooltip = elven_hope.0021.a.tt
 		hidden_effect = {
 			random_list = {
-				20 = { # Diplo duel 
+				20 = { # Diplo duel
 					duel = {
 						skill = diplomacy
 						value = 11
@@ -675,7 +676,7 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 							}
 							send_interface_toast = {
 								title = elven_hope.0021.a.success
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_convinced_to_stay }
 								scope:county_being_abandoned = { change_development_level = 2 }
 							}
@@ -688,7 +689,7 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 							}
 							send_interface_toast = {
 								title = elven_hope.0021.a.failure
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_character_sailed_west }
 							}
 							add_stress = 20
@@ -702,7 +703,7 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 						}
 					}
 				}
-				20 = { # Stewardshipo duel 
+				20 = { # Stewardshipo duel
 					duel = {
 						skill = stewardship
 						value = 11
@@ -714,7 +715,7 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 							}
 							send_interface_toast = {
 								title = elven_hope.0021.a.success
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_convinced_to_stay }
 								scope:county_being_abandoned = { change_development_level = 2 }
 							}
@@ -727,7 +728,7 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 							}
 							send_interface_toast = {
 								title = elven_hope.0021.a.failure
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_character_sailed_west }
 							}
 							add_stress = 20
@@ -741,7 +742,7 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 						}
 					}
 				}
-				20 = { # Martial duel 
+				20 = { # Martial duel
 					duel = {
 						skill = martial
 						value = 11
@@ -753,7 +754,7 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 							}
 							send_interface_toast = {
 								title = elven_hope.0021.a.success
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_convinced_to_stay }
 								scope:county_being_abandoned = { change_development_level = 2 }
 							}
@@ -766,7 +767,7 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 							}
 							send_interface_toast = {
 								title = elven_hope.0021.a.failure
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_character_sailed_west }
 							}
 							add_stress = 20
@@ -780,7 +781,7 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 						}
 					}
 				}
-				20 = { # Intrigue duel 
+				20 = { # Intrigue duel
 					duel = {
 						skill = intrigue
 						value = 11
@@ -792,7 +793,7 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 							}
 							send_interface_toast = {
 								title = elven_hope.0021.a.success
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_convinced_to_stay }
 								scope:county_being_abandoned = { change_development_level = 2 }
 							}
@@ -805,7 +806,7 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 							}
 							send_interface_toast = {
 								title = elven_hope.0021.a.failure
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_character_sailed_west }
 							}
 							add_stress = 20
@@ -819,7 +820,7 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 						}
 					}
 				}
-				20 = { # Learning duel 
+				20 = { # Learning duel
 					duel = {
 						skill = learning
 						value = 11
@@ -831,7 +832,7 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 							}
 							send_interface_toast = {
 								title = elven_hope.0021.a.success
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_convinced_to_stay }
 								scope:county_being_abandoned = { change_development_level = 2 }
 							}
@@ -844,7 +845,7 @@ elven_hope.0021 = { # Chance to convince the populace of your held county to sta
 							}
 							send_interface_toast = {
 								title = elven_hope.0021.a.failure
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_character_sailed_west }
 							}
 							add_stress = 20
@@ -874,9 +875,9 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 	desc = elven_hope.0022.desc
 	theme = travel_sea
 	override_background = { reference = docks_elven }
-	
+
 	left_portrait = {
-		character = root 
+		character = root
 		animation = worry
 	}
 	right_portrait = {
@@ -890,16 +891,16 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 	immediate = {
 		random_realm_county = {
 			limit = { has_county_modifier = elves_are_leaving_modifier }
-			save_scope_as = county_being_abandoned 
+			save_scope_as = county_being_abandoned
 			this.holder = { save_scope_as = leaving_vassal }
 		}
 	}
-	option = { # I have to try and convince them to stay 
-		name = elven_hope.0022.a 
+	option = { # I have to try and convince them to stay
+		name = elven_hope.0022.a
 		custom_tooltip = elven_hope.0022.a.tt
 		hidden_effect = {
 			random_list = {
-				20 = { # Diplo duel 
+				20 = { # Diplo duel
 					duel = {
 						skill = diplomacy
 						target = scope:leaving_vassal
@@ -911,7 +912,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 							}
 							send_interface_toast = {
 								title = elven_hope.0022.a.success
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_convinced_to_stay }
 								scope:county_being_abandoned = { change_development_level = 2 }
 							}
@@ -924,7 +925,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 							}
 							send_interface_toast = {
 								title = elven_hope.0022.a.failure
-								left_icon = root 
+								left_icon = root
 								type = event_toast_effect_bad
 								add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_character_sailed_west }
 							}
@@ -936,7 +937,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 								}
 							}
 							add_character_flag = failed_to_convince_elf
-							
+
 							hidden_effect = {
 								scope:leaving_vassal = { save_scope_as = elf_trying_to_depart }
 								send_interface_toast = {
@@ -982,7 +983,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 						}
 					}
 				}
-				20 = { # Stewardshipo duel 
+				20 = { # Stewardshipo duel
 					duel = {
 						skill = stewardship
 						target = scope:leaving_vassal
@@ -994,7 +995,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 							}
 							send_interface_toast = {
 								title = elven_hope.0022.a.success
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_convinced_to_stay }
 								scope:county_being_abandoned = { change_development_level = 2 }
 							}
@@ -1007,7 +1008,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 							}
 							send_interface_toast = {
 								title = elven_hope.0022.a.failure
-								left_icon = root 
+								left_icon = root
 								type = event_toast_effect_bad
 								add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_character_sailed_west }
 							}
@@ -1019,7 +1020,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 								}
 							}
 							add_character_flag = failed_to_convince_elf
-							
+
 							hidden_effect = {
 								scope:leaving_vassal = { save_scope_as = elf_trying_to_depart }
 								send_interface_toast = {
@@ -1065,7 +1066,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 						}
 					}
 				}
-				20 = { # Martial duel 
+				20 = { # Martial duel
 					duel = {
 						skill = martial
 						target = scope:leaving_vassal
@@ -1077,7 +1078,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 							}
 							send_interface_toast = {
 								title = elven_hope.0022.a.success
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_convinced_to_stay }
 								scope:county_being_abandoned = { change_development_level = 2 }
 							}
@@ -1090,7 +1091,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 							}
 							send_interface_toast = {
 								title = elven_hope.0022.a.failure
-								left_icon = root 
+								left_icon = root
 								type = event_toast_effect_bad
 								add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_character_sailed_west }
 							}
@@ -1102,7 +1103,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 								}
 							}
 							add_character_flag = failed_to_convince_elf
-							
+
 							hidden_effect = {
 								scope:leaving_vassal = { save_scope_as = elf_trying_to_depart }
 								send_interface_toast = {
@@ -1148,7 +1149,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 						}
 					}
 				}
-				20 = { # Intrigue duel 
+				20 = { # Intrigue duel
 					duel = {
 						skill = intrigue
 						target = scope:leaving_vassal
@@ -1160,7 +1161,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 							}
 							send_interface_toast = {
 								title = elven_hope.0022.a.success
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_convinced_to_stay }
 								scope:county_being_abandoned = { change_development_level = 2 }
 							}
@@ -1173,7 +1174,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 							}
 							send_interface_toast = {
 								title = elven_hope.0022.a.failure
-								left_icon = root 
+								left_icon = root
 								type = event_toast_effect_bad
 								add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_character_sailed_west }
 							}
@@ -1185,7 +1186,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 								}
 							}
 							add_character_flag = failed_to_convince_elf
-							
+
 							hidden_effect = {
 								scope:leaving_vassal = { save_scope_as = elf_trying_to_depart }
 								send_interface_toast = {
@@ -1231,7 +1232,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 						}
 					}
 				}
-				20 = { # Learning duel 
+				20 = { # Learning duel
 					duel = {
 						skill = learning
 						target = scope:leaving_vassal
@@ -1243,7 +1244,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 							}
 							send_interface_toast = {
 								title = elven_hope.0022.a.success
-								left_icon = root 
+								left_icon = root
 								add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_convinced_to_stay }
 								scope:county_being_abandoned = { change_development_level = 2 }
 							}
@@ -1256,7 +1257,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 							}
 							send_interface_toast = {
 								title = elven_hope.0022.a.failure
-								left_icon = root 
+								left_icon = root
 								type = event_toast_effect_bad
 								add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_character_sailed_west }
 							}
@@ -1268,7 +1269,7 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 								}
 							}
 							add_character_flag = failed_to_convince_elf
-							
+
 							hidden_effect = {
 								scope:leaving_vassal = { save_scope_as = elf_trying_to_depart }
 								send_interface_toast = {
@@ -1344,22 +1345,22 @@ elven_hope.0022 = { # Chance to convince the holder of a county to stay
 
 ### Display evil rulers in a subregion ###
 
-elven_hope.0030 = { # Show the amount of evil rulers 
+elven_hope.0030 = { # Show the amount of evil rulers
 	type = character_event
 	title = elven_hope.0030.t
 	desc = elven_hope.0030.desc
 	theme = orcs
 
 	cooldown = { years = 10 }
-	
+
 	left_portrait = {
-		character = root 
-		animation = worry 
+		character = root
+		animation = worry
 	}
 
 	trigger = { is_landed = yes } # Since were checking only for elven_rulers_capital later
-	
-	immediate = { # Time for some MATH 
+
+	immediate = { # Time for some MATH
 		situation:elven_hope_situation ?= {
 			every_situation_sub_region = {
 				limit = {
@@ -1431,72 +1432,72 @@ elven_hope.0030 = { # Show the amount of evil rulers
 				value = 0
 			}
 		}
-		root = { # Add no. of counties 
+		root = { # Add no. of counties
 			change_variable = {
 				name = evil_counties_in_my_subregion
 				add = scope:my_elven_subregion.var:evil_counties_per_subregion
 				add = { # Halve the value if balancing requires it
 					value = scope:my_elven_subregion.var:evil_counties_per_subregion
 					divide = 2
-					round = yes 
+					round = yes
 				}
 			}
 		}
-		# root = { # Add counts 
+		# root = { # Add counts
 			# change_variable = {
 				# name = evil_rulers_in_my_subregion
 				# add = root.var:evil_counts_in_my_subregion
 			# }
 		# }
-		# root = { # Add dukes 
+		# root = { # Add dukes
 			# change_variable = {
 				# name = evil_rulers_in_my_subregion
 				# add = root.var:evil_dukes_in_my_subregion
 			# }
 		# }
-		# root = { # Add kings 
+		# root = { # Add kings
 			# change_variable = {
 				# name = evil_rulers_in_my_subregion
 				# add = root.var:evil_kings_in_my_subregion
 			# }
 		# }
-		# root = { # Add emperors 
+		# root = { # Add emperors
 			# change_variable = {
 				# name = evil_rulers_in_my_subregion
 				# add = root.var:evil_emperors_in_my_subregion
 			# }
 		# }
-		# root = { # Add hegemons 
+		# root = { # Add hegemons
 			# change_variable = {
 				# name = evil_rulers_in_my_subregion
 				# add = root.var:evil_hegemons_in_my_subregion
 			# }
 		# }
-		root = { # Flip the final value to negative 
+		root = { # Flip the final value to negative
 			change_variable = {
 				name = evil_counties_in_my_subregion
 				multiply = -1
 			}
 		}
 	}
-	
+
 	option = { # Drop hope according to the calculation
-		name = elven_hope.0030.a 
+		name = elven_hope.0030.a
 		add_elven_hope_effect = { VALUE = root.var:evil_counties_in_my_subregion HOPE_EFFECT = effect_elven_evil_rulers }
 	}
 }
 
-elven_hope.0031 = { # Set all subregion values back to zero 
-	hidden = yes 
+elven_hope.0031 = { # Set all subregion values back to zero
+	hidden = yes
 	# orphan = yes # Might not be needed atm
 	# type = character_event
 	# title = elven_hope.0031.t
 	# desc = elven_hope.0031.desc
 	# theme = orcs
-	
+
 	# left_portrait = {
-		# character = root 
-		# animation = happiness 
+		# character = root
+		# animation = happiness
 	# }
 	immediate = {
 		situation:elven_hope_situation ?= {
@@ -1906,7 +1907,7 @@ elven_hope.0031 = { # Set all subregion values back to zero
 }
 
 # elven_hope.0032 = { # Small trickle of passive hope gain for Lindon // not needed atm, reactivate if need be
-	# hidden = yes 
+	# hidden = yes
 	# cooldown = { years = 5 }
 	# immediate = {
 		# add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
@@ -1923,12 +1924,12 @@ elven_hope.0100 = { # Dreams of the Sea
 	override_background = { reference = grey_havens }
 
 	cooldown = { months = 7 }
-	
+
 	trigger = {
 		NOT = { has_character_flag = had_yearly_elven_hope_event }
 		is_elf = yes
 	}
-	
+
 	left_portrait = {
 		character = root
 		animation = worry
@@ -1940,8 +1941,8 @@ elven_hope.0100 = { # Dreams of the Sea
 		name = elven_hope.0100.a
 		add_stress = -40
 	}
-	option = { # I shall sing a song of hope 
-		name = elven_hope.0100.b 
+	option = { # I shall sing a song of hope
+		name = elven_hope.0100.b
 		add_stress = 20
 		duel = {
 			skill = diplomacy
@@ -1954,7 +1955,7 @@ elven_hope.0100 = { # Dreams of the Sea
 				}
 				send_interface_toast = {
 					title = elven_hope.0100.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -1966,7 +1967,7 @@ elven_hope.0100 = { # Dreams of the Sea
 				}
 				send_interface_toast = {
 					title = elven_hope.0100.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -2003,9 +2004,9 @@ elven_hope.0101 = { # The Trees Do Not Sing
 		add_elven_hope_effect = { VALUE = minimal_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 	}
 	option = { # I shall investigate this matter
-		name = elven_hope.0101.b 
+		name = elven_hope.0101.b
 		duel = {
-			skill = learning 
+			skill = learning
 			value = 12
 			50 = {
 				compare_modifier = {
@@ -2015,7 +2016,7 @@ elven_hope.0101 = { # The Trees Do Not Sing
 				}
 				send_interface_toast = {
 					title = elven_hope.0101.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -2027,7 +2028,7 @@ elven_hope.0101 = { # The Trees Do Not Sing
 				}
 				send_interface_toast = {
 					title = elven_hope.0101.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -2052,11 +2053,11 @@ elven_hope.0102 = { # Child of Spring
 	cooldown = { years = 30 }
 	trigger = {
 		any_courtier = {
-			is_female = yes 
-			is_married = yes 
+			is_female = yes
+			is_married = yes
 			is_elf = yes
 			NOR = {
-				primary_spouse = root 
+				primary_spouse = root
 				has_character_modifier = elf_child_limit_modifier # No, Galadriel, bad girl!
 				has_character_modifier = elf_childraising_modifier # One at a time
 				any_child = {
@@ -2072,16 +2073,16 @@ elven_hope.0102 = { # Child of Spring
 	}
 	right_portrait = {
 		character = scope:new_mother
-		animation = newborn 
+		animation = newborn
 	}
 	immediate = {
 		random_courtier = {
 			limit = {
-				is_female = yes 
-				is_married = yes 
+				is_female = yes
+				is_married = yes
 				is_elf = yes
 				NOR = {
-					primary_spouse = root 
+					primary_spouse = root
 					has_character_modifier = elf_child_limit_modifier # No, Galadriel, bad girl!
 					has_character_modifier = elf_childraising_modifier # One at a time
 					any_child = {
@@ -2089,7 +2090,7 @@ elven_hope.0102 = { # Child of Spring
 					}
 				}
 			}
-			save_scope_as = new_mother 
+			save_scope_as = new_mother
 		}
 		create_character = {
 			mother = scope:new_mother
@@ -2099,7 +2100,7 @@ elven_hope.0102 = { # Child of Spring
 			faith = root.faith
 			dynasty_house = scope:new_mother.primary_spouse.house
 			gender_female_chance = 50
-			age = 0 
+			age = 0
 			save_scope_as = child_of_spring
 		}
 		scope:new_mother = {
@@ -2130,12 +2131,12 @@ elven_hope.0102 = { # Child of Spring
 	}
 	option = { # Let mother and child rest.
 		name = elven_hope.0102.b
-		add_stress = -20 
+		add_stress = -20
 		add_piety = minor_piety_gain
 	}
-	option = { # We shall celebrate this 
+	option = { # We shall celebrate this
 		name = elven_hope.0102.c
-		remove_short_term_gold = medium_gold_value 
+		remove_short_term_gold = medium_gold_value
 		add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_inspired_by_sight }
 	}
 	after = {
@@ -2170,11 +2171,11 @@ elven_hope.0103 = { # A Nightly Departure
 	}
 	option = { # They are free to sail
 		name = elven_hope.0103.a
-		add_piety = medium_piety_gain 
+		add_piety = medium_piety_gain
 		add_legitimacy = medium_legitimacy_gain
 	}
 	option = { # Convince them to say farewell
-		name = elven_hope.0103.b 
+		name = elven_hope.0103.b
 		remove_short_term_gold = miniscule_gold_value
 		add_legitimacy = minor_legitimacy_loss
 		duel = {
@@ -2188,7 +2189,7 @@ elven_hope.0103 = { # A Nightly Departure
 				}
 				send_interface_toast = {
 					title = elven_hope.0103.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -2200,7 +2201,7 @@ elven_hope.0103 = { # A Nightly Departure
 				}
 				send_interface_toast = {
 					title = elven_hope.0103.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -2235,10 +2236,10 @@ elven_hope.0104 = { # The Lay of Kin Long Lost
 		animation = storyteller
 	}
 	immediate = {
-		random_courtier = { 
+		random_courtier = {
 			limit = {
 				is_elf = yes
-				is_lotr_adult = yes 
+				is_lotr_adult = yes
 			}
 			save_scope_as = elder_courtier
 		}
@@ -2250,7 +2251,7 @@ elven_hope.0104 = { # The Lay of Kin Long Lost
 		add_legitimacy = minor_legitimacy_gain
 	}
 	option = { # Let the memory strengthen our resolve
-		name = elven_hope.0104.b 
+		name = elven_hope.0104.b
 		add_piety = minor_piety_gain
 		add_stress = -20
 	}
@@ -2268,7 +2269,7 @@ elven_hope.0104 = { # The Lay of Kin Long Lost
 				}
 				send_interface_toast = {
 					title = elven_hope.0104.c.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minimal_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -2280,7 +2281,7 @@ elven_hope.0104 = { # The Lay of Kin Long Lost
 				}
 				send_interface_toast = {
 					title = elven_hope.0104.c.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minimal_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -2330,7 +2331,7 @@ elven_hope.0105 = { # A World Marred by Evil
 				}
 				send_interface_toast = {
 					title = elven_hope.0105.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -2342,7 +2343,7 @@ elven_hope.0105 = { # A World Marred by Evil
 				}
 				send_interface_toast = {
 					title = elven_hope.0105.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -2379,7 +2380,7 @@ elven_hope.0106 = { # The Waning of Light
 		add_learning_lifestyle_xp = 200
 	}
 	option = { # We shall plant new seeds, and tend them with care
-		name = elven_hope.0106.b 
+		name = elven_hope.0106.b
 		duel = {
 			skill = stewardship
 			value = 12
@@ -2391,7 +2392,7 @@ elven_hope.0106 = { # The Waning of Light
 				}
 				send_interface_toast = {
 					title = elven_hope.0106.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -2403,7 +2404,7 @@ elven_hope.0106 = { # The Waning of Light
 				}
 				send_interface_toast = {
 					title = elven_hope.0106.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -2439,7 +2440,7 @@ elven_hope.0107 = { # A Shattered Statue
 
 	option = { # Rebuild it
 		name = elven_hope.0107.a
-		remove_short_term_gold = minor_gold_value 
+		remove_short_term_gold = minor_gold_value
 		duel = {
 			skill = stewardship
 			value = 12
@@ -2451,7 +2452,7 @@ elven_hope.0107 = { # A Shattered Statue
 				}
 				send_interface_toast = {
 					title = elven_hope.0107.a.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -2463,7 +2464,7 @@ elven_hope.0107 = { # A Shattered Statue
 				}
 				send_interface_toast = {
 					title = elven_hope.0107.a.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -2471,19 +2472,19 @@ elven_hope.0107 = { # A Shattered Statue
 		}
 	}
 	option = { # Not all things can be remade
-		name = elven_hope.0107.b  
+		name = elven_hope.0107.b
 		trigger = { NOT = { has_trait = zealous } }
 		random = {
-			chance = 10 
+			chance = 10
 			if = {
 				limit = { has_trait = cynical }
-				remove_trait = cynical 
+				remove_trait = cynical
 			}
-			add_trait = zealous 
+			add_trait = zealous
 		}
 	}
 	option = { # Distribute the broken pieces
-		name = elven_hope.0107.c  
+		name = elven_hope.0107.c
 		add_elven_hope_effect = { VALUE = minimal_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 		add_prestige = minor_prestige_loss
 	}
@@ -2506,10 +2507,10 @@ elven_hope.0108 = { # Merriment Beneath the Stars
 	}
 	cooldown = { months = 7 }
 	immediate = {
-		random_courtier = { 
+		random_courtier = {
 			# limit = {
 				# is_elf = yes
-				# is_lotr_adult = yes 
+				# is_lotr_adult = yes
 			# }
 			save_scope_as = dancing_courtier
 		}
@@ -2536,7 +2537,7 @@ elven_hope.0108 = { # Merriment Beneath the Stars
 		}
 	}
 	option = { # I'll join the festivities
-		name = elven_hope.0108.b  
+		name = elven_hope.0108.b
 		duel = {
 			skill = diplomacy
 			value = 12
@@ -2548,7 +2549,7 @@ elven_hope.0108 = { # Merriment Beneath the Stars
 				}
 				send_interface_toast = {
 					title = elven_hope.0108.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minimal_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -2560,7 +2561,7 @@ elven_hope.0108 = { # Merriment Beneath the Stars
 				}
 				send_interface_toast = {
 					title = elven_hope.0108.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minimal_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -2593,10 +2594,10 @@ elven_hope.0109 = { # A Good Harvest
 	}
 	cooldown = { months = 7 }
 	immediate = {
-		random_courtier = { 
+		random_courtier = {
 			limit = {
 				is_elf = yes
-				is_lotr_adult = yes 
+				is_lotr_adult = yes
 			}
 			save_scope_as = happy_courtier
 		}
@@ -2621,7 +2622,7 @@ elven_hope.0109 = { # A Good Harvest
 		}
 	}
 	option = { # Let the season be blessed
-		name = elven_hope.0109.b  
+		name = elven_hope.0109.b
 		add_piety = medium_piety_gain
 		duel = {
 			skill = learning
@@ -2634,7 +2635,7 @@ elven_hope.0109 = { # A Good Harvest
 				}
 				send_interface_toast = {
 					title = elven_hope.0109.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minimal_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -2646,7 +2647,7 @@ elven_hope.0109 = { # A Good Harvest
 				}
 				send_interface_toast = {
 					title = elven_hope.0109.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minimal_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -2654,7 +2655,7 @@ elven_hope.0109 = { # A Good Harvest
 		}
 	}
 	option = { # This will aid trade and commerce
-		name = elven_hope.0109.c  
+		name = elven_hope.0109.c
 		add_short_term_gold = minor_gold_value
 	}
 	after = {
@@ -2673,20 +2674,20 @@ elven_hope.0110 = { # A Bustling Colony
 	override_background = { reference = ep2_forest_managed }
 
 	cooldown = { years = 10 }
-	trigger = { 
-		any_held_county = { title_province = { has_holding_type = settlement_holding } } 
+	trigger = {
+		any_held_county = { title_province = { has_holding_type = settlement_holding } }
 		NOT = { has_character_flag = had_yearly_elven_hope_event }
 	}
 	immediate = {
-		random_courtier = { 
+		random_courtier = {
 			limit = {
 				is_elf = yes
-				is_lotr_adult = yes 
+				is_lotr_adult = yes
 			}
 			save_scope_as = colonist_courtier
 		}
 		random_directly_owned_province = {
-			limit = { 
+			limit = {
 				has_holding_type = settlement_holding
 			}
 			save_scope_as = colony_province
@@ -2717,8 +2718,8 @@ elven_hope.0110 = { # A Bustling Colony
 		}
 		hidden_effect = {
 			if = {
-				limit = { 
-					has_variable = num_settled_wilderness 
+				limit = {
+					has_variable = num_settled_wilderness
 					var:num_settled_wilderness > 0
 				}
 				decrease_variable = {
@@ -2733,7 +2734,7 @@ elven_hope.0110 = { # A Bustling Colony
 		}
 	}
 	option = { # These good news should be celebrated
-		name = elven_hope.0110.b 
+		name = elven_hope.0110.b
 		duel = {
 			skill = diplomacy
 			value = 12
@@ -2745,7 +2746,7 @@ elven_hope.0110 = { # A Bustling Colony
 				}
 				send_interface_toast = {
 					title = elven_hope.0110.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minimal_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -2757,7 +2758,7 @@ elven_hope.0110 = { # A Bustling Colony
 				}
 				send_interface_toast = {
 					title = elven_hope.0110.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minimal_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -2815,7 +2816,7 @@ elven_hope.0111 = { # A Polluted Stream
 	}
 
 	option = { # We shall restore it ourselves
-		name = elven_hope.0111.b 
+		name = elven_hope.0111.b
 		stress_impact = {
 			patient = major_stress_impact_gain
 			impatient = medium_stress_impact_loss
@@ -2833,7 +2834,7 @@ elven_hope.0111 = { # A Polluted Stream
 				}
 				send_interface_toast = {
 					title = elven_hope.0111.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -2845,7 +2846,7 @@ elven_hope.0111 = { # A Polluted Stream
 				}
 				send_interface_toast = {
 					title = elven_hope.0111.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -2898,9 +2899,9 @@ elven_hope.0112 = { # A Bad Harvest
 			gregarious = major_stress_impact_gain
 			sadistic = medium_stress_impact_loss
 		}
-	}	
+	}
 	option = { # If my subjects cannot feast, then neither shall I
-		name = elven_hope.0112.b  
+		name = elven_hope.0112.b
 		add_elven_hope_effect = { VALUE = minimal_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 		add_piety = medium_piety_gain
 		add_prestige = medium_prestige_loss
@@ -2917,7 +2918,7 @@ elven_hope.0112 = { # A Bad Harvest
 		}
 	}
 	option = { # I shall feed my subjects at my own cost
-		name = elven_hope.0112.c  
+		name = elven_hope.0112.c
 		remove_short_term_gold = minor_gold_value
 		duel = {
 			skill = stewardship
@@ -2930,7 +2931,7 @@ elven_hope.0112 = { # A Bad Harvest
 				}
 				send_interface_toast = {
 					title = elven_hope.0112.c.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -2942,7 +2943,7 @@ elven_hope.0112 = { # A Bad Harvest
 				}
 				send_interface_toast = {
 					title = elven_hope.0112.c.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -2991,10 +2992,10 @@ elven_hope.0113 = { # Murmuration over holding
 	}
 
 	immediate = {
-		random_courtier = { 
+		random_courtier = {
 			limit = {
 				is_elf = yes
-				is_lotr_adult = yes 
+				is_lotr_adult = yes
 			}
 			save_scope_as = happy_courtier
 		}
@@ -3002,7 +3003,7 @@ elven_hope.0113 = { # Murmuration over holding
 	}
 
 	option = { # Just enjoy the sight
-		name = elven_hope.0113.a 
+		name = elven_hope.0113.a
 		add_stress = -20
 		random = {
 			chance = 25
@@ -3022,7 +3023,7 @@ elven_hope.0113 = { # Murmuration over holding
 	}
 
 	option = { # I will sing to them
-		name = elven_hope.0113.b 
+		name = elven_hope.0113.b
 		duel = {
 			skill = intrigue
 			value = 12
@@ -3034,7 +3035,7 @@ elven_hope.0113 = { # Murmuration over holding
 				}
 				send_interface_toast = {
 					title = elven_hope.0113.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -3046,7 +3047,7 @@ elven_hope.0113 = { # Murmuration over holding
 				}
 				send_interface_toast = {
 					title = elven_hope.0113.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -3068,7 +3069,7 @@ elven_hope.0113 = { # Murmuration over holding
 			humble = major_stress_impact_gain
 		}
 	}
-	
+
 	after = {
 		add_character_flag = {
 			flag = had_yearly_elven_hope_event
@@ -3082,7 +3083,7 @@ elven_hope.0114 = { # Dreary winter
 	content_source = realms_dlc
 	title = elven_hope.0114.t
 	desc = elven_hope.0114.desc
-	theme = elven 
+	theme = elven
 	override_background = { reference = throne_room }
 	cooldown = { months = 9 }
 	left_portrait = {
@@ -3113,7 +3114,7 @@ elven_hope.0114 = { # Dreary winter
 		name =  elven_hope.0114.a
 	}
 	option = { # Try to cheer people up
-		name = elven_hope.0114.b 
+		name = elven_hope.0114.b
 		duel = {
 			skill = intrigue
 			value = 12
@@ -3125,7 +3126,7 @@ elven_hope.0114 = { # Dreary winter
 				}
 				send_interface_toast = {
 					title = elven_hope.0114.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -3137,7 +3138,7 @@ elven_hope.0114 = { # Dreary winter
 				}
 				send_interface_toast = {
 					title = elven_hope.0114.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -3157,7 +3158,7 @@ elven_hope.0115 = { # Sweltering Summer
 	content_source = realms_dlc
 	title = elven_hope.0115.t
 	desc = elven_hope.0115.desc
-	theme = elven 
+	theme = elven
 	override_background = { reference = throne_room }
 	cooldown = { months = 9 }
 	left_portrait = {
@@ -3186,7 +3187,7 @@ elven_hope.0115 = { # Sweltering Summer
 		name =  elven_hope.0115.a
 	}
 	option = { # Try to cheer people up
-		name = elven_hope.0115.b 
+		name = elven_hope.0115.b
 		duel = {
 			skill = diplomacy
 			value = 12
@@ -3198,7 +3199,7 @@ elven_hope.0115 = { # Sweltering Summer
 				}
 				send_interface_toast = {
 					title = elven_hope.0115.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 			}
@@ -3210,7 +3211,7 @@ elven_hope.0115 = { # Sweltering Summer
 				}
 				send_interface_toast = {
 					title = elven_hope.0115.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -3230,7 +3231,7 @@ elven_hope.0116 = { # Elf starts a garden - mini-event chain beginning
 	content_source = realms_dlc
 	title = elven_hope.0116.t
 	desc = elven_hope.0116.desc
-	theme = elven 
+	theme = elven
 	override_background = {
 		reference = garden
 	}
@@ -3242,8 +3243,8 @@ elven_hope.0116 = { # Elf starts a garden - mini-event chain beginning
 	trigger = {
 		NOT = { has_character_flag = had_yearly_elven_hope_event }
 	}
-	option = { #Nah 
-		name = elven_hope.0116.a 
+	option = { #Nah
+		name = elven_hope.0116.a
 		add_stress = -5
 		stress_impact = {
 			impatient = medium_stress_impact_loss
@@ -3252,7 +3253,7 @@ elven_hope.0116 = { # Elf starts a garden - mini-event chain beginning
 		}
 	}
 	option = {
-		name = elven_hope.0116.b 
+		name = elven_hope.0116.b
 		remove_short_term_gold = miniscule_gold_value
 		add_character_flag = elf_started_garden_hope_event_flag
 		random = {
@@ -3284,7 +3285,7 @@ elven_hope.0117 = { # Elf has a thriving garden
 	content_source = realms_dlc
 	title = elven_hope.0117.t
 	desc = elven_hope.0117.desc
-	theme = elven 
+	theme = elven
 	override_background = {
 		reference = garden
 	}
@@ -3301,7 +3302,7 @@ elven_hope.0117 = { # Elf has a thriving garden
 	}
 
 	option = { # Woohoo!
-		name = elven_hope.0117.a 
+		name = elven_hope.0117.a
 		add_prestige = minor_prestige_gain
 		remove_character_flag = elf_started_garden_hope_event_flag
 	}
@@ -3312,7 +3313,7 @@ elven_hope.0118 = { # Elf's garden starts to wither
 	content_source = realms_dlc
 	title = elven_hope.0118.t
 	desc = elven_hope.0118.desc
-	theme = elven 
+	theme = elven
 	override_background = {
 		reference = garden
 	}
@@ -3334,7 +3335,7 @@ elven_hope.0118 = { # Elf's garden starts to wither
 	cooldown = { months = 9 }
 
 	option = { #Oh no...
-		name = elven_hope.0118.a 
+		name = elven_hope.0118.a
 		# add_elven_hope_effect = { VALUE = medium_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 		stress_impact = {
 			compassionate = major_stress_impact_gain
@@ -3344,7 +3345,7 @@ elven_hope.0118 = { # Elf's garden starts to wither
 	}
 
 	option = { #I'll restore it
-		name = elven_hope.0118.b 
+		name = elven_hope.0118.b
 		remove_short_term_gold = miniscule_gold_value
 		duel = {
 			skill = learning
@@ -3357,7 +3358,7 @@ elven_hope.0118 = { # Elf's garden starts to wither
 				}
 				send_interface_toast = {
 					title = elven_hope.0118.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 				add_learning_lifestyle_xp = 200
@@ -3370,7 +3371,7 @@ elven_hope.0118 = { # Elf's garden starts to wither
 				}
 				send_interface_toast = {
 					title = elven_hope.0118.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -3384,8 +3385,8 @@ elven_hope.0118 = { # Elf's garden starts to wither
 			greedy = major_stress_impact_gain
 		}
 	}
-	
-	after = { # Remove le flag 
+
+	after = { # Remove le flag
 		remove_character_flag = elf_started_garden_hope_event_flag
 	}
 }
@@ -3395,12 +3396,12 @@ elven_hope.0119 = { # Lighting strike causes a big tree to catch fire
 	content_source = realms_dlc
 	title = elven_hope.0119.t
 	desc = elven_hope.0119.desc
-	theme = elven 
+	theme = elven
 	override_background = {
 		reference = bp1_bonfire
 	}
 	left_portrait = {
-		character = root 
+		character = root
 		animation = shock
 	}
 	trigger = {
@@ -3435,7 +3436,7 @@ elven_hope.0119 = { # Lighting strike causes a big tree to catch fire
 				}
 				send_interface_toast = {
 					title = elven_hope.0119.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 				add_legitimacy = minor_legitimacy_gain
@@ -3448,7 +3449,7 @@ elven_hope.0119 = { # Lighting strike causes a big tree to catch fire
 				}
 				send_interface_toast = {
 					title = elven_hope.0119.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				increase_wounds_no_death_effect = { REASON = burned }
@@ -3476,7 +3477,7 @@ elven_hope.0120 = { # Character dreams of Valinor
 	content_source = realms_dlc
 	title = elven_hope.0120.t
 	desc = elven_hope.0120.desc
-	theme = elven 
+	theme = elven
 	override_background = {
 		reference = grey_havens
 	}
@@ -3509,7 +3510,7 @@ elven_hope.0120 = { # Character dreams of Valinor
 				}
 				send_interface_toast = {
 					title = elven_hope.0120.b.success
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_positive_event_choice }
 				}
 				add_legitimacy = minor_legitimacy_gain
@@ -3522,7 +3523,7 @@ elven_hope.0120 = { # Character dreams of Valinor
 				}
 				send_interface_toast = {
 					title = elven_hope.0120.b.failure
-					left_icon = root 
+					left_icon = root
 					add_elven_hope_effect = { VALUE = minor_elven_hope_loss HOPE_EFFECT = effect_elven_hope_negative_event_choice }
 				}
 				add_stress = 20
@@ -3542,7 +3543,7 @@ elven_hope.0121 = { # A valorous inspiration
 	content_source = realms_dlc
 	title = elven_hope.0121.t
 	desc = elven_hope.0121.desc
-	theme = elven 
+	theme = elven
 	override_background = {
 		reference = market_elven
 	}
@@ -3555,20 +3556,20 @@ elven_hope.0121 = { # A valorous inspiration
 		animation = personality_compassionate
 	}
 	right_portrait = {
-		character = scope:mighty_courtier 
+		character = scope:mighty_courtier
 		animation = throne_room_two_handed_passive_shield
 	}
 	immediate = {
 		root.capital_county = { save_scope_as = my_capital_county }
-		random_knight = { 
+		random_knight = {
 			limit = { is_elf = yes }
-			save_scope_as = mighty_courtier 
+			save_scope_as = mighty_courtier
 		}
 		add_elven_hope_effect = { VALUE = minor_elven_hope_gain HOPE_EFFECT = effect_elven_hope_inspired_by_sight }
 	}
 
 	option = { # It's so cool that we still have impressive guys like you around
-		name = elven_hope.0121.a 
+		name = elven_hope.0121.a
 		add_prestige = minor_prestige_gain
 	}
 	after = {
@@ -3584,7 +3585,7 @@ elven_hope.0122 = { # Hopeful Music
 	content_source = realms_dlc
 	title = elven_hope.0122.t
 	desc = elven_hope.0122.desc
-	theme = elven 
+	theme = elven
 	override_background = {
 		reference = garden
 	}
@@ -3607,7 +3608,7 @@ elven_hope.0122 = { # Hopeful Music
 	}
 
 	option = { # This reminds me of the songs of old
-		name = elven_hope.0122.a 
+		name = elven_hope.0122.a
 		add_prestige = minor_piety_gain
 	}
 	after = {
@@ -3623,7 +3624,7 @@ elven_hope.0123 = { # An inspired painting
 	content_source = realms_dlc
 	title = elven_hope.0123.t
 	desc = elven_hope.0123.desc
-	theme = elven 
+	theme = elven
 	override_background = {
 		reference = relaxing_room
 	}
@@ -3646,7 +3647,7 @@ elven_hope.0123 = { # An inspired painting
 	}
 
 	option = { # Man what a masterpiece
-		name = elven_hope.0123.a 
+		name = elven_hope.0123.a
 		add_prestige = minor_piety_gain
 	}
 	after = {

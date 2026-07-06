@@ -136,6 +136,7 @@
 			culture:new_arnorian = { custom_tooltip = new_arnorian_desc }
 			culture:uialedain = { custom_tooltip = uialedain_desc }
 			culture:caledhrim = { custom_tooltip = caledhrim_desc }
+			culture:new_dunedain = { custom_tooltip = new_dunedain_desc }
 			
 			# Adunai
 			culture:black_numenorean = { custom_tooltip = black_numenorean_desc }

@@ -4,8 +4,8 @@ namespace = explore_history
 
 ################################
 # SELECT AREA TO STUDY
-# 0001-0999
-# by Jamie-San
+# 0001-0050
+# by Jamie-San and Brice Underhill
 ################################
 
 # Period selection event
@@ -19,13 +19,23 @@ explore_history.0001 = {
 		character = root
 		animation = personality_rational
 	}
-	cooldown = { days = 1 }
+
+	trigger = {
+		NOT = {
+			has_character_flag = selecting_an_age
+		}
+	}
 
 	immediate = {
 		# Stop characters from planning multiple activities at once.
 		add_character_flag = {
 			flag = planning_an_activity
 			days = 30
+		}
+		#Stop the event from popping up multiple times
+		add_character_flag = {
+			flag = selecting_an_age
+			days = 1 #Shouldn't be necessary as the flag is removed post-event, but redundant safeguards can't hurt
 		}
 	}
 	
@@ -70,6 +80,10 @@ explore_history.0001 = {
 			NOT = { situation:numenor_situation ?= { situation_current_phase = numenor_situation_isolation } } #Numenor Submod
 		} 
 		trigger_event = explore_history.0040
+	}
+
+	after = {
+		remove_character_flag = selecting_an_age #This event can be fired again, now that the age has been selected
 	}
 }
 
@@ -1087,7 +1101,13 @@ explore_history.0050 = {
 	}
 }
 
-# Museum Shop event
+################################
+# Activity Maintenance Events
+# 0060-0999
+# by Brice Underhill
+################################
+
+# Museum Shop event - Select which books to depart with
 explore_history.0060 = {
 	type = activity_event
 	content_source = realms_dlc
@@ -2333,7 +2353,7 @@ explore_history.0560 = {
 ################################
 # AGE OF THE TREES
 # 1001-1999
-# by Jamie-San
+# by Jamie-San and Brice Underhill
 ################################
 
 ## The Sundering of the Elves
@@ -3600,7 +3620,7 @@ explore_history.1025 = {
 ################################
 # THE FIRST AGE
 # 2001-2999
-# by Jamie-San
+# by Jamie-San and Brice Underhill
 ################################
 
 ## The Siege of Angband and the Realms of Beleriand
@@ -5372,7 +5392,7 @@ explore_history.2035 = {
 ################################
 # THE SECOND AGE
 # 3001-3999
-# by Jamie-San
+# by Jamie-San and Brice Underhill
 ################################
 
 ## The Lost Island of Númenor
@@ -5990,7 +6010,7 @@ explore_history.3013 = {
 				chance = 33
 
 				remove_trait = cynical
-				add_trait_force_tooltip = humble
+				add_trait_force_tooltip = zealous
 			}			
 		}
 		add_piety = 150
@@ -6005,7 +6025,7 @@ explore_history.3013 = {
 			random = {
 				chance = 33
 				remove_trait = just
-				add_trait_force_tooltip = cynical
+				add_trait_force_tooltip = arbitrary
 			}			
 		}	
 		random = {
@@ -6090,7 +6110,7 @@ explore_history.3014 = {
 			random = {
 				chance = 33
 				remove_trait = just
-				add_trait_force_tooltip = cynical
+				add_trait_force_tooltip = arbitrary
 			}			
 		}	
 		
@@ -6183,17 +6203,7 @@ explore_history.3015 = {
 	}
 
 	option = { # Never again will The Shadow
-		name = explore_history.3015.b
-		if = {
-			limit = {
-				has_trait = content
-			}		
-			random = {
-				chance = 33
-				remove_trait = content
-				add_trait_force_tooltip = zealous
-			}			
-		}	
+		name = explore_history.3015.b	
 		random = {
 			chance = 33
 			if = {
@@ -6302,7 +6312,7 @@ explore_history.3021 = {
 			random = {
 				chance = 33
 				remove_trait = sadistic
-				add_trait_force_tooltip = humble
+				add_trait_force_tooltip = compassionate
 			}			
 		}	
 	}
@@ -6317,7 +6327,7 @@ explore_history.3021 = {
 			random = {
 				chance = 33
 				remove_trait = just
-				add_trait_force_tooltip = zealous
+				add_trait_force_tooltip = arbitrary
 			}			
 		}	
 	}
@@ -6372,18 +6382,7 @@ explore_history.3022 = {
 		random = {
 			chance = 33
 			add_learning_lifestyle_perk_points = 1
-		}	
-		
-		if = {
-			limit = {
-				has_trait = arrogant
-			}		
-			random = {
-				chance = 33
-				remove_trait = arrogant
-				add_trait_force_tooltip = humble
-			}			
-		}	
+		}		
 	}
 
 	option = { # If we had acknowledged Elendil 
@@ -6391,12 +6390,12 @@ explore_history.3022 = {
 		add_piety = 150
 		if = {
 			limit = {
-				has_trait = temperate
+				has_trait = ambitious
 			}		
 			random = {
 				chance = 33
-				remove_trait = temperate
-				add_trait_force_tooltip = zealous
+				remove_trait = ambitious
+				add_trait_force_tooltip = content
 			}			
 		}	
 	}
@@ -6406,17 +6405,6 @@ explore_history.3022 = {
 		random = {
 			chance = 50
 			add_stewardship_skill = 1
-		}	
-		
-		if = {
-			limit = {
-				has_trait = arrogant
-			}		
-			random = {
-				chance = 33
-				remove_trait = arrogant
-				add_trait_force_tooltip = humble
-			}			
 		}			
 	}
 	
@@ -6463,13 +6451,12 @@ explore_history.3023 = {
 		name = explore_history.3023.a
 		if = {
 			limit = {
-				has_trait = temperate
+				has_trait = paranoid
 			}		
 			random = {
 				chance = 33
-
-				remove_trait = temperate
-				add_trait_force_tooltip = zealous
+				remove_trait = paranoid
+				add_trait_force_tooltip = trusting
 			}			
 		}
 		add_piety = 150
@@ -6479,12 +6466,12 @@ explore_history.3023 = {
 		name = explore_history.3023.b
 		if = {
 			limit = {
-				has_trait = calm
+				has_trait = humble
 			}		
 			random = {
 				chance = 33
-				remove_trait = calm
-				add_trait_force_tooltip = cynical
+				remove_trait = humble
+				add_trait_force_tooltip = arrogant
 			}			
 		}	
 		add_prestige = 150
@@ -6495,17 +6482,7 @@ explore_history.3023 = {
 		random = {
 			chance = 50
 			add_stewardship_skill = 1
-		}
-		if = {
-			limit = {
-				has_trait = diligent
-			}		
-			random = {
-				chance = 33
-				remove_trait = diligent
-				add_trait_force_tooltip = fickle
-			}			
-		}			
+		}		
 	}
 	
 	after = {
@@ -6623,11 +6600,11 @@ explore_history.3025 = {
 		add_prestige = 150
 		if = {
 			limit = {
-				has_trait = patient
+				has_trait = forgiving
 			}		
 			random = {
 				chance = 33
-				remove_trait = patient
+				remove_trait = forgiving
 				add_trait_force_tooltip = vengeful
 			}			
 		}	
@@ -7237,16 +7214,6 @@ explore_history.3042 = {
 				add_trait_force_tooltip = arrogant
 			}			
 		}	
-		if = {
-			limit = {
-				has_trait = content
-			}		
-			random = {
-				chance = 33
-				remove_trait = content
-				add_trait_force_tooltip = ambitious
-			}			
-		}		
 	}
 	
 	after = {
@@ -7299,7 +7266,7 @@ explore_history.3043 = {
 	option = { # Can never be ready enough
 		name = explore_history.3043.c	
 		Random_list = { 
-			37 = { 
+			20 = { 
 				if = {
 					limit = {
 						has_trait_xp = {
@@ -7320,7 +7287,7 @@ explore_history.3043 = {
 					add_trait = organizer
 				}
 			} 
-			37 = { 
+			20 = { 
 				if = {
 					limit = {
 						has_trait_xp = {
@@ -7341,7 +7308,7 @@ explore_history.3043 = {
 					add_trait = cautious_leader
 				}
 			} 
-			26 = {}
+			60 = {}
 		}
 	}
 	
@@ -8670,7 +8637,7 @@ explore_history.3065 = {
 ################################
 # THE THIRD AGE
 # 4001-4999
-# by Jamie-San
+# by Jamie-San and Brice Underhill
 ################################
 
 # Marhwini's People
@@ -9235,9 +9202,9 @@ explore_history.4011 = {
 	option = { # Fostering a friendship
 		name = explore_history.4011.a
 		random = {
-				chance = 50
-				add_diplomacy_skill = 1
-			}
+			chance = 50
+			add_diplomacy_skill = 1
+		}
 		if = {
 			limit = {
 				has_trait = shy
@@ -9253,19 +9220,9 @@ explore_history.4011 = {
 	option = { # Narkuzîr was lucky
 		name = explore_history.4011.b
 		random = {
-				chance = 50
-				add_intrigue_skill = 1
-			}
-		if = {
-			limit = {
-				has_trait = gregarious
-			}		
-			random = {
-				chance = 33
-				remove_trait = gregarious
-				add_trait_force_tooltip = cynical
-			}			
-		}	
+			chance = 50
+			add_intrigue_skill = 1
+		}
 	}
 
 	option = { # Such arrogance from the line of Elendil
@@ -9281,9 +9238,9 @@ explore_history.4011 = {
 			}			
 		}	
 		random = {
-				chance = 33
-				add_learning_lifestyle_perk_points = 1
-			}			
+			chance = 33
+			add_learning_lifestyle_perk_points = 1
+		}			
 	}
 	
 	after = {
@@ -9323,10 +9280,9 @@ explore_history.4012 = {
 	option = { # Letting minor religious disagreements...
 		name = explore_history.4012.a
 		random = {
-				chance = 50
-				add_stewardship_skill = 1
-			}	
-		
+			chance = 50
+			add_stewardship_skill = 1
+		}
 		if = {
 			limit = {
 				has_trait = zealous
@@ -9334,17 +9290,17 @@ explore_history.4012 = {
 			random = {
 				chance = 33
 				remove_trait = zealous
-				add_trait_force_tooltip = calm
+				add_trait_force_tooltip = cynical
 			}			
-		}	
+		}
 	}
 
 	option = { # Such an ambitious scheme! 
 		name = explore_history.4012.b
 		random = {
-				chance = 50
-				add_intrigue_skill = 1
-			}
+			chance = 50
+			add_intrigue_skill = 1
+		}
 		if = {
 			limit = {
 				has_trait = temperate
@@ -9360,20 +9316,9 @@ explore_history.4012 = {
 	option = { # Narkuzîr’s Reforms 
 		name = explore_history.4012.c	
 		random = {
-				chance = 50
-				add_learning_skill = 1
-			}	
-		
-		if = {
-			limit = {
-				has_trait = arrogant
-			}		
-			random = {
-				chance = 33
-				remove_trait = arrogant
-				add_trait_force_tooltip = humble
-			}			
-		}			
+			chance = 50
+			add_learning_skill = 1
+		}		
 	}
 	
 	after = {
@@ -9434,7 +9379,6 @@ explore_history.4013 = {
 			}		
 			random = {
 				chance = 33
-
 				remove_trait = paranoid
 				add_trait_force_tooltip = trusting
 			}			
@@ -9468,17 +9412,7 @@ explore_history.4013 = {
 		random = {
 			chance = 50
 			add_diplomacy_skill = 1
-		}
-		if = {
-			limit = {
-				has_trait = just
-			}		
-			random = {
-				chance = 33
-				remove_trait = just
-				add_trait_force_tooltip = cynical
-			}			
-		}			
+		}		
 	}
 	
 	after = {
@@ -9531,7 +9465,7 @@ explore_history.4014 = {
 			random = {
 				chance = 33
 				remove_trait = compassionate
-				add_trait_force_tooltip = cynical
+				add_trait_force_tooltip = callous
 			}			
 		}			
 	}
@@ -9556,21 +9490,10 @@ explore_history.4014 = {
 
 	option = { # Alliances are fickle things
 		name = explore_history.4014.c	
-		if = {
-			limit = {
-				has_trait = strategist
-			}
-			random = {
-				chance = 33
-				add_martial_lifestyle_perk_points = 1
-			}
-		}
-		else = {
-			random = {
-				chance = 33
-				add_trait = strategist
-			}	
-		}		
+		random = {
+			chance = 33
+			add_diplomacy_lifestyle_perk_points = 1
+		}	
 	}
 	
 	after = {
@@ -9609,18 +9532,8 @@ explore_history.4015 = {
 	option = { # Nothing like a great victory to gain popularity !
 		name = explore_history.4015.a
 		random = {
-				chance = 50
-				add_prowess_skill = 1
-				}
-		if = {
-			limit = {
-				has_trait = compassionate
-			}		
-			random = {
-				chance = 33
-				remove_trait = compassionate
-				add_trait_force_tooltip = arrogant
-			}			
+			chance = 50
+			add_prowess_skill = 1
 		}
 	}
 
@@ -9754,6 +9667,16 @@ explore_history.4021 = {
 			chance = 33
 			add_intrigue_lifestyle_perk_points = 1
 		}
+		if = {
+			limit = {
+				has_trait = trusting
+			}		
+			random = {
+				chance = 33
+				remove_trait = trusting
+				add_trait_force_tooltip = paranoid
+			}			
+		}	
 	}
 
 	option = { # Hardy folk
@@ -9845,18 +9768,8 @@ explore_history.4022 = {
 	option = { # Complacent Bellakar
 		name = explore_history.4022.b
 		random = {
-				chance = 50
-				add_martial_skill = 1
-			}
-		if = {
-			limit = {
-				has_trait = lazy
-			}		
-			random = {
-				chance = 50
-				remove_trait = lazy
-				add_trait_force_tooltip = diligent
-			}			
+			chance = 50
+			add_martial_skill = 1
 		}	
 	}
 
@@ -10920,7 +10833,7 @@ explore_history.4043 = {
 	 	character = character:lineofcirdan #Cirdan
 	 	animation = marshal_shield
 		triggered_outfit = {
-			outfit_tags = { elven_war_silvan no_headgear }
+			outfit_tags = { elven_war_sindar no_headgear }
 		}
 	 	animate_if_dead = yes
 	}
@@ -11534,7 +11447,7 @@ explore_history.4054 = {
 		}
 	}
 	lower_left_portrait = {
-		character = character:lineofanballukkhorohinextension4
+		character = character:lineofanballukkhorohinextension1
 		triggered_outfit = {
 			outfit_tags = { anbalukkhori_war_prince }
 		}

@@ -647,7 +647,7 @@ add_blood_of_numenor_effect = {
 		}				
 	} 
 	# Level 10
-	else_if = {
+	if = {
 		limit = {
 			current_year < 4894
 			culture ?= {
@@ -656,6 +656,7 @@ add_blood_of_numenor_effect = {
 					this = culture:gondorian
 					this = culture:belfalathrim
 					this = culture:dunedain
+					this = culture:new_dunedain
 					any_parent_culture_or_above = { this = culture:arnorian }
 					AND = {
 						any_parent_culture_or_above = { this = culture:gondorian }
@@ -710,6 +711,7 @@ add_blood_of_numenor_effect = {
 							this = culture:gondorian
 							this = culture:belfalathrim
 							this = culture:dunedain
+							this = culture:new_dunedain
 							AND = {
 								any_parent_culture_or_above = { this = culture:gondorian }
 								any_parent_culture_or_above = { this = culture:belfalathrim }
@@ -774,6 +776,7 @@ add_blood_of_numenor_effect = {
 							this = culture:gondorian
 							this = culture:belfalathrim
 							this = culture:dunedain
+							this = culture:new_dunedain
 							AND = {
 								any_parent_culture_or_above = { this = culture:gondorian }
 								any_parent_culture_or_above = { this = culture:belfalathrim }
@@ -846,6 +849,7 @@ add_blood_of_numenor_effect = {
 							this = culture:belfalathrim
 							this = culture:dunedain
 							this = culture:arnorian
+							this = culture:new_dunedain
 							AND = {
 								any_parent_culture_or_above = { this = culture:gondorian }
 								any_parent_culture_or_above = { this = culture:belfalathrim }
@@ -918,6 +922,7 @@ add_blood_of_numenor_effect = {
 						OR = {
 							this = culture:dunedain
 							this = culture:arnorian
+							this = culture:new_dunedain
 							any_parent_culture_or_above = { this = culture:arnorian }
 						}
 					}
@@ -1004,6 +1009,7 @@ add_blood_of_numenor_effect = {
 						OR = {
 							this = culture:dunedain
 							this = culture:arnorian
+							this = culture:new_dunedain
 							any_parent_culture_or_above = { this = culture:arnorian }
 						}
 					}
@@ -1890,13 +1896,20 @@ lotr_grant_gondor_strength_game_rule_buff = {
 				is_alive = yes
 				is_landed = yes
 			}
+			switch = {
+				trigger = has_game_rule
+				weakened_good_strength = { add_character_modifier = gondor_weakened_modifier }
+				strong_good_strength = { add_character_modifier = gondor_strengthened_1_modifier }
+				very_strong_good_strength = { add_character_modifier = gondor_strengthened_2_modifier }
+				apocalyptic_good_strength = { add_character_modifier = gondor_strengthened_4_modifier }
+				apocalyptic_conqueror_good_strength = { add_character_modifier = gondor_strengthened_4_modifier }
+			}
 			if = {
-				limit = { has_game_rule = apocalyptic_gondor_strength }
-				add_character_modifier = gondor_strengthened_4_modifier
-				if = {
-					limit = { is_elf = yes }
-					create_story = story_conqueror
+				limit = {
+					has_game_rule = apocalyptic_conqueror_good_strength
+					is_elf = yes
 				}
+				create_story = story_conqueror
 			}
 		}
 	}

@@ -55,6 +55,7 @@ walls_00 = {
 			has_building = "wonder_cirith_ungol_original"
 			has_building_or_higher = "wonder_umbar_01"
 			has_building_or_higher = "wonder_fornost_01"
+			has_building_or_higher = "wonder_tharbad_01"
 			OR = {
 				has_building = "wonder_framsburg_01"
 				has_building = "wonder_framsburg_03"
@@ -210,7 +211,6 @@ walls_01_tribal = {
 # Here the Fort Level building chains take control of the visuals
 walls_01 = {
 	is_graphical_background = yes
-	
 	###############
 	### Vanilla ###
 	###############
@@ -348,12 +348,19 @@ walls_01 = {
 	### Realms ### (Indented for readability)
 	##############
 
-		### Rohan ###
+		### Rohirrim ###
 			asset = {
 				type = pdxmesh
 				name = wall_01_rohan_mesh
 				graphical_cultures = { rohirrim_building_gfx }
 				graphical_regions = { graphical_western graphical_steppe }
+			}
+			
+			asset = {
+				type = pdxmesh
+				names = { "mena_walls_01_a_mesh" "mena_walls_01_b_mesh" }
+				graphical_cultures = { rohirrim_building_gfx }
+				graphical_regions = { graphical_mena }
 			}
 
 		### Harshandatt ###
@@ -481,6 +488,7 @@ walls_01 = {
 			has_building_or_higher = "wonder_west_samarth_01"
 			has_building_or_higher = "wonder_umbar_01"
 			has_building_or_higher = "wonder_fornost_01"
+			has_building_or_higher = "wonder_tharbad_01"
 			OR = {
 				has_building = "wonder_framsburg_01"
 				has_building = "wonder_framsburg_03"
@@ -662,12 +670,19 @@ walls_02 = {
 	##############
 	### Realms ###
 	##############
-		### Rohan ###
+		### Rohirrim ###
 			asset = {
 				type = pdxmesh
 				name = wall_02_rohan_mesh
 				graphical_cultures = { rohirrim_building_gfx }
 				graphical_regions = { graphical_western graphical_steppe }
+			}
+			
+			asset = {
+				type = pdxmesh
+				name = mena_walls_02_a_mesh
+				graphical_cultures = { rohirrim_building_gfx }
+				graphical_regions = { graphical_mena }
 			}
 
 		### Arnor ###
@@ -691,7 +706,7 @@ walls_02 = {
 				type = pdxmesh
 				name = black_numenorean_walls_02_mesh
 				graphical_cultures = { numenorean_building_gfx kharadunaic_building_gfx }
-				graphical_regions = { graphical_adunaic graphical_umbarian }
+				graphical_regions = { graphical_adunaic graphical_umbarian graphical_mena graphical_india }
 			}
 			
 		### Kharadunaic ###
@@ -827,6 +842,7 @@ walls_02 = {
 			has_building = "wonder_cirith_ungol_original"
 			has_building_or_higher = "wonder_umbar_01"
 			has_building_or_higher = "wonder_fornost_01"
+			has_building_or_higher = "wonder_tharbad_01"
 			OR = {
 				has_building = "wonder_framsburg_01"
 				has_building = "wonder_framsburg_03"
@@ -858,7 +874,6 @@ walls_02 = {
 
 walls_03 = {
 	is_graphical_background = yes
-	
 	###############
 	### Vanilla ###
 	###############
@@ -1025,7 +1040,7 @@ walls_03 = {
 				type = pdxmesh
 				name = black_numenorean_walls_03_mesh
 				graphical_cultures = { numenorean_building_gfx kharadunaic_building_gfx }
-				graphical_regions = { graphical_adunaic graphical_umbarian }
+				graphical_regions = { graphical_adunaic graphical_umbarian graphical_mena graphical_india }
 			}
 			
 		### Kharadunaic ###
@@ -1045,7 +1060,14 @@ walls_03 = {
 				graphical_cultures = { rohirrim_building_gfx }
 				graphical_regions = { graphical_western graphical_steppe }
 			}
-	
+
+			asset = {
+				type = pdxmesh
+				names = { "mena_walls_03_a_mesh" "mena_walls_03_a_mesh" }
+				graphical_cultures = { rohirrim_building_gfx }
+				graphical_regions = { graphical_mena }
+			}
+			
 		### Druedain ###
 			asset = {
 				type = pdxmesh
@@ -1187,6 +1209,7 @@ walls_03 = {
 			has_building = "wonder_cirith_ungol_original"
 			has_building_or_higher = "wonder_umbar_01"
 			has_building_or_higher = "wonder_fornost_01"
+			has_building_or_higher = "wonder_tharbad_01"
 			OR = {
 				has_building = "wonder_framsburg_01"
 				has_building = "wonder_framsburg_03"
@@ -1381,7 +1404,7 @@ walls_04 = {
 				type = pdxmesh
 				name = black_numenorean_walls_04_mesh
 				graphical_cultures = { numenorean_building_gfx kharadunaic_building_gfx }
-				graphical_regions = { graphical_adunaic graphical_umbarian }
+				graphical_regions = { graphical_adunaic graphical_umbarian graphical_mena graphical_india }
 			}
 			
 		### Kharadunaic ###
@@ -1400,6 +1423,13 @@ walls_04 = {
 				name = wall_04_rohan_mesh
 				graphical_cultures = { rohirrim_building_gfx }
 				graphical_regions = { graphical_western graphical_steppe }
+			}
+			
+			asset = {
+				type = pdxmesh
+				names = { "mena_walls_04_a_mesh" "mena_walls_04_a_mesh" }
+				graphical_cultures = { rohirrim_building_gfx }
+				graphical_regions = { graphical_mena }
 			}
 	
 		### Druedain ###
@@ -1482,7 +1512,7 @@ walls_04 = {
 				graphical_cultures = { ray_building_gfx }
 				graphical_regions = { graphical_india graphical_mena }
 			}
-
+			
 	is_enabled = {
 		scope:holder = {
 			NOT = { government_has_flag = government_is_tribal }
@@ -1535,6 +1565,7 @@ walls_04 = {
 			has_building = "wonder_cirith_ungol_original"
 			has_building_or_higher = "wonder_umbar_01"
 			has_building_or_higher = "wonder_fornost_01"
+			has_building_or_higher = "wonder_tharbad_01"
 			OR = {
 				has_building = "wonder_framsburg_01"
 				has_building = "wonder_framsburg_03"

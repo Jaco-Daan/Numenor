@@ -207,6 +207,24 @@ d_gabbaz_balahask = {
 	ignore_titularity_for_title_weighting = yes
 }
 
+d_vatra = {
+	color = { 134 74 93 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+
+	capital = c_bozisha_dar
+
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	ignore_titularity_for_title_weighting = yes
+}
+
 d_nhazadh = {	
 	color = { 120 26 2 }
 	definite_form = yes
@@ -983,6 +1001,16 @@ d_emyn_uial = {
 	# }
 }
 
+d_coastal_sentinels = {
+	color = { 13 78 120 }
+	#landless = yes
+	destroy_on_succession = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+	ignore_titularity_for_title_weighting = yes
+	capital = c_lond_daer
+}
+
 h_pharazain = {
 	color = { 180 0 60 }
 	#landless = yes
@@ -1155,6 +1183,17 @@ e_dunland = {
 	}
 }
 
+### Haradrim ###
+
+e_haradrim_viceroy = {
+	color = { 88 99 11 }
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	ignore_titularity_for_title_weighting = yes
+	capital = c_amrun
+}
+
 ### Bellakar ###
 
 k_izindizanda_eruhinim = {	
@@ -1171,21 +1210,6 @@ k_izindizanda_eruhinim = {
 	}
 
 	holding_regnal_male_names = { Aba_a_ragar Aba_a_ruzi_i_r Aba_a_ruzor Abata_a_ryk Aba_a_jagar Aba_a_khor Abraja_a_n Abrazimi_i_r Abrazi_i_r Abrazor Abrazu_u_r Adu_u_naba_a_r Adu_u_nabel Adu_u_nakor Adu_u_nafazor Adu_u_nazi_i_r Adu_u_nuzi_i_r Agandu_u_r Aglara_a_n Akorahil Aluakor Afanuzi_i_r Afanuzu_u_r Arka_a_d Arnakor Arnubalaka_a_n Arnube_e_n Arnuzi_i_l Aromo_o_zi_i_r Arfagor Arfaja_a_n Arta_a_ryk A_A_ruaku_u_ra_a_n Arjagar Ajainibeth Atovo_o_ Avalo_o_be_e_n Avalozi_i_r Ajarnaru_u_ Azgarzi_i_r Azrubel Azrube_e_n Azruthor Azruzu_u_r Azu_u_lfazga_a_n Azu_u_lkho_o_r Azu_u_lzi_i_r Azu_u_lzu_u_r Bala_a_ka_a_n Balkazi_i_r Balkumaga_a_n Balkuthor Balkuzor Bana_a_thin Bavabathor Bavbuthor Belkhor Belnardu_u_ Belfaja_a_n Belfe_e_gor Belhagar Borathor Buro_o_dapa_a_n Dolgujagar Erakor Eruhil Erujagar Eruzor Gimilka_a_d Gimilhagar Gimilzor Gimla_a_n Gimlibe_e_n Go_o_drathor I_I_bal Imrakor Imrathor Imrazor Imruzi_i_r Inziladu_u_n Inzilbel Inzilurud Inzilzu_u_r Ishilithor Izindabe_e_n Izindykhor Izindo_o_n Izinduzor Kadarjagar Karbazi_i_r Karbuzi_i_r Kathufazga_a_n Kessemo_o_zi_i_r Khandago_o_r Kibilathor Kibilun Marme_e_do_o_n Ma_a_srakaya_a_n Minlube_e_n Minulzi_i_r Minulzor Minulzu_u_r Mu_u_razor Na_a_lo_o_da_a_n Narkuzi_i_r Ni_i_llu_u_be_e_n Ni_i_llu_u_hin Ni_i_lozi_i_r Ni_i_lozu_u_r Nimrube_e_n Nimruaka_a_z Nimruzi_i_r Nimruzu_u_r Nolo_o_ndil Nolo_o_ndur Farazo_o_n Sakalba_a_r Sakalkha_a_d Sakalthor Sapazi_i_r Sapazu_u_r Tamarzi_i_r Tamarzu_u_r Tamrube_e_n Tamruzi_i_r Ta_a_rykmaga_a_n Tho_o_nuzi_i_r Tu_u_limizi_i_r Urduba_a_r Urduzi_i_r U_U_rejagar U_U_ri_i_thor U_U_ri_i_zi_i_r U_U_rjarkor Urshuzi_i_r Jabatha_a_n Jabatha_a_nardu Jadnazi_i_r Jadunzi_i_r Ja_a_nabe_e_n Ja_a_yukhor Ja_a_yunzi_i_r Zimraba_a_r Zimra_a_dun Zimratho_o_n Zimrathor Zimrazor Zimrazu_u_l Zimre_e_bal Zimryka_a_z Zimruakhor Zimruapa_a_n Zornagar }
-}
-
-d_felaya = {
-	color = { 140 45 165 }
-	#landless = yes
-	destroy_on_succession = no
-	can_be_named_after_dynasty = no
-	no_automatic_claims = yes
-	de_jure_drift_disabled = yes
-
-	ignore_titularity_for_title_weighting = yes
-	capital = c_hazaj_tollin 
-	ai_primary_priority = {
-		add = @always_primary_score
-	}
 }
 
 d_fleet_of_shadows = {
@@ -1211,6 +1235,16 @@ k_sacred_isles = {
 		name_list_elven = cn_sacred_isles_dunedain
 		name_list_sindarin = cn_sacred_isles_dunedain
 	}
+}
+
+k_dunlandfells = {
+	color = { 33 55 99 }
+	landless = no # should be destroyed if the holder is rendered landless
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	ignore_titularity_for_title_weighting = yes
+	capital = c_magh_meala
 }
 
 k_holzoreth = {

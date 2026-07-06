@@ -431,8 +431,8 @@ activity_explore_history = {
 			desc = activity_explore_history_province_desc_wonder_harlond
 		}
 		triggered_desc = {
-			trigger = { has_building = wonder_mirdairond }
-			desc = activity_explore_history_province_desc_wonder_mirdairond
+			trigger = {	has_building_or_higher = wonder_ost_in_edhil_03	}
+			desc = activity_explore_history_province_desc_wonder_ost_in_edhil_upgraded
 		}		
 		triggered_desc = {
 			trigger = { 
@@ -615,6 +615,15 @@ activity_explore_history = {
 		triggered_desc = {
 			trigger = { has_building = wonder_mispir }
 			desc = activity_explore_history_province_desc_wonder_mispir
+		}
+		triggered_desc = {
+			trigger = {
+				OR = {
+					has_building = wonder_ost_in_edhil_01
+					has_building = wonder_ost_in_edhil_02
+				}
+			}
+			desc = activity_explore_history_province_desc_wonder_ost_in_edhil
 		}
 		
 		
@@ -813,7 +822,7 @@ activity_explore_history = {
 			add = 150
 		}
 		if = {
-			limit = { has_building_or_higher = wonder_mirdairond }
+			limit = { has_building_or_higher = wonder_ost_in_edhil_03 }
 			add = 150
 		}
 		if = {
@@ -1742,7 +1751,7 @@ activity_explore_history = {
 				}
 				if = {
 					limit = {
-						scope:province ?= { has_building_or_higher = wonder_mirdairond }
+						scope:province ?= { has_building_or_higher = wonder_ost_in_edhil_03	 }
 					}
 					add = {
 						value = 0
@@ -1755,7 +1764,7 @@ activity_explore_history = {
 							}
 						}
 						multiply = explore_history_activity_cost_discount_max_value
-						desc = explore_history_cost_discount_wonder_mirdairond
+						desc = explore_history_cost_discount_wonder_ost_in_edhil_upgraded
 					}
 				}
 				if = {
@@ -2123,6 +2132,29 @@ activity_explore_history = {
 						}
 						multiply = explore_history_activity_cost_discount_medium_value
 						desc = explore_history_cost_discount_wonder_mispir
+					}
+				}
+				if = {
+					limit = {
+						scope:province ?= { 
+							OR = {
+								has_building = wonder_ost_in_edhil_01
+								has_building = wonder_ost_in_edhil_02
+							}
+						}
+					}
+					add = {
+						value = 0
+						add = {
+							value = explore_history_activity_base_cost
+							add = {
+								value = explore_history_activity_base_cost
+								multiply = activity_cost_scale_by_era
+								subtract = explore_history_activity_base_cost
+							}
+						}
+						multiply = explore_history_activity_cost_discount_medium_value
+						desc = explore_history_cost_discount_wonder_ost_in_edhil
 					}
 				}
 				#Minimal cost reduction
@@ -2709,12 +2741,9 @@ activity_explore_history = {
 				this = scope:host
 				has_dlc_feature = legends
 				NOT = { employs_court_position = chronicler_court_position }
-				involved_activity = {
-					any_attending_character = {
-						location = root.location
-						save_temporary_scope_as = potential_chronicler
-						
-					}
+				any_courtier = {
+					location = root.location
+					save_temporary_scope_as = potential_chronicler
 				}
 				can_appoint_char_to_court_position = { CHAR = scope:potential_chronicler COURT_POS = chronicler_court_position }
 			}
@@ -2728,12 +2757,9 @@ activity_explore_history = {
 				this = scope:host
 				NOT = { has_dlc_feature = legends }
 				NOT = { employs_court_position = antiquarian_court_position }
-				involved_activity = {
-					any_attending_character = {
-						location = root.location
-						save_temporary_scope_as = potential_antiquarian
-						
-					}
+				any_courtier = {
+					location = root.location
+					save_temporary_scope_as = potential_antiquarian
 				}
 				can_appoint_char_to_court_position = { CHAR = scope:potential_antiquarian COURT_POS = antiquarian_court_position }
 			}

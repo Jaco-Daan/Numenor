@@ -6633,13 +6633,16 @@ sailing.3302 = {
 
 	option = { # Failure - whole crew starves
 		name = sailing.3302.a
-		death = { death_reason = death_starved }
 		scope:activity = {
 			every_attending_character = {
-				limit = { is_ai = yes }
+				limit = {
+					NOT = { this = scope:host }
+					cannot_be_killed = no
+				}
 				death = { death_reason = death_starved }
 			}
 		}
+		death = { death_reason = death_starved }
 	}
 }
 
@@ -7132,18 +7135,18 @@ sailing.3502 = {
 
 	option = { # Failure
 		name = sailing.3502.a
-		death = { death_reason = death_drowned }
 		scope:activity = {
 			every_attending_character = {
 				if = {
 					limit = {
-						is_ai = yes
+						NOT = { this = scope:host }
 						cannot_be_killed = no
 					}
 					death = { death_reason = death_drowned }
 				}
 			}
 		}
+		death = { death_reason = death_drowned }
 	}
 }
 
