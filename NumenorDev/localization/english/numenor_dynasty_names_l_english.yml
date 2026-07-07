@@ -3,12 +3,12 @@
 ### Numenor Submod Dynasties ###
 
 # Dynasties
- dynn_agathor: "Tir Elin" # Not Eleronwë, but still related to stars
+ dynn_agathor_num: "Tir Elin" # Not Eleronwë, but still related to stars
  dynn_akhorahil: "Akhôrahilôhîn"
  dynn_arialome: "Minulzîri"
  dynn_arkia: "Ferrinix" # This is a vanity so it's fine but we should still fix
  dynn_aruthan: "Avalôbênî"
- dynn_azulhin: "Azûlhîn"
+ #dynn_azulhin: "Azûlhîn"
  dynn_balkuloni: "Arnuthôrî"
  dynn_elenore: "Zôrzagarôthôrî"
  dynn_jewellord: "Abranâi 'nZimir"

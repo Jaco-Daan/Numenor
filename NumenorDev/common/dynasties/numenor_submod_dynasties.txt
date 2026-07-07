@@ -3,9 +3,9 @@
 #################
 
 dynasty_agathor = {
-	name = dynn_agathor
+	name = dynn_agathor_num
 	culture = numenorean
-	motto = dynn_agathor_motto
+	motto = dynn_agathor_num_motto
 }
 
 dynasty_akhorahil = {
