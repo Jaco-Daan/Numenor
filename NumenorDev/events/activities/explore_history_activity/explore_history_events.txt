@@ -9797,7 +9797,7 @@ explore_history.4023 = {
 	desc = explore_history.4023.desc
 	theme = explore_history_activity
 	override_background = {
-		reference = rhun
+		reference = wilderness_desert_rhun
 	}
 	widget = {
 		gui = "event_window_widget_vfx_heavy_smoke"

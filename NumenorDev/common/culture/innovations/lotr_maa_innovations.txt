@@ -40,14 +40,13 @@
 
 ### Dunlendings ###
 innovation_dunlending_warriors = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		OR = {
-			has_cultural_pillar = heritage_daen_lintis
-		}
+		has_cultural_pillar = heritage_daen_lintis
 	}
 
 	custom = unlock_dunlending_huscarl
@@ -56,14 +55,13 @@ innovation_dunlending_warriors = {
 }
 
 innovation_armored_dunmen_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		OR = {
-			has_cultural_pillar = heritage_daen_lintis
-		}
+		has_cultural_pillar = heritage_daen_lintis
 	}
 
 	can_progress = { #Unlocked by decision
@@ -81,14 +79,13 @@ innovation_armored_dunmen_warfare = {
 
 ### Hillmen ###
 innovation_hillmen_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		OR = {
-			has_cultural_pillar = heritage_hillmen
-		}
+		has_cultural_pillar = heritage_hillmen
 	}
 	custom = unlock_hillmen_pikemen
 	custom = unlock_hillmen_light_cavalry
@@ -97,24 +94,21 @@ innovation_hillmen_warfare = {
 }
 
 innovation_advanced_hillmen_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	can_progress = {
 		NOT = { # If you already have one of these MAA innovations, you can't unlock another!
-			OR = {
-				has_innovation =  innovation_hillmen_warfare
-			}
+			has_innovation =  innovation_hillmen_warfare
 		}
 	}
 	potential = {
-		AND = {
-			has_cultural_pillar = heritage_hillmen
-			OR = {
-				this = culture:hillmen
-				this = { any_parent_culture_or_above = { this = culture:hillmen } }
-			}
+		has_cultural_pillar = heritage_hillmen
+		OR = {
+			this = culture:hillmen
+			this = { any_parent_culture_or_above = { this = culture:hillmen } }
 		}
 	}
 	
@@ -131,6 +125,7 @@ innovation_advanced_hillmen_warfare = {
 
 ### Lossoth ###
 innovation_lossoth_hunters = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -143,16 +138,16 @@ innovation_lossoth_hunters = {
 
 ### Angmarrim ###
 innovation_angmar_warriors = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		AND = {
-			OR = {
-				this = culture:angmarrim
-				#is_undead_culture = yes 
-			}
+		OR = {
+			this = culture:angmarrim
+			any_parent_culture_or_above = { this = culture:angmarrim }
+			# is_undead_culture = yes 
 		}
 	}
 	custom = unlock_angmarim_pikemen
@@ -162,16 +157,15 @@ innovation_angmar_warriors = {
 
 ### Donan ###
 innovation_donan_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		AND = {
-			OR = {
-				this = culture:donan
-				any_parent_culture_or_above = { this = culture:donan }
-			}
+		OR = {
+			this = culture:donan
+			any_parent_culture_or_above = { this = culture:donan }
 		}
 	}
 	custom = unlock_donan_slingers
@@ -179,16 +173,15 @@ innovation_donan_warfare = {
 
 ### Sederi ###
 innovation_sederi_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		AND = {
-			OR = {
-				this = culture:sederi
-				any_parent_culture_or_above = { this = culture:sederi }
-			}
+		OR = {
+			this = culture:sederi
+			any_parent_culture_or_above = { this = culture:sederi }
 		}
 	}
 	custom = unlock_impali_tribesmen
@@ -197,6 +190,7 @@ innovation_sederi_warfare = {
 
 ### Usakani ###
 innovation_usakani_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -214,16 +208,15 @@ innovation_usakani_warfare = {
 
 ### Adena ###
 innovation_adena_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		AND = {
-			OR = {
-				this = culture:adena
-				any_parent_culture_or_above = { this = culture:adena }
-			}
+		OR = {
+			this = culture:adena
+			any_parent_culture_or_above = { this = culture:adena }
 		}
 	}
 	custom = unlock_marshstriders
@@ -232,16 +225,15 @@ innovation_adena_warfare = {
 
 ### Drel ###
 innovation_drel_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		AND = {
-			OR = {
-				this = culture:drel
-				any_parent_culture_or_above = { this = culture:drel }
-			}
+		OR = {
+			this = culture:drel
+			any_parent_culture_or_above = { this = culture:drel }
 		}
 	}
 	custom = unlock_tiderunners
@@ -250,16 +242,15 @@ innovation_drel_warfare = {
 
 ### Pel ###
 innovation_pel_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		AND = {
-			OR = {
-				this = culture:pel
-				any_parent_culture_or_above = { this = culture:pel }
-			}
+		OR = {
+			this = culture:pel
+			any_parent_culture_or_above = { this = culture:pel }
 		}
 	}
 	custom = unlock_blacksteel_phalanx
@@ -268,16 +259,15 @@ innovation_pel_warfare = {
 
 ### Chaialla ###
 innovation_chaialla_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		AND = {
-			OR = {
-				this = culture:chaialla
-				any_parent_culture_or_above = { this = culture:chaialla }
-			}
+		OR = {
+			this = culture:chaialla
+			any_parent_culture_or_above = { this = culture:chaialla }
 		}
 	}
 	custom = unlock_hill_stalkers
@@ -286,16 +276,15 @@ innovation_chaialla_warfare = {
 
 ### Mag ###
 innovation_mag_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		AND = {
-			OR = {
-				this = culture:mag
-				any_parent_culture_or_above = { this = culture:mag }
-			}
+		OR = {
+			this = culture:mag
+			any_parent_culture_or_above = { this = culture:mag }
 		}
 	}
 	custom = unlock_ivory_sentinels
@@ -304,16 +293,15 @@ innovation_mag_warfare = {
 
 ### Logath ###
 innovation_logath_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		AND = {
-			OR = {
-				this = culture:logath
-				any_parent_culture_or_above = { this = culture:logath }
-			}
+		OR = {
+			this = culture:logath
+			any_parent_culture_or_above = { this = culture:logath }
 		}
 	}
 	custom = unlock_logath_horsearchers
@@ -321,16 +309,15 @@ innovation_logath_warfare = {
 
 ### Vulmaw ###
 innovation_vulmaw_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		AND = {
-			OR = {
-				this = culture:vulmaw
-				any_parent_culture_or_above = { this = culture:vulmaw }
-			}
+		OR = {
+			this = culture:vulmaw
+			any_parent_culture_or_above = { this = culture:vulmaw }
 		}
 	}
 	custom = unlock_waw_pirates
@@ -339,6 +326,7 @@ innovation_vulmaw_warfare = {
 
 ### Bellakari
 innovation_bellakari_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -355,6 +343,7 @@ innovation_bellakari_warfare = {
 
 ### Dune Sea
 innovation_dune_sea_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -369,16 +358,15 @@ innovation_dune_sea_warfare = {
 }
 
 innovation_qarsa_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
 
 	potential = {
-		AND = {
-			OR = {
-				this = culture:qarsag
-				any_parent_culture_or_above = { this = culture:qarsag }
-			}
+		OR = {
+			this = culture:qarsag
+			any_parent_culture_or_above = { this = culture:qarsag }
 		}
 	}
 
@@ -387,6 +375,7 @@ innovation_qarsa_warfare = {
 
 ### Daen Coentis
 innovation_daen_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -406,12 +395,13 @@ innovation_daen_warfare = {
 
 ### Hobbit
 innovation_hobbit_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-			has_cultural_pillar = heritage_periannath
+		has_cultural_pillar = heritage_periannath
 	}
 
 	custom = unlock_maa_hobbit_bounders
@@ -420,6 +410,7 @@ innovation_hobbit_warfare = {
 }
 
 innovation_advanced_hobbit_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -431,7 +422,7 @@ innovation_advanced_hobbit_warfare = {
 	}
 
 	potential = {
-			has_cultural_pillar = heritage_periannath
+		has_cultural_pillar = heritage_periannath
 	}
 
 	custom = unlock_maa_hobbit_first_bounders_troop
@@ -441,6 +432,7 @@ innovation_advanced_hobbit_warfare = {
 
 ### Eotheod
 innovation_eotheod_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -541,6 +533,7 @@ innovation_eotheod_warfare = {
 
 ### Mardrukan ###
 innovation_mardrukan_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -558,6 +551,7 @@ innovation_mardrukan_warfare = {
 
 ### Breemen ###
 innovation_breemen_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -574,6 +568,7 @@ innovation_breemen_warfare = {
 
 ### Dalringi ###
 innovation_dalemen_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -592,6 +587,7 @@ innovation_dalemen_warfare = {
 
 ### Dorwinrim ###
 innovation_dorwinionrim_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -629,6 +625,7 @@ innovation_dorwinionrim_warfare = {
 
 ### Nurniags ###
 innovation_slavers_nurn = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -648,14 +645,13 @@ innovation_slavers_nurn = {
 
 ### Mumakan ###
 innovation_mumakani_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		OR = {
-			has_cultural_pillar = heritage_mumakani
-		}
+		has_cultural_pillar = heritage_mumakani
 	}
 
 	custom = unlock_maa_mumakani_spears
@@ -665,6 +661,7 @@ innovation_mumakani_warfare = {
 
 ### Geshani ###
 innovation_geshani_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -678,14 +675,13 @@ innovation_geshani_warfare = {
 
 ### Hathorim ###
 innovation_hathorim_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		OR = {
-			has_cultural_pillar = heritage_hathorim
-		}
+		has_cultural_pillar = heritage_hathorim
 	}
 
 	custom = unlock_maa_hathorim_skirmishers
@@ -694,6 +690,7 @@ innovation_hathorim_warfare = {
 
 ### Koronandi ###
 innovation_koronandi_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -709,6 +706,7 @@ innovation_koronandi_warfare = {
 
 ### Shayn ###
 innovation_shayn_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -723,13 +721,16 @@ innovation_shayn_warfare = {
 }
 
 innovation_ambason_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 
 	potential = {
-		has_cultural_pillar = heritage_shayn
-		NOT = { this = culture:lynerian }
+		OR = {
+			this = culture:ambason
+			any_parent_culture_or_above = { this = culture:ambason }
+		}
 	}
 
 	custom = unlock_maa_ambason_archers
@@ -738,6 +739,7 @@ innovation_ambason_warfare = {
 
 ### Dunedain ###
 innovation_numenorean_warriors = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -764,6 +766,7 @@ innovation_numenorean_warriors = {
 }
 
 innovation_dunedain_warriors = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -773,7 +776,6 @@ innovation_dunedain_warriors = {
 			this = culture:new_dunedain
 			this = culture:dunedain
 		}
-		
 	}
 	custom = unlock_dunedain_archers
 	custom = unlock_dunedain_knights
@@ -782,6 +784,7 @@ innovation_dunedain_warriors = {
 
 
 innovation_arnorian_soldiers = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -792,15 +795,17 @@ innovation_arnorian_soldiers = {
 				has_innovation =  innovation_gondorian_soldiers
 			}
 		}
+		##Quonton
+		NOT = { this = culture:new_dunedain }
 	}
 	potential = {
-		AND = {
-			has_cultural_pillar = heritage_dunedain
-			OR = {
-				this = culture:arnorian
-				this = { any_parent_culture_or_above = { this = culture:arnorian } }
-			}
+		has_cultural_pillar = heritage_dunedain
+		OR = {
+			this = culture:arnorian
+			this = { any_parent_culture_or_above = { this = culture:arnorian } }
 		}
+		##Quonton
+		NOT = { this = culture:new_dunedain }
 	}
 
 	custom = unlock_arnorian_soldiers
@@ -810,28 +815,28 @@ innovation_arnorian_soldiers = {
 }
 
 innovation_gondorian_soldiers = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
 	can_progress = {
-		NOT = { # If you already have one of these MAA innovations, you can't unlock another!
-			OR = {
-				has_innovation =  innovation_dunedain_ranger_warfare
-				has_innovation =  innovation_arnorian_soldiers
-			}
+		NOR = { # If you already have one of these MAA innovations, you can't unlock another!
+			has_innovation =  innovation_dunedain_ranger_warfare
+			has_innovation =  innovation_arnorian_soldiers
+			this = culture:new_dunedain
 		}
 	}
 
 	potential = {
-		AND = {
-			has_cultural_pillar = heritage_dunedain
-			OR = {
-				this = culture:gondorian
-				this = { any_parent_culture_or_above = { this = culture:gondorian } }
-				this = culture:belfalathrim
-				this = { any_parent_culture_or_above = { this = culture:belfalathrim } }
-			}
+		has_cultural_pillar = heritage_dunedain
+		OR = {
+			this = culture:gondorian
+			this = { any_parent_culture_or_above = { this = culture:gondorian } }
+			this = culture:belfalathrim
+			this = { any_parent_culture_or_above = { this = culture:belfalathrim } }
 		}
+		##Quonton
+		NOT = { this = culture:new_dunedain }
 	}
 
 	custom = unlock_gondorian_footmen
@@ -840,6 +845,7 @@ innovation_gondorian_soldiers = {
 }
 
 innovation_caledhrim_soldiers = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -853,6 +859,7 @@ innovation_caledhrim_soldiers = {
 }
 
 innovation_umbaredain_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -866,6 +873,7 @@ innovation_umbaredain_warfare = {
 }
 
 innovation_dunedain_ranger_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -882,6 +890,7 @@ innovation_dunedain_ranger_warfare = {
 }
 
 innovation_talon_knights = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -905,6 +914,7 @@ innovation_talon_knights = {
 }
 
 innovation_nimrodel_rangers = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -928,6 +938,7 @@ innovation_nimrodel_rangers = {
 
 ### Harondoric ###
 innovation_harondorim_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -980,6 +991,7 @@ innovation_harondorim_warfare = {
 
 ### Orcs ###
 innovation_orc_pits = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @maa_01
@@ -1029,6 +1041,7 @@ innovation_orc_pits = {
 # }
 
 innovation_uruks = {
+	skill = martial
 	group = culture_group_regional
 	#culture_era = culture_era_late_medieval
 	culture_era = culture_era_high_medieval
@@ -1051,6 +1064,7 @@ innovation_uruks = {
 }
 
 innovation_caragor = {
+	skill = martial
 	group = culture_group_regional
 	#culture_era = culture_era_late_medieval
 	culture_era = culture_era_high_medieval
@@ -1073,6 +1087,7 @@ innovation_caragor = {
 }
 
 innovation_olog_hai = {
+	skill = martial
 	group = culture_group_regional
 	#culture_era = culture_era_late_medieval
 	culture_era = culture_era_high_medieval
@@ -1095,6 +1110,7 @@ innovation_olog_hai = {
 }
 
 innovation_goblin_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @maa_01
@@ -1116,6 +1132,7 @@ innovation_goblin_warfare = {
 }
 
 innovation_goblin_warg_riders = {	#For Goblin Town
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	region = middleearth_mountains_misty_high_pass
@@ -1132,6 +1149,7 @@ innovation_goblin_warg_riders = {	#For Goblin Town
 }
 
 innovation_great_beasts = {	#For Nurn Orcs- Battle-Wagons pulled by Sulokil/Yurghs/Great Beasts
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_early_medieval
 	region = middleearth_mordor_nurn
@@ -1148,6 +1166,7 @@ innovation_great_beasts = {	#For Nurn Orcs- Battle-Wagons pulled by Sulokil/Yurg
 }
 
 innovation_moria_warfare = {	#For Moria Goblins
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_early_medieval
 	region = middleearth_mountains_misty_khazad_dum
@@ -1165,6 +1184,7 @@ innovation_moria_warfare = {	#For Moria Goblins
 }
 
 innovation_raiders_of_the_north = {	#For Worauthai Madur
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	region = special_region_innovation_raiders_of_the_north
@@ -1182,6 +1202,7 @@ innovation_raiders_of_the_north = {	#For Worauthai Madur
 }
 
 innovation_wood_trolls = {	#For Kazgumhoth
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_early_medieval
 	region = middleearth_west_rhovanion_mirkwood
@@ -1198,6 +1219,7 @@ innovation_wood_trolls = {	#For Kazgumhoth
 }
 
 innovation_draconic_warriors = {	#For Grey Mountain orcs
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	region = middleearth_mountains_iron_greymountains
@@ -1214,6 +1236,7 @@ innovation_draconic_warriors = {	#For Grey Mountain orcs
 }
 
 innovation_shadow_arts = {	#For Deep-Walkers and Roof-Sleepers
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	region = special_region_innovation_deep_tactics
@@ -1230,6 +1253,7 @@ innovation_shadow_arts = {	#For Deep-Walkers and Roof-Sleepers
 }
 
 innovation_volcanic_metallurgy = {	#Yellow Mountain Orc decision reward
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @maa_01
@@ -1249,6 +1273,7 @@ innovation_volcanic_metallurgy = {	#Yellow Mountain Orc decision reward
 }
 
 innovation_yellow_mountain_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @maa_01
@@ -1269,6 +1294,7 @@ innovation_yellow_mountain_warfare = {
 }
 
 innovation_rukhashai_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_early_medieval
 	icon = @maa_01
@@ -1288,6 +1314,7 @@ innovation_rukhashai_warfare = {
 
 ### Haradrim ###
 innovation_haradrim_tradition = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @lotr_special_maa_haradrim
@@ -1311,6 +1338,7 @@ innovation_haradrim_tradition = {
 
 ### Tedjin ###
 innovation_tedjin_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -1328,6 +1356,7 @@ innovation_tedjin_warfare = {
 
 ### Ray ###
 innovation_rayan_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -1347,6 +1376,7 @@ innovation_rayan_warfare = {
 
 ### Tulwang ###
 innovation_tulwangi_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -1366,6 +1396,7 @@ innovation_tulwangi_warfare = {
 
 ### An-Balkumagan ###
 innovation_northern_adunai_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -1385,6 +1416,7 @@ innovation_northern_adunai_warfare = {
 }
 
 innovation_southern_adunai_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -1400,8 +1432,9 @@ innovation_southern_adunai_warfare = {
 }
 
 innovation_knights_of_kharadune_warfare = {
+	skill = martial
 	group = culture_group_regional
-	culture_era = culture_era_tribal
+	culture_era = culture_era_early_medieval
 	icon = @special_maa_01
 
 	potential = {
@@ -1439,6 +1472,7 @@ innovation_knights_of_kharadune_warfare = {
 
 #Eastern Adunai
 innovation_eastern_adunai_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -1455,25 +1489,16 @@ innovation_eastern_adunai_warfare = {
 
 ### Druedain ###
 innovation_druedain_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
 
 	potential = {
-		OR = {
-			this = culture:druedain
+		has_cultural_pillar = heritage_druedain
+		NOR = {
 			this = culture:chaialla
-			this = culture:yatali_gan
-			AND = {
-				this = culture:honnin
-				NOT = {
-					OR = { # Variag or Variag-descendant
-						this = culture:variag
-						any_parent_culture_or_above = { this = culture:variag }
-					}
-				}
-			}
-			
+			this = culture:beffraen
 		}
 	}
 
@@ -1484,6 +1509,7 @@ innovation_druedain_warfare = {
 }
 
 innovation_honin_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -1498,6 +1524,7 @@ innovation_honin_warfare = {
 }
 
 innovation_beffraen_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -1515,6 +1542,7 @@ innovation_beffraen_warfare = {
 
 ### Vale and Woodmen ###
 innovation_valemen_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -1532,6 +1560,7 @@ innovation_valemen_warfare = {
 }
 
 innovation_woodmen_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -1551,6 +1580,7 @@ innovation_woodmen_warfare = {
 
 ### Rhun ###
 innovation_warriors_rhun = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -1580,6 +1610,7 @@ innovation_warriors_rhun = {
 
 ### Harshandatt ###
 innovation_harshandatt_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @lotr_special_maa_sirayn
@@ -1599,6 +1630,7 @@ innovation_harshandatt_warfare = {
 
 
 innovation_bulgan_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @lotr_special_maa_sirayn
@@ -1614,6 +1646,7 @@ innovation_bulgan_warfare = {
 }
 
 innovation_sirayni_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @lotr_special_maa_sirayn
@@ -1639,6 +1672,7 @@ innovation_sirayni_warfare = {
 }
 ### Khy ###
 innovation_anarikean_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @maa_02
@@ -1658,6 +1692,7 @@ innovation_anarikean_warfare = {
 }
 
 innovation_khyan_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -1676,6 +1711,7 @@ innovation_khyan_warfare = {
 ### Shayn ###
 
 innovation_lynerian_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -1696,6 +1732,7 @@ innovation_lynerian_warfare = {
 
 ### Dwarves ###
 innovation_longbeard_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @lotr_special_maa_longbeards
@@ -1718,6 +1755,7 @@ innovation_longbeard_warfare = {
 }
 
 innovation_firebeard_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @lotr_special_maa_firebeards
@@ -1739,6 +1777,7 @@ innovation_firebeard_warfare = {
 }
 
 innovation_broadbeam_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @lotr_special_maa_broadbeams
@@ -1759,6 +1798,7 @@ innovation_broadbeam_warfare = {
 }
 
 innovation_ironfist_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @lotr_special_maa_stiffbeards
@@ -1779,6 +1819,7 @@ innovation_ironfist_warfare = {
 }
 
 innovation_stiffbeard_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @lotr_special_maa_stiffbeards
@@ -1799,6 +1840,7 @@ innovation_stiffbeard_warfare = {
 }
 
 innovation_blacklock_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @lotr_special_maa_blacklocks
@@ -1820,6 +1862,7 @@ innovation_blacklock_warfare = {
 }
 
 innovation_stonefoot_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @lotr_special_maa_blacklocks
@@ -1841,6 +1884,7 @@ innovation_stonefoot_warfare = {
 
 ### Elves ###
 innovation_calaquendi_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -1864,6 +1908,7 @@ innovation_calaquendi_warfare = {
 }
 
 innovation_lomiquendi_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -1886,6 +1931,7 @@ innovation_lomiquendi_warfare = {
 }
 
 innovation_avarin_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -1906,6 +1952,7 @@ innovation_avarin_warfare = {
 
 ## Noldor ##
 innovation_noldor_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -1922,6 +1969,7 @@ innovation_noldor_warfare = {
 
 ## Sindar ##
 innovation_sindar_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -1937,6 +1985,7 @@ innovation_sindar_warfare = {
 
 ## Falathrim ##
 innovation_falathrim_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -1951,6 +2000,7 @@ innovation_falathrim_warfare = {
 }
 
 innovation_marchwardens_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -1970,6 +2020,7 @@ innovation_marchwardens_warfare = {
 
 ## Laiquendi ##
 innovation_laiquendi_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -1986,6 +2037,7 @@ innovation_laiquendi_warfare = {
 
 ## Sirrandrai ##
 innovation_sirrandrai_warfare = { 
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -2011,6 +2063,7 @@ innovation_sirrandrai_warfare = {
 
 ## Galadhrim ##
 innovation_galadhrim_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -2027,6 +2080,7 @@ innovation_galadhrim_warfare = {
 
 ## Lasgalendrim ##
 innovation_lasgalendrim_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -2044,6 +2098,7 @@ innovation_lasgalendrim_warfare = {
 
 ## Cuind ##
 innovation_cuind_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -2060,6 +2115,7 @@ innovation_cuind_warfare = {
 
 ## Kinn-lai ##
 innovation_kinnlai_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -2076,6 +2132,7 @@ innovation_kinnlai_warfare = {
 
 ## Penni ##
 innovation_spirits_pact = { # Penni Specific, unlocking their spirits MAA
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -2092,6 +2149,7 @@ innovation_spirits_pact = { # Penni Specific, unlocking their spirits MAA
 
 ## Vanyar ##
 innovation_vanyar_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -2108,6 +2166,7 @@ innovation_vanyar_warfare = {
 
 ## Teleri ##
 innovation_teleri_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -2124,6 +2183,7 @@ innovation_teleri_warfare = {
 
 ## Greenwood ##
 innovation_armored_lasgalendrim_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_01
@@ -2152,6 +2212,7 @@ innovation_armored_lasgalendrim_warfare = {
 
 ## Mordorrim ##
 innovation_mordorrim_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02
@@ -2172,6 +2233,7 @@ innovation_mordorrim_warfare = {
 
 ### Nurnoth post liberation
 innovation_nurnoth_warfare = {
+	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @special_maa_02

@@ -23,7 +23,7 @@ character_view_bg = {
 
 	# Dead
 	texture = {
-		reference = "event_scenes/halls.dds"
+		reference = "event_scenes/lotr_halls.dds"
 		trigger = {
 			is_alive = no
 			OR = {
@@ -33,21 +33,21 @@ character_view_bg = {
 		}
 	}
 	texture = {
-		reference = "event_scenes/downfall.dds"
+		reference = "event_scenes/lotr_downfall.dds"
 		trigger = {
 			is_alive = no
 			death_reason = death_numenor_drowned
 		}
 	}
 	texture = {
-		reference = "event_scenes/volcanic_plains.dds"
+		reference = "event_scenes/lotr_volcanic_plains.dds"
 		trigger = {
 			is_alive = no
 			death_reason = death_sauron
 		}
 	}
 	texture = {
-		reference = "event_scenes/durins_door.dds"
+		reference = "event_scenes/lotr_durins_door.dds"
 		trigger = {
 			and = {
 				is_alive = no
@@ -94,7 +94,7 @@ character_view_bg = {
 	}
 	
 	texture = {
-		reference = "event_scenes/halls_mandos.dds"
+		reference = "event_scenes/lotr_halls_mandos.dds"
 		trigger = {
 			and = {
 				is_alive = no
@@ -7208,7 +7208,7 @@ character_view_bg = {
 
 	# Evil - Nazgul
 	texture = {
-		reference = "event_scenes/throneroom_evil.dds"
+		reference = "event_scenes/lotr_throneroom_evil.dds"
 
 		trigger = {
 			is_nazgul = yes
@@ -7484,7 +7484,7 @@ character_view_bg = {
 
 	# Evil, Goblins
 	texture = {
-		reference = "event_scenes/throneroom_goblins.dds"
+		reference = "event_scenes/lotr_throneroom_goblins.dds"
 
 		trigger = {
 			OR = {
@@ -7981,7 +7981,7 @@ character_view_bg = {
 
 	# Dúnedain, high rank
 	texture = {
-		reference = "event_scenes/throneroom_dunedain.dds"
+		reference = "event_scenes/lotr_throneroom_dunedain.dds"
 
 		trigger = {
 			OR = {
@@ -9214,7 +9214,7 @@ character_view_bg = {
 	# Sauruman / Orthanc Background
 
 	texture = {
-		reference = "event_scenes/throneroom_evil_istari.dds"
+		reference = "event_scenes/lotr_throneroom_evil_istari.dds"
 
 		trigger = {
 			OR = {
@@ -9292,7 +9292,7 @@ character_view_bg = {
 	# Sauron King / Empire Background
 
 	texture = {
-		reference = "event_scenes/throneroom_evil_maiar.dds"
+		reference = "event_scenes/lotr_throneroom_evil_maiar.dds"
 
 		trigger = {
 			OR = {
@@ -9380,7 +9380,7 @@ character_view_bg = {
 	# Evil - King / Emperor
 
 	texture = {
-		reference = "event_scenes/throneroom_evil_high.dds"
+		reference = "event_scenes/lotr_throneroom_evil_high.dds"
 
 		trigger = {
 			NOT = { is_orc = yes }
@@ -9689,7 +9689,7 @@ character_view_bg = {
 
 	# Elf, Lothlorien
 	texture = {
-		reference = "event_scenes/lorien_day.dds"
+		reference = "event_scenes/lotr_lorien_day.dds"
 
 		trigger = {
 			OR = {
@@ -9792,7 +9792,7 @@ character_view_bg = {
 
 	# Elf, Greenwood Generic
 	texture = {
-		reference = "event_scenes/throneroom_woodelf.dds"
+		reference = "event_scenes/lotr_throneroom_woodelf.dds"
 
 		trigger = {
 			OR = {
@@ -10297,7 +10297,7 @@ character_view_bg = {
 
 	# Elf, Greenwood Thranduil's Halls
 	texture = {
-		reference = "event_scenes/throneroom_thranduils_halls.dds"
+		reference = "event_scenes/lotr_throneroom_thranduils_halls.dds"
 
 		trigger = {
 			OR = {
@@ -10905,7 +10905,7 @@ character_view_bg = {
 	
 	# Hobbit
 	texture = {
-		reference = "event_scenes/throneroom_hobbit.dds"
+		reference = "event_scenes/lotr_throneroom_hobbit.dds"
 
 		trigger = {
 			OR = {
@@ -11243,7 +11243,7 @@ character_view_bg = {
 
 	# Dorwinion - King / Emperor
 	texture = {
-		reference = "event_scenes/throneroom_dorwinion.dds"
+		reference = "event_scenes/lotr_throneroom_dorwinion.dds"
 
 		trigger = {
 			OR = {
@@ -11480,7 +11480,7 @@ character_view_bg = {
 
 	# Easterling / Variag - Kingdom / Empire
 	texture = {
-		reference = "event_scenes/throneroom_easterling_imperial.dds"
+		reference = "event_scenes/lotr_throneroom_easterling_imperial.dds"
 
 		trigger = {
 			OR = {
@@ -11849,7 +11849,7 @@ character_view_bg = {
 	# Hadorrim, High Rank
 
 	texture = {
-		reference = "event_scenes/throneroom_rohirrim.dds"
+		reference = "event_scenes/lotr_throneroom_rohirrim.dds"
 
 		trigger = {
 			OR = {
@@ -12498,7 +12498,7 @@ character_view_bg = {
 	# Lossoth
 	# Elf, Lothlorien Generic
 	texture = {
-		reference = "event_scenes/throneroom_forodwaith.dds"
+		reference = "event_scenes/lotr_throneroom_forodwaith.dds"
 
 		trigger = {
 			OR = {
@@ -16315,7 +16315,7 @@ lotr_bountig_contract_illustrations = {
 		}
 	}
 	texture = { #Dol Amroth
-		reference = "event_scenes/dol_amroth.dds"
+		reference = "event_scenes/lotr_dol_amroth.dds"
 		trigger = {
 			trigger_if = {
 				limit = { has_variable = target_province }
@@ -16325,7 +16325,7 @@ lotr_bountig_contract_illustrations = {
 		}
 	}
 	texture = { #Pelargir/Serelond/Hyarpende
-		reference = "event_scenes/docks_dunedain.dds"
+		reference = "event_scenes/lotr_docks_dunedain.dds"
 		trigger = {
 			trigger_if = {
 				limit = { has_variable = target_province }
@@ -16339,7 +16339,7 @@ lotr_bountig_contract_illustrations = {
 		}
 	}
 	texture = { #Linhir
-		reference = "event_scenes/market_dunedain.dds"
+		reference = "event_scenes/lotr_market_dunedain.dds"
 		trigger = {
 			trigger_if = {
 				limit = { has_variable = target_province }
@@ -16349,7 +16349,7 @@ lotr_bountig_contract_illustrations = {
 		}
 	}
 	texture = { #Cair Andros
-		reference = "event_scenes/river.dds"
+		reference = "event_scenes/lotr_river.dds"
 		trigger = {
 			trigger_if = {
 				limit = { has_variable = target_province }
@@ -16359,7 +16359,7 @@ lotr_bountig_contract_illustrations = {
 		}
 	}
 	texture = { #Edhellond
-		reference = "event_scenes/fornost.dds"
+		reference = "event_scenes/lotr_fornost.dds"
 		trigger = {
 			trigger_if = {
 				limit = { has_variable = target_province }
@@ -16381,19 +16381,19 @@ lotr_bountig_contract_illustrations = {
 
 	### Umbar Contracts ###
 	texture = {
-		reference = "event_scenes/docks_adunai.dds"
+		reference = "event_scenes/lotr_docks_adunai.dds"
 		trigger = { has_variable = umbar_contract }
 	}
 
 	### Mirlond Contract ###
 	texture = {
-	    reference = "event_scenes/docks_adunai.dds"
+	    reference = "event_scenes/lotr_docks_adunai.dds"
 	    trigger = { has_variable = mirlond_contract }
 	}
 
 	### Harfalas Contract ###
 	texture = {
-	    reference = "event_scenes/docks_dunedain.dds"
+	    reference = "event_scenes/lotr_docks_dunedain.dds"
 	    trigger = { has_variable = harfalas_contract }
 	}
 	
@@ -16411,7 +16411,7 @@ lotr_bountig_contract_illustrations = {
 
 	### Tolfalas Contract ###
 	texture = {
-	    reference = "event_scenes/black_ship.dds"
+	    reference = "event_scenes/lotr_black_ship.dds"
 	    trigger = { has_variable = tolfalas_contract }
 	}
 	
@@ -16423,7 +16423,7 @@ lotr_bountig_contract_illustrations = {
 	
 	### Mission: Fornost ###
 	texture = {
-	    reference = "event_scenes/fornost.dds"
+	    reference = "event_scenes/lotr_fornost.dds"
 	    trigger = { has_variable = fornost_contract }
 	}
 
@@ -16441,13 +16441,13 @@ lotr_bountig_contract_illustrations = {
 	
 	### Mission: Ettenmoors ###
 	texture = {
-	    reference = "event_scenes/ettenmoors.dds"
+	    reference = "event_scenes/lotr_ettenmoors.dds"
 	    trigger = { has_variable = ettenmoors_contract }
 	}
 	
 	### Mission: Gundabad ###
 	texture = {
-	    reference = "event_scenes/dwarven_gate.dds"
+	    reference = "event_scenes/lotr_dwarven_gate.dds"
 	    trigger = { has_variable = gundabad_contract }
 	}
 	

@@ -1194,6 +1194,15 @@ e_haradrim_viceroy = {
 	capital = c_amrun
 }
 
+e_apysan_empire = {
+	color = { 12 77 111 }
+	destroy_if_invalid_heir = yes
+	de_jure_drift_disabled = no
+	always_follows_primary_heir = yes
+	ignore_titularity_for_title_weighting = yes
+	capital = c_ovatharak
+}
+
 ### Bellakar ###
 
 k_izindizanda_eruhinim = {	
@@ -1585,20 +1594,20 @@ k_eredrim = {
 ### Easterlings of Rhun ###
 
 e_golden_realm_rhun = { # The Golden Realm of Medlóshûkain
-	color = { 151 49 9 }
+	color = { 150 80 9 }
 	de_jure_drift_disabled = no
 	always_follows_primary_heir = yes
 	capital = c_mistrand # Capital is transient and moves with who is elected, but Mistrand is probably the best fit
 }
 
 k_grand_alliance = {
-	color = { 151 49 9 }
+	color = { 150 80 9 }
 	destroy_on_succession = yes
 	capital = c_mistrand
 }
 
-k_dragon_knights = { # The Military Order of the Dragon-Knights, the most zealous soldiers of the loke-kan
-	color = { 100 30 0}
+k_dragon_knights = { # The Military Order of the Dragon-Knights, the most zealous soldiers of the Loke-kan
+	color = { 100 30 0 }
 	#landless = yes
 	destroy_if_invalid_heir = yes
 	de_jure_drift_disabled = no
@@ -2110,7 +2119,7 @@ d_sanctum_of_the_maimaki = {
 #### Admin Gondor Titles ####
 
 d_nf_anarion = { # Anarioni
-	color = { 38 27 60}
+	color = { 38 27 60 }
 	capital = c_minas_tirith
 
 	definite_form = yes

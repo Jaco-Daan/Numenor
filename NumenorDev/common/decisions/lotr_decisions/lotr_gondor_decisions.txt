@@ -246,11 +246,15 @@ decision_claim_gondor_kingship = { # Allows native Gondorians to restore the Kin
 		has_title = title:e_gondor_steward
 		trigger_if = { # Hidden if fulfilled, to make it less crowded
 			limit = {
-				NOT = {
+				NOR = {
 					government_has_flag = government_is_feudal
+					government_has_flag = government_is_administrative
 				}
 			}
-			government_has_flag = government_is_feudal
+			OR = {
+				government_has_flag = government_is_feudal
+				government_has_flag = government_is_administrative
+			}
 		}
 		trigger_if = { # Hidden if fulfilled, to make it less crowded
 			limit = {
@@ -1393,7 +1397,7 @@ decision_search_orthanc = {
 	confirm_text = decision_search_orthanc_confirm
 
 	is_shown = {
-		current_year >= 7000
+		game_start_date >= 6884.1.1
 		culture = { has_cultural_pillar = heritage_dunedain }
 		is_landed = yes
 		OR = {
@@ -1810,7 +1814,7 @@ decision_invite_elves_edhellond = {
 
 decision_elevate_edhellond = { # Aragorn decides to elevate Edhellond into a kingdom/sanctuary type thing for the elves
 	picture = {
-		reference = "gfx/interface/illustrations/event_scenes/armenelos.dds"
+		reference = "gfx/interface/illustrations/event_scenes/lotr_armenelos.dds"
 	}
 	title = decision_elevate_edhellond
 	selection_tooltip = decision_elevate_edhellond_tooltip
