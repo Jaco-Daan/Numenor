@@ -2,7 +2,7 @@
 # History database id:lineofciryamir30
 bookmark_numenor_gimilzagar={
 	type=male
-	id=61155
+	id=64456
 	random_seed=1692378579
 	age=0.446277
 	genes={ 		hair_color={ 204 132 75 110 }
@@ -97,9 +97,9 @@ bookmark_numenor_gimilzagar={
  		expression_other={ "cheek_wrinkles_both_01" 100 "cheek_wrinkles_both_01" 65 }
  		complexion={ "complexion_10" 215 "complexion_10" 215 }
  		gene_height={ "normal_height" 170 "normal_height" 170 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 87 "body_fat_head_fat_full" 105 }
- 		gene_bs_body_shape={ "body_shape_triangle_half" 141 "body_shape_triangle_half" 51 }
- 		gene_bs_bust={ "bust_clothes" 168 "bust_shape_2_full" 210 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 125 "body_fat_head_fat_full" 105 }
+ 		gene_bs_body_shape={ "body_shape_triangle_half" 146 "body_shape_triangle_half" 51 }
+ 		gene_bs_bust={ "bust_clothes" 88 "bust_shape_2_full" 110 }
  		gene_age={ "old_beauty_2" 224 "old_beauty_2" 224 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 198 "avg_spacing_lower_thickness" 198 }
  		gene_eyebrows_fullness={ "layer_2_low_thickness" 155 "layer_2_low_thickness" 155 }
