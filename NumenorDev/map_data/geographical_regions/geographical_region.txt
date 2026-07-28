@@ -4303,6 +4303,44 @@ middearth_sailing = {
 		c_maros
 		c_nilo
 		c_umbar
+		# Numenor Submod
+		c_armenelos
+		c_romenna
+		c_formenore
+		c_hyarnumen
+		c_tauredor
+		c_opele_ancalimonva
+		c_adorothe
+		c_aruwanai
+		c_cemendor
+		c_nindamos
+		c_tarminas
+		c_edrahil
+		c_erelonde
+		c_zorakhator
+		c_nurmir
+		c_hazdore
+		c_zagrar
+		c_zimraopele
+		c_kharazor
+		c_farahil
+		c_nisinna
+		c_eldalonde
+		c_erest
+		c_maltenost
+		c_oromet
+		c_andunie
+		c_meryare
+		c_vlarion
+		c_arialome
+		c_belizerbeth
+		c_forduinem
+		c_sorontil
+		c_herundal
+		c_elrova
+		c_anariova
+		c_elorna
+		c_ciryalonde
 
 		#Major Rivers
 		c_rinnavod
