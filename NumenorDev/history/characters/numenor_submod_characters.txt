@@ -1151,6 +1151,10 @@ lineofelros127 = {
 		add_spouse = lineofarialome20a1
 	}
 
+	7033.1.1 = {
+		employer = lineofelros133
+	}
+
 	7070.6.18 = {
 		death = { death_reason = death_natural_causes }
 	}
@@ -2921,7 +2925,7 @@ lineofvardur13 = {
 		birth = yes
 	}
 
-	3011.1.1 = {
+	4011.1.1 = {
 		employer = lineofmornionath16
 	}
 
