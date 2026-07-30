@@ -5,7 +5,7 @@
 		0 = learning
 		1 = western
 		2 = adunaim3support.dds
-		4 = adunaim5.dds
+		4 = adunaimfinal.dds
 	}
 
 	is_shown = {
@@ -56,7 +56,7 @@ tradition_elennahin_pride = { #Elennahín traditions
 		0 = diplo
 		1 = mediterranean
 		2 = adunaim3support.dds
-		4 = adunaim5.dds
+		4 = adunaimfinal.dds
 	}
 
 	is_shown = {
