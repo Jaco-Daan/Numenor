@@ -6800,7 +6800,7 @@ ruxoalendil26 = {
             }
 			vassal_contract_set_obligation_level = {
 				type = feudal_government_taxes
-				level = 1
+				level = 3
 			}
 			vassal_contract_set_obligation_level = {
 				type = feudal_government_levies
