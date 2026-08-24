@@ -52,6 +52,7 @@
 
 	can_start_showing_failures_only = { # Done
 		is_available_adult = yes
+		lotr_activity_health_trigger = yes
 		custom_tooltip = {
 			text = sailing_variable_trigger
 			NOT = { has_variable = sailing_type_cooldown }
@@ -64,7 +65,6 @@
 			is_imprisoned = no
 			is_playable_character = yes
 			NOT = { is_incapable = yes }
-
 		}
 	}
 
@@ -1076,7 +1076,7 @@
 
 	ai_province_filter = geographical_region
 	province_filter = geographical_region
-	province_filter_target = middearth_sailing
+	province_filter_target = middleearth_sailing
 
 	province_description = { # Done
 		desc = activity_sailing_province_desc
@@ -1924,8 +1924,7 @@
 					custom_tooltip = {
 						text = SAILING_RAID_ENABLED
 						OR = {
-							culture = { has_cultural_tradition = tradition_corsairs_of_umbar }
-							culture = { has_cultural_tradition = tradition_seafaring }
+							culture = { has_cultural_parameter = can_use_maritime_raid }
 							faith = { has_doctrine = tenet_corsairs }
 							has_trait = lifestyle_hunter
 						}
@@ -2060,7 +2059,6 @@
 						PRICE = root.sailing_big_ship_cost
 					}
 				}
-
 				cost = {
 					gold = {
 						add = {
@@ -2119,6 +2117,15 @@
 								desc = sailing_guests_few_amount
 							}
 						}
+						if = {
+							limit = {
+								has_perk = journey_planner_perk
+							}
+							multiply = {
+								value = voyager_journey_planner_value
+								desc = journey_planner_perk_name
+							}
+						}
 					}
 				}
 				travel_entourage_selection = {
@@ -2165,6 +2172,15 @@
 							add = {
 								value = medium_gold_value
 								desc = sailing_guests_many_amount
+							}
+						}
+						if = {
+							limit = {
+								has_perk = journey_planner_perk
+							}
+							multiply = {
+								value = voyager_journey_planner_value
+								desc = journey_planner_perk_name
 							}
 						}
 					}
@@ -2314,6 +2330,7 @@
 		is_lotr_adult = yes
 		is_ai = yes # Rework at a later time so players can participate in AI sailings
 		NOT = { has_trait = incapable }
+		lotr_activity_health_trigger = yes
 		lotr_can_be_activity_guest = yes
 	}
 
@@ -2776,7 +2793,7 @@
 	}
 	background = { #hills, winter
 		trigger = {
-			location ?= {
+			scope:host.location = {
 				graphical_hills_trigger = yes
 				has_winter_trigger = yes
 			}

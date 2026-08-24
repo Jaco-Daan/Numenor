@@ -3801,7 +3801,15 @@ adventure_dwarvenlands = {
 	}
 }
 
-middearth_sailing = {
+middleearth_sailing = {
+	regions = {
+		middleearth_coastal_counties
+		middleearth_rivers
+		numenor_sailing
+	}
+}
+
+middleearth_coastal_counties = {
 	counties = {
 		c_sarakad
 		c_pagakad
@@ -4341,7 +4349,11 @@ middearth_sailing = {
 		c_anariova
 		c_elorna
 		c_ciryalonde
+	}
+}
 
+middleearth_rivers = {
+	counties = {
 		#Major Rivers
 		c_rinnavod
 		c_eldrast
@@ -4412,6 +4424,90 @@ middearth_sailing = {
 		c_northundeep
 		c_southundeep
 		c_tirith_anduin
+		c_menost
+		c_kethimi
+		c_tharven
+		c_foropende
+		c_athrad_hingren
+		c_harnen
+		c_rhunteg
+		c_oud_ilaz
+		c_amrun
+		c_nardukhad
+		c_nithagasag
+		c_argon
+		c_abarrim
+		c_anacalimon
+		c_celebiant
+		c_suaya
+		c_pellamra
+		c_astalas
+		c_khori
+		c_khith
+		c_esmer
+		c_qhan_vuzo
+		c_simza
+		c_nariyar
+		c_ramadi
+		c_baisa
+		c_alodish
+		c_mifar
+		c_yezo
+		c_harsarat
+		c_samigal
+		c_tayadish
+		c_imari
+		c_tayarak
+		c_yozin
+		c_salako
+		c_omutano
+		c_kwawiri
+		c_rusekak
+		c_rusal
+		c_tega
+		c_sajok_pul
+		c_rubu
+		c_siska
+		c_ntose_nsi
+		c_siru
+		c_muru
+		c_oskanda
+		c_amudak
+		c_amaru
+		c_mpero_arunji
+		c_ntose
+		c_nulakad
+		c_ulhekak
+		c_gokand
+		c_malhedas
+		c_orun
+		c_carnesra
+		c_turak
+		c_rask
+		c_rintark
+		c_farun
+		c_bal
+		c_kirmar
+		c_kirm
+		c_ayn
+		c_darnaphys
+		c_pyashar
+		c_ghalazar
+		c_sharuneth
+		c_murghyr
+		c_shyurathar
+		c_naerphys
+		c_esyarath
+		c_tarvishar
+		c_ahvaz
+		c_shalmara
+		c_zarinusha
+		c_chajapun
+		c_rasht
+
+		#None River/Coastal
+		c_kheledul
+		c_celairnen
 	}
 	duchies = {
 		#Major Rivers
@@ -4422,6 +4518,8 @@ middearth_sailing = {
 		d_emyn_muil
 	}
 }
+
+numenor_sailing = {} # For Numenor Submod compatching purposes, don't remove
 
 middleearth_coastline = {
 	regions = {

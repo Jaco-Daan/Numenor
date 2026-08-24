@@ -87,10 +87,15 @@ sailing.0800 = {
 	}
 	after = {
 		if = {
-			limit = { involved_activity.activity_location = { geographical_region = middleearth_rhun } }
+			limit = { 
+				OR = {
+					involved_activity.activity_location = { geographical_region = middleearth_rhun } 
+					involved_activity.activity_location = { geographical_region = middleearth_west_rhovanion_dorwinion } 
+				}
+			}
 			add_character_flag = {
 				flag = sailing_inland_sea
-				days = 50
+				days = 100
 			}
 		}
 	}
@@ -457,6 +462,7 @@ sailing.1005 = {
 		name = sailing.1005.a
 		trigger = {
 			can_set_relation_lover_trigger = { CHARACTER = scope:hooker }
+			NOT = { has_trait_with_flag = can_not_marry }
 		}
 		set_relation_lover = scope:hooker
 		had_sex_with_effect = {
@@ -1836,8 +1842,7 @@ sailing.1990 = {
 		trigger = {
 			scope:activity = { has_activity_option = { category = special_type option = sailing_type_raid } }
 			OR = {
-				culture = { has_cultural_tradition = tradition_corsairs_of_umbar }
-				culture = { has_cultural_tradition = tradition_seafaring }
+				culture = { has_cultural_parameter = can_use_maritime_raid }
 				faith = { has_doctrine = tenet_corsairs }
 			}
 		}
@@ -16174,7 +16179,7 @@ sailing.8233 = { # Ost-in-Edhil - Crebain
 		name = sailing.8233.a
 		duel = {
 			skill = prowess
-			value = medium_skill_rating
+			value = very_high_skill_rating
 			50 = {
 				compare_modifier = {
 					value = scope:duel_value
@@ -16185,7 +16190,21 @@ sailing.8233 = { # Ost-in-Edhil - Crebain
 				send_interface_toast = {
 					left_icon = ROOT
 					title = sailing.8233.toast.a.success
-					add_trait = adventurer
+					if = {
+						limit = { 
+							has_dlc_feature = wandering_nobles
+							NOT = { has_trait = lifestyle_wayfarer }
+						}
+						add_trait = lifestyle_wayfarer
+					}
+					else = {
+						add_trait = lifestyle_traveler
+						add_trait_xp = {
+							trait = lifestyle_traveler
+							track = danger
+							value = 25
+						}
+					}
 					trigger_event = {
 						id = sailing.8234
 						days = 15
@@ -19579,7 +19598,7 @@ sailing.9110 = {
 		random_province = {
 			limit = {
 				is_coastal = yes
-				scope:host = { in_diplomatic_range = this.county.holder }
+				county.holder = { in_diplomatic_range = scope:host }
 				NOR = {
 					culture = root.location.culture
 					culture = root.culture
@@ -19614,7 +19633,7 @@ sailing.9110 = {
 		random_province = {
 			limit = {
 				is_coastal = yes
-				scope:host = { in_diplomatic_range = this.county.holder }
+				county.holder = { in_diplomatic_range = scope:host }
 				NOR = {
 					this = scope:piracy_destination_1
 					culture = root.location.culture
@@ -19650,7 +19669,7 @@ sailing.9110 = {
 		random_province = {
 			limit = {
 				is_coastal = yes
-				scope:host = { in_diplomatic_range = this.county.holder }
+				county.holder = { in_diplomatic_range = scope:host }
 				NOR = {
 					this = scope:piracy_destination_1
 					this = scope:piracy_destination_2

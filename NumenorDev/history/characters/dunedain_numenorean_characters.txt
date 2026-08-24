@@ -44,6 +44,8 @@ lineofelros1 = { # Elros, First Ruler of Numenor
 	trait = just
 	trait = compassionate
 
+	trait = lotr_disinherited_historical_character
+
 	diplomacy = 13
 	martial = 11
 	stewardship = 12
@@ -532,6 +534,8 @@ lineofelros14 = {
 	trait = born_on_numenor
 	trait = blood_of_numenor_10
 
+	trait = lotr_disinherited_historical_character
+
 	2392.1.1 = {
 		birth = yes
 	}
@@ -781,7 +785,7 @@ lineofelros22 = {
 		birth = yes
 	}
 
-	3150.1.1 = {
+	3450.1.1 = {
 		give_nickname = nick_jewel_gatherer
 		effect = {
 			add_character_flag = {
@@ -32376,12 +32380,13 @@ sakalgovernor31 = {
 	5037.1.1 = {
 		birth = yes
 	}
-	5132.1.1 = {
+	5128.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
-sakalgovernor32 = {
-	name = Zornaga
+sakalgovernor31a = {
+	name = Beke_e_leg
+	female = yes
 
 	dynasty = dynasty_mixedsakaltwo
 	religion = faith_chelkar
@@ -32389,9 +32394,43 @@ sakalgovernor32 = {
 
 	father = sakalgovernor31
 
+	5070.1.1 = {
+		birth = yes
+	}
+	5122.1.1 = {
+		death = { death_reason = death_ill }
+	}
+}
+sakalgovernor32 = { # Founder of Second Dynasty
+	name = Zornaga
+
+	dynasty = dynasty_mixedsakaltwo
+	religion = faith_chelkar
+	culture = sakalai
+
+	mother = sakalgovernor31a
+
 	trait = bastard_founder
 
 	5106.1.1 = {
+		birth = yes
+	}
+	5169.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+sakalgovernor32a = {
+	name = Tabu
+
+	dynasty = dynasty_mixedsakaltwo
+	religion = faith_chelkar
+	culture = sakalai
+
+	father = sakalgovernor32
+
+	trait = bastard_founder
+
+	5129.1.1 = {
 		birth = yes
 	}
 	5198.1.1 = {
@@ -32405,12 +32444,12 @@ sakalgovernor33 = {
 	religion = faith_chelkar
 	culture = sakalai
 
-	father = sakalgovernor32
+	father = sakalgovernor32a
 
-	5148.1.1 = {
+	5166.1.1 = {
 		birth = yes
 	}
-	5237.1.1 = {
+	5240.1.1 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
@@ -32446,6 +32485,22 @@ sakalgovernor35 = {
 		death = { death_reason = death_natural_causes }
 	}
 }
+sakalgovernor35a = {
+	name = Zhora_a_n
+
+	dynasty = dynasty_mixedsakaltwo
+	religion = faith_chelkar
+	culture = sakalai
+
+	father = sakalgovernor35
+
+	5270.1.1 = {
+		birth = yes
+	}
+	5328.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
 sakalgovernor36 = {
 	name = Kazimira
 
@@ -32453,7 +32508,7 @@ sakalgovernor36 = {
 	religion = faith_chelkar
 	culture = sakalai
 
-	father = sakalgovernor35
+	father = sakalgovernor35a
 
 	5304.1.1 = {
 		birth = yes
