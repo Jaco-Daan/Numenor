@@ -20263,6 +20263,7 @@ linegimilkhali4 = {
 linegimilkhali5 = {
 	name = Pharaza_a_ri
 	religion = faith_kings_men_numenorean
+	female = yes
 	culture = adunaic
 	
 	father = linegimilkhali3
