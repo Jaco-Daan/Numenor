@@ -683,32 +683,212 @@ lineofelros114 = { # Tar-Tindomiel, The Diligent Queen, spent so much of her tim
 }
 
 lineofelros115 = {
-	name = Balkumaga_a_n # Fifty-second Ruler of Numenor
-
+	name = Ciryatan # Fifty-second Ruler of Numenor
 	dynasty = dynasty_elros
-	religion = faith_kings_men_numenorean
+	religion = faith_numenorean
 	culture = adunaic
 
 	mother = lineofelros114
 
 	trait = paranoid
-	trait = fickle
+	trait = sadistic
 	trait = cynical
 
 	trait = education_learning_1
 	trait = lunatic_genetic
-	trait = sorcerer_1
 	trait = blood_of_numenor_7
 
 	6186.11.6 = {
 		birth = yes
 	}
-
+	6245.7.3 = {
+		add_spouse = lineofazrubensubmod23sister
+	}
+	6321.4.21 = { # The Decree of the King, the ways of old return
+		religion = faith_kings_men_numenorean
+		name = Balkumaga_a_n
+		trait = sorcerer_1
+	}
 	6363.5.7 = {
 		death = { death_reason = death_battle }
 	}
 }
+lineofazrubensubmod23sister = {
+	name = Zimraphe_e_l
+	dynasty = dynasty_azulhin
+	female = yes
+	religion = faith_dairaben
+	culture = adunaic
 
+	father = lineofazrubensubmod22
+
+	trait = blood_of_numenor_7
+
+	6114.1.1 = {
+		birth = yes
+	}
+	6321.4.21 = {
+		religion = faith_kings_men_numenorean
+	}
+	6335.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofelros115son1 = {
+	name = Telemnar
+	dynasty = dynasty_elros
+	religion = faith_numenorean
+	culture = adunaic	
+	
+	father = lineofelros115
+	mother = lineofazrubensubmod23sister
+	
+	trait = brave
+	trait = strong
+	trait = deceitful
+	trait = fickle
+	trait = blood_of_numenor_7
+	
+	6248.3.9 = {
+		birth = yes
+	}
+	6321.4.21 = {
+		religion = faith_kings_men_numenorean
+		name = Gimilzo_o_r
+	}
+	6358.11.14 = {
+		death = { death_reason = death_battle }
+	}
+}
+lineofazrubensubmod23sister2 = {
+	name = Phara_a_zindil
+	dynasty = dynasty_azulhin
+	female = yes
+	religion = faith_dairaben
+	culture = adunaic
+
+	father = lineofazrubensubmod22
+
+	trait = blood_of_numenor_7
+	trait = fornicator
+	trait = lustful
+	trait = incestuous
+
+	6128.1.1 = {
+		birth = yes
+	}
+	6321.4.21 = {
+		religion = faith_kings_men_numenorean
+	}
+	6335.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+lineofelros115son2 = {
+	name = Anardil
+	dynasty = dynasty_elros
+	religion = faith_numenorean
+	culture = adunaic	
+	
+	father = lineofelros115
+	mother = lineofazrubensubmod23sister
+	
+	trait = lunatic_genetic
+	trait = lustful
+	trait = rakish
+	trait = lazy
+	trait = wrathful
+	trait = blood_of_numenor_7
+	trait = drunkard
+	
+	6260.5.24 = {
+		birth = yes
+	}
+	6321.4.21 = {
+		religion = faith_kings_men_numenorean
+		name = Tamruzi_i_r
+	}
+	6360.12.6 = {
+		death = { death_reason = death_drinking_passive }
+	}
+}
+
+
+# Great Bastards of Anardil 'The Drunkard' #
+
+lineofelros115son3 = {
+	name = Sakalba_a_r
+	dynasty = dynasty_elros
+	religion = faith_kings_men_numenorean
+	culture = adunaic	
+	
+	father = lineofelros115son2
+	mother = lineofazrubensubmod23sister2
+	
+	trait = inbred
+	trait = intellect_bad_3
+	trait = blood_of_numenor_6
+	trait = bastard
+	trait = denounced
+	trait = wrathful
+	trait = sadistic
+	trait = gluttonous
+
+	6324.1.3 = {
+		birth = yes
+	}
+	6345.8.26 = {
+		death = { death_reason = death_inbred }
+	}
+}
+lineofelros115son4 = {
+	name = Pharazo_o_n
+	dynasty = dynasty_elros
+	religion = faith_kings_men_numenorean
+	culture = adunaic	
+	
+	father = lineofelros115son2
+	mother = lineofazrubensubmod23sister2
+	
+	trait = inbred
+	trait = physique_bad_2
+	trait = blood_of_numenor_6
+	trait = bastard
+	trait = denounced
+	trait = lustful
+	trait = brave
+	trait = ambitious
+
+	6329.7.22 = {
+		birth = yes
+	}
+	6361.5.6 = {
+		death = { death_reason = death_battle }
+	}
+}
+lineofelros115son5 = {
+	name = Gimilkhali_i_
+	dynasty = dynasty_elros
+	female = yes
+	religion = faith_kings_men_numenorean
+	culture = adunaic	
+	
+	father = lineofelros115son2
+	
+	trait = beauty_good_2
+	trait = blood_of_numenor_6
+	trait = bastard
+	trait = diligent
+	trait = brave
+	trait = sadistic
+
+	6337.2.18 = {
+		birth = yes
+	}
+	6363.5.7 = {
+		death = { death_reason = death_execution }
+	}
+}
 lineofelros116 = { # Tar-Ancalimon 'The Great', defeated his brother in the civil war
 	name = Ancalimon # Fifty-third Ruler of Numenor
 
@@ -721,6 +901,7 @@ lineofelros116 = { # Tar-Ancalimon 'The Great', defeated his brother in the civi
 	trait = just
 	trait = diligent
 	trait = brave
+	trait = shrewd
 
 	trait = education_martial_3
 	trait = scholar
@@ -19984,5 +20165,119 @@ linesorontiljewel3a1com3 = { # Slave from An-Balkumagan
 
 	3940.6.20 = { # He lives to see the Ruxoalendil take over Forostar
 		death = { death_reason = death_natural_causes }
+	}
+}
+
+## Line of Gimilkhali ## LOWBORN ON PURPOSE!!!!!!!!
+linegimilkhali1 = {
+	name = Balkumaga_a_n # Named after Gimilkhali's Grandfather
+	religion = faith_kings_men_numenorean
+	culture = adunaic	
+	
+	trait = bastard
+	trait = brave
+	trait = strong
+	trait = cynical
+	trait = adventurer
+	trait = gallowsbait
+	
+	trait = blood_of_numenor_6
+	
+	6362.9.24 = {
+		birth = yes
+		effect = {
+			set_real_mother = character:lineofelros115son5
+		}
+	}
+	6411.5.2 = {
+        death = { death_reason = death_accident }
+    }
+}
+linegimilkhali2 = {
+	name = Gimilzagar
+	religion = faith_kings_men_numenorean
+	culture = adunaic
+	
+	father = linegimilkhali1
+	
+	trait = wild_oat
+	trait = ambitious
+	trait = adventurer
+	trait = fickle
+	trait = brave
+	trait = lifestyle_mariner
+	
+	trait = blood_of_numenor_6
+	
+	6396.4.12 = {
+		birth = yes
+	}
+	6594.3.18 = {
+		death = { death_reason = death_drowned }
+	}
+}
+linegimilkhali3 = {
+	name = Azrukho_o_r
+	religion = faith_kings_men_numenorean
+	culture = adunaic
+	
+	father = linegimilkhali2
+	
+	trait = wild_oat
+	trait = lustful
+	trait = adventurer
+	trait = lazy
+	trait = contrite
+	trait = weak
+	
+	trait = blood_of_numenor_6
+	
+	6582.12.6 = {
+		birth = yes
+	}
+	6782.3.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+linegimilkhali4 = {
+	name = Pharaztho_o_n
+	religion = faith_kings_men_numenorean
+	culture = adunaic
+	
+	father = linegimilkhali3
+	
+	trait = wild_oat
+	trait = adventurer
+	trait = gallowsbait
+	trait = gallivanter
+	
+	trait = blood_of_numenor_6
+	
+	6774.10.16 = {
+		birth = yes
+	}
+	6831.6.29 = {
+		death = { death_reason = death_execution }
+	}
+}
+linegimilkhali5 = {
+	name = Pharaza_a_ri
+	religion = faith_kings_men_numenorean
+	culture = adunaic
+	
+	father = linegimilkhali3
+	
+	trait = wild_oat
+	trait = adventurer_follower
+	trait = beauty_good_3
+	trait = seducer
+	
+	trait = blood_of_numenor_6
+	
+	6778.1.3 = {
+		birth = yes
+	}
+	6831.6.29 = {
+		death = { death_reason = death_execution }
 	}
 }
