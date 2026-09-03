@@ -19,3 +19,34 @@
 		holder = 0
 	}
 }
+
+d_laamp_the_kings_men = {
+	6478.1.1 = {
+		liege = 0
+		holder = linegimilkhali1
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = { destroy_title = prev }
+			}
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	6411.5.2 = {
+		holder = linegimilkhali2
+	}
+	6594.3.18 = {
+		holder = linegimilkhali3
+	}
+	6782.3.18 = {
+		holder = linegimilkhali4 
+	}
+	6831.6.29 = {
+		holder = 0
+	}
+}

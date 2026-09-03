@@ -16,3 +16,45 @@ d_laamp_the_girls = { # Oi Ue
 
 	ai_primary_priority = { add = @never_primary_score }
 }
+
+d_laamp_the_kings_men = {
+	color = { 100 100 100 }
+	capital = c_armenelos
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_laamp_the_guardians_of_belfalas = {
+	color = { 100 100 100 }
+	capital = c_dol_amroth
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_laamp_the_rightful_line = {
+	color = { 100 100 100 }
+	capital = c_armenelos
+
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
