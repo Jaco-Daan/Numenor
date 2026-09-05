@@ -281,6 +281,9 @@
 ## LAAMP TITLES
  d_laamp_the_girls: "Girls"
  d_laamp_the_girls_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
- d_laamp_the_kings_men: "The King's Men"
+ d_laamp_the_kings_men: "King's Men"
+ d_laamp_the_kings_men_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
  d_laamp_the_guardians_of_belfalas: "Guardians of Belfalas"
- d_laamp_the_rightful_line: "The Rightful Line"
+ d_laamp_the_guardians_of_belfalas_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_laamp_the_rightful_line: "Rightful Line"
+ d_laamp_the_rightful_line_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
